@@ -2,7 +2,7 @@
 
 This repository contains notes related to the Open Web Advocacy website.
 
-The Open Web Advocacy website resides at [https://open-web-advocacy.org](open-web-advocacy.org).
+The Open Web Advocacy website resides at [open-web-advocacy.org](https://open-web-advocacy.org).
 
 ## Contributing
 

@@ -6,6 +6,22 @@ The Open Web Advocacy website resides at [open-web-advocacy.org](https://open-we
 
 This website is based on [hankchizljaw's](https://github.com/hankchizljaw) [11ty-base](https://github.com/hankchizljaw/11ty-base) project.
 
+## Getting Started
+
+This site is built using Eleventy and stores its main text content in markdown.
+
+To set up this project, first install the required dependencies:
+
+    npm install
+
+Next, run the project locally:
+
+    npm start
+
+To build the production version of this site, use:
+
+    npm run production
+
 ## Contributing
 
 This repository is open to contributions from all of those involved with the Open Web Advocacy initiative or who have suggestions on how to improve the website.

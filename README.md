@@ -1,8 +1,10 @@
 # Open Web Advocacy Website
 
-This repository contains notes related to the Open Web Advocacy website.
+This repository contains the source code for and notes related to the Open Web Advocacy website.
 
 The Open Web Advocacy website resides at [open-web-advocacy.org](https://open-web-advocacy.org).
+
+This website is based on [hankchizljaw's](https://github.com/hankchizljaw) [11ty-base](https://github.com/hankchizljaw/11ty-base) project.
 
 ## Contributing
 
@@ -15,3 +17,4 @@ For discussions on ideas and issues that you would like to document as part of t
 ### Join the Discord
 
 If you would like to learn more about the work we do or get involved yourself, join the [Open Web Advocacy Discord community](https://discord.gg/x53hkqrRKx).
+

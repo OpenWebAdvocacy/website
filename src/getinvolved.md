@@ -4,9 +4,11 @@ metaDesc: 'Learn how to get involved with Open Web Advocacy's efforts.'
 layout: 'layouts/page.njk'
 ---
 
-Open Web Advocacy is actively looking for people who can help us build the future of the web.
+Join us in advocating for the open web. There are many ways you can help, from contacting legislators and regulators to helping collect and document evidence of anti-competitive behavior.
 
-Specifically, we are looking for people with any or all of the following:
+Unlike groups who operate on behalf of major organizations, we are unbacked, unfunded and rely on individuals to contribute their time and expertise. If you believe in the future of the web, you can help make that future a reality. 
+
+Specifically, we are looking for people with any of the following:
 
 1. A strong passion for an open web
 2. Experience working with web technologies

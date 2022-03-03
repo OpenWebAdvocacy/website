@@ -3,6 +3,18 @@
     {
       "text": "Home",
       "url": "/"
+    },
+    {
+      "text": "Our Work",
+      "url": "/policy/"
+    },
+    {
+      "text": "Press",
+      "url": "/press/"
+    },
+    {
+      "text": "Get Involved",
+      "url": "/get-involved/"
     }
   ]
 }

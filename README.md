@@ -33,4 +33,3 @@ For discussions on ideas and issues that you would like to document as part of t
 ### Join the Discord
 
 If you would like to learn more about the work we do or get involved yourself, join the [Open Web Advocacy Discord community](https://discord.gg/x53hkqrRKx).
-

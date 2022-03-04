@@ -2,19 +2,21 @@
 
 {% block content %}
   <article>
-    <div class="[ post ] [ flow wrapper ]">
-      <h1>{{ title }}</h1>
-      <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+    <div class="[ post ] [ flow wrapper ] h-entry">
+      <h1 class="p-name">{{ title }}</h1>
+      <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
       {% if tags %}
         <ul class="tags-list" aria-label="Tags">
           {% for tag in tags %}
             <li>
-              <a href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', '') | capitalize }}</a>
+              <a href="/tag/{{ tag | slug }}/" class="p-category">#{{ tag | replace(' ', '') | capitalize }}</a>
             </li>
           {% endfor %}
         </ul>
       {% endif %}
-      {{ content | safe }}
+      <div class="e-content">
+        {{ content | safe }}
+      </div>
     </div>
   </article>
 {% endblock %}

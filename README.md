@@ -8,7 +8,7 @@ This website is based on [hankchizljaw's](https://github.com/hankchizljaw) [11ty
 
 ## Getting Started
 
-This site is built using Eleventy and stores its main text content in markdown.
+This site is built using Eleventy and stores its main text content in markdown. [Git LFS](https://git-lfs.github.com/) is used for managing media content within the repository.
 
 To set up this project, first install the required dependencies:
 

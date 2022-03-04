@@ -1,5 +1,6 @@
 ---
 title: 'Get Involved'
+permalink: '/get-involved/'
 metaDesc: "Learn how to get involved with Open Web Advocacy's efforts."
 layout: 'layouts/page.njk'
 ---

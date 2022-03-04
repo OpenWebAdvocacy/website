@@ -1,7 +1,7 @@
 ---
 title: 'Bringing Competition to Walled Gardens'
-date: '2021-04-22'
-tags: ['Policy']
+permalink: '/walled-gardens-report/'
+layout: 'layouts/page.njk'
 ---
 
 Third Party Browsers & Web Apps - VERSION 1.0

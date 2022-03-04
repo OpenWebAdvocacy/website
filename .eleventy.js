@@ -22,8 +22,7 @@ module.exports = config => {
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
 
-  // Pass through fonts and images
-  config.addPassthroughCopy('./src/fonts');
+  // Pass through images
   config.addPassthroughCopy('./src/images');
 
   return {

@@ -12,7 +12,7 @@ This site is built using Eleventy and stores its main text content in markdown. 
 
 To set up this project, first install the required dependencies:
 
-    npm install
+    npm ci
 
 Next, run the project locally:
 
@@ -24,9 +24,7 @@ To build the production version of this site, use:
 
 ## Contributing
 
-This repository is open to contributions from all of those involved with the Open Web Advocacy initiative or who have suggestions on how to improve the website.
-
-To contribute to code or an existing note in this repository, first create a fork and then make a change on your fork. Next, create a pull request that contains your changes to a document. Your pull request will be reviewed by a project maintainer and then merged into the main repository.
+This repository is open to contributions from all of those involved with the Open Web Advocacy initiative or who have suggestions on how to improve the website.  You can read more in the projects [contributing documentation](./github/CONTRIBUTING.md)
 
 For discussions on ideas and issues that you would like to document as part of this repository, please file a GitHub Issue.
 

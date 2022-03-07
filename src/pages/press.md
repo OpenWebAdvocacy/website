@@ -1,7 +1,7 @@
 ---
 title: 'Press'
 permalink: '/press/'
-metaDesc: 'Don’t forget the meta desc Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.'
+metaDesc: 'Links to press coverage for Open Web Advocacy and its initiatives.'
 layout: 'layouts/page.njk'
 ---
 

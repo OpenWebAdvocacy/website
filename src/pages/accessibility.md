@@ -1,6 +1,7 @@
 ---
 title: 'Accessibility'
 permalink: '/accessibility/'
+metaDesc: 'Learn about the accessibility of the Open Web Advocacy website.'
 layout: 'layouts/page.njk'
 ---
 

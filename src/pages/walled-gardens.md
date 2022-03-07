@@ -2,6 +2,7 @@
 title: 'Bringing Competition to Walled Gardens'
 permalink: '/walled-gardens-report/'
 layout: 'layouts/page.njk'
+metaDesc: 'The full Bringing Competition to Walled Gardens report, published by Open Web Advocacy.'
 ---
 
 Third Party Browsers & Web Apps - VERSION 1.0

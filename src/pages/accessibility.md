@@ -1,5 +1,6 @@
 ---
-title: 'About'
+title: 'Accessibility'
+permalink: '/accessibility/'
 layout: 'layouts/page.njk'
 ---
 

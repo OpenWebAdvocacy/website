@@ -1,5 +1,9 @@
 ---
 title: 'Get Involved'
+<<<<<<< HEAD:src/getinvolved.md
+=======
+permalink: '/get-involved/'
+>>>>>>> 7462d9e8b9143e11ea2d7166a71d2109defd0c7c:src/pages/getinvolved.md
 metaDesc: "Learn how to get involved with Open Web Advocacy's efforts."
 layout: 'layouts/page.njk'
 ---

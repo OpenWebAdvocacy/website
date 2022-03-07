@@ -1,5 +1,5 @@
 {
-  "items": [
+  "primary": [
     {
       "text": "Home",
       "url": "/"
@@ -14,11 +14,21 @@
     },
     {
       "text": "Walled Gardens Report",
-      "url": "/blog/walled-gardens/"
+      "url": "/walled-gardens-report/"
     },
     {
       "text": "Get Involved",
       "url": "/get-involved/"
+    }
+  ],
+  "secondary": [
+    {
+      "text": "Privacy",
+      "url": "/privacy/"
+    },
+    {
+      "text": "Accessibility",
+      "url": "/accessibility"
     }
   ]
 }

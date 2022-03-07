@@ -7,9 +7,12 @@
     "start": "eleventy --serve --quiet",
     "production": "NODE_ENV=production eleventy"
   },
+  "engines": {
+    "node": ">=16.14.0"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-cache-assets": "^2.3.0",

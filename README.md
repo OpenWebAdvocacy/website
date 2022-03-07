@@ -1,6 +1,3 @@
-# WARNING - OLD (but still current) Website
-
-Our main github account is here: https://github.com/OpenWebAdvocacy
 # Open Web Advocacy Website
 
 This repository contains the source code for and notes related to the Open Web Advocacy website.

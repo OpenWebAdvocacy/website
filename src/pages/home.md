@@ -9,9 +9,9 @@ layout: 'layouts/home.njk'
 OWA (Open Web Advocacy) is a group of software engineers from all over the world who have come together to advocate for the future of the open web by providing regulators, legislators and policy makers the intricate technical details that they need to understand the major anti-competitive issues in our industry and how to solve them.
 
 ## What is at stake?
-The entire future of Application Development is at stake. Without regulatory or legislative change, we risk losing a universal, free and open, write once, deploy anywhere, application distribution and deployment system which will dramatically lower costs for businesses and consumers. 
+The entire future of Application Development is at stake. Without regulatory or legislative change, we risk losing a universal, free and open, write once, deploy anywhere, application distribution and deployment system which will dramatically lower costs for businesses and consumers.
 
-Without these changes, funding will shift to proprietary ecosystems and gatekeepers can extract heavy taxes. It will lock in their control and reduce innovation for mobile apps for many years to come. 
+Without these changes, funding will shift to proprietary ecosystems and gatekeepers can extract heavy taxes. It will lock in their control and reduce innovation for mobile apps for many years to come.
 
 ## Where do we start?
 
@@ -20,25 +20,25 @@ As an ad hoc group of web developers, we became convinced that the __[#AppleBrow
 
 We wrote our Regulatory Submission __[“Bringing Competition to Walled Gardens”](/walled-gardens-report/)__ as part of this investigation.
 
-> “there is no competition in browser engines on iOS and Apple effectively dictates the features that browsers on iOS can offer”
+> There is no competition in browser engines on iOS and Apple effectively dictates the features that browsers on iOS can offer
 >
-> <cite>[UK Competition and Markets Authority](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report/interim-report#:~:text=Impact%20of%20the%20WebKit%20restriction)</cite>
+> <cite>&mdash; [UK Competition and Markets Authority](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report/interim-report#:~:text=Impact%20of%20the%20WebKit%20restriction)</cite>
 
 ## Our top three priorities
 
 ### [#AppleBrowserBan](https://twitter.com/search?q=%23AppleBrowserBan&amp;f=live)
 __Apple's ban of third party browsers__ on iOS is deeply anti-competitive, starves the Safari/WebKit team of funding and has stalled innovation for the past 10 years and prevented Web Apps from taking off on mobile.
 
-### Deep System Integration 
+### Deep System Integration
 __Web Apps need to become just Apps.__ Apps built with the free and open web need equal treatment and integration. Closed and heavily taxed proprietary ecosystems should not receive any preference.
-        
+
 ### Web App Equality
 __All artifical barriers placed by gatekeepers must be removed.__ Web Apps if allowed can offer equivalent functionality with greater privacy and security for demanding use-cases.
-        
+
 
 ## How can you help?
 
-We need you to contact your regulators / legislators / representatives and galvanize support for change in your jurisdiction. 
+We need you to contact your regulators / legislators / representatives and galvanize support for change in your jurisdiction.
 
 Chat to us on [Discord](https://discord.gg/x53hkqrRKx), [Twitter](https://twitter.com/OpenWebAdvocacy) or send us an [email](mailto:contactus@open-web-advocacy.org) and we’ll help you get started!
 

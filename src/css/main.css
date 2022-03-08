@@ -1,0 +1,328 @@
+/* --------------------------------------------------------------------
+    OPEN WEB ADVOCACY
+    Main style-sheet
+    2022
+-------------------------------------------------------------------- */
+
+/* INDEX
+- RESET
+- GLOBALS
+- STRUCTURE
+- HEADER
+- FOOTER
+- NAVIGATION
+- ARTICLE
+- MEDIA QUERIES
+*/
+
+@import "vars.css";
+
+/* ------------------------------ RESET ---------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, big, cite, code,
+del, dfn, em, form, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header, footer, main, nav, aside, article, section, figure, figcaption {
+  display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* ---------------------- GLOBALS ------------------------ */
+
+body {
+  color: var(--body-text);
+	 background: var(--body-bg);
+  font: 100%/1.5 var(--stack);
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  max-width: 35ch;
+}
+
+h1 {
+	font-size: calc(2em + 2vw);
+	color: var(--main-color);
+	background: var(--body-bg);
+	margin-bottom: calc(1em + 1vw);
+}
+
+h2 {
+  font-size: calc(1.5rem + 1vw);
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+/* More info: https://piccalil.li/quick-tip/limit-line-lengths-to-increase-readability/ */
+p,
+li,
+dl {
+  max-width: 70ch;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: minmax(auto, 20ch) 1fr;
+  grid-gap: 0.5rem 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+li + li {
+  margin-top: 0.7rem;
+}
+
+blockquote {
+	--flow-space: 3rem;
+	position: relative;
+  max-width: 25em;
+  max-width: 40ch;
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.55;
+  padding-left: 3.5rem;
+	margin-bottom: var(--flow-space);
+}
+blockquote p:last-of-type {
+	font-size: 80%;
+	margin-top: 0.8em;
+}
+
+blockquote::before {
+	position: absolute;
+	width: 1em;
+	top: -0.15em;
+	left: 0;
+	content: "\201F";
+	font: 7rem Arial, Helvetica, sans-serif;
+	color: var(--main-color);
+	background-color: rgba(255,255,255,0);
+}
+
+code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+pre {
+  padding: 1.25rem;
+  background: #e4e6ec;
+  max-width: 90ch;
+}
+
+pre code {
+  display: block;
+  width: 100%;
+  word-spacing: normal;
+  word-break: normal;
+  tab-size: 2;
+  hyphens: none;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Links and focus states */
+a {
+  color: currentColor;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+:focus {
+  outline: 2px dashed currentColor;
+  outline-offset: 0.15rem;
+}
+
+img {max-width: 100%; border: none;}
+
+/* Handy utils */
+.wrapper {
+  max-width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* More info: https://piccalil.li/quick-tip/flow-css-utility/ */
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
+/* A handy composition block for managing content flow. More on this sorta thing: https://cube.fyi */
+.post {
+  font-size: 1.125rem;
+  --flow-space: 1.8rem;
+}
+
+.post h2,
+.post h3,
+.post footer {
+  --flow-space: 3rem;
+}
+
+.post h1 + *,
+.post h2 + *,
+.post h3 + * {
+  --flow-space: 1rem;
+}
+
+
+/* ---------------------- STRUCTURE ------------------------ */
+
+main:focus {outline: none;}
+
+/* ---------------------- HEADER ------------------------ */
+
+body > header {
+  color: var(--text-inv);
+  background-color: var(--main-color);
+	padding-top: 1rem;
+  margin-bottom: calc(2vw + 1rem);
+}
+
+.site-header__brand {
+  display: block;
+	position: relative;
+	bottom: -10px;
+  width: 30%;
+  max-width: 200px;
+}
+
+
+/* ---------------------- FOOTER ------------------------ */
+
+body > footer ul {
+	display: flex;
+	gap: 1rem;
+	margin-bottom: 4rem;
+	border-top: 5px solid var(--main-color);
+}
+
+main +  hr {display: none;}
+
+body > footer li + li {margin-top: 0; margin-left: 0.25em;}
+body > footer li {
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+body > footer li:first-of-type {list-style-type: none;}
+
+
+/* ---------------------- NAVIGATION ------------------------ */
+
+.skiplink {
+	font-size: 0.85em;
+	text-align: center;
+}
+
+	.skiplink a {
+		display: block;
+		position: absolute;
+		overflow: hidden;
+		left: -10000px;
+		top: auto;
+		width: 1px;
+		height: 1px;
+	}
+	.skiplink a:focus {position: static; width: auto; height: auto;}
+
+header nav {
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: var(--text-inv);
+	background: var(--n-dark);
+	padding: 0.5rem 1rem;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+	list-style-type: none;
+}
+
+header nav ul li {margin: 0.25rem;}
+
+header nav ul li + li {margin-top:  0.25rem;}
+
+header nav a {
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--text-inv);
+	background: var(--n-dark);
+}
+
+header nav a:hover {
+	color: var(--main-sat);
+	background: var(--n-dark);
+}
+
+/* ------------------------  ARTICLES ---------------------------- */
+
+article ul,article ol  {
+	margin: 2rem 1rem;
+}
+
+ul.press-list [lang="fr"]::before {
+	content: "FR";
+}
+
+
+/* ------------------------------ MEDIA QUERIES ---------------------------- */
+
+@media screen and (min-width: 500px) {
+	header nav {
+		position: absolute;
+		top: 1vw;
+		bottom: auto;
+		right: 0;
+		left: auto;
+		width: 50%;
+		text-align: right;
+		color: var(--text-inv);
+		background: transparent;
+	}
+	header nav ul {
+		display: block;
+	}
+
+	header nav li {font-size: 1.2em;}
+
+	header nav a {
+		color: var(--text-inv);
+		background: var(--main-color);
+	}
+
+	header nav a:hover {
+		color: var(--n-dark);
+		background: var(--main-color);
+	}
+
+	body > footer ul {
+		margin-top: 4rem;
+		margin-bottom: 1rem;
+	}
+}

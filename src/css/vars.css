@@ -1,0 +1,19 @@
+/* --------------------------------------------------------------------
+    OPEN WEB ADVOCACY
+    Custom Properties
+    2022
+-------------------------------------------------------------------- */
+
+:root {
+
+  --stack: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --body-text: #333;
+  --body-bg: #FFF;
+  --text-inv: #FFF;
+  --main-color: #CD4C1D;
+  --main-dark: #9A3513;
+  --main-sat: #F95D24;
+  --highlight-color: #007A78;
+  --n-dark: #333;
+}

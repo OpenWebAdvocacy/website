@@ -25,6 +25,9 @@ module.exports = config => {
   // Pass through images
   config.addPassthroughCopy('./src/images');
 
+  // Pass through css
+  config.addPassthroughCopy('./src/css');
+
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',

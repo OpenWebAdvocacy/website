@@ -1,8 +1,8 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-  <article>
-    <div class="[ post ] [ flow wrapper ] h-entry">
+  <article class="h-entry">
+    <div class="[ post ] [ flow wrapper ]">
       <h1 class="p-name">{{ title }}</h1>
       <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
       {% if tags %}

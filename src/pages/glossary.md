@@ -1,6 +1,6 @@
 ---
 title: 'Glossary'
-permalink: '/glossary'
+permalink: '/glossary/'
 metaDesc: "Learn language used in Open Web Advocacy's efforts."
 layout: 'layouts/page.njk'
 ---

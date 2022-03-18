@@ -1,0 +1,23 @@
+<p class="skiplink">
+  <a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
+</p>
+<header role="banner" class="home-header">
+  <div class="identity">
+    <p class="logo-home">
+      <img src="/images/owa-home-logo.svg" alt="" aria-hidden="true" />
+    </p>
+    <h1>{{ title }}</h1>
+  </div>
+  <nav id="main-navigation"
+    class="[ nav ] [ site-header__nav ]"
+    aria-label="Primary navigaton">
+    <ul class="nav__list">
+      {% for item in navigation.primary %}
+      <li>
+        <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+        {{ item.text }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

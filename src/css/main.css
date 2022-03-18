@@ -48,8 +48,11 @@ body {
 }
 
 h1, h2, h3 {
+	max-width: 35ch;
+	font-variation-settings: var(--fvs-black);
   line-height: 1.2;
-  max-width: 35ch;
+	letter-spacing: -0.02em;
+	text-transform: lowercase;
 }
 
 h1 {
@@ -68,9 +71,7 @@ h3 {
 }
 
 /* More info: https://piccalil.li/quick-tip/limit-line-lengths-to-increase-readability/ */
-p,
-li,
-dl {
+p, li, dl {
   max-width: 70ch;
 }
 
@@ -152,6 +153,8 @@ a:hover {
   outline-offset: 0.15rem;
 }
 
+strong {font-variation-settings: var(--fvs-bold);}
+
 img {max-width: 100%; border: none;}
 
 /* Handy utils */
@@ -191,9 +194,16 @@ img {max-width: 100%; border: none;}
 
 main:focus {outline: none;}
 
+aside {
+	background-color: var(--n-light);
+	padding: 1.5rem;
+}
+	aside ul, aside ol {margin: 1rem;}
+
+
 /* ---------------------- HEADER ------------------------ */
 
-body > header {
+header.site-header {
   color: var(--text-inv);
   background-color: var(--main-color);
 	padding-top: 1rem;
@@ -211,22 +221,32 @@ body > header {
 
 /* ---------------------- FOOTER ------------------------ */
 
+body > footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 body > footer ul {
 	display: flex;
-	gap: 1rem;
-	margin-bottom: 4rem;
-	border-top: 5px solid var(--main-color);
+	gap: 1em;
+	list-style-type: none;
+	margin-bottom: 2rem;
 }
 
-main +  hr {display: none;}
+hr {display: none;}
 
 body > footer li + li {margin-top: 0; margin-left: 0.25em;}
+body > footer li:not(:last-child)::after {
+	content: "/ ";
+}
+
 body > footer li {
 	font-size: 0.9em;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
-body > footer li:first-of-type {list-style-type: none;}
 
+p.copyright {font-variation-settings: var(--fvs-black);}
 
 /* ---------------------- NAVIGATION ------------------------ */
 
@@ -248,81 +268,200 @@ body > footer li:first-of-type {list-style-type: none;}
 
 header nav {
 	box-sizing: border-box;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	color: var(--text-inv);
-	background: var(--n-dark);
 	padding: 0.5rem 1rem;
 }
 
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0 1rem;
 	list-style-type: none;
 }
 
-header nav ul li {margin: 0.25rem;}
+header nav ul li {
+	max-width: 100%;
+	margin: 0.25rem;
+}
 
 header nav ul li + li {margin-top:  0.25rem;}
 
 header nav a {
 	font-weight: bold;
 	text-decoration: none;
+	color: var(--main-sat);
+	background: var(--body-bg);
+}
+
+header nav a:hover {
 	color: var(--text-inv);
 	background: var(--n-dark);
 }
 
-header nav a:hover {
-	color: var(--main-sat);
-	background: var(--n-dark);
+/* ------------------------  HOME ---------------------------- */
+
+header.home-header {
+	position: static;
+	width: 90%;
+	max-width: 1400px;
+	padding: 5vw 0 1rem;
+	margin: 0 auto;
 }
+
+	header.home-header nav {
+		position: static;
+	}
+
+	header.home-header h1 {
+		max-width: 4em;
+		font-size: calc(1.2em + 2vw);
+		font-size: clamp(1.2rem, 5vw, 3.5rem);;
+		line-height: 1;
+		text-transform: lowercase;
+		font-variation-settings: var(--fvs-black);
+		margin-bottom: -0.1em;
+	}
+
+div.identity {
+  display: flex;
+	align-items: flex-end;
+  gap: 10vw;
+	margin-bottom: 1rem;
+}
+
+p.logo-home {
+	flex: 0 1 auto;
+	min-width: 65px;
+	max-width: 100px;
+}
+
+	p.logo-home img {vertical-align: bottom;}
+
+div.home-wrapper {
+	width: 90%;
+	max-width: 1400px;
+	margin: 4vw auto;
+
+	--flow-space: 2rem;
+}
+
+div.home-wrapper * + * {
+	margin-top: var(--flow-space);
+}
+
+div.home-wrapper p {
+	--flow-space: 0.8em;
+}
+
+p.home-intro {
+	max-width: 27em;
+	font-size: 1.2em;
+	font-variation-settings: "wght" 500;
+	margin: 5% 5% 3rem;
+}
+
+div.highlight {
+	color: var(--text-inv);
+	background-color: var(--main-color);
+	padding: 1.1rem 1.5rem 1.5rem;
+}
+
+div.highlight p + p {margin-top: 0.8em;}
+
+div.priorities-entry {
+	background-color: var(--main-light);
+	padding: 1.1rem 1.5rem 1.5rem;
+}
+
+div.who-entry {
+	background-color: var(--n-light);
+	padding: 1.1rem 1.5rem 1.5rem;
+}
+
+div.policy-entry, div.contact-entry {
+	padding: 0 1.5rem;
+}
+
+
+
+/* ------------------------  LINKS/LISTS ---------------------------- */
+
+
+dl.counter {
+	display: block;
+	counter-reset: counter;
+}
+
+dl.counter dt {
+	position: relative;
+	font-size: 1.2em;
+	font-variation-settings: var(--fvs-black);
+	padding-top: 1em;
+	padding-left: 4rem;
+}
+
+dl.counter dt::before {
+	display: inline-block;
+	position: absolute;
+	width: 1.5em;
+	height: 1.5em;
+	top: 0.2em;
+	left: 0;
+	font: 2rem/1.5em var(--stack);
+	font-variation-settings: var(--fvs-black);
+	content: counter(counter);
+	counter-increment: counter;
+	text-align: center;
+	color: var(--text-inv);
+	background-color: var(--main-color);
+	border-radius: 100%;
+}
+dl.counter dd {
+	--flow-space: 1em;
+	padding-left: 4rem;
+}
+
+ul.contact-links {--flow-space: 1.5em;}
+	ul.contact-links li {
+		list-style-type: none;
+		--flow-space: 0.5em;
+	}
+
+p.entry-link {
+	margin-top: 1.5em;
+	font-variation-settings: var(--fvs-black);
+	text-transform: lowercase;
+}
+
+	p.entry-link a {
+		display: inline-block;
+		text-decoration: none;
+		color: var(--text-inv);
+		background-color: var(--n-dark);
+		padding: 0.4em 2.5em 0.6em 1.2em;
+		border-radius: 2em;
+	}
+	p.entry-link a::after {
+		display: inline-block;
+		position: relative;
+		top: 0.1em;
+		left: 1.5em;
+		content: "";
+		width: 0.8em;
+		height: 0.8em;
+		background-color: var(--text-inv);
+		border-radius: 0.8em;
+	}
+	p.entry-link a:hover::after {
+		background-color: var(--main-color);
+	}
+
 
 /* ------------------------  ARTICLES ---------------------------- */
 
-article ul,article ol  {
+article ul, article ol  {
 	margin: 2rem 1rem;
 }
 
 ul.press-list [lang="fr"]::before {
 	content: "FR";
-}
-
-
-/* ------------------------------ MEDIA QUERIES ---------------------------- */
-
-@media screen and (min-width: 500px) {
-	header nav {
-		position: absolute;
-		top: 1vw;
-		bottom: auto;
-		right: 0;
-		left: auto;
-		width: 50%;
-		text-align: right;
-		color: var(--text-inv);
-		background: transparent;
-	}
-	header nav ul {
-		display: block;
-	}
-
-	header nav li {font-size: 1.2em;}
-
-	header nav a {
-		color: var(--text-inv);
-		background: var(--main-color);
-	}
-
-	header nav a:hover {
-		color: var(--n-dark);
-		background: var(--main-color);
-	}
-
-	body > footer ul {
-		margin-top: 4rem;
-		margin-bottom: 1rem;
-	}
 }

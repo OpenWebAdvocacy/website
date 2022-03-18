@@ -1,0 +1,120 @@
+/* --------------------------------------------------------------------
+    OPEN WEB ADVOCACY
+    Media queries
+    2022
+-------------------------------------------------------------------- */
+
+@media screen and (min-width: 500px) {
+	header:not(.home-header) nav {
+		position: absolute;
+		top: 1vw;
+		bottom: auto;
+		right: 0;
+		left: auto;
+		width: 50%;
+		text-align: right;
+		color: var(--text-inv);
+		background: transparent;
+	}
+	header:not(.home-header) nav ul {
+		display: block;
+	}
+
+	header nav li {font-size: 1.2em;}
+
+	header:not(.home-header) nav a {
+		color: var(--text-inv);
+		background-color: var(--main-color);
+	}
+
+	header:not(.home-header) nav a:hover {
+		color: var(--n-dark);
+		background-color: var(--main-color);
+	}
+
+	header.home-header nav {text-align: right;}
+
+	body > footer {
+		margin-top: 4rem;
+		margin-bottom: 1rem;
+	}
+}
+
+
+@media screen and (min-width: 700px) {
+	p.logo-home {max-width: 100%;}
+}
+
+@media screen and (min-width: 1000px) {
+	header.home-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	header nav ul {display: block;}
+	header.home-header nav {
+		width: auto;
+		background-color: var(--body-bg);
+		padding: 0;
+	}
+	header.home-header li {font-variation-settings: var(--fvs-regular);}
+	header.home-header nav a {
+		color: var(--main-color);
+		background-color: var(--body-bg);
+	}
+
+	header.home-header nav a:hover {
+		color: var(--text-inv);
+		background-color: var(--n-dark);
+	}
+	div.identity {flex: 1;}
+
+	p.home-intro {margin-left: calc(175px + 10vw);}
+}
+
+
+@media screen and (min-width: 1300px) {
+	div.home-wrapper {display: flex;}
+	p.home-intro {margin-top: 0;}
+
+	#main-home {flex: 1;}
+	#main-home p, #main-home dd, #main-home li {font-size: 1.2em;}
+	dl.counter dt {font-size: 1.5em; padding-top: 0.5em;}
+
+	aside {flex: 0 0 20%; margin: 0;}
+	div.home-wrapper aside {margin: 0;}
+
+	div.get-involved {
+		display: flex;
+		gap: 2rem;
+	}
+	div.get-involved > div {padding: 1.8rem 2rem 2rem;}
+	div.contact-entry {flex-basis: 45%; margin-top: 0;}
+
+	div.highlight {position: relative; padding: 1.8rem 2rem 2rem;}
+	div.highlight h2 {
+		position: absolute;
+		width: 10vw;
+		top: 1.2rem;
+		left: 2rem;
+	}
+	div.highlight div.group {
+		margin-top: 0;
+		margin-left: calc(10vw + 175px - 1.5rem);
+	}
+
+	div.presentation {
+		display: flex;
+		gap: 2rem;
+		margin-top: 0;
+	}
+
+	div.presentation > div {padding: 3rem 2rem 2rem;}
+	div.priorities-entry {
+		flex-basis: 60%;
+		margin-top: 0;
+		margin-right: 2rem;
+	}
+	div.policy-entry {flex: 1 1 32%;}
+
+}

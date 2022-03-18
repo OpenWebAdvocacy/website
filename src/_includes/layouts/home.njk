@@ -1,11 +1,12 @@
 {% extends "layouts/base.njk" %}
 
-{% block content %}
-    <article class="h-entry [ post ] [ flow wrapper ]">
-        <h1 class="p-title">{{ title }}</h1>
+{% block homecontent %}
+  <div class="home-wrapper">
+    <main tabindex="-1" id="main-home">
         {{ content | safe }}
         {% set postListItems = collections.blog %}
-        {% include "partials/post-list.njk" %}
-    </article>
+    </main>
+    {% include "partials/aside.njk" %}
+  </div>
 
 {% endblock %}

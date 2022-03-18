@@ -25,14 +25,23 @@
         <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
   </head>
   <body>
-    {% include "partials/site-header.njk" %}
+    {% if isHome %}
+      {% include "partials/home-header.njk" %}
+    {% else %}
+      {% include "partials/site-header.njk" %}
+    {% endif %}
 
-    <main tabindex="-1" id="main-content">
-      {% block content %}{% endblock %}
-    </main>
+    {% if isHome %}
+      {% block homecontent %}{% endblock %}
+    {% else %}
+      <main tabindex="-1" id="main-content">
+        {% block content %}{% endblock %}
+      </main>
+    {% endif %}
 
     {% include "partials/site-footer.njk" %}
   </body>

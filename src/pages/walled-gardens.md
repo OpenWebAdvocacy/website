@@ -79,19 +79,19 @@ For those who would like to help or join us in fighting for a free and open futu
   <tr>
    <td>Email
    </td>
-   <td>[contactus@open-web-advocacy.org]("mailto:contactus@open-web-advocacy.org)
+   <td><a href="mailto:contactus@open-web-advocacy.org">contactus@open-web-advocacy.org</a>
    </td>
   </tr>
   <tr>
    <td>Twitter
    </td>
-   <td>[@OpenWebAdvocacy](https://twitter.com/OpenWebAdvocacy)
+   <td><a href="https://twitter.com/OpenWebAdvocacy">@OpenWebAdvocacy</a>
    </td>
   </tr>
   <tr>
    <td>Web
    </td>
-   <td>[https://open-web-advocacy.org]("http://open-web-advocacy.org)
+   <td><a href="http://open-web-advocacy.org">https://open-web-advocacy.org</a>
    </td>
   </tr>
 </table>

@@ -28,6 +28,8 @@ This repository is open to contributions from all of those involved with the Ope
 
 For discussions on ideas and issues that you would like to document as part of this repository, please file a GitHub Issue.
 
+Hosting for this site is managed by Netlify and can be accessed at [https://cool-elf-8eb15a.netlify.app/](https://cool-elf-8eb15a.netlify.app/) until DNS is changed.  Additionally, when submitting PRs, Netlify Deploy Previews will be run, with a preview link available within the _Checks_ section of the PR page.
+
 ### Join the Discord
 
 If you would like to learn more about the work we do or get involved yourself, join the [Open Web Advocacy Discord community](https://discord.gg/x53hkqrRKx).

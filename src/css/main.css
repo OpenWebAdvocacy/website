@@ -170,11 +170,14 @@ img {max-width: 100%; border: none;}
 .flow > * + * {
   margin-top: var(--flow-space, 1em);
 }
+.flow > p + p {
+  margin-top: 0.8em;
+}
 
 /* A handy composition block for managing content flow. More on this sorta thing: https://cube.fyi */
 .post {
   font-size: 1.125rem;
-  --flow-space: 1.8rem;
+  --flow-space: 1.5rem;
 }
 
 .post h2,
@@ -200,6 +203,17 @@ aside {
 }
 	aside ul, aside ol {margin: 1rem;}
 
+/* Inner pages */
+main.inner {margin-bottom: 2rem;}
+
+div.inner-wrapper {
+	width: 90%;
+	max-width: 1200px;
+	margin: 4vw auto;
+	--flow-space: 2rem;
+}
+
+	div.inner-wrapper aside {max-width: 250px;}
 
 /* ---------------------- HEADER ------------------------ */
 
@@ -208,6 +222,12 @@ header.site-header {
   background-color: var(--main-color);
 	padding-top: 1rem;
   margin-bottom: calc(2vw + 1rem);
+}
+
+div.site-header__inner {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .site-header__brand {
@@ -225,6 +245,7 @@ body > footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	gap: 0 2rem;
 	width: 90%;
 	max-width: 1400px;
 	margin: 0 auto;
@@ -291,11 +312,14 @@ header nav ul li + li {margin-top:  0.25rem;}
 header nav a {
 	font-weight: bold;
 	text-decoration: none;
+}
+
+header.home-header nav a {
 	color: var(--main-sat);
 	background: var(--body-bg);
 }
 
-header nav a:hover {
+header.home-header nav a:hover {
 	color: var(--text-inv);
 	background: var(--n-dark);
 }
@@ -485,6 +509,40 @@ article ul, article ol  {
 	margin: 2rem 1rem;
 }
 
-ul.press-list [lang="fr"]::before {
-	content: "FR";
+ul.press-list {
+	list-style-type: none;
+	margin: 0;
 }
+
+	ul.press-list li {
+		display: flex;
+		gap: 1rem;
+	}
+
+	ul.press-list li::before {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex: 0 0 2em;
+		content: "EN";
+		width: 2em;
+		height: 2em;
+		font-variation-settings: var(--fvs-black);
+		text-align: center;
+		color: var(--text-inv);
+		background-color: var(--n-dark);
+		border-radius: 100%;
+	}
+
+	ul.press-list [lang="fr"]::before {
+		content: "FR";
+		background-color: #369;
+	}
+	ul.press-list [lang="de"]::before {
+		content: "DE";
+		background-color: #B26C03;
+	}
+	ul.press-list [lang="it"]::before {
+		content: "IT";
+		background-color: var(--highlight-color);
+	}

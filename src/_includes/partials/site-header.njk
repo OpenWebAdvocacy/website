@@ -2,23 +2,21 @@
   <a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
 </p>
 <header role="banner" class="site-header">
-  <div class="wrapper">
-    <div class="site-header__inner">
-      <a href="/" aria-label="{{ site.name }} - home" class="site-header__brand">
-        <img src="/images/owa-logo.svg" alt="Open Web Advocacy" class="logo" />
-      </a>
-      <nav id="main-navigation"
-        class="[ nav ] [ site-header__nav ]"
-        aria-label="Primary navigaton">
-        <ul class="nav__list">
-          {% for item in navigation.primary %}
-          <li>
-            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
-            {{ item.text }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </div>
+  <div class="site-header__inner">
+    <a href="/" aria-label="{{ site.name }} - home" class="site-header__brand">
+      <img src="/images/owa-logo.svg" alt="Open Web Advocacy" class="logo" />
+    </a>
+    <nav id="main-navigation"
+      class="[ nav ] [ site-header__nav ]"
+      aria-label="Primary navigaton">
+      <ul class="nav__list">
+        {% for item in navigation.primary %}
+        <li>
+          <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+          {{ item.text }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
   </div>
 </header>

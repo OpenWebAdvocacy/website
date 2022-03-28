@@ -4,22 +4,21 @@
     2022
 -------------------------------------------------------------------- */
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
+	div.site-header__inner {
+		display: flex;
+		justify-content: space-between;
+	}
 	header:not(.home-header) nav {
-		position: absolute;
-		top: 1vw;
-		bottom: auto;
-		right: 0;
-		left: auto;
-		width: 50%;
 		text-align: right;
-		color: var(--text-inv);
-		background: transparent;
+		padding: 0;
 	}
 	header:not(.home-header) nav ul {
 		display: block;
 	}
+}
 
+@media screen and (min-width: 500px) {
 	header nav li {font-size: 1.2em;}
 
 	header:not(.home-header) nav a {
@@ -70,6 +69,12 @@
 	div.identity {flex: 1;}
 
 	p.home-intro {margin-left: calc(175px + 10vw);}
+
+	div.inner-wrapper {
+		display: flex;
+		justify-content: space-between;
+		gap: 4vw;
+	}
 }
 
 

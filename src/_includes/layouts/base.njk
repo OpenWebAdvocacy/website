@@ -38,9 +38,13 @@
     {% if isHome %}
       {% block homecontent %}{% endblock %}
     {% else %}
-      <main tabindex="-1" id="main-content">
-        {% block content %}{% endblock %}
-      </main>
+      <div class="inner-wrapper">
+        <main tabindex="-1" id="main-content" class="inner">
+          {% block content %}{% endblock %}          
+          {% set postListItems = collections.blog %}
+        </main>
+        {% include "partials/aside.njk" %}
+      </div>
     {% endif %}
 
     {% include "partials/site-footer.njk" %}

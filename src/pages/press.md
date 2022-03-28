@@ -1,7 +1,7 @@
 ---
 title: 'Press'
 permalink: '/press/'
-metaDesc: 'Press coverage that the OWA has received'
+metaDesc: 'Links to press coverage for Open Web Advocacy and its initiatives.'
 layout: 'layouts/page.njk'
 ---
 

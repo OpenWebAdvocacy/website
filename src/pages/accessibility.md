@@ -19,6 +19,6 @@ We’ve also made the website text as simple as possible to understand.
 
 ## Reporting accessibility problems with this website
 
-We’re always looking to improve the accessibility of this website. If you find any problems not listed on this page or think we’re not meeting accessibility requirements, please
+We’re always looking to improve the accessibility of this website. If you find any accessibility problems, or think we’re not meeting accessibility requirements, please
 [raise an issue via GitHub](https://github.com/OpenWebAdvocacy/website/issues) or [raise your concerns on Discord](https://discord.gg/x53hkqrRKx).
 

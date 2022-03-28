@@ -13,7 +13,7 @@ which includes a layout engine and rendering engine either selected or built by 
 <h2 id="third-party-browser">Native App</h2>
 
 An app written using a gatekeeper’s proprietary frameworks and APIs which are
-provided by the operating system. On iOS Apple’s operating system for iPhone and iPad) these
+provided by the operating system. On iOS (Apple’s operating system for iPhone and iPad) these
 are currently exclusively delivered through Apple’s App Store.
 
 <h2 id="web-app">Web App</h2>
@@ -64,22 +64,22 @@ By default this does not undermine user choice, however on Android there is an o
 
 <h2 id="webview-iab">WebView IAB</h2>
 
-An OS-Provided Component for Rendering Web Content
+An OS-Provided Component for Rendering Web Content.
 
 Many apps provide an IAB based on the OS-provided webview component. Historically, this was grounded in reasonable motivations by app authors, but as Remote Tab Browsers have become available, the problems with WebVIew IABs have become evident.
 
 Apps that implement WebView IABs:
 
-1. Do not respect the user’s choice of browser, undermining competition
+1. Do not respect the user’s choice of browser, undermining competition.
 2. Reduce functionality relative to “real” browsers. WebViews are not designed to be drop-in
 replacements for browsers, and significant work is needed to fill in the gaps; work that many
 apps do not put in.
 3. Rely on the operating system to update the WebView component, potentially exacerbating security risks that real browser vendors do work to mitigate.
 4. Can MITM (Man in the middle) connections to third parties, which means they can intercept all data sent and received to the website without the User’s knowledge or consent. This creates silent tracking/privacy & security risks.
-5. Can monitor every click, tap, input and interaction with a WebView
-6. May not mitigate known security risks in outdated system WebViews (e.g. on older devices), putting users at high risk compared to loading websites in real browser
+5. Can monitor every click, tap, input and interaction with a WebView.
+6. May not mitigate known security risks in outdated system WebViews (e.g. on older devices), putting users at high risk compared to loading websites in real browser.
 7. May fail to implement key features (e.g., Push Notifications), despite the underlying WebView providing APIs that would allow it.
 
 WebViews are not fully functioning browsers and applications that use them when Remote Tab IAB systems are available are undermining user’ choice in browsers. They also may damage the wider Web ecosystem by causing bugs and removing functionality critical to the content they load.
 
-A variant of System WebView IABs are IABs built on application-provided browser engines (e.g., Mozilla’s GeckoView, which can be embedded in many native apps)
+A variant of System WebView IABs are IABs built on application-provided browser engines (e.g., Mozilla’s GeckoView, which can be embedded in many native apps).

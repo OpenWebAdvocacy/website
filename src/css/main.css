@@ -125,7 +125,7 @@ code {
 pre {
   padding: 1.25rem;
   background: #e4e6ec;
-  max-width: 90ch;
+  max-width: 35em;
 }
 
 pre code {

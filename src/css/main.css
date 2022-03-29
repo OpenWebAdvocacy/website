@@ -511,7 +511,7 @@ article ul, article ol  {
 
 ul.press-list {
 	list-style-type: none;
-	margin: 0;
+	margin: 2rem 0;
 }
 
 	ul.press-list li {

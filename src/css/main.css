@@ -208,12 +208,12 @@ main.inner {margin-bottom: 2rem;}
 
 div.inner-wrapper {
 	width: 90%;
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 4vw auto;
 	--flow-space: 2rem;
 }
 
-	div.inner-wrapper aside {max-width: 250px;}
+	div.inner-wrapper aside {max-width: 300px;}
 
 /* ---------------------- HEADER ------------------------ */
 
@@ -226,7 +226,7 @@ header.site-header {
 
 div.site-header__inner {
 	width: 90%;
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto;
 }
 
@@ -501,9 +501,16 @@ p.entry-link {
 	p.entry-link a:hover::after {
 		background-color: var(--main-color);
 	}
+	p.entry-link a:focus {
+		outline-color: var(--n-dark);
+	}
 
 
 /* ------------------------  ARTICLES ---------------------------- */
+
+article p, article li, article dt, article dd {
+	line-height: 1.58;
+}
 
 article ul, article ol  {
 	margin: 2rem 1rem;
@@ -545,4 +552,23 @@ ul.press-list {
 	ul.press-list [lang="it"]::before {
 		content: "IT";
 		background-color: var(--highlight-color);
+	}
+
+/* Glossary */
+
+dl.glossary {display: block;}
+
+	dl.glossary dt {
+		font-size: calc(1.5rem + 1vw);
+	}
+	dl.glossary dd + dt {
+		margin-top: var(--flow-space);
+	}
+	dl.glossary p + p {
+		margin-top: 0.8em;
+	}
+
+	dl.glossary dd {
+		padding: 0.5rem 0 1rem 1rem;
+		border-left: 1px solid var(--main-color);
 	}

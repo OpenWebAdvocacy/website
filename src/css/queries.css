@@ -16,6 +16,23 @@
 	header:not(.home-header) nav ul {
 		display: block;
 	}
+
+	dl.glossary dd {
+		position: relative;
+		padding: 0.5rem 0 1rem 4rem;
+		border: none;
+	}
+	dl.glossary dd::before {
+		content: "";
+		display: inline-block;
+		position: absolute;
+		top: 0.25rem;
+		left: 0.25rem;
+		width: 2.5rem;
+		height: 1rem;
+		border-bottom: 2px solid var(--main-color);
+		border-left: 1px solid var(--main-color);
+	}
 }
 
 @media screen and (min-width: 500px) {

@@ -40,10 +40,16 @@
     {% else %}
       <div class="inner-wrapper">
         <main tabindex="-1" id="main-content" class="inner">
-          {% block content %}{% endblock %}          
-          {% set postListItems = collections.blog %}
+          {% block content %}{% endblock %}
+          {% if isWG %}
+          {% else %}
+            {% set postListItems = collections.blog %}
+          {% endif %}
         </main>
-        {% include "partials/aside.njk" %}
+        {% if isWG %}
+        {% else %}
+          {% include "partials/aside.njk" %}
+        {% endif %}
       </div>
     {% endif %}
 

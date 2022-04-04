@@ -8,17 +8,39 @@ This website is based on [hankchizljaw's](https://github.com/hankchizljaw) [11ty
 
 ## Getting Started
 
-This site is built using Eleventy and stores its main text content in markdown. [Git LFS](https://git-lfs.github.com/) is used for managing media content within the repository - before cloning make sure this is installed on your local system.
+This site is built using the [Eleventy](https://www.11ty.dev/) static site generator and the content of the site is primarily written in Markdown or HTML. Core page content can be found in the `src/pages` directory.
+
+### Requirements
+
+- [Node.js](https://nodejs.org/en/)
+  - Used to run the static site generator to build the website.
+  - `npm` is used to manage the required dependencies.
+- [Git version control](https://git-scm.com/)
+  - Used to clone down and contribute to the project.
+- [Git Large File Storage (LFS)](https://git-lfs.github.com/)
+  - Used for managing media content within the repository.
+
+### Cloning the Website Files
+
+The website can be fetched using Git like so:
+
+    git clone https://github.com/OpenWebAdvocacy/website.git
+
+If you're missing image files after cloning, this may be due to lacking Git LFS support on your system. Double check [Git LFS](https://git-lfs.github.com/) is installed. You can attempt a download of Git LFS files, for the current checked out branch, by running:
+
+    git lfs pull
+
+### Building the Site
 
 To set up this project, first install the required dependencies:
 
     npm ci
 
-Next, run the project locally:
+Next, run the project locally using the below command. This will run a local webserver and provide you with a URL to access the site at. Any content changes will be automatically detected and rebuilt by Eleventy.
 
     npm start
 
-To build the production version of this site, use:
+To build the production version of this site, use the below command. This will generate out a complete set of files for a static site into the `dist/` directory.
 
     npm run production
 

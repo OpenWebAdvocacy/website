@@ -554,9 +554,8 @@ ul.press-list {
 		background-color: var(--highlight-color);
 	}
 
-/* Glossary */
-
-dl.glossary {display: block;}
+  /* Glossary */
+  dl.glossary {display: block;}
 
 	dl.glossary dt {
 		font-size: calc(1.5rem + 1vw);
@@ -572,3 +571,4 @@ dl.glossary {display: block;}
 		padding: 0.5rem 0 1rem 1rem;
 		border-left: 1px solid var(--main-color);
 	}
+

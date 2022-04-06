@@ -142,4 +142,28 @@
 	}
 	div.policy-entry {flex: 1 1 32%;}
 
+	div.grid3-1 {
+		position: relative;
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	div.toc {
+		width: 300px;
+	}
+	div.grid3-1 div.content {
+		flex: 1;
+	}
+	div.grid3-1 details {
+		position: sticky;
+		top: 3rem;
+		padding-right: 1rem;
+	}
+	div.grid3-1 details ul {margin-left: 1rem;}
+	div.grid3-1 details .flow {
+		overflow: auto;
+		height: 40vw;
+		padding-right: 1rem;
+	}
+	summary h2 {font-size: 1.2em;}
+
 }

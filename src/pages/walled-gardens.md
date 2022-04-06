@@ -3,18 +3,55 @@ title: 'Bringing Competition to Walled Gardens'
 permalink: '/walled-gardens-report/'
 layout: 'layouts/page.njk'
 metaDesc: 'The full Bringing Competition to Walled Gardens report, published by Open Web Advocacy.'
+isWG: true
 ---
 
-Third Party Browsers & Web Apps - VERSION 1.0
+<div class="article-data">
+  <p class="baseline">Third Party Browsers & Web Apps - VERSION 1.0</p>
 
-By **Open Web Advocacy**
-[contactus@open-web-advocacy.org](mailto:contactus@open-web-advocacy.org)
+  <p class="p-author">
+    By <strong>Open Web Advocacy</strong>
+    <a href="mailto:contactus@open-web-advocacy.org">contactus@open-web-advocacy.org</a>
+  </p>
+</div>
+
+<div class="grid3-1">
+
+<div class="toc flow">
+
+<details>
+<summary>
 
 ## 1. Table of Contents
 
-[TOC]
+</summary>
 
-## 2. Preface
+<div class="flow">
+
+  <ul>
+    <li><a href="#sec02">Preface</a></li>
+    <li><a href="#sec03">Introduction</a></li>
+    <li><a href="#sec04">Effective competition?</a></li>
+    <li><a href="#sec05">Apple is Holding Back the Open Web</a></li>
+    <li><a href="#sec06">Negative Consequences for Consumers and Businesses</a></li>
+    <li><a href="#sec07">Apple's Incentives</a></li>
+    <li><a href="#sec08">Arguments Against Third Party Browsers</a></li>
+    <li><a href="#sec09">The Web Can Be Capable</a></li>
+    <li><a href="#sec10">The Future of the Web</a></li>
+    <li><a href="#sec11">Potential Regulatory Solutions</a></li>
+    <li><a href="#sec12">Bright Future for Competition</a></li>
+    <li><a href="#sec13">Further Reading</a></li>
+    <li><a href="#sec14">References</a></li>
+  </ul>
+
+</div>
+</details>
+
+</div>
+
+<div class="content flow">
+
+## <span id="sec02">2. Preface</span>
 
 To the Safari/Webkit Team,
 
@@ -34,7 +71,7 @@ It is our hope that with this competition Apple will come to realize the great i
 
 **Thank-you for your hard work and for everything you’ve given us**, we hope you will continue to fight for a better open-web.
 
-## 3. Introduction
+## <span id="sec03">3. Introduction</span>
 
 The entire future of the **consumer application industry** is being heavily limited by Apple’s ban of third party browsers. These actions prevent cross-compatibility between devices, and create significant barriers for new market entrants. For businesses and consumers, it greatly increases costs and enables Apple to lock them into their closed ecosystem. This reduces competition for both browsers and applications, and shifts the cycle of investment and funding from an open and free platform to proprietary closed platforms, driving up prices for consumers and developers.
 
@@ -75,26 +112,14 @@ We are available to regulators, legislators and policy makers for presentations 
 
 For those who would like to help or join us in fighting for a free and open future for the web, please contact us at:
 
-<table>
-  <tr>
-   <td>Email
-   </td>
-   <td><a href="mailto:contactus@open-web-advocacy.org">contactus@open-web-advocacy.org</a>
-   </td>
-  </tr>
-  <tr>
-   <td>Twitter
-   </td>
-   <td><a href="https://twitter.com/OpenWebAdvocacy">@OpenWebAdvocacy</a>
-   </td>
-  </tr>
-  <tr>
-   <td>Web
-   </td>
-   <td><a href="http://open-web-advocacy.org">https://open-web-advocacy.org</a>
-   </td>
-  </tr>
-</table>
+<dl>
+  <dt>Email</dt>
+  <dd><a href="mailto:contactus@open-web-advocacy.org">contactus@open-web-advocacy.org</a></dd>
+  <dt>Twitter</dt>
+  <dd><a href="https://twitter.com/OpenWebAdvocacy">@OpenWebAdvocacy</a></dd>
+  <dt>Web</dt>
+  <dd><a href="http://open-web-advocacy.org">https://open-web-advocacy.org</a></dd>
+</dl>
 
 ### 3.3. Definitions
 
@@ -116,7 +141,7 @@ To the end user a well written Web App should be indistinguishable from a native
 
 **“Browser Vendor”** - The entity that makes the browser.
 
-## 4. Effective Competition?
+## <span id="sec04">4. Effective Competition?</span>
 
 > “Businesses that face effective competition dare not raise prices, or cut down on quality standards, for fear of losing customers to their competitors (and so losing money)” <br> [Dr Michael Grenfell](https://www.gov.uk/government/speeches/michael-grenfell-should-competition-authorities-intervene-in-digital-markets)
 
@@ -135,7 +160,7 @@ Even Apple executives appear to be aware only their stranglehold on iOS installa
 > "Neither is on the store because they don't have to be. They can be on Mac and distribute to users without sharing the revenue with us" <br> [Philip Schiller - Apple Upper Management - On the Mac App Store](https://applescoop.org/story/apple-execs-discuss-why-the-mac-app-store-has-not-been-successful-in-internal-email)
 
 
-## 5. Apple is Holding Back the Open Web
+## <span id="sec05">5. Apple is Holding Back the Open Web</span>
 
 > "Instead, Apple is inhibiting this future Internet. And it does so via tolls, controls, and technologies that not only deny what made and still makes the open web so powerful, but also prevents competition, and prioritize Apple’s own profits." <br>[Matthew Ball - Venture Capitalist, Writer](https://www.matthewball.vc/all/applemetaverse)
 
@@ -233,8 +258,7 @@ Apple's hobbling of third party browsers doesn't stop at mandating a specific ve
 The major issues include:
 
 1. **Full Screen Video** <br>
-Safari is allowed to make video full screen, the other “browsers” are prevented from doing so, except on ipad.
-<br><br>
+Safari is allowed to make video full screen, the other “browsers” are prevented from doing so, except on ipad.<br>
 It is hard to see the rationale for allowing it on iPad but disabling it on iPhone.
 
 2. **Full Screen Games** <br>
@@ -909,7 +933,7 @@ Using IAB (In App Browsers) to deny users choice is a very complex topic. [This 
 It is our opinion that mass market operating systems and major applications should as much as possible provide users with the means of selecting a default browser (complete with its engine) and respect it. Additionally they should avoid using dark patterns or misleading interfaces to favour their own browser.
 
 
-## 6. Negative Consequences for Consumers and Businesses
+## <span id="sec06">6. Negative Consequences for Consumers and Businesses</span>
 
 It’s worth taking a moment to discuss why holding back the Web as an application platform, banning the rival browsers and having the iOS App Store be the only viable development platform on iOS is causing real harm to both consumers and businesses.
 
@@ -973,7 +997,7 @@ One of the published emails allegedly sent by Apple's legal representatives -- d
 
 > "In Sweatshop HD’s case, what is in fact a tasteful commentary aiming to raise awareness of modern-day manufacturing commissions through bright, addictive gameplay mechanics — in other words, an artistic statement — is being banned because Apple seemingly doesn’t want that awareness being raised." <br> [John Brownlee - Cult of Mac](https://www.cultofmac.com/220790/why-apples-reason-for-kicking-a-sweatshop-game-out-of-the-app-store-is-total-hypocrisy/)
 
-## 7. Apple's Incentives
+## <span id="sec07">7. Apple's Incentives</span>
 
 
 ### 7.1. Advantages of the status quo for Apple
@@ -1051,7 +1075,7 @@ It could be argued this is an overly conspiratorial view of how Apple's manageme
 
 > “iMessage on Android would simply serve to remove [an] obstacle to iPhone families giving their kids Android phones ... moving iMessage to Android will hurt us more than help us, this email illustrates why.” <br> [Craig Federighi - Apple's Senior Vice President of Software Engineering](https://www.theverge.com/2021/4/9/22375128/apple-imessage-android-ecosystem-lock-in-epic-games-filings-app-store-dispute)
 
-## 8. Arguments Against Third Party Browsers
+## <span id="sec08">8. Arguments Against Third Party Browsers</span>
 
 To our knowledge Apple has never published a detailed defense on why they feel justified in banning all rival third party browsers from iOS. That said, the following three sections contain arguments that others have made on Apple's behalf.
 
@@ -1221,7 +1245,7 @@ Apple is wildly inconsistent in how it approaches privacy on Native and on the W
 Apple's commitment to privacy on the web is admirable but the uneven enforcement between the iOS App Store where they command a 15-30% tax and the Web where they have none **implies that it is simply a tactical tool to block competition.**
 
 
-## 9. The Web Can Be Capable
+## <span id="sec09">9. The Web Can Be Capable</span>
 
 > “The fact that web apps aren’t able to fully compete with iOS apps **is an Apple problem, not a web problem**” <br> [Richard MacManus - NewsStack](https://thenewstack.io/apples-browser-engine-ban-is-holding-back-web-app-innovation/)
 
@@ -1263,7 +1287,7 @@ Given how large Photoshop documents can be, Photoshop needs the ability to dynam
 Photoshop’s reputation as a demanding application demonstrates that nearly any sort of program can be delivered today as a Web App on a capable browser. Given the speed of progress in the best browsers, it’s hard to imagine that the gap between Native and Web in terms of performance/capability will not continue to shrink.
 
 
-## 10. The Future of the Web
+## <span id="sec10">10. The Future of the Web</span>
 
 If effective competition was restored to the mobile web then the advantages to users are:
 
@@ -1364,7 +1388,7 @@ Example of iOS permission settings screen:
 ![A view of the iOS permission settings screen for WeChat showing toggles for many iOS features](/images/walled-gardens/39_ios-permission-settings.png)
 
 
-## 11. Potential Regulatory Solutions
+## <span id="sec11">11. Potential Regulatory Solutions</span>
 
 To bring effective competition to both browsers on iOS and to allow Web Apps to effectively compete with the App Store (as Apple has suggested they can), regulation should mandate opening up iOS to true third-party browsers, complete with their own engines.
 
@@ -1507,7 +1531,7 @@ These proposed regulations should be subject to an open comment period to allow 
 <sup>2</sup> A browser engine (also known as a layout engine or rendering engine) is a core software component of every major web browser. The primary job of a browser engine is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.
 
 
-## 12. Bright Future for Competition
+## <span id="sec12">12. Bright Future for Competition</span>
 
 If third party browsers were allowed, with full access to all the APIs that Apple gives Safari, this would provide Apple the incentive to keep pace with the other browsers and give consumers a means of voting with their feet by moving to a competing browser if they fail to do so.
 
@@ -1520,216 +1544,212 @@ A ban on third-party browsers benefits Apple and harms users, developers and bus
 **Competition not walled gardens leads to the best outcomes.**
 
 
-## 13. Further Reading
+## <span id="sec13">13. Further Reading</span>
 
 
 ### 13.1. Alex Russell - Browser Choice Must Matter
 
 Alex Russell (Former W3C TAG / Google Chrome, Now on the Microsoft Edge team) has written a series of articles labelled “Browser Choice Must Matter” which go into deep technical detail in relation to “Browser Choice”.
 
-**Progress Delayed is Progress Denied**<br>
-A detailed look into Safari on iOS and how it has slipped behind<br>
-[https://infrequently.org/2021/04/progress-delayed/](https://infrequently.org/2021/04/progress-delayed/)
+**[Progress Delayed is Progress Denied](https://infrequently.org/2021/04/progress-delayed/)**<br>
+A detailed look into Safari on iOS and how it has slipped behind.
 
-**Hobson’s Browser**<br>
-How Apple, Facebook and Google are undermining user choice in browsers<br>
-[https://infrequently.org/2021/07/hobsons-browser/](https://infrequently.org/2021/07/hobsons-browser/)
+**[Hobson’s Browser](https://infrequently.org/2021/07/hobsons-browser/)**<br>
+How Apple, Facebook and Google are undermining user choice in browsers.
 
-**iOS Engine Choice in Depth**<br>
-A deep dive into browser choice on iOS with technical details<br>
-[https://infrequently.org/2021/08/webkit-ios-deep-dive/](https://infrequently.org/2021/08/webkit-ios-deep-dive/)
+**[iOS Engine Choice in Depth](https://infrequently.org/2021/08/webkit-ios-deep-dive/)**<br>
+A deep dive into browser choice on iOS with technical details.
 
 
 ### 13.2. Bruce Lawson
 
-**Progressive Web Apps and iOS**<br>
-Bruce Lawson presentation to the UK’s Competition and Markets Authority about issues with Web Apps on iOS:
-<br><br>
-[https://www.youtube.com/watch?v=EOyfMzWqHiY](https://www.youtube.com/watch?v=EOyfMzWqHiY)
+**[Progressive Web Apps and iOS](https://www.youtube.com/watch?v=EOyfMzWqHiY)**
+
+Bruce Lawson presentation to the UK’s Competition and Markets Authority about issues with Web Apps on iOS.
 
 
 ### 13.3. Stuart Langridge
 
-**Browser choice on Apple's iOS: privacy and security aspects**<br>
-Stuart Langridge’s presentation to the UK’s Competition and Markets Authority about various privacy and security aspects on iOS:
-<br><br>
-[https://kryogenix.org/code/cma-apple/](https://kryogenix.org/code/cma-apple/)
+**[Browser choice on Apple's iOS: privacy and security aspects](https://kryogenix.org/code/cma-apple/)**
 
-## 14. References
+Stuart Langridge’s presentation to the UK’s Competition and Markets Authority about various privacy and security aspects on iOS.
 
-- Thomas Claburn - The Register -  On Safari Underfunding
-  - [https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/](https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/#:~:text=We%20asked%20Apple%20about%20the%20IndexedDB%20bug%20and%20whether%20its%20Safari%20team%20is%20understaffed%20compared%20to%20the%20competition.%20We%20would%20be%20stunned%20if%20it%20chose%20to%20reply)
-- The Ultimate How-to: Build a Bluetooth Swift App With Hardware in 20 Minutes
-  - [https://www.freecodecamp.org/news/ultimate-how-to-bluetooth-swift-with-hardware-in-20-minutes/](https://www.freecodecamp.org/news/ultimate-how-to-bluetooth-swift-with-hardware-in-20-minutes/)
-- Apple’s iOS App Store is littered with malicious apps
-  - [https://www.techradar.com/au/news/apple-app-store-is-apparently-still-littered-with-malicious-apps](https://www.techradar.com/au/news/apple-app-store-is-apparently-still-littered-with-malicious-apps)
-- Security Researcher on iOS App Store Malware
-  - [https://habr.com/en/post/580272/](https://habr.com/en/post/580272/)
-- Matthew Ball - On Apple inhibiting the future Internet
-  - [https://www.matthewball.vc/all/applemetaverse](https://www.matthewball.vc/all/applemetaverse)
-- Ben Thompson on why Apple wants to make the web less useful
-  - [https://stratechery.com/2020/apple-and-facebook/](https://stratechery.com/2020/apple-and-facebook/)
-- Mozilla Documentation on Web Apps (PWAs)
-  - [https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
-- Apple claiming PWAs represent a viable distribution alternative to the App Store
-  - [https://www.accc.gov.au/system/files/Apple%20Pty%20Limited%20%2810%20February%202021%29.pdf](https://www.accc.gov.au/system/files/Apple%20Pty%20Limited%20%2810%20February%202021%29.pdf)
-- Tim Cook making the same claim
-  - [https://www.youtube.com/watch?v=H6eYLCxxQdA&t=306s](https://www.youtube.com/watch?v=H6eYLCxxQdA&t=306s)
-- Apple lawyers making a similar claim in court vs Uber
-  - [https://9to5mac.com/2021/03/25/bypass-the-app-store-says-apple](https://9to5mac.com/2021/03/25/bypass-the-app-store-says-apple)
-- Apple rule effectively banning third party browsers
-  - [https://developer.apple.com/app-store/review/guidelines/#2.5.6](https://developer.apple.com/app-store/review/guidelines/#:~:text=2.5.6%20Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20Javascript)
-- Scott Gilbertson - On Safari being the new IE
-  - [https://www.theregister.com/2021/10/22/safari_risks_becoming_the_new_ie/](https://www.theregister.com/2021/10/22/safari_risks_becoming_the_new_ie/?td=keepreading-)
-- Dieter Bohn and Tom Warren - The Verge - Talking about Apples Browser Ban
-  - [https://www.theverge.com/2021/5/6/22421912/iphone-web-app-pwa-cloud-gaming-epic-v-apple-safari](https://www.theverge.com/2021/5/6/22421912/iphone-web-app-pwa-cloud-gaming-epic-v-apple-safari)
-- Niels Leenheer - HTML5test - On iOS Safari holding back the web
-  - [https://nielsleenheer.com/articles/2021/chrome-is-the-new-safari-and-so-are-edge-and-firefox/](https://nielsleenheer.com/articles/2021/chrome-is-the-new-safari-and-so-are-edge-and-firefox/)
-- Chris Coyier - CSS-TRICKS - On the Apple Browser Ban
-  - [https://css-tricks.com/ios-browser-choice](https://css-tricks.com/ios-browser-choice)
-- Richard MacManus - The New Stack - On the Apple Browser Ban holding back the web
-  - [https://thenewstack.io/apples-browser-engine-ban-is-holding-back-web-app-innovation](https://thenewstack.io/apples-browser-engine-ban-is-holding-back-web-app-innovation)
-- The Verge - Emails from the Epic vs Apple trial
-  - [https://www.theverge.com/22611236/epic-v-apple-emails-project-liberty-app-store-schiller-sweeney-cook-jobs](https://www.theverge.com/22611236/epic-v-apple-emails-project-liberty-app-store-schiller-sweeney-cook-jobs)
-- Steve Jobs - Original Announcement of iOS Web Apps
-  - [https://www.youtube.com/watch?v=p1nwLilQy64](https://www.youtube.com/watch?v=p1nwLilQy64)
-- iOS “Smart App Banners”
-  - [https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners](https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners)
-- Patterns for promoting PWA installation
-  - [https://web.dev/promote-install/](https://web.dev/promote-install/)
-- MDN - BeforeInstallPromptEvent documentation
-  - [https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent)
-- Minesweeper like PWA/Web App
-  - [https://proxx.app](https://proxx.app)
-- Bruce Lawson - Talk to the CMA about Web Apps
-  - [https://brucelawson.co.uk/2021/briefing-to-the-uk-competition-and-markets-authority-on-apples-ios-browser-monopoly-and-progressive-web-apps/](https://brucelawson.co.uk/2021/briefing-to-the-uk-competition-and-markets-authority-on-apples-ios-browser-monopoly-and-progressive-web-apps/)
-- Apple/Webkit - rejecting request to add BeforeInstallPromptEvent
-  - [https://bugs.webkit.org/show_bug.cgi?id=193959](https://bugs.webkit.org/show_bug.cgi?id=193959)
-- Chromium Ticket on Open WebAPK minting server for third-party browsers
-  - [https://bugs.chromium.org/p/chromium/issues/detail?id=1243583](https://bugs.chromium.org/p/chromium/issues/detail?id=1243583)
-- Misha Ketchell - The Conversation - On Dark Pattens
-  - [https://theconversation.com/what-are-dark-patterns-an-online-media-expert-explains-165362](https://theconversation.com/what-are-dark-patterns-an-online-media-expert-explains-165362)
-- Alex Russell - Program Manager on Microsoft Edge - On Safari Webkit lagging behind
-  - [https://infrequently.org/2021/04/progress-delayed/#:~:text=The%20data%20agree%3A%20Apple%27s%20web%20engine%20consistently%20trails%20others%20in%20both%20compatibility%20and%20features%2C%20resulting%20in%20a%20large%20and%20persistent%20gap%20with%20Apple%27s%20native%20platform](https://infrequently.org/2021/04/progress-delayed/#:~:text=The%20data%20agree%3A%20Apple%27s%20web%20engine%20consistently%20trails%20others%20in%20both%20compatibility%20and%20features%2C%20resulting%20in%20a%20large%20and%20persistent%20gap%20with%20Apple%27s%20native%20platform)
-- Web Platform Tests Dashboard
-  - [https://wpt.fyi/results/?label=experimental&label=master&aligned](https://wpt.fyi/results/?label=experimental&label=master&aligned)
-- Can I Use - Website with data comparing features of different browsers
-  - [https://caniuse.com](https://caniuse.com)
-- Mozilla Developer Network Web Developer Needs Assessment 2020 Survey
-  - [https://insights.developer.mozilla.org/reports/mdn-web-developer-needs-assessment-2020.html](https://insights.developer.mozilla.org/reports/mdn-web-developer-needs-assessment-2020.html)
-- CSS
-  - [https://en.wikipedia.org/wiki/CSS](https://en.wikipedia.org/wiki/CSS)
-- HTML
-  - [https://en.wikipedia.org/wiki/HTML](https://en.wikipedia.org/wiki/HTML)
-- Javascript
-  - [https://en.wikipedia.org/wiki/JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- WebAssembly
-  - [https://developer.mozilla.org/en-US/docs/WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly)
-- State of CSS survey
-  - [https://stateofcss.com](https://stateofcss.com)
-- State of CSS survey - Raw Answers Text
-  - [https://gist.github.com/SachaG/cd7cf12623a95d8162ac2b8e340c4724](https://gist.github.com/SachaG/cd7cf12623a95d8162ac2b8e340c4724)
-- The Register - On Safari breaking indexedDB
-  - [https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug](https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug)
-- Russell Brandom - The Verge - On Apple holding PWAs back
-  - [https://www.theverge.com/2021/5/27/22454959/epic-apple-trial-recap-video-tim-cook-xbox-playstation-business#:~:text=APPLE%20GAINS%20A%20LOT%20BY%20SLOW-WALKING%20PROGRESSIVE%20WEB%20APPS%20ON%20THE%20IPHONE](https://www.theverge.com/2021/5/27/22454959/epic-apple-trial-recap-video-tim-cook-xbox-playstation-business#:~:text=APPLE%20GAINS%20A%20LOT%20BY%20SLOW-WALKING%20PROGRESSIVE%20WEB%20APPS%20ON%20THE%20IPHONE)
-- Benedict Evans - Technology Writer - On Apples arbitrary application of App Store rules
-  - [https://www.ben-evans.com/benedictevans/2020/8/18/app-stores](https://www.ben-evans.com/benedictevans/2020/8/18/app-stores)
-- Alex Russell - Program Manager on Microsoft Edge - On Apple saving ram by banning other browsers
-  - [https://infrequently.org/2021/08/webkit-ios-deep-dive/#:~:text=re-using%20the%20webkit%20binary%20maximizes%20the%20sharing%20of%20%22code%20pages%22%20across%20processes.%20practically%20speaking%2C%20this%20allows%20more%20programs%20to%20run%20simultaneously%20without%20the%20need%20for%20apple%20to%20add%20more%20ram%20to%20their%20devices.%20this%2C%20in%20turn%2C%20pads%20apple%27s%20(considerable)%20margins%20in%20the%20construction%20of%20phones](https://infrequently.org/2021/08/webkit-ios-deep-dive/#:~:text=re-using%20the%20webkit%20binary%20maximizes%20the%20sharing%20of%20%22code%20pages%22%20across%20processes.%20practically%20speaking%2C%20this%20allows%20more%20programs%20to%20run%20simultaneously%20without%20the%20need%20for%20apple%20to%20add%20more%20ram%20to%20their%20devices.%20this%2C%20in%20turn%2C%20pads%20apple%27s%20(considerable)%20margins%20in%20the%20construction%20of%20phones)
-- Benedict Evans - Technology Writer - On iOS Free to Play Games
-  - [https://www.ben-evans.com/benedictevans/2021/7/8/app-store](https://www.ben-evans.com/benedictevans/2021/7/8/app-store)
-- Mihovil Grguric - CEO of Udonis Inc (A mobile apps marketing agency) - On free-to-play Whales
-  - [https://www.blog.udonis.co/mobile-marketing/mobile-games/mobile-games-whales](https://www.blog.udonis.co/mobile-marketing/mobile-games/mobile-games-whales)
-- Tom Perry - Httptoolkit - On Safari not implementing features with no potential security/privacy - issues
-   -[https://httptoolkit.tech/blog/safari-is-killing-the-web/](https://httptoolkit.tech/blog/safari-is-killing-the-web/)
-- Sean Hollister - On Apple inability to spot obvious scams in the iOS App Store
-  - [https://www.theverge.com/2021/4/21/22385859/apple-app-store-scams-fraud-review-enforcement-top-grossing-kosta-eleftheriou](https://www.theverge.com/2021/4/21/22385859/apple-app-store-scams-fraud-review-enforcement-top-grossing-kosta-eleftheriou)
-- Gordon Kelly - On scams and clones on the iOS App Store
-  - [https://www.forbes.com/sites/gordonkelly/2021/04/07/apple-iphone-ipad-app-store-scam-warning-new-iphone-problem/?sh=7231e8a960aa](https://www.forbes.com/sites/gordonkelly/2021/04/07/apple-iphone-ipad-app-store-scam-warning-new-iphone-problem/?sh=7231e8a960aa)
-- Dr Michael Grenfell - On Effective Competition
-  - [https://www.gov.uk/government/speeches/michael-grenfell-should-competition-authorities-intervene-in-digital-markets](https://www.gov.uk/government/speeches/michael-grenfell-should-competition-authorities-intervene-in-digital-markets)
-- Entrepreneurship Life - Apple users spend more than Android users
-  - [https://www.entrepreneurshiplife.com/why-iphone-users-spend-more-money-than-android-users/](https://www.entrepreneurshiplife.com/why-iphone-users-spend-more-money-than-android-users/)
-- Times on India - Apple users spend more than Android users
-  - [https://timesofindia.indiatimes.com/gadgets-news/iphone-users-spend-more-money-on-apps-than-android-users-report/articleshow/83947757.cms](https://timesofindia.indiatimes.com/gadgets-news/iphone-users-spend-more-money-on-apps-than-android-users-report/articleshow/83947757.cms)
-- Professor Douglas J. Leith - On Brave Privacy
-  - [https://www.zdnet.com/article/brave-deemed-most-private-browser-in-terms-of-phoning-home/](https://www.zdnet.com/article/brave-deemed-most-private-browser-in-terms-of-phoning-home/)
-- A Feature added to Chromium that Edge and other browsers use but Chrome does not
-  - [https://groups.google.com/a/chromium.org/g/blink-dev/c/e5fu5Q06ntA/m/UUqPuA8hEQAJ](https://groups.google.com/a/chromium.org/g/blink-dev/c/e5fu5Q06ntA/m/UUqPuA8hEQAJ)
-- Benedict Evans - Technology Writer - On iOS App Store
-  - [https://www.ben-evans.com/benedictevans/2020/8/18/app-stores](https://www.ben-evans.com/benedictevans/2020/8/18/app-stores)
-- Dieter Bohn - The Verge - On Apples Capricious App Store policies
-  - [https://www.theverge.com/2020/6/17/21293813/apple-app-store-policies-hey-30-percent-developers-the-trial-by-franz-kafka](https://www.theverge.com/2020/6/17/21293813/apple-app-store-policies-hey-30-percent-developers-the-trial-by-franz-kafka)
-- Sean Hollister - Verge - On Apples effective ban on streamed games
-  - [https://www.theverge.com/2020/9/18/20912689/apple-cloud-gaming-streaming-xcloud-stadia-app-store-guidelines-rules](https://www.theverge.com/2020/9/18/20912689/apple-cloud-gaming-streaming-xcloud-stadia-app-store-guidelines-rules)
-- Sean Hollister - Verge - On Apple copying then banning a keyboard App
-  - [https://www.theverge.com/2021/9/16/22676706/apple-watch-swipe-keyboard-flicktype-lawsuit-kosta-eleftheriou](https://www.theverge.com/2021/9/16/22676706/apple-watch-swipe-keyboard-flicktype-lawsuit-kosta-eleftheriou)
-- Samantha John - CEO Hopscotch - On iOS App Store Review Policies
-  - [https://twitter.com/samj0hn/status/1431001795904561160](https://twitter.com/samj0hn/status/1431001795904561160)
-- Kosta Eleftheriou - On iOS Malware
-  - [https://www.xanjero.com/news/developer-kosta-eleftheriou-claims-apples-app-store-is-littered-with-malicious-apps/](https://www.xanjero.com/news/developer-kosta-eleftheriou-claims-apples-app-store-is-littered-with-malicious-apps/)
-- Slipping Past the Review - Malware in iOS Native Apps
-  - [https://habr.com/en/post/580272/](https://habr.com/en/post/580272/)
-- Campbell Kwan - ZDNet - On Apples indefinite ban of Epic
-  - [https://www.zdnet.com/article/apple-bans-epic-games-from-app-store-until-all-litigation-is-finalised/](https://www.zdnet.com/article/apple-bans-epic-games-from-app-store-until-all-litigation-is-finalised/)
-- John Brownlee - Cult of Mac - On Apple banning Sweatshop Labour Rights Game
-  - [https://www.cultofmac.com/220790/why-apples-reason-for-kicking-a-sweatshop-game-out-of-the-app-store-is-total-hypocrisy/](https://www.cultofmac.com/220790/why-apples-reason-for-kicking-a-sweatshop-game-out-of-the-app-store-is-total-hypocrisy/)
-- Niels Leenheer - HTML5test - On Apple Webkits banning of web device APIs on privacy grounds
-  - [https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/](https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/)
-- Apple has rejected certain web standard device APIs
-  - [https://webkit.org/tracking-prevention/#anti-fingerprinting](https://webkit.org/tracking-prevention/#anti-fingerprinting)
-- Niels Leenheer - HTML5test - on why web device APIs are really bad at fingerprinting
-  - [https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/](https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/)
-- Web Bluetooth Documentation
-  - [https://webbluetoothcg.github.io/web-bluetooth/](https://webbluetoothcg.github.io/web-bluetooth/)
-- Microsoft Smartscreen
-  - [https://support.microsoft.com/en-us/microsoft-edge/what-is-smartscreen-and-how-can-it-help-protect-me-1c9a874a-6826-be5e-45b1-67fa445a74c8](https://support.microsoft.com/en-us/microsoft-edge/what-is-smartscreen-and-how-can-it-help-protect-me-1c9a874a-6826-be5e-45b1-67fa445a74c8)
-- Google SafeBrowsing
-  - [https://safebrowsing.google.com/](https://safebrowsing.google.com/)
-- iOS Native Bluetooth Guide
-  - [https://www.freecodecamp.org/news/ultimate-how-to-bluetooth-swift-with-hardware-in-20-minutes/](https://www.freecodecamp.org/news/ultimate-how-to-bluetooth-swift-with-hardware-in-20-minutes/)
-- On malicious tracking of users using iOS Native Apps bluetooth
-  - [https://www.fastcompany.com/90386781/ios-13s-new-bluetooth-privacy-feature-is-important-but-confusing](https://www.fastcompany.com/90386781/ios-13s-new-bluetooth-privacy-feature-is-important-but-confusing)
 
-Cor Doctorow - Former European director of the Electronic Frontier Foundation - On Apple's stance on - privacy
-  - [https://twitter.com/doctorow/status/1459914164152016905](https://twitter.com/doctorow/status/1459914164152016905)
-- Apple's Advertising Identifier
-  - [https://en.wikipedia.org/wiki/Identifier_for_Advertisers](https://en.wikipedia.org/wiki/Identifier_for_Advertisers)
-- Geoffrey Fowler And Tatum Hunter - Washington Post
-  - [https://www.washingtonpost.com/technology/2021/09/23/iphone-tracking/](https://www.washingtonpost.com/technology/2021/09/23/iphone-tracking/)
-- Alex Russell -  Program Manager on Microsoft Edge - On IAB and Browser Choice
-  - [https://infrequently.org/2021/07/hobsons-browser/#:~:text=Known%20as%20the%20%22Android%20Google%20Search%20App%22%20(%22AGSA%22%2C%20or%20%22AGA%22)%2C%20this%20humble%20text%20input%20is%20the%20source%20of%20a%20truly%20shocking%20amount%20of%20web%20traffic%3B%20traffic%20that%20all%20goes%20to%20Chrome%2C%20no%20matter%20the%20user%27s%20choice%20of%20browser](https://infrequently.org/2021/07/hobsons-browser/#:~:text=Known%20as%20the%20%22Android%20Google%20Search%20App%22%20(%22AGSA%22%2C%20or%20%22AGA%22)%2C%20this%20humble%20text%20input%20is%20the%20source%20of%20a%20truly%20shocking%20amount%20of%20web%20traffic%3B%20traffic%20that%20all%20goes%20to%20Chrome%2C%20no%20matter%20the%20user%27s%20choice%20of%20browser)
-- John Koetsier - Forbes - On Apple secretly buying advertising for other companies
-  - [https://www.forbes.com/sites/johnkoetsier/2021/11/12/apple-quietly-buying-ads-via-google-for-high-value-subscription-apps-to-capture-app-publisher-revenue/?sh=67998df71b52](https://www.forbes.com/sites/johnkoetsier/2021/11/12/apple-quietly-buying-ads-via-google-for-high-value-subscription-apps-to-capture-app-publisher-revenue/?sh=67998df71b52)
-- Mac Rumors - On Apple’ 2021 1st half profit
-  - [https://www.macrumors.com/2021/06/29/app-store-revenue-h1-2021-42-billion/](https://www.macrumors.com/2021/06/29/app-store-revenue-h1-2021-42-billion/)
-- Austin Carr - Bloomberg - On Apples 30% Gatekeeper fee
-  - [https://www.bloomberg.com/news/newsletters/2021-05-03/apple-s-30-fee-an-industry-standard-is-showing-cracks](https://www.bloomberg.com/news/newsletters/2021-05-03/apple-s-30-fee-an-industry-standard-is-showing-cracks)
-- Russell Brandom  - The Verge - On Apple iMessage
-  - [https://www.theverge.com/2021/4/9/22375128/apple-imessage-android-ecosystem-lock-in-epic-games-filings-app-store-dispute](https://www.theverge.com/2021/4/9/22375128/apple-imessage-android-ecosystem-lock-in-epic-games-filings-app-store-dispute)
-- Apple Scoop - On why the Mac OS Store is not successful
-  - [https://applescoop.org/story/apple-execs-discuss-why-the-mac-app-store-has-not-been-successful-in-internal-email](https://applescoop.org/story/apple-execs-discuss-why-the-mac-app-store-has-not-been-successful-in-internal-email)
-- Photoshop on the web
-  - [https://web.dev/ps-on-the-web/](https://web.dev/ps-on-the-web/)
-- WebGL
-  - [https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
-- SIMD
-  - [https://developer.mozilla.org/en-US/docs/Glossary/SIMD](https://developer.mozilla.org/en-US/docs/Glossary/SIMD)
-- Private File System Origin Trial
-  - [https://web.dev/file-system-access/#accessing-files-optimized-for-performance-from-the-origin-private-file-](https://web.dev/file-system-access/#accessing-files-optimized-for-performance-from-the-origin-private-file-)
-- Alex Russell -  Program Manager on Microsoft Edge - On WebStandards
-  - [https://infrequently.org/2020/07/why-ui-isnt-specified/](https://infrequently.org/2020/07/why-ui-isnt-specified/)
-- Apple received 9% of Gross Profit from Google Search Engine deal
-  - [https://www.forbes.com/sites/johanmoreno/2021/08/27/google-estimated-to-be-paying-15-billion-to-remain-default-search-engine-on-safari/](https://www.forbes.com/sites/johanmoreno/2021/08/27/google-estimated-to-be-paying-15-billion-to-remain-default-search-engine-on-safari/)
-- Rep. Regina Cobb - A Republican state lawmaker in Arizona - On Apple’s aggressive lobbying
-  - [https://www.politico.com/news/2021/08/20/apple-takes-on-state-legislatures-georgia-506299](https://www.politico.com/news/2021/08/20/apple-takes-on-state-legislatures-georgia-506299)
-- Joshua Long - Apple’s Poor Patching Policies Potentially Make Users’ Security and Privacy Precarious
-  - [https://www.intego.com/mac-security-blog/apples-poor-patching-policies-potentially-make-users-security-and-privacy-precarious](https://www.intego.com/mac-security-blog/apples-poor-patching-policies-potentially-make-users-security-and-privacy-precarious)
-- Charlie Warzel - New York Times on privacy and native apps tracking
-  - [https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html](https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html)
-- Sara Morrison - VOX on harvesting data via native apps
-  - [https://www.vox.com/platform/amp/recode/22587248/grindr-app-location-data-outed-priest-jeffrey-burrill-pillar-data-harvesting](https://www.vox.com/platform/amp/recode/22587248/grindr-app-location-data-outed-priest-jeffrey-burrill-pillar-data-harvesting)
-- Bennett Cyphers - Electronic Freedom Foundation - On harvesting data via native apps
-  - [https://www.eff.org/deeplinks/2020/06/apples-response-hey-showcases-whats-most-broken-about-apple-app-store](https://www.eff.org/deeplinks/2020/06/apples-response-hey-showcases-whats-most-broken-about-apple-app-store)
+## <span id="sec14">14. References</span>
 
+- Thomas Claburn - *The Register* -  <span data-ref="ref01">[On Safari Underfunding](https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/#:~:text=We%20asked%20Apple%20about%20the%20IndexedDB%20bug%20and%20whether%20its%20Safari%20team%20is%20understaffed%20compared%20to%20the%20competition.%20We%20would%20be%20stunned%20if%20it%20chose%20to%20reply)</span>
+
+- [The Ultimate How-to: Build a Bluetooth Swift App With Hardware in 20 Minutes](https://www.freecodecamp.org/news/ultimate-how-to-bluetooth-swift-with-hardware-in-20-minutes/)
+
+- [Apple’s iOS App Store is littered with malicious apps](https://www.techradar.com/au/news/apple-app-store-is-apparently-still-littered-with-malicious-apps)
+
+- [Security Researcher on iOS App Store Malware](https://habr.com/en/post/580272/)
+
+- Matthew Ball - [On Apple inhibiting the future Internet](https://www.matthewball.vc/all/applemetaverse)
+
+- [Ben Thompson on why Apple wants to make the web less useful](https://stratechery.com/2020/apple-and-facebook/)
+
+- [Mozilla Documentation on Web Apps (PWAs)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+
+- [Apple claiming PWAs represent a viable distribution alternative to the App Store](https://www.accc.gov.au/system/files/Apple%20Pty%20Limited%20%2810%20February%202021%29.pdf) [PDF, 3Mb]
+
+- [Tim Cook making the same claim](https://www.youtube.com/watch?v=H6eYLCxxQdA&t=306s)
+
+- [Apple lawyers making a similar claim in court vs Uber](https://9to5mac.com/2021/03/25/bypass-the-app-store-says-apple)
+
+- [Apple rule effectively banning third party browsers](https://developer.apple.com/app-store/review/guidelines/#:~:text=2.5.6%20Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20Javascript)
+
+- Scott Gilbertson - [On Safari being the new IE](https://www.theregister.com/2021/10/22/safari_risks_becoming_the_new_ie/?td=keepreading-)
+
+- Dieter Bohn and Tom Warren - *The Verge* - [Talking about Apple Browser Ban](https://www.theverge.com/2021/5/6/22421912/iphone-web-app-pwa-cloud-gaming-epic-v-apple-safari)
+
+- Niels Leenheer - *HTML5test* - [On iOS Safari holding back the web](https://nielsleenheer.com/articles/2021/chrome-is-the-new-safari-and-so-are-edge-and-firefox/)
+
+- Chris Coyier - *CSS-TRICKS* - {On the Apple Browser Ban}(https://css-tricks.com/ios-browser-choice)
+
+- Richard MacManus - *The New Stack* - [On the Apple Browser Ban holding back the web](https://thenewstack.io/apples-browser-engine-ban-is-holding-back-web-app-innovation)
+
+- *The Verge* - [Emails from the Epic vs Apple trial](https://www.theverge.com/22611236/epic-v-apple-emails-project-liberty-app-store-schiller-sweeney-cook-jobs)
+
+- Steve Jobs - [Original Announcement of iOS Web Apps](https://www.youtube.com/watch?v=p1nwLilQy64)
+
+- [iOS “Smart App Banners”](https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners)
+
+- [Patterns for promoting PWA installation](https://web.dev/promote-install/)
+
+- *MDN* - [BeforeInstallPromptEvent documentation](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent)
+
+- [Minesweeper like PWA/Web App](https://proxx.app)
+
+- Bruce Lawson - [Talk to the CMA about Web Apps](https://brucelawson.co.uk/2021/briefing-to-the-uk-competition-and-markets-authority-on-apples-ios-browser-monopoly-and-progressive-web-apps/)
+
+- [Apple/Webkit - rejecting request to add BeforeInstallPromptEvent](https://bugs.webkit.org/show_bug.cgi?id=193959)
+
+- [Chromium Ticket on Open WebAPK minting server for third-party browsers](https://bugs.chromium.org/p/chromium/issues/detail?id=1243583)
+
+- Misha Ketchell - *The Conversation* - [On Dark Patterns](https://theconversation.com/what-are-dark-patterns-an-online-media-expert-explains-165362)
+
+- Alex Russell - *Program Manager on Microsoft Edge* - [On Safari Webkit lagging behind](https://infrequently.org/2021/04/progress-delayed/#:~:text=The%20data%20agree%3A%20Apple%27s%20web%20engine%20consistently%20trails%20others%20in%20both%20compatibility%20and%20features%2C%20resulting%20in%20a%20large%20and%20persistent%20gap%20with%20Apple%27s%20native%20platform)
+
+- [Web Platform Tests Dashboard](https://wpt.fyi/results/?label=experimental&label=master&aligned)
+
+- *Can I Use* - [Website with data comparing features of different browsers](https://caniuse.com)
+
+- [Mozilla Developer Network Web Developer Needs Assessment 2020 Survey](https://insights.developer.mozilla.org/reports/mdn-web-developer-needs-assessment-2020.html)
+
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+- [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly)
+
+- [State of CSS survey](https://stateofcss.com)
+
+- *State of CSS survey* - [Raw Answers Text](https://gist.github.com/SachaG/cd7cf12623a95d8162ac2b8e340c4724)
+
+- *The Register* - [On Safari breaking indexedDB](https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug)
+
+- Russell Brandom - *The Verge* - [On Apple holding PWAs back](https://www.theverge.com/2021/5/27/22454959/epic-apple-trial-recap-video-tim-cook-xbox-playstation-business#:~:text=APPLE%20GAINS%20A%20LOT%20BY%20SLOW-WALKING%20PROGRESSIVE%20WEB%20APPS%20ON%20THE%20IPHONE)
+
+- Benedict Evans - *Technology Writer* - [On Apples arbitrary application of App Store rules](https://www.ben-evans.com/benedictevans/2020/8/18/app-stores)
+
+- Alex Russell - *Program Manager on Microsoft Edge* - [On Apple saving ram by banning other browsers](https://infrequently.org/2021/08/webkit-ios-deep-dive/#:~:text=re-using%20the%20webkit%20binary%20maximizes%20the%20sharing%20of%20%22code%20pages%22%20across%20processes.%20practically%20speaking%2C%20this%20allows%20more%20programs%20to%20run%20simultaneously%20without%20the%20need%20for%20apple%20to%20add%20more%20ram%20to%20their%20devices.%20this%2C%20in%20turn%2C%20pads%20apple%27s%20(considerable)%20margins%20in%20the%20construction%20of%20phones)
+
+- Benedict Evans - *Technology Writer* - [On iOS Free to Play Games](https://www.ben-evans.com/benedictevans/2021/7/8/app-store)
+
+- Mihovil Grguric - *CEO of Udonis Inc (A mobile apps marketing agency)* - [On free-to-play Whales](https://www.blog.udonis.co/mobile-marketing/mobile-games/mobile-games-whales)
+
+- Tom Perry - *Httptoolkit* - [On Safari not implementing features with no potential security/privacy - issues](https://httptoolkit.tech/blog/safari-is-killing-the-web/)
+
+- Sean Hollister - [On Apple inability to spot obvious scams in the iOS App Store](https://www.theverge.com/2021/4/21/22385859/apple-app-store-scams-fraud-review-enforcement-top-grossing-kosta-eleftheriou)
+
+- Gordon Kelly - [On scams and clones on the iOS App Store](https://www.forbes.com/sites/gordonkelly/2021/04/07/apple-iphone-ipad-app-store-scam-warning-new-iphone-problem/?sh=7231e8a960aa)
+
+- Dr Michael Grenfell - [On Effective Competition](https://www.gov.uk/government/speeches/michael-grenfell-should-competition-authorities-intervene-in-digital-markets)
+
+- Entrepreneurship Life - [Apple users spend more than Android users](https://www.entrepreneurshiplife.com/why-iphone-users-spend-more-money-than-android-users/)
+
+- Times on India - [Apple users spend more than Android users](https://timesofindia.indiatimes.com/gadgets-news/iphone-users-spend-more-money-on-apps-than-android-users-report/articleshow/83947757.cms)
+
+- Professor Douglas J. Leith - [On Brave Privacy](https://www.zdnet.com/article/brave-deemed-most-private-browser-in-terms-of-phoning-home/)
+
+- [A Feature added to Chromium that Edge and other browsers use but Chrome does not](https://groups.google.com/a/chromium.org/g/blink-dev/c/e5fu5Q06ntA/m/UUqPuA8hEQAJ)
+
+- Benedict Evans - *Technology Writer* - [On iOS App Store](https://www.ben-evans.com/benedictevans/2020/8/18/app-stores)
+
+- Dieter Bohn - *The Verge* - [On Apples Capricious App Store policies](https://www.theverge.com/2020/6/17/21293813/apple-app-store-policies-hey-30-percent-developers-the-trial-by-franz-kafka)
+
+- Sean Hollister - *The Verge* - [On Apples effective ban on streamed games](https://www.theverge.com/2020/9/18/20912689/apple-cloud-gaming-streaming-xcloud-stadia-app-store-guidelines-rules)
+
+- Sean Hollister - *The Verge* - [On Apple copying then banning a keyboard App](https://www.theverge.com/2021/9/16/22676706/apple-watch-swipe-keyboard-flicktype-lawsuit-kosta-eleftheriou)
+
+- Samantha John - *CEO Hopscotch* - [On iOS App Store Review Policies](https://twitter.com/samj0hn/status/1431001795904561160)
+
+- Kosta Eleftheriou - [On iOS Malware](https://www.xanjero.com/news/developer-kosta-eleftheriou-claims-apples-app-store-is-littered-with-malicious-apps/)
+
+- *Slipping Past the Review* - [Malware in iOS Native Apps](https://habr.com/en/post/580272/)
+
+- Campbell Kwan - *ZDNet* - [On Apples indefinite ban of Epic](https://www.zdnet.com/article/apple-bans-epic-games-from-app-store-until-all-litigation-is-finalised/)
+
+- John Brownlee - *Cult of Mac* - [On Apple banning Sweatshop Labour Rights Game](https://www.cultofmac.com/220790/why-apples-reason-for-kicking-a-sweatshop-game-out-of-the-app-store-is-total-hypocrisy/)
+
+- Niels Leenheer - *HTML5test* - [On Apple Webkits banning of web device APIs on privacy grounds](https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/)
+
+- [Apple has rejected certain web standard device APIs](https://webkit.org/tracking-prevention/#anti-fingerprinting)
+
+- Niels Leenheer - *HTML5test* - [On why web device APIs are really bad at fingerprinting](https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/)
+
+- [Web Bluetooth Documentation](https://webbluetoothcg.github.io/web-bluetooth/)
+
+- [Microsoft Smartscreen](https://support.microsoft.com/en-us/microsoft-edge/what-is-smartscreen-and-how-can-it-help-protect-me-1c9a874a-6826-be5e-45b1-67fa445a74c8)
+
+- [Google SafeBrowsing](https://safebrowsing.google.com/)
+
+- [iOS Native Bluetooth Guide](https://www.freecodecamp.org/news/ultimate-how-to-bluetooth-swift-with-hardware-in-20-minutes/)
+
+- [On malicious tracking of users using iOS Native Apps bluetooth](https://www.fastcompany.com/90386781/ios-13s-new-bluetooth-privacy-feature-is-important-but-confusing)
+
+- Cor Doctorow - *Former European director of the Electronic Frontier Foundation* - [On Apple's stance on privacy](https://twitter.com/doctorow/status/1459914164152016905)
+
+- [Apple's Advertising Identifier](https://en.wikipedia.org/wiki/Identifier_for_Advertisers)
+
+- Geoffrey Fowler And Tatum Hunter - *Washington Post* - [iPhone Tracking](https://www.washingtonpost.com/technology/2021/09/23/iphone-tracking/)
+
+- Alex Russell -  *Program Manager on Microsoft Edge* - [On IAB and Browser Choice](https://infrequently.org/2021/07/hobsons-browser/#:~:text=Known%20as%20the%20%22Android%20Google%20Search%20App%22%20(%22AGSA%22%2C%20or%20%22AGA%22)%2C%20this%20humble%20text%20input%20is%20the%20source%20of%20a%20truly%20shocking%20amount%20of%20web%20traffic%3B%20traffic%20that%20all%20goes%20to%20Chrome%2C%20no%20matter%20the%20user%27s%20choice%20of%20browser)
+
+- John Koetsier - *Forbes* - [On Apple secretly buying advertising for other companies](https://www.forbes.com/sites/johnkoetsier/2021/11/12/apple-quietly-buying-ads-via-google-for-high-value-subscription-apps-to-capture-app-publisher-revenue/?sh=67998df71b52)
+
+- *Mac Rumors* - [On Apple’ 2021 1st half profit](https://www.macrumors.com/2021/06/29/app-store-revenue-h1-2021-42-billion/)
+
+- Austin Carr - *Bloomberg* - [On Apples 30% Gatekeeper fee](https://www.bloomberg.com/news/newsletters/2021-05-03/apple-s-30-fee-an-industry-standard-is-showing-cracks)
+
+- Russell Brandom  - *The Verge* - [On Apple iMessage](https://www.theverge.com/2021/4/9/22375128/apple-imessage-android-ecosystem-lock-in-epic-games-filings-app-store-dispute)
+
+- *Apple Scoop* - [On why the Mac OS Store is not successful](https://applescoop.org/story/apple-execs-discuss-why-the-mac-app-store-has-not-been-successful-in-internal-email)
+
+- [Photoshop on the web](https://web.dev/ps-on-the-web/)
+
+- [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
+
+- [SIMD](https://developer.mozilla.org/en-US/docs/Glossary/SIMD)
+
+- [Private File System Origin Trial](https://web.dev/file-system-access/#accessing-files-optimized-for-performance-from-the-origin-private-file-)
+
+- Alex Russell -  *Program Manager on Microsoft Edge* - [On WebStandards](https://infrequently.org/2020/07/why-ui-isnt-specified/)
+
+- [Apple received 9% of Gross Profit from Google Search Engine deal](https://www.forbes.com/sites/johanmoreno/2021/08/27/google-estimated-to-be-paying-15-billion-to-remain-default-search-engine-on-safari/)
+
+- Rep. Regina Cobb - *A Republican state lawmaker in Arizona* - [On Apple’s aggressive lobbying](https://www.politico.com/news/2021/08/20/apple-takes-on-state-legislatures-georgia-506299)
+
+- Joshua Long - [Apple’s Poor Patching Policies Potentially Make Users’ Security and Privacy Precarious](https://www.intego.com/mac-security-blog/apples-poor-patching-policies-potentially-make-users-security-and-privacy-precarious)
+
+- Charlie Warzel - [New York Times on privacy and native apps tracking](https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html)
+
+- Sara Morrison - [VOX on harvesting data via native apps](https://www.vox.com/platform/amp/recode/22587248/grindr-app-location-data-outed-priest-jeffrey-burrill-pillar-data-harvesting)
+
+- Bennett Cyphers - *Electronic Freedom Foundation* - [On harvesting data via native apps](https://www.eff.org/deeplinks/2020/06/apples-response-hey-showcases-whats-most-broken-about-apple-app-store)
+
+  </div>
+</div>

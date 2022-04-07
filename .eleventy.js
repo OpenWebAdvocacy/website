@@ -57,7 +57,11 @@ function buildMarkdownLibrary() {
     level: 1,
     permalink: markdownItAnchor.permalink.ariaHidden({
       placement: 'before'
-    })
+    }),
+    slugify(s) {
+      const formatted = String(s).trim().toLowerCase().replace(/^[\d.]+\s/g, '').replace(/\s+/g, '-');
+      return encodeURIComponent(formatted);
+    }
   });
 
   return mdParser;

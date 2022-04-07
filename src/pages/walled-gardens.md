@@ -57,7 +57,7 @@ isWG: true
 
 ## <span id="sec02">2. Preface</span>
 
-To the Safari/Webkit Team,
+*To the Safari/Webkit Team*,
 
 To anyone who works on Safari/Webkit who reads this document, the authors would like to note that all criticism of Safari/Webkit is aimed squarely at Apple and Apple's upper management.
 
@@ -252,7 +252,8 @@ Despite this uniquely anti-competitive situation, Apple has managed to evade reg
 
 Microsoft’s IE6 was once the dominant browser with a 95% market share<sup>1</sup> due to its pre-installation on Windows. Without competition on the Windows platform, browser development remained stagnant for years until Firefox’s market share triggered Microsoft to start investing in browsers once again. At no point did Microsoft ban competing browsers as Apple has done.
 
-<sup>1</sup>:"Usage share of web browsers - Wikipedia." [https://en.wikipedia.org/wiki/Usage_share_of_web_browsers](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers). Accessed 23 Jun. 2021.
+<sup>1</sup>:"[Usage share of web browsers - Wikipedia](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers)".
+Accessed 23 Jun. 2021.
 
 
 #### 5.3.1. Hobbled Competition even within Safari clones
@@ -440,12 +441,30 @@ You can see in the example taken from Apple’s documentation that a **link to t
 
 To install a Web App on iOS the current process is as follows:
 
-| ![A circled example of the share button in iOS Safari](/images/walled-gardens/18_ios-web-install-step-1.png) 1. The user must know to hit this “share” button. Even this share button can be obscured if the user has scrolled, because the bottom bar is hidden away. |
-| ------------------------------------------------------------ |
-| ![An example of the iOS share panel open at the bottom of the screen with various share options](/images/walled-gardens/19_ios-web-install-step-2.png) 2. This causes a bottom panel to be displayed on screen. Then the user<strong> must know</strong> to scroll down that panel. At this point it is obvious that installing Web Apps is deeply obscured. |
-| ![A circled example of the "Add to Home Screen" action in the iOS Safari share drawer](/images/walled-gardens/20_ios-web-install-step-3.png) 3. Then the user must hit the "Add to Home Screen" button.   |
-| ![An "Add to Home Screen" view with details of a web page in addition to "Cancel" and "Add" buttons](/images/walled-gardens/21_ios-web-install-step-4.png) 4. Then the user must hit “Add”.                             |
-| ![A view of the iOS home screen with an icon for the added web page](/images/walled-gardens/22_ios-web-install-step-5.png) 5. Finally the Web App appears on the user's home screen.    |
+<figure>
+  <img src="/images/walled-gardens/18_ios-web-install-step-1.png" alt="A circled example of the share button in iOS Safari" />
+  <figcaption>1. The user must know to hit this “share” button. Even this share button can be obscured if the user has scrolled, because the bottom bar is hidden away.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/walled-gardens/19_ios-web-install-step-2.png" alt="An example of the iOS share panel open at the bottom of the screen with various share options" />
+  <figcaption>2. This causes a bottom panel to be displayed on screen. Then the user<strong> must know</strong> to scroll down that panel. At this point it is obvious that installing Web Apps is deeply obscured.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/walled-gardens/20_ios-web-install-step-3.png" alt="A circled example of the "Add to Home Screen" action in the iOS Safari share drawer" />
+  <figcaption>3. Then the user must hit the "Add to Home Screen" button.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/walled-gardens/21_ios-web-install-step-4.png" alt="An "Add to Home Screen" view with details of a web page in addition to Cancel and Add buttons" />
+  <figcaption>4. Then the user must hit “Add”.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/walled-gardens/22_ios-web-install-step-5.png" alt="A view of the iOS home screen with an icon for the added web page" />
+  <figcaption>5. Finally the Web App appears on the user's home screen.</figcaption>
+</figure>
 
 Other “browsers” on iOS **do not have the ability to install Web Apps**.
 
@@ -1496,7 +1515,7 @@ Third Party Browsers that do not abide by these rules can be removed, with appea
 _Please note that the authors are software experts not lawyers. We simply want to convey the intent, structure and content of potential regulation._
 
 
-### 11.5. REGULATION
+### 11.5. Regulation
 
 In all aspects of regulatory oversight, we envision that regulators continue to be involved deeply in the enforcement of rules that accompany findings of fact from these enquiries. Such oversight might create mechanisms of appeal for competitors, hands-on regulatory intervention in day-to-day rule-change proposals by Gatekeepers, or mechanisms for statutory relief. We don’t presume to know the correct mix of these remedies, but the goals of enforcement are more clear.
 

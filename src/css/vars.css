@@ -16,6 +16,7 @@
         U+20AC, U+2113, U+2122, U+212E, U+2191, U+2193, U+2202, U+2206,
         U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248,
         U+2260, U+2264-2265, U+25CA, U+FB00-FB05, U+FEFF;
+   font-display: optional;
 }
 
 :root {
@@ -37,4 +38,5 @@
   --highlight-color: #007A78;
   --n-light: #EBEBEB;
   --n-dark: #333;
+  --alert: #BD0000;
 }

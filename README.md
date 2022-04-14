@@ -1,5 +1,7 @@
 # Open Web Advocacy Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6ca86e2c-f78f-4dee-a51d-6699afe30e2c/deploy-status)](https://app.netlify.com/sites/cool-elf-8eb15a/deploys)
+
 This repository contains the source code for and notes related to the Open Web Advocacy website.
 
 The Open Web Advocacy website resides at [open-web-advocacy.org](https://open-web-advocacy.org).

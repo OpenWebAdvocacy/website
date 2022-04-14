@@ -293,6 +293,34 @@ div.site-header__inner {
   max-width: 200px;
 }
 
+.header-anchor {
+  position: absolute;
+  margin-left: -1em;
+  opacity: 0;
+  text-decoration: none;
+  padding: 0 0.2em;
+  transition: opacity ease-in-out 80ms;
+}
+
+h1:hover .header-anchor,
+h2:hover .header-anchor,
+h3:hover .header-anchor,
+h4:hover .header-anchor,
+h5:hover .header-anchor,
+h6:hover .header-anchor,
+.header-anchor:hover {
+  opacity: 0.6;
+}
+
+h1:focus,
+h2:focus,
+h3:focus,
+h4:focus,
+h5:focus,
+h6:focus {
+  outline: none;
+}
+
 
 /* ---------------------- FOOTER ------------------------ */
 

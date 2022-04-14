@@ -1,9 +1,15 @@
+// Eleventy Plugins
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
+
+// Markdown Libraries
+const markdownIt = require('markdown-it');
+const markdownItAnchor = require('markdown-it-anchor');
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
+// Utils
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
 module.exports = config => {
@@ -28,6 +34,9 @@ module.exports = config => {
   // Pass through css
   config.addPassthroughCopy('./src/css');
 
+  // Set custom markdown library
+  config.setLibrary('md', buildMarkdownLibrary());
+
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
@@ -38,3 +47,22 @@ module.exports = config => {
     }
   };
 };
+
+function buildMarkdownLibrary() {
+  const mdParser = markdownIt({
+    html: true,
+  });
+
+  mdParser.use(markdownItAnchor, {
+    level: 1,
+    permalink: markdownItAnchor.permalink.ariaHidden({
+      placement: 'before'
+    }),
+    slugify(s) {
+      const formatted = String(s).trim().toLowerCase().replace(/^[\d.]+\s/g, '').replace(/\s+/g, '-');
+      return encodeURIComponent(formatted);
+    }
+  });
+
+  return mdParser;
+}

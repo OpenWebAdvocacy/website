@@ -1,61 +1,14 @@
 ---
 title: 'Bringing Competition to Walled Gardens'
 permalink: '/walled-gardens-report/'
-layout: 'layouts/page.njk'
+layout: 'layouts/paper.njk'
 metaDesc: 'The full Bringing Competition to Walled Gardens report, published by Open Web Advocacy.'
-isWG: true
+subtitle: 'Third Party Browsers & Web Apps - VERSION 1.0'
+paperName: 'OWA - Bringing Competition to Walled Gardens - v1.0'
+paperSize: '9.2MB'
 ---
 
-<div class="article-data">
-  <p class="baseline">Third Party Browsers & Web Apps - VERSION 1.0</p>
-
-  <p class="p-author">
-    By <strong>Open Web Advocacy</strong>
-    <a href="mailto:contactus@open-web-advocacy.org">contactus@open-web-advocacy.org</a>
-  </p>
-
-  <p class="download">You can also download the
-    <a href="https://open-web-advocacy.org/OWA - Bringing Competition to Walled Gardens - v1.0.pdf">PDF version</a> [8.9Mb]
-  </p>
-</div>
-
-<div class="grid3-1">
-
-<div class="toc flow">
-
-<details>
-<summary>
-
-## 1. Table of Contents
-
-</summary>
-
-<div class="flow">
-
-  <ul>
-    <li><a href="#sec02">Preface</a></li>
-    <li><a href="#sec03">Introduction</a></li>
-    <li><a href="#sec04">Effective competition?</a></li>
-    <li><a href="#sec05">Apple is Holding Back the Open Web</a></li>
-    <li><a href="#sec06">Negative Consequences for Consumers and Businesses</a></li>
-    <li><a href="#sec07">Apple's Incentives</a></li>
-    <li><a href="#sec08">Arguments Against Third Party Browsers</a></li>
-    <li><a href="#sec09">The Web Can Be Capable</a></li>
-    <li><a href="#sec10">The Future of the Web</a></li>
-    <li><a href="#sec11">Potential Regulatory Solutions</a></li>
-    <li><a href="#sec12">Bright Future for Competition</a></li>
-    <li><a href="#sec13">Further Reading</a></li>
-    <li><a href="#sec14">References</a></li>
-  </ul>
-
-</div>
-</details>
-
-</div>
-
-<div class="content flow">
-
-## <span id="sec02">2. Preface</span>
+## 2. Preface
 
 *To the Safari/Webkit Team*,
 
@@ -75,7 +28,7 @@ It is our hope that with this competition Apple will come to realize the great i
 
 **Thank-you for your hard work and for everything you’ve given us**, we hope you will continue to fight for a better open-web.
 
-## <span id="sec03">3. Introduction</span>
+## 3. Introduction
 
 The entire future of the **consumer application industry** is being heavily limited by Apple’s ban of third party browsers. These actions prevent cross-compatibility between devices, and create significant barriers for new market entrants. For businesses and consumers, it greatly increases costs and enables Apple to lock them into their closed ecosystem. This reduces competition for both browsers and applications, and shifts the cycle of investment and funding from an open and free platform to proprietary closed platforms, driving up prices for consumers and developers.
 
@@ -145,7 +98,7 @@ To the end user a well written Web App should be indistinguishable from a native
 
 **“Browser Vendor”** - The entity that makes the browser.
 
-## <span id="sec04">4. Effective Competition?</span>
+## 4. Effective Competition?
 
 > “Businesses that face effective competition dare not raise prices, or cut down on quality standards, for fear of losing customers to their competitors (and so losing money)” <br> [Dr Michael Grenfell](https://www.gov.uk/government/speeches/michael-grenfell-should-competition-authorities-intervene-in-digital-markets)
 
@@ -164,7 +117,7 @@ Even Apple executives appear to be aware only their stranglehold on iOS installa
 > "Neither is on the store because they don't have to be. They can be on Mac and distribute to users without sharing the revenue with us" <br> [Philip Schiller - Apple Upper Management - On the Mac App Store](https://applescoop.org/story/apple-execs-discuss-why-the-mac-app-store-has-not-been-successful-in-internal-email)
 
 
-## <span id="sec05">5. Apple is Holding Back the Open Web</span>
+## 5. Apple is Holding Back the Open Web
 
 > "Instead, Apple is inhibiting this future Internet. And it does so via tolls, controls, and technologies that not only deny what made and still makes the open web so powerful, but also prevents competition, and prioritize Apple’s own profits." <br>[Matthew Ball - Venture Capitalist, Writer](https://www.matthewball.vc/all/applemetaverse)
 
@@ -956,7 +909,7 @@ Using IAB (In App Browsers) to deny users choice is a very complex topic. [This 
 It is our opinion that mass market operating systems and major applications should as much as possible provide users with the means of selecting a default browser (complete with its engine) and respect it. Additionally they should avoid using dark patterns or misleading interfaces to favour their own browser.
 
 
-## <span id="sec06">6. Negative Consequences for Consumers and Businesses</span>
+## 6. Negative Consequences for Consumers and Businesses
 
 It’s worth taking a moment to discuss why holding back the Web as an application platform, banning the rival browsers and having the iOS App Store be the only viable development platform on iOS is causing real harm to both consumers and businesses.
 
@@ -1020,7 +973,7 @@ One of the published emails allegedly sent by Apple's legal representatives -- d
 
 > "In Sweatshop HD’s case, what is in fact a tasteful commentary aiming to raise awareness of modern-day manufacturing commissions through bright, addictive gameplay mechanics — in other words, an artistic statement — is being banned because Apple seemingly doesn’t want that awareness being raised." <br> [John Brownlee - Cult of Mac](https://www.cultofmac.com/220790/why-apples-reason-for-kicking-a-sweatshop-game-out-of-the-app-store-is-total-hypocrisy/)
 
-## <span id="sec07">7. Apple's Incentives</span>
+## 7. Apple's Incentives
 
 
 ### 7.1. Advantages of the status quo for Apple
@@ -1098,7 +1051,7 @@ It could be argued this is an overly conspiratorial view of how Apple's manageme
 
 > “iMessage on Android would simply serve to remove [an] obstacle to iPhone families giving their kids Android phones ... moving iMessage to Android will hurt us more than help us, this email illustrates why.” <br> [Craig Federighi - Apple's Senior Vice President of Software Engineering](https://www.theverge.com/2021/4/9/22375128/apple-imessage-android-ecosystem-lock-in-epic-games-filings-app-store-dispute)
 
-## <span id="sec08">8. Arguments Against Third Party Browsers</span>
+## 8. Arguments Against Third Party Browsers
 
 To our knowledge Apple has never published a detailed defense on why they feel justified in banning all rival third party browsers from iOS. That said, the following three sections contain arguments that others have made on Apple's behalf.
 
@@ -1268,7 +1221,7 @@ Apple is wildly inconsistent in how it approaches privacy on Native and on the W
 Apple's commitment to privacy on the web is admirable but the uneven enforcement between the iOS App Store where they command a 15-30% tax and the Web where they have none **implies that it is simply a tactical tool to block competition.**
 
 
-## <span id="sec09">9. The Web Can Be Capable</span>
+## 9. The Web Can Be Capable
 
 > “The fact that web apps aren’t able to fully compete with iOS apps **is an Apple problem, not a web problem**” <br> [Richard MacManus - NewsStack](https://thenewstack.io/apples-browser-engine-ban-is-holding-back-web-app-innovation/)
 
@@ -1310,7 +1263,7 @@ Given how large Photoshop documents can be, Photoshop needs the ability to dynam
 Photoshop’s reputation as a demanding application demonstrates that nearly any sort of program can be delivered today as a Web App on a capable browser. Given the speed of progress in the best browsers, it’s hard to imagine that the gap between Native and Web in terms of performance/capability will not continue to shrink.
 
 
-## <span id="sec10">10. The Future of the Web</span>
+## 10. The Future of the Web
 
 If effective competition was restored to the mobile web then the advantages to users are:
 
@@ -1411,7 +1364,7 @@ Example of iOS permission settings screen:
 ![A view of the iOS permission settings screen for WeChat showing toggles for many iOS features](/images/walled-gardens/39_ios-permission-settings.png)
 
 
-## <span id="sec11">11. Potential Regulatory Solutions</span>
+## 11. Potential Regulatory Solutions
 
 To bring effective competition to both browsers on iOS and to allow Web Apps to effectively compete with the App Store (as Apple has suggested they can), regulation should mandate opening up iOS to true third-party browsers, complete with their own engines.
 
@@ -1554,7 +1507,7 @@ These proposed regulations should be subject to an open comment period to allow 
 <sup>2</sup> A browser engine (also known as a layout engine or rendering engine) is a core software component of every major web browser. The primary job of a browser engine is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.
 
 
-## <span id="sec12">12. Bright Future for Competition</span>
+## 12. Bright Future for Competition
 
 If third party browsers were allowed, with full access to all the APIs that Apple gives Safari, this would provide Apple the incentive to keep pace with the other browsers and give consumers a means of voting with their feet by moving to a competing browser if they fail to do so.
 
@@ -1567,7 +1520,7 @@ A ban on third-party browsers benefits Apple and harms users, developers and bus
 **Competition not walled gardens leads to the best outcomes.**
 
 
-## <span id="sec13">13. Further Reading</span>
+## 13. Further Reading
 
 
 ### 13.1. Alex Russell - Browser Choice Must Matter
@@ -1598,7 +1551,7 @@ Bruce Lawson presentation to the UK’s Competition and Markets Authority about 
 Stuart Langridge’s presentation to the UK’s Competition and Markets Authority about various privacy and security aspects on iOS.
 
 
-## <span id="sec14">14. References</span>
+## 14. References
 
 - Thomas Claburn - *The Register* -  <a href="https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/#:~:text=We%20asked%20Apple%20about%20the%20IndexedDB%20bug%20and%20whether%20its%20Safari%20team%20is%20understaffed%20compared%20to%20the%20competition.%20We%20would%20be%20stunned%20if%20it%20chose%20to%20reply" data-title="On Safari Underfunding">On Safari Underfunding</a>
 
@@ -1825,6 +1778,3 @@ New York Times on privacy and native apps tracking</a>
 - Bennett Cyphers - *Electronic Freedom Foundation* -
 <a href="https://www.eff.org/deeplinks/2020/06/apples-response-hey-showcases-whats-most-broken-about-apple-app-store" data-title="On harvesting data via native apps">
 On harvesting data via native apps</a>
-
-  </div>
-</div>

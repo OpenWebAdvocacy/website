@@ -1,5 +1,6 @@
 // Eleventy Plugins
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
+const tocPlugin = require('eleventy-plugin-toc');
 
 // Markdown Libraries
 const markdownIt = require('markdown-it');
@@ -8,6 +9,7 @@ const markdownItAnchor = require('markdown-it-anchor');
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
+const cleanTocFilter = require('./src/filters/clean-toc-filter.js');
 
 // Utils
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
@@ -16,9 +18,14 @@ module.exports = config => {
   // Add filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
+  config.addFilter('cleanTocFilter', cleanTocFilter);
 
   // Plugins
   config.addPlugin(rssPlugin);
+  config.addPlugin(tocPlugin, {
+    tags: ['h2'],
+    ul: true,
+  });
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {
@@ -33,6 +40,9 @@ module.exports = config => {
 
   // Pass through css
   config.addPassthroughCopy('./src/css');
+
+  // Pass through papers
+  config.addPassthroughCopy('./src/papers');
 
   // Set custom markdown library
   config.setLibrary('md', buildMarkdownLibrary());

@@ -1,0 +1,49 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+
+<article class="h-entry [ post ] [ flow ]">
+  <h1 class="p-name">{{ title }}</h1>
+  <div class="article-data">
+    {% if subtitle %}
+      <p class="baseline">{{ subtitle }}</p>
+    {% endif %}
+
+    <p class="p-author">
+      By <strong>Open Web Advocacy</strong>
+      <a href="mailto:contactus@open-web-advocacy.org">contactus@open-web-advocacy.org</a>
+    </p>
+
+    {% if paperName %}
+      <p class="download">You can also download the
+        <a href="/papers/{{ paperName }}.pdf">PDF version</a> [{{ paperSize}}]
+      </p>
+    {% endif %}
+  </div>
+
+  <div class="grid3-1">
+
+    <div class="toc flow">
+
+      <details>
+        <summary>
+
+          <h2>1. Table of Contents</h2>
+
+        </summary>
+
+        <div class="flow">
+
+          {{ content | toc | cleanTocFilter | safe }}
+
+        </div>
+      </details>
+
+    </div>
+
+    <div class="content flow">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>
+{% endblock %}

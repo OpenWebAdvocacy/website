@@ -43,12 +43,12 @@
       <div class="inner-wrapper">
         <main tabindex="-1" id="main-content" class="inner">
           {% block content %}{% endblock %}
-          {% if isWG %}
+          {% if 'paper.njk' in layout %}
           {% else %}
             {% set postListItems = collections.blog %}
           {% endif %}
         </main>
-        {% if isWG %}
+        {% if 'paper.njk' in layout %}
         {% else %}
           {% include "partials/aside.njk" %}
         {% endif %}

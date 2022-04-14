@@ -41,8 +41,8 @@ module.exports = config => {
   // Pass through css
   config.addPassthroughCopy('./src/css');
 
-  // Pass through papers
-  config.addPassthroughCopy('./src/papers');
+  // Pass through files
+  config.addPassthroughCopy('./src/files');
 
   // Set custom markdown library
   config.setLibrary('md', buildMarkdownLibrary());

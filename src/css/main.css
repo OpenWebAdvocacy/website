@@ -102,6 +102,9 @@ blockquote {
   padding-left: 3.5rem;
 	margin-bottom: var(--flow-space);
 }
+blockquote p {
+	font-size: 1.125rem;
+}
 blockquote p:last-of-type {
 	font-size: 80%;
 	margin-top: 0.8em;
@@ -109,7 +112,7 @@ blockquote p:last-of-type {
 
 blockquote::before {
 	position: absolute;
-	width: 1em;
+	width: 0.5em;
 	top: -0.15em;
 	left: 0;
 	content: "\201F";
@@ -665,6 +668,18 @@ ul.press-list {
 		padding: 0.5rem 0 1rem 1rem;
 		border-left: 1px solid var(--main-color);
 	}
+
+div.gallery figure {
+	flex: 1;
+	display: flex;
+	flex-direction: column-reverse;
+	background-color: var(--body-bg);
+	padding: 0;
+}
+div.gallery figcaption {padding: 0 0 1rem;}
+div.gallery figcaption::before {content: none;}
+
+div.screenshot {max-width: 350px;}
 
 /* ------------------------- BLOGPOST ------------------------- */
 

@@ -399,7 +399,7 @@ On Android devices, the process for installing a Web App on either Firefox or Ch
 
 Developers have a huge freedom of choice and can add installers in headers, footers, menu bars, and temporary pop-ups backed [by an open API](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent). This ensures that there is minimal difficulty installing a Web App on Android.
 
-<div class="gallery">
+<div class="gallery screens">
   <img src="/images/walled-gardens/04_install-banner-top.png" alt="Mockup view of web app install banner at top of window" />
   <img src="/images/walled-gardens/05_install-banner-bottom.png" alt="Mockup view of web app install banner across webpage" />
   <img src="/images/walled-gardens/06_install-banner-sidebar.png" alt="Mockup view of web app install banner in sidebar" />
@@ -482,7 +482,7 @@ Apple’s addition of this feature while at the same time ensuring that Web Apps
 
 Apple has a technology called [Smart App Banners](https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners).  These are little banners that appear in Safari when visiting a url that matches the universal link patterns set for an App or by including a special meta tag.
 
-<div class="gallery">
+<div class="gallery screens">
   <img src="/images/walled-gardens/25_ios-smart-banner-open.png" alt="iOS Safari shown an Ocean Journal website with a banner at the top to open in the Ocean Journal app" />
   <img src="/images/walled-gardens/26_ios-smart-banner-view.png" alt="iOS Safari shown an Ocean Journal website with a banner at the top to view in the Ocean Journal app" />
 </div>
@@ -1469,8 +1469,11 @@ Finally to make the experience truly equivalent and to enable users to sensibly 
 
 Example of iOS permission settings screen:
 
+<div class="screenshot">
 
 ![A view of the iOS permission settings screen for WeChat showing toggles for many iOS features](/images/walled-gardens/39_ios-permission-settings.png)
+
+</div>
 
 
 ## 11. Potential Regulatory Solutions

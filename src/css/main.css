@@ -679,6 +679,10 @@ div.gallery figure {
 div.gallery figcaption {padding: 0 0 1rem;}
 div.gallery figcaption::before {content: none;}
 
+div.gallery.screens img, div.screenshot img {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 div.screenshot {max-width: 350px;}
 
 /* ------------------------- BLOGPOST ------------------------- */

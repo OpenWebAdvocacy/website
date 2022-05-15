@@ -719,6 +719,8 @@ div.screenshot {max-width: 350px;}
 	margin: .25rem;
 }
 
+ol.alpha {list-style-type: lower-alpha;}
+
 /* --------------------- WALLED GARDENS PAGE ------------------ */
 
 div.article-data {

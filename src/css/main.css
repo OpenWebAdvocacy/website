@@ -45,9 +45,10 @@ header, footer, main, nav, aside, article, section, figure, figcaption {
 /* ---------------------- GLOBALS ------------------------ */
 
 body {
+	font: 100%/1.5 var(--stack);
+	font-display: optional;
   color: var(--body-text);
-	 background: var(--body-bg);
-  font: 100%/1.5 var(--stack);
+	background: var(--body-bg);
 }
 
 h1, h2, h3 {
@@ -679,6 +680,10 @@ div.gallery figure {
 div.gallery figcaption {padding: 0 0 1rem;}
 div.gallery figcaption::before {content: none;}
 
+div.gallery.screens img, div.screenshot img {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 div.screenshot {max-width: 350px;}
 
 /* ------------------------- BLOGPOST ------------------------- */
@@ -714,6 +719,8 @@ div.screenshot {max-width: 350px;}
 	display: inline-block;
 	margin: .25rem;
 }
+
+ol.alpha {list-style-type: lower-alpha;}
 
 /* --------------------- WALLED GARDENS PAGE ------------------ */
 

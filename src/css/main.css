@@ -45,9 +45,10 @@ header, footer, main, nav, aside, article, section, figure, figcaption {
 /* ---------------------- GLOBALS ------------------------ */
 
 body {
+	font: 100%/1.5 var(--stack);
+	font-display: optional;
   color: var(--body-text);
-	 background: var(--body-bg);
-  font: 100%/1.5 var(--stack);
+	background: var(--body-bg);
 }
 
 h1, h2, h3 {

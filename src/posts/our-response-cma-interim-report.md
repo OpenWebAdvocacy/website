@@ -31,9 +31,8 @@ You can read our [response with suggested browser and web-app remedies (PDF)](/f
 
 ## 2. Introduction
 We agree overwhelmingly with the findings of fact and, with comments, agree that the
-proposed interventions contained within the CMA’s December 14th, 2021 “(Mobile ecosystems
-market study interim report)
-[https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report]”
+proposed interventions contained within the CMA’s December 14th, 2021 “[Mobile ecosystems
+market study interim report](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report)”
 are both warranted and timely.
 
 

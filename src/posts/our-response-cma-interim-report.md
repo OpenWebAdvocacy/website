@@ -128,16 +128,16 @@ prevent gaming by Apple.
 
 ## 3. Effective Competition?
 
-> &ldquo:Businesses that face effective competition dare not raise prices, or cut down on quality
+> &ldquo;Businesses that face effective competition dare not raise prices, or cut down on quality
 > standards, for fear of losing customers to their competitors (and so losing money)&rdquo;
 >
 > &mdash; [Dr Michael Grenfell](https://www.gov.uk/government/speeches/michael-grenfell-should-competition-authorities-intervene-in-digital-markets)
 
-> &ldquo:For the foreseeable future, iOS will be the dominant access pathway, passport,
+> &ldquo;For the foreseeable future, iOS will be the dominant access pathway, passport,
 > monetizer and platform for not just digital life, but virtual ones. Apple holds this role
 > because it makes best-in-class hardware, offers the best apps, and operates the most
 > lucrative app store.&rdquo;
->    
+>
 > &mdash; [Matthew Ball - Venture Capitalist, Writer](https://www.matthewball.vc/all/applemetaverse)
 
 iOS Safari faces no effective competition as Apple has banned competing engines. These

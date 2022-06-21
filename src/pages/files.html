@@ -1,0 +1,14 @@
+---
+title: 'Files'
+permalink: '/files/'
+metaDesc: 'An index of the documents available on the site'
+layout: 'layouts/page.njk'
+---
+
+<p>Here is a list of files available in this directory of the site:</p>
+
+<ul>
+  {% for file in files %}
+    <li><a href="{{ file.uri }}">{{ file.name }}</a> [{{ file.size }}]</li>
+  {% endfor %}
+</ul

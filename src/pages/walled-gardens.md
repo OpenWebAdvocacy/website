@@ -851,6 +851,31 @@ While developers producing these types of extensions are almost certainly just t
 2. iOS Native has poor privacy protection relative to Web Bluetooth and the developer of these extensions would need to attempt to replicate all the mitigations in the extension itself.
 3. It is arguably a [dark pattern](https://theconversation.com/what-are-dark-patterns-an-online-media-expert-explains-165362) to discourage usage of Web Apps vs Native Apps to add extra hoops for users wanting to use Bluetooth on the web. This style of solution would presumably be unacceptable for Native Apps.
 
+##### 5.5.2.5. Apple's Identifier for Advertisers (IDFA)
+
+> "Apple has a tactical commitment to your privacy, not a moral one. When it comes down to guarding your privacy or losing access to Chinese markets and manufacturing, **your privacy is jettisoned without a second thought.**"
+> <cite>[Cory Doctorow - Former European director of the Electronic Frontier Foundation](https://twitter.com/doctorow/status/1459914164152016905)</cite>
+
+Given Apple’s strong stance on user privacy on the web, to the point of rejecting extremely useful functionality on the mere possibility that a user could be assigned a unique identifier it may surprise readers to learn that **Apple offers a method to uniquely fingerprint users** in native apps called [Apple's Identifier for Advertisers (IDFA)](https://en.wikipedia.org/wiki/Identifier_for_Advertisers).
+
+Up until iOS 10 there was no way for users to disable this, starting in iOS 14 users are asked via this slightly ambiguous prompt if they consent (about 20% of users have turned this operating system provided fingerprint off).
+
+Even when users do turn this functionality off, due to Natives' very permissive privacy and security model (relative to the Web) Apps can continue to fingerprint users.
+
+> "Our investigation found the iPhone’s tracking protections are nowhere nearly as comprehensive as Apple’s advertising might suggest. We found at least three popular iPhone games share a substantial amount of identifying information with ad companies, even after being asked not to track. <br />
+When we flagged our findings to Apple, it said it was reaching out to these companies to understand what information they are collecting and how they are sharing it. After several weeks, nothing appears to have changed."
+> <cite>[Geoffrey Fowler And Tatum Hunter - Washington Post](https://www.washingtonpost.com/technology/2021/09/23/iphone-tracking/)</cite>
+
+The only consistent privacy policy with Apple’s concern for uniquely fingerprinting users on the web and with users being tricked via prompt) would **be to remove this functionality from iOS altogether**.
+
+![iOS prompt asking if an application can track the user across apps and websites](/images/walled-gardens/30_allow-tracking-prompt.png)
+
+Apple has not announced any plans to entirely remove this functionality from iOS.  Apple’s privacy stance needs to be consistent to believe that they are doing it for the benefit of the user.  If they apply strict conditions that limit functionality on the web but allow pervasive tracking in native it can be argued they are providing pervasive tracking in the area which generates revenue while applying heavy restrictions beyond what is needed to prevent tracking on the other side.
+
+## 5.6. iOS Safari is Buggy
+
+
+
 
 
 ------

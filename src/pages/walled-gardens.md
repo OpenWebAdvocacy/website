@@ -33,6 +33,8 @@ Todos:
 
 ?? Should we include `markdown-it-attrs`, so we can do ![](){loading=lazy}, **strong**{.stressed}
 
+?? Should we try to use paint/layout containment to help the browser keep this doc in a reasonable shape, perf-wise? It's pretty darn long 😅
+
 Styling:
 
 * Refrain from doing italic, is hard to read?
@@ -42,7 +44,7 @@ Styling:
 
 <style>
 
-/** Add <p> styling for <bq /> */
+/* Add <p> styling for <bq /> */
 .flow > blockquote > * + * {
   margin-top: var(--flow-space, 1em);
 }
@@ -50,7 +52,7 @@ Styling:
   margin-top: 0.8em;
 }
 
-/** Add <cite /> or <bq /> */
+/* Add <cite /> or <bq /> */
 cite {
   font-size: 80%;
   margin-top: 0.8em;
@@ -58,6 +60,28 @@ cite {
 }
 cite:before {
   content: '\2014\00a0';
+}
+
+/* Add <table> styling */
+table {
+  width: 100%;
+  max-width: 70ch;
+  border: 1px solid var(--n-dark);
+  border-collapse: collapse;
+}
+tr {}
+thead tr {
+  background-color: var(--n-dark);
+  color: var(--text-inv);
+}
+tbody tr:nth-child(odd) {
+  background-color: var(--n-light);
+}
+th, td {
+  padding: 0.25rem 0.5rem;
+}
+th {
+  text-align: left;
 }
 
 </style>
@@ -349,6 +373,484 @@ This table exposes many anti-competitive issues, namely:
 4. Google’s refusal to provide competitors a method of minting WebAPK’s prevents competing browsers from producing viable Web Apps.
 
 ##### 5.4.3.1. Install Prompts (7+ Years Behind)
+
+The ability to install Web Apps with at least the same level as ease as a native app.  See [5.4.5. iOS Web App Installation - A well hidden Safari exclusive](#ios-web-app-installation---a-well-hidden-safari-exclusive) for more details.
+
+This enables the developer to prompt to install a Web App when a user visits a website.  For any implementation to be fair, it needs to match any requirements for native install prompts.
+
+Success Criteria Include:
+
+1. The prompt needs to appear **on the first** load of the website OR by developer request.  Since Apple acts as a gatekeeper they should not provide any preference to installing their own apps.
+2. The language used by the Install Prompts should not convey the idea that Web Apps are inferior to Native apps.  I.e.  they should use the same language as native apps.  “Install” instead of “Add to Homescreen”
+3. The UI should be at a minimum equal in encouraging a user to install an app as the UIs provided on websites for installing native apps.
+
+##### 5.4.3.2. Notifications (7+ Years behind other browsers, 13+ years behind native)
+
+Notifications are essential for a wide range of applications.  Without notifications many apps can not function (i.e. Messaging Apps, Social Media apps etc).  In general notification functionality should be equivalent to native.
+
+Success criteria for notifications include:
+
+1. The initial Enabling/Disable notifications prompt for an installed Web App should be equivalent to enabling notifications for a native app in terms of user experience and ease-of-use.
+
+2. Delivery of notifications is equivalent to native applications including as it applies to reliability, speed (i.e. the time it takes the notification to reach the device) and whether or not the notification wakes the device when it is in “sleep mode”.
+
+3. Users should be able to enable / disable notifications in system settings in the same manner and ease that they enable / disable native apps.
+
+##### 5.4.3.3. First Class Web Apps (5+ Years behind)
+
+“First Class Web Apps” is a general term that is used to describe a Web App that has equivalent integration into the operating system as a native app.
+
+This includes:
+
+1. Settings
+2. Quick Launch Menus
+3. Integration with Voice Assistants
+4. Storage
+
+Without full integration, this becomes a **significant barrier** to adoption.  Businesses (especially large ones) will not take the risk of building Web Apps if they have any significant issues). The overarching principle to ensure Web Apps are able to compete is equality with native apps. That is, installing and managing a Web App should not be worse than installing and managing a native app.
+
+There should be no suggestion to the user that a Web App is inferior or different from a native app.
+
+**Double Prompts and the Permission Problem**
+
+Currently on iOS Web Apps are not considered as “real” apps by the operating system.  They don’t show up on the settings menu, they don’t show up on App shortcuts, and they don’t appear on any of the privacy menus.
+
+With the current architecture, for a Web-App to have permission to perform an action, Safari must have that permission.  This is unobvious to all but experts. Therefore our recommendation is that permissions should be attached to the Web App itself and not to the browser.
+
+For Example:
+
+| Safari | Web App | Actual |
+| ------ | ------ | ------ |
+| Permission OFF | Permission ON | Permission ON |
+| Permission ON | Permission ON | Permission ON |
+| Permission OFF | Permission OFF | Permission OFF |
+
+i.e. If Safari has notifications OFF and AmazingWebApp has notification ON, AmazingWebApp can still send notifications.
+
+As the functionality of Web Apps in Safari improves, it will become critically important to enable users to have explicit control over what those Apps can and can’t do in a way **that a normal user can understand**.
+
+User’s need to be able to **easily grant and revoke permissions from web apps**. This is essential for the success of Web Apps. As an example if users can not easily and individually disable and enable notifications per app, then user’s might be more inclined to preemptively block them thus providing a significant advantage to native ecosystems.
+
+We recommend that all Web Apps should appear on the settings page and privacy pages identically to Native Apps.
+
+This should include:
+
+1. Settings (Appearing on the settings page and in search)
+2. Privacy (Location Services / Bluetooth / Camera / Microphone etc)
+3. General > iPhone Storage
+4. General > Background App Refresh
+5. Siri Suggestions (With no order preference to native apps)
+6. Singleton Installations (i.e. the ability to only install a Web App once) is likely to be a prerequisite.
+
+##### 5.4.3.4. App Store Support (3+ Years behind)
+
+Many companies will still want to list their Web Apps in the Apple AppStore.  Android already provides this functionality with [Trusted Web Activities](https://developer.chrome.com/docs/android/trusted-web-activity/).
+
+Apple should provide a method where developers who have signed up to the Apple Developer Program can use an API to submit Web Apps to the Apple AppStore.
+
+This should not require users to purchase an Apple Mac or require xcode (i.e. developers should be free to use Windows or Linux).  It’s our belief that this will help drive Web App adoption.
+
+##### 5.4.3.5. Fullscreen API (11+ years behind)
+
+Specific types of apps such as games require fullscreen to work properly. Apple currently only allows fullscreen for video and not for “canvas” which is required for games and other graphics intensive apps.
+
+##### 5.4.3.6. Badging (5+ years behind)
+
+[Badging](https://web.dev/badging-api/) which is outlined in more detail in section [5.4.4. Short Example](#short-example) allows the app to show a number to indicate the user that something has happened.
+
+Users need the ability to disable badging and this should be managed in the same way badging is managed for native apps.
+
+Success criteria include:
+
+1. Badges update at the same speed as native apps (including in the background)
+2. Badges can be enabled/disabled in the same manner as native apps.
+
+##### 5.4.3.7. Deep Links (7+ years behind)
+
+Deep links also known as [URL Protocol Handlers](https://web.dev/url-protocol-handler/) provide the ability to link into a Web App from another Web App or Native App via links.
+
+Note that the equivalent has been available for a [very long time](https://developer.apple.com/documentation/xcode/allowing-apps-and-websites-to-link-to-your-content) in native apps.
+
+##### 5.4.3.8. Screen Orientation Lock (10+ Years Behind)
+
+Screen Orientation Lock allows a user to lock the screen to either horizontal or vertical.  This is essential to many types of apps, but especially games.
+
+##### 5.4.3.9. Bluetooth (5+ Years Behind)
+
+Bluetooth allows apps to connect to printers / scanners / internet of things / toys.  There are entire categories of apps that can’t be built without Web Bluetooth.
+
+Discussed at length in [5.5.1. Fingerprinting and Web Device APIs](#fingerprinting-and-web-device-apis)
+
+##### 5.4.3.10. NFC (1+ Year Behind)
+
+Apple has mentioned in regulatory filings issues with NFC and what is called Card Emulation Mode, but they have also refused to implement the entire Web NFC specification in Safari even though it doesn’t include Card Emulation Mode. Since they have effectively banned all other third party browsers no other browser can provide NFC functionality.
+
+So far Apple has not provided any detailed reasoning as to why they are blocking this functionality besides the following:
+
+> "I'm not sure what specifics you're looking for but the issue is that we don't believe permission prompt is sufficient mitigation. Ordinary people don't understand the full security & privacy implications of granting NFC access when asked."
+> <cite>[Ryosuke Niwa - Apple](https://lists.webkit.org/pipermail/webkit-dev/2020-January/031034.html)</cite>
+
+The Web NFC specification contains an [extensive security and privacy section](https://w3c.github.io/web-nfc/#security), but Apple has made little effort to productively convey or solve any perceived security issues. By only providing NFC functionality via [its native ecosystem](https://developer.apple.com/documentation/corenfc) Apple effectively forces any developer that wishes to produce a mobile app with NFC to create a Native App where they can take a 30% cut.
+
+As part of our submission we would argue that Apple should not be able to block NFC access to third party browsers except where Apple applies on a **demonstrably** consistent basis to Apple's own Apps and Apps from the iOS App Store (**including by rules with analogous intent**).
+
+Additionally any blocks should be narrowly tailored to solve particular security issues and Apple should be compelled to publicly answer and publicly provide technical documentation to any reasonable questions related to these rules or the evidence for them.
+
+NFC has a huge range of current and future applications:
+
+* Cashless payments
+* Asset Tracking
+* Time / Attendance / Check-In
+    * Businesses
+    * Universities
+    * Schools
+* Opening Doors
+    * Hotels
+    * Houses
+    * Guest Access
+    * Corporate
+* Ticketing
+    * Major Events
+    * Cinemas, Sporting Events, Concerts
+* Transport (Public and Private)
+* Pharmaceuticals
+* Pairing Devices via Bluetooths
+* WIFI without passwords, Guest Wifi
+* Smart Posters
+* Smart Cards
+* Business Cards
+* Passports / IDs
+* Smart Home Integration
+* Anti-Counterfeiting of real products
+* App Shortcuts
+* Multi-Factor Authentication
+
+The door to innovation needs to be left open without Apple acting as the gatekeeper except to provide very **narrow scope, heavily justified** security, privacy or digital safety protections.
+
+Our current recommendation is that Apple be forced to provide hardware access to NFC to other third party browsers for the purposes of implementing the NFC specification (which currently only covers [NDEF](https://w3c.github.io/web-nfc/#ndef-compatible-tag-types) which is already provided to iOS native apps) and should be forced to expand that access as the Web NFC specification expands to cover other parts of NFC. In the case where Apple believes a security risk is too great to users, Apple should prove  the harm to users is greater than the loss of utility.
+
+##### 5.4.3.11. Other Important Functionality
+
+* General
+    * **Push Notifications**
+    * **SQL (WebSQL or equivalent replacement)**
+    * AV1/AVIF and VP8/VP9/WebP (open Media Codecs)
+    * Compression Streams
+    * **Keyboard Lock and Keyboard Layout APIs**
+    * Declarative Shadow DOM
+    * Reporting API
+    * Permissions API
+    * Screen Wakelock
+    * Intersection Observer V2
+    * Shared Workers and Broadcast Channels
+    * **Background Sync**
+    * Background Fetch API
+* Essential Media APIs
+    * Background Audio in Third Party Browsers and Web Apps. See [WebKit bug](https://bugs.webkit.org/show_bug.cgi?id=198277), fix took 3 years.
+    * Features and functionality in [PushKit](https://developer.apple.com/documentation/pushkit)
+    * Features and functionality in [CallKit](https://developer.apple.com/documentation/callkit)
+* Essential Web App APIs
+    * **Web App Install Prompts**
+    * PWA App Shortcuts
+    * getInstalledRelatedApps()
+    * Periodic Background Sync
+    * **Web Share Target**
+    * Content Indexing
+    * **Badging**
+* Device APIs
+    * **Web Bluetooth**
+    * **Web NFC**
+    * Web USB
+    * Web MIDI
+    * Web Serial
+    * Web HID
+    * Shape Detection
+    * Generic Sensors API
+* Gaming and 3D-related APIs
+    * **Fullscreen API** for `<canvas>` and other non-`<video>` elements
+    * **WASM Threads**
+    * Shared Array Buffers
+    * SIMD
+    * WebXR
+    * Offscreen Canvas
+
+The article [Progress Delayed is Progress Denied](https://infrequently.org/2021/04/progress-delayed/) is a detailed look at how far Safari has fallen behind in features.
+
+Not every developer needs every feature listed above but some are the critical missing piece required to build a Web App instead of a Native App. For competition between Web Apps and Native Apps it’s important to compare the functionality of Web Apps with Native Apps and not simply between browsers
+
+#### 5.4.4 Short Example
+
+To expand on each of these to explain why these missing features are important to developers would be a lengthy undertaking so instead we will highlight just a few and explain why they are essential to allow Web Apps to compete with the App Store. Please note that most of these capabilities or something analogous are possible in Native Applications.
+
+Imagine you were building a social networking App and decided to build it as a Web App instead of as a Native App.
+
+The two key pieces of functionality you would need to compete with the App Store would be being able to notify a user when they have received a new message (**Push Notifications**) and being able to add unread message count badges to the App Icon (**App Badging**). Both of these features are missing on iOS for Web Apps despite coming out for Native Apps more than 10 years ago. Multiple browsers support these features across many operating systems, both desktop and mobile whereas iOS Safari does not.
+
+[Twitter](https://twitter.com/) has built a high-quality Web App for Twitter that you can install on iOS but they still recommend you use the iOS Twitter App, likely due to these critical missing features.
+
+An App Badge showing a count of 29 on iOS in 2011:
+
+![iOS app badge example screenshot](/images/walled-gardens/03_ios-app-badge.png)
+
+Because of these missing features entire categories of apps can either not be built using the web or which ensure that the native app is significantly better.
+
+#### 5.4.5. iOS Web App Installation - A well hidden Safari exclusive
+
+Apple heavily preferences Native Apps while placing **strong limitations** on Web Apps.
+
+On Android devices, Web Apps are easy to find and install. Firefox / Chrome & Edge all provide functionality that allow developers to make installing Web Apps on Android simple, intuitive and easy.
+
+By comparison it can be very difficult to explain to a user how to install a web-app on iOS through Safari, as it is **hidden away** and requires multiple steps to find. It could be argued that Apple benefits from this as it will drive companies to use native apps. Apple makes it easy to install native apps with [Smart App Banners](https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners) while making it very difficult to install Web Apps.
+
+For the other reskinned/rebranded Safari WebView browsers (Chrome/Edge/Firefox) Apple has **blocked them from installing Web Apps**. This functionality is exclusive to Safari.
+
+##### 5.4.5.1. Android
+
+On Android devices, the process for installing a Web App on either Firefox or Chrome is very straightforward and there are many options as shown by the following examples taken from [web.dev](https://web.dev/promote-install/).
+
+Developers have a huge freedom of choice and can add installers in headers, footers, menu bars, and temporary pop-ups backed [by an open API](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent). This ensures that there is minimal difficulty installing a Web App on Android.
+
+<div class="gallery screens">
+  <img src="/images/walled-gardens/04_install-banner-top.png" alt="Mockup view of web app install banner at top of window" />
+  <img src="/images/walled-gardens/05_install-banner-bottom.png" alt="Mockup view of web app install banner across webpage" />
+  <img src="/images/walled-gardens/06_install-banner-sidebar.png" alt="Mockup view of web app install banner in sidebar" />
+  <img src="/images/walled-gardens/07_install-banner-inline.png" alt="Mockup view of web app install banner within page content" />
+  <img src="/images/walled-gardens/08_install-via-menu.png" alt="Mockup view of web app install banner in app menu" />
+  <img src="/images/walled-gardens/09_install-toast.png" alt="Mockup view of web app install banner bottom popup toast" />
+</div>
+
+Finally there is a clearly marked “**Install App**” on the main menu. As demonstrated there is **no barrier** to installing Web Apps on Android systems and is made easy for developers to add and users to use.
+
+<div class="gallery">
+  <img src="/images/walled-gardens/15_proxx-install-a.jpg" alt="proxx.app web app install banner example" />
+  <img src="/images/walled-gardens/16_proxx-install-b.jpg" alt="proxx.app web app install banner expanded" />
+</div>
+
+As a real life example, the game [PROXX](https://proxx.app) displays a pop-up bottom banner when you first play, sliding that up displays more information about the app. Tapping install can directly install the app although the exact experience differs between different manufacturers devices.
+
+##### 5.4.5.2. iOS Safari
+
+The process on iOS Safari is considerably more difficult and [quite a bit more hidden and awkward](https://brucelawson.co.uk/2021/briefing-to-the-uk-competition-and-markets-authority-on-apples-ios-browser-monopoly-and-progressive-web-apps/). The majority of users we have asked **do not know the functionality exists** and have never used it. Apple has [refused](https://bugs.webkit.org/show_bug.cgi?id=193959) to implement this feature without any good justification providing App Store apps a significant advantage over Web Apps.
+
+On iOS, Apple makes installing native apps very easy with [Smart App Banners](https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners) while making installing open Web Apps **as obscure as possible**. Even when on phone support with users it can be difficult to explain how to add a Web App. This is not a problem on Android.
+
+You can see in the example taken from Apple’s documentation that a **link to the native app is prominently displayed at the top of the screen.**
+
+<div class="screenshot">
+
+![oceanjournalweb.com webpage showing an app store install banner](/images/walled-gardens/17_ios-app-install-banner.png)
+
+</div>
+
+To install a Web App on iOS the current process is as follows:
+
+<figure>
+  <img src="/images/walled-gardens/18_ios-web-install-step-1.png" alt="A circled example of the share button in iOS Safari" />
+  <figcaption>1. The user must know to hit this “share” button. Even this share button can be obscured if the user has scrolled, because the bottom bar is hidden away.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/walled-gardens/19_ios-web-install-step-2.png" alt="An example of the iOS share panel open at the bottom of the screen with various share options" />
+  <figcaption>2. This causes a bottom panel to be displayed on screen. Then the user <em>must know</em> to scroll down that panel. At this point it is obvious that installing Web Apps is deeply obscured.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/walled-gardens/20_ios-web-install-step-3.png" alt="A circled example of the Add to Home Screen action in the iOS Safari share drawer" />
+  <figcaption>3. Then the user must hit the "Add to Home Screen" button.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/walled-gardens/21_ios-web-install-step-4.png" alt="An Add to Home Screen view with details of a web page in addition to Cancel and Add buttons" />
+  <figcaption>4. Then the user must hit “Add”.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/walled-gardens/22_ios-web-install-step-5.png" alt="A view of the iOS home screen with an icon for the added web page" />
+  <figcaption>5. Finally the Web App appears on the user's home screen.</figcaption>
+</figure>
+
+Other “browsers” on iOS **do not have the ability to install Web Apps**.
+
+This means that despite simply being thin user interface shells around Safari’s WebKit, every “browser” on iOS including Firefox, Chrome, Edge, Opera, Brave can not add Web Apps. Users visiting a Web App capable site in these browsers on iOS would not even find the install button unless they would know to switch to Safari, then go through the steps as described here. This is clearly evidence of Apple preferencing their browser and native apps.
+
+##### 5.4.5.3. App Clips
+
+An [App Clip](https://developer.apple.com/app-clips/) is a micro-version of native iOS application which allows consumers to load and use part of the application without installing the full application.
+
+![A series of 5 iPhones each showing an App Clip panel with a prominent open action](/images/walled-gardens/23_ios-app-clips.png)
+
+<cite>App Clips as shown on [Apple.com](https://developer.apple.com/app-clips/)</cite>
+
+This is good for native application developers who want to decrease friction by allowing users to nearly instantly preview or use a subsection of functionality. An App Clip does not require a user to have to go through the App Store, removing a key barrier.
+
+As seen in the previous section, Apple has not implemented any way to inform users that they can install a Web App, and makes the whole installation process very cumbersome. In the meantime, Apple has added the ability for developers to display these native App Clip panels on top of web pages often to **incite users to use a native app instead of the web page they are currently viewing**.
+
+Apple’s addition of this feature while at the same time ensuring that Web Apps are hidden away, difficult to install and have other barriers to adoption which increase user friction, is a clear demonstration of anti-competitive behaviour.
+
+##### 5.4.5.4. Smart App Banners
+
+Apple has a technology called [Smart App Banners](https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners). These are little banners that appear in Safari when visiting a url that matches the universal link patterns set for an App or by including a special meta tag.
+
+<div class="gallery screens">
+  <img src="/images/walled-gardens/25_ios-smart-banner-open.png" alt="iOS Safari shown an Ocean Journal website with a banner at the top to open in the Ocean Journal app" />
+  <img src="/images/walled-gardens/26_ios-smart-banner-view.png" alt="iOS Safari shown an Ocean Journal website with a banner at the top to view in the Ocean Journal app" />
+</div>
+
+If the App is not installed it displays a deep link to the iOS App Store.  If the App is installed it provides a link to open the App on iOS.
+
+According to [this complaint](https://developer.apple.com/forums/thread/105129?answerId=639849022#639849022) there is no way for the developer to stop the Smart App Banner from appearing even if they do not add the meta-tag.  Provided the universal link patterns set for an App match it will display the banner.
+
+There is no meta-tag to disable this behavior, forcing all developers to include a banner on their Website even if they wish to disable it is a clear attempt to direct traffic off the Web and into Apple’s ecosystem. Smart App Banners should likely be opt-in and respect the developers wishes. At the very least developers should be able to opt-out.
+
+##### 5.4.5.5. Dark Patterns
+
+> "Dark patterns are design elements that deliberately **obscure**, mislead, coerce and/or deceive website visitors into making unintended and possibly harmful choices."
+> <cite>[Misha Ketchell - The Conversation](https://theconversation.com/what-are-dark-patterns-an-online-media-expert-explains-165362)</cite>
+
+The friction added to installing Web Apps by hiding away installation options, preventing the installation from other “browsers” and the clear preference shown to native apps through Smart Banners and App Clips are arguably [dark patterns](https://theconversation.com/what-are-dark-patterns-an-online-media-expert-explains-165362) and can completely hobble developers' attempts to provide apps to their users through the open web.
+
+Despite Apple’s [claims to regulators](https://www.accc.gov.au/system/files/Apple%20Pty%20Limited%20%2810%20February%202021%29.pdf) that “PWA’s eliminate the need to download a developer’s app through the App Store (or other means)” the reality is that Apple has limited the user experience for Web Apps to the point where developers are forced to develop native apps.
+
+### 5.5. Apple Uses Flawed Privacy Arguments
+
+> "The most dangerous feature that browsers have are not the device API’s; it is the ability to **link to and download native apps**."
+> <cite>[Niels Leenheer - HTML5test](https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/)</cite>
+
+#### 5.5.1. Fingerprinting and Web Device APIs
+
+The goal of fingerprinting is to re-identify users uniquely (without their permission), this is typically for advertising purposes. This is done by collecting many different data points about the device (ip address, screen size, operating system version, existence of certain fonts). Each of those data points cannot identify an individual, but it could be possible to track users if you have enough of these data points and combine them.
+
+Apple has [rejected certain web standard device APIs](https://webkit.org/tracking-prevention/#anti-fingerprinting) that would provide Web Apps equivalent capabilities to Native Apps (the web standard versions are actually arguably much more strict and secure than their native counterparts, see Section 4.14 below).
+
+> "Finally, if we find that features and web APIs increase fingerprintability and offer no safe way to protect our users, we will not implement them until we or others have found a good way to reduce that fingerprintability."
+> <cite>[Apple](https://webkit.org/tracking-prevention/#anti-fingerprinting)</cite>
+
+This was the stated reason Apple used to reject WebBluetooth from Safari (Webkit). This doesn’t make a great deal of sense.
+
+Bluetooth is a short-range, standardized wireless technology standard that is used for exchanging data between fixed and mobile devices over short distances. [Web Bluetooth](https://web.dev/bluetooth/) is an API that provides the ability to connect and interact with Bluetooth Low Energy peripherals (but not classic Bluetooth devices, for security reasons). For example printers, toys, scanners, lights, home automation, washing machines, dryers, scanners, payment devices and a huge list of other “Internet of Things” (IoT) devices.
+
+With Web Bluetooth, a Web App **can not get a list of bluetooth devices**. Instead, **only with user interaction** (e.g., clicking on a button), can a site request the browser open a permission prompt to connect to a bluetooth device and the site can provide filters to potentially reduce the list to devices it can understand, but cannot skip the user’s consent. The list is **made available to the user, not to the Website/Web App**. The user can give access to a single device or deny access altogether.
+
+This is a very unreliable method of fingerprinting and requires a scary permission prompt to the user on each Web App.
+
+Similar arguments can be extended to each of the other hardware APIs, they are all difficult to use for fingerprinting as it's impossible to do so without alerting the users and requiring their permission.
+
+> "Device API’s are simply bad for fingerprinting. It is unreliable and really obvious when it is used."
+> <cite>[Niels Leenheer - HTML5test](https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/)</cite>
+
+We are not saying that iOS Safari must implement every feature implemented by the other browsers, in fact it is healthy for browser makers to pursue their own vision for the web. What is a problem is that Apple has banned all other browsers, so on iOS users have no option to use a different browser that does support these APIs.
+
+It should be expected that **privacy** and **security** standards that apply to the web **should also apply to native apps where Apple derives their profit**.
+
+Apple by both not supporting these APIs in iOS Safari and banning all competing browsers, is making it impossible for Web Apps to compete with native apps in cases where these device APIs are a core or important part of the application.
+
+It is important to note here that Apple in their rejection of Web Bluetooth and other Device APIs have focused on fingerprinting (as opposed to firmware hacks) despite doing a far poorer job in mitigating these risks in native. Possibly this is in a effort to frame the rejection of these features through the lens that both Apple is pro-privacy as opposed to a general belief that the web should not be an application platform on iOS, and as a slight on other browsers vendors/developers by implying they want these features in order to spy on users.
+
+#### 5.5.2. Native vs Web Privacy/Security
+
+The web’s paranoid security model was not developed in a vacuum. Browsers have evolved to place a high value on security and privacy, and the same is true of the [Web Bluetooth Security Model](https://medium.com/@jyasskin/the-web-bluetooth-security-model-666b4e7eed2).
+
+Behind each expansion of browser capabilities is a simple idea: if browsers do not provide important features, users will feel the need to install applications to meet their computing needs. It is also important to note that there is **no discussion** of entirely removing for example bluetooth from iOS (web and native).
+
+Therefore, privacy and security risks must be viewed in terms of mitigation and in comparison with native apps. As such bluetooth is a useful example to compare web and native in utility/privacy and security. From this vantage point, we can compare the level of care taken by browsers in exposing bluetooth devices versus native apps.
+
+##### 5.5.2.1. Potential security/privacy concerns
+
+A number of potential security and privacy issues have been raised by participants in the Working Group developing the [Web Bluetooth standard](https://webbluetoothcg.github.io/web-bluetooth/):
+
+These include:
+
+* Malicious messages sent to poorly designed, or older, bluetooth devices. <br /><br />
+A Website/Web App could connect to poorly designed older bluetooth devices and then hack them to launch further attacks on the user. <br /><br />
+Note for this attack to work:
+    1. The device needs to be poorly designed without functionality that prevents an attacker from doing harmful actions. Note that most devices that offer a harmful actions have security protections in place (i.e. they required updates in place)
+    2. The attacker needs to have specific code that targets that device, the user has to own that device and then ask to connect to that device and then the user has to give the website permission.
+    3. The Web Bluetooth specification maintains a block-list of known-vulnerable devices which browsers are expected to block from connections.
+    4. Browsers include the ability to strip permissions, including blocking the loading of, websites that act maliciously in this way (e.g. [Google’s SafeBrowsing](https://safebrowsing.google.com/), used by Chrome and Firefox, and [Microsoft SmartScreen](https://support.microsoft.com/en-us/microsoft-edge/what-is-smartscreen-and-how-can-it-help-protect-me-1c9a874a-6826-be5e-45b1-67fa445a74c8))
+* Collecting lists of nearby devices (for location tracking)<br /><br />
+Shops could place bluetooth devices on their premises and a Website/Web App with completely unfettered access to bluetooth could connect to them thus revealing the users location without permission.<br /><br />
+Thankfully, the Web Bluetooth specification prevents this ambient attack by creating the opportunity for a user to select the devices they wish to connect to before any data is sent.
+* Fingerprinting <br /><br />
+The goal of fingerprinting is to reidentify users uniquely (without their permission), this is typically for advertising purposes. Typical fingerprinting is done by silently collecting many different data points on the website (ip address, screen size, operating system, existence of certain fonts). Each data point is unlikely to uniquely identify an individual, but it is possible to track users if you have enough of them. A user connecting to the same device on two different websites could uniquely identify the user. <br /><br />
+Web Bluetooth adds a strong deterrent to ambient fingerprinting through the addition of a user-visible permission prompt. Permission-based APIs are not frequently used for fingerprinting today due to the low acceptance rates by users of these grants, making them **nearly useless for pervasive, low-friction fingerprinting**. <br /><br />
+Risks endure for users who have elevated threats and clear their caches, but thanks to the permission model of Web Bluetooth, browsers can also inform users of the risks of re-identification at the time of use. By managing these capabilities more tightly than native OS APIs (which expose blanket grants to bluetooth stacks), browsers mitigate these risks more directly.
+
+##### 5.5.2.2. Process for connecting to a device on web and iOS native
+
+###### 5.5.2.2.1. Web
+
+The process in the web specification is as follows:
+
+1. Upon a user gesture (click, touching a button etc) the Website/Web App may request to connect to a specific bluetooth device OR they may provide a specific category of device to be used as a filter.
+2. The browser displays a prompt to the user indicating that the Website / Web App would like to connect to a bluetooth enabled device and displays a list of devices. <br />
+The Website/Web App **never gets to see this list of bluetooth devices, it may not connect to any device without specific consent**.
+3. If the user choices to connect to a device, the Website/Web App may now communicate with that specific device
+4. This permission can be revoked at any time via the browser but it is important to note it is only for this specific Website/Web App and only the specifically chosen device
+
+<div class="screenshot">
+
+![An Android screenshot showing device options to pair with, for a webpage, with a "PAIR" primary action](/images/walled-gardens/27_pair-process-web.png)
+
+</div>
+
+###### 5.5.2.2.2. iOS Native
+
+The process for iOS native applications using Swift CoreBluetooth is:
+
+1. Declare that the application needs to use bluetooth along with a description in the info.plist *
+2. On first boot of the application, it will ask the user permission (via a prompt) to use bluetooth *
+3. If the user agrees the application now has access to bluetooth <sup>1</sup>
+4. This permission can be revoked at any time via user settings
+5. The application **can now get lists of any nearby bluetooth devices and connect/communicate with them indefinitely without user interaction**.
+
+![iOS screenshot showing a prompt asking if the application can use Bluetooth](/images/walled-gardens/28_pair-process-ios-a.jpg)
+
+<sup>1</sup> Until 2019, steps 1 - 3 were not required. **This means before 2019 that the very large number of apps with bluetooth permissions track all users and connect to any device**.
+
+##### 5.5.2.3. How does iOS bluetooth for native apps mitigate these concerns?
+
+The permission system on iOS is a bit more of a **[blank check](https://www.freecodecamp.org/news/ultimate-how-to-bluetooth-swift-with-hardware-in-20-minutes/)**. Once given initial Bluetooth permission, applications are essentially given free reign to do whatever they want with regards to Bluetooth. They can list all nearby devices (without user interaction) and they can communicate with any nearby Bluetooth device (without user interaction).
+
+Prior to iOS 13 (late 2019) the situation was even worse. Applications did not even need to ask for bluetooth permission at all.
+
+Many companies were using this to [track users' locations without their consent](https://www.fastcompany.com/90386781/ios-13s-new-bluetooth-privacy-feature-is-important-but-confusing). Shops were placing bluetooth beacons in their stores and then tracking users' physical location without consent. This was only possibly due to the weak security/privacy implementation on iOS Native CoreBluetooth. **Note this still has not been fixed** and this sort of abuse is still possible today, provided an application can convince a user that it has a plausible reason to provide access to bluetooth (a simple yes/no prompt).
+
+![iOS screenshot showing a prompt asking if the application can use Bluetooth](/images/walled-gardens/29_pair-process-ios-b.jpg)
+
+All three of the above listed privacy/security concerns are currently essentially unmitigated except by:
+
+1. App Store Review ([a dubious defense](https://habr.com/en/post/580272/))
+2. The user giving permission to access bluetooth once
+
+It's odd that Apple **is not implementing** Web-Bluetooth over security/privacy concerns and, in effect, forcing users to download a native app with far broader powers when they don't appear to have adopted equivalently strong protections within their native app ecosystem. Rejecting WebBluetooth on these grounds is nonsensical.
+
+These issues still have not been fixed with native iOS Apps bluetooth permissions. Their APIs were not designed to enable a more respectful prompt the way the Web Bluetooth specification was, and shifting all existing applications to a less invasive model may break many unmaintained programs. In these tradeoffs Apple could choose user privacy and security and against invasive developers, but they have not, and yet they hold up the less problematic web API as an unacceptable risk.
+
+When comparing risk in allowing a Web App feature, the comparison is not between the risk the feature brings and nothing (i.e not allowing the feature). The comparison is between the feature and getting the user to download a native application with an analogous feature.
+
+As shown in the previous sections, with regards to bluetooth the web is far more restricted, secure and private than what is allowed in native. It could be argued that not allowing Web Bluetooth is actually worsening the user's risk profile, in addition to denying them convenient functionality. If the only alternative is to download a native app with far greater permissions then this arguably puts the user at greater risk.
+
+Web Bluetooth is largely analogous to the other Device APIs.
+
+Device APIs and File System Access are probably the most complex in terms of security privacy. There are legitimate security concerns (as there are with equivalent APIs for native applications). The web specifications have in our opinion largely mitigated these concerns (certainly far better than native apps on iOS have).
+
+Apple has done an extremely poor job communicating what their concerns are (in sufficient technical detail, including why they think the mitigations are insufficient) to developers and other browser vendors.
+
+##### 5.5.2.4. Safari WebBluetooth Extension
+
+> "Can't we solve this using browser extensions?"
+> <cite>[Daniel Bates - Apple Webkit Team - 8th November 2017](https://www.w3.org/2017/11/08-device-api-minutes.html#:~:text=can%27t%20we%20solve%20this%20using%20browser%20extensions%3F)</cite>
+
+In the last public discussion about Web Bluetooth Standard between Apple and the other browser vendors it was suggested that browser extensions could offer a potential solution.
+
+The idea is that users who need Web Bluetooth could install a browser extension via the iOS App Store that provides this functionality to Safari. A [prototype](https://vimeo.com/642462265) of this has been produced for iOS.
+
+While developers producing these types of extensions are almost certainly just trying to help users, this solution is problematic for several reasons:
+
+1. Security/Privacy is hard, Device APIs are powerful and while they provide great utility this seems more a job for the dedicated teams at the browser vendors to handle.
+2. iOS Native has poor privacy protection relative to Web Bluetooth and the developer of these extensions would need to attempt to replicate all the mitigations in the extension itself.
+3. It is arguably a [dark pattern](https://theconversation.com/what-are-dark-patterns-an-online-media-expert-explains-165362) to discourage usage of Web Apps vs Native Apps to add extra hoops for users wanting to use Bluetooth on the web. This style of solution would presumably be unacceptable for Native Apps.
+
 
 
 ------

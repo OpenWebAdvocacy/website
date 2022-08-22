@@ -1,5 +1,6 @@
 // Eleventy Plugins
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
+const externalLinksPlugin = require('@sardine/eleventy-plugin-external-links');
 const tocPlugin = require('eleventy-plugin-toc');
 
 // Markdown Libraries
@@ -22,6 +23,7 @@ module.exports = config => {
 
   // Plugins
   config.addPlugin(rssPlugin);
+  config.addPlugin(externalLinksPlugin);
   config.addPlugin(tocPlugin, {
     tags: ['h2'],
     ul: true,

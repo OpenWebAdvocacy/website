@@ -6,6 +6,7 @@ const tocPlugin = require('eleventy-plugin-toc');
 // Markdown Libraries
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
+const markdownItAttrs = require('markdown-it-attrs')
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -65,7 +66,8 @@ function buildMarkdownLibrary() {
     html: true,
   });
 
-  mdParser.use(markdownItAnchor, {
+  mdParser
+  .use(markdownItAnchor, {
     level: 1,
     permalink: markdownItAnchor.permalink.ariaHidden({
       placement: 'before'
@@ -74,7 +76,8 @@ function buildMarkdownLibrary() {
       const formatted = String(s).trim().toLowerCase().replace(/^[\d.]+\s/g, '').replace(/\s+/g, '-');
       return encodeURIComponent(formatted);
     }
-  });
+  })
+  .use(markdownItAttrs);
 
   return mdParser;
 }

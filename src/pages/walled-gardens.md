@@ -1432,6 +1432,8 @@ Extracted from the site are some quotes:
 @TODO: this is a bit much, it's ~ 17 pages of comments :|
 -->
 
+#### 5.8.2. Safari has been buggy for a long time
+
 #### 5.8.3. News and Blog Articles
 
 Many have written about the issues surrounding Safari, Web Apps and iOS.  This section goes through just a small number of articles.

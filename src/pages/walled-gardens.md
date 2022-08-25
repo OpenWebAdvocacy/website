@@ -120,6 +120,7 @@ div.gallery.screens img,
 img.screenshot {
   display: block;
   width: auto;
+  height: auto;
   max-width: 350px;
   max-height: 320px;
   margin: 0 auto;
@@ -433,7 +434,10 @@ It’s well known in the web-development industry that Safari is far behind on c
 
 The [Web Platform Tests Dashboard](https://wpt.fyi/results/?label=experimental&label=master&aligned) shows this numerically by showing **every failure** that **only fails in just one browser**.
 
-![Web platform tests result line chart showing higher Safari failure](/images/walled-gardens/00_web-platform-results.png)
+{% image
+  "/images/walled-gardens/00_web-platform-results.png",
+  "Web platform tests result line chart showing higher Safari failure"
+%}
 
 As can be seen as at 10/11/2021, for each of the experimental builds of these browsers:
 
@@ -453,12 +457,24 @@ The [Progressive Web App Feature Detector](https://tomayac.github.io/pwa-feature
 
 <div class="gallery screens">
   <figure>
-    <img src="/images/walled-gardens/01_pwa-features-chrome.jpg" alt="Chrome (Android) progressive web app feature detector results showing 18/18 feature support" />
-    <figcaption>CHROME (Android)</figcaption>
+    {% image
+      "/images/walled-gardens/01_pwa-features-chrome.jpg",
+      "Chrome (Android) progressive web app feature detector results showing 18/18 feature support",
+      null, null,
+      [150, 200, 300],
+      "150px"
+    %}
+    <figcaption>Chrome (Android)</figcaption>
   </figure>
   <figure>
-    <img src="/images/walled-gardens/02_pwa-features-safari.png" alt="Safari (iOS) progressive web app feature detector results showing 6/18 feature support" />
-    <figcaption>SAFARI (iOS)</figcaption>
+    {% image
+      "/images/walled-gardens/02_pwa-features-safari.png",
+      "Safari (iOS) progressive web app feature detector results showing 6/18 feature support",
+      null, null,
+      [150, 200, 300],
+      "150px"
+    %}
+    <figcaption>Safari (iOS)</figcaption>
   </figure>
 </div>
 
@@ -470,7 +486,10 @@ Safari – or more specifically the WebKit engine that powers it – is well beh
 
 OWA identified the most important functionality specifically for Web Apps that are available on native or other browsers but missing in Safari.
 
-![An overview of functionality available to both native and the web - except in Safari](/images/walled-gardens/40_missing-functionality.png)
+{% image
+  "/images/walled-gardens/40_missing-functionality.png",
+  "An overview of functionality available to both native and the web - except in Safari"
+%}
 
 This table exposes many anti-competitive issues, namely:
 
@@ -709,7 +728,7 @@ Not every developer needs every feature listed above but some are the critical m
 
 
 
-#### 5.4.4 Short Example
+#### 5.4.4. Short Example
 
 To expand on each of these to explain why these missing features are important to developers would be a lengthy undertaking so instead we will highlight just a few and explain why they are essential to allow Web Apps to compete with the App Store. Please note that most of these capabilities or something analogous are possible in Native Applications.
 
@@ -721,7 +740,11 @@ The two key pieces of functionality you would need to compete with the App Store
 
 An App Badge showing a count of 29 on iOS in 2011:
 
-![iOS app badge example screenshot](/images/walled-gardens/03_ios-app-badge.png){.centered}{.rounded}
+{% image
+  "/images/walled-gardens/03_ios-app-badge.png",
+  "iOS app badge example screenshot",
+  "screenshot rounded"
+%}
 
 Because of these missing features entire categories of apps can either not be built using the web or which ensure that the native app is significantly better.
 
@@ -746,19 +769,67 @@ On Android devices, the process for installing a Web App on either Firefox or Ch
 Developers have a huge freedom of choice and can add installers in headers, footers, menu bars, and temporary pop-ups backed [by an open API](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent). This ensures that there is minimal difficulty installing a Web App on Android.
 
 <div class="gallery screens">
-  <img src="/images/walled-gardens/04_install-banner-top.png" alt="Mockup view of web app install banner at top of window" />
-  <img src="/images/walled-gardens/05_install-banner-bottom.png" alt="Mockup view of web app install banner across webpage" />
-  <img src="/images/walled-gardens/06_install-banner-sidebar.png" alt="Mockup view of web app install banner in sidebar" />
-  <img src="/images/walled-gardens/07_install-banner-inline.png" alt="Mockup view of web app install banner within page content" />
-  <img src="/images/walled-gardens/08_install-via-menu.png" alt="Mockup view of web app install banner in app menu" />
-  <img src="/images/walled-gardens/09_install-toast.png" alt="Mockup view of web app install banner bottom popup toast" />
+  {% image
+    "/images/walled-gardens/04_install-banner-top.png",
+    "Mockup view of web app install banner at top of window",
+    "screenshot", null,
+    [150, 200, 300],
+    "150px"
+  %}
+  {% image
+    "/images/walled-gardens/05_install-banner-bottom.png",
+    "Mockup view of web app install banner across webpage",
+    "screenshot", null,
+    [150, 200, 300],
+    "150px"
+  %}
+  {% image
+    "/images/walled-gardens/06_install-banner-sidebar.png",
+    "Mockup view of web app install banner in sidebar",
+    "screenshot", null,
+    [150, 200, 300],
+    "150px"
+  %}
+  {% image
+    "/images/walled-gardens/07_install-banner-inline.png",
+    "Mockup view of web app install banner within page content",
+    "screenshot", null,
+    [150, 200, 300],
+    "150px"
+  %}
+  {% image
+    "/images/walled-gardens/08_install-via-menu.png",
+    "Mockup view of web app install banner in app menu",
+    "screenshot", null,
+    [150, 200, 300],
+    "150px"
+  %}
+  {% image
+    "/images/walled-gardens/09_install-toast.png",
+    "Mockup view of web app install banner bottom popup toast",
+    "screenshot", null,
+    [150, 200, 300],
+    "150px"
+  %}
 </div>
 
 Finally there is a clearly marked "**Install App**" on the main menu. As demonstrated there is **no barrier** to installing Web Apps on Android systems and is made easy for developers to add and users to use.
 
 <div class="gallery screens">
-  <img src="/images/walled-gardens/15_proxx-install-a.jpg" alt="proxx.app web app install banner example" />
-  <img src="/images/walled-gardens/16_proxx-install-b.jpg" alt="proxx.app web app install banner expanded" />
+  {% image
+    "/images/walled-gardens/15_proxx-install-a.jpg",
+    "proxx.app web app install banner example",
+    "screenshot", null,
+    [150, 200, 300],
+    "150px"
+  %}
+  {% image
+    "/images/walled-gardens/16_proxx-install-b.jpg",
+    "proxx.app web app install banner expanded",
+    "screenshot", null,
+    [150, 200, 300],
+    "150px"
+  %}
 </div>
 
 As a real life example, the game [PROXX](https://proxx.app) displays a pop-up bottom banner when you first play, sliding that up displays more information about the app. Tapping install can directly install the app although the exact experience differs between different manufacturers devices.
@@ -771,7 +842,13 @@ The process on iOS Safari is considerably more difficult and [quite a bit more h
 
 On iOS, Apple makes installing native apps very easy with [Smart App Banners](https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners) while making installing open Web Apps **as obscure as possible**. Even when on phone support with users it can be difficult to explain how to add a Web App. This is not a problem on Android.
 
-![oceanjournalweb.com webpage showing an app store install banner](/images/walled-gardens/17_ios-app-install-banner.png){.screenshot}
+{% image
+  "/images/walled-gardens/17_ios-app-install-banner.png",
+  "oceanjournalweb.com webpage showing an app store install banner",
+  "screenshot", null,
+  [150, 200, 300],
+  "150px"
+%}
 
 You can see in the example taken from Apple’s documentation that a **link to the native app is prominently displayed at the top of the screen.**
 
@@ -779,23 +856,53 @@ To install a Web App on iOS the current process is as follows:
 
 <div class="gallery screens">
   <figure>
-    <img src="/images/walled-gardens/18_ios-web-install-step-1.png" alt="A circled example of the share button in iOS Safari" />
+    {% image
+      "/images/walled-gardens/18_ios-web-install-step-1.png",
+      "A circled example of the share button in iOS Safari",
+      null, null,
+      [150, 200, 300],
+      "150px"
+    %}
     <figcaption>1. The user must know to hit this "share" button. Even this share button can be obscured if the user has scrolled, because the bottom bar is hidden away.</figcaption>
   </figure>
   <figure>
-    <img src="/images/walled-gardens/19_ios-web-install-step-2.png" alt="An example of the iOS share panel open at the bottom of the screen with various share options" />
+    {% image
+      "/images/walled-gardens/19_ios-web-install-step-2.png",
+      "An example of the iOS share panel open at the bottom of the screen with various share options",
+      null, null,
+      [150, 200, 300],
+      "150px"
+    %}
     <figcaption>2. This causes a bottom panel to be displayed on screen. Then the user <em>must know</em> to scroll down that panel. At this point it is obvious that installing Web Apps is deeply obscured.</figcaption>
   </figure>
   <figure>
-    <img src="/images/walled-gardens/20_ios-web-install-step-3.png" alt="A circled example of the Add to Home Screen action in the iOS Safari share drawer" />
+    {% image
+      "/images/walled-gardens/20_ios-web-install-step-3.png",
+      "A circled example of the Add to Home Screen action in the iOS Safari share drawer",
+      null, null,
+      [150, 200, 300],
+      "150px"
+    %}
     <figcaption>3. Then the user must hit the "Add to Home Screen" button.</figcaption>
   </figure>
   <figure>
-    <img src="/images/walled-gardens/21_ios-web-install-step-4.png" alt="An Add to Home Screen view with details of a web page in addition to Cancel and Add buttons" />
+    {% image
+      "/images/walled-gardens/21_ios-web-install-step-4.png",
+      "An Add to Home Screen view with details of a web page in addition to Cancel and Add buttons",
+      null, null,
+      [150, 200, 300],
+      "150px"
+    %}
     <figcaption>4. Then the user must hit "Add".</figcaption>
   </figure>
   <figure>
-    <img src="/images/walled-gardens/22_ios-web-install-step-5.png" alt="A view of the iOS home screen with an icon for the added web page" />
+    {% image
+      "/images/walled-gardens/22_ios-web-install-step-5.png",
+      "A view of the iOS home screen with an icon for the added web page",
+      null, null,
+      [150, 200, 300],
+      "150px"
+    %}
     <figcaption>5. Finally the Web App appears on the user's home screen.</figcaption>
   </figure>
 </div>
@@ -810,7 +917,11 @@ This means that despite simply being thin user interface shells around Safari’
 
 An [App Clip](https://developer.apple.com/app-clips/) is a micro-version of native iOS application which allows consumers to load and use part of the application without installing the full application.
 
-![A series of 5 iPhones each showing an App Clip panel with a prominent open action](/images/walled-gardens/23_ios-app-clips.png)
+{% image
+  "/images/walled-gardens/23_ios-app-clips.png",
+  "A series of 5 iPhones each showing an App Clip panel with a prominent open action",
+  null, ["webp", "png"]
+%}
 
 <cite>App Clips as shown on [Apple.com](https://developer.apple.com/app-clips/)</cite>
 
@@ -827,8 +938,20 @@ Apple’s addition of this feature while at the same time ensuring that Web Apps
 Apple has a technology called [Smart App Banners](https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners). These are little banners that appear in Safari when visiting a url that matches the universal link patterns set for an App or by including a special meta tag.
 
 <div class="gallery screens">
-  <img src="/images/walled-gardens/25_ios-smart-banner-open.png" alt="iOS Safari shown an Ocean Journal website with a banner at the top to open in the Ocean Journal app" />
-  <img src="/images/walled-gardens/26_ios-smart-banner-view.png" alt="iOS Safari shown an Ocean Journal website with a banner at the top to view in the Ocean Journal app" />
+  {% image
+    "/images/walled-gardens/25_ios-smart-banner-open.png",
+    "iOS Safari shown an Ocean Journal website with a banner at the top to open in the Ocean Journal app",
+    null, null,
+    [150, 200, 300],
+    "150px"
+  %}
+  {% image
+    "/images/walled-gardens/26_ios-smart-banner-view.png",
+    "iOS Safari shown an Ocean Journal website with a banner at the top to view in the Ocean Journal app",
+    null, null,
+    [150, 200, 300],
+    "150px"
+  %}
 </div>
 
 If the App is not installed it displays a deep link to the iOS App Store.  If the App is installed it provides a link to open the App on iOS.
@@ -934,7 +1057,13 @@ The Website/Web App **never gets to see this list of bluetooth devices, it may n
 3. If the user choices to connect to a device, the Website/Web App may now communicate with that specific device
 4. This permission can be revoked at any time via the browser but it is important to note it is only for this specific Website/Web App and only the specifically chosen device
 
-![An Android screenshot showing device options to pair with, for a webpage, with a "PAIR" primary action](/images/walled-gardens/27_pair-process-web.png){.screenshot}
+{% image
+  "/images/walled-gardens/27_pair-process-web.png",
+  "An Android screenshot showing device options to pair with, for a webpage, with a 'PAIR' primary action",
+  "screenshot", null,
+  [150, 200, 300],
+  "150px"
+%}
 
 
 
@@ -948,7 +1077,11 @@ The process for iOS native applications using Swift CoreBluetooth is:
 4. This permission can be revoked at any time via user settings
 5. The application **can now get lists of any nearby bluetooth devices and connect/communicate with them indefinitely without user interaction**.
 
-![iOS screenshot showing a prompt asking if the application can use Bluetooth](/images/walled-gardens/28_pair-process-ios-a.jpg){.screenshot}
+{% image
+  "/images/walled-gardens/28_pair-process-ios-a.jpg",
+  "iOS screenshot showing a prompt asking if the application can use Bluetooth",
+  "screenshot"
+%}
 
 <sup>1</sup> Until 2019, steps 1 - 3 were not required. **This means before 2019 that the very large number of apps with bluetooth permissions track all users and connect to any device**.
 
@@ -962,7 +1095,11 @@ Prior to iOS 13 (late 2019) the situation was even worse. Applications did not e
 
 Many companies were using this to [track users' locations without their consent](https://www.fastcompany.com/90386781/ios-13s-new-bluetooth-privacy-feature-is-important-but-confusing). Shops were placing bluetooth beacons in their stores and then tracking users' physical location without consent. This was only possibly due to the weak security/privacy implementation on iOS Native CoreBluetooth. **Note this still has not been fixed** and this sort of abuse is still possible today, provided an application can convince a user that it has a plausible reason to provide access to bluetooth (a simple yes/no prompt).
 
-![iOS screenshot showing a prompt asking if the application can use Bluetooth](/images/walled-gardens/29_pair-process-ios-b.jpg){.screenshot}
+{% image
+  "/images/walled-gardens/29_pair-process-ios-b.jpg",
+  "iOS screenshot showing a prompt asking if the application can use Bluetooth",
+  "screenshot"
+%}
 
 All three of the above listed privacy/security concerns are currently essentially unmitigated except by:
 
@@ -1019,7 +1156,11 @@ When we flagged our findings to Apple, it said it was reaching out to these comp
 
 The only consistent privacy policy with Apple’s concern for uniquely fingerprinting users on the web and with users being tricked via prompt) would **be to remove this functionality from iOS altogether**.
 
-![iOS prompt asking if an application can track the user across apps and websites](/images/walled-gardens/30_allow-tracking-prompt.png){.screenshot}
+{% image
+  "/images/walled-gardens/30_allow-tracking-prompt.png",
+  "iOS prompt asking if an application can track the user across apps and websites",
+  "screenshot"
+%}
 
 Apple has not announced any plans to entirely remove this functionality from iOS.  Apple’s privacy stance needs to be consistent to believe that they are doing it for the benefit of the user.  If they apply strict conditions that limit functionality on the web but allow pervasive tracking in native it can be argued they are providing pervasive tracking in the area which generates revenue while applying heavy restrictions beyond what is needed to prevent tracking on the other side.
 
@@ -1034,7 +1175,10 @@ In the [Mozilla Developer Network Web Developer Needs Assessment 2020 Survey](ht
 * Making a design look/work the same across browsers
 * Testing across browsers
 
-![A chart showing the popularity of issues faced by web developers](/images/walled-gardens/31_mdn-needs-survey.png)
+{% image
+  "/images/walled-gardens/31_mdn-needs-survey.png",
+  "A chart showing the popularity of issues faced by web developers"
+%}
 
 Drilling down further it was specific browsers that were causing the issues.
 
@@ -1044,7 +1188,10 @@ Note that Edge (based on the EdgeHTML engine) has been discontinued and now acco
 
 This suggests that once Internet Explorer ceases to be used (its usage is already [below 1%](https://gs.statcounter.com/browser-market-share)) than the **primary browser causing serious issues for developers will be Safari**.
 
-![A chart shown what browsers developers have ranked as causing issues](/images/walled-gardens/32_mdn-survey-browser-developer-issues.png)
+{% image
+  "/images/walled-gardens/32_mdn-survey-browser-developer-issues.png",
+  "A chart shown what browsers developers have ranked as causing issues"
+%}
 
 Safari on iOS has had countless, severe application breaking bugs that make it impossible to use as a foundation for a stable application. Furthermore, the mechanism by which updates for Safari on iOS are pushed to users, **requiring a full OS update** instead of just updating the browser, means it can take multiple weeks, if not months, for a severe bug to be fixed. All this time, Web Apps and sites may be broken or even unusable. This means many companies are forced to develop native applications simply for the stability they provide.
 
@@ -1058,7 +1205,11 @@ It is important to note that we believe these bugs are likely a result of revers
 
 The [State of CSS](https://stateofcss.com) survey of web developers recently had a question about "pain points" and "browser incompatibilities". In the [raw text](https://gist.github.com/SachaG/cd7cf12623a95d8162ac2b8e340c4724) of the answers, the yellow lines are the ones that contain the word Safari:
 
-![Text file view showing a large amount of matches for the term "Safari"](/images/walled-gardens/33_state-of-css-safari-mentions.jpg){.screenshot}
+{% image
+  "/images/walled-gardens/32_mdn-survey-browser-developer-issues.png",
+  "Text file view showing a large amount of matches for the term 'Safari'",
+  "screenshot"
+%}
 
 Extracting some of the quotes from the survey, it’s obvious that the opinion among developers that Safari is both buggy and lagging behind features is commonly shared amongst developers.  Safari/iOS/webkit/iPhone/ipad was mentioned 369 times several times. By comparison Firefox only had 12 negative mentions in the entire survey.
 
@@ -1323,7 +1474,11 @@ There are countless requests for this feature across platforms frequented by dev
 
 Developers were so frustrated in the lack of development and response from Apple they started their own change.org petition which has garnered over 7000 signatures, a substantial amount considering how poorly supported Web Apps are on mobile devices.
 
-![A change.org petition, asking Apple to implement Web Push notifications](/images/walled-gardens/41_change-dot-org-petition-web-push.png){.screenshot}
+{% image
+  "/images/walled-gardens/41_change-dot-org-petition-web-push.png",
+  "A change.org petition, asking Apple to implement Web Push notifications",
+  "screenshot"
+%}
 
 Extracted from the site are some quotes:
 
@@ -1745,7 +1900,10 @@ To imply that browsers can simply contribute to WebKit negates the fact that App
 
 For example this is a list of all the features that Microsoft have removed or replaced from Chromium in Edge:
 
-![List of many browser features under the title "Services we replaced or turned off"](/images/walled-gardens/34_microsoft-chrome-edge-differences.png)
+{% image
+  "/images/walled-gardens/34_microsoft-chrome-edge-differences.png",
+  "List of many browser features under the title 'Services we replaced or turned off'"
+%}
 
 Additionally **Brave** has **added many privacy features** into their browser. A [research study](https://www.zdnet.com/article/brave-deemed-most-private-browser-in-terms-of-phoning-home/) analyzing browser privacy by Professor Douglas J. Leith of the University of Dublin reported that **Brave had the highest level of privacy of the browsers tested**.
 
@@ -1791,7 +1949,10 @@ On Android, third party browsers:
 
 On iOS, only Apple has final say on what the web can and can not do, Not users, third party browsers or developers.
 
-![A line chart showing non-google contributions to chrome from 2016 to 2021, averaging around 20%](/images/walled-gardens/35_chrome-non-google-commit-chart.png)
+{% image
+  "/images/walled-gardens/35_chrome-non-google-commit-chart.png",
+  "A line chart showing non-google contributions to chrome from 2016 to 2021, averaging around 20%"
+%}
 
 Percentage and Number of non-Google commits in Chromium over the past 5 years
 
@@ -1825,7 +1986,10 @@ Safari updates are tied to the operating system ([an antiquated practice](https:
 
 According to the [metrics regarding bugs filed by Google’s Project Zero team](https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html), Safari is the slowest major engine to fix issues and is significantly slower than others as delivering fixes through software updates.
 
-![A histogram showing how many days it takes Chrome, Firefox and Safari to ship security fixes to users](/images/walled-gardens/42_histogram-of-days-from-fix-landed-to-shipped.png)
+{% image
+  "/images/walled-gardens/42_histogram-of-days-from-fix-landed-to-shipped.png",
+  "A histogram showing how many days it takes Chrome, Firefox and Safari to ship security fixes to users"
+%}
 
 iOS users remain vulnerable to known bugs in Safari longer than users of alternative browsers on every other OS. This picture is made even darker by OS update rates. Since Safari requires a full operating system update, further hassle (and attendant delay) is introduced in getting patches into user’s hands than if the browser updated like a “normal app” (the standard on all other modern OSes). Safari requires the user to update their entire operating system, a process that makes the **device unusable for up-to 20 minutes**.
 
@@ -1845,13 +2009,20 @@ The article titled "Apple’s Poor Patching Policies Potentially Make Users’ S
 
 Apple says it never intended iOS 14 security updates to last forever, whereas Firefox and Chrome support far older devices. Since Edge, Vivaldi and Brave are built on the same platform as Chrome, they are likely to be identical or very similar in terms of security.
 
-![A spreadsheet view of reported vulnerabilities in iOS](/images/walled-gardens/36_safari-cve-list.png){.centered}
+{% image
+  "/images/walled-gardens/36_safari-cve-list.png",
+  "A spreadsheet view of reported vulnerabilities in iOS",
+  "centered"
+%}
 
 
 
 #### 8.2.3. Browser Code Execution Vulnerabilities
 
-![A histogram showing the number of browser code execution vulnerabilities in Chrome. Firefox and Safari since 2014](/images/walled-gardens/43_browser-code-execution-vulnerabilities.png)
+{% image
+  "/images/walled-gardens/43_browser-code-execution-vulnerabilities.png",
+  "A histogram showing the number of browser code execution vulnerabilities in Chrome. Firefox and Safari since 2014"
+%}
 
 Code execution vulnerabilities range in severity, and as previously noted, often require “exploit chains” of multiple bugs to use, meaning that raw numbers are not the full story. Regardless, they can help inform a fuller picture.
 
@@ -1862,7 +2033,10 @@ While not a conclusive picture about relative security, this data brings into do
 > "Chrome/Brave/Firefox are required to use the default WebKit/JS [to run on iOS, making them merely skinned versions of Safari]. If Apple isn't going to put in the work necessary to protect users then they should let others do so."
 > <cite>[Paul Wagenseil - Tom’s Guide](https://www.tomsguide.com/opinion/your-iphone-is-less-safe-than-it-was-yesterday-and-thats-good)</cite>
 
-![A pie chart showing the ratio of browser code execution vulnerabilities between Chrome. Firefox and Safari since 2014](/images/walled-gardens/44_browser-code-execution-vulnerabilities.png)
+{% image
+  "/images/walled-gardens/44_browser-code-execution-vulnerabilities.png",
+  "A pie chart showing the ratio of browser code execution vulnerabilities between Chrome. Firefox and Safari since 2014"
+%}
 
 There are many caveats. First, the [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) database only includes vulnerabilities that are reported or named.  Vendors may choose not to assign a CVE number to every vulnerability and there have been reports of security engineers who have complained that Apple hasn’t in the past.
 
@@ -1968,7 +2142,10 @@ Using various new standardized web technologies, Adobe has now brought a public 
 
 It’s important to note that Adobe did not rebuild Photoshop from scratch. This is real photoshop using their 31 year old code-base along with its decades of investment.
 
-![A screenshot of Photoshop running in a web-browser, featuring a happy looking elephant](/images/walled-gardens/37_photoshop-on-web.png)
+{% image
+  "/images/walled-gardens/37_photoshop-on-web.png",
+  "A screenshot of Photoshop running in a web-browser, featuring a happy looking elephant"
+%}
 
 > "The simple power of a URL is that anyone can click it and instantly access it. All you need is a browser. There is no need to install an application or worry about what operating system you are running on. For web applications, that means users can have access to the application and their documents and comments. This makes the web the ideal collaboration platform, something that is becoming more and more essential to creative and marketing teams."
 > <cite>[web.dev](https://web.dev/ps-on-the-web/#:~:text=The%20simple%20power%20of%20a%20URL%20is%20that%20anyone%20can%20click%20it%20and%20instantly%20access%20it.%20All%20you%20need%20is%20a%20browser.)</cite>
@@ -2068,7 +2245,11 @@ This specification is at a very early stage, but we believe that in the long ter
 
 Ensuring that APIs are made available to competing browsers to facilitate this open, interoperable future should be a goal of regulatory oversight because, unlike sideloading of native apps, it charts a safe and secure middle-way for true competition, low developer taxes, and improved interoperability for users.
 
-![A screenshot of the prox.app website on an Android device, with an install banner at the top of the view](/images/walled-gardens/38_proxx-install-example.png){.centered}
+{% image
+  "/images/walled-gardens/38_proxx-install-example.png",
+  "A screenshot of the prox.app website on an Android device, with an install banner at the top of the view",
+  "centered"
+%}
 
 
 
@@ -2105,7 +2286,13 @@ Finally to make the experience truly equivalent and to enable users to sensibly 
 
 Example of iOS permission settings screen:
 
-![A view of the iOS permission settings screen for WeChat showing toggles for many iOS features](/images/walled-gardens/39_ios-permission-settings.png){.screenshot}
+{% image
+  "/images/walled-gardens/39_ios-permission-settings.png",
+  "A view of the iOS permission settings screen for WeChat showing toggles for many iOS features",
+  "screenshot", null,
+  [150, 200, 300],
+  "150px"
+%}
 
 
 

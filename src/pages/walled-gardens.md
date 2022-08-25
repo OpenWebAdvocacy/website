@@ -6,6 +6,7 @@ metaDesc: 'The full Bringing Competition to Walled Gardens report, published by 
 subtitle: 'Third Party Browsers & Web Apps - VERSION 1.2'
 paperName: 'OWA - Bringing Competition to Walled Gardens - v1.2'
 paperSize: '9.2MB'
+pageNonCriticalScripts: [ '/js/walled-gardens/collapser.js' ]
 ---
 
 <!--
@@ -81,8 +82,36 @@ cite:before {
 }
 
 /**
+ * Button
+ */
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+/**
+ * Collapser
+ */
+.collapser {
+  contain: content;
+  margin-top: 0;
+}
+.collapser > .collapsed {
+  display: none;
+}
+blockquote + .collapser > button:first-child {
+  --flow-space: 3em;
+  margin-bottom: var(--flow-space, 1em);
+}
+
+/**
  * Img
  */
+
+/* Img */
+img {
+  height: auto;
+}
 
 /* Gallery */
 div.gallery {
@@ -743,7 +772,8 @@ An App Badge showing a count of 29 on iOS in 2011:
 {% image
   "/images/walled-gardens/03_ios-app-badge.png",
   "iOS app badge example screenshot",
-  "screenshot rounded"
+  "screenshot rounded", null, null,
+  "121px"
 %}
 
 Because of these missing features entire categories of apps can either not be built using the web or which ensure that the native app is significantly better.
@@ -1207,8 +1237,7 @@ The [State of CSS](https://stateofcss.com) survey of web developers recently had
 
 {% image
   "/images/walled-gardens/32_mdn-survey-browser-developer-issues.png",
-  "Text file view showing a large amount of matches for the term 'Safari'",
-  "screenshot"
+  "Text file view showing a large amount of matches for the term 'Safari'"
 %}
 
 Extracting some of the quotes from the survey, it’s obvious that the opinion among developers that Safari is both buggy and lagging behind features is commonly shared amongst developers.  Safari/iOS/webkit/iPhone/ipad was mentioned 369 times several times. By comparison Firefox only had 12 negative mentions in the entire survey.
@@ -1216,190 +1245,197 @@ Extracting some of the quotes from the survey, it’s obvious that the opinion a
 Here are some extracts from the survey:
 
 > "I hate Safari with a passion of a thousand burning suns."
->
+
 > "**Why is Safari so crap?** Why on earth do I still have discussions about IE11?"
->
+
 > "The Safari team should put their head out of their arse - Safari, Especially iOS Safari, are such a pain to work with as a webdeveloper, they lag years behind on too many features for both CSS & JS."
->
+
 > "Safari feels pretty behind the times most of the time"
->
+
 > "**Safari is always years behind** Edge/Chrome and has many many many bugs related to viewheight/scroll."
->
+
 > "iOS Safari is the biggest limiting factor in all web development."
->
+
 > "mostly things that safari is catching up on"
->
+
 > "safari is evil"
->
+
 > "Flex gap :( it's so good but Safari is the new IE."
->
+
 > "Safari is the main problem"
->
+
+<div class="collapser">
+  <button class="action-button">Show more comments</button>
+  <div class="collapsed">
+
 > "Full screen height is a pain to work with in Safari"
->
+
 > "Still have been held back by IE11, but that ends soon. (Safari though...)"
->
+
 > "**Anything Safari doesn't want to implement**"
->
+
 > "Safari is just weird a lot"
->
+
 > "Too many to list for Safari on iOS/ipadOS"
->
+
 > "Only **lacking/lagging** support in Safari"
->
+
 > "Safari in general has issues with standards implementation"
->
+
 > "All of CSS with Safari. Notch specially"
->
+
 > "All the new stuff **being held back by Safari**"
->
+
 > "Anything iOS Safari doesn't support is a blocker, **because its rendering engine is mandatory in iOS**."
->
+
 > "Anything new when using a WebKit browser -.-"
->
+
 > "Anything related to Apple company, **most of the new features are not available over there** ;)"
->
+
 > "Anything **safari does not support**"
->
+
 > "Anything Safari doesn't want to implement"
->
+
 > "**Anything that Firefox and Chrome support but Safari doesn't. It's a pain having to account for Apple's low bar**."
->
+
 > "Anything that’s implemented differently in Safari & iOS Safari"
->
+
 > "Better Safari update cycle, detached from OS updates"
->
+
 > "Bugs in Safari related to shadow DOM."
->
+
 > "Everything Safari doesn't support but Chromium & Firefox do"
->
+
 > "Flex gap, damn you Safari!"
->
+
 > "focus-visible is not yet supported by Safari"
->
+
 > "For whatever reasons, I wish Safari was quicker at implementing things."
->
+
 > "Full screen height is a pain to work with in Safari"
->
+
 > "height being inconsistent on IOS safari"
->
+
 > "I hate Safari."
->
+
 > "I have more and more instances where **stuff works everywhere but not in Safari**."
->
+
 > "**I just treat safari as a hellhole** where css goes to die"
->
+
 > "I often find myself with layout issues that only happen in Safari"
->
+
 > "I'm not sure exactly what it is, but **Safari is now my problem child across all metrics**. It seems to be a little different each time, but overall Safari is always the browser with CSS related bugs."
->
+
 > "Incompatibilities, poor CSS support in Safari"
->
+
 > "It is difficult for me to treat Safari as an important testing target or to pretend I care about its compatibility when **Apple seems utterly determined to make it difficult to test on Safari, and to use its incompatibilities to hold back open web development on Mac and especially on iOS**. I increasingly feel that **Safari doesn't really want to be part of a creative or open web**, and that's fine I guess, but I'm not going to waste my time and money buying an iPhone to test on when Apple would just prefer I made a native app for their platform anyway."
->
+
 > "Just all of Safari."
->
+
 > "Just wish Safari would die already"
->
+
 > "Main CSS pain point above all: Safari (i.e. all iOS) being rigged with bugs and lagging behind in features."
->
+
 > "Many technologies blocked by lack of Safari support"
->
+
 > "Mostly just slow adoption by Safari"
->
+
 > "mostly things that safari is catching up on"
->
+
 > "**Nearly all pain points are Safari**."
->
+
 > "Not any specific at the top of my head, but usually Safari is the one giving me a hard time :("
->
+
 > "Not many but it's annoying when it happens. It's usually Safari lagging behind or rendering random stuff instead of the UI specified."
->
+
 > "Not really difficulties, but Safari is one he** of a pain in the a** and having a more precise way of targeting it instead of both him and Chrome would be great (like -moz- prefix instead of having to write a bunch of @supports)"
->
+
 > "Only lacking/lagging support in Safari"
->
+
 > "Perf issues in Safari"
->
+
 > "Pretty much anything modern, as **Safari is lagging behind**."
->
+
 > "Pretty much **anything that Safari shipped less than 18 months ago**"
->
+
 > "REMs in media queries. Damn you Safari!!"
->
+
 > "Safari (in general)"
->
+
 > "Safari and apple in general have incompatibility because they are late"
->
+
 > "**Safari became the new Internet Explorer** fro us"
->
+
 > "Safari feels pretty behind the times most of the time"
->
+
 > "safari has been a bit of a pain"
->
+
 > "Safari imcompatibilities"
->
+
 > "Safari iOS is becoming tiresome."
->
+
 > "Safari is a huge mess"
->
+
 > "Safari is always years behind Edge/Chrome and has many many many bugs related to viewheight/scroll. iOS Safari is the biggest limiting factor in all web development."
->
+
 > "**Safari is constantly dragging its heels**."
->
+
 > "safari is evil"
->
+
 > "Safari is just weird a lot"
->
+
 > "**Safari is neglected**"
->
+
 > "safari is pain in the ass for debug if you have pc"
->
+
 > "Safari is the main problem"
->
+
 > "Safari is the new IE"
->
+
 > "Safari is the new Internet Explorer..."
->
+
 > "Safari on iOS :D"
->
+
 > "Safari should die!"
->
+
 > "Safari sucks"
->
+
 > "Safari updates not frequent enough"
->
+
 > "Safari, especially mobile"
->
+
 > "Safari. Everything WebKit. Freaking Apple…"
->
+
 > "The number one web problem is browser compatibility. **Browser like Safari is slowing down the evolution of web unfortunately**"
->
+
 > "Too many to list for Safari on iOS/ipadOS"
->
+
 > "Using Flexbox to layout forms because Safari on iOS shrinks radio buttons."
->
+
 > "we can create any new features, but if browsers (like Safari) are waiting 3 years to implement it, it's totally useless."
->
+
 > "**WebKit is never up to date and doesn't implement features fast enough (or at all)**."
->
+
 > "yea, loads, mostly because of safari - like gap or ::marker"
->
+
 > "Yeah **Safari is killing me, it's the new IE**!"
->
+
 > "Yep, Safari is the new IE regarding grid and flexbox issues"
->
+
 > "Yes - and Safari is nearly always the browser that gets it wrong."
->
+
 > "Yes, **horrible Safari support**"
->
+
 > "Yes, specifically compatibility with Safari"
->
+
 > "Yes, usually it's Safari. It became new IE😂"
->
+
 > "**Yes. And we have Apple to blame for it**! Flexbox gap is a good example."
->
+
 > "Yes. Too much new useful features not supported by fcking safari."
+
+  </div>
+</div>
 
 
 
@@ -1512,6 +1548,10 @@ Extracted from the site are some quotes:
 > "**It's the right thing to do Apple.**"
 > <cite>[Shaun Bliss (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
+<div class="collapser">
+  <button class="action-button">Show more comments</button>
+  <div class="collapsed">
+
 > "Need it! **Soon**!!"
 > <cite>[Francesco Rombecchi (Dec 1, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
@@ -1580,6 +1620,9 @@ Extracted from the site are some quotes:
 
 > "we **need** this feature to get free of apps"
 > <cite>[Tamir Konor (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+  </div>
+</div>
 
 <!--
 -- CONTINUE AT PAGE 72 --

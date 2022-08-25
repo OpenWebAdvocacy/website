@@ -47,8 +47,9 @@ module.exports = config => {
   // Pass through images
   config.addPassthroughCopy('./src/images');
 
-  // Pass through css
+  // Pass through css, js
   config.addPassthroughCopy('./src/css');
+  config.addPassthroughCopy('./src/js');
 
   // Pass through files
   config.addPassthroughCopy('./src/files');

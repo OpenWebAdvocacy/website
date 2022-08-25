@@ -6,7 +6,10 @@ metaDesc: 'The full Bringing Competition to Walled Gardens report, published by 
 subtitle: 'Third Party Browsers & Web Apps - VERSION 1.2'
 paperName: 'OWA - Bringing Competition to Walled Gardens - v1.2'
 paperSize: '9.2MB'
-pageNonCriticalScripts: [ '/js/walled-gardens/collapser.js' ]
+pageNonCriticalScripts: [
+  '/js/walled-gardens/collapser.js',
+  '/js/walled-gardens/print.js'
+]
 ---
 
 <!--
@@ -102,6 +105,15 @@ button {
 blockquote + .collapser > button:first-child {
   --flow-space: 3em;
   margin-bottom: var(--flow-space, 1em);
+}
+
+@media print {
+  .collapser > button:first-child {
+    display: none;
+  }
+  .collapser > .collapsed {
+    display: block;
+  }
 }
 
 /**

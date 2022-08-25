@@ -40,8 +40,9 @@
     {% endif %}
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/queries.css" />
+    <link rel="stylesheet" href="/css/print.css" media="print" />
   </head>
-  <body>
+  <body class="page--{{ page.fileSlug }}">
     {% if isHome %}
       {% include "partials/home-header.njk" %}
     {% else %}

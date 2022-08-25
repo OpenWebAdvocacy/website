@@ -2136,7 +2136,7 @@ Apple's commitment to privacy on the web is admirable but the uneven enforcement
 
 
 
-#### 9.1. Photoshop
+### 9.1. Photoshop
 
 Using various new standardized web technologies, Adobe has now brought a public beta of [Photoshop to the web](https://web.dev/ps-on-the-web/).
 

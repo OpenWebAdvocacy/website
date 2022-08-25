@@ -13,7 +13,7 @@ pageNonCriticalScripts: [ '/js/walled-gardens/collapser.js' ]
 
 Notes:
 
-* Just use regular " quotes in blockquotes
+* Just use regular " quotes in blockquotes ?
 * Use <cite> for blockquotes
 * Do not include '.' in bold/italic styles
 
@@ -100,7 +100,7 @@ button {
   display: none;
 }
 blockquote + .collapser > button:first-child {
-  --flow-space: 3em;
+  --flow-space: 2em;
   margin-bottom: var(--flow-space, 1em);
 }
 
@@ -1621,16 +1621,170 @@ Extracted from the site are some quotes:
 > "we **need** this feature to get free of apps"
 > <cite>[Tamir Konor (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
+> "our app helps restaurants notify guest when their food is ready, guest can opt to receive a notification. **but iphone users cant**. only android users can. Not everyone wants to install an app to receive mobile event based notifications."
+> <cite>[sal iozzia (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> I'm a web dev, **it makes no sense that apple is behind on this**.
+> <cite>[Darren Allen (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> PWAs are here now! Empower developers to use the skills they know today (HTML, CSS, JavaScript) to create amazing products.
+> <cite>[Cesar Perez (Feb 23, 2022)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Add notifications!
+> <cite>[Wesley Pohto (Jan 24, 2022))](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> **We built a small app for the push** and have **difficulty to maintain it**. We are in a big need to have web push to run in iOS
+> <cite>[Brenda Kwok (Oct 22, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> I m facing same issue and I want to request for notification on web IOS devices
+> <cite>[Nitesh Sharma (Oct 15, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> I have no idea when a client comes into my retail chat platform with me while I work on my iPad. I don't receive a chime or banner so I am unable to use my iPad as a tool for work. Please enable push notifications for ios.
+> <cite>[Blake Y (Oct 2, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> we need it
+> <cite>[呂 昶億 (Sep 15, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Our clients will benefit greatly from push notifications on iPhones
+> <cite>[Sergei Gorlovetsky (Aug 22, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> OMG!!!! PLEASE!!! WHY YOU DIDN'T IMPLEMENT THIS YET?!!!!
+> <cite>[Leandro Simões da Silva (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> I think that this is a very important feature to have.
+> <cite>[David Rychlý (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> To remove the barrier requiring users to download an app just to deliver push notifications
+> <cite>[Loveth Ezeoye (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> This is need of the hour. iOS users are loosing on a great UX.
+> <cite>[adarsh madrecha (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> apple! i want to be able to use web push notification from my favorite sites and pwa apps!
+> <cite>[ChunTing Tai (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> I represent a small company that creates membership administration software for dance/martial arts/yoga studios, which includes a PWA for their members for ease of communication, conveying absence, sharing calendar and events, etc. Currently approximately 40.000+ dancers …
+> <cite>[Johan van Ingen (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Apple are going to lose support from their loyal customers over this glaring omission. Thousands of great websites will work great on Android and PCs but not on Apple.
+> <cite>[Mac MacLaren (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Support open web standards
+Those kind of systems must be more agnostic.
+> <cite>[Brian Kephart (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> It's a huge feature that "the best of the best" should of thought of first and is falling behind once again.
+> <cite>[joseph simmons (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Just do it.
+> <cite>[Jazmyn Cote (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> I really need this for a web app I am developing.
+> <cite>[Adrian Meyers (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Implementen push notification en safari
+> <cite>[Hector Luis Batista (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Web notifications can be useful for users that do not want to download an app just to receive notifications. Email notifications are not as effective and SMS are pricey
+> <cite>[Mo Alraddadi (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Hoy en día los usuarios tienen que tener la posibilidad de ELEGIR si recibir notificaciones web push en su celular o no... No debe ser algo restricto!
+> <cite>[Mauro Francisco Arrigoni (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Make this a reality.
+> <cite>[Devonte Valentine (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Apple initially unveiled Safari as the means by which developers could develop applications for iPhone. An idea ahead of its time. But that was followed by the first iOS SDK and app store. I believe there is room for both. PWA's are not meant to wipe out app stores, but to open a new pathway to…
+> <cite>[Michael Bunchball (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> I develop PWA and I want to send web push notifications to users
+> <cite>[Erick Daniel Miranda Varas (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> **Ios should lead this technology, not slack behind!**
+> <cite>[Anton Albèrt Karlström (2 years ago) ](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> NEED THIS BIG TIME!
+> <cite>[Nevaan Perera (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> to deliver a consistent and smooth user experience on iOS and Android devices - **to remove the barrier requiring users to download an app just to deliver push notifications**
+> <cite>[Lukas Schmyrczyk (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> really hoping in new **iOS 12** they added web push notifications in Safari
+#PWA
+> <cite>[Irsyad Ilham (Jun 5, 2018)](https://twitter.com/_irsyadilham_/status/1003837872850362368?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> When is iOS Safari gonna get Web Push?
+> <cite>[@chendo (Jul 31, 2018)](https://twitter.com/chendo/status/1024165614577840129?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> Hi! I've watched a Google IO keynote about the PWA and they've shown this table. Are Web Push & Notifications coming to Safari, even on iOS? Thanks for the answer!
+> <cite>[Thibault (May 9, 2018)](https://twitter.com/ThibB/status/994214627570569216?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> Dear @Apple,
+>
+> Can you **please please please** enable push notifications for safari ios ?
+>
+> Sincerely yours, <br />
+> Alan, a #PWA developer.
+> <cite>[@AlanCrevon (Jun 28, 2018)](https://twitter.com/AlanCrevon/status/1011984630738759681?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> So sad that push notifications **are still not possible** in Safari for iOS 10.
+> <cite>[Boris Smus (Oct 9, 2016)](https://twitter.com/borismus/status/784917901945872384?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Hey @jonathandavis, Any plans to bring Web Push Notifications to iOS Safari?
+> <cite>[Diogo Cunha (Jun 26, 2018)](https://twitter.com/diffcunha/status/1011582721737383936?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> iOS Safari DOES NOT support push notifications. With macOS Safari will it support push notifications for WEB APPS?
+> <cite>[eon V Baravykas (Jun 16, 2016)](https://twitter.com/AussieVilkas/status/743239015143399425?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> Apple should bring Safari push notifications to iOS.
+>
+> A much-needed bridge.
+> <cite>[George Papadakis (Jan 12, 2014)](https://twitter.com/phaistonian/status/422242877461106688?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> Why **doesn't iOS allow push notifications** from Safari? #firstworldproblems
+> <cite>[Josh Manders (Nov 20, 2011)](https://twitter.com/joshmanders/status/137976204702658560?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> I **guess still no Push Notifications** on iOS Safari, even proprietary ones
+> <cite>[Arthur Stolyar (Jun 6, 2017)](https://twitter.com/nekrtemplar/status/871825566999212033?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Anyone else find it odd that OS X is getting push notifications for Safari before iOS is?
+> <cite>[Dan Ryan (Jun 12, 2013)](https://twitter.com/dryan/status/344591918749069312?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> One more thing…noticed how Push notifications for safari was listed under iOS/OSX. Maybe well get push notifcations for mobilesafari at wwdc
+> <cite>[Constantin Jacob (Apr 27, 2014)](https://twitter.com/tzeejay/status/460303135022780418?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> Safari for iOS should support push notification…
+> <cite>[K̾a̾x̾i̾n̾g̾🛸 (May 21, 2011)](https://twitter.com/kaxing/status/71823217274261505?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> **Seeing a Web App I worked on used by *Apple* to justify that the Web is a viable platform on iOS is bullshit**
+>
+> The Web can be an ideal place to build apps but Apple is consistently dragging their heals on implementing the Web APIs that would allow them to compete with native apps
+> <cite>[Ada Rose Cannon (May, 2021)](https://twitter.com/AdaRoseCannon/status/1389642353472851970) <br />(emphasis added)</cite>
+
   </div>
 </div>
 
+#### 5.8.2. Safari has been buggy for a long time
+
+> I'm always **amazed at the irriparable bugs Safari** on iOS yields due to its cutting corners whereever it can. **Thank you for being our new IE!**
+> <cite>[Christian Schaefer (Oct 10, 2017)](https://twitter.com/derSchepp/status/917668189592588288?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
 <!--
--- CONTINUE AT PAGE 72 --
+-- CONTINUE AT PAGE 78 --
 😭 SO MANY QUOTES 😭
-@TODO: this is a bit much, it's ~ 17 pages of comments :|
 -->
 
-#### 5.8.2. Safari has been buggy for a long time
+<!--
+
+> TEXT
+> <cite>[]()</cite>
+
+> TEXT
+> <cite>[]() <br />(emphasis added)</cite>
+
+-->
+
+
 
 #### 5.8.3. News and Blog Articles
 

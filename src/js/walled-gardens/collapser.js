@@ -8,8 +8,8 @@
     button.remove();
   };
 
-  [...document.querySelectorAll('.collapser > button:first-child')].forEach( element => {
-    element.addEventListener('click', onClick, { once: true });
+  [...document.querySelectorAll('.collapser > button:first-child')].forEach( button => {
+    button.addEventListener('click', onClick, { once: true });
   });
 
 })();

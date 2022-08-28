@@ -1769,20 +1769,130 @@ Those kind of systems must be more agnostic.
 > I'm always **amazed at the irriparable bugs Safari** on iOS yields due to its cutting corners whereever it can. **Thank you for being our new IE!**
 > <cite>[Christian Schaefer (Oct 10, 2017)](https://twitter.com/derSchepp/status/917668189592588288?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
 
-<!--
--- CONTINUE AT PAGE 78 --
-😭 SO MANY QUOTES 😭
--->
+> **Severe two year old iOS Safari bug** with position:fixed that started in iOS 8, finally closed…
+> <cite>[Jeff Atwood (Jun 15, 2017)](https://twitter.com/codinghorror/status/875127338190503937?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
 
-<!--
+> iOS safari bugs have **added 80 hours of work** to my current project - now I'm kinda fed up with it! But seems to have everything fixed now :-)
+> <cite>[Michael Vestergaard (Nov 5, 2016)](https://twitter.com/iltp/status/794535136645750789?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
 
-> TEXT
-> <cite>[]()</cite>
+> Can we all pause and reflect on the disgusting fact that Safari desktop still does not support HTML input type date? Every other modern browser does. **Safari iOS support is half baked with bugs** such as the default date being today even if the max attribute is set with a past date.
+> <cite>[Jayden Seric (Dec 12, 2018)](https://twitter.com/jaydenseric/status/1072649315397615616?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
 
-> TEXT
-> <cite>[]() <br />(emphasis added)</cite>
+> I 💓 bugs in Safari/iOS that **do not appear in any other browser incl. Safari/Desktop** and Safari/iOS Simulator. Great way to spend one's time.
+> <cite>[Manuel Strehl (Apr 26, 2017)](https://twitter.com/m_strehl/status/857186402261512192?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
 
--->
+> **Safari for iOS sucks. 5 bugs on website only because of Safari**. It’s getting out of control. Still no good service worker implementation. Becoming new Internet Explorer in some time. 😭
+> <cite>[Dariusz Lorek (Oct 11, 2018)](https://twitter.com/dariuszlorek/status/1050176807272624130?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> But you will find lots of **iOS Safari-only bugs**, so… swings and roundabouts 😉
+> <cite>[Matt Stow (Sep 26, 2017)](https://twitter.com/stowball/status/912611092018323456?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Oh and we fixed those **crazy iOS layout bugs** (since Safari on iOS does not really respect viewport height. I mean, it does, but come on..)
+> <cite>[Clean Email (May 9, 2017)](https://twitter.com/clean_email/status/861767744919814144?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> iOS 12 introduced some nasty Safari bugs. **Safari is the new IE for developers**.
+> <cite>[Grant McCall (Sep 20, 2018)](https://twitter.com/grantmccall/status/1042542145612075008?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **I can't believe iOS Safari has such major bugs**. Showing cached pages unexpectedly all the time, like when opening a homescreen link
+> <cite>[Tom Bielecki (May 1, 2016)](https://twitter.com/tombielecki/status/726560977823526912?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+<div class="collapser">
+  <button class="action-button">Show more comments</button>
+  <div class="collapsed">
+
+> A number of issues C3 has in "Add to home screen" mode on iOS are Safari bugs. We report them **but Apple are very slow and opaque in dealing with them**. For example switching between Safari and web app loses all storage: [https://bugs.webkit.org/show_bug.cgi?id=181849](https://bugs.webkit.org/show_bug.cgi?id=181849)
+> <cite>[Ashley Gullen (Nov 3, 2018)](https://twitter.com/AshleyGullen/status/1058373005120860161?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **Safari on iOS tends to ship with tons of bugs** (think of fixed position handling) that need version-specific workarounds. Don't take away our last straw for building something somewhat useable in Safari.
+> <cite>[Matthias Keller (Dec 21, 2017)](https://twitter.com/kellermatth/status/943812107358924800?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Calypso is so advanced it can’t even see into its own bewildered state. This is manifest in **the plague of interaction bugs on iOS Safari**.
+> <cite>[Ryan Boren (Aug 19, 2018)](https://twitter.com/rboren/status/1030832012469395456?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Alright, it should work now as far as I could test. **There are a lot of Safari & iOS bugs in WebGL**; I'm still grappling with some (and that on a Friday night!) :)
+> <cite>[David Lenaerts (Oct 6, 2018)](https://twitter.com/DerSchmale/status/1048291855589421057?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **We have to spend way too much time on Flexbox related iOS Safari bugs** each sprint, but I'm not sure what Safari version that is so you could be right about the "right now" part 😅
+> <cite>[Dillon de Voor (Apr 13, 2018)](https://twitter.com/CrocoDillon/status/984706727898644481?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> I  may or may not have **just spent 2hrs fixing a bug caused by iOS Safari being a piece of shit** and I may or may not have an entirely different opinion on this tomorrow okay thx bye.
+> <cite>[Scott (Dec 5, 2018)](https://twitter.com/scott_riley/status/1070051423860203520?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **Thinking Webkit (Safari and Chrome for iOS) is on verge of becoming the new IE for developers: Brittle, cumbersome, and falling behind**.
+> <cite>[CK MacLeod (Jul 6, 2018)](https://twitter.com/CK_MacLeod/status/1014957101179797504?s=20&t=Pjt8d3GlAJzYPgdlQPbp5) <br />(emphasis added)</cite>
+
+> There was article about Chrome being the new IE and it makes a lot of valid points, but **to me, it's Safari on iOS**. It's such horseshit. <br />
+> #webdev <br />
+> [https://medium.com/@bdc/chrome-is-the-new-ie-1a21c1efc133](https://medium.com/@bdc/chrome-is-the-new-ie-1a21c1efc133)
+> <cite>[Longzero (Feb 16, 2018)](https://twitter.com/Longzero/status/964166488482631684?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Two major complains  to @Apple. Safari is slow on adopting new JS/CSS APIs & iOS11 is too buggy. **Safari is new IE**, iOS is new Android.
+> <cite>[Ilya (Sep 23, 2017)](https://twitter.com/darasus_/status/911593652635488256?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Unfortunately, since Steve Jobs died, **we have the buggiest Safari starting from iOS 7**, completely denying the perfection which was set initially. <br />
+> [https://dzone.com/articles/safari-ios-7-and-html5](https://dzone.com/articles/safari-ios-7-and-html5)
+> <cite>[Brian Cannard (Nov 18, 2018)](https://twitter.com/briancannard/status/1063879561606098954?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Hey Apple, **please take some of your $180 billion cash reserves and fix Safari and iOS**. They are easily the buggiest modern OS and browser.
+> <cite>[Creative Logic (Apr 15, 2015)](https://twitter.com/creative_logic/status/588002875239899136?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> I think **Safari might be the buggiest app I currently run in OS X. Debugging an iOS device is almost unbearable**.
+> <cite>[George Crawford (Jun 27, 2014)](https://twitter.com/georgeocrawford/status/482515603211968513?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> "Bad news! **Apple iOS 7 is plagued with HTML5 bugs**" -InfoWorld (2013), "**This is the buggiest Safari version since**..." <br />
+> [http://fb.me/37BcJBuaK](http://fb.me/37BcJBuaK)
+> <cite>[Occupy HTML5 (Jan 5, 2014)](https://twitter.com/occupy_html5/status/419650316632850432?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Apple has published just 10% of the necessary information for web developers, and I can say without fear of mistake that **this is the buggiest Safari version since 1.0**
+> <cite>[Maximiliano Firtman](https://firt.dev/ios-7) <br />(emphasis added)</cite>
+
+> Yo,  @Apple, **Your new iOS is trash, especially safari. So many bugs**.
+>
+> Honestly, Apple has been going down hill since Jobs died.
+> <cite>[Sarah (Nov 30, 2020)](https://twitter.com/HvrdTimes/status/1333052218963062785?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **Everyone in my mentions saying Safari is the worst, it’s the new IE**… Can you point to specific bugs & missing support that frustrate you, inhibit you making websites/apps. Bonus points for links to tickets.
+>
+> Specifics we can fix. Vague hate is honestly super counterproductive.
+> <cite>[Jen Simmons (Apple Developer Relations) - Feb 9, 2022](https://twitter.com/jensimmons/status/1491064075987873792) <br />(emphasis added)</cite>
+
+> Hi @jensimmons - I'm a big fan of yours and your work (specifically CSS articles), but **I've been super-frustrated with Safari for the past few years** - thank you for asking for input. It is like the new IE, but not quite as bad. (cont'd)
+>
+> Part of the issue is that **it seems like the webkit bugzilla is a dead-end** - it seems like any info posted there just sits there, and may be sucked into another system, so the public view is radio silent. Here's one that I posted (still a bug):<br />
+> [https://t.co/048O9KTnBJ](https://t.co/048O9KTnBJ) <br />
+> … <br />
+> It also seems like **webkit (and webkit iOS) has just been understaffed**/not a priority for Apple. We're investing heavily in PWAs so our apps run on all platforms, **but PWA support on webkit has well-documented gaps**. For a small startup, we'll necessarily deprioritize iOS.
+> <cite>[John Crim (Feb 11, 2022)](https://twitter.com/johnwcrim/status/1491828595433836545?s=20&t=BJ4-YBnU8vDTCOGhQlpC0A) <br />(emphasis added)</cite>
+
+> I can't point to specific bugs on this, **but I've all but given up on iOS support for my 3D engine** because out of every browser and OS I support, iOS Safari is the most trigger-happy when it comes to killing tabs for using "too much" memory. How much is too much?🤷‍♂️ wish I knew!
+> <cite>[James Baicoianu (Feb 9, 2022)](https://twitter.com/bai0/status/1491147591555645440?s=20&t=BJ4-YBnU8vDTCOGhQlpC0A) <br />(emphasis added)</cite>
+
+> You want the truth? Okay
+>
+> Plugin support on Safari is trash since **you’re at the mercy of the awful App Store**, which is a nightmare to search and is lacking in support compared to Firefox and Chrome
+>
+> Webkit is also restricted for third parties so they can’t make any good web apps
+> <cite>[Dri Scaphandre (Feb 10, 2022)](https://twitter.com/Dr_Scaphandre/status/1491437615241109505?s=20&t=BJ4-YBnU8vDTCOGhQlpC0A) <br />(emphasis added)</cite>
+
+> [https://bugs.webkit.org/show_bug.cgi?id=218012](https://bugs.webkit.org/show_bug.cgi?id=218012)
+>
+> including analysis and specific suggestion in comment 12. This is a hard problem for a web app obviously but 1.5+ years without traction... (**but a sleuth of other audio bugs, it is hard to keep them apart even at this point**)
+> <cite>[Philipp Hancke (Feb 9, 2022)](https://twitter.com/HCornflower/status/1491154421048573952?s=20&t=BJ4-YBnU8vDTCOGhQlpC0A) <br />(emphasis added)</cite>
+
+> A lot of the hate comes from product decisions / forcing people to use Safari (on iOS), which you probably have no control over, so the hate shouldn’t be directed at you. **But it’s a browser that lags in features and fixes, gets updated less often, and is forced on users**.
+> <cite>[Matthew Dean (Feb 9, 2022)](https://twitter.com/MatthewDeaners/status/1491230548702142466?s=20&t=BJ4-YBnU8vDTCOGhQlpC0A) <br />(emphasis added)</cite>
+
+> Safari is quickly turning into the new IE.
+>
+> **20% of my time is spent writing hacky code apologizing for Safari's failures as a browser**
+>
+> In our project, we've just started the E2E testing phase on Safari
+>
+> I'm just trying my best to survive the imminent bug avalanche on Jira 🤮🤮
+> <cite>[Aurelian Lucius (Apr 13, 2022)](https://twitter.com/aurelian_lucius/status/1514174112314318849) <br />(emphasis added)</cite>
+
+  </div>
+</div>
 
 
 

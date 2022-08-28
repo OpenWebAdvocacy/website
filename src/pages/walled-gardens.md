@@ -1049,8 +1049,8 @@ The Website/Web App **never gets to see this list of bluetooth devices, it may n
   "/images/walled-gardens/27_pair-process-web.png",
   "An Android screenshot showing device options to pair with, for a webpage, with a 'PAIR' primary action",
   "screenshot", null,
-  [150, 200, 300],
-  "150px"
+  [200, 300, 400],
+  "200px"
 %}
 
 

@@ -489,7 +489,10 @@ p.logo-home {
 	max-width: 100px;
 }
 
-	p.logo-home img {vertical-align: bottom;}
+	p.logo-home img {
+    height: auto;
+    vertical-align: bottom;
+  }
 
 div.home-wrapper {
 	width: 90%;

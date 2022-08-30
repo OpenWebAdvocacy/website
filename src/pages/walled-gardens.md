@@ -2040,7 +2040,7 @@ Apple may choose to boot developers who sue or publicly criticize them. This can
 
 ## 7. Apple's Incentives
 
-### Advantages of the status quo for Apple
+### 7.1. Advantages of the status quo for Apple
 
 > Apple gains a lot by slow-walking progressive web apps on the iPhone
 > <cite>[Russell Brandom - The Verge](https://www.theverge.com/2021/5/27/22454959/epic-apple-trial-recap-video-tim-cook-xbox-playstation-business#:~:text=APPLE%20GAINS%20A%20LOT%20BY%20SLOW-WALKING%20PROGRESSIVE%20WEB%20APPS%20ON%20THE%20IPHONE)</cite>
@@ -2048,15 +2048,15 @@ Apple may choose to boot developers who sue or publicly criticize them. This can
 Businesses that want to have applications on Apple mobile devices are forced to develop Apple native applications, which provides the following advantages to Apple:
 
 * **Business Lock-In** <br />
-Businesses have to go through the AppStore and provide Apple 15-30% of their revenue, which represents a significant share of Apple's revenue (estimated at $64 billion in 2020). Preventing Web Apps from being a viable alternative to native apps also allows Apple to maintain a high commission rate, as it is acknowledged in internal Apple emails that they are unable to charge such an amount on other systems which have competition for their App Store. <br />
-Not only is iOS too large of a percentage of the mobile market to ignore, iOS users are typically more valuable because they spend more money. Combined with the high cost of developing a native app for iOS, development companies will often target iOS first and then only optionally build apps for other platforms if they have the budget, expertise and staffing to do it. <br />
+Businesses have to go through the AppStore and provide Apple 15-30% of their revenue, which represents a significant share of Apple's revenue (estimated at [$64 billion in 2020](https://www.theverge.com/2021/1/8/22220873/apple-2020-app-store-revenue-60-billion-dollars)). Preventing Web Apps from being a viable alternative to native apps also allows Apple to maintain a high commission rate, as it is acknowledged in internal Apple emails that they are [unable to charge such an amount on other systems which have competition](https://applescoop.org/story/apple-execs-discuss-why-the-mac-app-store-has-not-been-successful-in-internal-email) for their App Store. <br />
+Not only is iOS too large of a percentage of the mobile market to ignore, iOS users are typically more valuable because they spend more money. Combined with the high cost of developing a native app for iOS, development companies will often target iOS first and then only optionally build apps for other platforms **if they have the budget, expertise and staffing to do it**. <br />
 This gives Apple an advantage over competing mobile ecosystems by enriching its exclusive application ecosystem which it can then use to push sales of its mobile devices. Web Apps do not offer this lock-in because they work on all devices regardless of manufacturer and operating system.
 * **Consumer Lock-In** <br />
 They prevent Apple devices owners from switching to competitor mobile devices and operating systems as iOS Apps must be written for iOS. Many iOS apps never get rewritten for Android, so they are not available (It's very expensive to write the same App 2-3 times in different languages).
 * **Control** <br />
-Apple can ban categories of applications for no reason other than they don’t like them (game streaming for example). <sup>3</sup>
+Apple can **ban** categories of applications for no reason other than they don’t like them (game streaming for example). <sup>3</sup>
 * **Barriers to Entry** <br />
-They prevent the emergence of competing mobile operating systems, because many applications are only available on iOS and since they are not interoperable, emergent competitors have an insurmountable disadvantage since they don’t have access to a library of useful apps. This is arguably one of the biggest reasons why Microsoft’s Windows Phone operating system failed - Microsoft never managed to convince companies to invest in building and maintaining apps for yet another mobile operating system. Even a juggernaut like Microsoft was not able to break into the mobile operating systems market.
+They prevent the emergence of competing mobile operating systems, because many applications are only available on iOS and since they are not interoperable, emergent competitors have an insurmountable disadvantage since they don’t have access to a library of useful apps. This is arguably one of the biggest reasons **why Microsoft’s Windows Phone operating system failed** - Microsoft never managed to convince companies to invest in building and maintaining apps for yet another mobile operating system. Even a juggernaut like Microsoft was not able to break into the mobile operating systems market.
 * **Google Search Engine Revenue** <br />
 Apple have a $15B annual deal with Google to set Google as the default search engine on iOS Safari (9% of Apples Annual Gross Profit)
 * **Cost Cutting to boost margins on hardware** <br />
@@ -2072,7 +2072,7 @@ By only allowing Safari to mint subprocesses Apple can save money on RAM <sup>4<
 
 
 
-## 7.2. Microtransactions and “Whales”
+### 7.2. Microtransactions and “Whales”
 
 Many have speculated that Safari's lack of funding and functionality is to protect App Store revenue. Apple’s marketing and legal teams push the ideas that it’s their thriving App Store marketplace and curation that brings income to developers as a justification for the 30% tax that is applied but then use privacy and security as reasons they need to block third-party App Stores.
 
@@ -2094,7 +2094,7 @@ All of this comes back to competition. Because Apple has effectively banned the 
 
 
 
-## 7.3. Apple’s Pattern of iOS App Store Favoritism
+### 7.3. Apple’s Pattern of iOS App Store Favoritism
 
 Looking through Apple's actions in iOS and Safari/Webkit a clear pattern of iOS App Store favoritism vs the Open Web emerges. Specifically:
 
@@ -2163,7 +2163,7 @@ To imply that browsers can simply contribute to WebKit negates the fact that App
 
 #### 8.1.1. Microsoft Differentiates Edge from Chrome
 
-For example this is a list of all the features that Microsoft have removed or replaced from Chromium in Edge:
+For example this is a list of all the features that Microsoft have [removed or replaced](https://9to5google.com/2019/04/09/chromium-edge-browser-disables-google-services/) from Chromium in Edge:
 
 {% image
   "/images/walled-gardens/34_microsoft-chrome-edge-differences.png",

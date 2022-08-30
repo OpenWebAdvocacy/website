@@ -5,7 +5,7 @@ layout: 'layouts/paper.njk'
 metaDesc: 'The full Bringing Competition to Walled Gardens report, published by Open Web Advocacy.'
 subtitle: 'Third-Party Browsers & Web Apps - VERSION 1.2'
 paperName: 'OWA - Bringing Competition to Walled Gardens - v1.2'
-paperSize: '9.2MB'
+paperSize: '7.7MB'
 pageNonCriticalScripts: [ '/js/walled-gardens/collapser.js' ]
 ---
 

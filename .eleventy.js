@@ -6,11 +6,15 @@ const tocPlugin = require('eleventy-plugin-toc');
 // Markdown Libraries
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
+const markdownItAttrs = require('markdown-it-attrs');
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 const cleanTocFilter = require('./src/filters/clean-toc-filter.js');
+
+// Shortcodes
+const imageShortcode = require('./src/shortcodes/image.js');
 
 // Utils
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
@@ -20,6 +24,9 @@ module.exports = config => {
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('cleanTocFilter', cleanTocFilter);
+
+  // Add shortcodes
+  config.addNunjucksAsyncShortcode('image', imageShortcode);
 
   // Plugins
   config.addPlugin(rssPlugin);
@@ -40,8 +47,9 @@ module.exports = config => {
   // Pass through images
   config.addPassthroughCopy('./src/images');
 
-  // Pass through css
+  // Pass through css, js
   config.addPassthroughCopy('./src/css');
+  config.addPassthroughCopy('./src/js');
 
   // Pass through files
   config.addPassthroughCopy('./src/files');
@@ -65,7 +73,8 @@ function buildMarkdownLibrary() {
     html: true,
   });
 
-  mdParser.use(markdownItAnchor, {
+  mdParser
+  .use(markdownItAnchor, {
     level: 1,
     permalink: markdownItAnchor.permalink.ariaHidden({
       placement: 'before'
@@ -74,7 +83,8 @@ function buildMarkdownLibrary() {
       const formatted = String(s).trim().toLowerCase().replace(/^[\d.]+\s/g, '').replace(/\s+/g, '-');
       return encodeURIComponent(formatted);
     }
-  });
+  })
+  .use(markdownItAttrs);
 
   return mdParser;
 }

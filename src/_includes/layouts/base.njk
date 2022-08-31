@@ -1,4 +1,4 @@
-{% set assetHash = global.random() %}
+{% set assetHash = global.hash() %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,6 +15,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/logo-32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="/images/logo-48.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/images/logo-192.png">
+
+    {# Add facility for pages to delare an array of non-critical javascript #}
+    {% if pageNonCriticalScripts %}
+      {% for item in pageNonCriticalScripts %}
+        <script src="{{ item }}?{{ assetHash }}" defer></script>
+      {% endfor %}
+    {% endif %}
 
     {# Add facility for pages to delare an array of critical styles #}
     {% if pageCriticalStyles %}

@@ -24,3 +24,11 @@ body.page--walled-gardens section {
 body.page--walled-gardens section h2 {
   page-break-before: always;
 }
+
+/* Expand all collapsers */
+.collapser > button:first-child {
+  display: none;
+}
+.collapser > .collapsed {
+  display: block;
+}

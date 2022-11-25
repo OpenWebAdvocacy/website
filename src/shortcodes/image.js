@@ -21,7 +21,7 @@ module.exports = async function imageShortcode(src, alt, className, formats, wid
   const imageAttributes = {
     alt,
     sizes,
-    class: className,
+    class: className || '',
     loading: "lazy",
     decoding: "async",
   };

@@ -3,210 +3,10 @@ title: 'Bringing Competition to Walled Gardens'
 permalink: '/walled-gardens-report/'
 layout: 'layouts/paper.njk'
 metaDesc: 'The full Bringing Competition to Walled Gardens report, published by Open Web Advocacy.'
-subtitle: 'Third Party Browsers & Web Apps - VERSION 1.2'
+subtitle: 'Third-Party Browsers & Web Apps - VERSION 1.2'
 paperName: 'OWA - Bringing Competition to Walled Gardens - v1.2'
-paperSize: '9.2MB'
-pageNonCriticalScripts: [
-  '/js/walled-gardens/collapser.js',
-  '/js/walled-gardens/print.js'
-]
+paperSize: '7.7MB'
 ---
-
-<!--
-
-Notes:
-
-* Just use regular " quotes in blockquotes
-* Use <cite> for blockquotes
-* Do not include '.' in bold/italic styles
-
-Todos:
-
-* Check capitalization in headers. Sometimes We Do This, sometimes a Lot Less.
-* Use 'third-party browser' (not 'third party browser')
-  > Third party (without the '-') is used as a subject, not a modifier. (ex. The third party agreed to the rules.) Third-party (with the '-') is used as a modifier
-* Clean up double spaces ('  ')
-* Check if lists consistently end with a dot.
-* Optimize images! There are 800+ kb pngs in there.
-  > squoosh.app
-  > can we make them `loading="lazy"` ? None of the images sits ATF.
-* Speaking of optimizing, .... yes what?
-* WebAssembly or Web Assembly
-* Normalize dates (2016-10-06, 6 Oct. 2016, pick one :))
-* Number <sup>, maybe link to them?
-
-? Replace all ’ with '
-? Replace all " and " with "
-? Replace all '...' with '…'
-? Replace Mac OS with macOS
-
-?? Should we include `markdown-it-attrs`, so we can do ![](){loading=lazy}, **strong**{.stressed}
-
-?? Should we try to use paint/layout containment to help the browser keep this doc in a reasonable shape, perf-wise? It's pretty darn long 😅
-
-?? Can we make long lists / quotes collapsed? Ex: 5.6.1
-
-Styling:
-
-* Refrain from doing italic, is hard to read?
-  > Maybe opt for slab font for quotes?
-
-* Print stylesheet
-
--->
-
-<style>
-
-/**
- * Blockquote
- */
-
-/* TODO */
-blockquote p {
-  font-size: 1rem !important;
-}
-
-/* Add <p> styling for <bq /> */
-.flow > blockquote > * + * {
-  margin-top: var(--flow-space, 1em);
-}
-.flow > blockquote > p + p {
-  margin-top: 0.8em;
-}
-
-/* Add <cite /> or <bq /> */
-cite {
-  display: block;
-  font-size: 80%;
-  margin-top: 0.8em;
-}
-cite:before {
-  content: '\2014\00a0';
-}
-
-/**
- * Button
- */
-button {
-  all: unset;
-  cursor: pointer;
-}
-
-/**
- * Collapser
- */
-.collapser {
-  contain: content;
-  margin-top: 0;
-}
-.collapser > .collapsed {
-  display: none;
-}
-blockquote + .collapser > button:first-child {
-  --flow-space: 3em;
-  margin-bottom: var(--flow-space, 1em);
-}
-
-@media print {
-  .collapser > button:first-child {
-    display: none;
-  }
-  .collapser > .collapsed {
-    display: block;
-  }
-}
-
-/**
- * Img
- */
-
-/* Img */
-img {
-  height: auto;
-}
-
-/* Gallery */
-div.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-auto-rows: minmax(150px, auto);
-  gap: 2rem;
-  margin-bottom: 2rem;
-  max-width: 70ch;
-}
-@media screen and (min-width: 500px) {
-  div.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-auto-rows: minmax(150px, auto);
-    gap: 2rem;
-    margin-bottom: 2rem;
-  }
-}
-
-/* Gallery w/figures */
-div.gallery figure {
-  flex-direction: column;
-  gap: 1rem;
-}
-div.gallery figcaption {
-  padding: 0 1rem;
-  text-align: center;
-  font-size: 80%;
-  font-variation-settings: var(--fvs-regular);
-}
-
-/* Screenshot */
-div.gallery.screens img,
-img.screenshot {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 350px;
-  max-height: 320px;
-  margin: 0 auto;
-  border-radius: 0.25rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-
-/* Others */
-img.centered {
-  display: block;
-  margin: 0 auto;
-}
-img.rounded {
-  border-radius: 0.5rem;
-}
-
-/**
- * Table
- */
-
-/* Add <table> styling */
-table {
-  width: 100%;
-  max-width: 70ch;
-  border: 1px solid var(--n-dark);
-  border-collapse: collapse;
-}
-tr {}
-thead tr {
-  background-color: var(--n-dark);
-  color: var(--text-inv);
-}
-tbody tr:nth-child(odd) {
-  background-color: var(--n-light);
-}
-th, td {
-  padding: 0.25rem 0.5rem;
-}
-th {
-  text-align: left;
-}
-
-</style>
-
-
 
 ## 2. Preface
 
@@ -230,15 +30,15 @@ It is our hope that with this competition Apple will come to realize the great i
 
 ## 3. Introduction
 
-The entire future of the **consumer application industry** is being heavily limited by Apple’s ban of third party browsers. These actions prevent cross-compatibility between devices, and create significant barriers for new market entrants. For businesses and consumers, it greatly increases costs and enables Apple to lock them into their closed ecosystem. This reduces competition for both browsers and applications, and shifts the cycle of investment and funding from an open and free platform to proprietary closed platforms, driving up prices for consumers and developers.
+The entire future of the **consumer application industry** is being heavily limited by Apple’s ban of third-party browsers. These actions prevent cross-compatibility between devices, and create significant barriers for new market entrants. For businesses and consumers, it greatly increases costs and enables Apple to lock them into their closed ecosystem. This reduces competition for both browsers and applications, and shifts the cycle of investment and funding from an open and free platform to proprietary closed platforms, driving up prices for consumers and developers.
 
-**Apple has banned** competing **Third Party Browsers** from their iOS devices (iPhone and iPad) by requiring that all browser vendors use Safari’s WebView ([2.5.6 App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/#:~:text=2.5.6%20Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20Javascript.)). Browser vendors are not allowed to ship their browsers which they have spent hundreds of thousands of hours developing and instead are forced to produce a separate browser which is essentially a thin wrapper or skin around the WebKit engine in Apple’s own browser, Safari.
+**Apple has banned** competing **Third-Party Browsers** from their iOS devices (iPhone and iPad) by requiring that all browser vendors use Safari’s WebView ([2.5.6 App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/#:~:text=2.5.6%20Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20Javascript.)). Browser vendors are not allowed to ship their browsers which they have spent hundreds of thousands of hours developing and instead are forced to produce a separate browser which is essentially a thin wrapper or skin around the WebKit engine in Apple’s own browser, Safari.
 
 Critically this browser ban prevents the *emergence* of an *open and free universal platform* for apps, where developers can build their application once and have it work across all consumer devices, be it desktop, laptop, tablet or phone. Instead it forces companies to create multiple separate applications to run on each platform, significantly raising the cost and complexity of development and maintenance. These costs are in addition to the 15% - 30% tax charged by the App Store. This greater cost is ultimately passed on to consumers in the form of higher fees, more bug prone applications and the applications not being available on all platforms. This then decreases competition with other manufacturers by depriving them of a healthy library of apps. The costs of developing an interoperable application that works identically are pushed so high that only well funded companies can afford it and as a result many useful or otherwise profitable applications never get built.
 
 Apple is preventing the interoperable, standards-based web from becoming a viable alternative to the native proprietary ecosystems on offer from Apple and Google. In the absence of competition, the poor state of Apple’s own browser and integration of Web Apps has the effect of pushing developers and users towards the gated ecosystem of the App Store. Safari and Apple’s WebView frequently suffer simultaneous, critical application breaking bugs which spill into competing iOS browsers because they cannot bring their own engines which might not contain these bugs.
 
-In a clear conflict of interest with third party browsers, **[Apple receives 15b USD per year for search engine placement](https://9to5mac.com/2021/08/25/analysts-google-to-pay-apple-15-billion-to-remain-default-safari-search-engine-in-2021/)** in Safari while ensuring other browsers can not effectively compete on iOS, its most popular operating system. Mozilla, a non-profit, produces a browser that consistently bests Apple’s in security and standards conformance with revenues of [less than $500 million per year](https://assets.mozilla.net/annualreport/2019/mozilla-fdn-2019-short-form-0926.pdf).
+In a clear conflict of interest with third-party browsers, **[Apple receives 15b USD per year for search engine placement](https://9to5mac.com/2021/08/25/analysts-google-to-pay-apple-15-billion-to-remain-default-safari-search-engine-in-2021/)** in Safari while ensuring other browsers can not effectively compete on iOS, its most popular operating system. Mozilla, a non-profit, produces a browser that consistently bests Apple’s in security and standards conformance with revenues of [less than $500 million per year](https://assets.mozilla.net/annualreport/2019/mozilla-fdn-2019-short-form-0926.pdf).
 
 A lack of market pressure, combined with [alleged systemic underfunding](https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/#:~:text=We%20asked%20Apple%20about%20the%20IndexedDB%20bug%20and%20whether%20its%20Safari%20team%20is%20understaffed%20compared%20to%20the%20competition.%20We%20would%20be%20stunned%20if%20it%20chose%20to%20reply.) over many years, prevents the web from becoming a viable application platform. The only way for developers to create stable, capable applications is to invest in Apple’s proprietary platform, which it taxes and retains exclusive control over.
 
@@ -286,13 +86,13 @@ For those who would like to help or join us in fighting for a free and open futu
 
 ### 3.3 Definitions
 
-**"Third Party Browser"** - A web browser developed by a company other than the gatekeeper which includes a layout engine and rendering engine either selected or built by the company.
+**"Third-Party Browser"** - A web browser developed by a company other than the gatekeeper which includes a layout engine and rendering engine either selected or built by the company.
 
 **"Native App"** - An app written using a gatekeeper’s proprietary frameworks and APIs which are provided by the operating system. On iOS (Apple’s operating system for iPhone and iPad) these are currently exclusively delivered through Apple’s App Store.
 
-**"Web App"** -  A Web Application, Web App or Progressive Web App (PWA) is an application developed using Web technologies, such as HTML, CSS, JavaScript and WebAssembly.  Web Apps use Web Browsers as the "engine" to run the Web App. The capabilities of a Web Apps depends on the level of advancement of the Web Browser that they run on. **Web Assembly** allows developers to bring existing software, for example game engines or photoshop, and port/convert them so they run on the web or as a web-app.
+**"Web App"** - A Web Application, Web App or Progressive Web App (PWA) is an application developed using Web technologies, such as HTML, CSS, JavaScript and WebAssembly. Web Apps use Web Browsers as the "engine" to run the Web App. The capabilities of a Web Apps depends on the level of advancement of the Web Browser that they run on. **WebAssembly** allows developers to bring existing software, for example game engines or photoshop, and port/convert them so they run on the web or as a web-app.
 
-Web Apps can be made to run offline, can run as smoothly as native apps and can support high performance applications, but this functionality depends on the Web Browser.  Web Apps offer more privacy and security than native apps. Web Apps are universal, in that they can be written once and then run on all devices.  This is in comparison with native apps that have to be rewritten for each platform that they target.
+Web Apps can be made to run offline, can run as smoothly as native apps and can support high performance applications, but this functionality depends on the Web Browser. Web Apps offer more privacy and security than native apps. Web Apps are universal, in that they can be written once and then run on all devices. This is in comparison with native apps that have to be rewritten for each platform that they target.
 
 To the end user a well written Web App should be indistinguishable from a native app.
 
@@ -308,10 +108,10 @@ To the end user a well written Web App should be indistinguishable from a native
 
 ## 4. Effective Competition?
 
-> "Businesses that face effective competition dare not raise prices, or cut down on quality standards, for fear of losing customers to their competitors (and so losing money)"
+> Businesses that face effective competition dare not raise prices, or cut down on quality standards, for fear of losing customers to their competitors (and so losing money)
 > <cite>[Dr Michael Grenfell](https://www.gov.uk/government/speeches/michael-grenfell-should-competition-authorities-intervene-in-digital-markets)</cite>
 
-> "For the foreseeable future, iOS will be the dominant access pathway, passport, monetizer and platform for not just digital life, but virtual ones. Apple holds this role because it makes best-in-class hardware, offers the best apps, and operates the most lucrative app store."
+> For the foreseeable future, iOS will be the dominant access pathway, passport, monetizer and platform for not just digital life, but virtual ones. Apple holds this role because it makes best-in-class hardware, offers the best apps, and operates the most lucrative app store.
 > <cite>[Matthew Ball - Venture Capitalist, Writer](https://www.matthewball.vc/all/applemetaverse)</cite>
 
 iOS Safari faces no effective competition as Apple has banned the engines that differentiate other browsers. Customers have little recourse short of buying another phone.
@@ -322,19 +122,19 @@ Businesses have little recourse as they can not suggest their customers install 
 
 As such, Apple faces little effective competitive pressure to improve the quality of their iOS Safari browser and has incentives to inhibit it from competing with native. Thus Apple’s decade long prohibition on competition for Safari on iOS has a compounding anti-competitive effect as companies sink money into non-interoperable native iOS applications instead of Web Apps.
 
-Even Apple executives appear to be aware only their stranglehold on iOS installation is allowing their 30% tax on revenue, something they can not achieve on Mac OS.
+Even Apple executives appear to be aware only their stranglehold on iOS installation is allowing their 30% tax on revenue, something they can not achieve on macOS.
 
-> "Neither is on the store because they don't have to be. They can be on Mac and distribute to users without sharing the revenue with us"
+> Neither is on the store because they don't have to be. They can be on Mac and distribute to users without sharing the revenue with us
 > <cite>[Philip Schiller - Apple Upper Management - On the Mac App Store](https://applescoop.org/story/apple-execs-discuss-why-the-mac-app-store-has-not-been-successful-in-internal-email)</cite>
 
 
 
 ## 5. Apple is Holding Back the Open Web
 
-> "Instead, Apple is inhibiting this future Internet. And it does so via tolls, controls, and technologies that not only deny what made and still makes the open web so powerful, but also prevents competition, and prioritize Apple’s own profits."
+> Instead, Apple is inhibiting this future Internet. And it does so via tolls, controls, and technologies that not only deny what made and still makes the open web so powerful, but also prevents competition, and prioritize Apple’s own profits.
 > <cite>[Matthew Ball - Venture Capitalist, Writer](https://www.matthewball.vc/all/applemetaverse)</cite>
 
-> "Making the web less useful makes apps more useful, from which Apple can take its share; similarly, it is notable that Apple is expanding its own app install product even as it is kneecapping the industry’s."
+> Making the web less useful makes apps more useful, from which Apple can take its share; similarly, it is notable that Apple is expanding its own app install product even as it is kneecapping the industry’s.
 > <cite>[Ben Thompson - Stratechery](https://stratechery.com/2020/apple-and-facebook/)</cite>
 
 
@@ -390,7 +190,7 @@ Apple's iOS Safari is significantly more buggy and unstable than its rivals maki
 
 The Apple App Store Review Guidelines contain the [following rule](https://developer.apple.com/app-store/review/guidelines/#:~:text=2.5.6%20Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20Javascript.):
 
-> "2.5.6 Apps that browse the web must use the appropriate WebKit framework and WebKit Javascript."
+> 2.5.6 Apps that browse the web must use the appropriate WebKit framework and WebKit Javascript.
 
 Webkit is the engine that powers Safari and several Linux browsers. Apple also produces a "WebKit framework" that is included in its operating systems (macOS, iOS, iPadOS, tvOS, and watchOS).
 
@@ -398,26 +198,26 @@ In practice, Section 2.5.6 is a requirement that iOS and iPadOS browsers from Go
 
 All rival iOS browsers in the App Store are essentially Safari under the hood. This Browser Ban is unique to Apple’s iOS.
 
-> "**Apple has a browser monopoly on iOS**, which is something Microsoft was never able to achieve with IE"
+> **Apple has a browser monopoly on iOS**, which is something Microsoft was never able to achieve with IE
 > <cite>[Scott Gilbertson - The Register](https://www.theregister.com/2021/10/22/safari_risks_becoming_the_new_ie/?td=keepreading-top)</cite>
 
-> "All of this is compounded by yet another Apple policy: no third-party browser engines. You can install apps like Chrome, Firefox, Brave, DuckDuckGo, and others on the iPhone — but fundamentally they’re all just skins on top of Apple’s WebKit engine. That means that **Apple’s decisions on what web features to support on Safari are final**. If Apple were to find a way to be comfortable letting competing web browsers run their own browser engines, a lot of this tension would dissipate."
+> All of this is compounded by yet another Apple policy: no third-party browser engines. You can install apps like Chrome, Firefox, Brave, DuckDuckGo, and others on the iPhone — but fundamentally they’re all just skins on top of Apple’s WebKit engine. That means that **Apple’s decisions on what web features to support on Safari are final**. If Apple were to find a way to be comfortable letting competing web browsers run their own browser engines, a lot of this tension would dissipate.
 > <cite>[Dieter Bohn and Tom Warren - The Verge](https://www.theverge.com/2021/5/6/22421912/iphone-web-app-pwa-cloud-gaming-epic-v-apple-safari)</cite>
 
-> "So it’s not just one browser that falls behind. It’s all browsers on iOS. The whole web on iOS falls behind. And iOS has become so important that **the entire web platform is being held back as a result**."
+> So it’s not just one browser that falls behind. It’s all browsers on iOS. The whole web on iOS falls behind. And iOS has become so important that **the entire web platform is being held back as a result**.
 > <cite>[Niels Leenheer - HTML5test](https://nielsleenheer.com/articles/2021/chrome-is-the-new-safari-and-so-are-edge-and-firefox/)</cite>
 
-> "because **WebKit has literally zero competition on iOS**, because Apple doesn’t allow competition, the incentive to make Safari better is much lighter than it could (should) be."
+> because **WebKit has literally zero competition on iOS**, because Apple doesn’t allow competition, the incentive to make Safari better is much lighter than it could (should) be.
 > <cite>[Chris Coyier - CSS Tricks](https://css-tricks.com/ios-browser-choice)</cite>
 
-> "What Gruber conveniently failed to mention is that Apple’s banning of third-party browser engines on **iOS is repressing innovation in web apps.**"
+> What Gruber conveniently failed to mention is that Apple’s banning of third-party browser engines on **iOS is repressing innovation in web apps.**
 > <cite>[Richard MacManus - NewsStack](https://thenewstack.io/apples-browser-engine-ban-is-holding-back-web-app-innovation)</cite>
 
 No other major operating system imposes a ban on integrated third-party browsers (browsers that include their own engines). Microsoft Windows, Android, Linux, and Apple’s own macOS all enable choice of integrated browser. Even Google’s ChromeOS, named after its browser, is more open to competing engines than iOS.
 
-Despite this uniquely anti-competitive situation, Apple has managed to evade regulatory oversight.  Browser choice is what drives the technology forward which ultimately results in better, faster, more reliable software for users.
+Despite this uniquely anti-competitive situation, Apple has managed to evade regulatory oversight. Browser choice is what drives the technology forward which ultimately results in better, faster, more reliable software for users.
 
-Microsoft’s IE6 was once the dominant browser with a 95% market share<sup>1</sup> due to its pre-installation on Windows. Without competition on the Windows platform, browser development remained stagnant for years until Firefox’s market share triggered Microsoft to start investing in browsers once again. At no point did Microsoft ban competing browsers as Apple has done.
+Microsoft’s IE6 was once the dominant browser with a 95% market share <sup>1</sup> due to its pre-installation on Windows. Without competition on the Windows platform, browser development remained stagnant for years until Firefox’s market share triggered Microsoft to start investing in browsers once again. At no point did Microsoft ban competing browsers as Apple has done.
 
 <sup>1</sup> ["Usage share of web browsers - Wikipedia."](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers) Accessed 23 Jun. 2021.
 
@@ -425,7 +225,7 @@ Microsoft’s IE6 was once the dominant browser with a 95% market share<sup>1</s
 
 #### 5.3.1 Hobbled Competition even within Safari clones
 
-Apple's hobbling of third party browsers doesn't stop at mandating a specific version of Webkit, Apple provides Safari significant unfair advantages.
+Apple's hobbling of third-party browsers doesn't stop at mandating a specific version of Webkit, Apple provides Safari significant unfair advantages.
 
 The major issues include:
 
@@ -446,7 +246,7 @@ Only Safari can use extensions which are used by many users, including to block 
 Apple limits the integration of Apple Pay with the other browsers.
 
 6. **In-App Browsers** <br />
-Regardless of the user’s default browser setting, iOS will always force the user to use Safari instead of the user’s choice of browser.  An In-App Browser is a browser that you would see inside an application like twitter when you visit a link from inside the application.
+Regardless of the user’s default browser setting, iOS will always force the user to use Safari instead of the user’s choice of browser. An In-App Browser is a browser that you would see inside an application like twitter when you visit a link from inside the application.
 
 
 
@@ -454,19 +254,19 @@ Regardless of the user’s default browser setting, iOS will always force the us
 
 It’s well known in the web-development industry that Safari is far behind on critical web-features (emphasis added).
 
-> "The reason we **lost Safari on Windows** is the same reason we are **losing Safari on Mac. We didn't innovate or enhance Safari**. If you want to compete on something across all platforms, it needs to be the best. We had an amazing start on Safari and then **stopped innovating**. Now, we are starting to work on Safari again but look at Chrome. They put out releases at least every month while we basically do it **once a year**"
+> The reason we **lost Safari on Windows** is the same reason we are **losing Safari on Mac. We didn't innovate or enhance Safari**. If you want to compete on something across all platforms, it needs to be the best. We had an amazing start on Safari and then **stopped innovating**. Now, we are starting to work on Safari again but look at Chrome. They put out releases at least every month while we basically do it **once a year**
 > <cite>[Eddy Cue - Apple's Senior Vice President of Services](https://www.theverge.com/22611236/epic-v-apple-emails-project-liberty-app-store-schiller-sweeney-cook-jobs)</cite>
 
-> "Apple's Safari **lags considerably** behind its peers in supporting web features"
+> Apple's Safari **lags considerably** behind its peers in supporting web features
 > <cite>[Scott Gilbertson - The Register](https://www.theregister.com/2021/10/22/safari_risks_becoming_the_new_ie/?td=keepreading-top)</cite>
 
-> "Apple’s web engine **consistently trails** others in both **compatibility** and **features**, resulting in a large and persistent gap with Apple’s native platform."
-> <cite>[Alex Russell -  Program Manager on Microsoft Edge](https://infrequently.org/2021/04/progress-delayed/#:~:text=The%20data%20agree%3A%20Apple%27s%20web%20engine%20consistently%20trails%20others%20in%20both%20compatibility%20and%20features%2C%20resulting%20in%20a%20large%20and%20persistent%20gap%20with%20Apple%27s%20native%20platform.)</cite>
+> Apple’s web engine **consistently trails** others in both **compatibility** and **features**, resulting in a large and persistent gap with Apple’s native platform.
+> <cite>[Alex Russell - Program Manager on Microsoft Edge](https://infrequently.org/2021/04/progress-delayed/#:~:text=The%20data%20agree%3A%20Apple%27s%20web%20engine%20consistently%20trails%20others%20in%20both%20compatibility%20and%20features%2C%20resulting%20in%20a%20large%20and%20persistent%20gap%20with%20Apple%27s%20native%20platform.)</cite>
 
-> "Safari just doesn’t support key features — **and Safari’s the only option**"
+> Safari just doesn’t support key features — **and Safari’s the only option**
 > <cite>[Dieter Bohn and Tom Warren - The Verge](https://www.theverge.com/2021/5/6/22421912/iphone-web-app-pwa-cloud-gaming-epic-v-apple-safari)</cite>
 
-> "It’s not just the lack of choice in browser engines on iOS, it’s that **WebKit itself is deficient as a browser engine**."
+> It’s not just the lack of choice in browser engines on iOS, it’s that **WebKit itself is deficient as a browser engine**.
 > <cite>[Richard MacManus - The New Stack](https://thenewstack.io/apples-browser-engine-ban-is-holding-back-web-app-innovation)</cite>
 
 
@@ -482,7 +282,7 @@ The [Web Platform Tests Dashboard](https://wpt.fyi/results/?label=experimental&l
 
 As can be seen as at 10/11/2021, for each of the experimental builds of these browsers:
 
-- <strong class="stressed">4180 Failures - Safari</strong>
+- **4180 Failures - Safari**{.stressed}
 - 1346 Failures - Firefox
 - 494 Failures - Chrome
 
@@ -543,21 +343,21 @@ This table exposes many anti-competitive issues, namely:
 
 ##### 5.4.3.1. Install Prompts (7+ Years Behind)
 
-The ability to install Web Apps with at least the same level as ease as a native app.  See [5.4.5. iOS Web App Installation - A well hidden Safari exclusive](#ios-web-app-installation---a-well-hidden-safari-exclusive) for more details.
+The ability to install Web Apps with at least the same level as ease as a native app. See [5.4.5. iOS Web App Installation - A well hidden Safari exclusive](#ios-web-app-installation---a-well-hidden-safari-exclusive) for more details.
 
-This enables the developer to prompt to install a Web App when a user visits a website.  For any implementation to be fair, it needs to match any requirements for native install prompts.
+This enables the developer to prompt to install a Web App when a user visits a website. For any implementation to be fair, it needs to match any requirements for native install prompts.
 
 Success Criteria Include:
 
-1. The prompt needs to appear **on the first** load of the website OR by developer request.  Since Apple acts as a gatekeeper they should not provide any preference to installing their own apps.
-2. The language used by the Install Prompts should not convey the idea that Web Apps are inferior to Native apps.  I.e.  they should use the same language as native apps.  "Install" instead of "Add to Homescreen"
+1. The prompt needs to appear **on the first** load of the website OR by developer request. Since Apple acts as a gatekeeper they should not provide any preference to installing their own apps.
+2. The language used by the Install Prompts should not convey the idea that Web Apps are inferior to Native apps. I.e. they should use the same language as native apps. "Install" instead of "Add to Homescreen"
 3. The UI should be at a minimum equal in encouraging a user to install an app as the UIs provided on websites for installing native apps.
 
 
 
 ##### 5.4.3.2. Notifications (7+ Years behind other browsers, 13+ years behind native)
 
-Notifications are essential for a wide range of applications.  Without notifications many apps can not function (i.e. Messaging Apps, Social Media apps etc).  In general notification functionality should be equivalent to native.
+Notifications are essential for a wide range of applications. Without notifications many apps can not function (i.e. Messaging Apps, Social Media apps etc). In general notification functionality should be equivalent to native.
 
 Success criteria for notifications include:
 
@@ -580,15 +380,15 @@ This includes:
 3. Integration with Voice Assistants
 4. Storage
 
-Without full integration, this becomes a **significant barrier** to adoption.  Businesses (especially large ones) will not take the risk of building Web Apps if they have any significant issues). The overarching principle to ensure Web Apps are able to compete is equality with native apps. That is, installing and managing a Web App should not be worse than installing and managing a native app.
+Without full integration, this becomes a **significant barrier** to adoption. Businesses (especially large ones) will not take the risk of building Web Apps if they have any significant issues). The overarching principle to ensure Web Apps are able to compete is equality with native apps. That is, installing and managing a Web App should not be worse than installing and managing a native app.
 
 There should be no suggestion to the user that a Web App is inferior or different from a native app.
 
 **Double Prompts and the Permission Problem**
 
-Currently on iOS Web Apps are not considered as "real" apps by the operating system.  They don’t show up on the settings menu, they don’t show up on App shortcuts, and they don’t appear on any of the privacy menus.
+Currently on iOS Web Apps are not considered as "real" apps by the operating system. They don’t show up on the settings menu, they don’t show up on App shortcuts, and they don’t appear on any of the privacy menus.
 
-With the current architecture, for a Web-App to have permission to perform an action, Safari must have that permission.  This is unobvious to all but experts. Therefore our recommendation is that permissions should be attached to the Web App itself and not to the browser.
+With the current architecture, for a Web-App to have permission to perform an action, Safari must have that permission. This is unobvious to all but experts. Therefore our recommendation is that permissions should be attached to the Web App itself and not to the browser.
 
 For Example:
 
@@ -619,11 +419,11 @@ This should include:
 
 ##### 5.4.3.4. App Store Support (3+ Years behind)
 
-Many companies will still want to list their Web Apps in the Apple AppStore.  Android already provides this functionality with [Trusted Web Activities](https://developer.chrome.com/docs/android/trusted-web-activity/).
+Many companies will still want to list their Web Apps in the Apple AppStore. Android already provides this functionality with [Trusted Web Activities](https://developer.chrome.com/docs/android/trusted-web-activity/).
 
 Apple should provide a method where developers who have signed up to the Apple Developer Program can use an API to submit Web Apps to the Apple AppStore.
 
-This should not require users to purchase an Apple Mac or require xcode (i.e. developers should be free to use Windows or Linux).  It’s our belief that this will help drive Web App adoption.
+This should not require users to purchase an Apple Mac or require xcode (i.e. developers should be free to use Windows or Linux). It’s our belief that this will help drive Web App adoption.
 
 
 
@@ -656,13 +456,13 @@ Note that the equivalent has been available for a [very long time](https://devel
 
 ##### 5.4.3.8. Screen Orientation Lock (10+ Years Behind)
 
-Screen Orientation Lock allows a user to lock the screen to either horizontal or vertical.  This is essential to many types of apps, but especially games.
+Screen Orientation Lock allows a user to lock the screen to either horizontal or vertical. This is essential to many types of apps, but especially games.
 
 
 
 ##### 5.4.3.9. Bluetooth (5+ Years Behind)
 
-Bluetooth allows apps to connect to printers / scanners / internet of things / toys.  There are entire categories of apps that can’t be built without Web Bluetooth.
+Bluetooth allows apps to connect to printers / scanners / internet of things / toys. There are entire categories of apps that can’t be built without Web Bluetooth.
 
 Discussed at length in [5.5.1. Fingerprinting and Web Device APIs](#fingerprinting-and-web-device-apis)
 
@@ -670,16 +470,16 @@ Discussed at length in [5.5.1. Fingerprinting and Web Device APIs](#fingerprinti
 
 ##### 5.4.3.10. NFC (1+ Year Behind)
 
-Apple has mentioned in regulatory filings issues with NFC and what is called Card Emulation Mode, but they have also refused to implement the entire Web NFC specification in Safari even though it doesn’t include Card Emulation Mode. Since they have effectively banned all other third party browsers no other browser can provide NFC functionality.
+Apple has mentioned in regulatory filings issues with NFC and what is called Card Emulation Mode, but they have also refused to implement the entire Web NFC specification in Safari even though it doesn’t include Card Emulation Mode. Since they have effectively banned all other third-party browsers no other browser can provide NFC functionality.
 
 So far Apple has not provided any detailed reasoning as to why they are blocking this functionality besides the following:
 
-> "I'm not sure what specifics you're looking for but the issue is that we don't believe permission prompt is sufficient mitigation. Ordinary people don't understand the full security & privacy implications of granting NFC access when asked."
+> I'm not sure what specifics you're looking for but the issue is that we don't believe permission prompt is sufficient mitigation. Ordinary people don't understand the full security & privacy implications of granting NFC access when asked.
 > <cite>[Ryosuke Niwa - Apple](https://lists.webkit.org/pipermail/webkit-dev/2020-January/031034.html)</cite>
 
 The Web NFC specification contains an [extensive security and privacy section](https://w3c.github.io/web-nfc/#security), but Apple has made little effort to productively convey or solve any perceived security issues. By only providing NFC functionality via [its native ecosystem](https://developer.apple.com/documentation/corenfc) Apple effectively forces any developer that wishes to produce a mobile app with NFC to create a Native App where they can take a 30% cut.
 
-As part of our submission we would argue that Apple should not be able to block NFC access to third party browsers except where Apple applies on a **demonstrably** consistent basis to Apple's own Apps and Apps from the iOS App Store (**including by rules with analogous intent**).
+As part of our submission we would argue that Apple should not be able to block NFC access to third-party browsers except where Apple applies on a **demonstrably** consistent basis to Apple's own Apps and Apps from the iOS App Store (**including by rules with analogous intent**).
 
 Additionally any blocks should be narrowly tailored to solve particular security issues and Apple should be compelled to publicly answer and publicly provide technical documentation to any reasonable questions related to these rules or the evidence for them.
 
@@ -714,7 +514,7 @@ NFC has a huge range of current and future applications:
 
 The door to innovation needs to be left open without Apple acting as the gatekeeper except to provide very **narrow scope, heavily justified** security, privacy or digital safety protections.
 
-Our current recommendation is that Apple be forced to provide hardware access to NFC to other third party browsers for the purposes of implementing the NFC specification (which currently only covers [NDEF](https://w3c.github.io/web-nfc/#ndef-compatible-tag-types) which is already provided to iOS native apps) and should be forced to expand that access as the Web NFC specification expands to cover other parts of NFC. In the case where Apple believes a security risk is too great to users, Apple should prove  the harm to users is greater than the loss of utility.
+Our current recommendation is that Apple be forced to provide hardware access to NFC to other third-party browsers for the purposes of implementing the NFC specification (which currently only covers [NDEF](https://w3c.github.io/web-nfc/#ndef-compatible-tag-types) which is already provided to iOS native apps) and should be forced to expand that access as the Web NFC specification expands to cover other parts of NFC. In the case where Apple believes a security risk is too great to users, Apple should prove the harm to users is greater than the loss of utility.
 
 
 
@@ -735,7 +535,7 @@ Our current recommendation is that Apple be forced to provide hardware access to
     * **Background Sync**
     * Background Fetch API
 * Essential Media APIs
-    * Background Audio in Third Party Browsers and Web Apps. See [WebKit bug](https://bugs.webkit.org/show_bug.cgi?id=198277), fix took 3 years.
+    * Background Audio in Third-Party Browsers and Web Apps. See [WebKit bug](https://bugs.webkit.org/show_bug.cgi?id=198277), fix took 3 years.
     * Features and functionality in [PushKit](https://developer.apple.com/documentation/pushkit)
     * Features and functionality in [CallKit](https://developer.apple.com/documentation/callkit)
 * Essential Web App APIs
@@ -996,9 +796,9 @@ Apple has a technology called [Smart App Banners](https://developer.apple.com/do
   %}
 </div>
 
-If the App is not installed it displays a deep link to the iOS App Store.  If the App is installed it provides a link to open the App on iOS.
+If the App is not installed it displays a deep link to the iOS App Store. If the App is installed it provides a link to open the App on iOS.
 
-According to [this complaint](https://developer.apple.com/forums/thread/105129?answerId=639849022#639849022) there is no way for the developer to stop the Smart App Banner from appearing even if they do not add the meta-tag.  Provided the universal link patterns set for an App match it will display the banner.
+According to [this complaint](https://developer.apple.com/forums/thread/105129?answerId=639849022#639849022) there is no way for the developer to stop the Smart App Banner from appearing even if they do not add the meta-tag. Provided the universal link patterns set for an App match it will display the banner.
 
 There is no meta-tag to disable this behavior, forcing all developers to include a banner on their Website even if they wish to disable it is a clear attempt to direct traffic off the Web and into Apple’s ecosystem. Smart App Banners should likely be opt-in and respect the developers wishes. At the very least developers should be able to opt-out.
 
@@ -1006,7 +806,7 @@ There is no meta-tag to disable this behavior, forcing all developers to include
 
 ##### 5.4.5.5. Dark Patterns
 
-> "Dark patterns are design elements that deliberately **obscure**, mislead, coerce and/or deceive website visitors into making unintended and possibly harmful choices."
+> Dark patterns are design elements that deliberately **obscure**, mislead, coerce and/or deceive website visitors into making unintended and possibly harmful choices.
 > <cite>[Misha Ketchell - The Conversation](https://theconversation.com/what-are-dark-patterns-an-online-media-expert-explains-165362)</cite>
 
 The friction added to installing Web Apps by hiding away installation options, preventing the installation from other "browsers" and the clear preference shown to native apps through Smart Banners and App Clips are arguably [dark patterns](https://theconversation.com/what-are-dark-patterns-an-online-media-expert-explains-165362) and can completely hobble developers' attempts to provide apps to their users through the open web.
@@ -1017,7 +817,7 @@ Despite Apple’s [claims to regulators](https://www.accc.gov.au/system/files/Ap
 
 ### 5.5. Apple Uses Flawed Privacy Arguments
 
-> "The most dangerous feature that browsers have are not the device API’s; it is the ability to **link to and download native apps**."
+> The most dangerous feature that browsers have are not the device API’s; it is the ability to **link to and download native apps**.
 > <cite>[Niels Leenheer - HTML5test](https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/)</cite>
 
 
@@ -1028,7 +828,7 @@ The goal of fingerprinting is to re-identify users uniquely (without their permi
 
 Apple has [rejected certain web standard device APIs](https://webkit.org/tracking-prevention/#anti-fingerprinting) that would provide Web Apps equivalent capabilities to Native Apps (the web standard versions are actually arguably much more strict and secure than their native counterparts, see Section 4.14 below).
 
-> "Finally, if we find that features and web APIs increase fingerprintability and offer no safe way to protect our users, we will not implement them until we or others have found a good way to reduce that fingerprintability."
+> Finally, if we find that features and web APIs increase fingerprintability and offer no safe way to protect our users, we will not implement them until we or others have found a good way to reduce that fingerprintability.
 > <cite>[Apple](https://webkit.org/tracking-prevention/#anti-fingerprinting)</cite>
 
 This was the stated reason Apple used to reject WebBluetooth from Safari (Webkit). This doesn’t make a great deal of sense.
@@ -1041,7 +841,7 @@ This is a very unreliable method of fingerprinting and requires a scary permissi
 
 Similar arguments can be extended to each of the other hardware APIs, they are all difficult to use for fingerprinting as it's impossible to do so without alerting the users and requiring their permission.
 
-> "Device API’s are simply bad for fingerprinting. It is unreliable and really obvious when it is used."
+> Device API’s are simply bad for fingerprinting. It is unreliable and really obvious when it is used.
 > <cite>[Niels Leenheer - HTML5test](https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/)</cite>
 
 We are not saying that iOS Safari must implement every feature implemented by the other browsers, in fact it is healthy for browser makers to pursue their own vision for the web. What is a problem is that Apple has banned all other browsers, so on iOS users have no option to use a different browser that does support these APIs.
@@ -1103,8 +903,8 @@ The Website/Web App **never gets to see this list of bluetooth devices, it may n
   "/images/walled-gardens/27_pair-process-web.png",
   "An Android screenshot showing device options to pair with, for a webpage, with a 'PAIR' primary action",
   "screenshot", null,
-  [150, 200, 300],
-  "150px"
+  [200, 300, 400],
+  "200px"
 %}
 
 
@@ -1115,7 +915,7 @@ The process for iOS native applications using Swift CoreBluetooth is:
 
 1. Declare that the application needs to use bluetooth along with a description in the info.plist *
 2. On first boot of the application, it will ask the user permission (via a prompt) to use bluetooth *
-3. If the user agrees the application now has access to bluetooth <sup>1</sup>
+3. If the user agrees the application now has access to bluetooth <sup>2</sup>
 4. This permission can be revoked at any time via user settings
 5. The application **can now get lists of any nearby bluetooth devices and connect/communicate with them indefinitely without user interaction**.
 
@@ -1125,7 +925,7 @@ The process for iOS native applications using Swift CoreBluetooth is:
   "screenshot"
 %}
 
-<sup>1</sup> Until 2019, steps 1 - 3 were not required. **This means before 2019 that the very large number of apps with bluetooth permissions track all users and connect to any device**.
+<sup>2</sup> Until 2019, steps 1 - 3 were not required. **This means before 2019 that the very large number of apps with bluetooth permissions track all users and connect to any device**.
 
 
 
@@ -1166,7 +966,7 @@ Apple has done an extremely poor job communicating what their concerns are (in s
 
 ##### 5.5.2.4. Safari WebBluetooth Extension
 
-> "Can't we solve this using browser extensions?"
+> Can't we solve this using browser extensions?
 > <cite>[Daniel Bates - Apple Webkit Team - 8th November 2017](https://www.w3.org/2017/11/08-device-api-minutes.html#:~:text=can%27t%20we%20solve%20this%20using%20browser%20extensions%3F)</cite>
 
 In the last public discussion about Web Bluetooth Standard between Apple and the other browser vendors it was suggested that browser extensions could offer a potential solution.
@@ -1183,7 +983,7 @@ While developers producing these types of extensions are almost certainly just t
 
 ##### 5.5.2.5. Apple's Identifier for Advertisers (IDFA)
 
-> "Apple has a tactical commitment to your privacy, not a moral one. When it comes down to guarding your privacy or losing access to Chinese markets and manufacturing, **your privacy is jettisoned without a second thought.**"
+> Apple has a tactical commitment to your privacy, not a moral one. When it comes down to guarding your privacy or losing access to Chinese markets and manufacturing, **your privacy is jettisoned without a second thought.**
 > <cite>[Cory Doctorow - Former European director of the Electronic Frontier Foundation](https://twitter.com/doctorow/status/1459914164152016905)</cite>
 
 Given Apple’s strong stance on user privacy on the web, to the point of rejecting extremely useful functionality on the mere possibility that a user could be assigned a unique identifier it may surprise readers to learn that **Apple offers a method to uniquely fingerprint users** in native apps called [Apple's Identifier for Advertisers (IDFA)](https://en.wikipedia.org/wiki/Identifier_for_Advertisers).
@@ -1192,8 +992,8 @@ Up until iOS 10 there was no way for users to disable this, starting in iOS 14 u
 
 Even when users do turn this functionality off, due to Natives' very permissive privacy and security model (relative to the Web) Apps can continue to fingerprint users.
 
-> "Our investigation found the iPhone’s tracking protections are nowhere nearly as comprehensive as Apple’s advertising might suggest. We found at least three popular iPhone games share a substantial amount of identifying information with ad companies, even after being asked not to track. <br />
-When we flagged our findings to Apple, it said it was reaching out to these companies to understand what information they are collecting and how they are sharing it. After several weeks, nothing appears to have changed."
+> Our investigation found the iPhone’s tracking protections are nowhere nearly as comprehensive as Apple’s advertising might suggest. We found at least three popular iPhone games share a substantial amount of identifying information with ad companies, even after being asked not to track. <br />
+When we flagged our findings to Apple, it said it was reaching out to these companies to understand what information they are collecting and how they are sharing it. After several weeks, nothing appears to have changed.
 > <cite>[Geoffrey Fowler And Tatum Hunter - Washington Post](https://www.washingtonpost.com/technology/2021/09/23/iphone-tracking/)</cite>
 
 The only consistent privacy policy with Apple’s concern for uniquely fingerprinting users on the web and with users being tricked via prompt) would **be to remove this functionality from iOS altogether**.
@@ -1204,7 +1004,7 @@ The only consistent privacy policy with Apple’s concern for uniquely fingerpri
   "screenshot"
 %}
 
-Apple has not announced any plans to entirely remove this functionality from iOS.  Apple’s privacy stance needs to be consistent to believe that they are doing it for the benefit of the user.  If they apply strict conditions that limit functionality on the web but allow pervasive tracking in native it can be argued they are providing pervasive tracking in the area which generates revenue while applying heavy restrictions beyond what is needed to prevent tracking on the other side.
+Apple has not announced any plans to entirely remove this functionality from iOS. Apple’s privacy stance needs to be consistent to believe that they are doing it for the benefit of the user. If they apply strict conditions that limit functionality on the web but allow pervasive tracking in native it can be argued they are providing pervasive tracking in the area which generates revenue while applying heavy restrictions beyond what is needed to prevent tracking on the other side.
 
 
 
@@ -1252,199 +1052,199 @@ The [State of CSS](https://stateofcss.com) survey of web developers recently had
   "Text file view showing a large amount of matches for the term 'Safari'"
 %}
 
-Extracting some of the quotes from the survey, it’s obvious that the opinion among developers that Safari is both buggy and lagging behind features is commonly shared amongst developers.  Safari/iOS/webkit/iPhone/ipad was mentioned 369 times several times. By comparison Firefox only had 12 negative mentions in the entire survey.
+Extracting some of the quotes from the survey, it’s obvious that the opinion among developers that Safari is both buggy and lagging behind features is commonly shared amongst developers. Safari/iOS/webkit/iPhone/ipad was mentioned 369 times several times. By comparison Firefox only had 12 negative mentions in the entire survey.
 
 Here are some extracts from the survey:
 
-> "I hate Safari with a passion of a thousand burning suns."
+> I hate Safari with a passion of a thousand burning suns.
 
-> "**Why is Safari so crap?** Why on earth do I still have discussions about IE11?"
+> **Why is Safari so crap?** Why on earth do I still have discussions about IE11?
 
-> "The Safari team should put their head out of their arse - Safari, Especially iOS Safari, are such a pain to work with as a webdeveloper, they lag years behind on too many features for both CSS & JS."
+> The Safari team should put their head out of their arse - Safari, Especially iOS Safari, are such a pain to work with as a webdeveloper, they lag years behind on too many features for both CSS & JS.
 
-> "Safari feels pretty behind the times most of the time"
+> Safari feels pretty behind the times most of the time
 
-> "**Safari is always years behind** Edge/Chrome and has many many many bugs related to viewheight/scroll."
+> **Safari is always years behind** Edge/Chrome and has many many many bugs related to viewheight/scroll.
 
-> "iOS Safari is the biggest limiting factor in all web development."
+> iOS Safari is the biggest limiting factor in all web development.
 
-> "mostly things that safari is catching up on"
+> mostly things that safari is catching up on
 
-> "safari is evil"
+> safari is evil
 
-> "Flex gap :( it's so good but Safari is the new IE."
+> Flex gap :( it's so good but Safari is the new IE.
 
-> "Safari is the main problem"
+> Safari is the main problem
 
 <div class="collapser">
   <button class="action-button">Show more comments</button>
   <div class="collapsed">
 
-> "Full screen height is a pain to work with in Safari"
+> Full screen height is a pain to work with in Safari
 
-> "Still have been held back by IE11, but that ends soon. (Safari though...)"
+> Still have been held back by IE11, but that ends soon. (Safari though...)
 
-> "**Anything Safari doesn't want to implement**"
+> **Anything Safari doesn't want to implement**
 
-> "Safari is just weird a lot"
+> Safari is just weird a lot
 
-> "Too many to list for Safari on iOS/ipadOS"
+> Too many to list for Safari on iOS/ipadOS
 
-> "Only **lacking/lagging** support in Safari"
+> Only **lacking/lagging** support in Safari
 
-> "Safari in general has issues with standards implementation"
+> Safari in general has issues with standards implementation
 
-> "All of CSS with Safari. Notch specially"
+> All of CSS with Safari. Notch specially
 
-> "All the new stuff **being held back by Safari**"
+> All the new stuff **being held back by Safari**
 
-> "Anything iOS Safari doesn't support is a blocker, **because its rendering engine is mandatory in iOS**."
+> Anything iOS Safari doesn't support is a blocker, **because its rendering engine is mandatory in iOS**.
 
-> "Anything new when using a WebKit browser -.-"
+> Anything new when using a WebKit browser -.-
 
-> "Anything related to Apple company, **most of the new features are not available over there** ;)"
+> Anything related to Apple company, **most of the new features are not available over there** ;)
 
-> "Anything **safari does not support**"
+> Anything **safari does not support**
 
-> "Anything Safari doesn't want to implement"
+> Anything Safari doesn't want to implement
 
-> "**Anything that Firefox and Chrome support but Safari doesn't. It's a pain having to account for Apple's low bar**."
+> **Anything that Firefox and Chrome support but Safari doesn't. It's a pain having to account for Apple's low bar**.
 
-> "Anything that’s implemented differently in Safari & iOS Safari"
+> Anything that’s implemented differently in Safari & iOS Safari
 
-> "Better Safari update cycle, detached from OS updates"
+> Better Safari update cycle, detached from OS updates
 
-> "Bugs in Safari related to shadow DOM."
+> Bugs in Safari related to shadow DOM.
 
-> "Everything Safari doesn't support but Chromium & Firefox do"
+> Everything Safari doesn't support but Chromium & Firefox do
 
-> "Flex gap, damn you Safari!"
+> Flex gap, damn you Safari!
 
-> "focus-visible is not yet supported by Safari"
+> focus-visible is not yet supported by Safari
 
-> "For whatever reasons, I wish Safari was quicker at implementing things."
+> For whatever reasons, I wish Safari was quicker at implementing things.
 
-> "Full screen height is a pain to work with in Safari"
+> Full screen height is a pain to work with in Safari
 
-> "height being inconsistent on IOS safari"
+> height being inconsistent on IOS safari
 
-> "I hate Safari."
+> I hate Safari.
 
-> "I have more and more instances where **stuff works everywhere but not in Safari**."
+> I have more and more instances where **stuff works everywhere but not in Safari**.
 
-> "**I just treat safari as a hellhole** where css goes to die"
+> **I just treat safari as a hellhole** where css goes to die
 
-> "I often find myself with layout issues that only happen in Safari"
+> I often find myself with layout issues that only happen in Safari
 
-> "I'm not sure exactly what it is, but **Safari is now my problem child across all metrics**. It seems to be a little different each time, but overall Safari is always the browser with CSS related bugs."
+> I'm not sure exactly what it is, but **Safari is now my problem child across all metrics**. It seems to be a little different each time, but overall Safari is always the browser with CSS related bugs.
 
-> "Incompatibilities, poor CSS support in Safari"
+> Incompatibilities, poor CSS support in Safari
 
-> "It is difficult for me to treat Safari as an important testing target or to pretend I care about its compatibility when **Apple seems utterly determined to make it difficult to test on Safari, and to use its incompatibilities to hold back open web development on Mac and especially on iOS**. I increasingly feel that **Safari doesn't really want to be part of a creative or open web**, and that's fine I guess, but I'm not going to waste my time and money buying an iPhone to test on when Apple would just prefer I made a native app for their platform anyway."
+> It is difficult for me to treat Safari as an important testing target or to pretend I care about its compatibility when **Apple seems utterly determined to make it difficult to test on Safari, and to use its incompatibilities to hold back open web development on Mac and especially on iOS**. I increasingly feel that **Safari doesn't really want to be part of a creative or open web**, and that's fine I guess, but I'm not going to waste my time and money buying an iPhone to test on when Apple would just prefer I made a native app for their platform anyway.
 
-> "Just all of Safari."
+> Just all of Safari.
 
-> "Just wish Safari would die already"
+> Just wish Safari would die already
 
-> "Main CSS pain point above all: Safari (i.e. all iOS) being rigged with bugs and lagging behind in features."
+> Main CSS pain point above all: Safari (i.e. all iOS) being rigged with bugs and lagging behind in features.
 
-> "Many technologies blocked by lack of Safari support"
+> Many technologies blocked by lack of Safari support
 
-> "Mostly just slow adoption by Safari"
+> Mostly just slow adoption by Safari
 
-> "mostly things that safari is catching up on"
+> mostly things that safari is catching up on
 
-> "**Nearly all pain points are Safari**."
+> **Nearly all pain points are Safari**.
 
-> "Not any specific at the top of my head, but usually Safari is the one giving me a hard time :("
+> Not any specific at the top of my head, but usually Safari is the one giving me a hard time :(
 
-> "Not many but it's annoying when it happens. It's usually Safari lagging behind or rendering random stuff instead of the UI specified."
+> Not many but it's annoying when it happens. It's usually Safari lagging behind or rendering random stuff instead of the UI specified.
 
-> "Not really difficulties, but Safari is one he** of a pain in the a** and having a more precise way of targeting it instead of both him and Chrome would be great (like -moz- prefix instead of having to write a bunch of @supports)"
+> Not really difficulties, but Safari is one he** of a pain in the a** and having a more precise way of targeting it instead of both him and Chrome would be great (like -moz- prefix instead of having to write a bunch of @supports)
 
-> "Only lacking/lagging support in Safari"
+> Only lacking/lagging support in Safari
 
-> "Perf issues in Safari"
+> Perf issues in Safari
 
-> "Pretty much anything modern, as **Safari is lagging behind**."
+> Pretty much anything modern, as **Safari is lagging behind**.
 
-> "Pretty much **anything that Safari shipped less than 18 months ago**"
+> Pretty much **anything that Safari shipped less than 18 months ago**
 
-> "REMs in media queries. Damn you Safari!!"
+> REMs in media queries. Damn you Safari!!
 
-> "Safari (in general)"
+> Safari (in general)
 
-> "Safari and apple in general have incompatibility because they are late"
+> Safari and apple in general have incompatibility because they are late
 
-> "**Safari became the new Internet Explorer** fro us"
+> **Safari became the new Internet Explorer** fro us
 
-> "Safari feels pretty behind the times most of the time"
+> Safari feels pretty behind the times most of the time
 
-> "safari has been a bit of a pain"
+> safari has been a bit of a pain
 
-> "Safari imcompatibilities"
+> Safari imcompatibilities
 
-> "Safari iOS is becoming tiresome."
+> Safari iOS is becoming tiresome.
 
-> "Safari is a huge mess"
+> Safari is a huge mess
 
-> "Safari is always years behind Edge/Chrome and has many many many bugs related to viewheight/scroll. iOS Safari is the biggest limiting factor in all web development."
+> Safari is always years behind Edge/Chrome and has many many many bugs related to viewheight/scroll. iOS Safari is the biggest limiting factor in all web development.
 
-> "**Safari is constantly dragging its heels**."
+> **Safari is constantly dragging its heels**.
 
-> "safari is evil"
+> safari is evil
 
-> "Safari is just weird a lot"
+> Safari is just weird a lot
 
-> "**Safari is neglected**"
+> **Safari is neglected**
 
-> "safari is pain in the ass for debug if you have pc"
+> safari is pain in the ass for debug if you have pc
 
-> "Safari is the main problem"
+> Safari is the main problem
 
-> "Safari is the new IE"
+> Safari is the new IE
 
-> "Safari is the new Internet Explorer..."
+> Safari is the new Internet Explorer...
 
-> "Safari on iOS :D"
+> Safari on iOS :D
 
-> "Safari should die!"
+> Safari should die!
 
-> "Safari sucks"
+> Safari sucks
 
-> "Safari updates not frequent enough"
+> Safari updates not frequent enough
 
-> "Safari, especially mobile"
+> Safari, especially mobile
 
-> "Safari. Everything WebKit. Freaking Apple…"
+> Safari. Everything WebKit. Freaking Apple…
 
-> "The number one web problem is browser compatibility. **Browser like Safari is slowing down the evolution of web unfortunately**"
+> The number one web problem is browser compatibility. **Browser like Safari is slowing down the evolution of web unfortunately**
 
-> "Too many to list for Safari on iOS/ipadOS"
+> Too many to list for Safari on iOS/ipadOS
 
-> "Using Flexbox to layout forms because Safari on iOS shrinks radio buttons."
+> Using Flexbox to layout forms because Safari on iOS shrinks radio buttons.
 
-> "we can create any new features, but if browsers (like Safari) are waiting 3 years to implement it, it's totally useless."
+> we can create any new features, but if browsers (like Safari) are waiting 3 years to implement it, it's totally useless.
 
-> "**WebKit is never up to date and doesn't implement features fast enough (or at all)**."
+> **WebKit is never up to date and doesn't implement features fast enough (or at all)**.
 
-> "yea, loads, mostly because of safari - like gap or ::marker"
+> yea, loads, mostly because of safari - like gap or ::marker
 
-> "Yeah **Safari is killing me, it's the new IE**!"
+> Yeah **Safari is killing me, it's the new IE**!
 
-> "Yep, Safari is the new IE regarding grid and flexbox issues"
+> Yep, Safari is the new IE regarding grid and flexbox issues
 
-> "Yes - and Safari is nearly always the browser that gets it wrong."
+> Yes - and Safari is nearly always the browser that gets it wrong.
 
-> "Yes, **horrible Safari support**"
+> Yes, **horrible Safari support**
 
-> "Yes, specifically compatibility with Safari"
+> Yes, specifically compatibility with Safari
 
-> "Yes, usually it's Safari. It became new IE😂"
+> Yes, usually it's Safari. It became new IE😂
 
-> "**Yes. And we have Apple to blame for it**! Flexbox gap is a good example."
+> **Yes. And we have Apple to blame for it**! Flexbox gap is a good example.
 
-> "Yes. Too much new useful features not supported by fcking safari."
+> Yes. Too much new useful features not supported by fcking safari.
 
   </div>
 </div>
@@ -1455,14 +1255,14 @@ Here are some extracts from the survey:
 
 WebRTC is a standard for web video calls, access to microphones and cameras, and enables streaming video applications such as game streaming (Stadia, xCloud, Luna, GeForce NOW, etc.).
 
-> "During March 2020 and the rise of the pandemic in Norway EVERYONE needed video calling. We are the number one video calling tool for healthcare here, and our use base is around 60% iOS Safari. I can tell first hand having to deal with onboarding 70% of the doctors in Norway with active bugs on iOS in simple things like media reliability, and with no real alternative (a lot of people only have one modern device, and that's their phone), **it was near catastrophe for us, and a lot of pain for doctors missing their patients due to bugs**"
+> During March 2020 and the rise of the pandemic in Norway EVERYONE needed video calling. We are the number one video calling tool for healthcare here, and our use base is around 60% iOS Safari. I can tell first hand having to deal with onboarding 70% of the doctors in Norway with active bugs on iOS in simple things like media reliability, and with no real alternative (a lot of people only have one modern device, and that's their phone), **it was near catastrophe for us, and a lot of pain for doctors missing their patients due to bugs**
 > <cite>Das-Igne Aas – CTO Confrere</cite>
 
-> "iOS Safari WebRTC is such a broken mess that my going suggestion to clients unfortunately is to not support it and redirect users to a native app installation. I had to manually go through all open WebRTC bugs in webkit to figure out how to explain this to my clients and help them in reaching that conclusion and even conveying that to their customers.
+> iOS Safari WebRTC is such a broken mess that my going suggestion to clients unfortunately is to not support it and redirect users to a native app installation. I had to manually go through all open WebRTC bugs in webkit to figure out how to explain this to my clients and help them in reaching that conclusion and even conveying that to their customers.
 >
 > There are nasty bugs in iOS Safari that have been opened since 2019 or earlier relating to media handling of WebRTC. These aren’t just edge cases, but rather things you’ll have users bump into in regular use. Some of them have finally been fixed in the latest 13.5.5 beta earlier this month.
 >
-> Oh – and if you plan on using any OTHER browser on iOS then WebRTC won’t be supported there. Why? Because Apple hasn’t made WebRTC available in its Webkit Webview on iOS and they aren’t allowing anyone to build a mobile iOS browser that doesn’t use Webkit as its rendering engine. So much for freedom and choice."
+> Oh – and if you plan on using any OTHER browser on iOS then WebRTC won’t be supported there. Why? Because Apple hasn’t made WebRTC available in its Webkit Webview on iOS and they aren’t allowing anyone to build a mobile iOS browser that doesn’t use Webkit as its rendering engine. So much for freedom and choice.
 > <cite>[Tsahi Levent-Levi](https://bloggeek.me/webrtc-browser-support/)</cite>
 
 
@@ -1471,10 +1271,10 @@ WebRTC is a standard for web video calls, access to microphones and cameras, and
 
 IndexedDB is a local browser database for storing data. It is essential for many apps, especially apps that require offline functionality. IndexedDB on iOS Safari has had many bugs and been broken many times since it was first introduced. Recently, both IndexedDB and LocalStorage, a similar API for storing small amounts of data, were broken, leaving developers little alternatives to store data or risk data loss or corruption. Local Storage which is also essential for many websites was broken at the same time.
 
-> "Apple's WebKit team has managed to break the popular IndexedDB JavaScript API in the latest version of Safari (14.1.1) on macOS 11.4 and iOS 14.6."
+> Apple's WebKit team has managed to break the popular IndexedDB JavaScript API in the latest version of Safari (14.1.1) on macOS 11.4 and iOS 14.6.
 > <cite>[Thomas Claburn - The Register](https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug)</cite>
 
-> "Ran into a spectacularly awful Safari bug in the latest Safari (14.1.1 on macOS and iOS 14.6).
+> Ran into a spectacularly awful Safari bug in the latest Safari (14.1.1 on macOS and iOS 14.6).
 >
 > Opening an IndexedDB database fails 100% of the time on the first try. 😩
 >
@@ -1482,7 +1282,7 @@ IndexedDB is a local browser database for storing data. It is essential for many
 > Bug report: [https://bugs.webkit.org/show_bug.cgi?id=226547](https://bugs.webkit.org/show_bug.cgi?id=226547)
 >
 > It's really really hard to build reliable websites on macOS and iOS with showstopper bugs like this.
-> This should have been caught by basic unit testing."
+> This should have been caught by basic unit testing.
 > <cite>[Feross Aboukhadijeh (Stanford Computer Security University Lecturer and Open-Source Developer of Socket)](https://twitter.com/feross/status/1404568122158313474)</cite>
 
 
@@ -1493,10 +1293,10 @@ Until [late 2020](https://www.theverge.com/2020/10/21/21526556/ios-14-resets-def
 
 As the only company banning competing engines, **Apple is clearly the worst offender**, but they are not the only ones impeding user choice. It is our opinion that to preserve competition, users must be given the ability to easily change their default browser and that choice must be respected by the operating system
 
-> "Google’s “Android Google Search App” has been ignoring browser choice on Android.
+> Google’s “Android Google Search App” has been ignoring browser choice on Android.
 >
-> Known as the "Android Google Search App" ("AGSA", or "AGA"), this humble text input is the source of a truly shocking amount of web traffic; traffic that all goes to Chrome, no matter the user's choice of browser."
-> <cite>[Alex Russell -  Program Manager on Microsoft Edge](https://infrequently.org/2021/07/hobsons-browser/#:~:text=Known%20as%20the%20%22Android%20Google%20Search%20App%22%20(%22AGSA%22%2C%20or%20%22AGA%22)%2C%20this%20humble%20text%20input%20is%20the%20source%20of%20a%20truly%20shocking%20amount%20of%20web%20traffic%3B%20traffic%20that%20all%20goes%20to%20Chrome%2C%20no%20matter%20the%20user%27s%20choice%20of%20browser.)</cite>
+> Known as the "Android Google Search App" ("AGSA", or "AGA"), this humble text input is the source of a truly shocking amount of web traffic; traffic that all goes to Chrome, no matter the user's choice of browser.
+> <cite>[Alex Russell - Program Manager on Microsoft Edge](https://infrequently.org/2021/07/hobsons-browser/#:~:text=Known%20as%20the%20%22Android%20Google%20Search%20App%22%20(%22AGSA%22%2C%20or%20%22AGA%22)%2C%20this%20humble%20text%20input%20is%20the%20source%20of%20a%20truly%20shocking%20amount%20of%20web%20traffic%3B%20traffic%20that%20all%20goes%20to%20Chrome%2C%20no%20matter%20the%20user%27s%20choice%20of%20browser.)</cite>
 
 Facebook has been abusing IAB (In App Browsers) to prevent users from opening links from within the Facebook app in either their own browser or in a view that uses the users default browser (both iOS and Android provide this, although the iOS is only iOS Safari).
 
@@ -1508,7 +1308,7 @@ It is our opinion that mass market operating systems and major applications shou
 
 ### 5.8. Evidence of Long Term Neglect and Developer Discontent
 
-In addition to [5.6. iOS Safari is Buggy](#ios-safari-is-buggy), this section describes some of the long term evidence of neglect and developer discontent with Safari by providing quotes with links to external sources.  This evidence is not exhaustive and is simply a subset of what’s available.  The sources date from 2011 to 2022.
+In addition to [5.6. iOS Safari is Buggy](#ios-safari-is-buggy), this section describes some of the long term evidence of neglect and developer discontent with Safari by providing quotes with links to external sources. This evidence is not exhaustive and is simply a subset of what’s available. The sources date from 2011 to 2022.
 
 
 
@@ -1530,140 +1330,404 @@ Developers were so frustrated in the lack of development and response from Apple
 
 Extracted from the site are some quotes:
 
-> "It's **hard enough to develop for Apple as is**. Stop making it harder for me to make something for your users to use."
+> It's **hard enough to develop for Apple as is**. Stop making it harder for me to make something for your users to use.
 > <cite>[James Hessell-Bowman (Feb 9, 2022)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**PWAs are the future. iOS Safari isn't. Change it!**"
+> **PWAs are the future. iOS Safari isn't. Change it!**
 > <cite>[Mauricé Ricardo Bärisch (Jan 7, 2022) ](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "Safari is the new IE"
+> Safari is the new IE
 > <cite>[Flavio Spezi (Nov 24, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
 
-> "My goodness no push notification yet, **disgrace**"
+> My goodness no push notification yet, **disgrace**
 > <cite>[Daniel Gadd (Nov 24, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "IMHO, **PWAs are a better way to reach mobile users**, compared to native mobile apps, for not-hardware-intensive apps."
+> IMHO, **PWAs are a better way to reach mobile users**, compared to native mobile apps, for not-hardware-intensive apps.
 > <cite>[Saqib Shafin (Oct 3, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "I'm a developer who would like to be able to sell this feature to clients without caveats or additional costs. **It would also be great to have a unified web for all platforms**."
+> I'm a developer who would like to be able to sell this feature to clients without caveats or additional costs. **It would also be great to have a unified web for all platforms**.
 > <cite>[Alex Grant (Jun 26, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "Please implement the W3C standards. **Don't be like IE or soon the developer community will turn on you**."
+> Please implement the W3C standards. **Don't be like IE or soon the developer community will turn on you**.
 > <cite>[Frank Ali (May 26, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**We need this** web developers"
+> **We need this** web developers
 > <cite>[Jack Smith (Apr 29, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**Come on guys, we need this**... It's crucial."
+> **Come on guys, we need this**... It's crucial.
 > <cite>[Morne Erasmus (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**It's the right thing to do Apple.**"
+> **It's the right thing to do Apple.**
 > <cite>[Shaun Bliss (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
 <div class="collapser">
   <button class="action-button">Show more comments</button>
   <div class="collapsed">
 
-> "Need it! **Soon**!!"
+> Need it! **Soon**!!
 > <cite>[Francesco Rombecchi (Dec 1, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**Desperately** needed for modern web apps"
+> **Desperately** needed for modern web apps
 > <cite>[Michoel Samuels (Jun 9, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "I would like to write from **one codebase** and deploy on **all platforms**"
+> I would like to write from **one codebase** and deploy on **all platforms**
 > <cite>[David Murdoch (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**Shocking what they are doing. Pure monopoly**. They are **lowering the technological progress to protect their pockets**, but they are the most rich stock in the world…"
+> **Shocking what they are doing. Pure monopoly**. They are **lowering the technological progress to protect their pockets**, but they are the most rich stock in the world…
 > <cite>[Federico Schiocchet (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "This would **dramatically** simplify some business apps."
+> This would **dramatically** simplify some business apps.
 > <cite>[Ben in CA (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "It's **ridiculous** they don't have it!"
+> It's **ridiculous** they don't have it!
 > <cite>[Mohameth Seck (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**It's sad that we have to petition** for something like this. I wonder if Steve was alive if he would hold back the progress of technology like these clowns at apple."
+> **It's sad that we have to petition** for something like this. I wonder if Steve was alive if he would hold back the progress of technology like these clowns at apple.
 > <cite>[Shaquille Hinds (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**Because developers don't want to have to build a whole new frontend iOS app just to send push notifications.**"
+> **Because developers don't want to have to build a whole new frontend iOS app just to send push notifications.**
 > <cite>[Miles Exner (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "Seriously ? Still not implemented ??? **Apple, you're standing in the way of a better life for all humans**. Get over it and do the right thing."
+> Seriously ? Still not implemented ??? **Apple, you're standing in the way of a better life for all humans**. Get over it and do the right thing.
 > <cite>[Edouard SILHOL (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "This feature will helps developers to create a fast and eficient communication trought sites. Increases PWA experience. **It will help any business type**."
+> This feature will helps developers to create a fast and eficient communication trought sites. Increases PWA experience. **It will help any business type**.
 > <cite>[Lucas Santos (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**This is SO long overdue. It needs to happen. Like... NOW.**"
+> **This is SO long overdue. It needs to happen. Like... NOW.**
 > <cite>[Sean McDade (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "Stop calling iphone a smartphone **when it can't even handle web push**. It's **2020 and we're still fighting for this**. Please make your dumbphone smart again."
+> Stop calling iphone a smartphone **when it can't even handle web push**. It's **2020 and we're still fighting for this**. Please make your dumbphone smart again.
 > <cite>[Jonelle Mancilla (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "This is an **absolutely necessary feature** to allow iOS users to have the same experience across so many apps as Android users have. Resisting adding this feature only ends in frustration and brand disdain, **not any type of monopolistic win that Apple** might want to go for as an alternative."
+> This is an **absolutely necessary feature** to allow iOS users to have the same experience across so many apps as Android users have. Resisting adding this feature only ends in frustration and brand disdain, **not any type of monopolistic win that Apple** might want to go for as an alternative.
 > <cite>[William Lancaster (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**In 2020 it is beyond my comprehension that Apple’s support for PWAs - but more specifically the WebPush API - is non-existent**"
+> **In 2020 it is beyond my comprehension that Apple’s support for PWAs - but more specifically the WebPush API - is non-existent**
 > <cite>[Christopher Deeming (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "I want to be able to give push notifications to users of my web application **without having to build a native app**!"
+> I want to be able to give push notifications to users of my web application **without having to build a native app**!
 > <cite>[Adam Ullman (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "Enabling Push Notifications for iOS Safari will lead to more **innovation** in the web space."
+> Enabling Push Notifications for iOS Safari will lead to more **innovation** in the web space.
 > <cite>[Alexander Matulionis (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "PWAs are the future for smaller apps that don't want to invest in the skill required to make native or native-ish apps. **Apple you're currently the weakest link**. People will still make microtransations in games, and native apps will still be a necessity for video and audio purposes -- your app…"
+> PWAs are the future for smaller apps that don't want to invest in the skill required to make native or native-ish apps. **Apple you're currently the weakest link**. People will still make microtransations in games, and native apps will still be a necessity for video and audio purposes -- your app…
 > <cite>[Jacob Clarke (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "When it is a matter of standardize systems that can contribute to deliver safety or security notifications to consumers, **a vendor shouldn't have the right to lock those consumers to proprietary platforms**."
+> When it is a matter of standardize systems that can contribute to deliver safety or security notifications to consumers, **a vendor shouldn't have the right to lock those consumers to proprietary platforms**.
 > <cite>[Alberto Cruz (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "as a developer this is a **vital requirement for any modern application**."
+> as a developer this is a **vital requirement for any modern application**.
 > <cite>[Luke Whitehouse (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "**Because apple is making life hard (and expensive) for everyone.**"
+> **Because apple is making life hard (and expensive) for everyone.**
 > <cite>[Micah Galizia (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "I signed because I think it's **silly to be the only platform out there to not support web notifications**. Every other browser and os supports this feature. When iPhone came out, it was game changing because it could do everything a computer could as far as web browsing (other than flash…"
+> I signed because I think it's **silly to be the only platform out there to not support web notifications**. Every other browser and os supports this feature. When iPhone came out, it was game changing because it could do everything a computer could as far as web browsing (other than flash…
 > <cite>[Joshua Shell (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "It's **very** important for web experiences!"
+> It's **very** important for web experiences!
 > <cite>[Juan David Nicholls Cardona (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
-> "we **need** this feature to get free of apps"
+> we **need** this feature to get free of apps
 > <cite>[Tamir Konor (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> our app helps restaurants notify guest when their food is ready, guest can opt to receive a notification. **but iphone users cant**. only android users can. Not everyone wants to install an app to receive mobile event based notifications.
+> <cite>[sal iozzia (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> I'm a web dev, **it makes no sense that apple is behind on this**.
+> <cite>[Darren Allen (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> PWAs are here now! Empower developers to use the skills they know today (HTML, CSS, JavaScript) to create amazing products.
+> <cite>[Cesar Perez (Feb 23, 2022)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Add notifications!
+> <cite>[Wesley Pohto (Jan 24, 2022))](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> **We built a small app for the push** and have **difficulty to maintain it**. We are in a big need to have web push to run in iOS
+> <cite>[Brenda Kwok (Oct 22, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> I m facing same issue and I want to request for notification on web IOS devices
+> <cite>[Nitesh Sharma (Oct 15, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> I have no idea when a client comes into my retail chat platform with me while I work on my iPad. I don't receive a chime or banner so I am unable to use my iPad as a tool for work. Please enable push notifications for ios.
+> <cite>[Blake Y (Oct 2, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> we need it
+> <cite>[呂 昶億 (Sep 15, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Our clients will benefit greatly from push notifications on iPhones
+> <cite>[Sergei Gorlovetsky (Aug 22, 2021)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> OMG!!!! PLEASE!!! WHY YOU DIDN'T IMPLEMENT THIS YET?!!!!
+> <cite>[Leandro Simões da Silva (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> I think that this is a very important feature to have.
+> <cite>[David Rychlý (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> To remove the barrier requiring users to download an app just to deliver push notifications
+> <cite>[Loveth Ezeoye (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> This is need of the hour. iOS users are loosing on a great UX.
+> <cite>[adarsh madrecha (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> apple! i want to be able to use web push notification from my favorite sites and pwa apps!
+> <cite>[ChunTing Tai (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> I represent a small company that creates membership administration software for dance/martial arts/yoga studios, which includes a PWA for their members for ease of communication, conveying absence, sharing calendar and events, etc. Currently approximately 40.000+ dancers …
+> <cite>[Johan van Ingen (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Apple are going to lose support from their loyal customers over this glaring omission. Thousands of great websites will work great on Android and PCs but not on Apple.
+> <cite>[Mac MacLaren (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Support open web standards
+Those kind of systems must be more agnostic.
+> <cite>[Brian Kephart (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> It's a huge feature that "the best of the best" should of thought of first and is falling behind once again.
+> <cite>[joseph simmons (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Just do it.
+> <cite>[Jazmyn Cote (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> I really need this for a web app I am developing.
+> <cite>[Adrian Meyers (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Implementen push notification en safari
+> <cite>[Hector Luis Batista (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Web notifications can be useful for users that do not want to download an app just to receive notifications. Email notifications are not as effective and SMS are pricey
+> <cite>[Mo Alraddadi (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Hoy en día los usuarios tienen que tener la posibilidad de ELEGIR si recibir notificaciones web push en su celular o no... No debe ser algo restricto!
+> <cite>[Mauro Francisco Arrigoni (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Make this a reality.
+> <cite>[Devonte Valentine (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> Apple initially unveiled Safari as the means by which developers could develop applications for iPhone. An idea ahead of its time. But that was followed by the first iOS SDK and app store. I believe there is room for both. PWA's are not meant to wipe out app stores, but to open a new pathway to…
+> <cite>[Michael Bunchball (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> I develop PWA and I want to send web push notifications to users
+> <cite>[Erick Daniel Miranda Varas (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> **Ios should lead this technology, not slack behind!**
+> <cite>[Anton Albèrt Karlström (2 years ago) ](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> NEED THIS BIG TIME!
+> <cite>[Nevaan Perera (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices)</cite>
+
+> to deliver a consistent and smooth user experience on iOS and Android devices - **to remove the barrier requiring users to download an app just to deliver push notifications**
+> <cite>[Lukas Schmyrczyk (2 years ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
+
+> really hoping in new **iOS 12** they added web push notifications in Safari
+#PWA
+> <cite>[Irsyad Ilham (Jun 5, 2018)](https://twitter.com/_irsyadilham_/status/1003837872850362368?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> When is iOS Safari gonna get Web Push?
+> <cite>[@chendo (Jul 31, 2018)](https://twitter.com/chendo/status/1024165614577840129?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> Hi! I've watched a Google IO keynote about the PWA and they've shown this table. Are Web Push & Notifications coming to Safari, even on iOS? Thanks for the answer!
+> <cite>[Thibault (May 9, 2018)](https://twitter.com/ThibB/status/994214627570569216?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> Dear @Apple,
+>
+> Can you **please please please** enable push notifications for safari ios ?
+>
+> Sincerely yours, <br />
+> Alan, a #PWA developer.
+> <cite>[@AlanCrevon (Jun 28, 2018)](https://twitter.com/AlanCrevon/status/1011984630738759681?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> So sad that push notifications **are still not possible** in Safari for iOS 10.
+> <cite>[Boris Smus (Oct 9, 2016)](https://twitter.com/borismus/status/784917901945872384?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Hey @jonathandavis, Any plans to bring Web Push Notifications to iOS Safari?
+> <cite>[Diogo Cunha (Jun 26, 2018)](https://twitter.com/diffcunha/status/1011582721737383936?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> iOS Safari DOES NOT support push notifications. With macOS Safari will it support push notifications for WEB APPS?
+> <cite>[eon V Baravykas (Jun 16, 2016)](https://twitter.com/AussieVilkas/status/743239015143399425?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> Apple should bring Safari push notifications to iOS.
+>
+> A much-needed bridge.
+> <cite>[George Papadakis (Jan 12, 2014)](https://twitter.com/phaistonian/status/422242877461106688?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> Why **doesn't iOS allow push notifications** from Safari? #firstworldproblems
+> <cite>[Josh Manders (Nov 20, 2011)](https://twitter.com/joshmanders/status/137976204702658560?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> I **guess still no Push Notifications** on iOS Safari, even proprietary ones
+> <cite>[Arthur Stolyar (Jun 6, 2017)](https://twitter.com/nekrtemplar/status/871825566999212033?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Anyone else find it odd that OS X is getting push notifications for Safari before iOS is?
+> <cite>[Dan Ryan (Jun 12, 2013)](https://twitter.com/dryan/status/344591918749069312?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> One more thing…noticed how Push notifications for safari was listed under iOS/OSX. Maybe well get push notifcations for mobilesafari at wwdc
+> <cite>[Constantin Jacob (Apr 27, 2014)](https://twitter.com/tzeejay/status/460303135022780418?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> Safari for iOS should support push notification…
+> <cite>[K̾a̾x̾i̾n̾g̾🛸 (May 21, 2011)](https://twitter.com/kaxing/status/71823217274261505?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A)</cite>
+
+> **Seeing a Web App I worked on used by *Apple* to justify that the Web is a viable platform on iOS is bullshit**
+>
+> The Web can be an ideal place to build apps but Apple is consistently dragging their heals on implementing the Web APIs that would allow them to compete with native apps
+> <cite>[Ada Rose Cannon (May, 2021)](https://twitter.com/AdaRoseCannon/status/1389642353472851970) <br />(emphasis added)</cite>
 
   </div>
 </div>
 
-<!--
--- CONTINUE AT PAGE 72 --
-😭 SO MANY QUOTES 😭
-@TODO: this is a bit much, it's ~ 17 pages of comments :|
--->
-
 #### 5.8.2. Safari has been buggy for a long time
+
+> I'm always **amazed at the irriparable bugs Safari** on iOS yields due to its cutting corners whereever it can. **Thank you for being our new IE!**
+> <cite>[Christian Schaefer (Oct 10, 2017)](https://twitter.com/derSchepp/status/917668189592588288?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **Severe two year old iOS Safari bug** with position:fixed that started in iOS 8, finally closed…
+> <cite>[Jeff Atwood (Jun 15, 2017)](https://twitter.com/codinghorror/status/875127338190503937?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> iOS safari bugs have **added 80 hours of work** to my current project - now I'm kinda fed up with it! But seems to have everything fixed now :-)
+> <cite>[Michael Vestergaard (Nov 5, 2016)](https://twitter.com/iltp/status/794535136645750789?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Can we all pause and reflect on the disgusting fact that Safari desktop still does not support HTML input type date? Every other modern browser does. **Safari iOS support is half baked with bugs** such as the default date being today even if the max attribute is set with a past date.
+> <cite>[Jayden Seric (Dec 12, 2018)](https://twitter.com/jaydenseric/status/1072649315397615616?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> I 💓 bugs in Safari/iOS that **do not appear in any other browser incl. Safari/Desktop** and Safari/iOS Simulator. Great way to spend one's time.
+> <cite>[Manuel Strehl (Apr 26, 2017)](https://twitter.com/m_strehl/status/857186402261512192?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **Safari for iOS sucks. 5 bugs on website only because of Safari**. It’s getting out of control. Still no good service worker implementation. Becoming new Internet Explorer in some time. 😭
+> <cite>[Dariusz Lorek (Oct 11, 2018)](https://twitter.com/dariuszlorek/status/1050176807272624130?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> But you will find lots of **iOS Safari-only bugs**, so… swings and roundabouts 😉
+> <cite>[Matt Stow (Sep 26, 2017)](https://twitter.com/stowball/status/912611092018323456?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Oh and we fixed those **crazy iOS layout bugs** (since Safari on iOS does not really respect viewport height. I mean, it does, but come on..)
+> <cite>[Clean Email (May 9, 2017)](https://twitter.com/clean_email/status/861767744919814144?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> iOS 12 introduced some nasty Safari bugs. **Safari is the new IE for developers**.
+> <cite>[Grant McCall (Sep 20, 2018)](https://twitter.com/grantmccall/status/1042542145612075008?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **I can't believe iOS Safari has such major bugs**. Showing cached pages unexpectedly all the time, like when opening a homescreen link
+> <cite>[Tom Bielecki (May 1, 2016)](https://twitter.com/tombielecki/status/726560977823526912?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+<div class="collapser">
+  <button class="action-button">Show more comments</button>
+  <div class="collapsed">
+
+> A number of issues C3 has in "Add to home screen" mode on iOS are Safari bugs. We report them **but Apple are very slow and opaque in dealing with them**. For example switching between Safari and web app loses all storage: [https://bugs.webkit.org/show_bug.cgi?id=181849](https://bugs.webkit.org/show_bug.cgi?id=181849)
+> <cite>[Ashley Gullen (Nov 3, 2018)](https://twitter.com/AshleyGullen/status/1058373005120860161?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **Safari on iOS tends to ship with tons of bugs** (think of fixed position handling) that need version-specific workarounds. Don't take away our last straw for building something somewhat useable in Safari.
+> <cite>[Matthias Keller (Dec 21, 2017)](https://twitter.com/kellermatth/status/943812107358924800?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Calypso is so advanced it can’t even see into its own bewildered state. This is manifest in **the plague of interaction bugs on iOS Safari**.
+> <cite>[Ryan Boren (Aug 19, 2018)](https://twitter.com/rboren/status/1030832012469395456?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Alright, it should work now as far as I could test. **There are a lot of Safari & iOS bugs in WebGL**; I'm still grappling with some (and that on a Friday night!) :)
+> <cite>[David Lenaerts (Oct 6, 2018)](https://twitter.com/DerSchmale/status/1048291855589421057?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **We have to spend way too much time on Flexbox related iOS Safari bugs** each sprint, but I'm not sure what Safari version that is so you could be right about the "right now" part 😅
+> <cite>[Dillon de Voor (Apr 13, 2018)](https://twitter.com/CrocoDillon/status/984706727898644481?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> I may or may not have **just spent 2hrs fixing a bug caused by iOS Safari being a piece of shit** and I may or may not have an entirely different opinion on this tomorrow okay thx bye.
+> <cite>[Scott (Dec 5, 2018)](https://twitter.com/scott_riley/status/1070051423860203520?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **Thinking Webkit (Safari and Chrome for iOS) is on verge of becoming the new IE for developers: Brittle, cumbersome, and falling behind**.
+> <cite>[CK MacLeod (Jul 6, 2018)](https://twitter.com/CK_MacLeod/status/1014957101179797504?s=20&t=Pjt8d3GlAJzYPgdlQPbp5) <br />(emphasis added)</cite>
+
+> There was article about Chrome being the new IE and it makes a lot of valid points, but **to me, it's Safari on iOS**. It's such horseshit. <br />
+> #webdev <br />
+> [https://medium.com/@bdc/chrome-is-the-new-ie-1a21c1efc133](https://medium.com/@bdc/chrome-is-the-new-ie-1a21c1efc133)
+> <cite>[Longzero (Feb 16, 2018)](https://twitter.com/Longzero/status/964166488482631684?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Two major complains to @Apple. Safari is slow on adopting new JS/CSS APIs & iOS11 is too buggy. **Safari is new IE**, iOS is new Android.
+> <cite>[Ilya (Sep 23, 2017)](https://twitter.com/darasus_/status/911593652635488256?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Unfortunately, since Steve Jobs died, **we have the buggiest Safari starting from iOS 7**, completely denying the perfection which was set initially. <br />
+> [https://dzone.com/articles/safari-ios-7-and-html5](https://dzone.com/articles/safari-ios-7-and-html5)
+> <cite>[Brian Cannard (Nov 18, 2018)](https://twitter.com/briancannard/status/1063879561606098954?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Hey Apple, **please take some of your $180 billion cash reserves and fix Safari and iOS**. They are easily the buggiest modern OS and browser.
+> <cite>[Creative Logic (Apr 15, 2015)](https://twitter.com/creative_logic/status/588002875239899136?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> I think **Safari might be the buggiest app I currently run in OS X. Debugging an iOS device is almost unbearable**.
+> <cite>[George Crawford (Jun 27, 2014)](https://twitter.com/georgeocrawford/status/482515603211968513?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> "Bad news! **Apple iOS 7 is plagued with HTML5 bugs**" -InfoWorld (2013), "**This is the buggiest Safari version since**..." <br />
+> [http://fb.me/37BcJBuaK](http://fb.me/37BcJBuaK)
+> <cite>[Occupy HTML5 (Jan 5, 2014)](https://twitter.com/occupy_html5/status/419650316632850432?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> Apple has published just 10% of the necessary information for web developers, and I can say without fear of mistake that **this is the buggiest Safari version since 1.0**
+> <cite>[Maximiliano Firtman](https://firt.dev/ios-7) <br />(emphasis added)</cite>
+
+> Yo, @Apple, **Your new iOS is trash, especially safari. So many bugs**.
+>
+> Honestly, Apple has been going down hill since Jobs died.
+> <cite>[Sarah (Nov 30, 2020)](https://twitter.com/HvrdTimes/status/1333052218963062785?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
+
+> **Everyone in my mentions saying Safari is the worst, it’s the new IE**… Can you point to specific bugs & missing support that frustrate you, inhibit you making websites/apps. Bonus points for links to tickets.
+>
+> Specifics we can fix. Vague hate is honestly super counterproductive.
+> <cite>[Jen Simmons (Apple Developer Relations) - Feb 9, 2022](https://twitter.com/jensimmons/status/1491064075987873792) <br />(emphasis added)</cite>
+
+> Hi @jensimmons - I'm a big fan of yours and your work (specifically CSS articles), but **I've been super-frustrated with Safari for the past few years** - thank you for asking for input. It is like the new IE, but not quite as bad. (cont'd)
+>
+> Part of the issue is that **it seems like the webkit bugzilla is a dead-end** - it seems like any info posted there just sits there, and may be sucked into another system, so the public view is radio silent. Here's one that I posted (still a bug):<br />
+> [https://t.co/048O9KTnBJ](https://t.co/048O9KTnBJ) <br />
+> … <br />
+> It also seems like **webkit (and webkit iOS) has just been understaffed**/not a priority for Apple. We're investing heavily in PWAs so our apps run on all platforms, **but PWA support on webkit has well-documented gaps**. For a small startup, we'll necessarily deprioritize iOS.
+> <cite>[John Crim (Feb 11, 2022)](https://twitter.com/johnwcrim/status/1491828595433836545?s=20&t=BJ4-YBnU8vDTCOGhQlpC0A) <br />(emphasis added)</cite>
+
+> I can't point to specific bugs on this, **but I've all but given up on iOS support for my 3D engine** because out of every browser and OS I support, iOS Safari is the most trigger-happy when it comes to killing tabs for using "too much" memory. How much is too much?🤷‍♂️ wish I knew!
+> <cite>[James Baicoianu (Feb 9, 2022)](https://twitter.com/bai0/status/1491147591555645440?s=20&t=BJ4-YBnU8vDTCOGhQlpC0A) <br />(emphasis added)</cite>
+
+> You want the truth? Okay
+>
+> Plugin support on Safari is trash since **you’re at the mercy of the awful App Store**, which is a nightmare to search and is lacking in support compared to Firefox and Chrome
+>
+> Webkit is also restricted for third parties so they can’t make any good web apps
+> <cite>[Dri Scaphandre (Feb 10, 2022)](https://twitter.com/Dr_Scaphandre/status/1491437615241109505?s=20&t=BJ4-YBnU8vDTCOGhQlpC0A) <br />(emphasis added)</cite>
+
+> [https://bugs.webkit.org/show_bug.cgi?id=218012](https://bugs.webkit.org/show_bug.cgi?id=218012)
+>
+> including analysis and specific suggestion in comment 12. This is a hard problem for a web app obviously but 1.5+ years without traction... (**but a sleuth of other audio bugs, it is hard to keep them apart even at this point**)
+> <cite>[Philipp Hancke (Feb 9, 2022)](https://twitter.com/HCornflower/status/1491154421048573952?s=20&t=BJ4-YBnU8vDTCOGhQlpC0A) <br />(emphasis added)</cite>
+
+> A lot of the hate comes from product decisions / forcing people to use Safari (on iOS), which you probably have no control over, so the hate shouldn’t be directed at you. **But it’s a browser that lags in features and fixes, gets updated less often, and is forced on users**.
+> <cite>[Matthew Dean (Feb 9, 2022)](https://twitter.com/MatthewDeaners/status/1491230548702142466?s=20&t=BJ4-YBnU8vDTCOGhQlpC0A) <br />(emphasis added)</cite>
+
+> Safari is quickly turning into the new IE.
+>
+> **20% of my time is spent writing hacky code apologizing for Safari's failures as a browser**
+>
+> In our project, we've just started the E2E testing phase on Safari
+>
+> I'm just trying my best to survive the imminent bug avalanche on Jira 🤮🤮
+> <cite>[Aurelian Lucius (Apr 13, 2022)](https://twitter.com/aurelian_lucius/status/1514174112314318849) <br />(emphasis added)</cite>
+
+  </div>
+</div>
+
+
 
 #### 5.8.3. News and Blog Articles
 
-Many have written about the issues surrounding Safari, Web Apps and iOS.  This section goes through just a small number of articles.
+Many have written about the issues surrounding Safari, Web Apps and iOS. This section goes through just a small number of articles.
 
-> "First, it means that Dieter and I drink a lot of bourbon and talk about the sad, **slow death of the open web a lot**. (It was a good run, open web! So sorry that **Apple killed you** by turning Safari into the new IE and **forbidding alternative browsers to innovate on iOS**.)"
-> <cite>[Nilay Patel - Editor-in-Chief - The Verge (2016-10-06)](https://www.theverge.com/2016/10/6/13188306/refreshing-the-verge-facebook-video-google-amp-future-of-the-web) <br />(emphasis added)</cite>
+> First, it means that Dieter and I drink a lot of bourbon and talk about the sad, **slow death of the open web a lot**. (It was a good run, open web! So sorry that **Apple killed you** by turning Safari into the new IE and **forbidding alternative browsers to innovate on iOS**.)
+> <cite>[Nilay Patel - Editor-in-Chief - The Verge (Oct 6, 2016))](https://www.theverge.com/2016/10/6/13188306/refreshing-the-verge-facebook-video-google-amp-future-of-the-web) <br />(emphasis added)</cite>
 
-> "Devices using iOS and the future Windows RT **hobble third-party browsers**. Despite some good reasons for doing so, the change could **undermine browser competition**. <br />
+> Devices using iOS and the future Windows RT **hobble third-party browsers**. Despite some good reasons for doing so, the change could **undermine browser competition**. <br />
 > … <br />
 > On iOS devices, **Apple permits only its own version of the WebKit browser engine**. Technically other browsers besides Safari are allowed, but they must use Apple's technology for actually rendering Web pages. <br />
 > … <br />
-> Apple, though, gives its Safari browser privileges using Apple's WebKit browser engine that third-party apps from the App Store don't get."
+> Apple, though, gives its Safari browser privileges using Apple's WebKit browser engine that third-party apps from the App Store don't get.
 > <cite>[CNET Browser Choice - A thing of the Past? (May 23, 2012)](https://www.cnet.com/tech/services-and-software/browser-choice-a-thing-of-the-past/) <br />(emphasis added)</cite>
 
-> "Firefox won't land on Apple's iOS until the fruity company relaxes its rules about third party browsers, according to Jay Sullivan, vice president of product at Mozilla.
+> Firefox won't land on Apple's iOS until the fruity company relaxes its rules about third-party browsers, according to Jay Sullivan, vice president of product at Mozilla.
 >
-> Sullivan spoke on a panel at the SXSW music-and-tech-fest in Austin, Texas, over the weekend, and told the crowd **Apple's refusal to allow the installation of Mozilla's preferred Gecko rendering engine is an immovable obstacle to development of an iOS version of Firefox**."
+> Sullivan spoke on a panel at the SXSW music-and-tech-fest in Austin, Texas, over the weekend, and told the crowd **Apple's refusal to allow the installation of Mozilla's preferred Gecko rendering engine is an immovable obstacle to development of an iOS version of Firefox**.
 > <cite>[The Register (Mar 10, 2013)](https://www.theregister.com/2013/03/10/no_firefox_for_ios/) <br />(emphasis added)</cite>
 
-> "I think there is a **general feeling among web developers that Safari is lagging behind the other browsers**, but when you go to a conference like EdgeConf, it really strikes you **just how wide the gap is**. All of the APIs I mentioned above are not implemented in Safari, and Apple has shown no public interest in them. <br />
+> I think there is a **general feeling among web developers that Safari is lagging behind the other browsers**, but when you go to a conference like EdgeConf, it really strikes you **just how wide the gap is**. All of the APIs I mentioned above are not implemented in Safari, and Apple has shown no public interest in them. <br />
 > … <br />
 > **Even when Apple does implement newer APIs, they often do it halfheartedly**. To take an example close to my heart, IndexedDB was proposed more than 5 years ago and has been available in IE, Firefox, and Chrome since 2012. Apple, on the other hand, didn’t release IndexedDB until mid-2014, and **when they did, they unveiled a bafflingly incompetent implementation that was so bad, it’s been universally derided as unusable**. <br />
 > … <br />
@@ -1675,26 +1739,26 @@ Many have written about the issues surrounding Safari, Web Apps and iOS.  This s
 > … <br />
 > The tragedy here is that Apple hasn’t always been a web skeptic. As recently as 2010, back when Steve Jobs famously skewered Flash while declaring that HTML5 is the future, Apple was a fierce web partisan. <br />
 … <br />
-> Around that same time, when WebSQL was deprecated in favor of IndexedDB, you’ll even find mailing list arguments where **Apple employees vigorously defended WebSQL as a must for performant web applications**. Reading the debates, I sense a lot of bitterness from Apple after IndexedDB won out."
+> Around that same time, when WebSQL was deprecated in favor of IndexedDB, you’ll even find mailing list arguments where **Apple employees vigorously defended WebSQL as a must for performant web applications**. Reading the debates, I sense a lot of bitterness from Apple after IndexedDB won out.
 > <cite>[Nolan Lawson - Safari is the New IE (Jan 2015)](https://nolanlawson.com/2015/06/30/safari-is-the-new-ie/) <br />(emphasis added)</cite>
 
-> "T**he real problem is Apple’s lack of browser-choice in iOS**, and that’s a problem for several reasons: <br />
+> **The real problem is Apple’s lack of browser-choice in iOS**, and that’s a problem for several reasons: <br />
 > … <br />
 > **It's limiting the browser-vendor competition on Apple’s iOS platfrom, as Apple are the only one allowed to innovate within the browser engine**. This for example means Google are limited to only compete on the UI-front in Chrome, and can’t bring new platform features, that already are available on other platforms, to iOS. <br />
->  <br />
+> <br />
 > As a vendor of dominant mobile operating system, Apple, should make a real browser choice possible in iOS in order to ensure fair competition and innovation. **Any other major operating system (Android, Windows, OSX, Linux) has a free browser choice, and iOS should be no different**. <br />
->  <br />
-> To me this this draws many parallels to the antitrust case against Microsoft back in the golden-era of Windows, as Safari is deeply integrated into iOS. It can't be removed or replaced. It's forcefully distributed by Apple, and is embedded inside native applications as WebViews. Since I’m not a lawyer, I don’t know if there exists similar legal reasoning as in the Microsoft case, but I do see the similarities when comparing the two."
-> <cite>[Safari isn’t the problem, but the lack of browser choice in iOS is -  Kenneth Auchenberg (July 2015)](https://kenneth.io/post/safari-isnt-the-problem-but-the-lack-of-browser-choice-in-ios-is) <br />(emphasis added)</cite>
+> <br />
+> To me this this draws many parallels to the antitrust case against Microsoft back in the golden-era of Windows, as Safari is deeply integrated into iOS. It can't be removed or replaced. It's forcefully distributed by Apple, and is embedded inside native applications as WebViews. Since I’m not a lawyer, I don’t know if there exists similar legal reasoning as in the Microsoft case, but I do see the similarities when comparing the two.
+> <cite>[Safari isn’t the problem, but the lack of browser choice in iOS is - Kenneth Auchenberg (July 2015)](https://kenneth.io/post/safari-isnt-the-problem-but-the-lack-of-browser-choice-in-ios-is) <br />(emphasis added)</cite>
 
-> "Bad PC software created the opportunity for the web to exist in the first place, **just as bad mobile web performance created the market for mobile apps**. <br />
+> Bad PC software created the opportunity for the web to exist in the first place, **just as bad mobile web performance created the market for mobile apps**. <br />
 > … <br />
 > **But we can't fix the performance of Mobile Safari. Apple totally forbids other companies from developing alternative web rendering engines for the iPhone, so there's no competition** for better performance, **and no incentive for Apple to invest heavily in Safari development**. In many ways, Safari is the new Internet Explorer. <br />
 > … <br />
-> **That's a recipe for stagnation, and stagnation is what we have**. It's leading powerful players like Apple and Facebook to create ersatz copies of the web inside their walled gardens, when what we really need is a more powerful, more robust web."
+> **That's a recipe for stagnation, and stagnation is what we have**. It's leading powerful players like Apple and Facebook to create ersatz copies of the web inside their walled gardens, when what we really need is a more powerful, more robust web.
 > <cite>[The mobile web sucks - Nilay Patel - Editor in Chief - The Verge ](https://www.theverge.com/2015/7/20/9002721/the-mobile-web-sucks) <br />(emphasis added)</cite>
 
-> "But **Apple has a reason not to like this recycling of web technology**. It wants its **Mac App Store to be filled with apps that you can’t find anywhere else, not apps that are available on every platform**. <br />
+> But **Apple has a reason not to like this recycling of web technology**. It wants its **Mac App Store to be filled with apps that you can’t find anywhere else, not apps that are available on every platform**. <br />
 > … <br />
 > In a discussion on the programming community Github, several developers say rejections for apps that they built using Electron — which would were approved in the past. <br />
 > … <br />
@@ -1711,10 +1775,10 @@ Many have written about the issues surrounding Safari, Web Apps and iOS.  This s
 > **Apple’s subtle, anti-competitive practices don’t look terrible in isolation, but together they form a clear strategy: Make it so painful to build with web-based technology on Apple platforms that developers won’t bother**. <br />
 > … <br />
 > These types of changes may be made in the name of privacy or security, but the reality is that the argument looks weak when both users and developers simply don’t have a choice because Apple controls the platform, browser engine, and the distribution method. Regardless of your opinion of Electron app quality, choice is important. <br />
-> **Apple’s control over its app ecosystem is a new type of monopoly that’s hard to understand for lawmakers, and difficult for us to fight back against — because there simply isn’t a way out of these restrictions when the company controls both the distribution method and the platform itself**."
+> **Apple’s control over its app ecosystem is a new type of monopoly that’s hard to understand for lawmakers, and difficult for us to fight back against — because there simply isn’t a way out of these restrictions when the company controls both the distribution method and the platform itself**.
 > <cite>[Apple is Trying to Kill Web Technology - Owen Williams (November 2019) ](https://onezero.medium.com/apple-is-trying-to-kill-web-technology-a274237c174d) <br />(emphasis added)</cite>
 
-> "**It's seemingly deliberate and about protecting App Store revenue**. <br />
+> **It's seemingly deliberate and about protecting App Store revenue**. <br />
 > … <br />
 > With IE now out of the way, the **distinction of ‘most-hated browser’ goes to Apple’s Safari** – which all along had been a close second to IE. <br />
 > … <br />
@@ -1746,7 +1810,7 @@ Many have written about the issues surrounding Safari, Web Apps and iOS.  This s
 > > <cite>Reddit user</cite>
 >
 > … <br />
-> But not exactly surprising either, given that **Apple has staked its future on service-based revenue that includes sales generated from the App Store**."
+> But not exactly surprising either, given that **Apple has staked its future on service-based revenue that includes sales generated from the App Store**.
 > <cite>[For developers, Apple’s Safari is crap and outdated - Perry Sun (July 2021)](https://blog.perrysun.com/2021/07/15/for-developers-safari-is-crap-and-outdated/) <br />(emphasis added)</cite>
 
 
@@ -1759,7 +1823,7 @@ It’s worth taking a moment to discuss why holding back the Web as an applicati
 
 ### 6.1. Blocks the web from being an interoperable applications platform
 
-The Web could be an **interoperable platform** for applications on mobile devices but due to the lack of competition and key features being withheld it is incredibly hard (if not impossible) for them to compete with the App Stores. Safari has no competition from rival browsers on iOS. All the third party browsers on iOS are essentially Safari (a specific Apple provided and mandated version of WebKit) under the hood. iOS Safari has a significant mobile web market share around the world (around 50% in the UK and the US, up to 75% in Japan). This is important as bugs and missing features in Safari can not be avoided (as all the browsers on iOS are Safari). Safari has many bugs and seriously lags behind its competitors' feature set.
+The Web could be an **interoperable platform** for applications on mobile devices but due to the lack of competition and key features being withheld it is incredibly hard (if not impossible) for them to compete with the App Stores. Safari has no competition from rival browsers on iOS. All the third-party browsers on iOS are essentially Safari (a specific Apple provided and mandated version of WebKit) under the hood. iOS Safari has a significant mobile web market share around the world (around 50% in the UK and the US, up to 75% in Japan). This is important as bugs and missing features in Safari can not be avoided (as all the browsers on iOS are Safari). Safari has many bugs and seriously lags behind its competitors' feature set.
 
 It's **hard for businesses to justify supporting features that 30-75% of their customers can't use**. This means if Safari doesn't support it then businesses don't want to use it. Additionally iPhone/iPad owners tend to be wealthier and spend more on software, businesses tend to follow revenue so Apple users have an outsized influence. This means that Apple's Browser Ban is not only holding web-apps back on iOS but also on Android.
 
@@ -1793,10 +1857,10 @@ For example, imagine you require $10 per user to cover the costs of developing, 
 
 ### 6.5. Applications Banned on Apple’s whim
 
-> "there’s no safety, security or privacy issue - Apple just doesn’t like those apps."
+> there’s no safety, security or privacy issue - Apple just doesn’t like those apps.
 > <cite>[Benedict Evans - Technology Writer](https://www.ben-evans.com/benedictevans/2020/8/18/app-stores)</cite>
 
-> "It should not surprise you to know that Apple’s interpretation of its text often seems capricious at best and at worst seems like it’s motivated by self-dealing."
+> It should not surprise you to know that Apple’s interpretation of its text often seems capricious at best and at worst seems like it’s motivated by self-dealing.
 > <cite>[Dieter Bohn - The Verge](https://www.theverge.com/2020/6/17/21293813/apple-app-store-policies-hey-30-percent-developers-the-trial-by-franz-kafka)</cite>
 
 Apple effectively [ban certain categories](https://www.theverge.com/2020/9/18/20912689/apple-cloud-gaming-streaming-xcloud-stadia-app-store-guidelines-rules) of Applications they don't like or that potentially [compete with their own offerings](https://www.theverge.com/2021/9/16/22676706/apple-watch-swipe-keyboard-flicktype-lawsuit-kosta-eleftheriou).
@@ -1805,10 +1869,10 @@ Apple effectively [ban certain categories](https://www.theverge.com/2020/9/18/20
 
 ### 6.6. App Store Review Process
 
-> "there are endless horror stories around curation of the store. Apps are rejected in arbitrary, capricious, irrational and inconsistent ways, often for breaking completely unwritten rules."
+> there are endless horror stories around curation of the store. Apps are rejected in arbitrary, capricious, irrational and inconsistent ways, often for breaking completely unwritten rules.
 > <cite>[Benedict Evans - Technology Writer](https://www.ben-evans.com/benedictevans/2020/8/18/app-stores)</cite>
 
-> "There's a lot of talk about the 30% tax that Apple takes from every app on the App Store. The time tax on their developers to deal with this unfriendly behemoth of a system is just as bad if not worse"
+> There's a lot of talk about the 30% tax that Apple takes from every app on the App Store. The time tax on their developers to deal with this unfriendly behemoth of a system is just as bad if not worse
 > <cite>[Samantha John - CEO Hopscotch](https://twitter.com/samj0hn/status/1431001795904561160)</cite>
 
 The App Store review process can be an extremely stressful and chaotic experience for businesses and developers despite problems with **actually [stopping malware](https://habr.com/en/post/580272/)**.
@@ -1818,64 +1882,64 @@ The App Store review process can be an extremely stressful and chaotic experienc
 
 Apple may choose to boot developers who sue or publicly criticize them. This can make publicly disagreeing with Apple scary, when they can snuff out your access to half your mobile users with little recourse.
 
-> "Apple has blacklisted Epic Games from returning to its App Store ecosystem indefinitely despite the games developer saying it would disable its own payments system, according to a series of emails published on Twitter and a blog post by Epic CEO Tim Sweeney. <br />
+> Apple has blacklisted Epic Games from returning to its App Store ecosystem indefinitely despite the games developer saying it would disable its own payments system, according to a series of emails published on Twitter and a blog post by Epic CEO Tim Sweeney. <br />
 > … <br />
-> One of the published emails allegedly sent by Apple's legal representatives -- dated September 21 -- said the games developer's apps, such as its flagship game Fortnite, would not be allowed to return to the App Store until the US lawsuit was finalised."
+> One of the published emails allegedly sent by Apple's legal representatives -- dated September 21 -- said the games developer's apps, such as its flagship game Fortnite, would not be allowed to return to the App Store until the US lawsuit was finalised.
 > <cite>[Campbell Kwan - ZDNet](https://www.zdnet.com/article/apple-bans-epic-games-from-app-store-until-all-litigation-is-finalised/)</cite>
 
-> "In Sweatshop HD’s case, what is in fact a tasteful commentary aiming to raise awareness of modern-day manufacturing commissions through bright, addictive gameplay mechanics — in other words, an artistic statement — is being banned because Apple seemingly doesn’t want that awareness being raised."
+> In Sweatshop HD’s case, what is in fact a tasteful commentary aiming to raise awareness of modern-day manufacturing commissions through bright, addictive gameplay mechanics — in other words, an artistic statement — is being banned because Apple seemingly doesn’t want that awareness being raised.
 > <cite>[John Brownlee - Cult of Mac](https://www.cultofmac.com/220790/why-apples-reason-for-kicking-a-sweatshop-game-out-of-the-app-store-is-total-hypocrisy/)</cite>
 
 
 
 ## 7. Apple's Incentives
 
-### Advantages of the status quo for Apple
+### 7.1. Advantages of the status quo for Apple
 
-> "Apple gains a lot by slow-walking progressive web apps on the iPhone"
+> Apple gains a lot by slow-walking progressive web apps on the iPhone
 > <cite>[Russell Brandom - The Verge](https://www.theverge.com/2021/5/27/22454959/epic-apple-trial-recap-video-tim-cook-xbox-playstation-business#:~:text=APPLE%20GAINS%20A%20LOT%20BY%20SLOW-WALKING%20PROGRESSIVE%20WEB%20APPS%20ON%20THE%20IPHONE)</cite>
 
 Businesses that want to have applications on Apple mobile devices are forced to develop Apple native applications, which provides the following advantages to Apple:
 
 * **Business Lock-In** <br />
-Businesses have to go through the AppStore and provide Apple 15-30% of their revenue, which represents a significant share of Apple's revenue (estimated at $64 billion in 2020). Preventing Web Apps from being a viable alternative to native apps also allows Apple to maintain a high commission rate, as it is acknowledged in internal Apple emails that they are unable to charge such an amount on other systems which have competition for their App Store. <br />
-Not only is iOS too large of a percentage of the mobile market to ignore, iOS users are typically more valuable because they spend more money. Combined with the high cost of developing a native app for iOS, development companies will often target iOS first and then only optionally build apps for other platforms if they have the budget, expertise and staffing to do it. <br />
+Businesses have to go through the AppStore and provide Apple 15-30% of their revenue, which represents a significant share of Apple's revenue (estimated at [$64 billion in 2020](https://www.theverge.com/2021/1/8/22220873/apple-2020-app-store-revenue-60-billion-dollars)). Preventing Web Apps from being a viable alternative to native apps also allows Apple to maintain a high commission rate, as it is acknowledged in internal Apple emails that they are [unable to charge such an amount on other systems which have competition](https://applescoop.org/story/apple-execs-discuss-why-the-mac-app-store-has-not-been-successful-in-internal-email) for their App Store. <br />
+Not only is iOS too large of a percentage of the mobile market to ignore, iOS users are typically more valuable because they spend more money. Combined with the high cost of developing a native app for iOS, development companies will often target iOS first and then only optionally build apps for other platforms **if they have the budget, expertise and staffing to do it**. <br />
 This gives Apple an advantage over competing mobile ecosystems by enriching its exclusive application ecosystem which it can then use to push sales of its mobile devices. Web Apps do not offer this lock-in because they work on all devices regardless of manufacturer and operating system.
 * **Consumer Lock-In** <br />
 They prevent Apple devices owners from switching to competitor mobile devices and operating systems as iOS Apps must be written for iOS. Many iOS apps never get rewritten for Android, so they are not available (It's very expensive to write the same App 2-3 times in different languages).
 * **Control** <br />
-Apple can ban categories of applications for no reason other than they don’t like them (game streaming for example). <sup>1</sup>
+Apple can **ban** categories of applications for no reason other than they don’t like them (game streaming for example). <sup>3</sup>
 * **Barriers to Entry** <br />
-They prevent the emergence of competing mobile operating systems, because many applications are only available on iOS and since they are not interoperable, emergent competitors have an insurmountable disadvantage since they don’t have access to a library of useful apps. This is arguably one of the biggest reasons why Microsoft’s Windows Phone operating system failed - Microsoft never managed to convince companies to invest in building and maintaining apps for yet another mobile operating system. Even a juggernaut like Microsoft was not able to break into the mobile operating systems market.
+They prevent the emergence of competing mobile operating systems, because many applications are only available on iOS and since they are not interoperable, emergent competitors have an insurmountable disadvantage since they don’t have access to a library of useful apps. This is arguably one of the biggest reasons **why Microsoft’s Windows Phone operating system failed** - Microsoft never managed to convince companies to invest in building and maintaining apps for yet another mobile operating system. Even a juggernaut like Microsoft was not able to break into the mobile operating systems market.
 * **Google Search Engine Revenue** <br />
 Apple have a $15B annual deal with Google to set Google as the default search engine on iOS Safari (9% of Apples Annual Gross Profit)
 * **Cost Cutting to boost margins on hardware** <br />
-By only allowing Safari to mint subprocesses Apple can save money on RAM <sup>2</sup>
+By only allowing Safari to mint subprocesses Apple can save money on RAM <sup>4</sup>
 
-> <sup>1</sup> "But some seem to be just personal preference, or taste - most obviously, the decision in the last few weeks to block streaming games services from Microsoft and Google. This may partly be about revenue, but the real issue seems to be that Apple thinks that games on iOS ’should’ use native APIs, and, perhaps, that they ‘should’ work without you needing to buy a separate games controller. But whatever it is, there’s no safety, security or privacy issue - Apple just doesn’t like those apps.
+> <sup>3</sup> But some seem to be just personal preference, or taste - most obviously, the decision in the last few weeks to block streaming games services from Microsoft and Google. This may partly be about revenue, but the real issue seems to be that Apple thinks that games on iOS ’should’ use native APIs, and, perhaps, that they ‘should’ work without you needing to buy a separate games controller. But whatever it is, there’s no safety, security or privacy issue - Apple just doesn’t like those apps.
 >
-> One indication of Apple's control over developers is the fact they stay despite their many complaints."
+> One indication of Apple's control over developers is the fact they stay despite their many complaints.
 > <cite>[Benedict Evans - Technology Writer](https://www.ben-evans.com/benedictevans/2020/8/18/app-stores)</cite>
 
-> <sup>2</sup> "Re-using the WebKit binary maximizes the sharing of "code pages" across processes. Practically speaking, this allows more programs to run simultaneously without the need for Apple to add more RAM to their devices. This, in turn, pads Apple's (considerable) margins in the construction of phones"
-> <cite>[Alex Russell -  Program Manager on Microsoft Edge](https://infrequently.org/2021/08/webkit-ios-deep-dive/#:~:text=re-using%20the%20webkit%20binary%20maximizes%20the%20sharing%20of%20%22code%20pages%22%20across%20processes.%20practically%20speaking%2C%20this%20allows%20more%20programs%20to%20run%20simultaneously%20without%20the%20need%20for%20apple%20to%20add%20more%20ram%20to%20their%20devices.%20this%2C%20in%20turn%2C%20pads%20apple%27s%20(considerable)%20margins%20in%20the%20construction%20of%20phones)</cite>
+> <sup>4</sup> Re-using the WebKit binary maximizes the sharing of "code pages" across processes. Practically speaking, this allows more programs to run simultaneously without the need for Apple to add more RAM to their devices. This, in turn, pads Apple's (considerable) margins in the construction of phones
+> <cite>[Alex Russell - Program Manager on Microsoft Edge](https://infrequently.org/2021/08/webkit-ios-deep-dive/#:~:text=re-using%20the%20webkit%20binary%20maximizes%20the%20sharing%20of%20%22code%20pages%22%20across%20processes.%20practically%20speaking%2C%20this%20allows%20more%20programs%20to%20run%20simultaneously%20without%20the%20need%20for%20apple%20to%20add%20more%20ram%20to%20their%20devices.%20this%2C%20in%20turn%2C%20pads%20apple%27s%20(considerable)%20margins%20in%20the%20construction%20of%20phones)</cite>
 
 
 
-## 7.2. Microtransactions and “Whales”
+### 7.2. Microtransactions and “Whales”
 
 Many have speculated that Safari's lack of funding and functionality is to protect App Store revenue. Apple’s marketing and legal teams push the ideas that it’s their thriving App Store marketplace and curation that brings income to developers as a justification for the 30% tax that is applied but then use privacy and security as reasons they need to block third-party App Stores.
 
 Despite Apple’s marketing claiming a thriving App Store marketplace it recently came to light in the Epic vs Apple trial that **72% of all App Store revenue** comes from **free to play games**.
 
-> "80% of that was from games, mostly in the US and north-east Asia, and mostly on iPhone. There’s no clear reason to think the proportions have changed much since then, except that China is probably bigger (Apple had only just added support for Alipay in 2016).
+> 80% of that was from games, mostly in the US and north-east Asia, and mostly on iPhone. There’s no clear reason to think the proportions have changed much since then, except that China is probably bigger (Apple had only just added support for Alipay in 2016).
 >
-So, this is mostly games, and, from other disclosures, over 90% free-to-play."
+So, this is mostly games, and, from other disclosures, over 90% free-to-play.
 > <cite>[Benedict Evans - Technology Writer](https://www.ben-evans.com/benedictevans/2021/7/8/app-store)</cite>
 
 This would indicate that the majority of revenue comes from mobile gaming whales, which has **parallels with problematic gambling**.
 
-> "A mobile gaming whale is someone who spends a lot of microtransactions. So-called “whales” are the main target for microtransactions in free-to-play games, for example; they're the ones who buy booster packs, cosmetics, etc. Tons of them."
+> A mobile gaming whale is someone who spends a lot of microtransactions. So-called “whales” are the main target for microtransactions in free-to-play games, for example; they're the ones who buy booster packs, cosmetics, etc. Tons of them.
 > <cite>[Mihovil Grguric - CEO of Udonis Inc (A mobile apps marketing agency)](https://www.blog.udonis.co/mobile-marketing/mobile-games/mobile-games-whales)</cite>
 
 Whether or not the motivation is to protect this revenue source, the browser ban and the current state of Safari is having profound negative effects. Apple hides behind security and privacy but [Apple does not even develop features which have no possible security or privacy concerns](https://httptoolkit.tech/blog/safari-is-killing-the-web/).
@@ -1884,7 +1948,7 @@ All of this comes back to competition. Because Apple has effectively banned the 
 
 
 
-## 7.3. Apple’s Pattern of iOS App Store Favoritism
+### 7.3. Apple’s Pattern of iOS App Store Favoritism
 
 Looking through Apple's actions in iOS and Safari/Webkit a clear pattern of iOS App Store favoritism vs the Open Web emerges. Specifically:
 
@@ -1900,17 +1964,17 @@ Given all this you might wonder why they bother supporting Web Apps at all. Firs
 
 It could be argued this is an overly conspiratorial view of how Apple's management team thinks but recently uncovered emails show Apple's line of thinking on another topic, iMessage:
 
-> "The #1 most difficult [reason] to leave the Apple universe app is iMessage … iMessage amounts to serious lock-in"
+> The #1 most difficult [reason] to leave the Apple universe app is iMessage … iMessage amounts to serious lock-in
 > <cite>[Unnamed Apple Employee](https://www.theverge.com/2021/4/9/22375128/apple-imessage-android-ecosystem-lock-in-epic-games-filings-app-store-dispute)</cite>
 
-> "iMessage on Android would simply serve to remove [an] obstacle to iPhone families giving their kids Android phones … moving iMessage to Android will hurt us more than help us, this email illustrates why."
+> iMessage on Android would simply serve to remove [an] obstacle to iPhone families giving their kids Android phones … moving iMessage to Android will hurt us more than help us, this email illustrates why.
 > <cite>[Craig Federighi - Apple's Senior Vice President of Software Engineering](https://www.theverge.com/2021/4/9/22375128/apple-imessage-android-ecosystem-lock-in-epic-games-filings-app-store-dispute)</cite>
 
 
 
-## 8. Arguments Against Third Party Browsers
+## 8. Arguments Against Third-Party Browsers
 
-To our knowledge Apple has never published a detailed defense on why they feel justified in banning all rival third party browsers from iOS. That said, the following three sections contain arguments that others have made on Apple's behalf.
+To our knowledge Apple has never published a detailed defense on why they feel justified in banning all rival third-party browsers from iOS. That said, the following three sections contain arguments that others have made on Apple's behalf.
 
 
 
@@ -1918,7 +1982,7 @@ To our knowledge Apple has never published a detailed defense on why they feel j
 
 There is an idea being advocated that allowing Apple to ban all other rival browsers from iOS is desirable as it stops Google from dictating the future of the web via decisions made in Chromium.
 
-> "One proposed solution is to prevent operating systems from banning particular browser engines and/or browsers. However, since the majority of non-iOS browsers are based on Google’s Blink browser engine, the current chair of the HTTP Working Group Mark Nottingham submits that any requirement for Apple to allow third party browser engines on iOS is likely to result in even greater usage of Google’s Blink and therefore ‘a further concentration of market power by Google'."
+> One proposed solution is to prevent operating systems from banning particular browser engines and/or browsers. However, since the majority of non-iOS browsers are based on Google’s Blink browser engine, the current chair of the HTTP Working Group Mark Nottingham submits that any requirement for Apple to allow third-party browser engines on iOS is likely to result in even greater usage of Google’s Blink and therefore ‘a further concentration of market power by Google'.
 > <cite>[ACCC – Digital Platform Services Enquiry (September 2021)](https://www.accc.gov.au/system/files/Digital%20platform%20services%20inquiry%20-%20March%202021%20interim%20report.pdf)</cite>
 
 This needs to be broken down to identify whether that is true or not and that depends on:
@@ -1937,7 +2001,7 @@ Second, other browsers are allowed on MacOS and Safari still maintains a healthy
 
 Third, the counter argument is that Samsung, Edge, Brave, Opera etc all maintain soft forks of Chromium and can **disable features** they don't like with flags and **add any feature** they want directly on top. They can continue to pull in changes and updates from Chromium they do like. Should governance of the Chromium project become unhealthy, all of these participants retain the credible ability to hard-fork Chromium and Blink the way the Chrome team forked from WebKit, and how Apple forked WebKit from KHTML.
 
-This is **very different** to the iOS Webkit situation where a **very specific version of Webkit** is **forced** on third party browser vendors. Browser makers have **no recourse to change** the engine feature set, not even to enable or disable features that are available in the source code from which WebKit on the device was built. The **inability to differentiate** effectively, even via soft fork, is a major step down in competition for iOS browsers. Beyond soft and hard forks, in a market with functioning browser choice, there is nothing stopping a third party from creating their own browser from scratch (beyond development cost).
+This is **very different** to the iOS Webkit situation where a **very specific version of Webkit** is **forced** on third-party browser vendors. Browser makers have **no recourse to change** the engine feature set, not even to enable or disable features that are available in the source code from which WebKit on the device was built. The **inability to differentiate** effectively, even via soft fork, is a major step down in competition for iOS browsers. Beyond soft and hard forks, in a market with functioning browser choice, there is nothing stopping a third-party from creating their own browser from scratch (beyond development cost).
 
 There is already **direct competition** between the Chromium browsers and they are diverging in what they offer consumers.
 
@@ -1953,7 +2017,7 @@ To imply that browsers can simply contribute to WebKit negates the fact that App
 
 #### 8.1.1. Microsoft Differentiates Edge from Chrome
 
-For example this is a list of all the features that Microsoft have removed or replaced from Chromium in Edge:
+For example this is a list of all the features that Microsoft have [removed or replaced](https://9to5google.com/2019/04/09/chromium-edge-browser-disables-google-services/) from Chromium in Edge:
 
 {% image
   "/images/walled-gardens/34_microsoft-chrome-edge-differences.png",
@@ -1980,7 +2044,7 @@ For now let's mostly ignore that completely different browser engines (i.e Gecko
 
 The reality could not be more different.
 
-On iOS, third party browsers:
+On iOS, third-party browsers:
 
 * Can't pick their own browser engine
 * Can't pick which version of Webkit they wish to us
@@ -1990,9 +2054,9 @@ On iOS, third party browsers:
 * Can't entirely remove browser engine features
 * Don't even get all the features of Webkit that iOS provides Safari
 * Get a more restricted version of Webkit than the one iOS provides Safari (Safari and the WebView that browsers use do not get the same level of access)
-* Use a version of Webkit provided that is tied to iOS system updates as opposed to packaged with the third party browser
+* Use a version of Webkit provided that is tied to iOS system updates as opposed to packaged with the third-party browser
 
-On Android, third party browsers:
+On Android, third-party browsers:
 
 * Can use their own browser engine
 * Can pick which version of Blink they wish to use (if they are using Blink at all)
@@ -2002,7 +2066,7 @@ On Android, third party browsers:
 * Can completely remove features from Blink
 * Don’t have to use Blink at all
 
-On iOS, only Apple has final say on what the web can and can not do, Not users, third party browsers or developers.
+On iOS, only Apple has final say on what the web can and can not do, Not users, third-party browsers or developers.
 
 {% image
   "/images/walled-gardens/35_chrome-non-google-commit-chart.png",
@@ -2015,7 +2079,7 @@ Percentage and Number of non-Google commits in Chromium over the past 5 years
 
 ### 8.2. Security
 
-Apple argues that allowing third party browsers will worsen security on iOS. The general pitch is that additional browser engines expand the iOS attack surface. If they bring even one security flaw with them, that is one more way for iOS users to be attacked. <sup>1</sup>
+Apple argues that allowing third-party browsers will worsen security on iOS. The general pitch is that additional browser engines expand the iOS attack surface. If they bring even one security flaw with them, that is one more way for iOS users to be attacked. <sup>5</sup>
 
 Browsers are incredibly complex, and all browsers have bugs and security vulnerabilities. Not all security vulnerabilities are equal, and many discovered by developers and security researchers are patched before they are abused in the wild. Browsers can be thought of as mini-operating systems that sit atop traditional OSes. They are application platforms as well as tools for browsing the web. They are exceptionally powerful and need low-level system access that other apps do not (or should not). Browser bugs can be leveraged to gain access to the device by exploiting security flaws. It is likely that all browsers have and will continue to have security vulnerabilities.
 
@@ -2031,7 +2095,7 @@ Apple has justified their Webkit restriction by stating they can roll out securi
 
 There is reason to believe Safari security is not better than the competition, nor does Safari roll out patches faster.
 
-<sup>1</sup> For now let's exclude intentional [jail-breaking](https://en.wikipedia.org/wiki/IOS_jailbreaking), as that is more of a problem for Apple than it is for their users.
+<sup>5</sup> For now let's exclude intentional [jail-breaking](https://en.wikipedia.org/wiki/IOS_jailbreaking), as that is more of a problem for Apple than it is for their users.
 
 
 
@@ -2055,7 +2119,7 @@ iOS users remain vulnerable to known bugs in Safari longer than users of alterna
 Users perform operating system updates less often than application updates (which can happen silently). Additionally users may choose not to update to the next major operating system release ([i.e iOS 14 to iOS 15](https://www.intego.com/mac-security-blog/why-doesnt-apple-want-people-to-upgrade-to-ios-15/)) meaning they can miss out on vital security patches. Because Apple does not always back-port patches to older OS versions, users that fail to endure heavyweight OS updates can fall behind on browser security updates on iOS.
 Of vital importance to security is shortening the length of time between a vulnerability being discovered and being patched for the end user. This is referred to as patch gap.
 
-> "Ideally, the window of time between a public patch and a stable release is as small as possible."
+> Ideally, the window of time between a public patch and a stable release is as small as possible.
 > <cite>[Tim Becker - Security Researcher](https://blog.theori.io/research/webkit-type-confusion/)</cite>
 
 Older versions of iOS do not always get the security patches provided to the latest version. For example [this chart](https://twitter.com/theJoshMeister/status/1454023794578706433) (reproduced below) shows a list of patches (many of them for Webkit) available in iOS 15 and *if* they are available in iOS 14. It is important to note that Apple **has not communicated this information to users**. As users are unable to choose alternative browsers, they are left insecure without warning, even though their browser may be “up to date”.
@@ -2085,7 +2149,7 @@ We look at the publically available data regarding code execution bugs since [th
 
 While not a conclusive picture about relative security, this data brings into doubt Apple’s claims that it is significantly better than the competition:
 
-> "Chrome/Brave/Firefox are required to use the default WebKit/JS [to run on iOS, making them merely skinned versions of Safari]. If Apple isn't going to put in the work necessary to protect users then they should let others do so."
+> Chrome/Brave/Firefox are required to use the default WebKit/JS [to run on iOS, making them merely skinned versions of Safari]. If Apple isn't going to put in the work necessary to protect users then they should let others do so.
 > <cite>[Paul Wagenseil - Tom’s Guide](https://www.tomsguide.com/opinion/your-iphone-is-less-safe-than-it-was-yesterday-and-thats-good)</cite>
 
 {% image
@@ -2093,7 +2157,7 @@ While not a conclusive picture about relative security, this data brings into do
   "A pie chart showing the ratio of browser code execution vulnerabilities between Chrome. Firefox and Safari since 2014"
 %}
 
-There are many caveats. First, the [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) database only includes vulnerabilities that are reported or named.  Vendors may choose not to assign a CVE number to every vulnerability and there have been reports of security engineers who have complained that Apple hasn’t in the past.
+There are many caveats. First, the [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) database only includes vulnerabilities that are reported or named. Vendors may choose not to assign a CVE number to every vulnerability and there have been reports of security engineers who have complained that Apple hasn’t in the past.
 
 It is also possible that Apple’s platform may be under more scrutiny since Apple promotes itself as being security and privacy focused. Apple users also tend to be wealthier, adding to the potential value of an exploit to bad actors, incentivizing more investment by researchers.
 
@@ -2107,22 +2171,22 @@ The security of iPhones is one of Apple’s key marketing claims. According to [
 
 Apple reportedly has a considerable bug backlog:
 
-> "You have to have a healthy internal bug fixing mechanism before you can attempt to have a healthy bug vulnerability disclosure program. What do you expect is going to happen if they report a bug that you already knew about but haven’t fixed? Or if they report something that takes you 500 days to fix it?"
+> You have to have a healthy internal bug fixing mechanism before you can attempt to have a healthy bug vulnerability disclosure program. What do you expect is going to happen if they report a bug that you already knew about but haven’t fixed? Or if they report something that takes you 500 days to fix it?
 > <cite>[Moussouris - Helped create Microsoft's Bug Bounty Program](https://www.washingtonpost.com/technology/2021/09/09/apple-bug-bounty/)</cite>
 
-> "It seems like Apple thinks people reporting bugs are annoying and they want to discourage people from doing so"
+> It seems like Apple thinks people reporting bugs are annoying and they want to discourage people from doing so
 > <cite>[Tian Zhang - an iOS software engineer](https://www.washingtonpost.com/technology/2021/09/09/apple-bug-bounty/)</cite>
 
-> "Apple’s closed-off approach hinders its security efforts"
+> Apple’s closed-off approach hinders its security efforts
 > <cite>[Dave Aitel - co-author of “The Hacker’s Handbook](https://www.washingtonpost.com/technology/2021/09/09/apple-bug-bounty/)</cite>
 
-> "To me, the bigger takeaway is that Apple is shipping iOS with known bugs, And that security researchers are so frustrated by the Apple Bug Bounty program they are literally giving up on it, turning down (potential) money, to post free bugs online. It's not that Apple doesn't have resources or money to fix this, Clearly it's just not a priority to them."
+> To me, the bigger takeaway is that Apple is shipping iOS with known bugs, And that security researchers are so frustrated by the Apple Bug Bounty program they are literally giving up on it, turning down (potential) money, to post free bugs online. It's not that Apple doesn't have resources or money to fix this, Clearly it's just not a priority to them.
 > <cite>[Patrick Wardle - Security Expert](https://www.theregister.com/2020/07/01/apple_macos_privacy_bypass/)</cite>
 
-> "Apple is slow to fix reported bugs and does not always pay hackers what they believe they’re owed. Ultimately, they say, Apple’s insular culture has hurt the program and created a blind spot on security."
+> Apple is slow to fix reported bugs and does not always pay hackers what they believe they’re owed. Ultimately, they say, Apple’s insular culture has hurt the program and created a blind spot on security.
 > <cite>[Reed Albergotti - Washington Post](https://www.washingtonpost.com/technology/2021/09/09/apple-bug-bounty/)</cite>
 
-> "I want to share my frustrating experience participating in Apple Security Bounty program. I've reported four 0-day vulnerabilities this year between March 10 and May 4, as of now three of them are still present in the latest iOS version (15.0) and one was fixed in 14.7, but Apple decided to cover it up and not list it on the security content page. When I confronted them, they apologized, assured me it happened due to a processing issue and promised to list it on the security content page of the next update. There were three releases since then and they broke their promise each time."
+> I want to share my frustrating experience participating in Apple Security Bounty program. I've reported four 0-day vulnerabilities this year between March 10 and May 4, as of now three of them are still present in the latest iOS version (15.0) and one was fixed in 14.7, but Apple decided to cover it up and not list it on the security content page. When I confronted them, they apologized, assured me it happened due to a processing issue and promised to list it on the security content page of the next update. There were three releases since then and they broke their promise each time.
 > <cite>[Denis Tokarev](https://habr.com/en/post/579714/)</cite>
 
 
@@ -2148,7 +2212,7 @@ It is hard to argue that iOS Safari **even matches the security of other major r
 
 ### 8.3. Privacy
 
-Apple could argue that it can not allow third party browsers (complete with their own engines) because they will [provide users with functionality](https://docs.google.com/document/d/1SoamKhuJD6wKgwFUJcyr6nJCeIislqsIM-f0Ytikepo/edit#heading=h.u5ygilw20uu2) that Apple believes only Native Apps should have.
+Apple could argue that it can not allow third-party browsers (complete with their own engines) because they will [provide users with functionality](https://docs.google.com/document/d/1SoamKhuJD6wKgwFUJcyr6nJCeIislqsIM-f0Ytikepo/edit#heading=h.u5ygilw20uu2) that Apple believes only Native Apps should have.
 
 Apple's public position on denying these APIs is that they could be used to fingerprint the user. As is extensively argued in <!-- TODO --> [this section](#), Apple's position is wildly inconsistent between Web and Native. There is a strong case that the current protections in other browsers for these features are far stronger than the ones Apple provides for analogous Native features.
 
@@ -2160,22 +2224,21 @@ Additionally Apple astonishingly holds this position while providing its own [op
 
 Apple is not doing enough to protect user’s privacy in native apps while at the same time stifling Browsers and Web Apps.
 
-Tracking is far more pervasive and allowed in native than it is on the web. Privacy is incredibly important for users and more needs to be done especially on the native ecosystems however  it should not be used as a tool to defend against competition.
+Tracking is far more pervasive and allowed in native than it is on the web. Privacy is incredibly important for users and more needs to be done especially on the native ecosystems however it should not be used as a tool to defend against competition.
 
-> "By now you probably know that your apps ask for permission to tap into loads of data. They **request device information, like advertiser IDs**, which companies use to build marketing profiles.
+> By now you probably know that your apps ask for permission to tap into loads of data. They **request device information, like advertiser IDs**, which companies use to build marketing profiles.
 >
 > **you’re also exposing your sensitive information to dozens** of other technology companies, ad networks, data brokers and aggregators
 >
-> And **every app is potentially leaking data to five or 10 other apps**. Every S.D.K. is taking your data and doing something different — combining it with other data to learn more about you. It’s happening even if the company says we don’t share data. Because they’re not technically sharing it; the S.D.K. is just pulling it out. Nobody has any privacy."
+> And **every app is potentially leaking data to five or 10 other apps**. Every S.D.K. is taking your data and doing something different — combining it with other data to learn more about you. It’s happening even if the company says we don’t share data. Because they’re not technically sharing it; the S.D.K. is just pulling it out. Nobody has any privacy.
 > <cite>[Charlie Warzel - New York Times](https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html) <br />(emphasis added)</cite>
 
-> "The simple fact is, the data you give to apps powers a massive economy worth hundreds of billions of dollars, which is hundreds of billions of reasons for it not to change — until and unless it’s forced to."
+> The simple fact is, the data you give to apps powers a massive economy worth hundreds of billions of dollars, which is hundreds of billions of reasons for it not to change — until and unless it’s forced to.
 > <cite>[Sara Morrison - VOX](https://www.vox.com/platform/amp/recode/22587248/grindr-app-location-data-outed-priest-jeffrey-burrill-pillar-data-harvesting) <br />(emphasis added)</cite>
 
-> "But this is only the tip of the iceberg. Now the app stores should take the next step: ban SDKs from any data brokers that collect and sell our location information.
+> But this is only the tip of the iceberg. Now the app stores should take the next step: ban SDKs from any data brokers that collect and sell our location information.
 >
-> "There is no good reason for apps to collect and sell location data, especially when users have no way of knowing how that data will be used. We implore Apple and Google to end this seedy industry, and make it clear that location data brokers are not welcome on their app stores
-"
+> There is no good reason for apps to collect and sell location data, especially when users have no way of knowing how that data will be used. We implore Apple and Google to end this seedy industry, and make it clear that location data brokers are not welcome on their app stores
 > <cite>[Bennett Cyphers - Electronic Freedom Foundation](https://www.eff.org/deeplinks/2020/06/apples-response-hey-showcases-whats-most-broken-about-apple-app-store)</cite>
 
 Apple is wildly inconsistent in how it approaches privacy on Native and on the Web. Apple is very happy to take measures that break functionality for the Web that they would never even consider for Native Apps (i.e completely removing bluetooth). Additionally Native Apps have comparably weak permissioning compared to that provided by browsers. Finally Apple provides its own opt-in fingerprinting solution for Native Apps for the purpose of advertising.
@@ -2186,7 +2249,7 @@ Apple's commitment to privacy on the web is admirable but the uneven enforcement
 
 ## 9. The Web Can Be Capable
 
-> "The fact that web apps aren’t able to fully compete with iOS apps **is an Apple problem, not a web problem**"
+> The fact that web apps aren’t able to fully compete with iOS apps **is an Apple problem, not a web problem**
 > <cite>[Richard MacManus - NewsStack](https://thenewstack.io/apples-browser-engine-ban-is-holding-back-web-app-innovation/) <br />(emphasis added)</cite>
 
 
@@ -2202,7 +2265,7 @@ It’s important to note that Adobe did not rebuild Photoshop from scratch. This
   "A screenshot of Photoshop running in a web-browser, featuring a happy looking elephant"
 %}
 
-> "The simple power of a URL is that anyone can click it and instantly access it. All you need is a browser. There is no need to install an application or worry about what operating system you are running on. For web applications, that means users can have access to the application and their documents and comments. This makes the web the ideal collaboration platform, something that is becoming more and more essential to creative and marketing teams."
+> The simple power of a URL is that anyone can click it and instantly access it. All you need is a browser. There is no need to install an application or worry about what operating system you are running on. For web applications, that means users can have access to the application and their documents and comments. This makes the web the ideal collaboration platform, something that is becoming more and more essential to creative and marketing teams.
 > <cite>[web.dev](https://web.dev/ps-on-the-web/#:~:text=The%20simple%20power%20of%20a%20URL%20is%20that%20anyone%20can%20click%20it%20and%20instantly%20access%20it.%20All%20you%20need%20is%20a%20browser.)</cite>
 
 This was made possible by a few web standards:
@@ -2225,7 +2288,7 @@ Using this Photoshop was able to get their decades of C++ code and port it into 
 
 #### 9.1.3. SIMD Instructions
 
-This is a [specialized instruction set](https://developer.mozilla.org/en-US/docs/Glossary/SIMD) that can improve performance for certain types of parallel code. For Photoshop  SIMD provides a 3–4× speedup on average and in some cases a 80–160× speedup.
+This is a [specialized instruction set](https://developer.mozilla.org/en-US/docs/Glossary/SIMD) that can improve performance for certain types of parallel code. For Photoshop SIMD provides a 3–4× speedup on average and in some cases a 80–160× speedup.
 
 
 
@@ -2365,8 +2428,8 @@ Web Standards evolve quickly, spurred on by competing browser makers working wit
 
 Typically, cutting edge features are deployed by browser makers in their **own engines first**, then, using real world feedback over several years, eventual standards are created. No feature starts out as a web standard.
 
-> "Web Standards are voluntary. The force that most powerfully compels their adoption is competition, rather than regulation. This is an inherent property of modern browsers. Vendors participate in standards processes not because they need anyone else to tell them what to do, and not because they are somehow subject to the dictates of standards bodies, but rather to learn from developers and find agreement with competitors in a problem space where compatibility returns outsized gains"
-> <cite>[Alex Russell -  Program Manager on Microsoft Edge](https://infrequently.org/2020/07/why-ui-isnt-specified/)</cite>
+> Web Standards are voluntary. The force that most powerfully compels their adoption is competition, rather than regulation. This is an inherent property of modern browsers. Vendors participate in standards processes not because they need anyone else to tell them what to do, and not because they are somehow subject to the dictates of standards bodies, but rather to learn from developers and find agreement with competitors in a problem space where compatibility returns outsized gains
+> <cite>[Alex Russell - Program Manager on Microsoft Edge](https://infrequently.org/2020/07/why-ui-isnt-specified/)</cite>
 
 No one can predict what web technologies will be important in the future, and disagreements between browser makers on the exact path forward are reasonable and expected. It is very difficult, if not impossible for regulators to predict which standards will be the most important and what their exact definition will end up being. It's a subtle and complex topic.
 
@@ -2376,7 +2439,7 @@ So rather than (as a regulator) mandating that a gatekeeper must support a parti
 
 ### 11.2. Predicted Response from Apple
 
-Apple on their iOS platform, has a strong incentive to not allow Third Party Browsers or capable Web Apps on iOS as this would:
+Apple on their iOS platform, has a strong incentive to not allow Third-Party Browsers or capable Web Apps on iOS as this would:
 
 1. Allow open competition with the App Store where Apple currently receives between 15% - 30% of the all revenue.
 2. It would endanger their [15 billion USD](https://www.forbes.com/sites/johanmoreno/2021/08/27/google-estimated-to-be-paying-15-billion-to-remain-default-search-engine-on-safari/) dollar search deal with Google Search (9% of Apple’s 2020 Gross Profit).
@@ -2385,11 +2448,11 @@ Apple on their iOS platform, has a strong incentive to not allow Third Party Bro
 
 This is covered in more detail in [this section](#apple's-incentives).
 
-Apple is incentivized to use security and privacy as roadblocks to competition including to block Third Party Browsers, Web Apps and their capabilities. These roadblocks could be spurious and either offer no or exceptionally limited privacy or security benefits to users while depriving them of useful functionality.
+Apple is incentivized to use security and privacy as roadblocks to competition including to block Third-Party Browsers, Web Apps and their capabilities. These roadblocks could be spurious and either offer no or exceptionally limited privacy or security benefits to users while depriving them of useful functionality.
 
 When there are privacy or security issues, there could also be mitigations that would allow use of the feature while minimizing any privacy or security issues. Unfortunately due to the highly technical nature of the platform it is possible to present convincing but spurious arguments as a shield to protect against competition, especially if you have a high budget to spend on lobbying. ​​There is a joke doing the rounds of the developer community that Apple has more lobbyists working to prevent competition for the iOS App Store than they have developers working on Safari/Webkit.
 
-> "“Apple has been able to intimidate and use a lot of money” to kill legislation"
+> “Apple has been able to intimidate and use a lot of money” to kill legislation
 > <cite>[Arizona Rep. Regina Cobb](https://www.politico.com/news/2021/08/20/apple-takes-on-state-legislatures-georgia-506299)</cite>
 
 It is expected that Apple [will fight hard](https://www.politico.com/news/2021/08/20/apple-takes-on-state-legislatures-georgia-506299) against these changes as they are likely to dramatically increase competition, affect their Search Engine revenue and curtail their control of the iOS app market, so it is important to break down any argument and separate Apple’s concerns into individual components and address them individually.
@@ -2436,13 +2499,13 @@ The third-party browser might ignore user settings such as parental controls or 
 
 #### 11.3.4. Ignore certain privacy and security policies
 
-A user may have applied specific privacy and security policies that they would like enforced. A third party browser could choose to ignore these preferences or enact stricter preferences as set via their own settings surfaces.
+A user may have applied specific privacy and security policies that they would like enforced. A third-party browser could choose to ignore these preferences or enact stricter preferences as set via their own settings surfaces.
 
 
 
 #### 11.3.5. Abandoned Browsers
 
-A third party browser may be abandoned by its developer and no longer updated. This means that the browser would no longer get timely security updates. Operating Systems should be within their rights to disable or remove such browsers from wide circulation to protect users.
+A third-party browser may be abandoned by its developer and no longer updated. This means that the browser would no longer get timely security updates. Operating Systems should be within their rights to disable or remove such browsers from wide circulation to protect users.
 
 Regulators should provide enforcement oversight of these mechanisms to ensure they are not abused by Gatekeepers.
 
@@ -2452,17 +2515,17 @@ Regulators should provide enforcement oversight of these mechanisms to ensure th
 
 A company could simply package up another browser engine, add functionality to spam users or collect private data.
 
-**Note:** Windows, macOS, Android and Linux already allow Third Party Browsers and Web Apps. Note that Android has yet to make it easy for third-party browsers to deploy Web Apps properly (specifically because the interface to [mint WebAPKs](https://bugs.chromium.org/p/chromium/issues/detail?id=1243583) are private APIs and are not exposed to competitors).
+**Note:** Windows, macOS, Android and Linux already allow Third-Party Browsers and Web Apps. Note that Android has yet to make it easy for third-party browsers to deploy Web Apps properly (specifically because the interface to [mint WebAPKs](https://bugs.chromium.org/p/chromium/issues/detail?id=1243583) are private APIs and are not exposed to competitors).
 
 
 
 ### 11.4. Balancing the need for competition with Security/Privacy
 
-The way to address each of these issues is for the Gatekeeper to mandate browser engine choice, open access to private APIs, and require publicly publish extensive documentation for the responsibilities of the Third Party Browsers with regards to security and privacy.
+The way to address each of these issues is for the Gatekeeper to mandate browser engine choice, open access to private APIs, and require publicly publish extensive documentation for the responsibilities of the Third-Party Browsers with regards to security and privacy.
 
 All rules must be narrow in scope and based on the expectations set by the Gatekeeper’s own Browser or Applications.
 
-Third Party Browsers that do not abide by these rules can be removed, with appeals to regulatory oversight mechanisms set forth publicly by competent authorities.
+Third-Party Browsers that do not abide by these rules can be removed, with appeals to regulatory oversight mechanisms set forth publicly by competent authorities.
 
 *Please note that the authors are software experts not lawyers. We simply want to convey the intent, structure and content of potential regulation.*
 
@@ -2475,40 +2538,40 @@ In all aspects of regulatory oversight, we envision that regulators continue to 
 **Gatekeepers should:**
 
 1. Not block the **installation** of **Third-Party Browsers**
-2. Not prevent or restrict Third Party Browsers from their choice of a Javascript Engine (for example Nitro, V8) or Layout Engine (for example Blink, Gecko, Webkit) <sup>1</sup>
+2. Not prevent or restrict Third-Party Browsers from their choice of a Javascript Engine (for example Nitro, V8) or Layout Engine (for example Blink, Gecko, Webkit) <sup>6</sup>
 3. Not block **updates** to **Third-Party Browsers**
-4. Allow Third Party Browsers to **install** and **manage Web Apps**
+4. Allow Third-Party Browsers to **install** and **manage Web Apps**
 5. **Not limit the capabilities** of Third-Party Browsers and Web Apps and should provide access to relevant device and operating system APIs. Browsers and Web Apps should not be restricted by the operating system from accessing any feature that is provided to the gatekeeper's own browser, native apps or system apps.
 6. Provide users with equivalent ability to manage Web Apps through **system settings** provided for Native Apps, regardless of which Browser installed them.
 7. Provide an easy to use mechanism for users to set their desired **default browser** and should respect this choice in the operating system and their own applications
 
-**Limitations on Third Party Browsers:**
+**Limitations on Third-Party Browsers:**
 
-1. The Gatekeeper can mandate and publish **narrow scope** and **proportional** security/privacy policies for Third Party Browsers and Web Apps with regulator approval.
-2. All restrictions relating to Third Party Browsers and Web Apps including those for security and privacy must be individually approved by the regulator.
-3. All restrictions placed on Third Party Browsers must be publicly documented. Confidential or Secret restrictions should be prohibited.
+1. The Gatekeeper can mandate and publish **narrow scope** and **proportional** security/privacy policies for Third-Party Browsers and Web Apps with regulator approval.
+2. All restrictions relating to Third-Party Browsers and Web Apps including those for security and privacy must be individually approved by the regulator.
+3. All restrictions placed on Third-Party Browsers must be publicly documented. Confidential or Secret restrictions should be prohibited.
 4. Proposed changes to these policies must be published and approved by the regulator.
 5. These policies must be in the interest of the **end user**.
-6. These policies can not **inhibit capabilities** of the Third Party Browser or Web App from the perspective of the end user.
+6. These policies can not **inhibit capabilities** of the Third-Party Browser or Web App from the perspective of the end user.
 7. The Gatekeeper must produce documentation for these policies which:
     1. are thorough;
     2. contain a high level of technical detail explaining both the need for these policies and exactly what they mean.
 8. These policies and their associated documentation must be made public. Confidential or secret restrictions should be prohibited.
 9. The Gatekeeper must answer all questions and hypotheticals about these policies in a timely fashion. These questions and answers must be made public.
 
-Providing that the Third Party Browser or Web App latest version is in compliance with the current privacy/security policies the Gatekeeper should not block installation/capabilities or update of it, including if arbitration or litigation is currently in process. The Gatekeeper may apply to the regulator to permanently ban a particular company from providing Third Party Browser or Web Apps if they can prove the Third Party Browser is maliciously acting against the interests of end users (i.e it is actually malware/spam).
+Providing that the Third-Party Browser or Web App latest version is in compliance with the current privacy/security policies the Gatekeeper should not block installation/capabilities or update of it, including if arbitration or litigation is currently in process. The Gatekeeper may apply to the regulator to permanently ban a particular company from providing Third-Party Browser or Web Apps if they can prove the Third-Party Browser is maliciously acting against the interests of end users (i.e it is actually malware/spam).
 
 The desired outcome with these regulations is that browsers and web-apps are delivered unrestricted by the operating system.
 
 These proposed regulations should be subject to an open comment period to allow all stakeholders to provide feedback, however it should be expected that Apple and other special interest groups are heavily incentivized to maintain the status quo.
 
-<sup>1</sup> A browser engine (also known as a layout engine or rendering engine) is a core software component of every major web browser. The primary job of a browser engine is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.</sup>
+<sup>6</sup> A browser engine (also known as a layout engine or rendering engine) is a core software component of every major web browser. The primary job of a browser engine is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.</sup>
 
 
 
 ## 12. Bright Future for Competition
 
-If third party browsers were allowed, with full access to all the APIs that Apple gives Safari, this would provide Apple the incentive to keep pace with the other browsers and give consumers a means of voting with their feet by moving to a competing browser if they fail to do so.
+If third-party browsers were allowed, with full access to all the APIs that Apple gives Safari, this would provide Apple the incentive to keep pace with the other browsers and give consumers a means of voting with their feet by moving to a competing browser if they fail to do so.
 
 It would provide a source of competition with the App Store as Tim Cook and others at Apple have suggested. It would place downward pressure on the tax Apple charges companies and by extension users on all purchases made in the App Store.
 
@@ -2549,4 +2612,196 @@ Stuart Langridge’s presentation to the UK’s Competition and Markets Authorit
 
 ## 14. References
 
-😭 SO MANY LINKS 😭
+* [Thomas Claburn - The Register - On Safari Underfunding](https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/)
+
+* [The Ultimate How-to: Build a Bluetooth Swift App With Hardware in 20 Minutes](https://www.freecodecamp.org/news/ultimate-how-to-bluetooth-swift-with-hardware-in-20-minutes/)
+
+* [Apple’s iOS App Store is littered with malicious apps](https://www.techradar.com/au/news/apple-app-store-is-apparently-still-littered-with-malicious-apps)
+
+* [Security Researcher on iOS App Store Malware](https://habr.com/en/post/580272/)
+
+* [Matthew Ball - On Apple inhibiting the future Internet](https://www.matthewball.vc/all/applemetaverse)
+
+* [Ben Thompson on why Apple wants to make the web less useful](https://stratechery.com/2020/apple-and-facebook/)
+
+* [Mozilla Documentation on Web Apps (PWAs)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+
+* [Apple claiming PWAs represent a viable distribution alternative to the App Store](https://www.accc.gov.au/system/files/Apple%20Pty%20Limited%20%2810%20February%202021%29.pdf)
+
+* [Tim Cook making the same claim](https://www.youtube.com/watch?v=H6eYLCxxQdA&t=306s)
+
+* [Apple lawyers making a similar claim in court vs Uber](https://9to5mac.com/2021/03/25/bypass-the-app-store-says-apple)
+
+* [Apple rule effectively banning third-party browsers](https://developer.apple.com/app-store/review/guidelines/#2.5.6)
+
+* [Scott Gilbertson - On Safari being the new IE](https://www.theregister.com/2021/10/22/safari_risks_becoming_the_new_ie/)
+
+* [Dieter Bohn and Tom Warren - The Verge - Talking about Apples Browser Ban](https://www.theverge.com/2021/5/6/22421912/iphone-web-app-pwa-cloud-gaming-epic-v-apple-safari)
+
+* [Niels Leenheer - HTML5test - On iOS Safari holding back the web](https://nielsleenheer.com/articles/2021/chrome-is-the-new-safari-and-so-are-edge-and-firefox/)
+
+* [Chris Coyier - CSS-TRICKS - On the Apple Browser Ban](https://css-tricks.com/ios-browser-choice)
+
+* [Richard MacManus - The New Stack - On the Apple Browser Ban holding back the web](https://thenewstack.io/apples-browser-engine-ban-is-holding-back-web-app-innovation)
+
+* [The Verge - Emails from the Epic vs Apple trial](https://www.theverge.com/22611236/epic-v-apple-emails-project-liberty-app-store-schiller-sweeney-cook-jobs)
+
+* [Steve Jobs - Original Announcement of iOS Web Apps](https://www.youtube.com/watch?v=p1nwLilQy64)
+
+* [iOS “Smart App Banners”](https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners)
+
+* [Patterns for promoting PWA installation](https://web.dev/promote-install/)
+
+* [MDN - BeforeInstallPromptEvent documentation](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent)
+
+* [Minesweeper like PWA/Web App](https://proxx.app)
+
+* [Bruce Lawson - Talk to the CMA about Web Apps](https://brucelawson.co.uk/2021/briefing-to-the-uk-competition-and-markets-authority-on-apples-ios-browser-monopoly-and-progressive-web-apps/)
+
+* [Apple/Webkit - rejecting request to add BeforeInstallPromptEvent](https://bugs.webkit.org/show_bug.cgi?id=193959)
+
+* [Chromium Ticket on Open WebAPK minting server for third-party browsers](https://bugs.chromium.org/p/chromium/issues/detail?id=1243583)
+
+* [Misha Ketchell - The Conversation - On Dark Pattens](https://theconversation.com/what-are-dark-patterns-an-online-media-expert-explains-165362)
+
+* [Alex Russell - Program Manager on Microsoft Edge - On Safari Webkit lagging behind](https://infrequently.org/2021/04/progress-delayed/#:~:text=The%20data%20agree%3A%20Apple%27s%20web%20engine%20consistently%20trails%20others%20in%20both%20compatibility%20and%20features%2C%20resulting%20in%20a%20large%20and%20persistent%20gap%20with%20Apple%27s%20native%20platform)
+
+* [Web Platform Tests Dashboard](https://wpt.fyi/results/?label=experimental&label=master&aligned)
+
+* [Can I Use - Website with data comparing features of different browsers](https://caniuse.com)
+
+* [Mozilla Developer Network Web Developer Needs Assessment 2020 Survey](https://insights.developer.mozilla.org/reports/mdn-web-developer-needs-assessment-2020.html)
+
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+* [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly)
+
+* [State of CSS survey](https://stateofcss.com)
+
+* [State of CSS survey - Raw Answers Text](https://gist.github.com/SachaG/cd7cf12623a95d8162ac2b8e340c4724)
+
+* [The Register - On Safari breaking indexedDB](https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug)
+
+* [Russell Brandom - The Verge - On Apple holding PWAs back](https://www.theverge.com/2021/5/27/22454959/epic-apple-trial-recap-video-tim-cook-xbox-playstation-business#:~:text=APPLE%20GAINS%20A%20LOT%20BY%20SLOW-WALKING%20PROGRESSIVE%20WEB%20APPS%20ON%20THE%20IPHONE)
+
+* [Benedict Evans - Technology Writer - On Apples arbitrary application of App Store rules](https://www.ben-evans.com/benedictevans/2020/8/18/app-stores)
+
+* [Alex Russell - Program Manager on Microsoft Edge - On Apple saving ram by banning other browsers](https://infrequently.org/2021/07/hobsons-browser/#:~:text=Known%20as%20the%20%22Android%20Google%20Search%20App%22%20(%22AGSA%22%2C%20or%20%22AGA%22)%2C%20this%20humble%20text%20input%20is%20the%20source%20of%20a%20truly%20shocking%20amount%20of%20web%20traffic%3B%20traffic%20that%20all%20goes%20to%20Chrome%2C%20no%20matter%20the%20user%27s%20choice%20of%20browser)
+
+* [Benedict Evans - Technology Writer - On iOS Free to Play Games](https://www.ben-evans.com/benedictevans/2021/7/8/app-store)
+
+* [Mihovil Grguric - CEO of Udonis Inc (A mobile apps marketing agency) - On free-to-play Whales](https://www.blog.udonis.co/mobile-marketing/mobile-games/mobile-games-whales)
+
+* [Tim Perry - Httptoolkit - On Safari not implementing features with no potential security/privacy issues](https://httptoolkit.tech/blog/safari-is-killing-the-web/)
+
+* [Sean Hollister - On Apple inability to spot obvious scams in the iOS App Store](https://www.theverge.com/2021/4/21/22385859/apple-app-store-scams-fraud-review-enforcement-top-grossing-kosta-eleftheriou)
+
+* [Gordon Kelly - On scams and clones on the iOS App Store](https://www.forbes.com/sites/gordonkelly/2021/04/07/apple-iphone-ipad-app-store-scam-warning-new-iphone-problem/?sh=7231e8a960aa)
+
+* [Dr Michael Grenfell - On Effective Competition](https://www.gov.uk/government/speeches/michael-grenfell-should-competition-authorities-intervene-in-digital-markets)
+
+* [Entrepreneurship Life - Apple users spend more than Android users](https://www.entrepreneurshiplife.com/why-iphone-users-spend-more-money-than-android-users/)
+
+* [Times on India - Apple users spend more than Android users](https://timesofindia.indiatimes.com/gadgets-news/iphone-users-spend-more-money-on-apps-than-android-users-report/articleshow/83947757.cms)
+
+* [Professor Douglas J. Leith - On Brave Privacy](https://www.zdnet.com/article/brave-deemed-most-private-browser-in-terms-of-phoning-home/)
+
+* [A Feature added to Chromium that Edge and other browsers use but Chrome does not](https://groups.google.com/a/chromium.org/g/blink-dev/c/e5fu5Q06ntA/m/UUqPuA8hEQAJ)
+
+* [Benedict Evans - Technology Writer - On iOS App Store](https://www.ben-evans.com/benedictevans/2020/8/18/app-stores)
+
+* [Dieter Bohn - The Verge - On Apples Capricious App Store policies](https://www.theverge.com/2020/6/17/21293813/apple-app-store-policies-hey-30-percent-developers-the-trial-by-franz-kafka)
+
+* [Sean Hollister - Verge - On Apples effective ban on streamed games](https://www.theverge.com/2020/9/18/20912689/apple-cloud-gaming-streaming-xcloud-stadia-app-store-guidelines-rules)
+
+* [Sean Hollister - Verge - On Apple copying then banning a keyboard App](https://www.theverge.com/2021/9/16/22676706/apple-watch-swipe-keyboard-flicktype-lawsuit-kosta-eleftheriou)
+
+* [Samantha John - CEO Hopscotch - On iOS App Store Review Policies](https://twitter.com/samj0hn/status/1431001795904561160)
+
+* [Kosta Eleftheriou - On iOS Malware](https://www.xanjero.com/news/developer-kosta-eleftheriou-claims-apples-app-store-is-littered-with-malicious-apps/)
+
+* [Slipping Past the Review - Malware in iOS Native Apps](https://habr.com/en/post/580272/)
+
+* [Campbell Kwan - ZDNet - On Apples indefinite ban of Epic](https://www.zdnet.com/article/apple-bans-epic-games-from-app-store-until-all-litigation-is-finalised/)
+
+* [John Brownlee - Cult of Mac - On Apple banning Sweatshop Labour Rights Game](https://www.cultofmac.com/220790/why-apples-reason-for-kicking-a-sweatshop-game-out-of-the-app-store-is-total-hypocrisy/)
+
+* [Niels Leenheer - HTML5test - On Apple Webkits banning of web device APIs on privacy grounds](https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/)
+
+* [Apple has rejected certain web standard device APIs](https://webkit.org/tracking-prevention/#anti-fingerprinting)
+
+* [Niels Leenheer - HTML5test - on why web device APIs are really bad at fingerprinting](https://nielsleenheer.com/articles/2021/hardware-and-the-web-the-balance-between-usefulness-security-and-privacy/)
+
+* [Web Bluetooth Documentation](https://webbluetoothcg.github.io/web-bluetooth/)
+
+* [Microsoft Smartscreen](https://support.microsoft.com/en-us/microsoft-edge/what-is-smartscreen-and-how-can-it-help-protect-me-1c9a874a-6826-be5e-45b1-67fa445a74c8)
+
+* [Google SafeBrowsing](https://safebrowsing.google.com/)
+
+* [iOS Native Bluetooth Guide](https://www.freecodecamp.org/news/ultimate-how-to-bluetooth-swift-with-hardware-in-20-minutes/)
+
+* [On malicious tracking of users using iOS Native Apps bluetooth](https://www.fastcompany.com/90386781/ios-13s-new-bluetooth-privacy-feature-is-important-but-confusing)
+
+* [Cory Doctorow - Former European director of the Electronic Frontier Foundation - On Apple's stance on privacy](https://twitter.com/doctorow/status/1459914164152016905)
+
+* [Apple's Advertising Identifier](https://en.wikipedia.org/wiki/Identifier_for_Advertisers)
+
+* [Geoffrey Fowler And Tatum Hunter - Washington Post](https://www.washingtonpost.com/technology/2021/09/23/iphone-tracking/)
+
+* [Alex Russell - Program Manager on Microsoft Edge - On IAB and Browser Choice](https://infrequently.org/2021/07/hobsons-browser/#:~:text=Known%20as%20the%20%22Android%20Google%20Search%20App%22%20(%22AGSA%22%2C%20or%20%22AGA%22)%2C%20this%20humble%20text%20input%20is%20the%20source%20of%20a%20truly%20shocking%20amount%20of%20web%20traffic%3B%20traffic%20that%20all%20goes%20to%20Chrome%2C%20no%20matter%20the%20user%27s%20choice%20of%20browser)
+
+* [John Koetsier - Forbes - On Apple secretly buying advertising for other companies](https://www.forbes.com/sites/johnkoetsier/2021/11/12/apple-quietly-buying-ads-via-google-for-high-value-subscription-apps-to-capture-app-publisher-revenue/?sh=67998df71b52)
+
+* [Mac Rumors - On Apple’ 2021 1st half profit](https://www.macrumors.com/2021/06/29/app-store-revenue-h1-2021-42-billion/)
+
+* [Austin Carr - Bloomberg - On Apples 30% Gatekeeper fee](https://www.bloomberg.com/news/newsletters/2021-05-03/apple-s-30-fee-an-industry-standard-is-showing-cracks)
+
+* [Russell Brandom - The Verge - On Apple iMessage](https://www.theverge.com/2021/4/9/22375128/apple-imessage-android-ecosystem-lock-in-epic-games-filings-app-store-dispute)
+
+* [Apple Scoop - On why the Mac App Store is not successful](https://applescoop.org/story/apple-execs-discuss-why-the-mac-app-store-has-not-been-successful-in-internal-email)
+
+* [Photoshop on the web](https://web.dev/ps-on-the-web/)
+
+* [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
+
+* [SIMD](https://developer.mozilla.org/en-US/docs/Glossary/SIMD)
+
+* [Private File System Origin Trial](https://web.dev/file-system-access/#accessing-files-optimized-for-performance-from-the-origin-private-file-)
+
+* [Alex Russell - Program Manager on Microsoft Edge - On WebStandards](https://infrequently.org/2020/07/why-ui-isnt-specified/)
+
+* [Apple received 9% of Gross Profit from Google Search Engine deal](https://www.forbes.com/sites/johanmoreno/2021/08/27/google-estimated-to-be-paying-15-billion-to-remain-default-search-engine-on-safari/)
+
+* [Rep. Regina Cobb - A Republican state lawmaker in Arizona - On Apple’s aggressive lobbying](https://www.politico.com/news/2021/08/20/apple-takes-on-state-legislatures-georgia-506299)
+
+* [Joshua Long - Apple’s Poor Patching Policies Potentially Make Users’ Security and Privacy Precarious](https://www.intego.com/mac-security-blog/apples-poor-patching-policies-potentially-make-users-security-and-privacy-precarious)
+
+* [Charlie Warzel - New York Times on privacy and native apps tracking](https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html)
+
+* [Sara Morrison - VOX on harvesting data via native apps](https://www.vox.com/platform/amp/recode/22587248/grindr-app-location-data-outed-priest-jeffrey-burrill-pillar-data-harvesting)
+
+* [Bennett Cyphers - Electronic Freedom Foundation - On harvesting data via native apps](https://www.eff.org/deeplinks/2020/06/apples-response-hey-showcases-whats-most-broken-about-apple-app-store)
+
+* [Google - Announcing the Webkit/Blink Engine Split](https://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html)
+
+* [CVEDetails -All Vulnerabilities in Safari](https://www.cvedetails.com/product/2935/Apple-Safari.html?vendor_id=49)
+
+* [CVEDetails - All Vulnerabilities in Chrome](https://www.cvedetails.com/product/15031/Google-Chrome.html?vendor_id=1224)
+
+* [CVEDetails - All Vulnerabilities in Firefox](https://www.cvedetails.com/product/3264/Mozilla-Firefox.html?vendor_id=452)
+
+* [Paul Wagenseil - Tom’s Guide - On hacking the iPhone via Safari/Webkit](https://www.tomsguide.com/opinion/your-iphone-is-less-safe-than-it-was-yesterday-and-thats-good)
+
+* [Wikipedia - CVE - Definition](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)
+
+* [Google - Project Zero (Security Team) on security browser metrics](https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html)
+
+* [Reed Albergotti - Washington Post - On the poor state of Apple’s bug bounty program](https://www.washingtonpost.com/technology/2021/09/09/apple-bug-bounty/)
+
+* [Thomas Claburn - The Register - On poor treatment of Security Researchers by Apple](https://www.theregister.com/2020/07/01/apple_macos_privacy_bypass/)
+
+* [Denis Tokarev - Security Researcher - On poor state of Apple’s bug bounty program](https://habr.com/en/post/579714/)

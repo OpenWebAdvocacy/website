@@ -45,7 +45,7 @@
     {% endif %}
 
   </head>
-  <body class="page--{{ page.fileSlug }}">
+  <body class="page--{{ page.fileSlug }} {{ pageBodyClasses | join(" ") if pageBodyClasses }}">
     {% if isHome %}
       {% include "partials/home-header.njk" %}
     {% else %}

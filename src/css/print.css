@@ -1,29 +1,41 @@
 
+@page {
+  siz: 210mm 297mm;
+  margin: 2cm;
+}
 
-body.page--walled-gardens header,
-body.page--walled-gardens .download {
+/* ------------------------------ Papers ---------------------------- */
+
+body.page--is-paper {
+  font-family: sans-serif;
+}
+
+body.page--is-paper header,
+body.page--is-paper .download {
   display: none;
 }
 
-body.page--walled-gardens details {
+body.page--is-paper details {
   padding: 0;
   background: none;
 }
 
-body.page--walled-gardens summary::marker {
+body.page--is-paper summary::marker {
   content: none;
 }
-body.page--walled-gardens summary h2 {
+body.page--is-paper summary h2 {
   font-size: calc(1.5rem + 1vw);
 }
 
-body.page--walled-gardens section {
+body.page--is-paper section {
   page-break-inside : avoid;
 }
 
-body.page--walled-gardens section h2 {
+body.page--is-paper section h2 {
   page-break-before: always;
 }
+
+/* ------------------------------ Misc ---------------------------- */
 
 /* Expand all collapsers */
 .collapser > button:first-child {

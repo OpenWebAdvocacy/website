@@ -16,12 +16,10 @@
     <link rel="icon" type="image/png" sizes="48x48" href="/images/logo-48.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/images/logo-192.png">
 
-    {# Add facility for pages to delare an array of non-critical javascript #}
-    {% if pageNonCriticalScripts %}
-      {% for item in pageNonCriticalScripts %}
-        <script src="{{ item }}?{{ assetHash }}" defer></script>
-      {% endfor %}
-    {% endif %}
+    <link rel="stylesheet" href="/css/vars.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+    <link rel="stylesheet" href="/css/print.css" media="print" />
 
     {# Add facility for pages to delare an array of critical styles #}
     {% if pageCriticalStyles %}
@@ -32,16 +30,20 @@
       {% endfor %}
     {% endif %}
 
-    {# Add facility for pages to declare an array of stylesheet paths #}
+    {# Add facility for pages to declare an array of non-critical stylesheet paths #}
     {% if pageStylesheets %}
       {% for item in pageStylesheets %}
         <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="/css/vars.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/queries.css" />
-    <link rel="stylesheet" href="/css/print.css" media="print" />
+
+    {# Add facility for pages to delare an array of non-critical javascript #}
+    {% if pageNonCriticalScripts %}
+      {% for item in pageNonCriticalScripts %}
+        <script src="{{ item }}?{{ assetHash }}" defer></script>
+      {% endfor %}
+    {% endif %}
+
   </head>
   <body class="page--{{ page.fileSlug }}">
     {% if isHome %}

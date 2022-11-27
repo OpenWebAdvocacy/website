@@ -31,5 +31,6 @@ The [CMA Board Advisory Steer](https://assets.publishing.service.gov.uk/media/63
 We want to say a huge thank you to all web developers who took the time and trouble to [reply to CMA's consultations](https://www.gov.uk/government/consultations/mobile-browsers-and-cloud-gaming-proposal-to-make-a-market-reference). Big Tech firms have whole departments who leap into action if regulators start sniffing, and the money to set up pseudo-associations to lobby on their behalf. We didn't; you had our backs.
 
 - **Email:**        [contactus@open-web-advocacy.org](mailto:contactus@open-web-advocacy.org)
+- **Mastodon:**      [@OpenWebAdvocacy](https://mastodon.social/@owa)
 - **Twitter:**      [@OpenWebAdvocacy](https://twitter.com/OpenWebAdvocacy)
 - **Web:**         [https://open-web-advocacy.org](https://open-web-advocacy.org)

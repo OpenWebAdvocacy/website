@@ -4,7 +4,7 @@ date: '2022-11-28'
 tags: ['Policy', 'Updates']
 ---
 
-Howdy, [https://brucelawson.co.uk](Bruce) here, with an update on progress we've made in both the EU and with the UK's competition regulator, the Competition and Markets Authority (CMA).
+Howdy, [Bruce](https://brucelawson.co.uk) here, with an update on progress we've made in both the EU and with the UK's competition regulator, the Competition and Markets Authority (CMA).
 
 ## Browser engines on the agenda
 

@@ -18,7 +18,7 @@ So we're thrilled that, after we met with those drafting the EU rules, the final
 
 The DMA will be applicable as of [beginning of May 2023](https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/digital-markets-act-ensuring-fair-and-open-digital-markets_en). Non-compliance carries fines of up to 10% of the company’s total worldwide annual turnover, or up to 20% in the event of repeated infringements.
 
-The UK is no longer a member of the EU, so some of us who are citizens of Brexit Island met with the UK's Competition and Markets Authority after it announced an investigation into the Mobile Apps Ecosystem. We explained that it shouldn't be seen as a binary choice between single-platform "native" apps on iOS and Android, but should also be concerned with Progressive Web Apps and, by extension, also look at hpw Apple hamstrings PWAs by only allowing its WebKit on iOS and iPad.
+The UK is no longer a member of the EU, so some of us who are citizens of Brexit Island met with the UK's Competition and Markets Authority after it announced an investigation into the Mobile Apps Ecosystem. We explained that it shouldn't be seen as a binary choice between single-platform "native" apps on iOS and Android, but should also be concerned with Progressive Web Apps and, by extension, also look at how Apple hamstrings PWAs by only allowing its WebKit on iOS and iPad.
 
 The CMA agreed, and last week announced [a new a market investigation into cloud gaming and mobile browsers](https://www.gov.uk/government/news/investigation-into-cloud-gaming-and-browsers-to-support-uk-tech-and-consumers) after receiving widespread support for its proposals first published in June:
 

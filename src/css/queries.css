@@ -8,6 +8,7 @@
 	div.site-header__inner {
 		display: flex;
 		justify-content: space-between;
+    align-items: center;
 	}
 	header:not(.home-header) nav {
 		text-align: right;
@@ -16,6 +17,9 @@
 	header:not(.home-header) nav ul {
 		display: block;
 	}
+  header nav ul li + li {
+    margin-top: 0.5rem;
+  }
 
 	dl.glossary dd {
 		position: relative;
@@ -152,6 +156,16 @@
 
 	aside {flex: 0 0 20%; margin: 0;}
 	div.home-wrapper aside {margin: 0;}
+
+  div.promo {flex-direction: row-reverse;}
+  div.promo div.group {flex: 0;}
+  div.promo p.illustration {
+    width: 120px;
+    top: 1rem;
+    left: auto;
+    right: -25px;
+  }
+  div.promo p.illustration img {transform: rotate(10deg);}
 
 	div.get-involved {
 		display: flex;

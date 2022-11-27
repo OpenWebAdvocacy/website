@@ -10,7 +10,7 @@ Howdy, [Bruce](https://brucelawson.co.uk) here, with an update on progress we've
 
 We've had encouraging success at putting browser engines on the regulators' agenda. While rendering engines seem pretty esoteric, it's of paramount importance, as Apple has done a great job in concealing their anti-competitive behaviour, saying "you can have other browsers on iOS", while glossing over the fact that all other browsers are Apple's preferred version of WebKit under the hood. Many web developers don't realise this, which is why we made this meme:
 
-<img src="/src/images/blog/apple-browser-ban.webp" alt="Fred from Scooby Doo with a masked figure and text 'Firefox on iPhone'. Fred removes the mask to reveal the villain headed 'Apple's Safari'. Then the same with Edge on iPhone and Chrome on iPhone." width="1024" height="452">
+{% image "src/images/blog/apple-browser-ban.webp", "Fred from Scooby Doo with a masked figure and text 'Firefox on iPhone'. Fred removes the mask to reveal the villain headed 'Apple's Safari'. Then the same with Edge on iPhone and Chrome on iPhone." %}
 
 So we're thrilled that, after we met with those drafting the EU rules, the final text of the [Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R1925&from=EN) (DMA), browser engines are explicitly referenced:
 
@@ -28,7 +28,7 @@ The CMA agreed, and last week announced [a new a market investigation into cloud
 
 The [CMA Board Advisory Steer](https://assets.publishing.service.gov.uk/media/637b76478fa8f5771eb23acc/Board_Advisory_Steer_.pdf) gives a good insight into the things they will investigate.
 
-We want to say a huge thank you to all web developers who took the time and trouble to [reply to CMA's consultations](https://www.gov.uk/government/consultations/mobile-browsers-and-cloud-gaming-proposal-to-make-a-market-reference). Big Tech firms have whole departments who leap into action if regulators start sniffing, and the money to set up pseudo-associations to lobby on their behalf. We didn't; you had our backs.
+We want to say a huge thank you to all web developers who took the time and trouble to [reply to CMA's consultations](https://www.gov.uk/government/consultations/mobile-browsers-and-cloud-gaming-proposal-to-make-a-market-reference). Big Tech firms have whole departments who leap into action if regulators start sniffing, and the money to set up pseudo-associations to lobby on their behalf. We didn't; you had our backs. Thank you.
 
 - **Email:**        [contactus@open-web-advocacy.org](mailto:contactus@open-web-advocacy.org)
 - **Mastodon:**      [@OpenWebAdvocacy](https://mastodon.social/@owa)

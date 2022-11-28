@@ -795,7 +795,7 @@ ul.thumbs {
 
   ul.thumbs.goodies li {flex: 1 1 100%;}
 
-  div.license p {font-size: 0.8em;}
+  div.license p {font-size: 0.8em; margin-bottom: 1rem;}
   div.license img {
     width: 22px;
     vertical-align: bottom;

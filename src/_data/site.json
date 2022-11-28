@@ -2,5 +2,6 @@
   "name": "Open Web Advocacy",
   "url": "https://open-web-advocacy.org",
   "authorName": "Open Web Advocacy",
-  "authorEmail": "contactus@open-web-advocacy.org"
+  "authorEmail": "contactus@open-web-advocacy.org",
+  "logo": "/images/logo-192.png"
 }

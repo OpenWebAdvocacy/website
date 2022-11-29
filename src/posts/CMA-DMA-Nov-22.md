@@ -8,7 +8,7 @@ Howdy, [Bruce](https://brucelawson.co.uk) here, with an update on progress we've
 
 ## Browser engines on the agenda
 
-We've had encouraging success at putting browser engines on the regulators' agenda. While rendering engines seem a pretty esoteric subject, it's of paramount importance: Apple has done a great job in concealing their anti-competitive behaviour, saying "you can have other browsers on iOS" while glossing over the fact that all other browsers are [Apple's mandated version of WebKit](https://developer.apple.com/app-store/review/guidelines/#performance:~:text=Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20Javascript.) under the hood. 
+We've had encouraging success at putting browser engines on the regulators' agenda. While rendering engines seem a pretty esoteric subject, it's of paramount importance: Apple has done a great job concealing its anti-competitive behaviour, saying "you can have other browsers on iOS" while glossing over the fact that all other browsers are [Apple's mandated version of WebKit](https://developer.apple.com/app-store/review/guidelines/#performance:~:text=Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20Javascript.) under the hood. 
 
 Many web developers don't realise this, which is why we made this meme:
 

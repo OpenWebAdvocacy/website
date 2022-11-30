@@ -11,8 +11,8 @@ AAAC published a [Digital Platform Services Inquiry Discussion Paper (PDF)](http
 They propose:
 
 1. Reversing the Apple browser ban
-2. Equivalent Access to Hardware and Software
-3. Allow Web Apps to Compete with Native Apps
+2. Requiring equivalent access to hardware and software
+3. Allowing web apps to compete with single-pletform "native" apps
 
 > Apple requires all browsers on iOS to be built using its WebKit browser engine. Further, Apple prevents WebKit from accessing certain APIs and iOS functionality, which restricts the functionality of web apps compared to native apps (for example, push notifications can be accessed by native apps but not web apps).
 
@@ -20,7 +20,7 @@ They propose:
 
 > Apple, and to a lesser extent Google, have also restricted interoperability with hardware, software and functionality through their mobile OS for providers of third-party apps and services.
 
-The ACCC is recommending introducing a new regulatory regime that will be able to compel gatekeepers to stop anti-competitive conduct. They note that reforms are underway globally and it would make sense to align Australia's new regulatory regime with ones such as the EU's Digital Markets Act, the UK's Digital Markets Unit and the Japan's Act on Improving Transparency and Fairness of Digital Platforms.
+The ACCC is recommending introducing a new regulatory regime that will be able to compel gatekeepers to stop anti-competitive conduct. They note that reforms are underway globally and it would make sense to align Australia's new regulatory regime with ones such as the [EU's Digital Markets Act, the UK's Digital Markets Unit](/blog/cma-dma-nov-22/) and the Japan's Act on Improving Transparency and Fairness of Digital Platforms.
 
 They clearly recognize the harm that the gatekeepers have on competition, businesses and consumers. The ACCC has a lovely shopping list of proposed legislated obligations, most of which will relate to browsers and web apps. The [majority of OWA’s concerns (PDF)](https://www.accc.gov.au/system/files/DPB%20-%20DPSI%20-%20September%202022%20report%20-%20Submission%20-%20Open%20Web%20Advocacy%20-%20Public%20(1).pdf) fit into these categories:	
 

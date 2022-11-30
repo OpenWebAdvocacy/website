@@ -6,13 +6,13 @@ tags: ['Policy', 'Updates']
 
 G'day, sport! [Bruce](https://brucelawson.co.uk) here, with an update on progress we've made down under with the Australian Competition and Consumer Commission (ACCC).
 
-AAAC published a [Digital Platform Services Inquiry Discussion Paper (PDF)](https://www.accc.gov.au/system/files/Digital%20platform%20services%20inquiry.pdf)  which has great news for competition in Browsers and Web Apps.
+AAAC published a [Digital Platform Services Inquiry Discussion Paper (PDF)](https://www.accc.gov.au/system/files/Digital%20platform%20services%20inquiry.pdf)  which has great news for competition in browsers and web apps.
 
 They propose:
 
 1. Reversing the Apple browser ban
 2. Requiring equivalent access to hardware and software
-3. Allowing web apps to compete with single-pletform "native" apps
+3. Allowing web apps to compete with single-platform "native" apps
 
 > Apple requires all browsers on iOS to be built using its WebKit browser engine. Further, Apple prevents WebKit from accessing certain APIs and iOS functionality, which restricts the functionality of web apps compared to native apps (for example, push notifications can be accessed by native apps but not web apps).
 
@@ -36,7 +36,7 @@ They clearly recognize the harm that the gatekeepers have on competition, busine
 
 The Australian Government is considering the ACCC’s recommendations and will consult publicly to seek the views of stakeholders.
 
-We would like to thank Mozilla and all of the individual developers and businesses who wrote to the ACCC in support of browser competition and Web Apps. 
+We would like to thank Mozilla and all of the individual developers and businesses who wrote to the ACCC in support of browser competition and web apps. 
 
 Stay tuned so we can let you know when the governmental consultation begins, so you can have your say if you do business in Australia.
 

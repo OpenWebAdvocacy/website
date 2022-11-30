@@ -22,21 +22,21 @@ They propose:
 
 The ACCC is recommending introducing a new regulatory regime that will be able to compel gatekeepers to stop anti-competitive conduct. They note that reforms are underway globally and it would make sense to align Australia's new regulatory regime with ones such as the [EU's Digital Markets Act, the UK's Digital Markets Unit](/blog/cma-dma-nov-22/) and the Japan's Act on Improving Transparency and Fairness of Digital Platforms.
 
-They clearly recognize the harm that the gatekeepers have on competition, businesses and consumers. The ACCC has a lovely shopping list of proposed legislated obligations, most of which will relate to browsers and web apps. The [majority of OWA’s concerns (PDF)](https://www.accc.gov.au/system/files/DPB%20-%20DPSI%20-%20September%202022%20report%20-%20Submission%20-%20Open%20Web%20Advocacy%20-%20Public%20(1).pdf) fit into these categories:	
+They clearly recognize the harm that the gatekeepers have on competition, businesses and consumers. The ACCC has a lovely shopping list of proposed legislated obligations, most of which will relate to browsers and web apps. The [majority of OWA’s concerns (PDF)](https://www.accc.gov.au/system/files/DPB%20-%20DPSI%20-%20September%202022%20report%20-%20Submission%20-%20Open%20Web%20Advocacy%20-%20Public%20(1).pdf) fit into these categories:
 
-- anti-competitive self-preferencing 
-- anti-competitive tying 
-- exclusive pre-installation and default agreements that hinder competition 
-- impediments to consumer switching 
-- impediments to interoperability 
-- data-related barriers to entry and expansion, where privacy impacts can be managed 
-- a lack of transparency 
+- anti-competitive self-preferencing
+- anti-competitive tying
+- exclusive pre-installation and default agreements that hinder competition
+- impediments to consumer switching
+- impediments to interoperability
+- data-related barriers to entry and expansion, where privacy impacts can be managed
+- a lack of transparency
 - unfair dealings with business users
--  exclusivity and price parity clauses in contracts with business users. 
+-  exclusivity and price parity clauses in contracts with business users.
 
 The Australian Government is considering the ACCC’s recommendations and will consult publicly to seek the views of stakeholders.
 
-We would like to thank Mozilla and all of the individual developers and businesses who wrote to the ACCC in support of browser competition and web apps. 
+We would like to thank [Mozilla (PDF)](https://www.accc.gov.au/system/files/DPB%20-%20DPSI%20-%20September%202022%20report%20-%20Submission%20-%20Mozilla%20-%20Public.pdf) and all of the [individual developers and businesses](https://www.accc.gov.au/focus-areas/inquiries-ongoing/digital-platform-services-inquiry-2020-25/september-2022-interim-report) who wrote to the ACCC in support of browser competition and web apps.
 
 Stay tuned so we can let you know when the governmental consultation begins, so you can have your say if you do business in Australia.
 

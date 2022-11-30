@@ -6,7 +6,7 @@ tags: ['Policy', 'Updates']
 
 G'day, sport! [Bruce](https://brucelawson.co.uk) here, with an update on progress we've made down under with the Australian Competition and Consumer Commission (ACCC).
 
-AAAC published a [Digital Platform Services Inquiry Discussion Paper (PDF)](https://www.accc.gov.au/system/files/Digital%20platform%20services%20inquiry.pdf)  which has great news for competition in browsers and web apps.
+ACCC published a [Digital Platform Services Inquiry Discussion Paper (PDF)](https://www.accc.gov.au/system/files/Digital%20platform%20services%20inquiry.pdf)  which has great news for competition in browsers and web apps.
 
 They propose:
 

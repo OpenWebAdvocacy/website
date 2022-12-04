@@ -402,14 +402,15 @@ body > footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	gap: 0 2rem;
+	gap: 1rem 2rem;
 	width: 90%;
 	max-width: 1400px;
 	margin: 0 auto;
 }
 body > footer ul {
 	display: flex;
-	gap: 0.5em;
+  flex-wrap: wrap;
+	gap: 0 0.5em;
 	list-style-type: none;
 	margin-bottom: 2rem;
 }
@@ -423,11 +424,12 @@ body > footer li:not(:last-child)::after {
 }
 
 body > footer li {
-	font-size: 0.9em;
+	font-size: 0.8em;
 	text-transform: lowercase;
 }
 
 p.copyright {font-variation-settings: var(--fvs-black);}
+
 
 /* ---------------------- NAVIGATION ------------------------ */
 
@@ -748,6 +750,60 @@ img.screenshot {
 /* legacy, walled-gardens v1 */
 div.screenshot {max-width: 350px;}
 div.screenshot img {box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+
+/* CONTRIBUTORS PAGE */
+
+ul.contributors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem 3rem;
+  list-style-type: none;
+  margin: calc(1.5rem + 2vw) 0 0;
+}
+
+  ul.contributors li + li {margin-top: 0;}
+  ul.contributors li {
+    flex: 1 1 33%;
+    min-width: 300px;
+    display: grid;
+    grid-template-rows: auto 1.5rem;
+  }
+  ul.contributors div.main-data {
+    position: relative;
+    background-color: var(--n-light);
+    padding: 0.8rem 1rem 1rem;
+    margin-left: 1rem;
+  }
+    ul.contributors div.main-data p {
+      font-size: 0.85em;
+      line-height: 1.1;
+      margin-left: 3.5rem;
+    }
+
+    ul.contributors div.main-data p:last-of-type {
+      font-size: 0.75em;
+    }
+    ul.contributors div.main-data strong {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+
+  ul.contributors img {
+    position: absolute;
+    top: -1em;
+    left: -1em;
+    width: 68px;
+    height: 68px;
+  }
+
+p.social {
+  max-width: 100%;
+  font-size: 0.65em;
+  text-align: right;
+  margin-top: auto;
+}
+
 
 /* ------------------------- BLOGPOST ------------------------- */
 

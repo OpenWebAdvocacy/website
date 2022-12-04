@@ -8,6 +8,7 @@
 	div.site-header__inner {
 		display: flex;
 		justify-content: space-between;
+    align-items: center;
 	}
 	header:not(.home-header) nav {
 		text-align: right;

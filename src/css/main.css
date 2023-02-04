@@ -193,10 +193,10 @@ img {
 /* Handy utils */
 .wrapper {
   max-width: 65rem;
-  margin-left: auto;
+  /* margin-left: auto;
   margin-right: auto;
   padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-right: 1.25rem; */
 }
 
 /* More info: https://piccalil.li/quick-tip/flow-css-utility/ */
@@ -302,8 +302,8 @@ div.inner-wrapper {
 	margin: 4vw auto;
 	--flow-space: 2rem;
 }
-
-	div.inner-wrapper aside {max-width: 300px;}
+/*
+	div.inner-wrapper aside {max-width: 300px;} */
 
 /* ---------------------- COMPONENTS -------------------- */
 
@@ -748,6 +748,19 @@ img.screenshot {
 /* legacy, walled-gardens v1 */
 div.screenshot {max-width: 350px;}
 div.screenshot img {box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+
+/* Donation block */
+div.prom-banner {
+  background-color: var(--main-light);
+  padding: 1.5rem;
+  border-top: 5px solid var(--main-color);
+}
+
+  div.prom-banner p:last-child {
+    font-size: 80%;
+    margin-top: 1rem;
+  }
+
 
 /* ------------------------- BLOGPOST ------------------------- */
 

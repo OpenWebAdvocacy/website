@@ -8,6 +8,7 @@
 	div.site-header__inner {
 		display: flex;
 		justify-content: space-between;
+    align-items: center;
 	}
 	header:not(.home-header) nav {
 		text-align: right;
@@ -33,6 +34,18 @@
 		border-bottom: 2px solid var(--main-color);
 		border-left: 1px solid var(--main-color);
 	}
+
+  div.prom-banner {
+    display: grid;
+    grid-template-columns: 90px auto;
+    grid-template-rows: auto auto;
+    gap: 0 1.5rem;
+  }
+  div.prom-banner p:nth-child(2) {max-width: 30em;}
+  div.prom-banner p:last-child {
+    grid-column-start: 2;
+    grid-column-end: -1;
+  }
 }
 
 @media screen and (min-width: 500px) {

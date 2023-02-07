@@ -6,18 +6,17 @@ tags: ['Policy', 'Updates']
 
 [Bruce](https://brucelawson.co.uk) published an [article](https://brucelawson.co.uk/2023/the-ntia-report-on-mobile-app-ecosystems/) where he gives us a summary of the NTIA (National Telecommunications and Information Administration) report on Mobile App Competition.
 
-> The question now is whether Apple will do the right thing, or seek to hurl lawyers with procedural arguments at it instead, as they’re doing in the UK now.
+> The question now is whether Apple will do the right thing, or seek to hurl lawyers with procedural arguments at it instead, as they�re doing in the UK now.
 
-> But for every month they delay, they earn a fortune; it’s estimated that Google pays Apple $20 Billion to be the default search engine in Safari, and the App Store earned Apple $72.3 Billion in 2020.
+> But for every month they delay, they earn a fortune; it�s estimated that Google pays Apple $20 Billion to be the default search engine in Safari, and the App Store earned Apple $72.3 Billion in 2020.
 
-## Note
+Apple's App Store revenue is ~ $72.3 billion, of which they tax app developers between 15% and (likely more often) 30%. If we assume Apple always takes the full 30%, they would receive just shy of $21.7 billion. Apple would still need some of that money to pay for the operating costs of the App Store.
 
-Apple's AppStore revenue is ~ $72.3b, but they receive approximately 30% of that.
+The $20 billion from Google is likely almost all profit.
 
-The $20 Billion from Google for search engine placement in Safari is likely almost all profit.
-That's 11% of Apple's yearly profit for doing nothing except banning their competitors from iOS🤯
+That's 11% of Apple's yearly profit for doing nothing except banning their competitors from iOS ??
 
-**Browser Ban = Higher Market Share for Safari = Google Search Engine Revenue**
+**Browser ban = higher market share for safari = Google search engine revenue**
 
 <div class="prom-banner">
   <p class"illustration"><img src="/images/donate.svg" alt="" /></p>

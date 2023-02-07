@@ -14,7 +14,7 @@ Apple's App Store revenue is ~ $72.3 billion, of which they tax app developers b
 
 The $20 billion from Google is likely almost all profit.
 
-That's 11% of Apple's yearly profit for doing nothing except banning their competitors from iOS ??
+That's 11% of Apple's yearly profit for doing nothing except banning their competitors from iOS 🤯
 
 **Browser ban = higher market share for safari = Google search engine revenue**
 

@@ -1,0 +1,30 @@
+---
+title: 'Contributors'
+permalink: '/contributors/'
+metaDesc: 'Team of contributors to the Open Web Advocacy initiative'
+layout: 'layouts/page.njk'
+---
+
+<div class="intro">
+  <p>A little text of introduction to present the contributors.</p>
+</div>
+
+<ul class="contributors">
+  {% for person in contributors %}
+    <li>
+      <div class="main-data">
+        <p>
+          <a href="{{ person.url }}">
+            <img src="/images/contributors/{{ person.avatar }}" alt="" />
+            <strong>{{ person.name }}</strong></a>
+        </p>
+        <p>{{ person.what }}</p>
+      </div>
+      <p class="social">
+        <a href="#">{{ person.github }}</a> /
+        <a href="#">{{ person.mastodon }}</a> /
+        <a href="#">{{ person.twitter }}</a>
+      </p>
+    </li>
+  {% endfor %}
+</ul>

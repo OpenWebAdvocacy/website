@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------------
     OPEN WEB ADVOCACY
     Main style-sheet
-    2022
+    2023
 -------------------------------------------------------------------- */
 
 /* INDEX
@@ -52,7 +52,7 @@ body {
 h1, h2, h3 {
 	max-width: 35ch;
 	font-variation-settings: var(--fvs-black);
-  line-height: 1.2;
+    line-height: 1.2;
 	letter-spacing: -0.02em;
 }
 
@@ -342,6 +342,32 @@ button,
 }
 .action-button:only-child {
 	margin-top: 1.5em;
+}
+
+.action-button-row {
+	display: flex;
+}
+.action-button-row .action-button {
+	margin-top: 0px;
+	margin-right: 1em;
+}
+
+button,
+.donate-button {
+	display: inline-block;
+	text-decoration: none;
+	color: var(--text-inv);
+	background-color: var(--main-color);
+	padding: 0.8em .8em 0.8em .8em;
+	border-radius: 2em;
+	font-variation-settings: var(--fvs-black);
+	line-height: 1;
+}
+.donate-button svg {
+	display:inline-block;
+    vertical-align:middle;
+	width: 1.3em;
+    height: 1.3em;
 }
 
 /* ---------------------- HEADER ------------------------ */

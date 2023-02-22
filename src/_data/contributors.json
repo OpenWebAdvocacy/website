@@ -2,7 +2,7 @@
   {
     "name": "Alex Moore",
     "countries": ["Australia🇦🇺", "UK🇬🇧"],
-    "avatar": "alex-moore.png",
+    "avatar": "alex-moore.jpg",
     "what": "<b>OWA Executive Director</b>, Web Developer, Small Business Owner",
     "twitter": "mtomweb",
     "email": "alex@open-web-advocacy.org",
@@ -13,7 +13,7 @@
     "name": "Feross Aboukhadijeh",
     "website": "https://feross.org/",
     "countries": ["USA🇺🇸"],
-    "avatar": "feross-aboukhadije.jpeg",
+    "avatar": "feross-aboukhadije.jpg",
     "what": "Founder & CEO, Socket Security, Visiting Lecturer, Stanford University",
     "twitter": "feross"
   },
@@ -21,15 +21,15 @@
     "name": "Thomas Allmer",
     "website": "http://open-wc.org/",
     "countries": ["Austria🇦🇹"],
-    "avatar": "thomas-allmer.jpeg",
+    "avatar": "thomas-allmer.jpg",
     "what": "Senior Web Application Developer, Web Components",
     "twitter": "dakmor"
-  },		
+  },
   {
     "name": "John Allsopp",
     "website": "https://webdirections.org/",
     "countries": ["Australia🇦🇺"],
-    "avatar": "john-allsopp.jpeg",
+    "avatar": "john-allsopp.jpg",
     "what": "Web Directions Conference Organizer, Author",
     "mastodon": "https://indieweb.social/@johnallsopp",
     "twitter": "johnallsopp"
@@ -38,7 +38,7 @@
     "name": "Andy Bell",
     "website": "https://andy-bell.co.uk/about/",
     "countries": ["UK🇬🇧"],
-    "avatar": "andy-bell.webp",
+    "avatar": "andy-bell.jpg",
     "what": "Designer, Front-End Developer, Agency Founder",
     "mastodon": "https://mastodon.social/@hankchizljaw",
     "twitter": "piccalilli_"
@@ -68,7 +68,7 @@
   {
     "name": "Kenneth Rohde Christiansen",
     "countries": ["Denmark🇩🇰"],
-    "avatar": "kenneth-rohde-christiansen.jpeg",
+    "avatar": "kenneth-rohde-christiansen.jpg",
     "what": "Browser Engineer, W3C TAG Alumni, Co-Inventor of PWA",
     "twitter": "kennethrohde"
   },
@@ -100,7 +100,7 @@
     "name": "Stuart Langridge",
     "countries": ["UK🇬🇧"],
     "website": "https://www.kryogenix.org/",
-    "avatar": "stuart-langridge.png",
+    "avatar": "stuart-langridge.jpg",
     "what": "W3C Invited Expert, Mobile Web App Specialist, Consultant",
     "mastodon": "https://mastodon.social/@sil/",
     "twitter": "sil"
@@ -109,7 +109,7 @@
     "name": "Bruce Lawson",
     "countries": ["UK🇬🇧"],
     "website": "https://brucelawson.co.uk/",
-    "avatar": "bruce-lawson.jpeg",
+    "avatar": "bruce-lawson.jpg",
     "what": "W3C Invited Expert, Accessibility Expert, Ex-Deputy CTO of Opera Browser",
     "mastodon": "https://social.vivaldi.net/@brucelawson",
     "twitter": "brucel"
@@ -125,9 +125,10 @@
   {
     "name": "Angela P. Ricci",
     "countries": ["Brazil🇧🇷", "France🇫🇷"],
-    "avatar": "default.jpg",
+    "avatar": "gericci.jpg",
     "what": "Web Designer and front-end developer, working for an accessible web",
-    "mastodon": "https://mastodon.social/@gericci/"
+    "mastodon": "https://mastodon.social/@gericci/",
+    "website": "https://gericci.me/"
   },
   {
     "name": "Runos",

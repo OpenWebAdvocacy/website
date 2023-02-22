@@ -1,38 +1,145 @@
 [
   {
-    "name": "Bruce Lawson",
-    "url": "https://brucelawson.co.uk/",
-    "avatar": "default.png",
-    "what": "What he did and does",
-    "github": "@brucel",
-    "mastodon": "@brucel",
-    "twitter": "@brucel"
+    "name": "Alex Moore",
+    "countries": ["Australia🇦🇺", "UK🇬🇧"],
+    "avatar": "alex-moore.png",
+    "what": "<b>OWA Executive Director</b>, Web Developer, Small Business Owner",
+    "twitter": "mtomweb",
+    "email": "alex@open-web-advocacy.org",
+    "linkedIn": "https://au.linkedin.com/in/alexlmoore"
+  },
+
+  {
+    "name": "Feross Aboukhadijeh",
+    "website": "https://feross.org/",
+    "countries": ["USA🇺🇸"],
+    "avatar": "feross-aboukhadije.jpeg",
+    "what": "Founder & CEO, Socket Security, Visiting Lecturer, Stanford University",
+    "twitter": "feross"
+  },
+  {
+    "name": "Thomas Allmer",
+    "website": "http://open-wc.org/",
+    "countries": ["Austria🇦🇹"],
+    "avatar": "thomas-allmer.jpeg",
+    "what": "Senior Web Application Developer, Web Components",
+    "twitter": "dakmor"
+  },		
+  {
+    "name": "John Allsopp",
+    "website": "https://webdirections.org/",
+    "countries": ["Australia🇦🇺"],
+    "avatar": "john-allsopp.jpeg",
+    "what": "Web Directions Conference Organizer, Author",
+    "mastodon": "https://indieweb.social/@johnallsopp",
+    "twitter": "johnallsopp"
+  },
+  {
+    "name": "Andy Bell",
+    "website": "https://andy-bell.co.uk/about/",
+    "countries": ["UK🇬🇧"],
+    "avatar": "andy-bell.webp",
+    "what": "Designer, Front-End Developer, Agency Founder",
+    "mastodon": "https://mastodon.social/@hankchizljaw",
+    "twitter": "piccalilli_"
+  },
+  {
+    "name": "Ashley Beshensky",
+    "countries": ["USA🇺🇸"],
+    "avatar": "default.jpg",
+    "what": "Graphic Designer, OWA Logo"
+  },
+  {
+    "name": "Steven Beshensky",
+    "countries": ["USA🇺🇸"],
+    "avatar": "default.jpg",
+    "what": "Web Developer",
+    "mastodon": "https://hachyderm.io/@sbesh",
+    "twitter": "sbesh91"
+  },
+  {
+    "name": "Dan Brown",
+    "website": "https://danb.me/",
+    "countries": ["UK🇬🇧"],
+    "avatar": "default.jpg",
+    "what": "Full Stack Web Developer",
+    "mastodon": "https://fosstodon.org/@danb"
+  },
+  {
+    "name": "Kenneth Rohde Christiansen",
+    "countries": ["Denmark🇩🇰"],
+    "avatar": "kenneth-rohde-christiansen.jpeg",
+    "what": "Browser Engineer, W3C TAG Alumni, Co-Inventor of PWA",
+    "twitter": "kennethrohde"
+  },
+  {
+    "name": "Jesper van den Ende",
+    "website": "https://narrow.one",
+    "countries": ["Netherlands🇳🇱"],
+    "avatar": "default.jpg",
+    "what": "Game Developer, Developer of <a href='https://narrow.one'>https://narrow.one</a>",
+    "mastodon": "https://mastodon.social/@jespertheend",
+    "twitter": "Jespertheend"
+  },
+  {
+    "name": "Roderick Gadellaa",
+    "countries": ["Netherlands🇳🇱"],
+    "avatar": "default.jpg",
+    "what": "Designer, Front-End Developer, iOS Safari Expert",
+    "mastodon": "https://mastodon.social/@rgadellaa/",
+    "twitter": "RGadellaa"
+  },
+  {
+    "name": "Chris Lacy",
+    "countries": ["Australia🇦🇺"],
+    "avatar": "default.jpg",
+    "what": "Native and Web App Developer",
+    "twitter": "chrismlacy"
+  },
+  {
+    "name": "Stuart Langridge",
+    "countries": ["UK🇬🇧"],
+    "website": "https://www.kryogenix.org/",
+    "avatar": "stuart-langridge.png",
+    "what": "W3C Invited Expert, Mobile Web App Specialist, Consultant",
+    "mastodon": "https://mastodon.social/@sil/",
+    "twitter": "sil"
   },
   {
     "name": "Bruce Lawson",
-    "url": "https://brucelawson.co.uk/",
-    "avatar": "default.png",
-    "what": "A bigger description of what somebody did",
-    "github": "",
-    "mastodon": "@brucel",
-    "twitter": "@brucel"
+    "countries": ["UK🇬🇧"],
+    "website": "https://brucelawson.co.uk/",
+    "avatar": "bruce-lawson.jpeg",
+    "what": "W3C Invited Expert, Accessibility Expert, Ex-Deputy CTO of Opera Browser",
+    "mastodon": "https://social.vivaldi.net/@brucelawson",
+    "twitter": "brucel"
   },
   {
-    "name": "Bruce Lawson",
-    "url": "https://brucelawson.co.uk/",
-    "avatar": "default.png",
-    "what": "What he did and does",
-    "github": "",
-    "mastodon": "@brucel",
-    "twitter": "@brucel"
+    "name": "James Moore",
+    "countries": ["Australia🇦🇺", "UK🇬🇧"],
+    "avatar": "default.jpg",
+    "what": "OWA Regulatory Submissions, Web App Developer",
+    "github": "jamesMooreOWA",
+    "email": "james@open-web-advocacy"
   },
   {
-    "name": "Bruce Lawson",
-    "url": "https://brucelawson.co.uk/",
-    "avatar": "default.png",
-    "what": "What he did and does",
-    "github": "",
-    "mastodon": "@brucel",
-    "twitter": "@brucel"
+    "name": "Angela P. Ricci",
+    "countries": ["Brazil🇧🇷", "France🇫🇷"],
+    "avatar": "default.jpg",
+    "what": "Web Designer and front-end developer, working for an accessible web",
+    "mastodon": "https://mastodon.social/@gericci/"
+  },
+  {
+    "name": "Runos",
+    "countries": ["France🇫🇷"],
+    "avatar": "default.jpg",
+    "what": "UI/UX Developer, iOS Safari Expert"
+  },
+  {
+    "name": "Yuya Saito",
+    "countries": ["Japan🇯🇵"],
+    "avatar": "yuya-saito.jpg",
+    "what": "Web Developer, Technical Translation",
+    "twitter": "cssradar"
   }
 ]

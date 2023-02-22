@@ -390,7 +390,7 @@ button,
 
 button,
 .donate-button {
-	display: inline-block;
+	--display: inline-block;
 	text-decoration: none;
 	color: var(--text-inv);
 	background-color: var(--main-color);
@@ -825,11 +825,20 @@ div.prom-banner {
   border-top: 5px solid var(--main-color);
 }
 
-  div.prom-banner p:last-child {
+  div.prom-banner p:nth-child(3) {
     font-size: 80%;
     margin-top: 1rem;
+	grid-column: 2 / 2;
   }
 
+  div.prom-banner div:nth-child(4) {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: flex-end;
+	grid-column: 2 / 2;
+	max-width: 30em;
+  }
 /* CONTRIBUTORS PAGE */
 
 ul.contributors {
@@ -874,6 +883,7 @@ ul.contributors {
     left: -1em;
     width: 68px;
     height: 68px;
+	object-fit: cover;
   }
 
 p.social {

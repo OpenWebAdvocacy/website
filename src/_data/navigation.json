@@ -5,8 +5,8 @@
       "url": "/"
     },
     {
-      "text": "Press",
-      "url": "/press/"
+      "text": "About Us",
+      "url": "/contributors/"
     },
     {
       "text": "Walled Gardens Report",
@@ -15,9 +15,17 @@
     {
       "text": "Get Involved",
       "url": "/get-involved/"
+    },
+    {
+      "text": "Donate",
+      "url": "/donate"
     }
   ],
   "secondary": [
+    {
+      "text": "Contributors",
+      "url": "/contributors/"
+    },
     {
       "text": "Privacy",
       "url": "/privacy/"

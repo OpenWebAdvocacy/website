@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------------
     OPEN WEB ADVOCACY
     Main style-sheet
-    2022
+    2023
 -------------------------------------------------------------------- */
 
 /* INDEX
@@ -14,6 +14,7 @@
 - NAVIGATION
 - ARTICLE
 - BLOGPOST
+- PROMOTION GALLERY
 - WALLED GARDENS PAGE
 - MODIFIERS
 */
@@ -68,8 +69,11 @@ h2 {
 }
 
 h3 {
-  font-size: calc(1.2rem + 1vw);
+  font-size: calc(1rem + 1vw);
+  font-variation-settings: var(--fvs-bold);
 }
+
+h4 {font-size: calc(1em + 0.35vw);}
 
 /* More info: https://piccalil.li/quick-tip/limit-line-lengths-to-increase-readability/ */
 p, li, dl {
@@ -171,6 +175,7 @@ th {
 /* Links and focus states */
 a {
   color: currentColor;
+  text-underline-offset: 0.15em;
 }
 
 a:hover {
@@ -284,15 +289,6 @@ figcaption::before {
 
 main:focus {outline: none;}
 
-aside {
-	background-color: var(--n-light);
-	padding: 1.5rem;
-}
-	aside ul, aside ol {margin: 1rem;}
-	aside h1, aside h2, aside h3 {
-		text-transform: lowercase;
-	}
-
 /* Inner pages */
 main.inner {margin-bottom: 2rem;}
 
@@ -304,6 +300,49 @@ div.inner-wrapper {
 }
 /*
 	div.inner-wrapper aside {max-width: 300px;} */
+
+/* Aside */
+
+aside {
+	background-color: var(--n-light);
+	padding: 1.5rem;
+}
+  aside * + * {
+    margin-top: var(--flow-space);
+  }
+	aside ul, aside ol {margin: 1rem;}
+	aside h1, aside h2, aside h3 {
+		text-transform: lowercase;
+	}
+
+  aside h3 {
+    font-size: calc(1rem + 1vw);
+    line-height: 1.1;
+  }
+
+div.promo {
+  display: flex;
+  gap: 1rem 0;
+  position: relative;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  border-top: 2px solid var(--body-text);
+}
+  div.promo div.group {margin: 0;}
+
+  div.promo p.illustration {
+    position: relative;
+    width: 30%;
+    min-width: 50px;
+    max-width: 120px;
+    top: 0.5rem;
+    left: -28px;
+    transition: all 1s;
+  }
+  div.promo p.illustration img {
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+    transform: rotate(355deg);
+  }
 
 /* ---------------------- COMPONENTS -------------------- */
 
@@ -342,6 +381,37 @@ button,
 }
 .action-button:only-child {
 	margin-top: 1.5em;
+}
+
+.action-button-row {
+	display: flex;
+}
+.action-button-row .action-button {
+	margin-top: 0px;
+	margin-right: 1em;
+}
+
+button,
+.donate-button {
+	--display: inline-block;
+	text-decoration: none;
+	color: var(--text-inv);
+	background-color: var(--main-color);
+	padding: 0.8em .8em 0.8em .8em;
+	border-radius: 2em;
+	font-variation-settings: var(--fvs-black);
+	line-height: 1;
+}
+
+a.donate-button {
+	display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.donate-button svg {
+	width: 1.3em;
+  height: 1.3em;
 }
 
 /* ---------------------- HEADER ------------------------ */
@@ -402,14 +472,15 @@ body > footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	gap: 0 2rem;
+	gap: 1rem 2rem;
 	width: 90%;
 	max-width: 1400px;
 	margin: 0 auto;
 }
 body > footer ul {
 	display: flex;
-	gap: 0.5em;
+  flex-wrap: wrap;
+	gap: 0 0.5em;
 	list-style-type: none;
 	margin-bottom: 2rem;
 }
@@ -423,11 +494,12 @@ body > footer li:not(:last-child)::after {
 }
 
 body > footer li {
-	font-size: 0.9em;
+	font-size: 0.8em;
 	text-transform: lowercase;
 }
 
 p.copyright {font-variation-settings: var(--fvs-black);}
+
 
 /* ---------------------- NAVIGATION ------------------------ */
 
@@ -761,10 +833,74 @@ div.prom-banner {
   border-top: 5px solid var(--main-color);
 }
 
-  div.prom-banner p:last-child {
+  div.prom-banner p:nth-child(3) {
     font-size: 80%;
     margin-top: 1rem;
+	grid-column: 2 / 2;
   }
+
+  div.prom-banner div:nth-child(4) {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    grid-column: 2 / 2;
+    max-width: 30em;
+  }
+
+/* CONTRIBUTORS PAGE */
+
+ul.contributors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem 3rem;
+  list-style-type: none;
+  margin: calc(1.5rem + 2vw) 0 0;
+}
+
+  ul.contributors li + li {margin-top: 0;}
+  ul.contributors li {
+    flex: 1 1 33%;
+    min-width: 300px;
+    display: grid;
+    grid-template-rows: auto 1.5rem;
+  }
+  ul.contributors div.main-data {
+    position: relative;
+    background-color: var(--n-light);
+    padding: 0.8rem 1rem 1rem;
+    margin-left: 1rem;
+  }
+    ul.contributors div.main-data p {
+      font-size: 0.85em;
+      line-height: 1.1;
+      margin-left: 3.5rem;
+    }
+
+    ul.contributors div.main-data p:last-of-type {
+      font-size: 0.75em;
+    }
+    ul.contributors div.main-data strong {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+
+  ul.contributors img {
+    position: absolute;
+    top: -1em;
+    left: -1em;
+    width: 68px;
+    height: 68px;
+	object-fit: cover;
+  }
+
+p.social {
+  max-width: 100%;
+  font-size: 0.65em;
+  text-align: right;
+  margin-top: auto;
+}
 
 
 /* ------------------------- BLOGPOST ------------------------- */
@@ -802,6 +938,51 @@ div.prom-banner {
 }
 
 ol.alpha {list-style-type: lower-alpha;}
+
+/* --------------------- PROMOTION GALLERY ------------------ */
+
+ul.thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;;
+  list-style-type: none;
+  margin-left: 0;
+}
+  ul.thumbs li {
+    flex: 1;
+  }
+  ul.thumbs li + li {
+    margin-top: 0;
+  }
+
+  ul.thumbs figure {
+    min-width: 200px;
+    flex-direction: column;
+    background-color: var(--main-light);
+    border-radius: 2rem;
+  }
+  ul.thumbs figcaption {margin-top: auto;}
+    ul.thumbs figcaption span {display: block;}
+
+  ul.thumbs a {
+    display: block;
+    padding-left: 3rem;
+  }
+  ul.thumbs a:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M16 2l5 5v14.008a.993.993 0 0 1-.993.992H3.993A1 1 0 0 1 3 21.008V2.992C3 2.444 3.445 2 3.993 2H16zm-3 10V8h-2v4H8l4 4 4-4h-3z' style='fill:%23CD4C1D' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+  }
+
+  ul.thumbs.goodies li {flex: 1 1 100%;}
+
+  div.license p {font-size: 0.8em; margin-bottom: 1rem;}
+  div.license img {
+    width: 22px;
+    vertical-align: bottom;
+    padding: 0 2px;
+  }
+
 
 /* --------------------- WALLED GARDENS PAGE ------------------ */
 

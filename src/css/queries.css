@@ -12,11 +12,14 @@
 	}
 	header:not(.home-header) nav {
 		text-align: right;
-		padding: 0;
+		padding: 0 0 1rem;
 	}
 	header:not(.home-header) nav ul {
 		display: block;
 	}
+  header nav ul li + li {
+    margin-top: 0.5rem;
+  }
 
 	dl.glossary dd {
 		position: relative;
@@ -128,6 +131,18 @@
 	}
 }
 
+@media screen and (min-width: 950px) and (max-width: 1299px) {
+  div.who-entry {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 3rem;
+  }
+  div.who-entry div.prom-banner {
+    display: block;
+  }
+}
+
 @media screen and (min-width: 1100px) and (max-width: 1299px) {
 	div.policy-entry {position: relative;}
 	div.policy-entry p.entry-link {
@@ -162,6 +177,16 @@
 
 	aside {flex: 0 0 20%; margin: 0;}
 	div.home-wrapper aside {margin: 0;}
+
+  div.promo {flex-direction: row-reverse;}
+  div.promo div.group {flex: 0;}
+  div.promo p.illustration {
+    width: 120px;
+    top: 1rem;
+    left: auto;
+    right: -25px;
+  }
+  div.promo p.illustration img {transform: rotate(10deg);}
 
 	div.get-involved {
 		display: flex;

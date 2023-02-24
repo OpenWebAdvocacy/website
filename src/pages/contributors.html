@@ -30,7 +30,7 @@ issues with their jobs or businesses.</p>
           <img src="/images/contributors/{{ person.avatar }}" alt="" />
           <strong>
             {{ person.name }} 
-            ({{ person.countries | join(', ')}})
+            ({{ person.countries | join(',&nbsp;') | safe}})
           </strong>
         </p>
         <p>{{ person.what | safe }}</p>

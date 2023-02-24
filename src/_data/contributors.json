@@ -14,7 +14,7 @@
     "website": "https://feross.org/",
     "countries": ["USA🇺🇸"],
     "avatar": "feross-aboukhadije.jpg",
-    "what": "Founder & CEO, Socket Security, Visiting Lecturer, Stanford University",
+    "what": "Founder & CEO, <a href='https://socket.dev/'>Socket Security</a>, <a href='https://wormhole.app/'>Wormhole</a>, Visiting Lecturer, Stanford University",
     "twitter": "feross"
   },
   {
@@ -30,7 +30,7 @@
     "website": "https://webdirections.org/",
     "countries": ["Australia🇦🇺"],
     "avatar": "john-allsopp.jpg",
-    "what": "Web Directions Conference Organizer, Author",
+    "what": "<a href='https://webdirections.org'>Web Directions</a> Conference Organizer, Author",
     "mastodon": "https://indieweb.social/@johnallsopp",
     "twitter": "johnallsopp"
   },
@@ -46,13 +46,13 @@
   {
     "name": "Ashley Beshensky",
     "countries": ["USA🇺🇸"],
-    "avatar": "default.jpg",
+    "avatar": "ashley-and-steven-beshensky.jpg",
     "what": "Graphic Designer, OWA Logo"
   },
   {
     "name": "Steven Beshensky",
     "countries": ["USA🇺🇸"],
-    "avatar": "default.jpg",
+    "avatar": "ashley-and-steven-beshensky.jpg",
     "what": "Web Developer",
     "mastodon": "https://hachyderm.io/@sbesh",
     "twitter": "sbesh91"
@@ -61,7 +61,7 @@
     "name": "Dan Brown",
     "website": "https://danb.me/",
     "countries": ["UK🇬🇧"],
-    "avatar": "default.jpg",
+    "avatar": "dan-brown.jpg",
     "what": "Full Stack Web Developer",
     "mastodon": "https://fosstodon.org/@danb"
   },
@@ -80,6 +80,15 @@
     "avatar": "kenneth-rohde-christiansen.jpg",
     "what": "Browser Engineer, W3C TAG Alumni, Co-Inventor of PWA",
     "twitter": "kennethrohde"
+  },
+  {
+    "name": "Kushal Dave",
+    "website": "https://kushaldave.com",
+    "countries": ["USA🇺🇸"],
+    "avatar": "kushal-dave.jpg",
+    "what": "CTO / Engineer, Past: Scroll (acq Twitter), Foursquare, Google",
+    "twitter": "krave",
+    "mastodon": "https://mstdn.social/@krave"
   },
   {
     "name": "Jesper van den Ende",
@@ -116,8 +125,8 @@
   {
     "name": "Chris Lacy",
     "countries": ["Australia🇦🇺"],
-    "avatar": "default.jpg",
-    "what": "Native and Web App Developer",
+    "avatar": "chris-lacy.jpg",
+    "what": "<a href='https://time.com/35712/link-bubble-app-is-a-real-time-saver-for-android-users/'>Link Bubble</a> creator, Native and Web App Developer",
     "twitter": "chrismlacy"
   },
   {
@@ -165,7 +174,7 @@
   {
     "name": "Vincent Morneau",
     "countries": ["Cananda🇨🇦"],
-    "avatar": "default.jpg",
+    "avatar": "vincent-morneau.jpg",
     "what": "Oracle, Principal Member of Technical Staff, Mobile and PWA Strategy Lead",
     "twitter": "vincentmorneau"
   },

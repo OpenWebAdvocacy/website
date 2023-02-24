@@ -5,38 +5,38 @@
 -------------------------------------------------------------------- */
 
 @media screen and (min-width: 400px) {
-	div.site-header__inner {
-		display: flex;
-		justify-content: space-between;
+  div.site-header__inner {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-	}
-	header:not(.home-header) nav {
-		text-align: right;
-		padding: 0 0 1rem;
-	}
-	header:not(.home-header) nav ul {
-		display: block;
-	}
-  header nav ul li + li {
-    margin-top: 0.5rem;
   }
 
-	dl.glossary dd {
-		position: relative;
-		padding: 0.5rem 0 1rem 4rem;
-		border: none;
-	}
-	dl.glossary dd::before {
-		content: "";
-		display: inline-block;
-		position: absolute;
-		top: 0.25rem;
-		left: 0.25rem;
-		width: 2.5rem;
-		height: 1rem;
-		border-bottom: 2px solid var(--main-color);
-		border-left: 1px solid var(--main-color);
-	}
+  header:not(.home-header) nav {
+    text-align: right;
+    padding: 0 0 1rem;
+  }
+
+  header:not(.home-header) nav ul {
+    display: block;
+  }
+
+  dl.glossary dd {
+    position: relative;
+    padding: 0.5rem 0 1rem 4rem;
+    border: none;
+  }
+
+  dl.glossary dd::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+    width: 2.5rem;
+    height: 1rem;
+    border-bottom: 2px solid var(--main-color);
+    border-left: 1px solid var(--main-color);
+  }
 
   div.prom-banner {
     display: grid;
@@ -44,91 +44,127 @@
     grid-template-rows: auto auto;
     gap: 0 1.5rem;
   }
-  div.prom-banner p:nth-child(2) {max-width: 30em;}
+
+  div.prom-banner p:nth-child(2) {
+    max-width: 30em;
+  }
+
   div.prom-banner p:last-child {
     grid-column-start: 2;
     grid-column-end: -1;
   }
+
+  ul.contributors li {
+    min-width: 300px;
+  }
 }
 
 @media screen and (min-width: 500px) {
-	header nav li {font-size: 1.2em;}
+  header nav li {
+    font-size: 1.2em;
+  }
 
-	header:not(.home-header) nav a {
-		color: var(--text-inv);
-		background-color: var(--main-color);
-	}
+  header:not(.home-header) nav a {
+    color: var(--text-inv);
+    background-color: var(--main-color);
+  }
 
-	header:not(.home-header) nav a:hover {
-		color: var(--n-dark);
-		background-color: var(--main-color);
-	}
+  header:not(.home-header) nav a:hover {
+    color: var(--n-dark);
+    background-color: var(--main-color);
+  }
 
-	header.home-header nav {text-align: right;}
+  header.home-header nav {
+    text-align: right;
+  }
 
-	body > footer {
-		margin-top: 4rem;
-		margin-bottom: 1rem;
-	}
+  body>footer {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
 
-	div.gallery {
-		gap: 3rem;
-		margin-bottom: 3rem;
-	}
+  div.gallery {
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
 }
 
 
 @media screen and (min-width: 700px) {
-	p.logo-home {max-width: 100%;}
+  p.logo-home {
+    max-width: 100%;
+  }
 
-	figure {display: flex; gap: 2rem; padding: 2rem;}
+  figure {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-	header.home-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-end;
-	}
-	header nav ul {display: block;}
-	header.home-header nav {
-		width: auto;
-		background-color: var(--body-bg);
-		padding: 0;
-	}
-	header.home-header li {font-variation-settings: var(--fvs-regular);}
-	header.home-header nav a {
-		color: var(--main-color);
-		background-color: var(--body-bg);
-	}
+  header.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 
-	header.home-header nav a:hover {
-		color: var(--text-inv);
-		background-color: var(--n-dark);
-	}
-	div.identity {flex: 1;}
+  header nav ul {
+    display: block;
+  }
 
-	p.home-intro {margin-left: calc(175px + 10vw);}
+  header.home-header nav {
+    width: auto;
+    background-color: var(--body-bg);
+    padding: 0;
+  }
 
-	div.inner-wrapper {
-		display: flex;
-		justify-content: space-between;
-		gap: 4vw;
-	}
+  header.home-header li {
+    font-variation-settings: var(--fvs-regular);
+  }
+
+  header.home-header nav a {
+    color: var(--main-color);
+    background-color: var(--body-bg);
+  }
+
+  header.home-header nav a:hover {
+    color: var(--text-inv);
+    background-color: var(--n-dark);
+  }
+
+  div.identity {
+    flex: 1;
+  }
+
+  p.home-intro {
+    margin-left: calc(175px + 10vw);
+  }
+
+  div.inner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 4vw;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-	div.highlight {position: relative; padding: 1.8rem 2rem 2rem;}
-	div.highlight h2 {
-		position: absolute;
-		width: 10vw;
-		top: 1.2rem;
-		left: 2rem;
-	}
-	div.highlight div.group {
-		margin-top: 0;
-		margin-left: calc(175px + 9.5vw - 1.5rem);
-	}
+  div.highlight {
+    position: relative;
+    padding: 1.8rem 2rem 2rem;
+  }
+
+  div.highlight h2 {
+    position: absolute;
+    width: 10vw;
+    top: 1.2rem;
+    left: 2rem;
+  }
+
+  div.highlight div.group {
+    margin-top: 0;
+    margin-left: calc(175px + 9.5vw - 1.5rem);
+  }
 }
 
 @media screen and (min-width: 950px) and (max-width: 1299px) {
@@ -138,103 +174,163 @@
     grid-template-rows: auto auto;
     gap: 3rem;
   }
+
   div.who-entry div.prom-banner {
     display: block;
   }
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1299px) {
-	div.policy-entry {position: relative;}
-	div.policy-entry p.entry-link {
-		position: absolute;
-		top: 50%;
-		right: 1.5rem;
-		margin: 0;
-	}
-	dl.counter {
-		display: grid;
-		grid-template-columns: 1fr 2fr;
-		max-width: 100%;
-	}
-	div.home-wrapper dl.counter * + * {margin-top: 1rem;}
-	dl.counter dt, dl.counter dd {margin-top: 1rem;}
+  div.policy-entry {
+    position: relative;
+  }
+
+  div.policy-entry p.entry-link {
+    position: absolute;
+    top: 50%;
+    right: 1.5rem;
+    margin: 0;
+  }
+
+  dl.counter {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 100%;
+  }
+
+  div.home-wrapper dl.counter *+* {
+    margin-top: 1rem;
+  }
+
+  dl.counter dt,
+  dl.counter dd {
+    margin-top: 1rem;
+  }
 }
 
 
 @media screen and (min-width: 1300px) {
-	div.home-wrapper {display: flex;}
-	p.home-intro {margin-top: 0;}
+  div.home-wrapper {
+    display: flex;
+  }
 
-	#main-home {flex: 1;}
-	#main-home p, #main-home dd, #main-home li {font-size: 1.2em;}
+  p.home-intro {
+    margin-top: 0;
+  }
 
-	#main-home p.home-intro {
-		font-size: 1.4em;
-		padding-right: 2rem;
-	}
+  #main-home {
+    flex: 1;
+  }
 
-	dl.counter dt {font-size: 1.5em; padding-top: 0.5em;}
+  #main-home p,
+  #main-home dd,
+  #main-home li {
+    font-size: 1.2em;
+  }
 
-	aside {flex: 0 0 20%; margin: 0;}
-	div.home-wrapper aside {margin: 0;}
+  #main-home p.home-intro {
+    font-size: 1.4em;
+    padding-right: 2rem;
+  }
 
-  div.promo {flex-direction: row-reverse;}
-  div.promo div.group {flex: 0;}
+  dl.counter dt {
+    font-size: 1.5em;
+    padding-top: 0.5em;
+  }
+
+  aside {
+    flex: 0 0 20%;
+    margin: 0;
+  }
+
+  div.home-wrapper aside {
+    margin: 0;
+  }
+
+  div.promo {
+    flex-direction: row-reverse;
+  }
+
+  div.promo div.group {
+    flex: 0;
+  }
+
   div.promo p.illustration {
     width: 120px;
     top: 1rem;
     left: auto;
     right: -25px;
   }
-  div.promo p.illustration img {transform: rotate(10deg);}
 
-	div.get-involved {
-		display: flex;
-		gap: 2rem;
-	}
-	div.get-involved > div {padding: 1.5rem 2rem 2rem;}
-	div.contact-entry {flex-basis: 45%; margin-top: 0;}
+  div.promo p.illustration img {
+    transform: rotate(10deg);
+  }
 
-	div.presentation {
-		display: flex;
-		gap: 2rem;
-		margin-top: 0;
-	}
+  div.get-involved {
+    display: flex;
+    gap: 2rem;
+  }
 
-	div.priorities-entry {
-		flex-basis: 60%;
-		padding: 3rem 4rem;
-		margin-top: 0;
-		margin-right: 2rem;
-	}
-	div.policy-entry {
-		flex: 1 1 32%;
-		padding: 3rem 2rem 2rem;
-	}
+  div.get-involved>div {
+    padding: 1.5rem 2rem 2rem;
+  }
 
-	div.grid3-1 {
-		position: relative;
-		display: flex;
-		flex-direction: row-reverse;
-	}
-	div.toc {
-		width: 300px;
-	}
-	div.grid3-1 div.content {
-		flex: 1;
-		margin-right: 5%;
-	}
-	div.grid3-1 details {
-		position: sticky;
-		top: 3rem;
-		padding-right: 1rem;
-	}
-	div.grid3-1 details ul {margin-left: 1rem;}
-	div.grid3-1 details .flow {
-		overflow: auto;
-		height: 40vw;
-		padding-right: 1rem;
-	}
-	summary h2 {font-size: 1.2em;}
+  div.contact-entry {
+    flex-basis: 45%;
+    margin-top: 0;
+  }
+
+  div.presentation {
+    display: flex;
+    gap: 2rem;
+    margin-top: 0;
+  }
+
+  div.priorities-entry {
+    flex-basis: 60%;
+    padding: 3rem 4rem;
+    margin-top: 0;
+    margin-right: 2rem;
+  }
+
+  div.policy-entry {
+    flex: 1 1 32%;
+    padding: 3rem 2rem 2rem;
+  }
+
+  div.grid3-1 {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  div.toc {
+    width: 300px;
+  }
+
+  div.grid3-1 div.content {
+    flex: 1;
+    margin-right: 5%;
+  }
+
+  div.grid3-1 details {
+    position: sticky;
+    top: 3rem;
+    padding-right: 1rem;
+  }
+
+  div.grid3-1 details ul {
+    margin-left: 1rem;
+  }
+
+  div.grid3-1 details .flow {
+    overflow: auto;
+    height: 40vw;
+    padding-right: 1rem;
+  }
+
+  summary h2 {
+    font-size: 1.2em;
+  }
 
 }

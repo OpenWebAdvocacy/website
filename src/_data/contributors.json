@@ -27,6 +27,15 @@
     "twitter": "dakmor"
   },
   {
+    "name": "Dion Almaer",
+    "website": "https://blog.almaer.com",
+    "countries": ["UK🇬🇧"],
+    "avatar": "dion-almaer.jpg",
+    "what": "Bio: #TeamWeb whether working at Google, Mozilla, or Shopify",
+    "twitter": "dalmaer",
+    "mastodon": "https://indieweb.social/@dalmaer"
+  },
+  {
     "name": "John Allsopp",
     "website": "https://webdirections.org/",
     "countries": ["Australia🇦🇺"],
@@ -110,6 +119,7 @@
   },
   {
     "name": "Thomas Güttler",
+    "website": "https://thomas-guettler.de/",
     "countries": ["Germany🇩🇪"],
     "avatar": "thomas-güttler.jpg",
     "what": "Software Engineer",
@@ -256,5 +266,20 @@
     "what": "W3C Invited Expert, Performance Expert, Host of Javascript Jabber",
     "twitter": "DanShappir",
     "mastodon": "https://webperf.social/@DanShappir"
+  },
+  {
+    "name": "Alistair Shepherd",
+    "website": "https://alistairshepherd.uk/",
+    "countries": ["UK🇬🇧"],
+    "avatar": "alistair-shepherd.jpg",
+    "what": "Lead developer at <a href='https://serieseight.com/'>Series Eight</a>",
+    "mastodon": "https://mastodon.scot/@accudio"
+  },
+  {
+    "name": "Andre Wiggins",
+    "countries": ["USA🇺🇸"],
+    "avatar": "andre-wiggins.jpg",
+    "what": "Web Developer",
+    "twitter": "andre_wiggins"
   }
 ]

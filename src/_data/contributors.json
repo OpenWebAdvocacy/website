@@ -29,7 +29,7 @@
   {
     "name": "Dion Almaer",
     "website": "https://blog.almaer.com",
-    "countries": ["UK🇬🇧"],
+    "countries": ["USA🇺🇸","UK🇬🇧"],
     "avatar": "dion-almaer.jpg",
     "what": "#TeamWeb whether working at Google, Mozilla, or Shopify",
     "twitter": "dalmaer",
@@ -281,6 +281,7 @@
     "countries": ["USA🇺🇸"],
     "avatar": "andre-wiggins.jpg",
     "what": "Web Developer",
-    "twitter": "andre_wiggins"
+    "twitter": "andre_wiggins",
+    "mastodon": "https://infosec.exchange/@drewigg"
   }
 ]

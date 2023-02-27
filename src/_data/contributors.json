@@ -277,6 +277,13 @@
     "mastodon": "https://mastodon.scot/@accudio"
   },
   {
+    "name": "Paul Trifa",
+    "countries": ["Romania🇷🇴"],
+    "avatar": "paul-trifa.jpg",
+    "what": "Senior FE Architect and Tech Lead at iX",
+    "twitter": "paul3fa"
+  },
+  {
     "name": "Andre Wiggins",
     "countries": ["USA🇺🇸"],
     "avatar": "andre-wiggins.jpg",

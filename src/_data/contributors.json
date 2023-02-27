@@ -110,6 +110,15 @@
     "twitter": "Jespertheend"
   },
   {
+    "name": "Maximiliano Firtman",
+    "website": "https://firt.dev/",
+    "countries": ["Argentina🇦🇷"],
+    "avatar": "maximiliano-firtman.jpg",
+    "what": "Web App Expert, Author, Trainer & Conference Speaker",
+    "twitter": "firt",
+    "mastodon": "https://mastodon.social/@firt"
+  },
+  {
     "name": "Roderick Gadellaa",
     "countries": ["Netherlands🇳🇱"],
     "avatar": "roderick-gadella.jpg",
@@ -206,6 +215,14 @@
     "mastodon": "https://fosstodon.org/@thomasapowell"
   },
   {
+    "name": "Benny Powers",
+    "countries": ["Cananda🇨🇦","Israel🇮🇱"],
+    "avatar": "benny-powers.png",
+    "what": "Principal UX Engineer, Red Hat",
+    "twitter": "PowersBenny",
+    "mastodon": "https://social.bennypowers.dev/@bp"
+  },
+  {
     "name": "Angela P. Ricci",
     "countries": ["Brazil🇧🇷", "France🇫🇷"],
     "avatar": "gericci.jpg",
@@ -275,6 +292,13 @@
     "avatar": "alistair-shepherd.jpg",
     "what": "Lead developer at <a href='https://serieseight.com/'>Series Eight</a>",
     "mastodon": "https://mastodon.scot/@accudio"
+  },
+  {
+    "name": "Paul Trifa",
+    "countries": ["Romania🇷🇴"],
+    "avatar": "paul-trifa.jpg",
+    "what": "Senior FE Architect and Tech Lead at iX",
+    "twitter": "paul3fa"
   },
   {
     "name": "Andre Wiggins",

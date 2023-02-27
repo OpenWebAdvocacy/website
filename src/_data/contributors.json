@@ -115,7 +115,7 @@
     "countries": ["Argentina🇦🇷"],
     "avatar": "maximiliano-firtman.jpg",
     "what": "Web App Expert, Author, Trainer & Conference Speaker",
-    "twitter": "maxifirtman",
+    "twitter": "firt",
     "mastodon": "https://mastodon.social/@firt"
   },
   {
@@ -213,6 +213,14 @@
     "avatar": "thomas-powell.jpg",
     "what": "Lecturer of Computer Science at UCSD, <a href='https://pint.com'>pint.com</a> Founder, and creator of <a href='https://zingchart.com'>ZingChart</a> and <a href='https://zinggrid.com'>ZingGrid</a>.",
     "mastodon": "https://fosstodon.org/@thomasapowell"
+  },
+  {
+    "name": "Benny Powers",
+    "countries": ["Cananda🇨🇦","Israel🇮🇱"],
+    "avatar": "benny-powers.png",
+    "what": "Principal UX Engineer, Red Hat",
+    "twitter": "PowersBenny",
+    "mastodon": "https://social.bennypowers.dev/@bp"
   },
   {
     "name": "Angela P. Ricci",

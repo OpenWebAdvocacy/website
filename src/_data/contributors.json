@@ -110,6 +110,15 @@
     "twitter": "Jespertheend"
   },
   {
+    "name": "Maximiliano Firtman",
+    "website": "https://firt.dev/",
+    "countries": ["Argentina🇦🇷"],
+    "avatar": "maximiliano-firtman.jpg",
+    "what": "Web App Expert, Author, Trainer & Conference Speaker",
+    "twitter": "maxifirtman",
+    "mastodon": "https://mastodon.social/@firt"
+  },
+  {
     "name": "Roderick Gadellaa",
     "countries": ["Netherlands🇳🇱"],
     "avatar": "roderick-gadella.jpg",

@@ -10,7 +10,7 @@ templateEngineOverride: njk
   {% for item in collections.blog %}
       <div class="entry">
         <h2><a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a></h2>
-        {{ item.data.content }}
+        {{ item.content | safe }}
       </div>
   {% endfor %}
 {% endblock %}

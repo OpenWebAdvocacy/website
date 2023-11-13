@@ -685,7 +685,7 @@ header nav ul li:last-of-type a:hover {
 }
 
 
-/* ------------------------  HOME ---------------------------- */
+/* ------------------------  HOME -------------`--------------- */
 
 
 div.home-wrapper h1,
@@ -888,6 +888,12 @@ article dd {
 article ul,
 article ol {
   margin: 2rem 1rem;
+}
+
+.blog-index{
+  margin-bottom: 3rem;
+  border-bottom: 1px solid;
+  border-bottom-color: var(--n-dark);
 }
 
 ul.press-list {

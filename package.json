@@ -1,10 +1,13 @@
 {
-  "name": "11ty-base",
+  "name": "owa-website",
   "version": "1.0.1",
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
+    "clean": "rm -rf ./dist/*",
+    "serve": "npm run start",
     "start": "npx @11ty/eleventy --serve --quiet",
+    "build": "npm run production",
     "production": "NODE_ENV=production npx @11ty/eleventy"
   },
   "engines": {

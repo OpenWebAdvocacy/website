@@ -1,4 +1,11 @@
 {% set assetHash = global.hash() %}
+{% set isPaperLayout = false %}
+{% if layout and layout is string %}
+  {% if 'paper.njk' in layout %}
+    {% set isPaperLayout = true %}
+  {% endif %}
+{% endif %}
+  
 
 <!DOCTYPE html>
 <html lang="en">
@@ -60,13 +67,11 @@
       <div class="inner-wrapper">
         <main tabindex="-1" id="main-content" class="inner">
           {% block content %}{% endblock %}
-          {% if 'paper.njk' in layout %}
-          {% else %}
+          {% if not isPaperLayout %}
             {% set postListItems = collections.blog %}
           {% endif %}
         </main>
-        {% if 'paper.njk' in layout %}
-        {% else %}
+        {% if not isPaperLayout %}
           {% include "partials/aside.njk" %}
         {% endif %}
       </div>

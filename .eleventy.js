@@ -61,6 +61,7 @@ module.exports = config => {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
+    templateFormats: [ "md", "njk" ],
     dir: {
       input: 'src',
       output: 'dist'

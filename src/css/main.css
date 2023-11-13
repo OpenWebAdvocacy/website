@@ -890,6 +890,13 @@ article ol {
   margin: 2rem 1rem;
 }
 
+.blog-index{
+  margin-bottom: 3rem;
+  border-bottom: 1px solid;
+  border-bottom-color: var(--n-dark);
+  padding-bottom: 3rem;
+}
+
 ul.press-list {
   list-style-type: none;
   margin: 2rem 0;

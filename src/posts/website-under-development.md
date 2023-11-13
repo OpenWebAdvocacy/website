@@ -1,5 +1,5 @@
 ---
-title: 'Website under development'
+title: 'OWA has a new website!'
 date: '2022-03-02'
 tags: ['Meta']
 ---

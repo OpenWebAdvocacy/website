@@ -1,5 +1,5 @@
 ---
-title: 'News from Australia'
+title: 'Australian Government considering ACCC proposed anti-competitive conduct legislation changes'
 date: '2022-11-30'
 tags: ['Policy', 'Updates']
 ---

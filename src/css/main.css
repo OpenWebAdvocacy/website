@@ -894,6 +894,7 @@ article ol {
   margin-bottom: 3rem;
   border-bottom: 1px solid;
   border-bottom-color: var(--n-dark);
+  padding-bottom: 3rem;
 }
 
 ul.press-list {

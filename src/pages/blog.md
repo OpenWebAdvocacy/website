@@ -12,7 +12,7 @@ templateEngineOverride: njk
 
   <article class="h-entry blog-index">
     <div class="[ post ] [ flow wrapper ]">
-      <h2 class="post-title">{{ item.data.title }}</h2>
+      <h2 class="post-title"><a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a></h2>
       <div class="post-meta">
         <time datetime="{{ item.data.date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
         {% if item.data.tags %}
@@ -26,7 +26,7 @@ templateEngineOverride: njk
         {% endif %}
       </div>
       <div class="post-content flow">
-        {{ item.content | safe }}
+        {{ item.content | excerpt }} <a href="{{ item.url }}">Continue reading</a>
       </div>
     </div>
   </article>

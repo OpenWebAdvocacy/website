@@ -8,11 +8,14 @@ templateEngineOverride: njk
 {% block content %}
 <h1 class="post-title">{{ title }}</h1>
   {% for item in collections.blog %}
-  <article class="h-entry">
+
+
+  <article class="h-entry blog-index">
     <div class="[ post ] [ flow wrapper ]">
+      <h2 class="post-title">{{ item.data.title }}</h2>
       <div class="post-meta">
         <time datetime="{{ item.data.date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
-        {% if tags %}
+        {% if item.data.tags %}
           <ul class="tags-list" aria-label="Tags">
             {% for tag in item.data.tags %}
               <li>
@@ -27,5 +30,8 @@ templateEngineOverride: njk
       </div>
     </div>
   </article>
+
+
+   
   {% endfor %}
 {% endblock %}

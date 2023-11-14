@@ -14,7 +14,8 @@ templateEngineOverride: njk
     <div class="[ post ] [ flow wrapper ]">
       <h2 class="post-title"><a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a></h2>
       <div class="post-meta">
-        <time datetime="{{ item.data.date | w3DateFilter }}" class="dt-published">{{ item.data.date | dateFilter }}</time>
+        <time datetime="{{ item.data.date | w3DateFilter }}" class="dt-published">{{ item.data.date | dateFilter }}</time> 
+        <p>Written by {{ item.data.author }}</p>
         {% if item.data.tags %}
           <ul class="tags-list" aria-label="Tags">
             {% for tag in item.data.tags %}

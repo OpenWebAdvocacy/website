@@ -5,8 +5,6 @@ tags: ['Browsers']
 author: "Frances Berriman"
 ---
 
-[Bruce](https://brucelawson.co.uk) 
-
 OWA’s key goal is to enable true competition and browser choice across all devices. But, why do we care so deeply about this, and what would success look like?
 
 ### Cost

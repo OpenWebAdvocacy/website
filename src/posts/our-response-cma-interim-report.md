@@ -2,6 +2,7 @@
 title: 'OWA response to the CMA interim report'
 date: '2022-03-08'
 tags: ['Policy', 'Updates', 'UK']
+author: "Alex Moore"
 ---
 
 The CMA invited responses to its [interim report](https://www.gov.uk/cma-cases/mobile-ecosystems-market-study).

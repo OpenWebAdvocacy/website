@@ -2,6 +2,7 @@
 title: 'Australian Government considering ACCC proposed anti-competitive conduct legislation changes'
 date: '2022-11-30'
 tags: ['Policy', 'Updates']
+author: "Bruce Lawson"
 ---
 
 G'day, sport! [Bruce](https://brucelawson.co.uk) here, with an update on progress we've made down under with the Australian Competition and Consumer Commission (ACCC).

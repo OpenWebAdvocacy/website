@@ -2,6 +2,7 @@
 title: 'OWA updates on progress with UK and EU digital competition regulations'
 date: '2022-11-28'
 tags: ['Policy', 'Updates', "UK", "EU"]
+author: "Bruce Lawson"
 ---
 
 Howdy, [Bruce](https://brucelawson.co.uk) here, with an update on progress we've made in both the EU and with the UK's competition regulator, the Competition and Markets Authority (CMA).

@@ -9,7 +9,7 @@ As the EU further rolls out the Digital Marketing Act, they have designated a va
 
 Now that Gatekeepers have been designated, the companies that operate those services have had the opportunity to rebut their designations. 
 
-A particularly interesting response was from Apple, who have made the case that iPadOS is a separate operating system entirely from iOS, both of which are currently designated as platforms subject to the DMA, along with the Apple AppStore. Their arguments essentially boil down to usage statistics for iPadOS alone being below the required usage numbers to fall under the rules and should not be designated a Gatekeeper platform service.
+A particularly interesting response was from Apple, who have made the case that iPadOS is an entirely separate operating system from iOS, both of which are currently designated as platforms subject to the DMA, along with the Apple App Store. Their arguments essentially boil down to usage statistics for iPadOS alone being below the required usage numbers to fall under the rules and should not be designated a Gatekeeper platform service.
 
 The [EU consequently opened an investigation into the merits of this claim](https://ec.europa.eu/competition/digital_markets_act/cases/202343/DMA_100047_5136.pdf), and as such, OWA had the opportunity to respond as to why we believe that iPadOS should not have the Gatekeeper designation removed for this platform, and should not be considered separate from iOS in general.  
 
@@ -21,7 +21,7 @@ In broad strokes, OWA argued that:
 
 * The distinction between iOS and iPadOS is only skin deep.  
  
-For most of the history of the iPad, iOS was it’s Operating System, and the launch schedules and differences in feature sets have not substantially diverged [since the 2019 marketing change](https://en.wikipedia.org/wiki/IPadOS#History). 
+For most of the history of the iPad, iOS was it’s operating system, and the launch schedules and differences in feature sets have not substantially diverged [since the 2019 marketing change](https://en.wikipedia.org/wiki/IPadOS#History). 
 
 * The cross-device impacts of Apple’s wealthier customer base influence technology choices and investments far in excess of the install base. Discounting the network effects of the iOS/iPadOS App Store-based logic of software development and distribution is to focus on the trees, rather than the forest. 
 

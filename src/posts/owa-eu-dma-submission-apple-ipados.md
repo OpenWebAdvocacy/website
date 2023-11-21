@@ -21,7 +21,8 @@ In broad strokes, OWA argued that:
 
 * The distinction between iOS and iPadOS is only skin deep.  
  
-For most of the history of the iPad, iOS was it’s operating system, and the launch schedules and differences in feature sets have not substantially diverged [since the 2019 marketing change](https://en.wikipedia.org/wiki/IPadOS#History). 
+    
+    For most of the history of the iPad, iOS was it’s operating system, and the launch schedules and differences in feature sets have not substantially diverged [since the 2019 marketing change](https://en.wikipedia.org/wiki/IPadOS#History). 
 
 * The cross-device impacts of Apple’s wealthier customer base influence technology choices and investments far in excess of the install base. Discounting the network effects of the iOS/iPadOS App Store-based logic of software development and distribution is to focus on the trees, rather than the forest. 
 

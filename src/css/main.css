@@ -291,6 +291,15 @@ img {
 }
 
 /* A handy composition block for managing content flow. More on this sorta thing: https://cube.fyi */
+
+.post-content > p:first-child {
+  max-width: 55ch;
+  font-size: 110%;
+  font-variation-settings: var(--fvs-bold);
+  margin-top: var(--flow-space);
+  margin-bottom: calc(var(--flow-space) * 2);
+}
+
 .post {
   font-size: 1.125rem;
   --flow-space: 1.5rem;

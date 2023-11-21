@@ -30,4 +30,4 @@ In broad strokes, OWA argued that:
 
 Apple gates proprietary API access on iOS in exactly the same ways, and through the same terms and conditions, with the same anti-competitive restraints on browser and applications choice, on iOS as it does on the lately-rebranded iPadOS. This is a sizable entrypoint to wealthy consumers across the EU, which amplifies the effects of the restrictions.
 
-You can read both [Apple’s submission to the EU here](https://ec.europa.eu/competition/digital_markets_act/cases/202344/DMA_100025_228.pdf) (sections 74 - 94), and, of course, you can also read OWA’s [full report](/files/OWA%20-%20Response%20to%20EU%20regarding_Apple_iPadOS_-_v1.1.pdf).giq
+You can read both [Apple’s submission to the EU here](https://ec.europa.eu/competition/digital_markets_act/cases/202344/DMA_100025_228.pdf) (sections 74 - 94), and, of course, you can also read OWA’s [full report](/files/OWA%20-%20Response%20to%20EU%20regarding_Apple_iPadOS_-_v1.1.pdf).

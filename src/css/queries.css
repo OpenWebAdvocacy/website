@@ -100,6 +100,13 @@
     gap: 2rem;
     padding: 2rem;
   }
+
+  section.card::after {
+    width: 80px;
+    height: 99px;
+    left: auto;
+    right: calc(1.5rem + 1vw);
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -331,6 +338,12 @@
 
   summary h2 {
     font-size: 1.2em;
+  }
+
+  section.card div.group {
+    display: grid;
+    grid-template-columns: auto 400px;
+    gap: 2rem;
   }
 
 }

@@ -7,7 +7,7 @@ author: "Alex Moore"
 
 {% image
   "/images/blog/AppleLosesonAppeal.webp",
-  "Apple loses on Appeal,  CMA Investigation into browsers to reopen. This ruling gives the CMA the backing it needs to protect consumers and promote competition in UK. As this judgment clearly states, the previous ruling by the CAT would have had ‘serious consequences’ for the CMA’s ability to investigate potential breaches of the law. We launched this investigation over a year ago in order to make sure that UK consumers get the best services and apps on their mobile phones, and that UK developers can invest in innovative new apps. We stand ready to reopen it when the legal process is complete. Sarah Cardell, Chief Executive of the CMA"
+  "Apple loses on Appeal,  CMA Investigation into browsers to reopen. This ruling gives the CMA the backing it needs to protect consumers and promote competition in UK. As this judgement clearly states, the previous ruling by the CAT would have had ‘serious consequences’ for the CMA’s ability to investigate potential breaches of the law. We launched this investigation over a year ago in order to make sure that UK consumers get the best services and apps on their mobile phones, and that UK developers can invest in innovative new apps. We stand ready to reopen it when the legal process is complete. Sarah Cardell, Chief Executive of the CMA"
 %}
 
 In a victory for consumers and developers, London's Court of Appeal [has ruled against Apple](https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/1445) and in favour of the UK’s Competition and Markets Authority (CMA), allowing the CMA to reopen their [Browser and Cloud Gaming Market Investigation Reference](https://www.gov.uk/cma-cases/mobile-browsers-and-cloud-gaming).
@@ -65,7 +65,7 @@ Due to this Apple managed to successfully get the MIR dismissed not by arguing b
 
 The CMA appealed this decision and today the London's Court of Appeal has overruled the [Competition Appeal Tribunal's decision](https://www.catribunal.org.uk/cases/157661223-apple-inc-others) and stated that the MIR can be reopened.
 
-It is worth noting that Apple has the right to seek permission to appeal this decision and that the investigation is on hold pending this. Apple is almost certain to appeal to the supreme court. Even if they end up losing, each month browser competition on iOS on iOS is delayed is arguably worth billions to them.
+It is worth noting that Apple has the right to seek permission to appeal this decision and that the investigation is on hold pending this. Apple is almost certain to appeal to the supreme court. Even if they end up losing, each month browser competition on iOS is delayed is arguably worth billions to them.
 
 Apple reportedly has a legal budget of over $1 billion dollars a year and adopts an exceptionally aggressive stance. If you want to understand Apple’s approach to legal, Bruce Sewell, Apple’s former general counsel discusses it [in a talk](https://www.youtube.com/watch?v=-wuf3KI76Ds) where discussing Apple's legal strategy he says:
 

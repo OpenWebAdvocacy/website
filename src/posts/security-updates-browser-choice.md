@@ -1,6 +1,6 @@
 ---
 title: 'How browser choice affects user safety'
-date: '2023-02-03'
+date: '2023-01-05'
 tags: ['Security', 'Browsers']
 author: "Frances Berriman"
 ---

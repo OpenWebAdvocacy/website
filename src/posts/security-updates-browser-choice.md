@@ -9,11 +9,11 @@ In the last couple of weeks we've seen a few browser security bugs pop up, givin
 
 ## Nasty Bugs All Around
 
-Firstly, we saw a [set of zero-day bugs identified in Webkit](https://www.infosecurity-magazine.com/news/apple-patches-actively-exploited/). Apple landed a fix for those in a [subsequent iOS update](https://support.apple.com/en-us/HT214031). If you haven’t patched your Apple devices, we recommend you stop reading here and do that now.
+Firstly, we saw a [set of zero-day bugs identified in Webkit](https://www.infosecurity-magazine.com/news/apple-patches-actively-exploited/). Apple landed a fix for those in a [subsequent iOS update](https://support.apple.com/en-us/HT214031).
 
 Secondly, a [nasty security bug in Google Chrome](https://nvd.nist.gov/vuln/detail/CVE-2023-6345), subsequently [patched.](https://www.malwarebytes.com/blog/news/2023/11/update-now-chrome-fixes-actively-exploited-zero-day-vulnerability)
 
-Both bugs were “high” severity, meaning attackers could compromise devices using malicious web pages.
+Both bugs were “high” severity, meaning attackers could compromise devices using malicious web pages. This is your friendly reminder to make sure your devices are up to date!
 
 ## Compare and Contrast
 

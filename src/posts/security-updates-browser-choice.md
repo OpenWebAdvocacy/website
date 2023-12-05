@@ -19,7 +19,7 @@ Both bugs were “high” severity, meaning attackers could compromise devices u
 
 What's different about these two situations? 
 
-If a security bug shows up on a browser on Android, users can opt to pick a different browser for a time until a patch has landed and their browsing experience is safe again. If their browser has a bad security track record, they can also switch to a better built one. Additionally, Chrome or any other browser on Android, can be patched without OS updates. Users don't have to wait for a new version of Android, wait for huge downloads, or reboot their devices.
+If a security bug shows up on a browser on Android, MacOS, Windows or most other OSs, users can opt to pick a different browser for a time until a patch has landed and their browsing experience is safe again. If their browser has a bad security track record, they can also switch to a better built one. Additionally, Chrome or any other browser on Android etc., can be patched without OS updates. Users don't have to wait for a new version of Android, wait for huge downloads, or reboot their devices.
 
 Users on iOS are less fortunate. Having [no other browsers to choose from](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers), they must hope that the security update doesn't catch them out in some way as they wait for an OS update, as Safari isn't able to independently ship changes. With no choice, they have no option to wait it out on safer shores.
 

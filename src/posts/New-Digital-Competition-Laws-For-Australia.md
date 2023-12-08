@@ -14,7 +14,7 @@ The Australian government has agreed to [new competition laws for digital platfo
 
 This is excellent news and will pave the way for fair and effective browser competition on all operating systems & allow Web Apps to compete on an equal footing with Native Apps.
 
-The new laws will be based on the ACCC's recomendations in their [Digital platform services inquiry - Interim report No. 5](https://www.accc.gov.au/system/files/DPB%20-%20DPSI%20-%20September%202023%20Report%20-%20Interim%20Report%207%20-%20Final%2815835612.1%29.pdf) which includes:
+The new laws will be based on the ACCC's recommendations in their [Digital platform services inquiry - Interim report No. 5](https://www.accc.gov.au/system/files/DPB%20-%20DPSI%20-%20September%202023%20Report%20-%20Interim%20Report%207%20-%20Final%2815835612.1%29.pdf) which includes:
 
 > The code of conduct for mobile OS services could require Designated Digital Platforms to allow third-party browser engines to be used on their mobile OS. This could allow third-party providers of browsers and web apps to compete on their merits.
 

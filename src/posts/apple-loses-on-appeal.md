@@ -5,10 +5,40 @@ tags: ['Policy', 'Updates', 'UK']
 author: "Alex Moore"
 ---
 
-{% image
+<!-- {% image
   "/images/blog/AppleLosesonAppeal.webp",
   "Apple loses on Appeal,  CMA Investigation into browsers to reopen. This ruling gives the CMA the backing it needs to protect consumers and promote competition in UK. As this judgement clearly states, the previous ruling by the CAT would have had ‘serious consequences’ for the CMA’s ability to investigate potential breaches of the law. We launched this investigation over a year ago in order to make sure that UK consumers get the best services and apps on their mobile phones, and that UK developers can invest in innovative new apps. We stand ready to reopen it when the legal process is complete. Sarah Cardell, Chief Executive of the CMA"
-%}
+%} -->
+
+<section class="card">
+  <header>
+    <h2>Apple Loses on Appeal</h2>
+    <p class="baseline">
+      UK <abbr title="Competition and Markets Authority">CMA</abbr>
+      Investigation into Browsers to Reopen
+    </p>
+  </header>
+  <div class="group">
+    <div class="content">
+      <blockquote>
+        <p>This ruling gives the CMA the backing it needs to <strong>protect
+        consumers and promote competition</strong> in UK. As this judgement clearly
+        states, the previous ruling by the CAT would have had &lsquo;serious
+        consequences&rsquo; for the CMA's ability to investigate potential breaches
+        of the law.</p>
+        <p>We launched this investigation over a year ago in order to make sure
+        that <strong>UK consumers get the best services and apps on their
+        mobile phones</strong>, and that UK developers can <strong>invest
+        in innovative new apps</strong>. We stand ready to reopen it when
+        the legal process is complete.</p>
+        <p>&ndash; Sarah Cardell - Chief Executive of the CMA</p>
+      </blockquote>
+    </div>
+    <p class="illustration">
+      <img src="/images/CMA-logo.png" alt="Competition and Markets Authority">
+    </p>
+  </div>
+</section>
 
 In a victory for consumers and developers, London's Court of Appeal [has ruled against Apple](https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/1445) and in favour of the UK’s Competition and Markets Authority (CMA), allowing the CMA to reopen their [Browser and Cloud Gaming Market Investigation Reference](https://www.gov.uk/cma-cases/mobile-browsers-and-cloud-gaming).
 
@@ -45,7 +75,7 @@ The report goes on to note:
 
 >Apple generates revenue through its App Store, both by charging developers for access to the App Store and by taking a commission for payments made via Apple IAP. Apple therefore benefits from higher usage of native apps on iOS. By requiring all browsers on iOS to use the WebKit browser engine, **Apple is able to exert control over the maximum functionality of all browsers on iOS** and, as a consequence, hold up the development and use of web apps. This **limits the competitive constraint that web apps pose on native apps**, which in turn protects and benefits Apple’s App Store revenues.
 
-That is Apple appears to also have incentives to inhibit the capabilities of the Web on iOS Safari. Apple collected [$85 billion USD in App Store fees in 2022](https://www.cnbc.com/2023/01/10/apple-app-store-revenue-update-shows-slowing-growth-.html#:~:text=If%20all%20developers%20paid%20a%2030%25%20cut%20to,billion%20in%202022%2C%20based%20on%20a%20CNBC%20analysis.), of which it keeps approximately 30%. Were Web Apps to have a comparable features set, stability and visibility as Native Apps this revenue would be threatened. 
+That is Apple appears to also have incentives to inhibit the capabilities of the Web on iOS Safari. Apple collected [$85 billion USD in App Store fees in 2022](https://www.cnbc.com/2023/01/10/apple-app-store-revenue-update-shows-slowing-growth-.html#:~:text=If%20all%20developers%20paid%20a%2030%25%20cut%20to,billion%20in%202022%2C%20based%20on%20a%20CNBC%20analysis.), of which it keeps approximately 30%. Were Web Apps to have a comparable features set, stability and visibility as Native Apps this revenue would be threatened.
 
 While it has not published the costs of App Store review, payment processing, refund handling etc, it has been estimated that the iOS App Store has a nearly [80% profit margin](https://www.marketwatch.com/story/how-profitable-is-apples-app-store-even-a-landmark-antitrust-trial-couldnt-tell-us-11622224506). Industries with healthy competition feature leading firms with profit margins between [5 and 20 percent](https://www.brex.com/blog/what-is-a-good-profit-margin). This imbalance strongly implies that Apple’s removal of functional competition in the App Store and beyond have broken the mobile phone market for software and services for more than half of the UK’s consumers.
 
@@ -57,7 +87,7 @@ In their [reference decision](https://assets.publishing.service.gov.uk/media/637
 * requiring Apple and Google to provide equal access to functionality through APIs for rival browsers;
 * requirements that make it more straightforward for users to change the default browser within their device settings;
 * choice screens to overcome the distortive effects of pre-installation; and
-* requiring Apple to remove its App Store restrictions on cloud gaming services. 
+* requiring Apple to remove its App Store restrictions on cloud gaming services.
 
 Unfortunately, they delayed starting the investigation while waiting to see if the UK government was going to pass [new laws](https://bills.parliament.uk/bills/3453) granting them stronger powers to deal with anti-competitive behaviour by tech giants. These laws are currently working their way through parliament and are currently expected to be passed into law in 2024.
 
@@ -80,7 +110,7 @@ Right now, if competition was restored, 90% of the apps on your phone could be w
 
 It is for this reason that allowing browser competition on iOS is critical. Apple’s effective browser ban prevents the emergence of such an open and free universal platform for mobile apps. Unlike desktop, developers cannot build their application once and have it work across all consumer devices. Instead, these policies combine with Apple’s trailing and feature-poor engine to force companies to create separate applications for iOS, significantly raising the cost and complexity of development and maintenance. This severely undermines any interoperability advantages Web Apps have between iOS and Android. A single prominent OS holding back the Web is enough to undermine its entire value proposition as a frictionless, capable and secure distribution mechanism for Web Apps.
 
-The fight to allow browser and Web App competition on iOS is not over. We would like to thank everyone for their support over the last 3 years and ask that consumers, developers and businesses write in and engage with the market investigation reference to arm them with all the data and information they need to successfully restore competition to a broken mobile ecosystem. 
+The fight to allow browser and Web App competition on iOS is not over. We would like to thank everyone for their support over the last 3 years and ask that consumers, developers and businesses write in and engage with the market investigation reference to arm them with all the data and information they need to successfully restore competition to a broken mobile ecosystem.
 
 Stay tuned as we will be posting about its progress as more information becomes available.
 

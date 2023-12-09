@@ -100,6 +100,13 @@
     gap: 2rem;
     padding: 2rem;
   }
+
+  section.card::after {
+    width: 80px;
+    height: 99px;
+    left: auto;
+    right: calc(1.5rem + 1vw);
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -333,4 +340,56 @@
     font-size: 1.2em;
   }
 
+  section.card div.group {
+    display: grid;
+    grid-template-columns: auto 400px;
+    gap: 2rem;
+  }
+
+}
+
+@media print {
+  @page {margin: 2cm;}
+
+  header, body > footer, aside, p.download, div.toc {
+    display: none;
+  }
+
+  h1 {font-size: 24pt; color: #000;}
+  h2 {font-size: 20pt;}
+  h3 {font-size: 16pt;}
+  h5 {font-size: 14pt;}
+  h6 {font-size: 12pt;}
+
+  blockquote::before {color: #CCC;}
+
+  h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    break-after: avoid;
+    break-inside: avoid;
+  }
+  h2 + *, h3 + *, h4 + *, h5 + *, h6 + * {
+    page-break-before: avoid;
+    break-before: avoid;
+  }
+
+  article {
+    orphans: 3;
+    widows: 3;
+  }
+  .post {font-size: 11pt;}
+
+  a[href^="https://"]::after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+  }
+  a, a:visited {
+    color: #000;
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+
+  blockquote {
+    break-inside: avoid;
+  }
 }

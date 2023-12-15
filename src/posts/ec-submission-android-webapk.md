@@ -15,7 +15,7 @@ In summary, our submission covers:
 * OWA requests that the EC compel Google to give competing browsers the same access to infrastructure.
   * There are other possible ways this could be implemented, but because of Android fragmentation, access to the WebAPK service that Google runs is the only credible answer.
 * OWA also requests the EC compel Google to implement backup and restore functionality for WebAPKs.
-  * Today, web apps are not restored when uses switch phones and Chrome, the only browser that has had access to the ability to do high-quality restore without system support since 2017, has failed to provide a functioning PWA restore feature.
+  * Today, web apps are not restored when users switch phones and Chrome, the only browser that has had access to the ability to do high-quality restore without system support since 2017, has failed to provide a functioning PWA restore feature.
   * This limits the effectiveness of PWAs for users and for businesses.
 * OWA believes that Google needs to implement system-level backup and restore for WebAPKs, for both Chrome and for competing browsers.
 

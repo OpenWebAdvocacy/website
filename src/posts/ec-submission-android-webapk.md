@@ -3,7 +3,7 @@ title: 'OWA submits request to EC to compel Google to open up access to WebAPK'
 date: '2023-12-15'
 tags: ['Policy', 'EU']
 author: "Frances Berriman"
--
+---
 
 Last week, OWA submitted an intervention document to the European Commision (EC) to provide our perspective on Google Android’s “WebAPK” system, and how it unfairly advantages Chrome on Android devices, over other browsers. 
 

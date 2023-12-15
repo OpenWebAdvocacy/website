@@ -19,5 +19,5 @@ In summary, our submission covers:
   * This limits the effectiveness of PWAs for users and for businesses.
 * OWA believes that Google needs to implement system-level backup and restore for WebAPKs, for both Chrome and for competing browsers.
 
-You can [read our full submission here](/document.pdf), and of course we’ll be following up with any responses from the EC.
+You can [read our full submission here](/files/OWA%20-%20DMA%20Interventions%20-%20Web%20App%20Install%20on%20Android%20-%20v1.0.pdf), and of course we’ll be following up with any responses from the EC.
 

@@ -1,8 +1,8 @@
 ---
 title: 'OWA submits request to EC to compel Google to open-up access to WebAPK'
-date: '2023-12-01'
-tags: ['Policy', 'Updates', 'UK']
-author: "Alex Moore"
+date: '2023-12-15'
+tags: ['Policy', 'EU']
+author: "Frances Berriman"
 -
 
 Last week, OWA submitted an intervention document to the European Commision (EC) to provide our perspective on Google Android’s “WebAPK” system, and how it unfairly advantages Chrome on Android devices, over other browsers. 
@@ -19,5 +19,5 @@ In summary, our submission covers:
   ** This limits the effectiveness of PWAs for users and for businesses.
 * OWA believes that Google needs to implement system-level backup and restore for WebAPKs, for both Chrome and for competing browsers.
 
-You can read our full submission here, and of course we’ll be following up with any responses from the EC.
+You can [read our full submission here](/document.pdf), and of course we’ll be following up with any responses from the EC.
 

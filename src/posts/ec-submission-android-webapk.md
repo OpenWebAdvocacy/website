@@ -5,7 +5,7 @@ tags: ['Policy', 'EU']
 author: "Frances Berriman"
 ---
 
-Last week, OWA submitted an intervention document to the European Commision (EC) to provide our perspective on Google Android’s “WebAPK” system, and how it unfairly advantages Chrome on Android devices, over other browsers. 
+Last week, OWA submitted an intervention document to the European Commision (EC) to provide our perspective on Google [Android’s “WebAPK” system](https://web.dev/articles/webapks), and how it unfairly advantages Chrome on Android devices, over other browsers. 
 
 In summary, our submission covers:
 

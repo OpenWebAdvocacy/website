@@ -1,5 +1,5 @@
 ---
-title: 'CMA restarts Browsers and Cloud Gaming investigation into Apple"
+title: 'UK browser investigation to restart Jan 24 after Apple fail to appeal'
 date: '2023-12-18'
 tags: ['Policy', 'Updates', 'UK']
 author: "Frances Berriman"

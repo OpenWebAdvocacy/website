@@ -7,7 +7,7 @@ author: "Frances Berriman"
 
 {% image
   "/images/blog/CMA-restarts-investigation.webp",
-  "the deadline for Apple to seek the Court of Appeal’s permission to appeal the Court’s decision has now lapsed, therefore in accordance with the Court’s order dated 30 November 2023, the market investigation will recommence on 24 January 2023. Competition and Markets Authority, UK Government"
+  "The deadline for Apple to seek the Court of Appeal’s permission to appeal the Court’s decision has now lapsed, therefore in accordance with the Court’s order dated 30 November 2023, the market investigation will recommence on 24 January 2023. Competition and Markets Authority, UK Government"
 %}
 
 

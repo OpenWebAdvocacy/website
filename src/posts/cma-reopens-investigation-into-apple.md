@@ -18,7 +18,7 @@ That 21 days has now passed, and no permissions to appeal were received, and as 
 
 [Our previous article](https://open-web-advocacy.org/blog/apple-loses-on-appeal/) covers why this investigation is so important for protecting consumers in the UK.
 
-Once the investigation reopens, you can be sure we'll be covering everything the CMA learns, so stay tuned to our social medias.
+Once the investigation reopens, you can be sure we'll be covering everything the CMA learns, so stay tuned to our social media.
 
 
 - **Mastodon:**      [@OpenWebAdvocacy](https://mastodon.social/@owa)

@@ -16,7 +16,7 @@ That 21 days has now passed, and no permissions to appeal were received, and as 
 
 > 18 December 2023: the deadline for Apple to seek the Court of Appeal’s permission to appeal the Court’s decision has now lapsed, therefore in accordance with the Court’s order dated 30 November 2023, the market investigation will recommence on 24 January 2023. Further updates will follow in due course. &ndash; [Competition and Markets Authority](https://www.gov.uk/cma-cases/mobile-browsers-and-cloud-gaming?utm_medium=email&utm_campaign=govuk-notifications-topic&utm_source=1c322e66-03ab-4704-ba89-5cf1839a587e&utm_content=immediately#court-of-appeal-judgment)
 
-[Our previous article](https://open-web-advocacy.org/blog/apple-loses-on-appeal/) covers why this investigation is so important for protecting consuemrs in the UK.
+[Our previous article](https://open-web-advocacy.org/blog/apple-loses-on-appeal/) covers why this investigation is so important for protecting consumers in the UK.
 
 Once the investigation reopens, you can be sure we'll be covering everything the CMA learns, so stay tuned to our social medias.
 

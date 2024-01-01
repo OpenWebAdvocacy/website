@@ -12,7 +12,7 @@ author: [ "Alex Moore" ]
 
 We’re living through a moment of real potential for change. For over a decade the Web has been prevented from fairly competing. That’s changing, and we’re working without fear or favor to direct change toward a safe, open future for computing and a better Web for all.
 
-Competition is the engine of progress and OWA is working hard to spread the word on anti-competitive practices holding the Web back, how to fix them and the Web’s incredible potential to improve consumers' lives further.  By meeting with regulators, giving talks, writing countless technical papers and advocating online, we’re going to take the fight for a better web to every corner of the globe.
+Competition is the engine of progress and OWA is working hard to spread the word on anti-competitive practices holding the Web back, how to fix them and the Web’s incredible potential to improve consumers' lives further.  By meeting with regulators, giving talks, writing countless technical papers and advocating online, we’re going to take the fight for a better Web to every corner of the globe.
 
 We hope you’ll [join us in 2024](/get-involved/) as we continue to convert potential into reality. Speak up and demand a web that works for everyone.
 
@@ -26,7 +26,7 @@ This act was passed into law on [November 1st 2022](https://www.europarl.europa.
 
 Specifically the following section:
 
-> In particular, each browser is built on a web browser engine, which is responsible for key browser functionality such as speed, reliability and web compatibility. When gatekeepers operate and impose web browser engines, they are in a position to determine the functionality and standards that will apply not only to their own web browsers, but also to competing web browsers and, in turn, to web software applications. Gatekeepers should therefore not use their position to require their dependent business users to use any of the services provided together with, or in support of, core platform services by the gatekeeper itself as part of the provision of services or products by those business users.&mdash; [Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)
+> In particular, each browser is built on a web browser engine, which is responsible for key browser functionality such as speed, reliability and web compatibility. When gatekeepers operate and impose web browser engines, they are in a position to determine the functionality and standards that will apply not only to their own web browsers, but also to competing web browsers and, in turn, to web software applications. Gatekeepers should therefore not use their position to require their dependent business users to use any of the services provided together with, or in support of, core platform services by the gatekeeper itself as part of the provision of services or products by those business users.<br>&mdash; [Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)
 
 
 In addition it contains a host of clauses that will enable the Web and third parties via the Web to compete fairly on all operating systems. Specifically it has clauses that:
@@ -132,9 +132,9 @@ OWA will continue to engage with the JFTC and the HDMC to ensure that browsers a
 
 In **September** we [outlined our vision for a web that can truly compete at Web Directions Summit in Sydney](https://webdirections.org/summit/speakers/alex-moore.php).
 
-We also had the opportunity to meet with the ACCC, [and brief them in person in-person](https://mastodon.social/@owa/111304830543180059)
+We also had the opportunity to meet with the ACCC, [and brief them in person](https://mastodon.social/@owa/111304830543180059)
 
-In **December**, [Promising legislative action has finally emerged](/blog/new-digital-competition-laws-for-australia/) from the ACCC’s inquiry. The laws will be based on the ACCC recommendations in their 5th report. It specifically calls for meaningful browser choice, including engine competition, which OWA believes to be critical for the health of the web.
+In **December**, [promising legislative action has finally emerged](/blog/new-digital-competition-laws-for-australia/) from the ACCC’s inquiry. The laws will be based on the ACCC recommendations in their 5th report. It specifically calls for meaningful browser choice, including engine competition, which OWA believes to be critical for the health of the web.
 
 ## Korea, Brazil, India
 In **July**, the Indian Parliament recommended the introduction of an ex-ante regime through a new ‘[Digital Competition Act](https://www.cnbctv18.com/technology/explained--indias-upcoming-digital-competition-act-and-what-is-the-debate-around-it-all-about-17222501.htm)’ (DCA), to ensure a fair and transparent digital ecosystem in India.

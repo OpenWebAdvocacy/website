@@ -171,3 +171,8 @@ Together we can fix these anti-competitive issues and allow the Web to fairly co
 
 **Happy new year from everyone at OWA, and we’re excited to see what we can achieve together in 2024**
 
+
+- **Mastodon:**      [@OpenWebAdvocacy](https://mastodon.social/@owa)
+- **Discord:**      [OpenWebAdvocacy](https://discord.gg/x53hkqrRKx)
+- **Twitter:**      [@OpenWebAdvocacy](https://twitter.com/OpenWebAdvocacy)
+- **Web:**         [https://open-web-advocacy.org](https://open-web-advocacy.org)

@@ -1,5 +1,5 @@
 ---
-title: '2023 in Review'
+title: 'Open Web Advocacy 2023 in Review'
 date: '2023-12-31'
 tags: ['Policy', 'Updates']
 author: [ "Alex Moore" ]

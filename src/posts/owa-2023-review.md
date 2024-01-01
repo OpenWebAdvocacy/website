@@ -10,7 +10,6 @@ author: [ "Alex Moore" ]
   "Let’s ring in the new year with a review of everything OWA achieved in 2023. The whole team would like to thank our kind volunteers and donors. We couldn’t do it without you! Happy New Year! Open-Web-Advocacy.org"
 %}
 
-
 We’re living through a moment of real potential for change. For over a decade the Web has been prevented from fairly competing. That’s changing, and we’re working without fear or favor to direct change toward a safe, open future for computing and a better Web for all.
 
 Competition is the engine of progress and OWA is working hard to spread the word on anti-competitive practices holding the Web back, how to fix them and the Web’s incredible potential to improve consumers' lives further.  By meeting with regulators, giving talks, writing countless technical papers and advocating online, we’re going to take the fight for a better web to every corner of the globe.
@@ -25,10 +24,9 @@ The European Union is a key focus of ours, not only due to its economic size, bu
 
 This act was passed into law on [November 1st 2022](https://www.europarl.europa.eu/RegData/etudes/ATAG/2022/739226/EPRS-AaG-739226-DMA-Application-timeline-FINAL.pdf). To our delight it included explicit wording prohibiting companies such as Apple from banning rival companies porting their real browsers with their own browser engines. 
 
-
 Specifically the following section:
 
-> &ldquo;In particular, each browser is built on a web browser engine, which is responsible for key browser functionality such as speed, reliability and web compatibility. When gatekeepers operate and impose web browser engines, they are in a position to determine the functionality and standards that will apply not only to their own web browsers, but also to competing web browsers and, in turn, to web software applications. Gatekeepers should therefore not use their position to require their dependent business users to use any of the services provided together with, or in support of, core platform services by the gatekeeper itself as part of the provision of services or products by those business users.&rdquo; &mdash; [Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)
+> In particular, each browser is built on a web browser engine, which is responsible for key browser functionality such as speed, reliability and web compatibility. When gatekeepers operate and impose web browser engines, they are in a position to determine the functionality and standards that will apply not only to their own web browsers, but also to competing web browsers and, in turn, to web software applications. Gatekeepers should therefore not use their position to require their dependent business users to use any of the services provided together with, or in support of, core platform services by the gatekeeper itself as part of the provision of services or products by those business users.&mdash; [Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)
 
 
 In addition it contains a host of clauses that will enable the Web and third parties via the Web to compete fairly on all operating systems. Specifically it has clauses that:
@@ -45,13 +43,11 @@ In September, Apple hilariously tried to claim with a straight face to the EU, t
 
 Apple made this attempt despite the Digital Markets Act containing specific clauses to address this exact behavior:
 
-> &ldquo; Article 13(1): An undertaking providing core platform services shall not segment, divide, subdivide, fragment or split those services through contractual, commercial, technical or any other means in order to circumvent the quantitative thresholds laid down in Article 3(2). No such practice of an undertaking shall prevent the Commission from designating it as a gatekeeper pursuant to Article 3(4). &rdquo; &mdash; Digital Markets Act
-
+> Article 13(1): An undertaking providing core platform services shall not segment, divide, subdivide, fragment or split those services through contractual, commercial, technical or any other means in order to circumvent the quantitative thresholds laid down in Article 3(2). No such practice of an undertaking shall prevent the Commission from designating it as a gatekeeper pursuant to Article 3(4).
 
 Lucky for us the team at the EC [dismissed this ludicrous gambit](https://ec.europa.eu/competition/digital_markets_act/cases/202344/DMA_100025_228.pdf) and painstakingly ripped Apple's argument to shreds. It is baffling to us why Apple's legal team is willing to sacrifice their credibility on something that has such a low chance of success.
 
 Unfortunately they [had better luck with iPadOS](https://open-web-advocacy.org/blog/owa-eu-dma-submission-apple-ipados/) and were able to convince the EU that it was distinct from iOS. However, the EU has determined that iPadOS has sufficient market share and power to [warrant an investigation as to whether iPadOS should be considered a gatekeeper](https://ec.europa.eu/competition/digital_markets_act/cases/202343/DMA_100047_5136.pdf) on a standalone basis. OWA had the opportunity to respond as to why we believe that iPadOS must be designated a Gatekeeper and should not be considered separate from iOS in general.
-
 
 In our [own submission](https://open-web-advocacy.org/files/OWA%20-%20Response%20to%20EU%20regarding_Apple_iPadOS_-_v1.1.pdf) we argued that iPadOS is a subset of iOS and that even if it were not it, it has sufficient market power to be designated core platform service.   
 
@@ -72,10 +68,9 @@ As readers may remember the CMA conducted a Market Study into Mobile Ecosystems.
 
 The CMA [found in their market investigation](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report/interim-report#:~:text=Impact%20of%20the%20WebKit%20restriction) that:
 
-> &ldquo; As a result of the WebKit restriction, there is no competition in browser engines on iOS and Apple effectively dictates the features that browsers on iOS can offer (to the extent that they are governed by the browser engine as opposed to by the UI). &rdquo; 
+> As a result of the WebKit restriction, there is no competition in browser engines on iOS and Apple effectively dictates the features that browsers on iOS can offer (to the extent that they are governed by the browser engine as opposed to by the UI).
 
-
-> &ldquo; Importantly, due to the WebKit restriction, Apple makes decisions on whether to support features not only for its own browser, but for all browsers on iOS. This not only restricts competition (as it materially limits the potential for rival browsers to differentiate themselves from Safari on factors such as speed and functionality) but also limits the capability of all browsers on iOS devices, depriving iOS users of useful innovations they might otherwise benefit from.&rdquo;  &mdash; UK Government
+> Importantly, due to the WebKit restriction, Apple makes decisions on whether to support features not only for its own browser, but for all browsers on iOS. This not only restricts competition (as it materially limits the potential for rival browsers to differentiate themselves from Safari on factors such as speed and functionality) but also limits the capability of all browsers on iOS devices, depriving iOS users of useful innovations they might otherwise benefit from.
 
 Based on the findings of their Market Study in which OWA heavily consulted, the CMA decided to launch a Market Investigation Reference into Browser and Cloud Gaming.
 
@@ -121,7 +116,7 @@ And **just this week** [the Japanese government is preparing to move legislation
 
 * App Stores and Payments
 * Search
-* bBrowsers
+* Browsers
 * Operating Systems
 
 OWA will continue to engage with the JFTC and the HDMC to ensure that browsers and Web Apps can compete effectively and fairly.
@@ -131,9 +126,9 @@ OWA will continue to engage with the JFTC and the HDMC to ensure that browsers a
 
 **Last year** the Competition & Consumer Commission (ACCC) [published a report](https://www.accc.gov.au/inquiries-and-consultations/digital-platform-services-inquiry-2020-25/september-2022-interim-report) outlining competition issues in digital markets. OWA is heavily quoted in the report. The report contains a number of considered remedies including:
 
-> &ldquo; The code of conduct for mobile OS services could require Designated Digital Platforms to allow third-party browser engines to be used on their mobile OS. This could allow third-party providers of browsers and web apps to compete on their merits.&rdquo; 
+> The code of conduct for mobile OS services could require Designated Digital Platforms to allow third-party browser engines to be used on their mobile OS. This could allow third-party providers of browsers and web apps to compete on their merits.
 
-> &ldquo; We also consider that the additional competition measures should include the ability to provide third-party providers of apps and services with reasonable and equivalent access to hardware, software and functionality through their mobile OS.&rdquo;  &mdash; Australian Government
+> We also consider that the additional competition measures should include the ability to provide third-party providers of apps and services with reasonable and equivalent access to hardware, software and functionality through their mobile OS.
 
 In **September** we [outlined our vision for a web that can truly compete at Web Directions Summit in Sydney](https://webdirections.org/summit/speakers/alex-moore.php).
 
@@ -165,7 +160,7 @@ If nothing else were to happen in 2024, OWA’s docket would be full. Each regul
 
 In addition to OWA’s continued direct advocacy toward browser and OS vendors, we have remained in constant contact with regulators around the world, responding to dozens of requests for information and briefing this year alone. This behind-the-scenes work only occasionally becomes public, but it’s the in-the-weeds problem-description and guidance-giving that changes the agenda and has enabled so many regulators to emphasize the importance to consumers of effective browser and Web App competition.
 
-It’s only through the [generous support of donors and volunteers](/donate/) that we’re able to continue this work, and we hope you’ll [get involved](/get-involved/) to help us continue to shape the future of digital competition. **We would like to say a special thank you to particularly generous donations from [startsmall](https://startsmall.llc/) and [store.app](https://store.app/).** 
+It’s only through the [generous support of donors and volunteers](/donate/) that we’re able to continue this work, and we hope you’ll [get involved](/get-involved/) to help us continue to shape the future of digital competition. **We would like to say a special thank you to particularly generous donations from [startsmall](https://mastodon.social/@owa/111218243374658469) and [store.app](https://store.app/).** 
 
 Together we can fix these anti-competitive issues and allow the Web to fairly compete to its full potential. 
 

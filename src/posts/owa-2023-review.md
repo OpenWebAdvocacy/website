@@ -7,7 +7,7 @@ author: [ "Alex Moore" ]
 
 {% image
   "/images/blog/owa-2023-review.webp",
-  "todo"
+  "Let’s ring in the new year with a review of everything OWA achieved in 2023. The whole team would like to thank our kind volunteers and donors. We couldn’t do it without you! Happy New Year! Open-Web-Advocacy.org"
 %}
 
 

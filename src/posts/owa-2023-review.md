@@ -1,6 +1,6 @@
 ---
 title: '2023 in Review'
-date: '2023-12-01'
+date: '2023-12-31'
 tags: ['Policy', 'Updates']
 author: [ "Alex Moore" ]
 ---

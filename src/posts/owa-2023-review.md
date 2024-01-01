@@ -21,7 +21,7 @@ It’s been an incredibly busy year, so here’s just the highlights of 2023 by 
 
 ## European Union
 
-The European Union is a key focus of ours not only due to its economic size but also due to its new digital competition regulation the Digital Markets Act.
+The European Union is a key focus of ours, not only due to its economic size, but also due to its new digital competition regulation the Digital Markets Act.
 
 This act was passed into law on [November 1st 2022](https://www.europarl.europa.eu/RegData/etudes/ATAG/2022/739226/EPRS-AaG-739226-DMA-Application-timeline-FINAL.pdf). To our delight it included explicit wording prohibiting companies such as Apple from banning rival companies porting their real browsers with their own browser engines. 
 

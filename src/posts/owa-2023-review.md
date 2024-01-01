@@ -169,7 +169,7 @@ It’s only through the [generous support of donors and volunteers](/donate/) th
 
 Together we can fix these anti-competitive issues and allow the Web to fairly compete to its full potential. 
 
-**Happy new year from everyone at OWA, and we’re excited to see what we can achieve together in 2024**
+**Happy New Year from everyone at Open Web Advocacy!**
 
 
 - **Mastodon:**      [@OpenWebAdvocacy](https://mastodon.social/@owa)

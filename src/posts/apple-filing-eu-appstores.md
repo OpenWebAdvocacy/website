@@ -16,7 +16,7 @@ In this latest filing, Apple claims that:
 
 At OWA, we don’t have a ton of opinions on the third claim, but we do on the first two, as they’re material to the interests of web developers and relevant browser competition.
 
-If Apple is able to convince the EU not to regulate their AppStore, Apple will be allowed to continue not offering alternative browsers to their users via the default mechanism those users get apps. A possible outcoming of this is that users *may* be allowed to later have additional browsers via side-loading, but OWA is sceptical about that as a path to a fairer landscape, coupled with the security concerns we have with sideloading. 
+If Apple is able to convince the EU not to regulate their AppStore, Apple will be allowed to continue not offering alternative browsers to their users via the default mechanism those users get apps. A possible outcome of this is that users *may* be allowed to later have additional browsers via side-loading, but OWA is sceptical about that as a path to a fairer landscape, coupled with the security concerns we have with sideloading, and even [Apple themselves have been dubious about sideloading](https://discord.com/channels/945208532930822155/1186386424518410341/1194431488343691367).
 
 [With 57 days remaining until the Digital Markets Act enforcement begins](https://digital-markets-act.ec.europa.eu/about-dma_en), we expect to see a few more filings from Gatekeepers, as well as responses from the EU. We’ll keep you posted!
 

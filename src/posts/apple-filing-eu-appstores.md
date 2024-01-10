@@ -1,5 +1,5 @@
 ---
-title: 'Apple files another challenge to the Digital Markets Act'
+title: 'Apple files another challenge to the EU Digital Markets Act'
 date: '2024-01-09'
 tags: ['Policy', 'Apple', 'EU']
 author: "Frances Berriman"
@@ -10,17 +10,15 @@ We’ve previously covered filings from Apple [claiming Safari is actually 3 bro
 
 In this latest filing, Apple claims that:
 
-1. That the EU’s application of the DMA is a disproportionate intervention in the market for iOS. 
-2. The AppStore should be considered 5 separate entities (iPadOS, iOS, watchOS, tvOS and macOS). We’ve [previously discussed](https://open-web-advocacy.org/blog/owa-eu-dma-submission-apple-ipados/) how Apple’s distinction between iPadOS and iOS is tenuous.
-3. That iMessage should not be considered a Gatekeeper because the EU has incorrectly concluded that iMessage is a number-independent interpersonal communications service, because iMessage is neither hardware nor subscription dependant.
+1. That the EU’s application of the DMA is a disproportionate intervention in response to iOS market distortions. 
+2. The AppStore should be considered five separate entities, one for each OS (iPadOS, iOS, watchOS, tvOS and macOS). We’ve [previously discussed](https://open-web-advocacy.org/blog/owa-eu-dma-submission-apple-ipados/) how Apple’s distinction between iPadOS and iOS is tenuous.
+3. That iMessage should not be designated, because iMessage is neither hardware nor subscription dependant.
 
-At OWA, we don’t have a ton of opinions on the 3rd claim, but we do on the first two, as they’re material to the interest of web developers and browser competition.
+At OWA, we don’t have a ton of opinions on the third claim, but we do on the first two, as they’re material to the interests of web developers and relevant browser competition.
 
-Essentially, if Apple is able to convince the EU not to regulate their AppStore, Apple will be allowed to continue not offering alternative browsers to their users via the default mechanism those users get apps. Users *may* be allowed to later have additional browsers via side-loading, but OWA is sceptical about that as a path to a fairer landscape, coupled with the security concerns we have with sideloading. 
+If Apple is able to convince the EU not to regulate their AppStore, Apple will be allowed to continue not offering alternative browsers to their users via the default mechanism those users get apps. A possible outcoming of this is that users *may* be allowed to later have additional browsers via side-loading, but OWA is sceptical about that as a path to a fairer landscape, coupled with the security concerns we have with sideloading. 
 
 [With 57 days remaining until the Digital Markets Act enforcement begins](https://digital-markets-act.ec.europa.eu/about-dma_en), we expect to see a few more filings from Gatekeepers, as well as responses from the EU. We’ll keep you posted!
-
-
 
 
 

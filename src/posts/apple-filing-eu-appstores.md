@@ -6,7 +6,7 @@ author: "Frances Berriman"
 ---
 
 
-We’ve previously filings from Apple [claiming Safari is actually 3 browsers](https://www.macrumors.com/2023/11/04/apple-argued-safari-is-three-different-browsers) and that [iPadOS shouldn’t be regulated under the DMA](https://open-web-advocacy.org/blog/owa-eu-dma-submission-apple-ipados/) at all,, but on Monday the EU published Apple's November filing, so we’ve been [able to see a bit more about what they’re requesting](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202400563).
+We’ve previously covered filings from Apple [claiming Safari is actually 3 browsers](https://www.macrumors.com/2023/11/04/apple-argued-safari-is-three-different-browsers) and that [iPadOS shouldn’t be regulated under the DMA](https://open-web-advocacy.org/blog/owa-eu-dma-submission-apple-ipados/) at all, but on Monday the EU published Apple's November filing, so we’ve been [able to see a bit more about what they’re requesting](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202400563).
 
 In this latest filing, Apple claims that:
 

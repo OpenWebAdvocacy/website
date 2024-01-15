@@ -6,6 +6,8 @@ layout: 'layouts/home.njk'
 isHome: true
 ---
 
+{% include "partials/dma-countdown.njk" %}
+
 <p class="home-intro">
   We are a group of software engineers from all over the world who have come together to advocate for the
   <strong>future of the open web</strong> by providing regulators, legislators and policy makers the intricate technical details that they need to understand the major anti-competitive issues in our industry and how to solve them.
@@ -112,7 +114,8 @@ isHome: true
     </div>
 
     <div class="action-button-row">
-      <a href="/donate/" class="action-button">Read More</a>
+      <a href="/donate/" class="action-button" aria-label="Read more on how to support Owa ">
+        Read More</a>
       <a href="/contributors/" class="action-button">About Us</a>
     </div>
   </div>
@@ -140,3 +143,57 @@ isHome: true
 ## Blog Posts
 Here are the most recent posts we have published on our blog:
 -->
+
+
+<script>
+  const noscript = document.getElementById('deadline');
+  const deadline = '2024-03-06';
+  const timer = document.querySelector('div.timer');
+  const dayCd = document.getElementById('dayCd');
+  const timeCd = document.getElementById('timeCd');
+  const cdDays = document.getElementById('remaining-days');
+  const cdHours = document.getElementById('remaining-hours');
+  const cdMins = document.getElementById('remaining-mins');
+  const cdSecs = document.getElementById('remaining-secs');
+
+  // If Js on
+  noscript.style.display = "none";
+  timer.style.display = "flex";
+
+  function countDown(endtime) {
+    const total = Date.parse(endtime) - Date.parse(new Date());
+    const seconds = Math.floor((total / 1000) % 60);
+    const minutes = Math.floor( (total/1000/60) % 60 );
+    const hours = Math.floor( (total/(1000*60*60)) % 24 );
+    const days = Math.floor( total/(1000*60*60*24) );
+
+    cdDays.innerText = days;
+    cdHours.innerText = ('0' + hours).slice(-2);
+    cdMins.innerText = ('0' + minutes).slice(-2);
+    cdSecs.innerText = ('0' + seconds).slice(-2);
+
+    return {
+      days,
+      hours,
+      minutes,
+      seconds
+    };
+  }
+
+  function initializeClock(endtime) {
+    countDown(endtime);
+    const timeinterval = setInterval(() => {
+      const t = countDown(endtime);
+
+      if (t.days <= 0) {
+        dayCd.style.display = "none";
+      }
+
+      if (t.total <= 0) {
+        clearInterval(timeinterval);
+      }
+    },1000);
+  }
+
+  initializeClock(deadline);
+</script>

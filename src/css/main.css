@@ -828,7 +828,8 @@ div.timer {
 }
 
 #timeCd {font-size: 1.5em;}
-#main-home p#dayCd {
+
+p#dayCd {
   font-size: calc(1.5em + 1vw);
   font-variation-settings: var(--fvs-black);
   line-height: 1;

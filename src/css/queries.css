@@ -111,6 +111,21 @@
   }
 }
 
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+  div.dma-countdown {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 425px;
+    gap: 1.5rem;
+  }
+  div.timer {margin: 0;}
+  div.dma-countdown > p:last-of-type {
+    position: absolute;
+    bottom: 1.65rem;
+    left: 1.5rem;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   header.home-header {
     display: flex;
@@ -348,6 +363,6 @@
   main > div.dma-countdown {
     display: none;
   }
-  div.timer {width: calc(100% + 1.5rem);}
+  div.timer {width: calc(100% + 5rem);}
 
 }

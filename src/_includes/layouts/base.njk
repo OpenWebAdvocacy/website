@@ -5,7 +5,7 @@
     {% set isPaperLayout = true %}
   {% endif %}
 {% endif %}
-  
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -78,5 +78,70 @@
     {% endif %}
 
     {% include "partials/site-footer.njk" %}
+
+
+    <script>
+      //Countdown for DMA
+      (() => {
+
+        [...document.querySelectorAll('.dma-countdown')].forEach(
+          parent => {
+
+            function countDown(endtime) {
+              const total = Date.parse(endtime) - Date.parse(new Date());
+              const seconds = Math.floor((total / 1000) % 60);
+              const minutes = Math.floor( (total/1000/60) % 60 );
+              const hours = Math.floor( (total/(1000*60*60)) % 24 );
+              const days = Math.floor( total/(1000*60*60*24) );
+
+              cdDays.innerText = days;
+              cdHours.innerText = ('0' + hours).slice(-2);
+              cdMins.innerText = ('0' + minutes).slice(-2);
+              cdSecs.innerText = ('0' + seconds).slice(-2);
+
+              return {
+                days,
+                hours,
+                minutes,
+                seconds
+              };
+            }
+
+            function initializeClock(endtime) {
+              countDown(endtime);
+              const timeinterval = setInterval(() => {
+                const t = countDown(endtime);
+
+                if (t.days <= 0) {
+                  dayCd.style.display = "none";
+                }
+
+                if (t.total <= 0) {
+                  clearInterval(timeinterval);
+                }
+              }, 1000);
+            }
+
+            const noscript = parent.querySelector('#deadline');
+            const deadline = '2024-03-06T01:00:00Z';
+            const timer = parent.querySelector('div.timer');
+            const dayCd = parent.querySelector('#dayCd');
+            const timeCd = parent.querySelector('#timeCd');
+            const cdDays = parent.querySelector('#remaining-days');
+            const cdHours = parent.querySelector('#remaining-hours');
+            const cdMins = parent.querySelector('#remaining-mins');
+            const cdSecs = parent.querySelector('#remaining-secs');
+
+            // If Js on
+            noscript.style.display = 'none';
+            timer.style.display = 'flex';
+
+            initializeClock(deadline);
+
+          }
+        )
+
+      })();
+    </script>
   </body>
 </html>

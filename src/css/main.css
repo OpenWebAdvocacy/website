@@ -414,6 +414,8 @@ aside h3 {
   line-height: 1.1;
 }
 
+aside div.blog {margin-top: 0;}
+
 div.promo {
   display: flex;
   gap: 1rem 0;
@@ -799,6 +801,43 @@ div.contact-entry {
   padding: 0 1.5rem;
 }
 
+/* DMA Countdown blockquote*/
+
+div.dma-countdown {
+  color: var(--text-inv);
+  background-color: var(--main-color);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+div.dma-countdown h2 {
+  font-size: 1.7em;
+  line-height: 1.2;
+  text-transform: initial;
+}
+#deadline {font-size: 1.3em;}
+
+div.timer {
+  --flow-space: 1.5rem;
+  display: none;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: calc(95% + 1.5rem);
+  color: var(--body-text);
+  background-color: var(--main-light);
+  padding: 1.5rem;
+}
+
+#timeCd {font-size: 1.5em;}
+
+p#dayCd {
+  font-size: calc(1.5em + 1vw);
+  font-variation-settings: var(--fvs-black);
+  line-height: 1;
+}
+#remaining-days {
+  display: block;
+  font-size: 2em;
+}
 
 
 /* ------------------------  LINKS/LISTS ---------------------------- */
@@ -1027,7 +1066,6 @@ div.prom-banner div:nth-child(4) {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   display: flex;
-  justify-content: flex-end;
   grid-column: 2 / 2;
   max-width: 30em;
 }

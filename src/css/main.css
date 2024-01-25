@@ -814,7 +814,7 @@ div.dma-countdown h2 {
   line-height: 1.2;
   text-transform: initial;
 }
-#deadline {font-size: 1.3em;}
+.deadline {font-size: 1.3em;}
 
 div.timer {
   --flow-space: 1.5rem;
@@ -827,14 +827,14 @@ div.timer {
   padding: 1.5rem;
 }
 
-#timeCd {font-size: 1.5em;}
+.timeCd {font-size: 1.5em;}
 
-p#dayCd {
+p.dayCd {
   font-size: calc(1.5em + 1vw);
   font-variation-settings: var(--fvs-black);
   line-height: 1;
 }
-#remaining-days {
+.remaining-days {
   display: block;
   font-size: 2em;
 }

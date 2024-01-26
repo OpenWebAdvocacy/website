@@ -24,8 +24,7 @@ They say this, while at the same time preventing this from happening by not prov
 It is clear that Apple far from being embarrassed at, for over a decade, having effectively banned all third party browsers will only change this policy where legally compelled to do so.
 
 Further, Apple’s language is rife with fear mongering:
-> “Apple argues (without any particular merit or evidence) that these other engines are a security and performance risk and that only WebKit is truly optimized and safe for iPhone users.”
-[David Pierce - The Verge](https://www.theverge.com/2024/1/25/24050478/apple-ios-17-4-browser-engines-eu)
+> “Apple argues (without any particular merit or evidence) that these other engines are a security and performance risk and that only WebKit is truly optimized and safe for iPhone users.”  &ndash; [David Pierce - The Verge](https://www.theverge.com/2024/1/25/24050478/apple-ios-17-4-browser-engines-eu)
 
 Apple's decision to geo-lock this change underscores their on-going resistance to a truly open web. We will be actively analysing their compliance solution as well as identifying and challenging any loopholes that hinder fair competition.
 

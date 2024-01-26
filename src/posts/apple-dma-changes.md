@@ -16,7 +16,7 @@ This news is tempered by the fact that Apple's proposed solution to comply with 
 > Apple’s proposals fail to give consumers viable choices by making it as painful as possible for others to provide competitive alternatives to Safari
 <br>&mdash; [Damiano DeMonte - Mozilla spokesperson](https://www.theverge.com/2024/1/26/24052067/mozilla-apple-ios-browser-rules-firefox)
 
-Others in the industry we have spoken to described Apple's compliance plan as it relates to browsers as "unworkable", "a massive problem for us", "doing everything they can to make the DMA fail".
+Others in the industry we have spoken to described Apple's compliance plan as it relates to browsers as "unworkable", "a massive problem for us" and "doing everything they can to make the DMA fail".
 
 ## Competing via the Web
 {% image
@@ -50,6 +50,6 @@ We need your help to scrutinise every aspect of the compliance proposal for anyt
 - **Email:**        [contactus@open-web-advocacy.org](mailto:contactus@open-web-advocacy.org)
 - **Mastodon:**      [@OpenWebAdvocacy](https://mastodon.social/@owa)
 - **Discord:**      [OpenWebAdvocacy](https://discord.gg/x53hkqrRKx)
-- **LinkedIn:**     [https://www.linkedin.com/company/open-web-advocacy/]
+- **LinkedIn:**     [open-web-advocacy](https://www.linkedin.com/company/open-web-advocacy/)
 - **Twitter:**      [@OpenWebAdvocacy](https://twitter.com/OpenWebAdvocacy)
 - **Web:**         [https://open-web-advocacy.org](https://open-web-advocacy.org)

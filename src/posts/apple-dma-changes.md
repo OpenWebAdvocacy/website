@@ -1,5 +1,5 @@
 ---
-title: 'Apple\'s plan to allow browser competition dubbed unworkable - Open Web Advocacy'
+title: "Apple's plan to allow browser competition dubbed unworkable - Open Web Advocacy"
 date: '2024-01-27'
 tags: ['Policy', 'Apple', 'EU']
 author: "James Moore"

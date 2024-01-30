@@ -5,7 +5,7 @@ tags: ['Policy', 'Apple', 'EU']
 author: "Frances Berriman"
 ---
 
-Since [Apple released their plans for compliance](https://open-web-advocacy.org/blog/apple-dma-changes/) with the EU’s DMA regulations on the 25th, we’ve been asking web developers how these changes may affect how they work, their businesses and the web as a whole.
+Since [Apple released their plans for compliance](https://open-web-advocacy.org/blog/apple-dma-changes/) with the EU’s DMA regulations on 25th January, we’ve been asking web developers how these changes may affect how they work, their businesses and the web as a whole.
 
 [Jake Archibald](https://jakearchibald.com/), senior developer for Shopify, reflected "It seemed unbelievable to me that users on iOS were restricted to one browser engine, and one that in the past has been slow to fix serious bugs, and lagged behind on features. Apple has been forced to lift this restriction, but how they react to this will show us their attitude to the web"
 

@@ -260,3 +260,33 @@ Stay tuned as we will be posting about its progress as more information becomes 
 - **LinkedIn:**     [open-web-advocacy](https://www.linkedin.com/company/open-web-advocacy/)
 - **Twitter:**      [@OpenWebAdvocacy](https://twitter.com/OpenWebAdvocacy)
 - **Web:**         [https://open-web-advocacy.org](https://open-web-advocacy.org)
+
+
+## Links 
+We believe it's important that readers be able to make up their own minds.
+
+[This is the full text](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG) of the DMA. Of most interest is [Article 5](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG#:~:text=on%2Dgoing%20basis.-,CHAPTER%20III,PRACTICES%20OF%20GATEKEEPERS%20THAT%20LIMIT%20CONTESTABILITY%20OR%20ARE%20UNFAIR,-Article%C2%A05) and [Article 6](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG#:~:text=Obligations%20for%20gatekeepers%20susceptible%20of%20being%20further%20specified%20under%20Article%C2%A08) which are only a few pages, however the recitals which start on the first page provide context for these articles, such as the reference to [web apps](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG#:~:text=web%20software%20applications).
+
+
+The following is a list of links to Apple’s documentation on their new browser engine rules and APIs.
+
+* [Apple announces changes to iOS, Safari and the App Store in the European Union] (https://www.apple.com/au/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/)
+* [Update on apps distributed in the European Union] (https://developer.apple.com/support/dma-and-apps-in-the-eu/)
+* [Embedded Browser Engine](https://developer.apple.com/contact/request/download/embedded_browser_engine.pdf)
+* [Web Browser Engine Contract](https://developer.apple.com/contact/request/download/web_browser_engine.pdf)
+* [Using alternative browser engines in the European Union](https://developer.apple.com/support/alternative-browser-engines/)
+* [BrowserEngineKit Documentation](https://developer.apple.com/documentation/browserenginekit)
+* [Scroll UI Container Documentation](https://developer.apple.com/documentation/browserenginekit/bescrollview)
+* [Drag UI Documentation](https://developer.apple.com/documentation/browserenginekit/bedraginteraction)
+* [Browser Engine Core Documentation](https://developer.apple.com/documentation/browserenginecore)
+* [Preparing your app to be the default web browser](https://developer.apple.com/documentation/xcode/preparing-your-app-to-be-the-default-browser)
+* [No mention of default settings for browsers](https://developer.apple.com/support/dma-and-apps-in-the-eu/#app-controls:~:text=Expanded%20default%20app%20controls%20for%20users%20in%20the%C2%A0EU)
+* [Requesting interoperability with iOS in the European Union](https://developer.apple.com/support/ios-interoperability/)
+* [Alternative distribution on iOS in the EU](https://developer.apple.com/support/dma-and-apps-in-the-eu/#ios-app-eu)
+* [Terms for alternative distribution and payments in the EU](https://developer.apple.com/support/dma-and-apps-in-the-eu/#distribution-eu)
+* [Fee Calculator for Apps in the EU](https://developer.apple.com/support/fee-calculator-for-apps-in-the-eu/)
+* [Core Technology Fee](https://developer.apple.com/support/core-technology-fee/)
+* [Alternate EU Terms Contract](https://developer.apple.com/contact/request/download/alternate_eu_terms_addendum.pdf)
+* [Apple AppStore Guidelines](https://developer.apple.com/app-store/review/guidelines/) Note: Ones with the “key” symbol apply to third party apps delivered outside of Apple’s AppStore.
+* [AppStore Guidelines  2.5.6](https://developer.apple.com/app-store/review/guidelines/#:~:text=2.5.6%20Apps%20that%20browse%20the%20web%20must%20use%20the%20appropriate%20WebKit%20framework%20and%20WebKit%20JavaScript.%20You%20may%20apply%20for%20an%20entitlement%20to%20use%20an%20alternative%20web%20browser%20engine%20in%20your%20app.%20Learn%20more%20about%20these%20entitlements.)
+* [AppStore Guideline Changes](https://developer.apple.com/news/?id=7j1f99yf)

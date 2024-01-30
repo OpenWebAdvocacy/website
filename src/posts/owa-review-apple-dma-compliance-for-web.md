@@ -244,7 +244,7 @@ Our early reading of Apple’s proposal suggests that its plan does not align wi
 
 > While legal experts expect the EU to challenge Apple's insincere compliance with the DMA, developers should take this opportunity to rethink their native app serfdom. They should push web apps to their limits and then demand further platform improvement.
 > The web doesn't require commission payments, technology fees based on usage, or permission from platform rentseekers. The web can set the iPhone free, even if Apple won't.
-><cite>[Thomas Clayburn - The Register](https://www.theregister.com/2024/01/27/apple_europe_ios_analysis/)</cite>
+><cite>[Thomas Claburn - The Register](https://www.theregister.com/2024/01/27/apple_europe_ios_analysis/)</cite>
 
 We will keep on fighting and will alert the EU to shortcomings and risks posed by each of the gatekeeper’s compliance plans.
 

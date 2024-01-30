@@ -52,7 +52,6 @@ The DMA explicitly mentions browser competition (including the ability to use yo
 
 
 > In particular, each browser is built on a web browser engine, which is responsible for key browser functionality such as speed, reliability and web compatibility. **When gatekeepers operate and impose web browser engines, they are in a position to determine the functionality** and standards that will apply not only to their own web browsers, but also **to competing web browsers and, in turn, to web software applications**.
-
 > <cite>[Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)
 (emphasis added)</cite>
 
@@ -66,7 +65,6 @@ The UK Competition and Markets Authority noted that Apple had incentive to preve
 Finally, Apple states in the opening paragraph of their App Store Guidelines that the Web (i.e Web Apps) is the alternative to their App Store.
 
 > For everything else there is always the open Internet. If the App Store model and guidelines are not best for your app or business idea that’s okay, we provide Safari for a great web experience too.
-
 ><cite>[Apple App Store Guidelines](https://developer.apple.com/app-store/review/guidelines/)</cite>
 
 
@@ -118,7 +116,6 @@ There is no legitimate reason as to why browsers should be allowed to compete on
 ### Will browser vendors be able to update their existing browsers?
 
 > Be a separate binary from any app that uses the system-provided web browser engine
-
 ><cite>[Apple Documentation](https://developer.apple.com/support/alternative-browser-engines/)</cite>
 
 Apple is disconcertingly vague on how updating existing browser apps to now use their own engine will work and it is not clear whether:
@@ -148,7 +145,7 @@ This clause basically says that if you fail to abide by all of Apple’s terms (
 Another clause states that browsers must also abide by the Apple App Store Guidelines ("guidelines" being a delightfully Orwellian phrase  for ironclad rules). Apple does not have the best reputation as to being a fair judge of what counts as a violation of its app store rules.
 
 > It should not surprise you to know that Apple’s interpretation of its text often seems capricious at best and at worst seems like it’s motivated by self-dealing.
- ><cite>[Dieter Bohn - The Verge](https://www.theverge.com/2020/6/17/21293813/apple-app-store-policies-hey-30-percent-developers-the-trial-by-franz-kafka)</cite>
+><cite>[Dieter Bohn - The Verge](https://www.theverge.com/2020/6/17/21293813/apple-app-store-policies-hey-30-percent-developers-the-trial-by-franz-kafka)</cite>
 
 > Nothing herein shall imply that Apple will accept Your Alternative Web Browser Engine App (EU) for distribution on the App Store, and You acknowledge and agree that Apple may, in its sole discretion, reject, or cease distributing Your Alternative Web Browser Engine App (EU) for any reason. For clarity, once Your Alternative Web Browser Engine App (EU) has been selected for distribution via the App Store it will be considered a “Licensed Application” under the Developer Agreement.
 ><cite>[Apple’s New Browser Engine Contract](https://developer.apple.com/contact/request/download/web_browser_engine.pdf)</cite>
@@ -160,7 +157,7 @@ Luckily the DMA does not allow this. The rules need to be fair, reasonable, and 
 > The gatekeeper shall apply fair, reasonable, and non-discriminatory general conditions of access for business users to its software application stores, online search engines and online social networking services listed in the designation decision pursuant to Article 3(9).
 > For that purpose, the gatekeeper shall publish general conditions of access, including an alternative dispute settlement mechanism.
 > The Commission shall assess whether the published general conditions of access comply with this paragraph.
-> <cite>[Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG#:~:text=Any%20practice%20that%20would%20in%20any%20way%20inhibit%20or%20hinder%20those%20users%20in%20raising%20their%20concerns%20or%20in%20seeking%20available%20redress%2C%20for%20instance%20by%20means%20of%20confidentiality%20clauses%20in%20agreements%20or%20other%20written%20terms%2C%20should%20therefore%20be%20prohibited.)</cite>
+><cite>[Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG#:~:text=Any%20practice%20that%20would%20in%20any%20way%20inhibit%20or%20hinder%20those%20users%20in%20raising%20their%20concerns%20or%20in%20seeking%20available%20redress%2C%20for%20instance%20by%20means%20of%20confidentiality%20clauses%20in%20agreements%20or%20other%20written%20terms%2C%20should%20therefore%20be%20prohibited.)</cite>
 
 
 > Apple may at any time, and from time to time, with or without prior notice to You, modify, remove, or reissue the Apple Materials or the Alternative Web Browser Engine APIs, or any part thereof. You understand that any such modifications may require You to change or update Your Alternative Web Browser Engine App (EU) at Your own cost and that features and functionality of such App may cease to function. Except as required by applicable law, Apple has no express or implied obligation to provide, or continue to provide, the Apple Materials or Alternative Web Browser Engine APIs, and may suspend or discontinue all or any portion of Your access to them at any time.

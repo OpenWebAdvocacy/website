@@ -225,6 +225,7 @@ Apple could have behaved differently here. They could have announced global rule
 Apple has done none of this. Even a generous observer would conclude their proposal seems designed to circumvent the intent and letter of the digital market act. Their announcement is dripping with disdain for the EU regulators.
 
 > These proposals seem less about complying with the DMA and more about maintaining Apple’s walled garden,
+
 > The limited scope of change does little to address the genuine power imbalances within the app ecosystem.
 ><cite>[Dr. Maria Rodriguez, Competition Law Expert at the University of Amsterdam](https://pc-tablet.com/clash-of-titans-apples-dma-compliance-proposals-raise-concerns-about-choice-and-competition/)</cite>
 

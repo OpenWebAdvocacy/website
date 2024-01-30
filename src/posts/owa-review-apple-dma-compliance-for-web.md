@@ -196,7 +196,6 @@ This sounds awfully like a fee for access to hardware and software APIs. But the
 ><cite>[Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)
 (emphasis added)</cite>
 
-
 “Free of charge” being the key phrase.
 
 Astonishingly, Apple has added wording that prevents developers from switching back to the standard contract, while granting themselves the right to change either contract at any time:
@@ -221,9 +220,9 @@ We hope that the EU rejects this proposal and forces Apple to come up with a sin
 
 ### What Apple should have done and why they will ultimately lose
 
-Apple could have behaved differently here. They could have announced global rules allowing browser competition on iOS. These rules could include a minimum bar for security. They could have been working with the teams of each of the major browser vendors for months on what APIs they need and how to share them effectively. Next they could have upgraded their in-app browser (SFSafariViewController) and their Web App installation functionality to support the users choice of browser and to allow these third party browsers and Web Apps to compete fairly. Finally in anticipation of intense mobile browser competition they could significantly increase Safari's budget and fought to convince consumers of their vision for the Web.
+Apple could have behaved differently here. They could have announced global rules allowing browser competition on iOS. These rules could include a minimum bar for security. They could have been working with the teams of each of the major browser vendors for months on what APIs they need and how to share them effectively. They could have upgraded their in-app browser (SFSafariViewController) and their Web App installation functionality to support the users choice of browser and to allow these third party browsers and Web Apps to compete fairly. They could significantly increase Safari's budget and fought to convince consumers of their vision for the Web in anticipation of intense mobile browser competition.
 
-Apple has done none of this, instead even a generous observer would conclude that much of their proposal seems designed to spite and circumvent both the intent and letter of the digital market act. Even their announcement is dripping with disdain for the EU regulators.
+Apple has done none of this. A generous observer would conclude their proposal seems designed to circumvent the intent and letter of the digital market act. Even their announcement is dripping with disdain for the EU regulators.
 
 This is a mistake, for all Apple's talk of protecting consumers, the focus on revenue and containing the new competition allowed, shows their hand. The public are not fools and they are not fooled.
 

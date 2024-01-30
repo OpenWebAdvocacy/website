@@ -11,7 +11,7 @@ We believe that third party browsers should be allowed to compete fairly on iOS 
 
 With this in mind OWA has been looking over [Apple’s proposals for compliance with the EU’s Digital Markets Act](https://developer.apple.com/support/dma-and-apps-in-the-eu/#browser-alt-eu) to determine whether Apple intends to genuinely comply with its legal obligations regarding browsers and web apps. As OWA has [argued at length](/walled-gardens-report/), true choice in browsers is the most important counterbalance to gatekeeper monopoly power, so the answer to this question matters enormously. 
 
-**Unfortunately so far it appears that the answer is no.**
+**Unfortunately so far it appears that the answer is "no".**
 
 Let’s dig into our three bigger point of interests:
 

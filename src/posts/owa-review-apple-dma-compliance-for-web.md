@@ -57,8 +57,8 @@ The DMA explicitly mentions browser competition (including the ability to use yo
 
 > In particular, each browser is built on a web browser engine, which is responsible for key browser functionality such as speed, reliability and web compatibility. **When gatekeepers operate and impose web browser engines, they are in a position to determine the functionality** and standards that will apply not only to their own web browsers, but also **to competing web browsers and, in turn, to web software applications**.
 
-&mdash; [Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)
-(emphasis added)
+<cite>&mdash; [Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)
+(emphasis added)</cite>
 
 
 Further, the UK Competition and Markets Authority noted that Apple had an incentive to prevent Web Apps from fairly competing with their App Store via denying them critical functionality.
@@ -71,7 +71,7 @@ Finally Apple states in the opening paragraph of their App Store Guidelines that
 
 > For everything else there is always the open Internet. If the App Store model and guidelines are not best for your app or business idea that’s okay, we provide Safari for a great web experience too.
 
-&mdash; [Apple App Store Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+<cite>&mdash; [Apple App Store Guidelines](https://developer.apple.com/app-store/review/guidelines/)</cite>
 
 
 With all of these in mind, combined with [Apple’s refusal to implement key features in iOS Safari such as install prompts](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive) (keeping Web Apps hidden from the public), [other missing features](https://open-web-advocacy.org/walled-gardens-report/#safari-lags-behind-and-is-missing-key-features), and [significant and crippling bugs](https://open-web-advocacy.org/walled-gardens-report/#safari-has-been-buggy-for-a-long-time), the question of whether third party browsers could offer Web Apps something better becomes critical. As it stands there is nothing in Apple’s proposal to suggest that they ever intend to let third party browsers install Web Apps powered by their own engine.

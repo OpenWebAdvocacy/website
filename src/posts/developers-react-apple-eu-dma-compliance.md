@@ -5,6 +5,11 @@ tags: ['Policy', 'Apple', 'EU']
 author: "Frances Berriman"
 ---
 
+{% image
+  "/images/blog/developers-react.webp",
+  "Image showing three pull quotes, stating: To me, it's an excellent demonstration of why browser choice is crucially important [...] legal compliance are clearly not incentive enough. Brian LeRoux, Begin. Apple has been forced to lift this restriction, but how they react to this will show us their attitude to the web. Jake Archibald, Shopify. It would be quite disappointing if—when the rubber meets the road—browser variability were dependent on the country in which you reside! Zach Leatherman, 11ty, CloudCannon"
+%}
+
 Since [Apple released their plans for compliance](https://open-web-advocacy.org/blog/apple-dma-changes/) with the EU’s DMA regulations on 25th January, we’ve been asking web developers how these changes may affect how they work, their businesses and the web as a whole.
 
 [Jake Archibald](https://jakearchibald.com/), senior developer for Shopify, reflected "It seemed unbelievable to me that users on iOS were restricted to one browser engine, and one that in the past has been slow to fix serious bugs, and lagged behind on features. Apple has been forced to lift this restriction, but how they react to this will show us their attitude to the web"

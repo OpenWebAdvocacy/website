@@ -2,7 +2,7 @@
 title: "OWA’s Review of Apple’s DMA Compliance Proposal for the Web"
 date: '2024-01-29'
 tags: ['Policy', 'Apple', 'EU']
-author: "OWA" ]
+author: "OWA"
 ---
 
 ## Will Apple ever let browsers and Web Apps compete fairly?

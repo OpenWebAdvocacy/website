@@ -167,7 +167,7 @@ This clause says that Apple can break, remove or change any API without any noti
 
 > Confidentiality
 > You agree that any non-public information regarding the Alternative Web Browser Engine APIs or Alternative Web Browser Engine (EU) Entitlement Profile shall be considered and treated as “Apple Confidential Information” in accordance with the terms of Section 9 (Confidentiality) of the Developer Agreement. You agree to use such Apple Confidential Information solely for the purpose of exercising Your rights and performing Your obligations under this Addendum and agree not to use such Apple Confidential Information for any other purpose, for Your own or any third party’s benefit, without Apple's prior written consent. You further agree not to disclose or disseminate Apple Confidential Information to anyone other than those of Your employees or contractors who have a need to know and who are bound by a written agreement that prohibited unauthorized use or disclose of the Apple Confidential Information.
-[Apple’s New Browser Engine Contract](https://developer.apple.com/contact/request/download/web_browser_engine.pdf)
+><cite>[Apple’s New Browser Engine Contract](https://developer.apple.com/contact/request/download/web_browser_engine.pdf)
 
 This bans discussing Apple’s APIs publically or sharing information about them with any party except for employees or contractors who are bound by a similar agreement. Aside from the obvious attempt to stifle public discussion of shortcomings or anti-competitive behavior in Apple’s APIs this also appears to run afoul of the DMA. Given that the code bases of all the major browser engines are open source (including Safari’s) there does not appear to be any legitimate need for such a confidentiality clause.
 

@@ -59,8 +59,8 @@ The DMA explicitly mentions browser competition (including the ability to use yo
 The UK Competition and Markets Authority noted that Apple had incentive to prevent Web Apps from fairly competing:
 
 > Apple generates revenue through its App Store, both by charging developers for access to the App Store and by taking a commission for payments made via Apple IAP. Apple therefore benefits from higher usage of native apps on iOS. By requiring all browsers on iOS to use the WebKit browser engine, **Apple is able to exert control over the maximum functionality of all browsers on iOS** and, as a consequence, hold up the development and use of web apps. This limits the **competitive constraint that web apps pose on native apps**, which in turn protects and benefits Apple’s App Store revenues.
-[UK CMA - Interim Report into Mobile Ecosystems](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report)
-(emphasis added)
+> <cite>[UK CMA - Interim Report into Mobile Ecosystems](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report)
+(emphasis added)</cite>
 
 Finally, Apple states in the opening paragraph of their App Store Guidelines that the Web (i.e Web Apps) is the alternative to their App Store.
 

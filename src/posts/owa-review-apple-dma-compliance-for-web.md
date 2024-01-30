@@ -270,8 +270,8 @@ We believe it's important that readers be able to make up their own minds.
 
 The following is a list of links to Apple’s documentation on their new browser engine rules and APIs.
 
-* [Apple announces changes to iOS, Safari and the App Store in the European Union] (https://www.apple.com/au/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/)
-* [Update on apps distributed in the European Union] (https://developer.apple.com/support/dma-and-apps-in-the-eu/)
+* [Apple announces changes to iOS, Safari and the App Store in the European Union](https://www.apple.com/au/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/)
+* [Update on apps distributed in the European Union](https://developer.apple.com/support/dma-and-apps-in-the-eu/)
 * [Embedded Browser Engine](https://developer.apple.com/contact/request/download/embedded_browser_engine.pdf)
 * [Web Browser Engine Contract](https://developer.apple.com/contact/request/download/web_browser_engine.pdf)
 * [Using alternative browser engines in the European Union](https://developer.apple.com/support/alternative-browser-engines/)

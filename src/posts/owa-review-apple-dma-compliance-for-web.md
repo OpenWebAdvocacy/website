@@ -224,6 +224,10 @@ Apple could have behaved differently here. They could have announced global rule
 
 Apple has done none of this. Even a generous observer would conclude their proposal seems designed to circumvent the intent and letter of the digital market act. Their announcement is dripping with disdain for the EU regulators.
 
+> These proposals seem less about complying with the DMA and more about maintaining Apple’s walled garden,
+> The limited scope of change does little to address the genuine power imbalances within the app ecosystem.
+><cite>[Dr. Maria Rodriguez, Competition Law Expert at the University of Amsterdam](https://pc-tablet.com/clash-of-titans-apples-dma-compliance-proposals-raise-concerns-about-choice-and-competition/)</cite>
+
 This is a mistake, for all Apple's talk of protecting consumers, the focus on revenue and containing the new competition allowed, shows their hand. The public are not fools and they are not fooled.
 
 Even in traditionally pro-Apple forums the response to [Apple's browser competition proposal](https://www.macrumors.com/2024/01/26/mozilla-on-apple-eu-browser-engine-change/) has been extremely negative. Apple is losing whatever reputation for fair play it may have enjoyed. With each market investigation or act passed, this behavior is forced into the open.

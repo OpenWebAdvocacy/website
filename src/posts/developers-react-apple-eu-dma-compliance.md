@@ -14,11 +14,11 @@ Since [Apple released their plans for compliance](https://open-web-advocacy.org/
 
 [Jake Archibald](https://jakearchibald.com/), senior developer for Shopify, reflected "It seemed unbelievable to me that users on iOS were restricted to one browser engine, and one that in the past has been slow to fix serious bugs, and lagged behind on features. Apple has been forced to lift this restriction, but how they react to this will show us their attitude to the web"
 
-Begin.com co-founder [Brian LeRoux](https://brian.io//) said “Lots of us are trying to make sense of the recent EU regulatory rulings and Apples' bad faith letter to the law implementation. To me, it's an excellent demonstration of why browser choice is crucially important as standards participation and legal compliance are clearly not incentive enough.”, continuing his thoughts [in a public thread.](https://indieweb.social/@brianleroux/111828910555229207)
+Begin co-founder [Brian LeRoux](https://brian.io//) said “Lots of us are trying to make sense of the recent EU regulatory rulings and Apples' bad faith letter to the law implementation. To me, it's an excellent demonstration of why browser choice is crucially important as standards participation and legal compliance are clearly not incentive enough.”, continuing his thoughts [in a public thread.](https://indieweb.social/@brianleroux/111828910555229207)
 
 Many spoke to us about concerns that Apple is ring-fencing access to new browsers, especially with regards to testing. 
 
-[Jason Grigsby](https://cloudfour.com/is/jason-grigsby/), Co-founder of Cloudfour, asked “What happens if someone in the EU runs into a bug that isn’t happening in other browsers? How do we troubleshoot it? I’m trying to think of a comparable time when we had no way to test in a browser. The closest I can come to is the earliest days of mobile when the Android browser was different on each carrier. But even then, I could go to a carrier store to test and/or buy a phone if I needed more time with it. What do I do now?”
+[Jason Grigsby](https://cloudfour.com/is/jason-grigsby/), Co-founder of Cloud Four, asked “What happens if someone in the EU runs into a bug that isn’t happening in other browsers? How do we troubleshoot it? I’m trying to think of a comparable time when we had no way to test in a browser. The closest I can come to is the earliest days of mobile when the Android browser was different on each carrier. But even then, I could go to a carrier store to test and/or buy a phone if I needed more time with it. What do I do now?”
 
 He continued with some thoughts on how he may solve this, “For us, maybe BrowserStack or a similar service will give us a way to see what our European users are seeing? Absent that, I think we're stuck.”
 

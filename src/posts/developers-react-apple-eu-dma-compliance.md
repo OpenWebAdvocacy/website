@@ -1,6 +1,6 @@
 ---
 title: "Web Developers React to Apple’s DMA Compliance Proposal"
-date: '2024-01-30'
+date: '2024-01-31'
 tags: ['Policy', 'Apple', 'EU']
 author: "Frances Berriman"
 ---

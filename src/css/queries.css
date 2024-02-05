@@ -60,7 +60,7 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 1300px) {
-  div.timer {
+  .home-wrapper div.timer {
     flex-direction: row;
     align-items: center;
     gap: 3rem;
@@ -112,14 +112,14 @@
 }
 
 @media screen and (min-width: 900px) and (max-width: 1300px) {
-  div.dma-countdown {
+  .home-wrapper div.dma-countdown {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 425px;
     gap: 1.5rem;
   }
-  div.timer {margin: 0;}
-  div.dma-countdown > p:last-of-type {
+  .home-wrapper div.timer {margin: 0;}
+  .home-wrapper div.dma-countdown > p:last-of-type {
     position: absolute;
     bottom: 1.65rem;
     left: 1.5rem;

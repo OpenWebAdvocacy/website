@@ -432,8 +432,8 @@ div.promo div.group {
 div.promo p.illustration {
   position: relative;
   width: 30%;
-  min-width: 50px;
-  max-width: 120px;
+  min-width: 110px;
+  max-width: 130px;
   top: 0.5rem;
   left: -28px;
   transition: all 1s;

@@ -208,6 +208,13 @@
     "mastodon": "https://toot.cafe/@pimterry"
   },
   {
+    "name": "Ondřej Pokorný",
+    "countries": ["Czech Republic🇨🇿"],
+    "avatar": "ondrej-pokorny.jpg",
+    "what": "Freelance Technology Consultant",
+    "mastodon": "https://social.unextro.net/@ondra"
+  },
+  {
     "name": "Thomas Powell",
     "countries": ["USA🇺🇸"],
     "avatar": "thomas-powell.jpg",

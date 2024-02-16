@@ -1331,3 +1331,15 @@ img.centered {
 img.rounded {
   border-radius: 0.5rem;
 }
+
+.emergency-banner{
+  background-color: #00008b;
+  color:  #fff;
+  padding: 1em;
+  text-align: center;
+}
+.emergency-banner p{
+  width: 100%;
+  max-width: 100%;
+}
+

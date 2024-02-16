@@ -9,7 +9,7 @@ layout: 'layouts/page.njk'
 
 ## ACT NOW
 
-We need immediate support from web developers and businesses that operate online in the EU.  The European Commission needs to hear from YOU to understand the devastating impact Apple’s new ban will have on your livelihoods, businesses and customers.
+**We need immediate support from web developers and businesses that operate online in the EU**.  The European Commission needs to hear from YOU to understand the devastating impact Apple’s new ban will have on your livelihoods, businesses and customers.
 
 To facilitate this, [please complete our quick form](https://docs.google.com/forms/d/e/1FAIpQLSfNgzepH4lwmWf2kaKC4EpKPdfi69jUHFM8kf4-TBsAyWU1BA/viewform) so that we can understand the scale of the impact and provide it to the European Commission in a single large submission. 
 
@@ -25,7 +25,6 @@ If you are not in the EU, or you’ve already sent us your information, please s
         </a></p>
     </div>
 </div>
-
 
 ## What’s happening?
 

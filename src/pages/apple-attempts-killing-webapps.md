@@ -1,6 +1,6 @@
 ---
 title: 'Immediate Action Needed!'
-permalink: '/apple-kills-webapps/'
+permalink: '/apple-attempts-killing-webapps/'
 metaDesc: 'Learn more about the #AppleBrowserBan campaign run by Open Web Advocacy.'
 layout: 'layouts/page.njk'
 ---

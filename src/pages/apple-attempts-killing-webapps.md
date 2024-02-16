@@ -1,11 +1,11 @@
 ---
 title: 'Immediate Action Needed!'
 permalink: '/apple-attempts-killing-webapps/'
-metaDesc: 'Learn more about the #AppleBrowserBan campaign run by Open Web Advocacy.'
+metaDesc: 'Apple has officially announced that they attempting to kill web apps in the EU, which will have ramifications worldwide'
 layout: 'layouts/page.njk'
 ---
 
-**Apple has officially announced that they’re killing web apps in the EU, which will have ramifications worldwide**
+**Apple has officially announced that they attempting to kill web apps in the EU, which will have ramifications worldwide**
 
 ## ACT NOW
 

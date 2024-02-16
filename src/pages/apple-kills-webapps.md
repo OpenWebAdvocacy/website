@@ -5,7 +5,7 @@ metaDesc: 'Learn more about the #AppleBrowserBan campaign run by Open Web Advoca
 layout: 'layouts/page.njk'
 ---
 
-**Apple has officially announced that they’re killing web apps in the EU**
+**Apple has officially announced that they’re killing web apps in the EU, which will have ramifications worldwide**
 
 ## ACT NOW
 

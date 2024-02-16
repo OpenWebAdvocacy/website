@@ -5,7 +5,7 @@ metaDesc: 'Apple has officially announced that they attempting to kill web apps 
 layout: 'layouts/page.njk'
 ---
 
-**Apple has officially announced that they attempting to kill web apps in the EU, which will have ramifications worldwide**
+**Apple has officially announced that they attempting to kill web apps in the EU, which will have ramifications worldwide.**
 
 ## ACT NOW
 
@@ -30,7 +30,7 @@ If you are not in the EU, or you’ve already sent us your information, please s
 
 Apple have announced a series of changes designed to comply with the European Union’s Digital Markets Act. 
 
-Throughout this process, they’ve chosen to maliciously comply as much as possible, resulting in a series of decision meant to cripple the ability for anyone to compete on their platform.
+Throughout this process, they’ve chosen to maliciously comply as much as possible, resulting in a series of decisions meant to cripple the ability for anyone to compete on their platform outside of their App Store.
 
 You can read more about the changes they’ve made in these two blog posts:
 

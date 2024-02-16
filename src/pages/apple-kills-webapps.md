@@ -11,7 +11,7 @@ layout: 'layouts/page.njk'
 
 We need immediate support from web developers and businesses that operate online in the EU.  The European Commission needs to hear from YOU to understand the devastating impact Apple’s new ban will have on your livelihoods, businesses and customers.
 
-To facilitate this, [please complete our quick form](https://docs.google.com/forms/d/e/1FAIpQLSfNgzepH4lwmWf2kaKC4EpKPdfi69jUHFM8kf4-TBsAyWU1BA/viewform) so that we can understand the scale of the impact and provide it to the EU.
+To facilitate this, [please complete our quick form](https://docs.google.com/forms/d/e/1FAIpQLSfNgzepH4lwmWf2kaKC4EpKPdfi69jUHFM8kf4-TBsAyWU1BA/viewform) so that we can understand the scale of the impact and provide it to the European Commission in a single large submission. 
 
 If you are not in the EU, or you’ve already sent us your information, please share this message far and wide. We need information immediately to have an effect on this outlandish change from Apple, designed to crush the web entirely.
 
@@ -36,7 +36,6 @@ Throughout this process, they’ve chosen to maliciously comply as much as possi
 You can read more about the changes they’ve made in these two blog posts:
 
 [It’s Official, Apple Kills Web Apps in the EU](https://open-web-advocacy.org/blog/its-official-apple-kills-web-apps-in-the-eu/)
-
 
 [OWA’s Review of Apple’s DMA Compliance Proposal for the Web](https://open-web-advocacy.org/blog/owa-review-apple-dma-compliance-for-web/
 )

@@ -12,7 +12,6 @@
   {
     "url": "https://www.theregister.com/2022/02/28/apple_apps_challenge/",
     "title": "Web devs rally to challenge Apple App Store browser rules",
-    "publisher": "The Register",
     "date": "2022-02-28"
   },
   {
@@ -36,5 +35,76 @@
     "title": "Les développeurs Web se mobilisent pour contester les règles de navigation de l'App Store d'Apple",
     "date": "2022-03-02",
     "lang": "fr"
+  },
+  {
+    "url": "https://ca.news.yahoo.com/apple-change-iphone-browsing-forever-221435282.html",
+    "title": "Apple is about to change iPhone web browsing forever",
+    "date": "2024-01-25"
+  },
+  {
+    "url": "https://www.theregister.com/2024/02/08/apple_web_apps_eu/",
+    "title": "In its tantrum with Europe, Apple broke web apps in iOS 17 beta, still hasn't fixed them",
+    "date": "2024-02-08"
+  },
+  {
+    "url": "https://thenewstack.io/the-state-of-the-open-web-3-takeaways-heading-into-2024/",
+    "title": "The State of the Open Web: 3 Takeaways Heading into 2024",
+    "date": "2023-11-29"
+  },
+  {
+    "url": "https://thenewstack.io/2023-web-tech-check-in-react-performance-pwas-ios-browsers/",
+    "title": "2023 Web Tech Check-In: React Performance, PWAs, iOS Browsers",
+    "date": "2023-01-11"
+  },
+  {
+    "url": "https://www.siliconrepublic.com/business/apple-home-screen-web-apps-breaking-eu-digital-markets-act-iphone",
+    "title": "Apple ‘breaking’ iPhone web apps in EU to comply with DMA rules",
+    "date": "2024-02-16"
+  },
+  {
+    "url": "https://www.theregister.com/2024/01/31/web_developers_worry_apple_ios/",
+    "title": "Web devs fear Apple's iOS shakeup for Europe will be a nightmare for support",
+    "date": "2024-01-31"
+  },
+  {
+    "url": "https://www.engadget.com/apple-confirms-home-screen-web-apps-will-no-longer-work-on-european-ios-devices-112527560.html",
+    "title": "Apple confirms home screen web apps will no longer work on European iOS devices",
+    "date": "2024-02-16"
+  },
+  {
+    "url": "https://techcrunch.com/2024/02/15/apple-confirms-its-breaking-iphone-web-apps-in-the-eu-on-purpose/",
+    "title": "Apple confirms it’s breaking iPhone web apps in the EU on purpose",
+    "date": "2024-02-15"
+  },
+  {
+    "url": "https://www.computerworld.com/article/3652348/developers-push-back-against-apple-ban-on-third-party-browsers.html",
+    "title": "Developers push back against Apple 'ban' on third-party browsers",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://www.scmagazine.com/news/2-apple-webkit-zero-day-bugs-exploited-on-iphone-browsers",
+    "title": "Apple issues emergency fixes for 2 WebKit 0-days exploited in the wild",
+    "date": "2023-12-01"
+  },
+  {
+    "url": "https://www.tomsguide.com/phones/iphones/ios-174-beta-just-broke-iphone-web-apps-but-only-in-the-eu",
+    "title": "iOS 17.4 beta just broke iPhone web apps — but only in the EU",
+    "date": "2024-02-09"
+  },
+  {
+    "url": "https://www.futurezone.de/digital-life/article527099/ios-17-4-web-apps-a.html",
+    "title": "iOS 17.4: Apple gibt eine Verschlechterung zu",
+    "date": "2024-02-19",
+    "lang": "de"
+  },
+  {
+    "url": "https://pocketnow.com/developers-pressuring-apple-allow-third-party-browser-engines-ios/",
+    "title": "Developers pressuring Apple to allow third-party browser engines on iOS",
+    "date": "2022-03-02"
+  },
+  {
+    "url": "https://www.theregister.com/2022/04/26/apple_ios_browser/",
+    "title": "Apple's grip on iOS browser engines disallowed under latest draft EU rules",
+    "date": "2022-04-26"
   }
 ]

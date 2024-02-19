@@ -3,6 +3,11 @@ title: 'Apple files another challenge to the EU Digital Markets Act'
 date: '2024-01-09'
 tags: ['Policy', 'Apple', 'EU']
 author: "Frances Berriman"
+relatedLinks:
+  - url: https://digital-markets-act.ec.europa.eu/about-dma_en
+    title: What is the DMA about?
+    publisher: European Commission
+    date: 2022-09-14
 ---
 
 {% image

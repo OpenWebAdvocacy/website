@@ -3,6 +3,11 @@ title: 'News from the NTIA report on mobile app ecosystems'
 date: '2023-02-03'
 tags: ['Policy', 'Updates']
 author: "Bruce Lawson"
+relatedLinks:
+  - url: https://brucelawson.co.uk/2023/the-ntia-report-on-mobile-app-ecosystems/
+    title: "Bruce Lawson: The NTIA report on mobile app ecosystems"
+    publisher: Bruce Lawson
+    date: 2023-02-02
 ---
 
 [Bruce](https://brucelawson.co.uk) published an [article](https://brucelawson.co.uk/2023/the-ntia-report-on-mobile-app-ecosystems/) where he gives us a summary of the NTIA (National Telecommunications and Information Administration) report on Mobile App Competition.

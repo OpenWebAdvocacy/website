@@ -3,6 +3,18 @@ title: 'OWA updates on progress with UK and EU digital competition regulations'
 date: '2022-11-28'
 tags: ['Policy', 'Updates', "UK", "EU"]
 author: "Bruce Lawson"
+relatedLinks:
+  - title: Using alternative browser engines in the European Union
+    url: https://developer.apple.com/support/alternative-browser-engines/
+    date: 2024-02-19
+  - title: "The Digital Markets Act: ensuring fair and open digital markets"
+    url: https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-markets-act-ensuring-fair-and-open-digital-markets_en
+    publisher: European Commission
+    date: 2022-10-12
+  - title: Investigation into cloud gaming and browsers to support UK tech and consumers
+    url: https://www.gov.uk/government/news/investigation-into-cloud-gaming-and-browsers-to-support-uk-tech-and-consumers
+    publisher: UK Government
+    date: 2022-11-22
 ---
 
 Howdy, [Bruce](https://brucelawson.co.uk) here, with an update on progress we've made in both the EU and with the UK's competition regulator, the Competition and Markets Authority (CMA).

@@ -3,6 +3,11 @@ title: "Web Developers React to Apple’s DMA Compliance Proposal"
 date: '2024-01-31'
 tags: ['Policy', 'Apple', 'EU']
 author: "Frances Berriman"
+relatedLinks:
+  - url: https://wptavern.com/eu-regulatory-success-prompts-open-source-cms-leaders-to-form-alliance
+    title: EU Regulatory Success Prompts Open-Source CMS Leaders to Form Alliance
+    publisher: "WP Tavern"
+    date: 2024-02-16
 ---
 
 {% image

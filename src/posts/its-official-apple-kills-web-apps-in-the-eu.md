@@ -3,6 +3,10 @@ title: "It’s Official, Apple Kills Web Apps in the EU"
 date: '2024-02-16'
 tags: ['Apple', 'EU', 'Safari']
 author: "OWA"
+relatedLinks:
+  - url: https://developer.apple.com/support/dma-and-apps-in-the-eu#8
+    title: Why don't users in the EU have access to Home Screen web apps?
+    date: 2024-02-19
 ---
 
 <div class="prom-banner" style="max-width: 30em;">

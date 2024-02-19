@@ -946,7 +946,7 @@ ul.press-list > li {
   gap: 1rem;
 }
 
-ul.press-list .press-entry .press-date {
+ul.press-list .press-entry .press-details {
   font-size: small;
 }
 

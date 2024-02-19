@@ -7,6 +7,10 @@ relatedLinks:
   - url: https://developer.apple.com/support/dma-and-apps-in-the-eu#8
     title: Why don't users in the EU have access to Home Screen web apps?
     date: 2024-02-19
+  - url: https://www.golem.de/news/ios-17-4-apple-bestaetigt-aus-fuer-progressive-web-apps-in-der-eu-2402-182287.html
+    title: Apple bestätigt Aus für Progressive Web Apps in der EU
+    lang: de
+    date: 2024-02-16
 ---
 
 <div class="prom-banner" style="max-width: 30em;">

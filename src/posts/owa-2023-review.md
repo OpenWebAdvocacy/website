@@ -3,6 +3,44 @@ title: 'Open Web Advocacy 2023 in Review'
 date: '2023-12-31'
 tags: ['Policy', 'Updates']
 author: [ "Alex Moore" ]
+relatedLinks:
+  - url: https://www.theregister.com/2023/11/02/apple_safari_browser/
+    title: In quest to defeat Euro red-tape, Apple said it had three Safari browsers – not one
+    date: 2023-11-02
+  - url: https://theplatformlaw.blog/2022/11/28/the-cmas-investigation-of-competition-restrictions-regarding-browsers/
+    title: The CMA’s investigation of competition restrictions regarding browsers
+    date: 2022-11-28
+  - url: https://theplatformlaw.blog/2023/11/17/digital-markets-competition-and-consumers-bill/
+    title: UK digital markets regime under attack, but still on course
+    date: 2023-11-17
+  - url: https://www.kantei.go.jp/jp/singi/digitalmarket/pdf_e/documents_22220601.pdf
+    title: Competition Assessment of the Mobile Ecosystem Interim Report Summary (PDF)
+    publisher: "Secretariat of the Headquarters for Digital Market Competition, Japan"
+    date: 2022-04-26
+  - url: https://www.jftc.go.jp/en/pressreleases/yearly-2023/February/230209.html
+    title: Market Study Report on Mobile OS and Mobile App Distribution
+    publisher: "Japan Fair Trade Commission"
+    date: 2023-02-09
+  - url: https://asia.nikkei.com/Business/Technology/Japan-to-crack-down-on-Apple-and-Google-app-store-monopolies
+    title: Japan to crack down on Apple and Google app store monopolies
+    date: 2023-12-27
+  - url: https://www.accc.gov.au/inquiries-and-consultations/digital-platform-services-inquiry-2020-25/september-2022-interim-report
+    title: Digital platform services inquiry 2020-25
+    publisher: Australian Government
+    date: 2022-09-30
+  - url: https://www.cnbctv18.com/technology/explained--indias-upcoming-digital-competition-act-and-what-is-the-debate-around-it-all-about-17222501.htm
+    title: "Explained | India’s upcoming Digital Competition Act and what is the debate around it all about"
+    date: 2023-07-14
+  - url: https://www.ipea.gov.br/cts/en/all-contents/articles/articles/381-regulation-of-markets-mediated-by-digital-platforms-in-brazil-an-open-discussion
+    title: Regulation of markets mediated by digital platforms in Brazil
+    publisher: Brazilian Government
+    date: 2023-09-09
+  - url: https://www.lexology.com/library/detail.aspx?g=d4a4ff96-2a6a-45d1-980a-a4786e3834a2
+    title: KFTC proposes ex-ante regulation of platforms under the “Platform Competition Promotion Act”
+    date: 2023-12-29
+  - url: https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/
+    title: Mozilla, like Google, is looking ahead to the end of Apple's WebKit rule
+    date: 2023-02-07
 ---
 
 {% image

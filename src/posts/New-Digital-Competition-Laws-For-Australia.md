@@ -3,6 +3,11 @@ title: 'New Digital Competition Laws for Australia'
 date: '2023-12-08'
 tags: ['Policy', 'Updates', 'Australia']
 author: "Alex Moore"
+relatedLinks:
+  - url: https://www.accc.gov.au/media-release/consumers-and-small-businesses-to-benefit-from-proposed-new-regulation-of-digital-platforms
+    title: Consumers and small businesses to benefit from proposed new regulation of digital platforms
+    publisher: Australian Government
+    date: 2023-12-08
 ---
 
 {% image

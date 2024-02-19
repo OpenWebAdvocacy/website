@@ -3,6 +3,10 @@ title: "Apple on course to break all Web Apps in EU within 20 days"
 date: '2024-02-15'
 tags: ['Apple', 'EU', 'Safari']
 author: "OWA"
+relatedLinks:
+  - url: https://developer.apple.com/documentation/safari-release-notes/safari-17_4-release-notes
+    title: Safari 17.4 Beta Release Notes
+    date: 2024-02-13
 ---
 
 

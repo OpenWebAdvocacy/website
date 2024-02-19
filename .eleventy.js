@@ -10,6 +10,7 @@ const markdownItAttrs = require('markdown-it-attrs');
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
+const hostnameFilter = require('./src/filters/hostname-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 const cleanTocFilter = require('./src/filters/clean-toc-filter.js');
 
@@ -17,11 +18,14 @@ const cleanTocFilter = require('./src/filters/clean-toc-filter.js');
 const imageShortcode = require('./src/shortcodes/image.js');
 
 // Utils
+const groupEntriesByYear = require('./src/utils/group-entries-by-year.js');
+const { loadPageDetails } = require('./src/utils/page-details.js');
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
 module.exports = config => {
   // Add filters
   config.addFilter('dateFilter', dateFilter);
+  config.addFilter('hostnameFilter', hostnameFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('cleanTocFilter', cleanTocFilter);
   config.addFilter("excerpt", (post) => {
@@ -43,6 +47,32 @@ module.exports = config => {
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+  });
+
+  // Returns list of related-links from all posts and pages,
+  // grouped by year (descending): [{ year, entries },...]
+  config.addCollection('links', async collection => {
+    const posts = [...collection.getFilteredByGlob('./src/posts/*.md')];
+    const relatedLinkData = [];
+    for (const post of posts) {
+      const relatedLinks = post?.data?.relatedLinks || [];
+      for (const link of relatedLinks) {
+        const linkDetails = await loadPageDetails(link);
+        relatedLinkData.push(linkDetails);
+      }
+    }
+    return groupEntriesByYear(relatedLinkData);
+  });
+
+  // Returns press-links grouped by year (descending): [{ year, entries },...]
+  config.addCollection('press', async collection => {
+    const pressData = collection.getAll().filter(item => item.data.press)[0]?.data?.press || [];
+    const pressLinkData = [];
+    for (const link of pressData) {
+      const linkDetails = await loadPageDetails(link);
+      pressLinkData.push(linkDetails);
+    }
+    return groupEntriesByYear(pressLinkData);
   });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file

@@ -3,6 +3,10 @@ title: "Apple's plan to allow browser competition dubbed unworkable"
 date: '2024-01-27'
 tags: ['Policy', 'Apple', 'EU']
 author: "James Moore"
+relatedLinks:
+  - url: https://www.apple.com/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/
+    title: Apple announces changes to iOS, Safari, and the App Store in the European Union
+    date: 2024-01-25
 ---
 
 The #AppleBrowserBan Ends in the EU!

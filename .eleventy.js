@@ -45,6 +45,22 @@ module.exports = config => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
+  // Returns press-links grouped by year (descending): [{ year, entries },...]
+  config.addCollection('press', collection => {
+    const pressData = collection.getAll().filter(item => item.data.press)[0]?.data?.press || [];
+    const yearlyMap = pressData.reduce((acc, item) => {
+      const year = new Date(item.date).getFullYear();
+      if (!acc.has(year)) acc.set(year, []);
+      acc.get(year).push(item);
+      return acc;
+    }, new Map());
+    const yearlyData = Array.from(yearlyMap.entries()).map(([ year, entries ]) => ({
+      year,
+      entries: entries.sort((a, b) => new Date(b.date) - new Date(a.date))
+    })).sort((a, b) => b.year - a.year);
+    return yearlyData;
+  });
+
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
 

@@ -7,17 +7,20 @@ layout: 'layouts/page.njk'
 
 <p>Here are links to the press coverage OWA has received thus far:</p>
 
+{% for yearlyData in collections.press %}
+<h3 id="{{ yearlyData.year }}">{{ yearlyData.year }}</h3>
 <ul class="press-list">
-  {% for entry in press %}
-    <li lang="{{ entry.lang | default('en') }}">
-      <div class="press-entry">
-        <a href="{{ entry.url }}">{{ entry.title }}</a>
-        <div class="press-date">
-          published by {{ entry.publisher }}, <time datetime="{{ entry.date | w3DateFilter }}" class="dt-published">{{ entry.date | dateFilter }}</time>
-        </div>
+  {% for entry in yearlyData.entries %}
+  <li lang="{{ entry.lang | default('en') }}">
+    <div class="press-entry">
+      <a href="{{ entry.url }}">{{ entry.title }}</a>
+      <div class="press-date">
+        published by {{ entry.publisher }}, <time datetime="{{ entry.date | w3DateFilter }}" class="dt-published">{{ entry.date | dateFilter }}</time>
       </div>
-    </li>
+    </div>
+  </li>
   {% endfor %}
 </ul>
+{% endfor %}
 
 <p><strong>Last updated:</strong> <time datetime="2022-03-17">March 17th, 2022</time></p>

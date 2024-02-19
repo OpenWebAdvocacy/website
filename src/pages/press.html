@@ -10,7 +10,12 @@ layout: 'layouts/page.njk'
 <ul class="press-list">
   {% for entry in press %}
     <li lang="{{ entry.lang | default('en') }}">
-      <a href="{{ entry.url }}">{{ entry.title }}</a>
+      <div class="press-entry">
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+        <div class="press-date">
+          published by {{ entry.publisher }}, <time datetime="{{ entry.date | w3DateFilter }}" class="dt-published">{{ entry.date | dateFilter }}</time>
+        </div>
+      </div>
     </li>
   {% endfor %}
 </ul>

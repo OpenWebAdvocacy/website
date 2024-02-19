@@ -941,12 +941,16 @@ ul.press-list {
   margin: 2rem 0;
 }
 
-ul.press-list li {
+ul.press-list > li {
   display: flex;
   gap: 1rem;
 }
 
-ul.press-list li::before {
+ul.press-list .press-entry .press-date {
+  font-size: small;
+}
+
+ul.press-list > li::before {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -961,17 +965,17 @@ ul.press-list li::before {
   border-radius: 100%;
 }
 
-ul.press-list [lang="fr"]::before {
+ul.press-list > li[lang="fr"]::before {
   content: "FR";
   background-color: #369;
 }
 
-ul.press-list [lang="de"]::before {
+ul.press-list > li[lang="de"]::before {
   content: "DE";
   background-color: #B26C03;
 }
 
-ul.press-list [lang="it"]::before {
+ul.press-list > li[lang="it"]::before {
   content: "IT";
   background-color: var(--highlight-color);
 }

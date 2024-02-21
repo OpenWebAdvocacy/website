@@ -12,15 +12,15 @@ relatedLinks:
 <div class="prom-banner" style="max-width: 30em;">
     <p class"illustration"><img src="/images/donate.svg" alt="" /></p>
     <p><strong>If you ship a Web App in the EU and will be impacted by this, please fill in our survey.</strong> It is critical that we gather as much evidence as possible to prevent Apple from breaking Web Apps in the EU.</p>
-    
+
     <div>
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfNgzepH4lwmWf2kaKC4EpKPdfi69jUHFM8kf4-TBsAyWU1BA/viewform" class="donate-button">Fill in our Survey
+        <p><a href="https://forms.gle/oD8chWN1oQzN6s5aA" class="donate-button">Fill in our Survey
             <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg>
         </a></p>
     </div>
 </div>
 
-Nearly two weeks ago [we discussed a bug](https://open-web-advocacy.org/blog/did-apple-just-break-web-apps-in-ios17.4-beta-eu/) on iOS Beta 17.4 breaking Web App installation in the EU. Yesterday [we raised the alarm](https://open-web-advocacy.org/blog/apple-on-course-to-break-all-web-apps-in-eu-within-20-days/) that this appeared to be not a bug but a deliberate choice on Apple’s part. Today Apple officially confirmed our suspicions in an update to their compliance proposal.  
+Nearly two weeks ago [we discussed a bug](https://open-web-advocacy.org/blog/did-apple-just-break-web-apps-in-ios17.4-beta-eu/) on iOS Beta 17.4 breaking Web App installation in the EU. Yesterday [we raised the alarm](https://open-web-advocacy.org/blog/apple-on-course-to-break-all-web-apps-in-eu-within-20-days/) that this appeared to be not a bug but a deliberate choice on Apple’s part. Today Apple officially confirmed our suspicions in an update to their compliance proposal.
 
 In a direct attack on the open web, its users, and its developers, [they have decided to kill Web Apps (PWAs) in the EU](https://developer.apple.com/support/dma-and-apps-in-the-eu#8):
 
@@ -31,7 +31,7 @@ This is emphatically not required by the EU’s Digital Markets Act (DMA). It’
 
 It’s telling that this is the feature that Apple refused to share. And it makes sense: the idea that users could install safe and secure apps that Apple can’t tax, block or control is terrifying to them.
 
-The legal obligation to allow third-party browsers onto iOS removes their ability to set a ceiling on web app functionality via their control of Safari and the WKWebView. Suddenly Web Apps would be a viable competitor. It is particularly galling for them to cite low adoption when they have had their thumb on the scale suppressing them for over a decade.  
+The legal obligation to allow third-party browsers onto iOS removes their ability to set a ceiling on web app functionality via their control of Safari and the WKWebView. Suddenly Web Apps would be a viable competitor. It is particularly galling for them to cite low adoption when they have had their thumb on the scale suppressing them for over a decade.
 
 The DMA compels them to allow third party app stores, but Apple’s plan is to cripple them with their hardware and software API fee (Core Technology Fee) and their ludicrous “opt-in to your legal rights” at a different price alternative contract.
 
@@ -41,7 +41,7 @@ So this is their new tactic: Kill off a competitor while saying the EU made them
 
 Apple has had 15 years to allow third party browsers the ability to compete in web app functionality and nearly 2 since they knew they would be legally compelled to do so.
 
-[Apple also makes tenuous, bordering on laughable, claims regarding web app security.](https://developer.apple.com/support/dma-and-apps-in-the-eu#dev-qa:~:text=Why%20don%27t%20users%20in%20the%20EU%20have%20access%20to%20Home%20Screen%20web%20apps%3F) In addition to unwarranted and unjustifiable attempts to project their own model onto competing browsers, Apple makes claims that ignore the history of web applications and browsers in providing strong privacy and security separation. Apple offers no evidence to back these assertions, and ignores the long track record of superior security of PWAs on other OSes. 
+[Apple also makes tenuous, bordering on laughable, claims regarding web app security.](https://developer.apple.com/support/dma-and-apps-in-the-eu#dev-qa:~:text=Why%20don%27t%20users%20in%20the%20EU%20have%20access%20to%20Home%20Screen%20web%20apps%3F) In addition to unwarranted and unjustifiable attempts to project their own model onto competing browsers, Apple makes claims that ignore the history of web applications and browsers in providing strong privacy and security separation. Apple offers no evidence to back these assertions, and ignores the long track record of superior security of PWAs on other OSes.
 
 Again and again, Apple has offered paper-thin fig-leaf arguments based on security to duck regulation, only to have these ploys rejected in nearly every jurisdiction where evidence is critically examined. This appears to be another instance of the same willfully misleading pattern. If security posturing is the backbone of Apple’s attempt to duck conformance with the DMA, the EU must reject the proposal and find Apple willfully non-compliant.
 
@@ -56,4 +56,3 @@ We always assumed that the commission would have to fine Apple billions to force
 This is a message in a bottle to regulators world-wide: Apple will stop at nothing to protect its app distribution monopoly and the rent that comes with it, including removing critical features from its OSes without the slightest care for its users. It will not act in good faith, it must be forced.
 
 We will continue to work with the EC to ensure that Web Apps can remain first-class citizens for iOS users, businesses, and competing browser vendors.
-

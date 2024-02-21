@@ -13,7 +13,7 @@ layout: 'layouts/page.njk'
 
 To facilitate this, [please complete our quick form](https://docs.google.com/forms/d/1PaDs_7stzLKUdOKJalxXljESb8nrVkJRO3w9TkxeYbY/edit) so that we can understand the scale of the impact and provide it to the European Commission in a single large submission. 
 
-**If you completed this form before Feburary 21st, please complete it again - we've got new informaiton we're trying to gather!**
+**If you completed this form before Feburary 21st, please complete it again - we've got new information we're trying to gather!**
 
 If you are not in the EU, or you’ve already sent us your information, please share this message far and wide. We need information immediately to have an effect on this outlandish change from Apple, designed to crush the web entirely.
 

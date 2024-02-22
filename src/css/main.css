@@ -422,10 +422,11 @@ div.promo {
   position: relative;
   padding-top: 1rem;
   margin-top: 2rem;
-  border-top: 2px solid var(--body-text);
+  border-top: 1px solid var(--body-text);
 }
 
 div.promo div.group {
+  --flow-space: 1rem;
   margin: 0;
 }
 
@@ -443,6 +444,17 @@ div.promo p.illustration img {
   box-shadow: 0 0 5px rgb(0 0 0 / 20%);
   transform: rotate(355deg);
 }
+
+aside div.press-entry {
+  --flow-space: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--n-dark);
+}
+
+div.promo h3, aside div.press-entry h3 {
+  font-size: calc(1rem + 0.5vw);
+}
+
 
 /* ---------------------- COMPONENTS -------------------- */
 

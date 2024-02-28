@@ -28,6 +28,10 @@ If you are not in the EU, or you’ve already sent us your information, please s
     </div>
 </div>
 
+<p><strong>Are you established in the EU and have an Apple Developer Account?</strong></p>
+<p>If you are, we encourage you to write directly to Apple to request preservation of the existing functionality that allows Safari and other iOS browsers to add Web Apps to the home screen, allows them to run in top-level activities (not in tabs), integrates with iOS settings and permissions, enables Push Notifications and homescreen icon badging, allows persistent storage, and to run fullscreen. </p>
+<p><a href="https://developer.apple.com/support/ios-interoperability/">Submit your interoperabilty request to Apple</a></p>   
+
 ## What’s happening?
 
 Apple have announced a series of changes designed to comply with the European Union’s Digital Markets Act.

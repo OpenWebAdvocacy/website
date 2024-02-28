@@ -13,9 +13,6 @@ layout: 'layouts/page.njk'
 
 To facilitate this, [please sign our open letter](https://letter.open-web-advocacy.org/) so that we can understand the scale of the impact and provide it to the European Commission in a single large submission.
 
-**If you completed this form before Feburary 21st, please complete it again - we've got new information we're trying to gather!**
-
-If you are not in the EU, or you’ve already sent us your information, please share this message far and wide. We need information immediately to have an effect on this outlandish change from Apple, designed to crush the web entirely.
 
 <div class="prom-banner" style="max-width: 30em;">
     <p class"illustration"><img src="/images/donate.svg" alt="" /></p>

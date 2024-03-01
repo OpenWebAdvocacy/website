@@ -1349,8 +1349,8 @@ img.rounded {
 }
 
 .emergency-banner{
-  background-color: #00008b;
-  color:  #fff;
+  background-color: #118ab2;
+  background-image: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #ffd166 100%);
   padding: 1em;
   text-align: center;
 }

@@ -42,7 +42,7 @@ Since iOS’s inception Apple has [essentially banned third party browsers](http
 
 Further Apple has set a ceiling on Web App functionality by denying them access to key features they need to compete. Apple has deliberately ensured that web apps are hidden in the operating system, and have not provided the ability to show an install button as they do with native apps.
 
-Combined [with significant bugs]((https://open-web-advocacy.org/walled-gardens-report/#ios-safari-is-buggy)), this has suppressed the uptake of Web Apps on mobile devices globally. Despite this, a significant number of consumers and organisations use them as a secure, open, interoperable and untaxed alternative to Apple’s and Google’s proprietary App Stores.
+Combined [with significant bugs](https://open-web-advocacy.org/walled-gardens-report/#ios-safari-is-buggy), this has suppressed the uptake of Web Apps on mobile devices globally. Despite this, a significant number of consumers and organisations use them as a secure, open, interoperable and untaxed alternative to Apple’s and Google’s proprietary App Stores.
 
 This has also been noted by multiple regulators world wide:
 

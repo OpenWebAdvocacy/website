@@ -80,7 +80,7 @@ The enormous impact we’ve had over the last few weeks could not have been achi
 
 Behind the scenes, a small team of dedicated volunteers have worked almost non-stop for the past month to build and launch our surveys, open letters, social media campaigns, translate content, provide technical advice and write multiple lengthy regulatory submissions. 
 
-We’d like to personally thank, John Ozbay, Auguste Dupin, Jasper Van den Ende, Lukasz Olejnik, Bruce Lawson, Stuart Langridge, [Mysk](https://twitter.com/mysk_co), and John Ozbay for their support and we’d like to especially thank the open letter team, for putting in near full-time hours to keep the letter up and running 24/7, namely, Art Miller, Stephen Beshensky, Jasper Van den Ende, Nick Chomey, Roderick Gadellaa and Angela Ricci. We’d like to say thank you to so many people at different organisations, who also fought hard on our side.
+We’d like to personally thank, John Ozbay, Jasper Van den Ende, Lukasz Olejnik, Bruce Lawson, Stuart Langridge, [Mysk](https://twitter.com/mysk_co), and Runos for their support and we’d like to especially thank the open letter team, for putting in near full-time hours to keep the letter up and running 24/7, namely, Art Miller, Stephen Beshensky, Jasper Van den Ende, Nick Chomey, Roderick Gadellaa and Angela Ricci. We’d like to say thank you to so many people at different organisations, who also fought hard on our side.
 
 OWA is incredibly grateful for your time and dedication and the web will be forever in your debt.
 

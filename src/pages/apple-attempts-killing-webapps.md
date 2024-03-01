@@ -1,11 +1,11 @@
 ---
 title: 'Immediate Action Needed!'
 permalink: '/apple-attempts-killing-webapps/'
-metaDesc: 'Apple has officially announced that they attempting to kill web apps in the EU, which will have ramifications worldwide'
+metaDesc: 'Apple has officially announced that they are attempting to kill web apps in the EU, which will have ramifications worldwide'
 layout: 'layouts/page.njk'
 ---
 
-**Apple has officially announced that they attempting to kill web apps in the EU, which will have ramifications worldwide.**
+**Apple has officially announced that they are attempting to kill web apps in the EU, which will have ramifications worldwide.**
 
 ## ACT NOW
 
@@ -27,7 +27,7 @@ To facilitate this, [please sign our open letter](https://letter.open-web-advoca
 
 <p><strong>Are you established in the EU and have an Apple Developer Account?</strong></p>
 <p>If you are, we encourage you to write directly to Apple to request preservation of the existing functionality that allows Safari and other iOS browsers to add Web Apps to the home screen, allows them to run in top-level activities (not in tabs), integrates with iOS settings and permissions, enables Push Notifications and homescreen icon badging, allows persistent storage, and to run fullscreen. </p>
-<p><a href="https://developer.apple.com/support/ios-interoperability/">Submit your interoperabilty request to Apple</a></p>   
+<p><a href="https://developer.apple.com/support/ios-interoperability/">Submit your interoperabilty request to Apple</a></p>
 
 ## What’s happening?
 
@@ -39,5 +39,4 @@ You can read more about the changes they’ve made in these two blog posts:
 
 [It’s Official, Apple Kills Web Apps in the EU](https://open-web-advocacy.org/blog/its-official-apple-kills-web-apps-in-the-eu/)
 
-[OWA’s Review of Apple’s DMA Compliance Proposal for the Web](https://open-web-advocacy.org/blog/owa-review-apple-dma-compliance-for-web/
-)
+[OWA’s Review of Apple’s DMA Compliance Proposal for the Web](https://open-web-advocacy.org/blog/owa-review-apple-dma-compliance-for-web/)

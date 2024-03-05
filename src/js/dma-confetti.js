@@ -2,8 +2,8 @@
 import confetti from 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.module.min.mjs';
 
 const DEADLINE = '2024-03-06T23:00:00Z'; // 23:00:00 UTC = 00:00:00 CET
-const TIMES = 2;
-const MIN_TIME = 1000;
+const TIMES = 10;
+const MIN_TIME = 500;
 const MAX_TIME = 2000;
 
 const SECOND = 1000;

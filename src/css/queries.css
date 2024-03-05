@@ -67,14 +67,6 @@
     gap: 3rem;
   }
   main > div.dma-countdown .timeCd {--flow-space: 0; font-size: 2.5em;}
-  .until-deadline,
-  .since-deadline {
-    position: absolute;
-    translate: 0 0;
-    rotate: -2.5deg;
-    bottom: -10px;
-    right: -10px;
-  }
 }
 
 @media screen and (min-width: 500px) {

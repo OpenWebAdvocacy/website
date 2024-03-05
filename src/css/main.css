@@ -850,6 +850,18 @@ p.dayCd {
   display: block;
   font-size: 2em;
 }
+.until-deadline,
+.since-deadline {
+  display: block;
+  margin-right: auto;
+  padding: 0.5rem;
+  background-color: var(--body-text);
+  color: var(--main-light);
+  font-size: 1.25em;
+}
+.since-deadline {
+  display: none;
+}
 
 
 /* ------------------------  LINKS/LISTS ---------------------------- */
@@ -1359,4 +1371,3 @@ img.rounded {
   width: 100%;
   max-width: 100%;
 }
-

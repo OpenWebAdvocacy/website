@@ -94,7 +94,7 @@
 
             function countDown(deadline) {
               const deadlineTime = Date.parse(deadline);
-              const nowTime = Date.now() + ( DAY * 1 ) + ( HOUR * 13 ) + ( MINUTE * 52 );
+              const nowTime = Date.now();
               const total = Math.abs( deadlineTime - nowTime );
               const seconds = Math.floor((total / SECOND) % 60);
               const minutes = Math.floor( (total / MINUTE) % 60 );

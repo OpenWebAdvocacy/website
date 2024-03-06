@@ -84,13 +84,13 @@
       //Countdown for DMA
       (() => {
 
+        const SECOND = 1000;
+        const MINUTE = SECOND * 60;
+        const HOUR = MINUTE * 60;
+        const DAY = HOUR * 24;
+
         [...document.querySelectorAll('.dma-countdown')].forEach(
           parent => {
-
-            const SECOND = 1000;
-            const MINUTE = SECOND * 60;
-            const HOUR = MINUTE * 60;
-            const DAY = HOUR * 24;
 
             function countDown(deadline) {
               const deadlineTime = Date.parse(deadline);
@@ -147,5 +147,7 @@
 
       })();
     </script>
+
+    <script type="module" src="/js/dma-confetti.js"></script>
   </body>
 </html>

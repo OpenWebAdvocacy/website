@@ -850,6 +850,13 @@ p.dayCd {
   display: block;
   font-size: 2em;
 }
+.until-deadline,
+.since-deadline {
+  --flow-space: 0;
+}
+.since-deadline {
+  display: none;
+}
 
 
 /* ------------------------  LINKS/LISTS ---------------------------- */
@@ -1359,4 +1366,3 @@ img.rounded {
   width: 100%;
   max-width: 100%;
 }
-

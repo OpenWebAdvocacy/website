@@ -87,17 +87,29 @@
         [...document.querySelectorAll('.dma-countdown')].forEach(
           parent => {
 
-            function countDown(endtime) {
-              const total = Date.parse(endtime) - Date.parse(new Date());
-              const seconds = Math.floor((total / 1000) % 60);
-              const minutes = Math.floor( (total/1000/60) % 60 );
-              const hours = Math.floor( (total/(1000*60*60)) % 24 );
-              const days = Math.floor( total/(1000*60*60*24) );
+            const SECOND = 1000;
+            const MINUTE = SECOND * 60;
+            const HOUR = MINUTE * 60;
+            const DAY = HOUR * 24;
+
+            function countDown(deadline) {
+              const deadlineTime = Date.parse(deadline);
+              const nowTime = Date.now();
+              const total = Math.abs( deadlineTime - nowTime );
+              const seconds = Math.floor((total / SECOND) % 60);
+              const minutes = Math.floor( (total / MINUTE) % 60 );
+              const hours = Math.floor( (total / HOUR) % 24 );
+              const days = Math.floor( total/DAY );
 
               cdDays.innerText = days;
               cdHours.innerText = ('0' + hours).slice(-2);
               cdMins.innerText = ('0' + minutes).slice(-2);
               cdSecs.innerText = ('0' + seconds).slice(-2);
+
+              if ( deadlineTime < nowTime ) {
+                untilDL.style.display = 'none';
+                sinceDL.style.display = 'block';
+              }
 
               return {
                 days,
@@ -109,17 +121,7 @@
 
             function initializeClock(endtime) {
               countDown(endtime);
-              const timeinterval = setInterval(() => {
-                const t = countDown(endtime);
-
-                if (t.days <= 0) {
-                  dayCd.style.display = "none";
-                }
-
-                if (t.total <= 0) {
-                  clearInterval(timeinterval);
-                }
-              }, 1000);
+              setInterval(() => countDown(endtime), 1000);
             }
 
             const noscript = parent.querySelector('.deadline');
@@ -131,6 +133,8 @@
             const cdHours = parent.querySelector('.remaining-hours');
             const cdMins = parent.querySelector('.remaining-mins');
             const cdSecs = parent.querySelector('.remaining-secs');
+            const untilDL = parent.querySelector('.until-deadline');
+            const sinceDL = parent.querySelector('.since-deadline');
 
             // If Js on
             noscript.style.display = 'none';

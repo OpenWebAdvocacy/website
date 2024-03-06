@@ -61,6 +61,7 @@
 
 @media screen and (min-width: 500px) and (max-width: 1300px) {
   .home-wrapper div.timer {
+    position: relative;
     flex-direction: row;
     align-items: center;
     gap: 3rem;

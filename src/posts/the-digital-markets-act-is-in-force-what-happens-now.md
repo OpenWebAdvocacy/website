@@ -11,9 +11,9 @@ The Digital Markets Act (DMA) grace period for gatekeepers to comply has now end
 
 The DMA comes with serious teeth, they have the power to fine gatekeepers up to 10% of global revenue repeatedly until they comply with the act. For reference Apple had a global revenue of $383 billion USD in 2023 and their net profit was $100 billion USD, meaning that the maximum cost of a single fine under the DMA is $38.3 billion USD, a sum any gatekeeper would surely blink at. In the case of repeated non-compliance they can fine up-to 20% of global revenue in a single fine. 
 
-Currently there are six gatekeepers who have been designated namely Amazon, Apple, Bytedance Google, Meta and Microsoft. Reportedly X (formerly Twitter) and travel website group Booking [could be added to the list in the near future](https://www.politico.eu/article/elon-musks-x-tiktoks-ad-service-could-face-eu-antitrust-crackdown-under-new-rules/).
+Currently there are six gatekeepers who have been designated: Amazon, Apple, Bytedance, Google, Meta, and Microsoft. Reportedly X (formerly Twitter) and travel website group Booking [could be added to the list in the near future](https://www.politico.eu/article/elon-musks-x-tiktoks-ad-service-could-face-eu-antitrust-crackdown-under-new-rules/).
 
-These gatekeepers have a number of “core platform services” that have been formerly designated under the DMA. To be automatically designated the service must have at least  45 million users in the EU and at least ten thousand business users. Further they need to be of a type of platform covered by the act. Currently the types listed in the act are:
+These gatekeepers have a number of “core platform services” that have been formally designated under the DMA. To be automatically designated the service must have at least  45 million users in the EU and at least ten thousand business users. Further they need to be of a type of platform covered by the act. Currently the types listed in the act are:
 * online intermediation services
 * online search engines
 * online social networking services
@@ -25,7 +25,7 @@ These gatekeepers have a number of “core platform services” that have been f
 * operating systems
 * web browsers
 
-Being designated means that the gatekeeper must make sure the designated core platform service is **fully compliant with the DMA before the end of the 6 month grace period**. The DMA is ex-ante which means it is the gatekeepers responsibility to make sure and show that they are in compliance.
+Being designated means that the gatekeeper must make sure the designated core platform service is **fully compliant with the DMA before the end of the 6 month grace period**. That grace period ended today. The DMA is ex-ante which means it is the gatekeepers responsibility to make sure and show that they are in compliance.
 
 The core platform services that have been designated, split by type are:
 

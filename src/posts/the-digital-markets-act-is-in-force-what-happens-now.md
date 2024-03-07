@@ -47,7 +47,7 @@ The core platform services that have been designated, split by type are:
 * Messenger
 * Whatsapp
 
-**ADS**
+**Online Advertising Services**
 * Amazon
 * Google
 * Meta
@@ -140,7 +140,7 @@ Gatekeepers are only allowed strictly necessary, proportional and justified secu
 > Article 6(5) The gatekeeper shall not treat more favourably, in ranking and related indexing and crawling, services and products offered by the gatekeeper itself than similar services or products of a third party. The gatekeeper shall apply transparent, fair and non-discriminatory conditions to such ranking.
 > </br><cite>[Digital Markets Act - Article 6(5)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
-These recitals and articles state that the gatekeeper can not self-preference themselves in various forms of ranking. This could apply to the user interface design of iOS where in the settings Apple’s apps get special locations, [various undermining of browser choice by Microsoft on Windows](https://research.mozilla.org/files/2024/01/Over-the-Edge-Report-January-2024.pdf) or Google prompting users to download Chrome on google.com or youtube.com in locations that competitors can not. All of these behaviours are now be prohibited in the EU.
+These recitals and articles state that the gatekeeper can not self-preference themselves in various forms of ranking. This could apply to the user interface design of iOS where in the settings Apple’s apps get special locations, [various undermining of browser choice by Microsoft on Windows](https://research.mozilla.org/files/2024/01/Over-the-Edge-Report-January-2024.pdf) or Google prompting users to download Chrome on google.com or youtube.com in locations that competitors can not. All of these behaviours are now prohibited in the EU.
 
 ### Article 6(3)
 
@@ -148,7 +148,7 @@ These recitals and articles state that the gatekeeper can not self-preference th
 > The gatekeeper shall allow and technically enable end users to easily change default settings on the operating system, virtual assistant and web browser of the gatekeeper that direct or steer end users to products or services provided by the gatekeeper. That includes prompting end users, at the moment of the end users’ first use of an online search engine, virtual assistant or web browser of the gatekeeper listed in the designation decision pursuant to Article 3(9), to choose, from a list of the main available service providers, the online search engine, virtual assistant or web browser to which the operating system of the gatekeeper directs or steers users by default, and the online search engine to which the virtual assistant and the web browser of the gatekeeper directs or steers users by default.
 > </br><cite>[Digital Markets Act - Article 6(3)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
-This article mandates browser and search engine choice screens in the EU. Mozilla [recently did a study](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf) that showed a well designed choice screen could cause significant changes in market share, specifically Firefox could increase its market share from to 20%. 
+This article mandates browser and search engine choice screens in the EU. Mozilla [recently did a study](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf) that showed a well designed choice screen could cause significant changes in market share, specifically Firefox could increase its market share to 20%. 
 
 ### Article 6(4)
 

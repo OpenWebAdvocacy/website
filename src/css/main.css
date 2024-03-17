@@ -816,7 +816,6 @@ div.contact-entry {
 /* DMA Countdown blockquote*/
 
 div.dma-countdown {
-  position: relative;
   color: var(--text-inv);
   background-color: var(--main-color);
   padding: 1.5rem;

@@ -455,6 +455,28 @@ div.promo h3, aside div.press-entry h3 {
   font-size: calc(1rem + 0.5vw);
 }
 
+aside div.rss-feed {
+  --flow-space: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--n-dark);
+}
+
+aside div.rss-feed a {
+  display: flex;
+  gap: 0.25rem;
+  align-items: end;
+}
+
+aside div.rss-feed img {
+  width: 1em;
+  padding-inline-end: 0.25em;
+}
+
+div.promo h3, aside div.rss-feed h3 {
+  font-size: calc(1rem + 0.5vw);
+  text-transform: initial;
+}
+
 
 /* ---------------------- COMPONENTS -------------------- */
 

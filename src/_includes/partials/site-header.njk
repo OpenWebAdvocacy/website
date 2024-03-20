@@ -14,6 +14,7 @@
         {% for item in navigation.primary %}
         <li>
           <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+          {% if item.icon %}<img src="{{ item.icon }}">{% endif %}
           {{ item.text }}</a>
         </li>
         {% endfor %}

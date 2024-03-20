@@ -461,6 +461,12 @@ aside div.rss-feed {
   border-top: 1px solid var(--n-dark);
 }
 
+aside div.rss-feed a {
+  display: flex;
+  gap: 0.25rem;
+  align-items: end;
+}
+
 aside div.rss-feed img {
   width: 1em;
   padding-inline-end: 0.25em;

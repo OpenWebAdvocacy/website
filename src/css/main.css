@@ -554,10 +554,6 @@ div.site-header__inner {
   max-width: 200px;
 }
 
-#main-navigation .nav__list img {
-  width: 1rem;
-}
-
 .header-anchor {
   position: absolute;
   margin-left: -1em;

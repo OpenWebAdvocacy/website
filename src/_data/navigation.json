@@ -21,11 +21,6 @@
       "url": "/get-involved/"
     },
     {
-      "text": "RSS",
-      "url": "/feed.xml",
-      "icon": "/images/rss.svg"
-    },
-    {
       "text": "Donate",
       "url": "/donate"
     }

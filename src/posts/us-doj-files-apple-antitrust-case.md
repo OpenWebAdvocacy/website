@@ -9,11 +9,11 @@ Today, the contents US Department of Justice [antitrust lawsuit against Apple we
 
 The suit is wide sweeping, and takes issue with Apple's monopolising tactics in the smartphone market.  But, flipping to page 22, we see details of particular interest to OWA and the #AppleBrowserBan:
 
-> "Developers cannot avoid Apple’s control of app distribution and app creation by making web apps—apps created using standard programming languages for web-based content and available over the internet—as an alternative to native apps. Many iPhone users do not look for or know how to find web apps, causing web apps to constitute only a small fraction of app usage. Apple recognizes that web apps are not a good alternative to native apps for developers. As one Apple executive acknowledged, “[d]evelopers can’t make much money on the web.” Regardless, Apple can still control the functionality of web apps because Apple requires all web browsers on the iPhone to use WebKit, Apple’s browser engine—the key software components that third-party browsers use to display web content."
+> "Developers cannot avoid Apple’s control of app distribution and app creation by making web apps—apps created using standard programming languages for web-based content and available over the internet—as an alternative to native apps. **Many iPhone users do not look for or know how to find web apps, causing web apps to constitute only a small fraction of app usage.** Apple recognizes that web apps are not a good alternative to native apps for developers. As one Apple executive acknowledged, “[d]evelopers can’t make much money on the web.” Regardless, **Apple can still control the functionality of web apps because Apple requires all web browsers on the iPhone to use WebKit, Apple’s browser engine—the key software components that third-party browsers use to display web content.**"
 
 Additionally:
 
-> "Apple can still control the functionality of web apps because Apple rewuires all web browsers on the iPhone to use WebKit, Apples browser engine— the key software components that third-party browsers user to display web content."
+> "Apple can still control the functionality of web apps because Apple requires all web browsers on the iPhone to use WebKit, Apples browser engine— the key software components that third-party browsers user to display web content."
 
 The entire suit is fantastic reading for anyone fed up with the bullying tactics of Apple. With this news following so tightly on from the [EU's Digital Markets Act coming into effect](https://open-web-advocacy.org/blog/apple-backs-off-killing-web-apps/), the dominos are beginning to fall in favour of a fairer, better Open Web!
 

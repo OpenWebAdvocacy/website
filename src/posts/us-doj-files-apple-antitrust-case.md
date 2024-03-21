@@ -5,8 +5,7 @@ tags: ['Policy', 'Apple', 'US']
 author: "OWA"
 ---
 
-Today, the contents US Department of Justice [antitrust lawsuit against Apple were revealed]
-(https://www.404media.co/us-government-antitrust-case-against-apple-documents/). The DOJ along wiht 16 State's Attorneys General are co-litigants against Apple claiming a series of unlawful behaviours by the tech giant.
+Today, the contents US Department of Justice [antitrust lawsuit against Apple were revealed](https://www.404media.co/us-government-antitrust-case-against-apple-documents/). The DOJ along wiht 16 State's Attorneys General are co-litigants against Apple claiming a series of unlawful behaviours by the tech giant.
 
 The suit is wide sweeping, and takes issue with Apple's monopolising tactics in the smartphone market.  But, flipping to page 22, we see details of particular interest to OWA and the #AppleBrowserBan:
 

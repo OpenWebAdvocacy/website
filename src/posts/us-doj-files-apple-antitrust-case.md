@@ -15,4 +15,11 @@ Additionally:
 
 > "Apple can still control the functionality of web apps because Apple rewuires all web browsers on the iPhone to use WebKit, Apples browser engine— the key software components that third-party browsers user to display web content."
 
-Stay tuned for more detailed analysis!
+The entire suit is fantastic reading for anyone fed up with the bullying tactics of Apple. With this news following so tightly on from the [EU's Digital Markets Act coming into effect](https://open-web-advocacy.org/blog/apple-backs-off-killing-web-apps/), the dominos are beginning to fall in favour of a fairer, better Open Web!
+
+Stay tuned for more detailed analysis soon.
+
+- **Mastodon:**      [@OpenWebAdvocacy](https://mastodon.social/@owa)
+- **Discord:**      [OpenWebAdvocacy](https://discord.gg/x53hkqrRKx)
+- **Twitter:**      [@OpenWebAdvocacy](https://twitter.com/OpenWebAdvocacy)
+- **Web:**         [https://open-web-advocacy.org](https://open-web-advocacy.org)

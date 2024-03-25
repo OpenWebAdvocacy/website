@@ -21,7 +21,7 @@ Apple's legal team respond by telling us how customisable the home screen is. Bu
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/_m6tQtDpSbM' frameborder='0' allowfullscreen></iframe></div>
 
-This pattern of forgetting the question continues. John asks why there is no centralised system on iOS to change the default browser. He notes that each browser's setting page has the option to change the default browser, except for Safari's which does not offer a change default, and asks
+John then asks why there is no centralised system on iOS to change the default browser. He notes that each browser's setting page has the option to change the default browser, except for Safari's which does not offer a change default, and asks
 
 > we  had thought that Apple would have fixed such
 a dark pattern prior to the DMA coming into  force but in the latest version of iOS, it seems that it is still present. My question  is, is Apple planning on addressing these or not?
@@ -34,7 +34,7 @@ From <em>our</em> perspective, this is not complying.
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/AiiU_zBirXc' frameborder='0' allowfullscreen></iframe></div>
 
-John notes Apple's DMA compliance plan includes a Browser Entitlement Contract full of legal traps for competing browsers, effectively making it impossible for competing browser vendors to sign the contract and ship their browser engines on iOS for their EU users. John asked
+This pattern of forgetting the question continues. John notes Apple's DMA compliance plan includes a Browser Entitlement Contract full of legal traps for competing browsers, effectively making it impossible for competing browser vendors to sign the contract and ship their browser engines on iOS for their EU users. John asked
 
 > Will you at least make them  minimally viable in the EU by enabling browsers to ship their  own engines under a single app ID and rewrite your contract so  that they're both reasonable and compliant with the DMA?
 

@@ -11,9 +11,9 @@ This morning, the [EU announced](https://ec.europa.eu/commission/presscorner/det
 
 > The Commission suspects that the measures put in place by these gatekeepers fall short of effective compliance of their obligations under the DMA.
 
-> In addition, the Commission has launched investigatory steps relating to Apple's new fee structure for alternative app stores and Amazon's ranking practices on its marketplace. 
+> In addition, the Commission has launched investigatory steps relating to Apple's new fee structure for alternative app stores and Amazon's ranking practices on its marketplace.
 
-We welcome the investigations, and it's telling that it comes after last week's compliance workshops, when gatekeepers were invited by the EU to answer questions on their compliance plans from stakeholders (but not from the EU themselves). 
+We welcome the investigations, and it's telling that it comes after last week's compliance workshops, when gatekeepers were invited by the EU to answer questions on their compliance plans from stakeholders (but not from the EU themselves).
 
 Certainly, in the case of Apple, we found their responses to questions to be just that: responses, rather than answers. See for yourself! Our very own John Ozbay asked why a user who selects Firefox from the browser choice screen will still see Safari in the 'hot seat' position.
 
@@ -21,27 +21,27 @@ Apple's legal team respond by telling us how customisable the home screen is. Bu
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/_m6tQtDpSbM' frameborder='0' allowfullscreen></iframe></div>
 
-This pattern of forgetting the question continues. John asks why there is no centralised system on iOS to change the default browser. He notes that each browser's setting page has the option to change the default browser, except for Safari's which does not offer a change default, and asks 
+This pattern of forgetting the question continues. John asks why there is no centralised system on iOS to change the default browser. He notes that each browser's setting page has the option to change the default browser, except for Safari's which does not offer a change default, and asks
 
 > we  had thought that Apple would have fixed such
 a dark pattern prior to the DMA coming into  force but in the latest version of iOS, it seems that it is still present. My question  is, is Apple planning on addressing these or not?
 
-Strangely, again, John's question is not answered. We are told that millions of people have changed their default browser (we know! choice is good!) and 
+Strangely, again, John's question is not answered. We are told that millions of people have changed their default browser (we know! choice is good!) and
 
 > we are complying from our  perspective with the spirit here.
- 
+
 From <em>our</em> perspective, this is not complying.
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/AiiU_zBirXc' frameborder='0' allowfullscreen></iframe></div>
 
-John notes Apple's DMA compliance plan includes a Browser Entitlement Contract full of legal traps for competing browsers, effectively making it impossible for competing browser vendors to sign the contract and ship their browser engines on iOS for their EU users. John asked 
+John notes Apple's DMA compliance plan includes a Browser Entitlement Contract full of legal traps for competing browsers, effectively making it impossible for competing browser vendors to sign the contract and ship their browser engines on iOS for their EU users. John asked
 
 > Will you at least make them  minimally viable in the EU by enabling browsers to ship their  own engines under a single app ID and rewrite your contract so  that they're both reasonable and compliant with the DMA?
 
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/s41Ha8lZ0Zk' frameborder='0' allowfullscreen></iframe></div>
 
-Apple's reply was that the changes required under the DMA are "a very massive complicated engineering effort". wW don't doubt that; luckily, Apple employs very talented engineers and probably has enough money in the bank to employ a few more. 
+Apple's reply was that the changes required under the DMA are "a very massive complicated engineering effort". We don't doubt that; luckily, Apple employs very talented engineers and probably has enough money in the bank to employ a few more.
 
 But after this uplifting tale of Herculean efforts undergone in Cupertino, John's questions were not answered–even after another questionner asked
 
@@ -66,8 +66,8 @@ This at least got a straight answer:
 
 Sadly, however, not everyone in the room understood what Apple has done to comply with the DMA, hence today's announcement.
 
-Ultimately, of course, our hope is that the investigations don't take 12 months and result in fines. 
+Ultimately, of course, our hope is that the investigations don't take 12 months and result in fines.
 
-The better outcome would be for Apple to acknowledge that their initial compliance plans do not come near to meeting the intent of the DMA, and for it to re-think and submit detailed plans, with timings, on how they will provide customers with a fair, genuine browser choice, and how they plan to allow apps (including browsers with third-party engines) to be distributed without profiteering Core Technology fees or ridiculously over-arching contractual terms that make it difficult for any vendor to meet. 
+The better outcome would be for Apple to acknowledge that their initial compliance plans do not come near to meeting the intent of the DMA, and for it to re-think and submit detailed plans, with timings, on how they will provide customers with a fair, genuine browser choice, and how they plan to allow apps (including browsers with third-party engines) to be distributed without profiteering Core Technology fees or ridiculously over-arching contractual terms that make it difficult for any vendor to meet.
 
 

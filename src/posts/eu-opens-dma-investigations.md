@@ -68,6 +68,8 @@ Sadly, however, not everyone in the room understood what Apple has done to compl
 
 Ultimately, of course, our hope is that the investigations don't take 12 months and result in fines.
 
-The better outcome would be for Apple to acknowledge that their initial compliance plans do not come near to meeting the intent of the DMA, and for it to re-think and submit detailed plans, with timings, on how they will provide customers with a fair, genuine browser choice, and how they plan to allow apps (including browsers with third-party engines) to be distributed without profiteering Core Technology fees or ridiculously over-arching contractual terms that make it difficult for any vendor to meet.
+The better outcome would be for Apple to acknowledge that their initial compliance plans do not come near to meeting the intent of the DMA, and for it to re-think and submit detailed plans, with timings, on how they will provide customers with a fair, genuine browser choice.
+
+We would also like to understand how they plan to allow apps (including browsers with third-party engines) to be distributed without profiteering Core Technology fees or ridiculously over-arching contractual terms that make it difficult for any vendor to meet.
 
 

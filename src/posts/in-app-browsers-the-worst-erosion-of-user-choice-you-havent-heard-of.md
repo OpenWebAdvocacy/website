@@ -11,7 +11,7 @@ In-App Browsers subvert user choice, stifle innovation, trap users into apps, br
 
 OWA recently met with both the Digital Markets Act team and the UK's Market Investigation Reference into Cloud Gaming and Browsers team to discuss how tech giants are subverting users' choice of default browser via in-app browsers and the harm this causes.
 
-In-App browsers is a complex topic, so to outline our thoughts we wrote [a detailed 61 page submission](http://localhost:8080/files/OWA%20-%20DMA%20Interventions%20-%20In-App%20Browsers%20v1.2.pdf) to the EU Commission which we are now publicly publishing today.
+In-App browsers is a complex topic, so to outline our thoughts we wrote [a detailed 61 page submission](/files/OWA%20-%20DMA%20Interventions%20-%20In-App%20Browsers%20v1.2.pdf) to the EU Commission which we are now publicly publishing today.
 
 So what are In-App Browsers, and what problems do they cause?
 

@@ -15,11 +15,15 @@ In-App browsers is a complex topic, so to outline our thoughts we wrote [a detai
 
 So what are In-App Browsers, and what problems do they cause?
 
+An In-App Browser can open when users tap on links in a non-browser app. Rather than switching out of the app and to the user’s default browser, in-app browsers open a pane within the host native app to render web pages. Hence the name, “in-app browser”.
+
 When you click on a link to a third-party website, many popular apps ignore your choice of default browser and instead automatically and silently replace your default browser with their own in-app browser. Many users, likely most users, are not aware that this switch has taken place. 
 
 Worst of all this switch grants these apps the ability to spy and manipulate third-party websites. Popular apps just as Instagram, Facebook Messenger and Facebook have all been caught injecting JavaScript via their in-app browsers into third party websites. TikTok was running commands that were essentially a keylogger. While we have no proof that this data was used or exfiltrated from the device the mere presence of JavaScript code collecting this data combined with no plausible explanation is extremely concerning.
 
-This would have been impossible if links were simply opened in the user's default browser.
+It is possible to use in-app browsers in a way that preserves privacy, both iOS and Android provide a system components SFSafariViewController and Android Custom Tabs respectively which do not allow the hosting app to inject JavaScript or otherwise spy on the user. Android Custom Tabs solution also (by default) invokes the users default browser.
+
+Thus this behavoir is impossible if links were simply opened in the user's default browser or in the system provided in-app browser.
 
 This is the reality users face on their phones today. It doesn't have to be this way. Mandating that apps respect browser choice isn't just a matter of convenience; it's about empowering both consumers and companies to thrive in a more open, stable, feature rich, secure and private digital ecosystem.
 

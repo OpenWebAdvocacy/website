@@ -33,7 +33,7 @@ Mandating that non-browser apps utilise a users' default browser for third-party
 
 The intrusion of in-app browsers, along with the significant bugs, missing features and critical privacy and data protection concerns they introduce should be addressed. The Digital Markets Act and the UK's MIR have all of the necessary enforcement powers to right this wrong. 
 
-We have propose 6 remedies:
+We have proposed 6 remedies:
 * Designated Core Platform Services should respect the users choice of default browser. (DMA specific)
 * App Store rules must mandate non-browser apps use the user's chosen default browser for http/https links to third-party websites/Web Apps.
 * Apple must update SFSafariViewController (Apple’s system provided in-app browser for iOS) to respect the user's choice of default browser.

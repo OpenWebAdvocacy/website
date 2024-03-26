@@ -27,7 +27,7 @@ Disrespect of users’ choice of browser also stifles innovation. The Web thrive
 
 This stagnation hurts everyone. Users are stuck with forgetful, subpar in-app browsers. Businesses struggle to reach and engage with audiences due to missing features and bugs in browsers that no one made an affirmative choice to use.
 
-The solution is clear – respect the user’s choice of browser. 
+**The solution is clear – respect the user’s choice of browser.** 
 
 Mandating that non-browser apps utilise a users' default browser for third-party websites, will unlock a more vibrant and equitable digital landscape. Users will enjoy familiar tools they trust, experiencing websites as they were designed. Businesses and publishers will gain access to earned audiences, free from interference by native app developers. 
 

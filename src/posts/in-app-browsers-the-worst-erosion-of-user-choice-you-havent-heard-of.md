@@ -37,12 +37,12 @@ Mandating that non-browser apps utilise a users' default browser for third-party
 
 The intrusion of in-app browsers, along with the significant bugs, missing features and critical privacy and data protection concerns they introduce should be addressed. The Digital Markets Act and the UK's MIR have all of the necessary enforcement powers to right this wrong. 
 
-Remote tab in-app browsers such as Android Custom Tabs are a potentially ideal solution for most users. Android Custom Tabs by default invokes the users default browser and prevents the app injecting JavaScript. This is an interesting middle ground where the user (and the app) can benefit from not leaving the app context while still respecting the users choice of default browser and preserving the users privacy. However, currently it is possible for the hosting Native App to lock Android Custom Tabs to a particular browser and override the users choice of default browser. This ability needs to be removed.
+Remote tab in-app browsers such as Android Custom Tabs are a potentially ideal solution for most users. Android Custom Tabs by default invokes the user's default browser and prevents the app injecting JavaScript. This is an interesting middle ground where the user (and the app) can benefit from not leaving the app context while still respecting the user's choice of default browser and preserving the user's privacy. However, currently it is possible for the hosting Native App to lock Android Custom Tabs to a particular browser and override the user's choice of default browser. This ability needs to be removed.
 
-While iOS's remote tab in-app browser SFSafariViewController prevents the app injecting JavaScript, it is locked to Safari (or more specifically the WkWebView) and thus overrides the users choice of default browser. 
+While iOS's remote tab in-app browser SFSafariViewController prevents the app injecting JavaScript, it is locked to Safari (or more specifically the WkWebView) and thus overrides the user's choice of default browser. 
 
 We have proposed 6 remedies:
-* Designated Core Platform Services should respect the users choice of default browser. (DMA specific)
+* Designated Core Platform Services should respect the user's choice of default browser. (DMA specific)
 * App Store rules must mandate non-browser apps use the user's chosen default browser for http/https links to third-party websites/Web Apps.
 * Apple must update SFSafariViewController (Apple’s system provided in-app browser for iOS) to respect the user's choice of default browser.
 * Third-Party businesses must be provided an explicit and effective technical opt-out from non-default In-App Browsers.

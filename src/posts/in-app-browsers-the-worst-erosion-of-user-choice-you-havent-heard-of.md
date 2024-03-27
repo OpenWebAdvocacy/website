@@ -51,7 +51,7 @@ We have proposed 6 remedies:
 
 These remedies overlap, addressing different aspects of the problem. When effected, these remedies will prevent gatekeepers from subverting the user choice of browser, provide users enhanced control over their privacy and security, and make technical fixes to the underpinnings of how web pages are loaded. These fixes will project a user’s choice of browser in non-browser apps they use, providing users the security, privacy, stability and features on which browser wars are legitimately fought. No longer will apps be allowed to syphon web traffic for their own enrichment at the detriment of the community at large.
 
-We would in particular like to thank Lukasz Olejnik, Felix Krause, Jesper van den Ende, Stuart Langridge, Bruce Lawson for their work in helping make this case. We are also thankful for the broad support and feedback we have received from the web development and browser development community.
+We would in particular like to thank Lukasz Olejnik, Felix Krause, Jesper van den Ende, Stuart Langridge, Bruce Lawson and Adrian Holovaty for their work in helping make this case. We are also thankful for the broad support and feedback we have received from the web development and browser development community.
 
 We will continue to pursue this matter until it is fixed globally. Users' choice of browser is only important if that choice is actually respected.
 

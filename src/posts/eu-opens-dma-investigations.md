@@ -70,6 +70,4 @@ Ultimately, of course, our hope is that the investigations don't take 12 months 
 
 The better outcome would be for Apple to acknowledge that their initial compliance plans do not come near to meeting the intent of the DMA, and for them to re-think and submit detailed plans, with timings, on how they will provide customers with a fair, genuine browser choice.
 
-We would also like to understand how they plan to allow apps (including browsers with third-party engines) to be distributed without profiteering Core Technology fees or ridiculously over-arching contractual terms that make it difficult for any vendor to meet.
-
-
+We would also like to understand if, how and when Apple intends to fix their ridiculous and clearly non-compliant contractual terms that make it [as Mozilla put it "as painful as possible"](https://www.theverge.com/2024/1/26/24052067/mozilla-apple-ios-browser-rules-firefox) for browser vendors to port their real browsers to iOS.

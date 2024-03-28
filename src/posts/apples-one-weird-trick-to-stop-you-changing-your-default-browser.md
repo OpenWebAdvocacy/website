@@ -5,6 +5,8 @@ tags: ['Policy', 'Apple']
 author: "OWA"
 ---
 
+<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube-nocookie.com/embed/o6uwiG1nKK4?si=269jgW7xPT_KnlQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Long time readers will already know that [Apple has effectively banned all browsers from iOS by preventing them from bringing or modifying their own engines](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers). That makes all browsers on iOS essentially skins round Safari. We brought this up in one of our questions to Apple at their DMA workshop where we stated that _"Apple’s 15 year ban of third-party browser engines has effectively removed browser competition from iOS."_, [surprisingly there was no rebuttal from Apple, even veiled, of our assertion](https://www.youtube.com/watch?v=s41Ha8lZ0Zk&t).
 
 But let's put that aside for now to discuss a different topic. Defaults. 
@@ -36,8 +38,7 @@ Now, some may think it is unfair to suggest that Apple deliberately designed it 
 
 In an astonishingly brazen dark pattern Apple engineers added code to the Safari's settings page to hide the option to change the default browser if Safari was the default but then to prominently show it if another browser was the default.
 
-This video demonstrates it, and you can test it yourself right now.
-<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube-nocookie.com/embed/o6uwiG1nKK4?si=269jgW7xPT_KnlQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+This video at the top demonstrates it, and you can test it yourself right now.
 
 **There is absolutely no plausible defence for this behaviour.**
 

@@ -61,7 +61,7 @@ This is clearly false and does not address any of the specifics in John's questi
 
 > And we know from the experience over the last couple of years that millions of users arround the world choose alternative browsers all the time.
 
-This phrasing is very carefully steps arround the fact that Apple only started letting users change default browser in late 2020 year. Clearly its embarrassing to remind people that for 13 years it was impossible to change the default browser on iOS.
+This phrasing is very carefully steps arround the fact that Apple only started letting users change default browser in late 2020. Clearly it's embarrassing that for 13 years it was impossible to change the default browser on iOS.
 
 > We also know that many of them will choose to make that browser their default one of choice. That happens all the time.
 

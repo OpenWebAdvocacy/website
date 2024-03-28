@@ -1,5 +1,5 @@
 ---
-title: 'In-App Browsers: The worst erosion of user choice you haven't heard of'
+title: "In-App Browsers: The worst erosion of user choice you haven't heard of"
 date: '2024-03-26'
 tags: ['Policy', 'Apple', 'Google', 'Meta', 'TikTok']
 author: "OWA"

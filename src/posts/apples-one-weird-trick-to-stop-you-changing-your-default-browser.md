@@ -36,8 +36,8 @@ Now, some may think it is unfair to suggest that Apple deliberately designed it 
 
 In an astonishingly brazen dark pattern Apple engineers added code to the Safari's settings page to hide the option to change the default browser if Safari was the default but then to prominently show it if another browser was the default.
 
-This video demonstrates it, and you can test it yourself right now:
-VIDEO
+This video demonstrates it, and you can test it yourself right now.
+<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube-nocookie.com/embed/o6uwiG1nKK4?si=269jgW7xPT_KnlQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **There is absolutely no plausible defence for this behaviour.**
 

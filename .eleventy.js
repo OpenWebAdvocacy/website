@@ -29,7 +29,7 @@ module.exports = config => {
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('cleanTocFilter', cleanTocFilter);
   config.addFilter("excerpt", (post) => {
-    const content = post.replace(/(<([^>]+)>)/gi, "");
+    const content = post.replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>|<[^>]*>/gi, "");
     return content.substr(0, content.lastIndexOf(" ", 400)) + "...";
   });
 

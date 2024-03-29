@@ -10,6 +10,9 @@
     {% endif %}
     {% include "partials/promo.njk" %}
     {% include "partials/press-coverage.njk" %}
+    {% if permalink == '/blog/' %}
+      {% include "partials/rss-feed.njk" %}
+    {% endif %}
   </aside>
 {% endblock %}
 

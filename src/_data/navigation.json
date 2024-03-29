@@ -39,6 +39,10 @@
       "url": "/accessibility/"
     },
     {
+      "text": "RSS",
+      "url": "/feed.xml"
+    },
+    {
       "text": "Glossary",
       "url": "/glossary/"
     },

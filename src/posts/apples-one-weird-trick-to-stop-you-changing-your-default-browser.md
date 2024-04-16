@@ -9,15 +9,15 @@ author: "OWA"
 
 Long time readers will already know that [Apple has effectively banned all browsers from iOS by preventing them from bringing or modifying their own engines](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers). That makes all browsers on iOS essentially skins round Safari. We brought this up in one of our questions to Apple at their DMA workshop where we stated that _"Apple’s 15 year ban of third-party browser engines has effectively removed browser competition from iOS."_, [surprisingly there was no rebuttal from Apple, even veiled, of our assertion](https://www.youtube.com/watch?v=s41Ha8lZ0Zk&t).
 
-But let's put that aside for now to discuss a different topic. Defaults. 
+But let's put that aside for now to discuss a different topic: defaults.
 
 The Digital Market Act introduces obligations for gatekeepers to make it easy for users to change defaults including obligating a choice screen.
 
-There is a common phrase about following the letter and spirit of the law. The spirit being are you making good faith efforts to comply with the intent. In the case of the intent of the DMA you don't need to guess as the act itself contains 26 pages of recitals that in very clear language explain exactly what the act is trying to achieve via the letter of the law as spelt out in the articles.
+There is a common phrase about following the letter and spirit of the law. The spirit being: are you making good faith efforts to comply with the intent? In the case of the intent of the DMA, you don't need to guess as the act itself contains 26 pages of recitals that in very clear language explain exactly what the act is trying to achieve via the letter of the law as spelt out in the articles.
 
 In the case of the defaults the recitals have this to say:
 
-> Recital 49: **A gatekeeper can use different means to favour its own or third-party services or products on its operating system**, virtual assistant or web browser, to the detriment of the same or similar services that end users could obtain through other third parties. 
+> Recital 49: **A gatekeeper can use different means to favour its own or third-party services or products on its operating system**, virtual assistant or web browser, to the detriment of the same or similar services that end users could obtain through other third parties.
 > ...
 > **Gatekeepers should also allow end users to easily change the default settings on the operating system**, virtual assistant and web browser **when those default settings favour their own software applications and services. This includes prompting a choice screen** ...
 
@@ -59,7 +59,7 @@ Let's break down Apple's reply.
 
 > Obviously there are a ton of other ways in which users can choose different browsers, different default browsers if they so choose. **We have worked to make this simple and straightforward.**
 
-This is clearly false and does not address any of the specifics in John's question.
+This is clearly false, and does not address any of the specifics in John's question.
 
 > And we know from the experience over the last couple of years that millions of users arround the world choose alternative browsers all the time.
 
@@ -69,15 +69,15 @@ This phrasing is very carefully steps arround the fact that Apple only started l
 
 Apple doesn't publicly share any aggregated data on browser defaults, so it's hard to check.
 
-> In terms of what's being required here by the DMA our focus is on presenting this choice even more clearly to consumers the first time you use Safari. Obviously there are not choices being presented when you use other browsers on iOS. 
+> In terms of what's being required here by the DMA our focus is on presenting this choice even more clearly to consumers the first time you use Safari. Obviously there are not choices being presented when you use other browsers on iOS.
 
 The framing here again is false. As Apple stated in their opening speech there are two aspects of the DMA they have to comply with one making it easy to change the default, and two allowing a choice screen. Apple obviously has no defence on the first and so tries to deflect by focusing on the second.
 
 > So we are complying from our perspective with the spirit here.
 
-We disagree and clearly so does the EU Commission, which on 25 March [opened a proceeding against Apple investigating them over Article 6(3)](https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1689). 
+We disagree and clearly so does the EU Commission, which on 25 March [opened a proceeding against Apple investigating them over Article 6(3)](https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1689).
 
-In there press release they stated:
+In their press release they stated:
 > The Commission has opened proceedings against Apple regarding their measures to comply with obligations to (i) enable end users to easily uninstall any software applications on iOS, (ii) easily change default settings on iOS and (iii) prompt users with choice screens which must effectively and easily allow them to select an alternative default service, such as a browser or search engine on their iPhones.<br><br>
 > The Commission is concerned that Apple's measures, including the design of the web browser choice screen, may be preventing users from truly exercising their choice of services within the Apple ecosystem, in contravention of Article 6(3) of the DMA.
 

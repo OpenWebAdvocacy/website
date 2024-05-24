@@ -2,7 +2,7 @@
 title: "UK passes Digital Markets, Competition and Consumers Bill"
 date: '2024-05-23'
 tags: ['Policy', 'UK']
-author: "Bruce Lawson"
+author: "OWA"
 ---
 
 ## UK passes Digital Markets, Competition and Consumers Bill
@@ -18,7 +18,5 @@ Most importantly for us, the new Act gives more powers to the UK's monopoly regu
 > As part of the Bill, a Digital Markets Unit (DMU) within the CMA will be given new powers to tackle the excessive dominance that a small number of tech companies have held over consumers and businesses in the UK…
 > 
 > For example, the biggest tech firms may be instructed by the DMU to provide more choice and transparency to their customers. If firms don’t abide by these rules, the DMU will have the power to fine them up to 10% of their global turnover.
-
-The Bill has been going through the legislative process for over a year. Bruce would like to thank his Member of Parliament, [Jess Phillips](https://jessphillips.net) (AKA "MP Jessie P"), for taking the time to meet him, listen to him bang on about this, and then immediately sending a Written Question to the Minister to hasten to process. 
 
 OWA looks forward to continuing working with the CMA to bring about a fairer competitive landscape so that smaller British companies can serve their consumers as they wish to, rather than as Tech giants dictate.

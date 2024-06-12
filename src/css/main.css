@@ -175,6 +175,10 @@ blockquote p {
   font-size: 1rem;
 }
 
+blockquote p + p {
+  margin-top: 0.8em;
+}
+
 blockquote::before {
   position: absolute;
   width: 0.5em;
@@ -291,6 +295,15 @@ img {
 }
 
 /* A handy composition block for managing content flow. More on this sorta thing: https://cube.fyi */
+
+.post-content > p:first-child {
+  max-width: 55ch;
+  font-size: 110%;
+  font-variation-settings: var(--fvs-bold);
+  margin-top: var(--flow-space);
+  margin-bottom: calc(var(--flow-space) * 2);
+}
+
 .post {
   font-size: 1.125rem;
   --flow-space: 1.5rem;
@@ -1171,6 +1184,57 @@ p.social {
 ol.alpha {
   list-style-type: lower-alpha;
 }
+
+/* Cards */
+section.card {
+  --flow-space: calc(2rem + 1vw);
+  position: relative;
+  background-color: var(--main-light);
+  padding: calc(1.5rem + 1vw);
+  margin-bottom: var(--flow-space);
+}
+
+section.card::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 61px;
+  bottom: 0;
+  left: calc(1.25rem + 1vw) calc(1.5rem + 1vw) calc(1.5rem + 1vw);
+  background-image: url(/images/owa-logo-card.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all .2s;
+  z-index: 3;
+}
+
+section.card header {
+  margin-bottom: var(--flow-space);
+}
+
+section.card h2, section.card h3 {
+  color: var(--main-color);
+  background-color: var(--main-light);
+}
+
+section.card .baseline {
+  margin-top: 0.25em;
+}
+
+section.card .illustration {
+  position: relative;
+  max-width: 405px;
+  padding-left: 3.5rem;
+}
+  section.card .illustration img {
+    position: relative;
+    box-shadow: 5px 5px 0 var(--n-medium);
+    border-radius: 0.1em;
+    z-index: 2;
+  }
+
+section.card blockquote {--flow-space: 1rem;}
+
 
 /* --------------------- PROMOTION GALLERY ------------------ */
 

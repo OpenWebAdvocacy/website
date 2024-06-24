@@ -2,6 +2,7 @@
     "en": {
         "ariaLabelPaginationlinks": "Pagination links",
         "ariaLabelPrimaryNav": "Primary navigaton",
+        "ariaLabelSecondaryNav": "Secondary navigaton",
         "asideHeading": "Recent updates",
         "asideLinkText": "Read more news",
         "bannerText": "Is Apple DMA compliant? Read the full report!",
@@ -20,6 +21,7 @@
     "es": {
         "ariaLabelPaginationlinks": "Enlaces de paginación",
         "ariaLabelPrimaryNav": "Navegacion primaria",
+        "ariaLabelSecondaryNav": "Navegación secundaria",
         "asideHeading": "Actualizaciones recientes",
         "asideLinkText": "Leer más noticias",
         "bannerText": "¿Cumple Apple con la normativa DMA? ¡Lea el informe completo!",

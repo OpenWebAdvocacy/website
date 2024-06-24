@@ -5,7 +5,7 @@
   <p>
     <a href="https://www.netlify.com/">{{ languages[page.lang].siteFooterPoweredBy }}</a>
   </p>
-  <nav class="[ nav ] [ site-header__nav ]" aria-label="Secondary navigaton">
+  <nav class="[ nav ] [ site-header__nav ]" aria-label="{{ languages[page.lang].ariaLabelSecondaryNav }}">
     <ul class="nav__list">
       {% for item in navigation[page.lang].secondary %}
         <li>

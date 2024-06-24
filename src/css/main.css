@@ -145,14 +145,11 @@ dl {
   max-width: 70ch;
 }
 
-dl {
-  display: grid;
-  grid-template-columns: minmax(auto, 20ch) 1fr;
-  grid-gap: 0.5rem 1rem;
-}
+dl {}
 
 dt {
   font-weight: bold;
+  margin-top: var(--flow-space);
 }
 
 li+li {
@@ -188,7 +185,7 @@ blockquote::before {
 
 cite {
   display: block;
-  font-size: 80%;
+  font-size: 90%;
   margin-top: 0.8em;
 }
 
@@ -1293,7 +1290,7 @@ p.baseline {
 }
 
 div.toc ul {
-  margin-left: 2.5rem;
+  margin: 1rem;
 }
 
 div.toc li {
@@ -1339,8 +1336,8 @@ img.rounded {
 }
 
 .emergency-banner {
-  color: #ffffff;
-  background-color: var(--main-color);
+  color: var(--text-inv);
+  background-color: var(--main-dark);
   padding: 1em;
   text-align: center;
 }

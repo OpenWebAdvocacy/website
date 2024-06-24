@@ -41,13 +41,14 @@ module.exports = config => {
   config.addPlugin(rssPlugin);
   config.addPlugin(externalLinksPlugin);
   config.addPlugin(tocPlugin, {
-    tags: ['h2'],
-    ul: true
+    tags: ['h2', 'h3', 'h4'],
+    ul: true,
+    flat: false
   });
   config.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en',
     errorMode: 'allow-fallback'
-  });
+   });
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {

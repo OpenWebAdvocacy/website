@@ -6,7 +6,10 @@
         "skipLinkText": "Skip to content",
         "ariaLabelPrimaryNav": "Primary navigaton",
         "asideHeading": "Recent updates",
-        "asideLinkText": "Read more news"
+        "asideLinkText": "Read more news",
+        "bannerText": "Is Apple DMA compliant? Read the full report!",
+        "promoHeading": "Promotional Resources",
+        "promoParagraph": "Feel free to print and use our logo and promotional illustrations to show your support for the open web."
     },
     "es": {
         "dir": "",
@@ -15,6 +18,9 @@
         "skipLinkText": "Saltar al contenido",
         "ariaLabelPrimaryNav": "Navegacion primaria",
         "asideHeading": "Actualizaciones recientes",
-        "asideLinkText": "Leer más noticias"
+        "asideLinkText": "Leer más noticias",
+        "bannerText": "¿Cumple Apple con la normativa DMA? ¡Lea el informe completo!",
+        "promoHeading": "Recursos promocionales",
+        "promoParagraph": "Siéntase libre de imprimir y utilizar nuestro logotipo e ilustraciones promocionales para mostrar su apoyo a la web abierta."
     }
 }

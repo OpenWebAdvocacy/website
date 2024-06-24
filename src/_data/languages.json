@@ -5,9 +5,12 @@
         "home": "Home",
         "skipLinkText": "Skip to content",
         "ariaLabelPrimaryNav": "Primary navigaton",
+        "ariaLabelPaginationlinks": "Pagination links",
         "asideHeading": "Recent updates",
         "asideLinkText": "Read more news",
         "bannerText": "Is Apple DMA compliant? Read the full report!",
+        "pressCoverageHeading": "OWA Press Coverage",
+        "pressCoverageParagraph": "Check out how the press is covering OWA actions.",
         "promoHeading": "Promotional Resources",
         "promoParagraph": "Feel free to print and use our logo and promotional illustrations to show your support for the open web."
     },
@@ -17,9 +20,12 @@
         "home": "Inicio",
         "skipLinkText": "Saltar al contenido",
         "ariaLabelPrimaryNav": "Navegacion primaria",
+        "ariaLabelPaginationlinks": "Enlaces de paginación",
         "asideHeading": "Actualizaciones recientes",
         "asideLinkText": "Leer más noticias",
         "bannerText": "¿Cumple Apple con la normativa DMA? ¡Lea el informe completo!",
+        "pressCoverageHeading": "Cobertura de prensa de OWAe",
+        "pressCoverageParagraph": "Vea cómo la prensa cubre las acciones de OWA.",
         "promoHeading": "Recursos promocionales",
         "promoParagraph": "Siéntase libre de imprimir y utilizar nuestro logotipo e ilustraciones promocionales para mostrar su apoyo a la web abierta."
     }

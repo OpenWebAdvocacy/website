@@ -1,0 +1,16 @@
+{
+    "en": {
+        "dir": "",
+        "siteName": "Open Web Advocacy",
+        "home": "Home",
+        "skipLinkText": "Skip to content",
+        "ariaLabelPrimaryNav": "Primary navigaton"
+    },
+    "es": {
+        "dir": "",
+        "siteName": "Defensa de la Web Abierta",
+        "home": "Inicio",
+        "skipLinkText": "Saltar al contenido",
+        "ariaLabelPrimaryNav": "Navegacion primaria"
+    }
+}

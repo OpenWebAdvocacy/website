@@ -40,8 +40,9 @@ module.exports = config => {
   config.addPlugin(rssPlugin);
   config.addPlugin(externalLinksPlugin);
   config.addPlugin(tocPlugin, {
-    tags: ['h2'],
+    tags: ['h2', 'h3', 'h4'],
     ul: true,
+    flat: false
   });
 
   // Returns a collection of blog posts in reverse date order

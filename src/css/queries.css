@@ -57,6 +57,7 @@
   ul.contributors li {
     min-width: 300px;
   }
+
 }
 
 @media screen and (min-width: 500px) {
@@ -98,6 +99,13 @@
   figure {
     padding: 2rem;
   }
+
+  dl {
+    display: grid;
+    grid-template-columns: minmax(auto, 20ch) 1fr;
+    grid-gap: 0.5rem 1rem;
+  }
+  dt {margin-top: 0;}
 }
 
 @media screen and (min-width: 1000px) {

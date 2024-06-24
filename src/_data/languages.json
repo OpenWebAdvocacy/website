@@ -4,13 +4,17 @@
         "siteName": "Open Web Advocacy",
         "home": "Home",
         "skipLinkText": "Skip to content",
-        "ariaLabelPrimaryNav": "Primary navigaton"
+        "ariaLabelPrimaryNav": "Primary navigaton",
+        "asideHeading": "Recent updates",
+        "asideLinkText": "Read more news"
     },
     "es": {
         "dir": "",
         "siteName": "Defensa de la Web Abierta",
         "home": "Inicio",
         "skipLinkText": "Saltar al contenido",
-        "ariaLabelPrimaryNav": "Navegacion primaria"
+        "ariaLabelPrimaryNav": "Navegacion primaria",
+        "asideHeading": "Actualizaciones recientes",
+        "asideLinkText": "Leer más noticias"
     }
 }

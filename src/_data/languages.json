@@ -12,7 +12,9 @@
         "pressCoverageHeading": "OWA Press Coverage",
         "pressCoverageParagraph": "Check out how the press is covering OWA actions.",
         "promoHeading": "Promotional Resources",
-        "promoParagraph": "Feel free to print and use our logo and promotional illustrations to show your support for the open web."
+        "promoParagraph": "Feel free to print and use our logo and promotional illustrations to show your support for the open web.",
+        "rssFeedHeading": "RSS feed",
+        "rssFeedParagraph": "Subscribe to the latest news from OWA."
     },
     "es": {
         "dir": "",
@@ -27,6 +29,8 @@
         "pressCoverageHeading": "Cobertura de prensa de OWAe",
         "pressCoverageParagraph": "Vea cómo la prensa cubre las acciones de OWA.",
         "promoHeading": "Recursos promocionales",
-        "promoParagraph": "Siéntase libre de imprimir y utilizar nuestro logotipo e ilustraciones promocionales para mostrar su apoyo a la web abierta."
+        "promoParagraph": "Siéntase libre de imprimir y utilizar nuestro logotipo e ilustraciones promocionales para mostrar su apoyo a la web abierta.",
+        "rssFeedHeading": "Feed RSS",
+        "rssFeedParagraph": "Suscríbete a las últimas novedades de OWA."
     }
 }

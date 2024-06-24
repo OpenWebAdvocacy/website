@@ -45,7 +45,8 @@ module.exports = config => {
     ul: true
   });
   config.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: 'en'
+    defaultLanguage: 'en',
+    errorMode: 'allow-fallback'
   });
 
   // Returns a collection of blog posts in reverse date order

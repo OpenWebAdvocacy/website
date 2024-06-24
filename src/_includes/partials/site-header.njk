@@ -11,9 +11,9 @@
       class="[ nav ] [ site-header__nav ]"
       aria-label="Primary navigaton">
       <ul class="nav__list">
-        {% for item in navigation.primary %}
+        {% for item in navigation[page.lang].primary %}
         <li>
-          <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+          <a href="{{ item.url | locale_url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
           {{ item.text }}</a>
         </li>
         {% endfor %}

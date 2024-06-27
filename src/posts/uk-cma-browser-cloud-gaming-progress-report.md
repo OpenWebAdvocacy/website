@@ -1,11 +1,11 @@
 ---
-title: “UK Competition and Markets Authority interim report”
+title: “Browser and Cloud Gaming Market Investigation Update”
 date: '2024-06-27'
 tags: ['Policy', 'CMA', 'UK']
 author: "OWA"
 ---
 
-The UK’s Competition and Markets Authority, Browser and Cloud Gaming Market Investigation has just released their progress report. Long time readers may remember that this investigation was restarted after a high court win against Apple.
+The UK’s Competition and Markets Authority, [Browser and Cloud Gaming Market Investigation](https://www.gov.uk/cma-cases/mobile-browsers-and-cloud-gaming) has just released their progress report. Long time readers may remember that this investigation was restarted [after a high court win against Apple](https://open-web-advocacy.org/blog/apple-loses-on-appeal/).
 
 The report delves into Apple’s rule that all browsers on iOS must use the version of WebKit bundled with iOS which is under Apple’s exclusive control.
 
@@ -25,7 +25,7 @@ seen to date does not support this conclusion.”
 Interestingly the report also states that iOS and Android should be considered separate markets for browsers.
 “it is our emerging thinking that the supply of mobile browsers on iOS and Android should be considered as two separate product markets”
 
-This market investigation reference was launched by CMA’s Market Study into Mobile Ecosystems. In the reference decision to the market investigation reference they listed the following potential remedies:
+This market investigation reference was launched by CMA’s Market Study into Mobile Ecosystems. In the [reference decision](https://assets.publishing.service.gov.uk/media/637b65c0d3bf7f7208f6c709/reference_decision__1_.pdf) to the market investigation reference they listed the following potential remedies:
 	•	removing Apple’s restrictions on competing browser engines on iOS devices;
 	•	mandating access to certain functionality for browsers (including supporting web apps);
 	•	requiring Apple and Google to provide equal access to functionality through APIs for rival browsers;
@@ -33,7 +33,7 @@ This market investigation reference was launched by CMA’s Market Study into Mo
 	•	choice screens to overcome the distortive effects of pre-installation; and
 	•	requiring Apple to remove its App Store restrictions on cloud gaming services.
 
-Separately the powers of the CMA has just been significantly strengthened with the passing of the Digital Markets, Competition and Consumers Bill. This will allow them to impose “codes of conduct” on large tech firms with “strategic market status”. This is entirely separate from the market investigation reference, however they will likely read each other’s report.
+Separately the powers of the CMA has just been significantly strengthened [with the passing of the Digital Markets, Competition and Consumers Bill](https://open-web-advocacy.org/blog/uk-passes-dmcc/). This will allow them to impose “codes of conduct” on large tech firms with “strategic market status”. This is entirely separate from the market investigation reference, however they will likely read each other’s report.
 
 We hope that the CMA will end Apple’s effective ban on third party browsers on iOS either via the MIR or the powers granted by the DMCC bill. 
 

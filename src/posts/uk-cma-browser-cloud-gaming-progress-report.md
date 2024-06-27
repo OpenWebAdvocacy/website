@@ -26,12 +26,13 @@ Interestingly the report also states that iOS and Android should be considered s
 “it is our emerging thinking that the supply of mobile browsers on iOS and Android should be considered as two separate product markets”
 
 This market investigation reference was launched by CMA’s Market Study into Mobile Ecosystems. In the [reference decision](https://assets.publishing.service.gov.uk/media/637b65c0d3bf7f7208f6c709/reference_decision__1_.pdf) to the market investigation reference they listed the following potential remedies:
-	•	removing Apple’s restrictions on competing browser engines on iOS devices;
-	•	mandating access to certain functionality for browsers (including supporting web apps);
-	•	requiring Apple and Google to provide equal access to functionality through APIs for rival browsers;
-	•	requirements that make it more straightforward for users to change the default browser within their device settings;
-	•	choice screens to overcome the distortive effects of pre-installation; and
-	•	requiring Apple to remove its App Store restrictions on cloud gaming services.
+
+* removing Apple’s restrictions on competing browser engines on iOS devices;
+* mandating access to certain functionality for browsers (including supporting web apps);
+* requiring Apple and Google to provide equal access to functionality through APIs for rival browsers;
+* requirements that make it more straightforward for users to change the default browser within their device settings;
+* choice screens to overcome the distortive effects of pre-installation; and
+* requiring Apple to remove its App Store restrictions on cloud gaming services.
 
 Separately the powers of the CMA has just been significantly strengthened [with the passing of the Digital Markets, Competition and Consumers Bill](https://open-web-advocacy.org/blog/uk-passes-dmcc/). This will allow them to impose “codes of conduct” on large tech firms with “strategic market status”. This is entirely separate from the market investigation reference, however they will likely read each other’s report.
 

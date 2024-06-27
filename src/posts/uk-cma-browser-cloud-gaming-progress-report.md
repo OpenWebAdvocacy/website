@@ -9,21 +9,22 @@ The UK’s Competition and Markets Authority, [Browser and Cloud Gaming Market I
 
 The report delves into Apple’s rule that all browsers on iOS must use the version of WebKit bundled with iOS which is under Apple’s exclusive control.
 
-“The requirement that all browsers on the iOS operating system use a specific version of the WebKit browser engine controlled by Apple, means that there is no competition between browser engines on the platform. Browser vendors cannot switch to an alternative browser engine or make changes to the version of WebKit used on iOS. Similarly, consumers are unable to switch to a browser based on an alternative browser engine. We consider that the lack of competitive pressure is likely to reduce Apple’s incentives to improve WebKit.”
+> The requirement that all browsers on the iOS operating system use a specific version of the WebKit browser engine controlled by Apple, means that there is no competition between browser engines on the platform. Browser vendors cannot switch to an alternative browser engine or make changes to the version of WebKit used on iOS. Similarly, consumers are unable to switch to a browser based on an alternative browser engine. We consider that the lack of competitive pressure is likely to reduce Apple’s incentives to improve WebKit.
 
-“In addition, we have obtained evidence indicating that browser vendors incur 
+> In addition, we have obtained evidence indicating that browser vendors incur 
 additional costs from having to develop and support a version of their browser 
 based on WebKit, which they would not do if the restriction were not in place. 
 Evidence from browser vendors also indicates that Apple is difficult to engage with 
-regarding requests for fixes or the addition of new features to WebKit on iOS.”
+regarding requests for fixes or the addition of new features to WebKit on iOS.
 
-“Whilst Apple has submitted that the WebKit restriction is necessary to ensure the 
+> Whilst Apple has submitted that the WebKit restriction is necessary to ensure the 
 security, privacy, and performance of iOS devices, and that this is an important 
 aspect of competition between iOS and Android devices, the evidence we have 
-seen to date does not support this conclusion.”
+seen to date does not support this conclusion.
 
 Interestingly the report also states that iOS and Android should be considered separate markets for browsers.
-“it is our emerging thinking that the supply of mobile browsers on iOS and Android should be considered as two separate product markets”
+
+> it is our emerging thinking that the supply of mobile browsers on iOS and Android should be considered as two separate product markets”
 
 This market investigation reference was launched by CMA’s Market Study into Mobile Ecosystems. In the [reference decision](https://assets.publishing.service.gov.uk/media/637b65c0d3bf7f7208f6c709/reference_decision__1_.pdf) to the market investigation reference they listed the following potential remedies:
 

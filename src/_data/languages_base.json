@@ -6,7 +6,10 @@
         "asideHeading": "Recent updates",
         "asideLinkText": "Read more news",
         "bannerText": "Is Apple DMA compliant? Read the full report!",
-        "direction": "",
+        "config": {
+            "direction": "",
+            "siteName": "Open Web Advocacy"
+        },
         "homeText": "Home",
         "pressCoverageHeading": "OWA Press Coverage",
         "pressCoverageParagraph": "Check out how the press is covering OWA actions.",
@@ -15,7 +18,6 @@
         "rssFeedHeading": "RSS feed",
         "rssFeedParagraph": "Subscribe to the latest news from OWA.",
         "siteFooterPoweredBy": "This site is powered by Netlify",
-        "siteName": "Open Web Advocacy",
         "skipLinkText": "Skip to content"
     },
     "es": {
@@ -25,7 +27,10 @@
         "asideHeading": "Actualizaciones recientes",
         "asideLinkText": "Leer más noticias",
         "bannerText": "¿Cumple Apple con la normativa DMA? ¡Lea el informe completo!",
-        "direction": "",
+        "config": {
+            "direction": "",
+            "siteName": "Defensa de la Web Abierta"
+        },
         "homeText": "Inicio",
         "pressCoverageHeading": "Cobertura de prensa de OWAe",
         "pressCoverageParagraph": "Vea cómo la prensa cubre las acciones de OWA.",
@@ -34,7 +39,6 @@
         "rssFeedHeading": "Feed RSS",
         "rssFeedParagraph": "Suscríbete a las últimas novedades de OWA.",
         "siteFooterPoweredBy": "Este sitio funciona con Netlify",
-        "siteName": "Defensa de la Web Abierta",
         "skipLinkText": "Saltar al contenido"
     }
 }

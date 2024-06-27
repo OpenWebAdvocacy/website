@@ -1,7 +1,9 @@
+{% set content = languages_base[page.lang] %}
+
 <div class="emergency-banner">
   <p>
   <strong>
     <a href="/apple-dma-review/">
-      {{ languages[page.lang].bannerText }}</strong></a>
+      {{ content.bannerText }}</strong></a>
   </p>
 </div>

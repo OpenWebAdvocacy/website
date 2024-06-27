@@ -1,6 +1,8 @@
+{% set content = languages_base[page.lang] %}
+
 <div class="press-entry">
   <h3>
-  <a href="/press">{{ languages[page.lang].pressCoverageHeading }}</a>
+  <a href="/press">{{ content.pressCoverageHeading }}</a>
   </h3>
-  <p>{{ languages[page.lang].pressCoverageParagraph }}</p>
+  <p>{{ content.pressCoverageParagraph }}</p>
 </div>

@@ -1,11 +1,13 @@
+{% set content = languages_base[page.lang] %}
+
 {% if permalink != '/owa-promotional/' %}
   <div class="promo">
     <p class="illustration">
       <img src="/images/sticker-example.svg" alt="Example of sticker" />
     </p>
     <div class="group">
-      <h3><a href="/owa-promotional/">{{ languages[page.lang].promoHeading }}</a></h3>
-      <p>{{ languages[page.lang].promoParagraph }}</p>
+      <h3><a href="/owa-promotional/">{{ content.promoHeading }}</a></h3>
+      <p>{{ content.promoParagraph }}</p>
     </div>
   </div>
 {% endif %}

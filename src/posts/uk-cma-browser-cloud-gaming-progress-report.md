@@ -1,5 +1,5 @@
 ---
-title: “Browser and Cloud Gaming Market Investigation Update”
+title: "Browser and Cloud Gaming Market Investigation Update"
 date: '2024-06-27'
 tags: ['Policy', 'CMA', 'UK']
 author: "OWA"

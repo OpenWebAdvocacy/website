@@ -7,8 +7,7 @@
         "asideLinkText": "Read more news",
         "bannerText": "Is Apple DMA compliant? Read the full report!",
         "config": {
-            "direction": "",
-            "siteName": "Open Web Advocacy"
+            "direction": ""
         },
         "homeText": "Home",
         "pressCoverageHeading": "OWA Press Coverage",
@@ -28,8 +27,7 @@
         "asideLinkText": "Leer más noticias",
         "bannerText": "¿Cumple Apple con la normativa DMA? ¡Lea el informe completo!",
         "config": {
-            "direction": "",
-            "siteName": "Open Web Advocacy"
+            "direction": ""
         },
         "homeText": "Inicio",
         "pressCoverageHeading": "Cobertura de prensa de OWA",

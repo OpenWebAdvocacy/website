@@ -1,9 +1,11 @@
+{% set content = languages_base[page.lang] %}
+
 <div class="rss-feed">
   <h3>
     <a href="/feed.xml">
       <img src="/images/rss.svg">
-      RSS feed
+      {{ content.rssFeedHeading }}
     </a>
   </h3>
-  <p>Subscribe to the latest news from OWA.</p>
+  <p>{{ content.rssFeedParagraph }}</p>
 </div>

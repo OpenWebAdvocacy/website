@@ -2,6 +2,7 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const externalLinksPlugin = require('@sardine/eleventy-plugin-external-links');
 const tocPlugin = require('eleventy-plugin-toc');
+const { EleventyI18nPlugin } = require('@11ty/eleventy');
 
 // Markdown Libraries
 const markdownIt = require('markdown-it');
@@ -44,6 +45,10 @@ module.exports = config => {
     ul: true,
     flat: false
   });
+  config.addPlugin(EleventyI18nPlugin, {
+    defaultLanguage: 'en',
+    errorMode: 'allow-fallback'
+   });
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {

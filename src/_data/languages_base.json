@@ -1,0 +1,42 @@
+{
+    "en": {
+        "ariaLabelPaginationlinks": "Pagination links",
+        "ariaLabelPrimaryNav": "Primary navigaton",
+        "ariaLabelSecondaryNav": "Secondary navigaton",
+        "asideHeading": "Recent updates",
+        "asideLinkText": "Read more news",
+        "bannerText": "Is Apple DMA compliant? Read the full report!",
+        "config": {
+            "direction": ""
+        },
+        "homeText": "Home",
+        "pressCoverageHeading": "OWA Press Coverage",
+        "pressCoverageParagraph": "Check out how the press is covering OWA actions.",
+        "promoHeading": "Promotional Resources",
+        "promoParagraph": "Feel free to print and use our logo and promotional illustrations to show your support for the open web.",
+        "rssFeedHeading": "RSS feed",
+        "rssFeedParagraph": "Subscribe to the latest news from OWA.",
+        "siteFooterPoweredBy": "This site is powered by Netlify",
+        "skipLinkText": "Skip to content"
+    },
+    "es": {
+        "ariaLabelPaginationlinks": "Enlaces de paginación",
+        "ariaLabelPrimaryNav": "Navegacion primaria",
+        "ariaLabelSecondaryNav": "Navegación secundaria",
+        "asideHeading": "Noticias recientes",
+        "asideLinkText": "Leer más noticias",
+        "bannerText": "¿Cumple Apple con la normativa DMA? ¡Lea el informe completo!",
+        "config": {
+            "direction": ""
+        },
+        "homeText": "Inicio",
+        "pressCoverageHeading": "Cobertura de prensa de OWA",
+        "pressCoverageParagraph": "Vea cómo la prensa cubre las acciones de OWA.",
+        "promoHeading": "Recursos promocionales",
+        "promoParagraph": "Siéntase libre de imprimir y utilizar nuestro logotipo e ilustraciones promocionales para mostrar su apoyo a la web abierta.",
+        "rssFeedHeading": "Feed RSS",
+        "rssFeedParagraph": "Suscríbete a las últimas noticias de OWA.",
+        "siteFooterPoweredBy": "Este sitio funciona con Netlify",
+        "skipLinkText": "Saltar al contenido"
+    }
+}

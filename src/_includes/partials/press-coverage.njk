@@ -1,6 +1,8 @@
+{% set content = languages_base[page.lang] %}
+
 <div class="press-entry">
   <h3>
-  <a href="/press">OWA Press Coverage</a>
+  <a href="/press">{{ content.pressCoverageHeading }}</a>
   </h3>
-  <p>Check out how the press is covering OWA actions.</p>
+  <p>{{ content.pressCoverageParagraph }}</p>
 </div>

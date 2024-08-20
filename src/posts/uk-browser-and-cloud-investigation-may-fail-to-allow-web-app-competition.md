@@ -94,11 +94,11 @@ This list is on page 21 of the [Browsers and Cloud Remedies Paper](https://asset
 
 </details>
 
-## Why the MIR may fail?
+## Why might the MIR fail?
 
 In the remedies the MIR team is proposing both removing Apple’s rule banning browsers from using their own browser engines and obligating Apple to provide equivalent iOS API access to third party browser vendors that Safari and WebKit have.
 
-### 1. Browser’s can’t Install Web Apps using their own Engine
+### 1. Browsers can’t Install Web Apps using their own Engine
 
 The problem is that these do not fix the core issue, namely, can browsers compete in the provision of Web App functionality using their own browser engine. Apple could plausibly argue that allowing browsers to use their own engine and providing them access to the share menu to install Apple’s WebKit implementation of Web Apps satisfies both requirements.
 
@@ -114,7 +114,9 @@ Worse faced with the genuine possibility of third-party browsers effectively pow
 
 ### 2. Browser Access to Software/Hardware APIs is Insufficient
 
-Next, the wording remedy A3 ("Requirement for Apple to grant equivalent access to APIs used by WebKit and Safari to browsers using alternative browser engines.") is scoped to only what Safari and WebKit have access too, which is a problem as that could allow Apple to set a ceiling by blocking Safari from having access to stuff Apple does not intend to implement for the Web, i.e. Bluetooth, USB etc. If Apple is not under any legal obligation to share needed Software/Hardware APIs required to support browser or Web App features that Safari does not support, they will not provide access to those APIs.
+Next, the wording on remedy A3 ("Requirement for Apple to grant equivalent access to APIs used by WebKit and Safari to browsers using alternative browser engines.") is scoped to only what Safari and WebKit have access too, which is a problem as that could allow Apple to set a ceiling by blocking Safari from having access to stuff Apple does not intend to implement for the Web, i.e. Bluetooth, USB etc. If Apple is not under any legal obligation to share needed Software/Hardware APIs required to support browser or Web App features that Safari does not support, they will not provide access to those APIs.
+
+It is critical that Apple can not reserve functionality for its own apps, system services and apps delivered by its app store by blocking browser vendors access to the required hardware and software APIs. Where feasible browser vendors should have the right to provide feature parity to Web Apps.
 
 ### 3. Web Apps can’t succeed without Install Prompts
 

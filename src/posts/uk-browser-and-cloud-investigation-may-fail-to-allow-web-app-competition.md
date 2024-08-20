@@ -11,7 +11,7 @@ author: [ "OWA" ]
 
 As readers may recall, the UK Competition and Markets Authority launched a Market Investigation Reference (MIR) into [mobile browsers and cloud gaming](https://www.gov.uk/cma-cases/mobile-browsers-and-cloud-gaming) on June 10th 2022. Apple was briefly able to halt this via legal technicalities but thankfully the [CMA won in the high court late last year restarting the investigation](https://open-web-advocacy.org/blog/cma-reopens-investigation-into-apple/).  
 
-From our extensive work in supporting the Mobile Ecosystems Investigation, we know the key reason the Market Investigation Reference into Browsers was launched was to enable the free, open and interoperable ecosystem of the web to contest Apple’s and Google’s app stores, reducing costs for UK’s consumers and businesses. While regulators across the world were focused on app stores, the UK was the only regulator that was looking towards the web and web apps to solve these issues on mobile ecosystems. This aim was made clear by the [opening statements of the Browsers and Cloud MIR](https://www.gov.uk/government/news/cma-plans-market-investigation-into-mobile-browsers-and-cloud-gaming):
+From our extensive work in supporting the [Mobile Ecosystems Study](https://www.gov.uk/cma-cases/mobile-ecosystems-market-study), we know the key reason the [Market Investigation Reference into Browsers and Cloud Gaming](https://www.gov.uk/cma-cases/mobile-browsers-and-cloud-gaming) was launched was to enable the free, open and interoperable ecosystem of the web to contest Apple’s and Google’s app stores, reducing costs for UK’s consumers and businesses. While regulators across the world were focused on app stores, the UK was the only regulator that was looking towards the web and web apps to solve these issues on mobile ecosystems. This aim was made clear by the [opening statements of the Browsers and Cloud MIR](https://www.gov.uk/government/news/cma-plans-market-investigation-into-mobile-browsers-and-cloud-gaming):
 
 
 > We all rely on browsers to use the internet on our phones, and **the engines that make them work have a huge bearing on what we can see and do**. Right now, **choice in this space is severely limited** and that has real impacts – **preventing innovation and reducing competition from web apps**. We need to give innovative tech firms, many of which are ambitious start-ups, a fair chance to compete.
@@ -102,7 +102,7 @@ In the remedies the MIR team is proposing both removing Apple’s rule banning b
 
 The problem is that these do not fix the core issue, namely, can browsers compete in the provision of Web App functionality using their own browser engine. Apple could plausibly argue that allowing browsers to use their own engine and providing them access to the share menu to install Apple’s WebKit implementation of Web Apps satisfies both requirements.
 
-This could lead to a situation where while browser engines such as Blink (Chrome, Edge, Opera, Vivaldi, DuckDuckGo, Brave) and Gecko (Firefox) could be ported to iOS, these browser vendors would be unable to compete to improve the stability, functionality, security or privacy of Web Apps. This would still be under Apple’s sole control.
+This could lead to a situation where while browser engines such as Blink (Chrome, Edge, Opera, Vivaldi, DuckDuckGo, Brave) and Gecko (Firefox) could be ported to iOS, browser vendors would be unable to compete to improve the stability, functionality, security or privacy of Web Apps. This would still be under Apple’s sole control.
 
 As noted in the CMA’s mobile ecosystems study, Apple is heavily incentivized not to support Web Apps to their full potential. Certain features such as install prompts that would allow Web Apps to compete more fairly with Apple’s own apps and app store, will almost certainly never be implemented by Apple.
 
@@ -120,9 +120,23 @@ Next, the wording remedy A3 ("Requirement for Apple to grant equivalent access t
 
 In order for Web Apps to have a significant opportunity to truly compete on iOS, Safari needs to implement [install prompts](https://web.dev/learn/pwa/installation-prompt/) (the ability for websites to prompt, or provide a button to install them as a Web App). Apple, understanding the importance of reducing friction, has implemented a large variety of ways to install apps from Apple’s app store via Safari including [smart banners](https://open-web-advocacy.org/walled-gardens-report/#smart-app-banners) and [app clips](https://open-web-advocacy.org/walled-gardens-report/#app-clips) while keeping the method of installing Web Apps [hidden away in the share menu](https://open-web-advocacy.org/walled-gardens-report/#ios-safari).
 
-PICTURE OF INSTALL PROMPT
-
-
+<figure>
+    {% image
+        "/images/blog/InstallPrompts1.png",
+        "Example of Install Prompt in Chrome on Android",
+        null, null,
+        [150, 200, 300],
+        "150px"
+    %}
+    {% image
+        "/images/blog/InstallPrompts2.png",
+        "Example of Expanded Install Prompt in Chrome on Android",
+        null, null,
+        [150, 200, 300],
+        "150px"
+    %}
+    <figcaption>Example of Install Prompt in Chrome on Android</figcaption>
+</figure>
 
 ## Remedies
 

@@ -114,7 +114,7 @@ Worse faced with the genuine possibility of third-party browsers effectively pow
 
 ### 2. Browser Access to Software/Hardware APIs is Insufficient
 
-Next, the wording remedy A3 ("Requirement for Apple to grant equivalent access to APIs used by WebKit and Safari to browsers using alternative browser engines.") is scoped to only what Safari and WebKit have access too, which is a problem as that could allow Apple to set a ceiling by blocking Safari from having access to stuff Apple does not intend to implement for the Web, i.e. Bluetooth, USB etc. If Apple is not under any legal obligation to share needed APIs required to support browser or Web Apps features that Safari does not support, they will not provide access to those APIs.
+Next, the wording remedy A3 ("Requirement for Apple to grant equivalent access to APIs used by WebKit and Safari to browsers using alternative browser engines.") is scoped to only what Safari and WebKit have access too, which is a problem as that could allow Apple to set a ceiling by blocking Safari from having access to stuff Apple does not intend to implement for the Web, i.e. Bluetooth, USB etc. If Apple is not under any legal obligation to share needed Software/Hardware APIs required to support browser or Web App features that Safari does not support, they will not provide access to those APIs.
 
 ### 3. Web Apps can’t succeed without Install Prompts
 

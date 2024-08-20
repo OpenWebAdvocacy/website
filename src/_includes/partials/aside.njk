@@ -1,11 +1,13 @@
 
+{% set content = languages_base[page.lang] %}
+
 {% block aside %}
   <aside>
     {% if permalink != '/blog/' %}
       <div class="blog">
-        <h2>Recent updates</h2>
+        <h2>{{ content.asideHeading }}</h2>
         {% include "partials/post-list.njk" %}
-        <p><a href="/blog" class="action-button">Read more news</a></p>
+        <p><a href="/blog" class="action-button">{{ content.asideLinkText }}</a></p>
       </div>
     {% endif %}
     {% include "partials/promo.njk" %}

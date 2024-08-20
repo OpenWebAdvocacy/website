@@ -110,11 +110,11 @@ As noted in the CMA’s mobile ecosystems study, Apple is heavily incentivized n
 > </br><cite>[UK CMA - Interim Report into Mobile Ecosystems](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report)</br>(emphasis added)
 </cite>
 
-Worse faced with the genuine possibility of third-party browsers effectively powering Web Apps due to the EU’s Digital Markets Act, Apple's first instinct appears to have been to [remove Web Apps support entirely with no notice to either businesses or consumers](https://open-web-advocacy.org/blog/its-official-apple-kills-web-apps-in-the-eu/). Luckily, [under significant pressure, Apple backed down](https://open-web-advocacy.org/blog/apple-backs-off-killing-web-apps/) from this particular stunt at the last moment. 
+Worse when faced with the genuine possibility of third-party browsers effectively powering Web Apps due to the EU’s Digital Markets Act, Apple's first instinct was to [remove Web Apps support in the EU entirely with no notice to either businesses or consumers](https://open-web-advocacy.org/blog/its-official-apple-kills-web-apps-in-the-eu/). Luckily, [under significant pressure, Apple backed down](https://open-web-advocacy.org/blog/apple-backs-off-killing-web-apps/) from this particular stunt at the last moment. 
 
 ### 2. Browser Access to Software/Hardware APIs is Insufficient
 
-Next, the wording on remedy A3 ("Requirement for Apple to grant equivalent access to APIs used by WebKit and Safari to browsers using alternative browser engines.") is scoped to only what Safari and WebKit have access too, which is a problem as that could allow Apple to set a ceiling by blocking Safari from having access to stuff Apple does not intend to implement for the Web, i.e. Bluetooth, USB etc. If Apple is not under any legal obligation to share needed Software/Hardware APIs required to support browser or Web App features that Safari does not support, they will not provide access to those APIs.
+Next, the wording on remedy A3 ("Requirement for Apple to grant equivalent access to APIs used by WebKit and Safari to browsers using alternative browser engines.") is scoped to only what Safari and WebKit have access to, which is a problem as that could allow Apple to set a ceiling by blocking Safari from having access to stuff Apple does not intend to implement for the Web, i.e. Bluetooth, USB etc. If Apple is not under any legal obligation to share needed Software/Hardware APIs required to support browser or Web App features that Safari does not support, they will not provide access to those APIs.
 
 It is critical that Apple can not reserve functionality for its own apps, system services and apps delivered by its app store by blocking browser vendors access to the required hardware and software APIs. Where feasible browser vendors should have the right to provide feature parity to Web Apps.
 
@@ -170,6 +170,8 @@ If you share our concern that competition issues related to Web Apps will not be
 If possible, explain the harm that has been caused by browsers not being able to compete in the provision of Web App functionality on iOS. 
 
 While we encourage readers to write longer submissions, short but clear emails that explain the key points are still immensely helpful.
+
+Please let the CMA know if your name, business or submission is confidential.
 
 **Please consider spending 15 minutes writing to the regulator. After years of campaigning, this is a critical moment to ensure the Web is able to thrive, and we will not be successful without your support!**
 

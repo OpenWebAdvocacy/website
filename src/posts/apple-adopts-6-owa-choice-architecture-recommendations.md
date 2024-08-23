@@ -5,13 +5,15 @@ tags: ['Policy', 'Apple', 'EU']
 author: "OWA"
 ---
 
-[Today, in a step forward for user choice and browser competitio](https://developer.apple.com/support/browser-choice-screen/), Apple has adopted 6 out of 11 of our recommendations to comply with the EU's Digital Markets Act in relation to browser defaults and choice screens. In addition Apple has fixed [two severe and deliberate deceptive patterns](https://open-web-advocacy.org/blog/apples-one-weird-trick-to-stop-you-changing-your-default-browser/) that we campaigned to fix including at the DMA's workshop.
+[Today, in a step forward for user choice and browser competition](https://developer.apple.com/support/browser-choice-screen/), Apple has adopted 6 out of 11 of our recommendations to comply with the EU's Digital Markets Act in relation to browser defaults and choice screens. In addition Apple has fixed [two severe and deliberate deceptive patterns](https://open-web-advocacy.org/blog/apples-one-weird-trick-to-stop-you-changing-your-default-browser/) that we campaigned to fix including at the DMA's workshop.
 
 [In March the EU Commission opened an investigation into Apple](https://open-web-advocacy.org/blog/eu-opens-dma-investigations/) for non-compliance with the Digital Markets Act related to user choice obligations. Since that time we have been working to ensure that all gatekeepers comply with the DMA with respect to browsers and Web Apps.
 
 ## Implemented Recommendations
 
 1. [Browser vendors should be **granted the hotseat** when being selected as the default browser in the choice screen.](https://open-web-advocacy.org/apple-dma-review/#apples-dark-pattern-exacerbated-by-keeping-hotseat)
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/_m6tQtDpSbM?si=H37IuGP1F_yueGtd' frameborder='0' allowfullscreen title="OWA v Apple: EC DMA Q&A 2 - Will Apple address the dark patterns when changing the default browser?"></iframe></div>
 
 2. [Browsers should be able to **display more information** in the choice screen](https://open-web-advocacy.org/apple-dma-review/#browser-should-be-allowed-to-show-more-information-on-choice-screen)
 
@@ -54,6 +56,8 @@ We will be engaging with the DMA’s investigation into defaults and choice scre
 The deceptive pattern of hiding the option to change default browser in Safari settings if Safari is the default outlined in this article has also been removed by Apple globally. 
 
 Additionally, the deceptive pattern of triggering the choice screen when Safari is not the default browser (typically because it still occupies the hotseat) has been fixed. That is Apple was triggering the choice screen in the hope that users will change from a third-party browser back to Safari.
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/AiiU_zBirXc' frameborder='0' allowfullscreen title="OWA v Apple: EC DMA Q&A 2 - Will Apple address the dark patterns when changing the default browser?"></iframe></div>
 
 ## To Regulators outside the EU
 

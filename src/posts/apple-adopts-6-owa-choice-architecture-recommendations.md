@@ -35,7 +35,7 @@ According to [Apple’s announcement](https://developer.apple.com/support/browse
 2. [Browsers on the choice screen shouldn't be Locked to the Gatekeeper’s app store](https://open-web-advocacy.org/apple-dma-review/#direct-install-browsers-should-be-included-in-choice-screens)
 <br>Browser vendors should be able to choose if they want to have their browser distributed directly or via the AppStore, including if they also distribute via the AppStore. The choice-screen should not force any browser vendor to have to distribute via Apple’s designated core platform service and thus lock them into Apple’s unfair contracts and rules + 30% of any In-App payments.
 <br><br>Apple has indicated they are open to collaborating on this recommendation however we are concerned that browser vendors are in essence locked into Apple’s app store and [are not able to distribute their browser directly](https://open-web-advocacy.org/apple-dma-review/#direct-browser-installation) as they do on desktop operating systems.
-<br><br>Specifically, we believe that the [Core Technology Fee should be removed](https://open-web-advocacy.org/apple-dma-review/#core-technology-fee-should-be-removed) as this is a punitive fee on businesses daring to list any of their apps outside of Apple’s app store.  The EU should consider solving the issues of alternative app distribution (including core-technology fee) so that browser vendors have the option of direct distribution. If these issues are not solved before the choice screen’s are rolled out then a key opportunity for browser vendors to other their browsers directly to users would have been lost.
+<br><br>Specifically, we believe that the [Core Technology Fee should be removed](https://open-web-advocacy.org/apple-dma-review/#core-technology-fee-should-be-removed) as this is a punitive fee on businesses daring to list any of their apps outside of Apple’s app store.  The EU should consider solving the issues of alternative app distribution (including core-technology fee) so that browser vendors have the option of direct distribution. If these issues are not solved before the choice screens are rolled out then a key opportunity for browser vendors to other their browsers directly to users would have been lost.
 <br><br>Apple should also not be allowed to put up scare screens to dissuade users from directly downloading browsers.<br><br>
 
 3. [Browsers should be allowed to know if they are the current default browser.](https://open-web-advocacy.org/apple-dma-review/#default-browser-dark-patterns-and-prompt-api)
@@ -48,6 +48,18 @@ According to [Apple’s announcement](https://developer.apple.com/support/browse
 <br>To be able to easily change from one browser to another, once a user install a new browser they should be able to set it as default from a one-time operating system prompt. This should also include the hotseat.<br>
 
 We will be engaging with the DMA’s investigation into defaults and choice screens about these issues as we believe they are justified and that Apple is obligated to implement them under the text of the DMA.
+
+## Hotseat not granted to already installed browsers and browsers set as default outside the choice screen.
+
+> If Safari is currently in the user’s Dock or on the first page of the Home Screen and the user selects a browser **that is not currently installed on their device** from the choice screen, the selected browser will replace the Safari icon in the user’s Dock or in the Home Screen
+> <cite>[Apple - On Browser Choice Screens](https://developer.apple.com/support/browser-choice-screen/)<br>
+(emphasis added)</cite>
+
+One issue with Apple's implementation is it does not apply to browsers which are already installed. Apple needs to update this to move an already installed browser onto the hotseat to replace the Safari icon when it is selected in the choice screen.
+
+We believe that browsers that are downloaded outside of the choice screen should also replace Safari in the hotseat upon being set as default browser.
+
+This is important as these are both common scenarios. Any friction that OS gatekeepers can introduce to make it harder for users to use a browser other than theirs undermines browser competition. Friction is a powerful force to block competition.
 
 ## Deceptive Patterns
 

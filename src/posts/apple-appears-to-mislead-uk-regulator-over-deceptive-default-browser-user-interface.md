@@ -56,7 +56,7 @@ What does _"This is not correct."_ mean in this context?
 
 The only realistic interpretation is that statements made by the CMA and OWA on this topic are "not correct" or false. That is, at the time either OWA or the CMA’s statements were written, Apple was not employing a deceptive pattern to hide the option to switch default browser if Safari was the default. This is certainly a bold claim given this was independently verified by us, ArsTechnica and the CMA. This verification included screenshots, documents and [a video of the whole process](https://youtu.be/o6uwiG1nKK4). Apple presumably also retains copies of the original code that implement this "functionality" and can easily replicate the issue.
 
-What Apple could, and should have said, here is that _"This is **no longer** correct, as we fixed it in iOS 15.X"_. Instead they appear to have, bafflingly, chosen to mislead the regulator about the existence of the issue entirely.
+What Apple could, and should have said, here is that _"This is **no longer** correct, as we fixed it in iOS 17.x"_. Instead they appear to have, bafflingly, chosen to mislead the regulator about the existence of the issue entirely.
 
 Before accusing Apple of seeking to mislead the CMA, it's worth interrogating the alternatives:
 

@@ -7,6 +7,9 @@ author: [ "OWA" ]
 
 TLDR: Apple seems to have tried to mislead the UK regulator that a deceptive pattern they had previously implemented for picking default browsers, in fact, never existed.
 
+Share and join the conversation: [X/Twitter](https://twitter.com/OpenWebAdvocacy/status/1831247394643800481), [Mastodon](https://mastodon.social/@owa/113078330412825453
+), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_breaking-apple-appears-to-mislead-uk-regulator-activity-7237018638518509568-Gxrc).
+
 ## The Deceptive Pattern
 
 Earlier this year (2024-03-28) [we reported on a deceptive pattern](https://open-web-advocacy.org/blog/apples-one-weird-trick-to-stop-you-changing-your-default-browser/) that Apple had coded into iOS which made it harder for users to change their default browser, if your current default browser was already Safari.

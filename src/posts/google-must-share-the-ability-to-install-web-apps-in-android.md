@@ -7,6 +7,9 @@ author: "OWA"
 
 **TLDR: For 7 years, Google has failed to keep its commitment to share the ability to install Web Apps with third-party browsers on Android, despite [public requests](https://issues.chromium.org/issues/40195497) from Samsung, Microsoft, Brave & Kiwi browser. With regulatory intervention from the EU, Japan and the UK that may be changing.**
 
+Share and join the conversation: [X/Twitter](https://twitter.com/OpenWebAdvocacy/status/1836647016052724100), [Mastodon](https://mastodon.social/@owa/113162700151879686
+).
+
 In 2015, Google introduced a method on Android to install Web Apps and subsequently replaced it with a better system called "WebAPK minting" in 2017. This system allows Chrome on Android to install Web Apps that integrate well with the operating system. At the time, now more than 7 years ago, [Google promised to share this with third-party browser vendors](https://web.dev/webapks/). However, as of today this functionality is still exclusive to Chrome on most Android devices (Note: Samsung has implemented their own version for Samsung Internet on Samsung devices).
 
 > **QUESTION: I am a developer of another browser on Android, can I have this seamless install process?**<br><br>

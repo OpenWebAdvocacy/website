@@ -18,9 +18,6 @@ A [WebAPK](https://web.dev/webapks/) is a thin wrapper Native App that provides 
 
 All native apps on Android are packaged as APKs, either via an app store such as Google Play or via sideloading. WebAPKs allow Web Apps to be integrated into the OS for the purposes of discoverability, permissions management, shortcut creation, registering url with the operating system (so links will open in the web app instead of a browser tab) and uninstallation. This means that web apps installed as WebAPKs are able to be shown in Android’s app drawer and search, system app pages such as apps, storage, screen time and battery usage, and shown without a browser badge.
 
-TODO: PICTURE
-
-
 <figure>
     {% image
         "/images/blog/webapkminting.png",

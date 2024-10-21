@@ -1,37 +1,35 @@
 // Eleventy Plugins
-const rssPlugin = require('@11ty/eleventy-plugin-rss');
-const externalLinksPlugin = require('@sardine/eleventy-plugin-external-links');
-const tocPlugin = require('eleventy-plugin-toc');
-const { EleventyI18nPlugin } = require('@11ty/eleventy');
+import {EleventyI18nPlugin} from '@11ty/eleventy';
+import rssPlugin from '@11ty/eleventy-plugin-rss';
+import externalLinksPlugin from '@sardine/eleventy-plugin-external-links';
+import tocPlugin from 'eleventy-plugin-toc';
 
 // Markdown Libraries
-const markdownIt = require('markdown-it');
-const markdownItAnchor = require('markdown-it-anchor');
-const markdownItAttrs = require('markdown-it-attrs');
-
+import markdownIt from 'markdown-it';
+import markdownItAnchor from 'markdown-it-anchor';
+import markdownItAttrs from 'markdown-it-attrs';
 // Filters
-const dateFilter = require('./src/filters/date-filter.js');
-const hostnameFilter = require('./src/filters/hostname-filter.js');
-const w3DateFilter = require('./src/filters/w3-date-filter.js');
-const cleanTocFilter = require('./src/filters/clean-toc-filter.js');
+import cleanTocFilter from './src/filters/clean-toc-filter.js';
+import dateFilter from './src/filters/date-filter.js';
+import hostnameFilter from './src/filters/hostname-filter.js';
+import w3DateFilter from './src/filters/w3-date-filter.js';
 
 // Shortcodes
-const imageShortcode = require('./src/shortcodes/image.js');
+import imageShortcode from './src/shortcodes/image.js';
 
 // Utils
-const groupEntriesByYear = require('./src/utils/group-entries-by-year.js');
-const { loadPageDetails } = require('./src/utils/page-details.js');
-const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
+import groupEntriesByYear from './src/utils/group-entries-by-year.js';
+import {loadPageDetails} from './src/utils/page-details.js';
 
-module.exports = config => {
+export default config => {
   // Add filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('hostnameFilter', hostnameFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('cleanTocFilter', cleanTocFilter);
-  config.addFilter("excerpt", (post) => {
-    const content = post.replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>|<[^>]*>/gi, "");
-    return content.substr(0, content.lastIndexOf(" ", 400)) + "...";
+  config.addFilter('excerpt', post => {
+    const content = post.replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>|<[^>]*>/gi, '');
+    return content.substr(0, content.lastIndexOf(' ', 400)) + '...';
   });
 
   // Add shortcodes
@@ -48,7 +46,7 @@ module.exports = config => {
   config.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en',
     errorMode: 'allow-fallback'
-   });
+  });
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {
@@ -72,7 +70,8 @@ module.exports = config => {
 
   // Returns press-links grouped by year (descending): [{ year, entries },...]
   config.addCollection('press', async collection => {
-    const pressData = collection.getAll().filter(item => item.data.press)[0]?.data?.press || [];
+    const pressData =
+      collection.getAll().filter(item => item.data.press)[0]?.data?.press || [];
     const pressLinkData = [];
     for (const link of pressData) {
       const linkDetails = await loadPageDetails(link);
@@ -110,21 +109,25 @@ module.exports = config => {
 
 function buildMarkdownLibrary() {
   const mdParser = markdownIt({
-    html: true,
+    html: true
   });
 
   mdParser
-  .use(markdownItAnchor, {
-    level: 1,
-    permalink: markdownItAnchor.permalink.ariaHidden({
-      placement: 'before'
-    }),
-    slugify(s) {
-      const formatted = String(s).trim().toLowerCase().replace(/^[\d.]+\s/g, '').replace(/\s+/g, '-');
-      return encodeURIComponent(formatted);
-    }
-  })
-  .use(markdownItAttrs);
+    .use(markdownItAnchor, {
+      level: 1,
+      permalink: markdownItAnchor.permalink.ariaHidden({
+        placement: 'before'
+      }),
+      slugify(s) {
+        const formatted = String(s)
+          .trim()
+          .toLowerCase()
+          .replace(/^[\d.]+\s/g, '')
+          .replace(/\s+/g, '-');
+        return encodeURIComponent(formatted);
+      }
+    })
+    .use(markdownItAttrs);
 
   return mdParser;
 }

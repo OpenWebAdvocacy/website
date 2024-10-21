@@ -8,7 +8,6 @@ import tocPlugin from 'eleventy-plugin-toc';
 import markdownIt from 'markdown-it';
 import markdownItAnchor from 'markdown-it-anchor';
 import markdownItAttrs from 'markdown-it-attrs';
-const _permalink = markdownItAnchor.permalink;
 // Filters
 import cleanTocFilter from './src/filters/clean-toc-filter.js';
 import dateFilter from './src/filters/date-filter.js';
@@ -116,7 +115,7 @@ function buildMarkdownLibrary() {
   mdParser
     .use(markdownItAnchor, {
       level: 1,
-      permalink: _permalink.ariaHidden({
+      permalink: markdownItAnchor.permalink.ariaHidden({
         placement: 'before'
       }),
       slugify(s) {

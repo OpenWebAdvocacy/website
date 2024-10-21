@@ -10,7 +10,7 @@ permalink: '/feed.xml'
   <subtitle>{{ summary }}</subtitle>
   <link href="{{ site.url }}{{ permalink }}" rel="self"/>
   <link href="{{ site.url }}/"/>
-  <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc822 }}</updated>
+  <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ site.url }}</id>
   <author>
     <name>{{ site.authorName }}</name>
@@ -21,7 +21,7 @@ permalink: '/feed.xml'
     <entry>
       <title>{{ post.data.title }}</title>
       <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ post.date | dateToRfc822 }}</updated>
+      <updated>{{ post.date | dateToRfc3339 }}</updated>
       <id>{{ absolutePostUrl }}</id>
       <content type="html">
         <![CDATA[

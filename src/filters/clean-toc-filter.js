@@ -1,3 +1,3 @@
-module.exports = value => {
-  return value.replace(/\>#/g, '>');
+export default value => {
+  return value?.replace(/\>#/g, '>');
 };

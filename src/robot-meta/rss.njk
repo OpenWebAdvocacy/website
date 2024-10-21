@@ -3,28 +3,32 @@ title: 'posts'
 summary: 'A feed of the latest posts from our blog.'
 permalink: '/feed.xml'
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ site.name }} {{ title }}</title>
-	<subtitle>{{ summary }}</subtitle>
-	<link href="{{ site.url }}{{ permalink }}" rel="self"/>
-	<link href="{{ site.url }}/"/>
-	<updated>{{ collections.blog | rssLastUpdatedDate }}</updated>
-	<id>{{ site.url }}</id>
-	<author>
+  <title>{{ site.name }}
+    {{ title }}</title>
+  <subtitle>{{ summary }}</subtitle>
+  <link href="{{ site.url }}{{ permalink }}" rel="self"/>
+  <link href="{{ site.url }}/"/>
+  <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc822 }}</updated>
+  <id>{{ site.url }}</id>
+  <author>
     <name>{{ site.authorName }}</name>
     <email>{{ site.authorEmail }}</email>
-	</author>
-	{% for post in collections.blog %}
+  </author>
+  {% for post in collections.blog %}
     {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
     <entry>
       <title>{{ post.data.title }}</title>
       <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ post.date | rssDate }}</updated>
+      <updated>{{ post.date | dateToRfc822 }}</updated>
       <id>{{ absolutePostUrl }}</id>
-      <content type="html"><![CDATA[
+      <content type="html">
+        <![CDATA[
         {{ post.templateContent | safe }}
-      ]]></content>
+      ]]>
+      </content>
     </entry>
-	{% endfor %}
+  {% endfor %}
 </feed>

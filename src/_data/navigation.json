@@ -114,5 +114,63 @@
         "url": "/files/"
       }
     ]
+  },
+  "ja": {
+    "primary": [
+      {
+        "text": "ホーム",
+        "url": "/"
+      },
+      {
+        "text": "OWAについて",
+        "url": "/contributors/"
+      },
+      {
+        "text": "ニュース",
+        "url": "/blog/"
+      },
+      {
+        "text": "ウォールド・ガーデン報告書",
+        "url": "/walled-gardens-report/"
+      },
+      {
+        "text": "Apple DMAレビュー",
+        "url": "/apple-dma-review/"
+      },
+      {
+        "text": "参加しよう",
+        "url": "/get-involved/"
+      },
+      {
+        "text": "寄付",
+        "url": "/donate"
+      }
+    ],
+    "secondary": [
+      {
+        "text": "貢献者",
+        "url": "/contributors/"
+      },
+      {
+        "text": "プライバシー",
+        "url": "/privacy/"
+      },
+      {
+        "text": "アクセシビリティ",
+        "url": "/accessibility/"
+      },
+      {
+        "text": "RSS",
+        "url": "/feed.xml"
+      },
+      {
+        "text": "用語集",
+        "url": "/glossary/"
+      },
+      {
+        "text": "ファイル",
+        "url": "/files/"
+      }
+    ]
   }
 }

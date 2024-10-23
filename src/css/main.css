@@ -1357,3 +1357,42 @@ article.apple-dma-review ul, article.apple-dma-review ol {
 article.apple-dma-review div.toc details {
   padding: .5rem .5rem;
 }
+
+.language-picker {
+  display: inline-block;
+}
+
+@starting-style {
+  dialog[open] {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+}
+
+.language-dialog {
+  padding: 1rem;
+  min-width: 8rem;
+}
+
+.language-dialog header {
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--n-dark);
+}
+
+.language-dialog footer {
+  text-align: end;
+}
+
+.language-dialog ul {
+  padding-left: 1rem;
+}
+
+.language-dialog::backdrop {
+  background-color: var(--main-light);
+  opacity: 0.8; 
+}
+
+.language-dialog-close {
+  cursor: pointer;
+}

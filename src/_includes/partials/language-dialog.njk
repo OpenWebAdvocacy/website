@@ -1,0 +1,16 @@
+{% set languages = languages_base.supported %}
+<dialog class="language-dialog">
+  <header>Languages</header>
+  <section aria-label="links to available translations">
+    <ul>
+      {% for language in languages %}
+        <li>
+          <a href="{{ page.url | languagePath(language.base, page.lang) }}">{{ language.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <footer>
+    <button class="action-button">close</button>
+  </footer>
+</dialog>

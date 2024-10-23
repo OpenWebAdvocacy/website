@@ -1,0 +1,46 @@
+
+@page {
+  siz: 210mm 297mm;
+  margin: 2cm;
+}
+
+/* ------------------------------ Papers ---------------------------- */
+
+body.page--is-paper {
+  font-family: sans-serif;
+}
+
+body.page--is-paper header,
+body.page--is-paper .download {
+  display: none;
+}
+
+body.page--is-paper details {
+  padding: 0;
+  background: none;
+}
+
+body.page--is-paper summary::marker {
+  content: none;
+}
+body.page--is-paper summary h2 {
+  font-size: calc(1.5rem + 1vw);
+}
+
+body.page--is-paper section {
+  page-break-inside : avoid;
+}
+
+body.page--is-paper section h2 {
+  page-break-before: always;
+}
+
+/* ------------------------------ Misc ---------------------------- */
+
+/* Expand all collapsers */
+.collapser > button:first-child {
+  display: none;
+}
+.collapser > .collapsed {
+  display: block;
+}

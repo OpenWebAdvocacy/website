@@ -1,3 +1,4 @@
+{% set content = languages_base[page.lang] %}
 <a href="#" data-lang="{{ page.lang }}" class="language-picker">
-  Language ({{ page.lang }})
+  {{ content.languages }} ({{ page.lang }})
 </a>

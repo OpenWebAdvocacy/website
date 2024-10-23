@@ -11,10 +11,7 @@ import markdownItAttrs from 'markdown-it-attrs';
 // Filters
 import cleanTocFilter from './src/filters/clean-toc-filter.js';
 import dateFilter from './src/filters/date-filter.js';
-import debug from './src/filters/debug.js';
 import hostnameFilter from './src/filters/hostname-filter.js';
-import languagePath from './src/filters/language-path.js';
-import locale from './src/filters/locale.js';
 import w3DateFilter from './src/filters/w3-date-filter.js';
 
 // Shortcodes
@@ -30,9 +27,6 @@ export default config => {
   config.addFilter('hostnameFilter', hostnameFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('cleanTocFilter', cleanTocFilter);
-  config.addFilter('debug', debug);
-  config.addFilter('locale', locale);
-  config.addFilter('languagePath', languagePath);
   config.addFilter('excerpt', post => {
     const content = post.replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>|<[^>]*>/gi, '');
     return content.substr(0, content.lastIndexOf(' ', 400)) + '...';

@@ -10,10 +10,12 @@
     "asideHeading": "Recent updates",
     "asideLinkText": "Read more news",
     "bannerText": "Is Apple DMA compliant? Read the full report!",
+    "close": "Close",
     "config": {
       "direction": ""
     },
     "homeText": "Home",
+    "languages": "Languages",
     "pressCoverageHeading": "OWA Press Coverage",
     "pressCoverageParagraph": "Check out how the press is covering OWA actions.",
     "promoHeading": "Promotional Resources",
@@ -30,10 +32,12 @@
     "asideHeading": "Noticias recientes",
     "asideLinkText": "Leer más noticias",
     "bannerText": "¿Cumple Apple con la normativa DMA? ¡Lea el informe completo!",
+    "close": "Cerca",
     "config": {
       "direction": ""
     },
     "homeText": "Inicio",
+    "languages": "Idiomas",
     "pressCoverageHeading": "Cobertura de prensa de OWA",
     "pressCoverageParagraph": "Vea cómo la prensa cubre las acciones de OWA.",
     "promoHeading": "Recursos promocionales",

@@ -4,6 +4,7 @@
 </p>
 {# {% include "partials/banner.njk" %} #}
 <header role="banner" class="home-header">
+  {% include "partials/language-picker.njk" %}
   <div class="identity">
     <p class="logo-home">
       <img src="/images/owa-home-logo.svg" width="175.39" height="212.33" alt="{{ site.name }}" aria-hidden="true"/>
@@ -20,5 +21,4 @@
       {% endfor %}
     </ul>
   </nav>
-  {% include "partials/language-picker.njk" %}
 </header>

@@ -564,6 +564,7 @@ header.site-header {
   background-color: var(--main-color);
   padding-top: 1rem;
   margin-bottom: calc(2vw + 1rem);
+  position: relative;
 }
 
 div.site-header__inner {
@@ -735,7 +736,7 @@ div.home-wrapper h3 {
 }
 
 header.home-header {
-  position: static;
+  position: relative;
   width: 90%;
   max-width: 1400px;
   padding: 5vw 0 1rem;
@@ -1360,13 +1361,9 @@ article.apple-dma-review div.toc details {
 
 .language-picker {
   display: inline-block;
-}
-
-@starting-style {
-  dialog[open] {
-    opacity: 0;
-    transform: scaleY(0);
-  }
+  position: absolute;
+  top: 1rem;
+  right: 0;
 }
 
 .language-dialog {
@@ -1393,6 +1390,6 @@ article.apple-dma-review div.toc details {
   opacity: 0.8; 
 }
 
-.language-dialog-close {
+.language-dialog .action-button {
   cursor: pointer;
 }

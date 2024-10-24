@@ -50,24 +50,24 @@ The following issues remain unresolved:
 * [Core Technology Fee should be removed.](https://open-web-advocacy.org/apple-dma-review/#core-technology-fee-should-be-removed)  
 * [Publish a new more detailed compliance plan.](https://open-web-advocacy.org/apple-dma-review/#apple-should-publish-a-new-more-detailed-compliance-plan)
 
-Google
+**Google:**
 
 * [Share WebAPK Minting with third-party browser vendors subject to strictly necessary, proportionate and justified security measures.](https://open-web-advocacy.org/blog/google-must-share-the-ability-to-install-web-apps-in-android/)  
 * [Respect the users choice of default browser in the Android Google Search App and the Google App.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)  
 * Make Chrome uninstallable on Android.
 
-Microsoft
+**Microsoft:**
 
 * [Remove edge-links and instead respect the users choice of default browser in various Microsoft apps.](https://www.tomshardware.com/news/microsoft-confirms-windows-11-edge-default-browser)  
 * [Remove and permanently disable various popups, banners in Windows, Bing and Edge that aim to discourage users from switching browser.](https://research.mozilla.org/files/2024/01/Over-the-Edge-Report-January-2024.pdf)  
 * [Allow filetype defaults for browsers to be changed more easily.](https://research.mozilla.org/files/2024/01/Over-the-Edge-Report-January-2024.pdf)  
 * Allow users to switch browser in S-Mode, subject to strictly necessary, proportionate and justified security measures.
 
-Meta:
+**Meta:**
 
 * [Respect the users choice of default browser in apps such as Facebook Messenger and Instagram.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)
 
-Bytedance:
+**Bytedance:**
 
 * [Respect the users choice of default browser in TikTok.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)
 

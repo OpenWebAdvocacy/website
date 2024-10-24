@@ -7,6 +7,8 @@ author: "OWA"
 
 Today, together with many others, we have co-signed [this important letter](/files/Open%20Letter%20-%20DMA%20enforcement.pdf) addressing the urgent need for DMA enforcement.  
 
+Share and join the conversation: [X/Twitter](https://twitter.com/OpenWebAdvocacy/status/1849318246358667748), [Mastodon](https://mastodon.social/@owa/113360687739265649), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_its-time-for-a-fairer-more-competitive-activity-7255092980787593219-88eF).
+
 The Digital Markets Act (DMA) aims to restore contestability, interoperability, choice, and fairness to digital markets within the EU. These fundamental principles of a well-functioning digital market have been compromised by the excessive power gatekeepers exert through their control of "core platform services."
 
 The lack of competition in mobile ecosystems is fundamentally structural. Gatekeepers wield immense power due to the security model upon which these devices are built. Traditionally, on operating systems like Windows, macOS, and Linux, users can install any application they choose without interaction from the operating system gatekeeper, either by the business or the end user. Users can then grant these programs the necessary permissions to perform their desired functions.
@@ -43,7 +45,7 @@ The following issues remain unresolved:
 * [Make notarization a fast and automatic process, as on macOS.](https://open-web-advocacy.org/apple-dma-review/#apple-should-make-notarization-for-directly-downloaded-browsers-automatic)  
 * [Allow direct browser installation independently from Apple’s app store.](https://open-web-advocacy.org/apple-dma-review/#direct-browser-installation)  
 * [Allow users to switch to different distribution methods of a native app and allow developers to promote that option to the user.](https://open-web-advocacy.org/apple-dma-review/#allow-users-to-switch-the-distribution-method-of-native-apps)  
-* [Respect the users choice of default browser in SFSafariViewController.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)  
+* [Respect the user's choice of default browser in SFSafariViewController.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)  
 * [Don’t lock Safari to Apple Pay](https://open-web-advocacy.org/apple-dma-review/#safari-is-locked-to-apple-pay)  
 * [Don't break third party browsers for EU residents who are travelling.](https://open-web-advocacy.org/apple-dma-review/#apple-should-not-break-updates-for-eu-residents-traveling-outside-the-eu)  
 * [Opt-Into Rights contract should be removed.](https://open-web-advocacy.org/apple-dma-review/#apple-should-not-break-updates-for-eu-residents-traveling-outside-the-eu:~:text=with%20the%20DMA.-,4.3.6.%20Opt%2DIn%20Rights%20Contract%20Should%20Be%20Removed,-All%20businesses%20serving)  
@@ -53,27 +55,27 @@ The following issues remain unresolved:
 **Google:**
 
 * [Share WebAPK Minting with third-party browser vendors subject to strictly necessary, proportionate and justified security measures.](https://open-web-advocacy.org/blog/google-must-share-the-ability-to-install-web-apps-in-android/)  
-* [Respect the users choice of default browser in the Android Google Search App and the Google App.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)  
+* [Respect the user's choice of default browser in the Android Google Search App and the Google App.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)  
 * Make Chrome uninstallable on Android.
 
 **Microsoft:**
 
-* [Remove edge-links and instead respect the users choice of default browser in various Microsoft apps.](https://www.tomshardware.com/news/microsoft-confirms-windows-11-edge-default-browser)  
+* [Remove edge-links and instead respect the user's choice of default browser in various Microsoft apps.](https://www.tomshardware.com/news/microsoft-confirms-windows-11-edge-default-browser)  
 * [Remove and permanently disable various popups, banners in Windows, Bing and Edge that aim to discourage users from switching browser.](https://research.mozilla.org/files/2024/01/Over-the-Edge-Report-January-2024.pdf)  
 * [Allow filetype defaults for browsers to be changed more easily.](https://research.mozilla.org/files/2024/01/Over-the-Edge-Report-January-2024.pdf)  
 * Allow users to switch browser in S-Mode, subject to strictly necessary, proportionate and justified security measures.
 
 **Meta:**
 
-* [Respect the users choice of default browser in apps such as Facebook Messenger and Instagram.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)
+* [Respect the user's choice of default browser in apps such as Facebook Messenger and Instagram.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)
 
 **Bytedance:**
 
-* [Respect the users choice of default browser in TikTok.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)
+* [Respect the user's choice of default browser in TikTok.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)
 
 For this reason we are adding our voice to many others asking for a fairer, more competitive app ecosystem. Enforcing the DMA is the quickest way to get there.  
 
-We urge MEPs of the ECON and IMCO Committees to hold gatekeepers Apple & Google accountable for compliance with the DMA.
+We urge MEPs of the ECON and IMCO Committees to hold the gatekeepers accountable for compliance with the DMA.
 
 Read [our joint letter here](/files/Open%20Letter%20-%20DMA%20enforcement.pdf).
 

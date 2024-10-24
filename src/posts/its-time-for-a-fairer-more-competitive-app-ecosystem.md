@@ -5,7 +5,7 @@ tags: ['Policy', 'EU', 'DMA', 'Apple', 'Google', 'Microsoft', 'Meta', 'Bytedance
 author: "OWA"
 ---
 
-Today, together with many others, we have co-signed this important letter (to be published) addressing the urgent need for DMA enforcement.  
+Today, together with many others, we have co-signed [this important letter](/files/Open%20Letter%20-%20DMA%20enforcement.pdf) addressing the urgent need for DMA enforcement.  
 
 The Digital Markets Act (DMA) aims to restore contestability, interoperability, choice, and fairness to digital markets within the EU. These fundamental principles of a well-functioning digital market have been compromised by the excessive power gatekeepers exert through their control of "core platform services."
 
@@ -74,3 +74,8 @@ The following issues remain unresolved:
 For this reason we are adding our voice to many others asking for a fairer, more competitive app ecosystem. Enforcing the DMA is the quickest way to get there.  
 
 We urge MEPs of the ECON and IMCO Committees to hold gatekeepers Apple & Google accountable for compliance with the DMA.
+
+Read [our joint letter here](/files/Open%20Letter%20-%20DMA%20enforcement.pdf).
+
+
+

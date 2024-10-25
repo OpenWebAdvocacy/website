@@ -7,7 +7,7 @@ author: "OWA"
 
 **TLDR: Apple has fixed 6 important issues with allowing browsers and Web Apps to compete on iOS (including allowing browser vendors to test their own browsers outside the EU) but a massive list of issues remain to be fixed in order to be in compliance with the DMA.**
 
-**Most importantly, there is no indication that Apple will allow Web Apps to run in a browser's own engine despite news report OR use their own engine without being forced to lose their existing customers.**
+**Most importantly, there is no indication that Apple will allow Web Apps to run in a browser's own engine despite news report OR that browsers will be able to use their own engine without being forced to lose their existing customers.**
 
 Readers Note: When you see the term "EU Only" in this article it's important to recognize this as a reflection of Apple's anti-competitive practices. Such measures should ideally be implemented on a global scale, promoting fair competition for all their users in all jurisdictions.
 
@@ -48,7 +48,7 @@ Astonishingly, Apple decided earlier this year to make it impossible for browser
 > It effectively geofences the development team. Browser-makers whose dev teams are located in the US will only be able to work on simulators. While some testing can be done in a simulator, there's no substitute for testing on device – which means developers will have to work within Apple's prescribed geographical boundary.
 > <cite>[Thomas Claburn - The Register](https://www.theregister.com/2024/05/17/apple_browser_eu/)</cite>
 
-This was clearly ridiculous. With iOS 18.2, Apple now allows not only browser vendors but all app developers to test their own apps which use APIs or functionality that Apple has been forced to share by the DMA.
+This was clearly ridiculous. With iOS 18.2, Apple now allows not only browser vendors but all app developers (wherever they are in the world) to test their own apps which use APIs or functionality that Apple currently restricts to the EU.
 
 However, there is still no solution proposed by Apple to allow web developers outside the EU the ability to test and maintain their websites and Web Apps for EU consumers on third-party browsers which use their own engine. This is and will remain a significant barrier to browser competition on iOS.
 

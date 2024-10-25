@@ -42,6 +42,8 @@ Apple also announced the change in this blog post:
 > Developers of apps that use alternative browser engines can now use WebKit in those same apps.
 > <cite>[Apple - Blog on iOS 18.2](https://developer.apple.com/news/?id=qs5bol0g)</cite>
 
+Importantly this means that browser vendors currently need two browsers. A Webkit only one for outside the EU and their existing EU customers, and a new one that uses their own engine (and can now also use the WebKit engine). 
+
 ### Allowing Browser Vendors to Test their own Browsers Outside the EU
 
 Astonishingly, Apple decided earlier this year to make it impossible for browser vendors to test their own browsers if the developers were not physically located in the EU.

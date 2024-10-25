@@ -7,7 +7,9 @@ author: "OWA"
 
 **TLDR: Apple has fixed 6 important issues with allowing browsers and Web Apps to compete on iOS (including allowing browser vendors to test their own browsers outside the EU) but a massive list of issues remain to be fixed in order to be in compliance with the DMA.**
 
-**Most importantly, there is no indication that Apple will allow Web Apps to run in a browser's own engine despite news report OR that browsers will be able to use their own engine without being forced to lose their existing customers.**
+**Most importantly, there is no indication that Apple will allow Web Apps to run in a browser's own engine despite the [news](https://www.macrumors.com/2024/10/24/ios-18-2-eu-third-party-browser-web-apps/) [reports]((https://9to5mac.com/2024/10/23/ios-18-2-web-apps-browser-engine-in-the-eu/)) OR that browsers will be able to use their own engine without being forced to lose their existing customers.**
+
+Share and join the conversation: [X/Twitter](https://twitter.com/OpenWebAdvocacy/status/1849747949317914780), [Mastodon](https://mastodon.social/@owa/113367403899362760) and [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_apples-ios-182-has-implemented-6-of-owas-activity-7255515996558381056-0nig).
 
 Readers Note: When you see the term "EU Only" in this article it's important to recognize this as a reflection of Apple's anti-competitive practices. Such measures should ideally be implemented on a global scale, promoting fair competition for all their users in all jurisdictions.
 

@@ -26,6 +26,8 @@ As a result, it is essential that all browser vendors be allowed to ship dual en
 
 Browser vendors also need to be allowed to keep their existing EU users. Allowing dual engine browsers also makes this simple by letting browser vendors simply toggle their own engine on or off depending on if Apple allows them to use it in a particular jurisdiction.
 
+However, Apple had added a rule in their contract to explicitly ban this:
+
 > Be a separate binary from any Application that uses the system-provided web browser engine;
 > <cite>[Apple Browser Engine Entitlement Contract - 2024-06-24](/files/Apple%20Browser%20Engine%20Entitlement%20Contact%20(2024-06-24).pdf)</cite>
 
@@ -93,7 +95,7 @@ This means that any browser chosen on the choice screen will replace Safari on t
 
 For browsers that were already installed prior to the previous choice screen, chosen as default on the choice screen (and which Apple decided not to move onto the dock/first home screen), these browsers will now prompt the user if they would like to swap with Safari’s icons location on first launch of Safari.
 
-Prompting the user when they are trying to open Safari feels like an attempt to get the user to dismiss the prompt, as they are likely midway through a task; and it’s hard to see a reason for this other than an anti-competitive attempt to add friction to the user switching which browser they primarily use. This prompt should happen as part of the iOS 18.2 update update process.
+Prompting the user when they are trying to open Safari feels like an attempt to get the user to dismiss the prompt, as they are likely midway through a task; and it’s hard to see a reason for this other than an anti-competitive attempt to add friction to the user switching which browser they primarily use. This prompt should happen as part of the iOS 18.2 update process.
 
 ### Users can uninstall Safari (EU ONLY)
 

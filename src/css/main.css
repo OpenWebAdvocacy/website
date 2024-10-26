@@ -1363,18 +1363,35 @@ article.apple-dma-review div.toc details {
   display: inline-block;
   position: absolute;
   top: 1rem;
+  left: 1rem;
+}
+
+.home-header .language-picker {
   right: 0;
+  left: unset;
 }
 
 .language-dialog {
   padding: 1rem;
-  min-width: 8rem;
+  min-width: 10rem;
 }
 
 .language-dialog header {
   padding-bottom: 0.25rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid var(--n-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.language-dialog header svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background: var(--n-dark);
 }
 
 .language-dialog footer {

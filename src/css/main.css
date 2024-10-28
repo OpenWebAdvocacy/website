@@ -1199,8 +1199,9 @@ ul.thumbs li+li {
 
 ul.thumbs figure {
   position: relative;
-  min-width: 200px;
+  display: flex;
   flex-direction: column;
+  min-width: 200px;
 }
 
 ul.thumbs figcaption {
@@ -1215,6 +1216,10 @@ ul.thumbs figcaption span {
 ul.thumbs a {
   display: block;
   padding-left: 3rem;
+}
+
+ul.thumbs a.wide {
+  padding-left: 0;
 }
 
 ul.thumbs a::after {

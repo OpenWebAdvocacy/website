@@ -1389,9 +1389,6 @@ article.apple-dma-review div.toc details {
 .language-dialog header svg {
   height: 1.5rem;
   width: 1.5rem;
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-  background: var(--n-dark);
 }
 
 .language-dialog footer {

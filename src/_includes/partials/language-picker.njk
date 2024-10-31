@@ -1,4 +1,5 @@
 {% set content = languages_base[page.lang] %}
 <a href="#" data-lang="{{ page.lang }}" class="language-picker">
-  {{ content.languageNames[page.lang] }}
+  {% include "partials/globe.njk" %}
+  {{ content.language }}
 </a>

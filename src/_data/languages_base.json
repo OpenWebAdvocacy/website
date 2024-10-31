@@ -1,7 +1,7 @@
 {
   "supported": [
     {"code": "en", "base": "/", "name": "English"},
-    {"code": "es", "base": "/es", "name": "Spanish"}
+    {"code": "es", "base": "/es", "name": "Español"}
   ],
   "en": {
     "ariaLabelPaginationlinks": "Pagination links",
@@ -16,10 +16,7 @@
     },
     "homeText": "Home",
     "languages": "Languages",
-    "languageNames": {
-      "en": "English",
-      "es": "Spanish"
-    },
+    "language": "English",
     "pressCoverageHeading": "OWA Press Coverage",
     "pressCoverageParagraph": "Check out how the press is covering OWA actions.",
     "promoHeading": "Promotional Resources",
@@ -42,10 +39,7 @@
     },
     "homeText": "Inicio",
     "languages": "Idiomas",
-    "languageNames": {
-      "en": "Inglés",
-      "es": "Español"
-    },
+    "language": "Español",
     "pressCoverageHeading": "Cobertura de prensa de OWA",
     "pressCoverageParagraph": "Vea cómo la prensa cubre las acciones de OWA.",
     "promoHeading": "Recursos promocionales",

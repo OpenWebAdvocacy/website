@@ -1360,10 +1360,21 @@ article.apple-dma-review div.toc details {
 }
 
 .language-picker {
-  display: inline-block;
+  display: inline-flex;
   position: absolute;
+  align-items: center;
+  gap: 0.5rem;
   top: 1rem;
   left: 1rem;
+}
+
+.language-picker svg {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.site-header .language-picker svg {
+  fill: var(--text-inv);
 }
 
 .home-header .language-picker {

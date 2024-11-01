@@ -564,6 +564,7 @@ header.site-header {
   background-color: var(--main-color);
   padding-top: 1rem;
   margin-bottom: calc(2vw + 1rem);
+  position: relative;
 }
 
 div.site-header__inner {
@@ -735,7 +736,7 @@ div.home-wrapper h3 {
 }
 
 header.home-header {
-  position: static;
+  position: relative;
   width: 90%;
   max-width: 1400px;
   padding: 5vw 0 1rem;
@@ -1361,4 +1362,64 @@ article.apple-dma-review ul, article.apple-dma-review ol {
 
 article.apple-dma-review div.toc details {
   padding: .5rem .5rem;
+}
+
+.language-picker {
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+  gap: 0.5rem;
+  top: 1rem;
+  left: 1rem;
+}
+
+.language-picker svg {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.site-header .language-picker svg {
+  fill: var(--text-inv);
+}
+
+.home-header .language-picker {
+  right: 0;
+  left: unset;
+}
+
+.language-dialog {
+  padding: 1rem;
+  min-width: 10rem;
+}
+
+.language-dialog header {
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--n-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.language-dialog header svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.language-dialog footer {
+  text-align: end;
+}
+
+.language-dialog ul {
+  padding-left: 1rem;
+}
+
+.language-dialog::backdrop {
+  background-color: var(--main-light);
+  opacity: 0.8; 
+}
+
+.language-dialog .action-button {
+  cursor: pointer;
 }

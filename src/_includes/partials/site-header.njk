@@ -1,23 +1,21 @@
 {% set content = languages_base[page.lang] %}
-
 <p class="skiplink">
   <a class="[ skip-link ] [ button ]" href="#main-content">{{ content.skipLinkText }}</a>
 </p>
 {# {% include "partials/banner.njk" %} #}
 <header role="banner" class="site-header">
+  {% include "partials/language-picker.njk" %}
   <div class="site-header__inner">
     <a href="/" aria-label="{{ site.name }} - {{ content.homeText }}" class="site-header__brand">
-      <img src="/images/owa-logo.svg" width="154.13" height="186.58" alt="{{ site.name }}" class="logo" />
+      <img src="/images/owa-logo.svg" width="154.13" height="186.58" alt="{{ site.name }}" class="logo"/>
     </a>
-    <nav id="main-navigation"
-      class="[ nav ] [ site-header__nav ]"
-      aria-label="{{ content.ariaLabelPrimaryNav }}">
+    <nav id="main-navigation" class="[ nav ] [ site-header__nav ]" aria-label="{{ content.ariaLabelPrimaryNav }}">
       <ul class="nav__list">
         {% for item in navigation[page.lang].primary %}
-        <li>
-          <a href="{{ item.url | locale_url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
-          {{ item.text }}</a>
-        </li>
+          <li>
+            <a href="{{ item.url | locale_url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+              {{ item.text }}</a>
+          </li>
         {% endfor %}
       </ul>
     </nav>

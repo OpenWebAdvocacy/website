@@ -1392,6 +1392,11 @@ article.apple-dma-review div.toc details {
   min-width: 10rem;
 }
 
+.language-dialog li a[inert] {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
 .language-dialog header {
   padding-bottom: 0.25rem;
   margin-bottom: 1rem;

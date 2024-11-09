@@ -11,6 +11,7 @@ import markdownItAttrs from 'markdown-it-attrs';
 // Filters
 import cleanTocFilter from './src/filters/clean-toc-filter.js';
 import dateFilter from './src/filters/date-filter.js';
+import hasLanguage from './src/filters/has-language.js';
 import hostnameFilter from './src/filters/hostname-filter.js';
 import language from './src/filters/language.js';
 import w3DateFilter from './src/filters/w3-date-filter.js';
@@ -29,6 +30,7 @@ export default config => {
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('cleanTocFilter', cleanTocFilter);
   config.addFilter('language', language);
+  config.addFilter('hasLanguage', hasLanguage);
   config.addFilter('excerpt', post => {
     const content = post.replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>|<[^>]*>/gi, '');
     return content.substr(0, content.lastIndexOf(' ', 400)) + '...';

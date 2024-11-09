@@ -3,5 +3,7 @@ export default (url, lang) => {
     return '';
   }
 
-  return url.startsWith(`/${lang}/`) ? '' : 'inert';
+  return url.startsWith(`/${lang}/`)
+    ? ''
+    : 'inert aria-label="Translation not available"';
 };

@@ -5,6 +5,9 @@ tags: ['Policy', 'Apple', 'EU']
 author: "OWA"
 ---
 
+**Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1857393321922162818), [Mastodon](https://mastodon.social/@owa/113486859647211896
+), [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7263159027944075264) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3laydcxvns22x).**
+
 _Note: Throughout this article, references to iOS also encompass iPadOS._
 
 Apple is currently failing to comply with its obligations under Article 6(3) of the Digital Markets Act (DMA) regarding the provision of the browser choice screen. The iOS browser choice screen is currently broken for any user with age restrictions for apps enabled, effectively preventing them from selecting any browser other than Safari.

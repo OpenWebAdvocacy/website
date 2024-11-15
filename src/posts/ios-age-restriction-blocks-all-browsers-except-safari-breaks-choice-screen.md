@@ -1,5 +1,5 @@
 ---
-title: "Age-restricted iOS choice screen blocks all browsers except Safari"
+title: "iOS age restriction blocks all browsers except Safari, breaks choice screen"
 date: '2024-11-15'
 tags: ['Policy', 'Apple', 'EU']
 author: "OWA"

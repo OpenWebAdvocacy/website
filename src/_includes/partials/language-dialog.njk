@@ -2,10 +2,9 @@
 {% set content = languages_base[page.lang] %}
 <dialog class="language-dialog">
   <header>
-    {% include "partials/globe.njk" %}
-    <span>{{ content.languages }}</span>
+    <h2>{{ content.languages }}</h2>
   </header>
-  <section aria-label="links to available translations">
+  <section aria-label="List of available language versions">
     <ul>
       {% for language in languages %}
         <li>

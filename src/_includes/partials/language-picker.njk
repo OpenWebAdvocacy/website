@@ -1,8 +1,10 @@
 {% set content = languages_base[page.lang] %}
-<button
-  data-lang="{{ page.lang }}"
-  aria-label="Current version: {{ content.language }} (Click to change)"
-  class="language-picker">
-  {% include "partials/globe.njk" %}
-  {{ content.language }}
-</button>
+<p>
+  <button
+    data-lang="{{ page.lang }}"
+    aria-label="Current version: {{ content.language }} (Click to change)"
+    class="language-picker">
+    {% include "partials/globe.njk" %}
+    {{ content.language }}
+  </button>
+</p>

@@ -507,6 +507,7 @@ button,
   grid-template-columns: auto 0.8em;
   align-items: center;
   gap: 1em;
+  width: fit-content;
   padding-right: 1em;
 }
 

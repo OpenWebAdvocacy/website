@@ -1,24 +1,24 @@
 /* --------------------------------------------------------------------
     OPEN WEB ADVOCACY
     Media queries
-    2022
+    2022/2025
 -------------------------------------------------------------------- */
 
 @media screen and (min-width: 400px) {
-  div.site-header__inner {
+  /* div.site-header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+  } */
 
   header:not(.home-header) nav {
     text-align: right;
-    padding: 0 0 1rem;
+    /* padding: 0 0 1rem; */
   }
 
-  header:not(.home-header) nav ul {
+  /* header:not(.home-header) nav ul {
     display: block;
-  }
+  } */
 
   dl.glossary dd {
     position: relative;
@@ -71,15 +71,25 @@
   }
 
   header:not(.home-header) nav a:hover {
-    color: var(--n-dark);
-    background-color: var(--main-color);
+    color: var(--main-light);
   }
 
   header.home-header nav {
     text-align: right;
   }
 
-  body>footer {
+  div.site-header__inner a.site-header__brand {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: end;
+    gap: 3vw;
+  }
+
+  div.site-header__inner a span {
+    display: block;
+  }
+
+  body > footer {
     margin-top: 4rem;
     margin-bottom: 1rem;
   }
@@ -88,8 +98,15 @@
     gap: 3rem;
     margin-bottom: 3rem;
   }
-}
 
+  blockquote {
+    padding-right: 0;
+    padding-left: 3.5rem;
+  }
+  blockquote::before {
+    font-size: 7rem;
+  }
+}
 
 @media screen and (min-width: 700px) {
   p.logo-home {
@@ -115,7 +132,7 @@
     align-items: flex-end;
   }
 
-  header nav ul {
+  header.home-header nav ul {
     display: block;
   }
 
@@ -237,6 +254,10 @@
   #main-home p.home-intro {
     font-size: 1.4em;
     padding-right: 2rem;
+  }
+
+  header:not(.home-header) nav ul {
+    justify-content: space-between;
   }
 
   dl.counter dt {

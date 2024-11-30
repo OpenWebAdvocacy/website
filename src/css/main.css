@@ -164,7 +164,8 @@ blockquote {
   font-style: italic;
   font-size: 1.25rem;
   line-height: 1.55;
-  padding-left: 3.5rem;
+  padding-right: 1rem;
+  padding-left: 2.5rem;
   margin-bottom: var(--flow-space);
 }
 
@@ -178,7 +179,7 @@ blockquote::before {
   top: -0.15em;
   left: 0;
   content: "\201F";
-  font: 7rem Arial, Helvetica, sans-serif;
+  font: 5rem Arial, Helvetica, sans-serif;
   color: var(--main-color);
   background-color: rgba(255, 255, 255, 0);
 }
@@ -501,11 +502,17 @@ button,
   line-height: 1;
 }
 
+.action-button {
+  display: grid;
+  grid-template-columns: auto 0.8em;
+  align-items: center;
+  gap: 1em;
+  width: fit-content;
+  padding-right: 1em;
+}
+
 .action-button::after {
   display: inline-block;
-  position: relative;
-  top: 0.1em;
-  left: 1.5em;
   content: "";
   width: 0.8em;
   height: 0.8em;
@@ -571,6 +578,18 @@ div.site-header__inner {
   width: 90%;
   max-width: 1400px;
   margin: 0 auto;
+
+  & a {
+    font-variation-settings: var(--fvs-black);
+    text-decoration: none;
+    text-transform: lowercase;
+    line-height: 1;
+  }
+  & a span {
+    display: none;
+    max-width: 4em;
+    font-size: 1.4em;
+  }
 }
 
 .site-header__brand {
@@ -578,7 +597,7 @@ div.site-header__inner {
   position: relative;
   bottom: -10px;
   width: 30%;
-  max-width: 200px;
+  max-width: 237px;
 }
 
 .header-anchor {
@@ -723,6 +742,12 @@ header nav ul li:last-of-type a:hover {
   background-position-y: 0.15em;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0H24V24H0z'/%3E%3Cpath d='M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z' /%3E%3C/svg%3E");
   padding-left: 22px;
+}
+
+header:not(.home-header) nav {
+  padding: calc(0.5rem + 0.5vw) 0;
+  margin-top: calc(1.5rem + 1vw);
+  border-top: 1px solid var(--body-bg);
 }
 
 
@@ -1372,13 +1397,16 @@ article.apple-dma-review div.toc details {
   padding: .5rem .5rem;
 }
 
+/* Language Picker and modal */
+
 .language-picker {
   display: inline-flex;
   position: absolute;
   align-items: center;
   gap: 0.25rem;
   top: 1rem;
-  left: 1rem;
+  right: 0;
+  font-size: 0.85em;
   color: var(--body-text);
   background-color: var(--body-bg);
   padding-block: 0.25em;
@@ -1403,6 +1431,13 @@ article.apple-dma-review div.toc details {
   & li {
     font-size: 1em;
   }
+}
+
+header:not(.home-header) p:has(button.language-picker) {
+  position: relative;
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .language-dialog header {

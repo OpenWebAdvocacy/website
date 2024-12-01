@@ -1,9 +1,8 @@
-
 {% set content = languages_base[page.lang] %}
 {% set translatedVersions = 0 %}
 {% for language in languages_base.supported %}
   {% if helpers.hasTranslatedVersion(page.url | locale_url(language.code), language.code) %}
-    {% set translatedVersions = translationCount + 1 %}
+    {% set translatedVersions = translatedVersions + 1 %}
   {% endif %}
 {% endfor %}
 
@@ -12,7 +11,7 @@
 </p>
 {# {% include "partials/banner.njk" %} #}
 <header role="banner" class="site-header">
-  {% if translationCount > 1 %}
+  {% if translatedVersions > 1 %}
     {% include "partials/language-picker.njk" %}
   {% endif %}
   <div class="site-header__inner">

@@ -1,10 +1,20 @@
+
 {% set content = languages_base[page.lang] %}
+{% set translatedVersions = 0 %}
+{% for language in languages_base.supported %}
+  {% if helpers.hasTranslatedVersion(page.url | locale_url(language.code), language.code) %}
+    {% set translatedVersions = translationCount + 1 %}
+  {% endif %}
+{% endfor %}
+
 <p class="skiplink">
   <a class="[ skip-link ] [ button ]" href="#main-content">{{ content.skipLinkText }}</a>
 </p>
 {# {% include "partials/banner.njk" %} #}
 <header role="banner" class="site-header">
-  {% include "partials/language-picker.njk" %}
+  {% if translationCount > 1 %}
+    {% include "partials/language-picker.njk" %}
+  {% endif %}
   <div class="site-header__inner">
     <a href="/" aria-label="{{ site.name }} - {{ content.homeText }}" class="site-header__brand">
       <img src="/images/owa-logo.svg" width="154.13" height="186.58" alt="{{ site.name }}" class="logo"/>

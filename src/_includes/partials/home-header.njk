@@ -14,10 +14,12 @@
   <nav id="main-navigation" class="[ nav ] [ site-header__nav ]" aria-label="{{ content.ariaLabelPrimaryNav }}">
     <ul class="nav__list">
       {% for item in navigation[page.lang].primary %}
-        <li>
-          <a href="{{ item.url | locale_url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
-            {{ item.text }}</a>
-        </li>
+        {% if helpers.hasTranslatedVersion(item.url | locale_url, page.lang) %}
+          <li>
+            <a href="{{ item.url | locale_url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+              {{ item.text }}</a>
+          </li>
+        {% endif %} 
       {% endfor %}
     </ul>
   </nav>

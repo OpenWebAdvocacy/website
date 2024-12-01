@@ -70,3 +70,23 @@ export function getSiblingContent(collection, item, limit = 3, random = true) {
 export function filterCollectionByKeys(collection, keys) {
   return collection.filter(x => keys.includes(x.data.key));
 }
+
+/**
+ * Returns boolean to indicate if the passed in url has a translated version
+ * of the page in the passed in language
+ *
+ * @param {String} itemUrl The link page url
+ * @param {String} pageLang The set page language
+ * @returns {Boolean}
+ */
+export function hasTranslatedVersion(itemUrl, pageLang) {
+  if (pageLang === 'en') {
+    return true;
+  }
+
+  if (itemUrl.includes(`/${pageLang}/`)) {
+    return true;
+  }
+
+  return false;
+}

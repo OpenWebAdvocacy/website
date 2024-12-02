@@ -3,6 +3,11 @@
 {% block content %}
   <article class="h-entry [ post ] [ flow ]">
     <h1 class="p-name">{{ title }}</h1>
+
+    {% if translated === false %}
+      {% include "partials/banner-translation.njk" %}
+    {% endif %}
+
     {{ content | safe }}
   </article>
 {% endblock %}

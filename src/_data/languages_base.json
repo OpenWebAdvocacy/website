@@ -24,7 +24,8 @@
     "rssFeedHeading": "RSS feed",
     "rssFeedParagraph": "Subscribe to the latest news from OWA.",
     "siteFooterPoweredBy": "This site is powered by Netlify",
-    "skipLinkText": "Skip to content"
+    "skipLinkText": "Skip to content",
+    "translationNotAvailable": "Unfortunately, this page has not been translated into your preferred language yet."
   },
   "es": {
     "ariaLabelPaginationlinks": "Enlaces de paginación",
@@ -47,6 +48,7 @@
     "rssFeedHeading": "Feed RSS",
     "rssFeedParagraph": "Suscríbete a las últimas noticias de OWA.",
     "siteFooterPoweredBy": "Este sitio funciona con Netlify",
-    "skipLinkText": "Saltar al contenido"
+    "skipLinkText": "Saltar al contenido",
+    "translationNotAvailable": "Lamentablemente, esta página aún no se ha traducido a su idioma preferido."
   }
 }

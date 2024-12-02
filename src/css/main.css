@@ -1374,6 +1374,17 @@ img.rounded {
   border-radius: 0.5rem;
 }
 
+/* Banners */
+
+.banner {
+  background: var(--n-light);
+  padding: 1em;
+}
+
+h1:has(+ .banner) {
+  margin-bottom: 1.5rem;
+}
+
 .emergency-banner {
   color: var(--text-inv);
   background-color: var(--main-dark);

@@ -1387,7 +1387,7 @@ img.rounded {
 }
 
 .site-header:has(+ .banner) {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 .emergency-banner {

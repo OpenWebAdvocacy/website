@@ -49,12 +49,11 @@
     {% else %}
       {% include "partials/site-header.njk" %}
     {% endif %}
-
-      {% if translated === false %}
-    {% include "partials/banner-translation.njk" %}
-  {% endif %}
+    
+    {% if translated === false %}
+      {% include "partials/banner-translation.njk" %}
+    {% endif %}
   
-
     {% if isHome %}
       {% block homecontent %}{% endblock %}
     {% else %}

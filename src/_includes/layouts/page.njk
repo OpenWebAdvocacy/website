@@ -1,7 +1,7 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-  <article class="h-entry [ post ] [ flow ]">
+  <article class="h-entry [ post ] [ flow ]" {% if translated === false %} lang="en" {% endif %}>
     <h1 class="p-name">{{ title }}</h1>
 
     {% if translated === false %}

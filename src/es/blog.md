@@ -1,6 +1,6 @@
 ---
 title: 'News'
-permalink: '/blog/'
+permalink: '/es/blog/'
 metaDesc: 'Check out the most recent blog posts from Open Web Advocacy.'
 templateEngineOverride: njk
 ---

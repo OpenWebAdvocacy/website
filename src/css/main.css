@@ -1379,10 +1379,15 @@ img.rounded {
 .banner {
   background: var(--n-light);
   padding: 1em;
+  text-align: center;
+  
+  p {
+    max-width: none;
+  }
 }
 
-h1:has(+ .banner) {
-  margin-bottom: 1.5rem;
+.site-header:has(+ .banner) {
+  margin-bottom: 0em;
 }
 
 .emergency-banner {

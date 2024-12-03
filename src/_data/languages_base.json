@@ -26,7 +26,7 @@
     "rssFeedParagraph": "Subscribe to the latest news from OWA.",
     "siteFooterPoweredBy": "This site is powered by Netlify",
     "skipLinkText": "Skip to content",
-    "translationNotAvailable": "Unfortunately this page has not been translated into your preferred language yet. If you'd like to help us translate it, please get in touch."
+    "translationNotAvailable": "Unfortunately this page has not been translated into your preferred language yet. If you'd like to help us translate it, please join #translation on the OWA discord."
   },
   "es": {
     "ariaLabelPaginationlinks": "Enlaces de paginación",
@@ -50,7 +50,7 @@
     "rssFeedParagraph": "Suscríbete a las últimas noticias de OWA.",
     "siteFooterPoweredBy": "Este sitio funciona con Netlify",
     "skipLinkText": "Saltar al contenido",
-    "translationNotAvailable": "Lamentablemente, esta página aún no se ha traducido a su idioma preferido. Si desea ayudarnos a traducirlo, póngase en contacto."
+    "translationNotAvailable": "Lamentablemente, esta página aún no se ha traducido a su idioma preferido. Si desea ayudarnos a traducirlo, únase a #translation en OWA Discord."
   },
   "ja": {
     "ariaLabelPaginationlinks": "ページネーションリンク",
@@ -73,6 +73,7 @@
     "rssFeedHeading": "RSSフィード",
     "rssFeedParagraph": "OWAの最新ニュースを購読する。",
     "siteFooterPoweredBy": "このサイトはNetlifyを利用しています",
-    "skipLinkText": "コンテンツにスキップする"
+    "skipLinkText": "コンテンツにスキップする",
+    "translationNotAvailable": "残念ながら、このページはまだご希望の言語に翻訳されていません。翻訳にご協力いただける場合は、OWA discord の #translation にご参加ください。"
   }
 }

@@ -1,8 +1,9 @@
 ---
-title: 'News'
-permalink: '/es/blog/'
-metaDesc: 'Check out the most recent blog posts from Open Web Advocacy.'
+title: News
+permalink: /es/blog/
+metaDesc: Check out the most recent blog posts from Open Web Advocacy.
 templateEngineOverride: njk
+translated: false
 ---
 {% extends 'layouts/base.njk' %}
 {% block content %}

@@ -1,7 +1,3 @@
-// TODO
-// run this script in eleventy on build but dont watch
-// fix tag page links
-
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';

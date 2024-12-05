@@ -823,6 +823,7 @@ div.home-wrapper *+* {
 
 div.home-wrapper p {
   --flow-space: 0.8em;
+  max-width: 30em;
 }
 
 p.home-intro {

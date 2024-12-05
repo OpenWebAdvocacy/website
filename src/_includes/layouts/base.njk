@@ -1,5 +1,6 @@
 {% set assetHash = global.hash() %}
 {% set isPaperLayout = false %}
+{% set languages = languages_base.supported %}
 {% if layout and layout is string %}
   {% if 'paper.njk' in layout %}
     {% set isPaperLayout = true %}
@@ -20,6 +21,9 @@
     <link rel="icon" type="image/png" sizes="48x48" href="/images/logo-48.png">
     <link
     rel="icon" type="image/png" sizes="192x192" href="/images/logo-192.png">
+    {% for language in languages %}
+      <link rel="alternate" hreflang="{{ language.code }}" href="{{ page.url | locale_url(language.code) }}" />
+    {% endfor %}
     {# Add facility for pages to delare an array of non-critical javascript #}
     {% if pageNonCriticalScripts %}
       {% for item in pageNonCriticalScripts %}

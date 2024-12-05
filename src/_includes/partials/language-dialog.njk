@@ -8,7 +8,7 @@
     <ul>
       {% for language in languages %}
         <li>
-          <a href="{{ page.url | locale_url(language.code) | language(language.code, page.lang) }}">{{ language.name }}</a>
+          <a rel="alternate" hreflang="{{ language.code }}" href="{{ page.url | locale_url(language.code) | language(language.code, page.lang) }}">{{ language.name }}</a>
         </li>
       {% endfor %}
     </ul>

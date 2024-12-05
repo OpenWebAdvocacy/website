@@ -1,8 +1,10 @@
 {# Only renders this section if there are links to render #}
+{% set content = languages_base[page.lang] %}
+
 {% if pagination.href.next or pagination.href.previous %}
   <footer class="pagination">
     <div class="wrapper">
-      <nav class="pagination__inner" aria-label="Pagination links">
+      <nav class="pagination__inner" aria-label="{{ content.ariaLabelPaginationlinks }}">
         {% if pagination.href.previous %}
           <a href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
             <span>{{ paginationPrevText if paginationPrevText else 'Previous' }}</span>

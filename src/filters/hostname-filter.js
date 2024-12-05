@@ -1,4 +1,4 @@
-module.exports = url => {
+export default url => {
   var url = new URL(url);
   var hostname = url.hostname;
   if (hostname.startsWith('www.')) {

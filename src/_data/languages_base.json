@@ -1,0 +1,76 @@
+{
+  "supported": [
+    {"code": "en", "base": "/", "name": "English"},
+    {"code": "es", "base": "/es", "name": "Español"},
+    {"code": "ja", "base": "/ja", "name": "日本語"}
+  ],
+  "en": {
+    "ariaLabelPaginationlinks": "Pagination links",
+    "ariaLabelPrimaryNav": "Primary navigation",
+    "ariaLabelSecondaryNav": "Secondary navigation",
+    "asideHeading": "Recent updates",
+    "asideLinkText": "Read more news",
+    "bannerText": "Is Apple DMA compliant? Read the full report!",
+    "close": "Close",
+    "config": {
+      "direction": ""
+    },
+    "homeText": "Home",
+    "languages": "Languages",
+    "language": "English",
+    "pressCoverageHeading": "OWA Press Coverage",
+    "pressCoverageParagraph": "Check out how the press is covering OWA actions.",
+    "promoHeading": "Promotional Resources",
+    "promoParagraph": "Feel free to print and use our logo and promotional illustrations to show your support for the open web.",
+    "rssFeedHeading": "RSS feed",
+    "rssFeedParagraph": "Subscribe to the latest news from OWA.",
+    "siteFooterPoweredBy": "This site is powered by Netlify",
+    "skipLinkText": "Skip to content"
+  },
+  "es": {
+    "ariaLabelPaginationlinks": "Enlaces de paginación",
+    "ariaLabelPrimaryNav": "Navegacion primaria",
+    "ariaLabelSecondaryNav": "Navegación secundaria",
+    "asideHeading": "Noticias recientes",
+    "asideLinkText": "Leer más noticias",
+    "bannerText": "¿Cumple Apple con la normativa DMA? ¡Lea el informe completo!",
+    "close": "Cerca",
+    "config": {
+      "direction": ""
+    },
+    "homeText": "Inicio",
+    "languages": "Idiomas",
+    "language": "Español",
+    "pressCoverageHeading": "Cobertura de prensa de OWA",
+    "pressCoverageParagraph": "Vea cómo la prensa cubre las acciones de OWA.",
+    "promoHeading": "Recursos promocionales",
+    "promoParagraph": "Siéntase libre de imprimir y utilizar nuestro logotipo e ilustraciones promocionales para mostrar su apoyo a la web abierta.",
+    "rssFeedHeading": "Feed RSS",
+    "rssFeedParagraph": "Suscríbete a las últimas noticias de OWA.",
+    "siteFooterPoweredBy": "Este sitio funciona con Netlify",
+    "skipLinkText": "Saltar al contenido"
+  },
+  "ja": {
+    "ariaLabelPaginationlinks": "ページネーションリンク",
+    "ariaLabelPrimaryNav": "プライマリーナビゲーション",
+    "ariaLabelSecondaryNav": "セカンダリーナビゲーション",
+    "asideHeading": "最近の更新",
+    "asideLinkText": "ニュースをもっと読む",
+    "bannerText": "Appleはデジタル市場法を順守しているでしょうか？ 報告書を読んでください！",
+    "close": "閉じる",
+    "config": {
+      "direction": ""
+    },
+    "homeText": "ホーム",
+    "languages": "言語",
+    "language": "日本語",
+    "pressCoverageHeading": "OWAのメディア報道",
+    "pressCoverageParagraph": "メディアにがOWAの活動をどのように報道しているか確認してください。",
+    "promoHeading": "プロモーション・リソース",
+    "promoParagraph": "オープンなウェブへの支持を表明するために、ロゴや宣伝用イラストを自由に印刷して使用できます。",
+    "rssFeedHeading": "RSSフィード",
+    "rssFeedParagraph": "OWAの最新ニュースを購読する。",
+    "siteFooterPoweredBy": "このサイトはNetlifyを利用しています",
+    "skipLinkText": "コンテンツにスキップする"
+  }
+}

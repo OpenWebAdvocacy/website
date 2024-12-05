@@ -1,6 +1,6 @@
 [build]
-  command = "npm run production"
-  publish = "dist"
+command = "npm run production"
+publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "16.14.0"
+NODE_VERSION = "20"

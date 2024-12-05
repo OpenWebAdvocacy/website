@@ -1,15 +1,16 @@
+{% set content = languages_base[page.lang] %}
 
 <hr/>
 <footer class="footer-wrapper">
-  <p class="copyright">&copy; Open Web Advocacy, 2024</p>
+  <p class="copyright">&copy; {{ site.name }}, 2024</p>
   <p>
-    <a href="https://www.netlify.com/">This site is powered by Netlify</a>
+    <a href="https://www.netlify.com/">{{ content.siteFooterPoweredBy }}</a>
   </p>
-  <nav class="[ nav ] [ site-header__nav ]" aria-label="Secondary navigaton">
+  <nav class="[ nav ] [ site-header__nav ]" aria-label="{{ content.ariaLabelSecondaryNav }}">
     <ul class="nav__list">
-      {% for item in navigation.secondary %}
+      {% for item in navigation[page.lang].secondary %}
         <li>
-          <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a >
+          <a href="{{ item.url | locale_url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a >
         </li>
       {% endfor %}
     </ul>

@@ -4,7 +4,7 @@
   <div class="home-wrapper">
     <main tabindex="-1" id="main-home">
         {{ content | safe }}
-        {% set postListItems = collections.blog %}
+        {% set postListItems = collections.blog | englishPostsFilter %}
     </main>
     {% include "partials/aside.njk" %}
   </div>

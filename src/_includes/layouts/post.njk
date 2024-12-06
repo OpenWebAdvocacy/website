@@ -4,19 +4,7 @@
   <article class="h-entry">
     <div class="[ post ] [ flow wrapper ]">
       <h1 class="post-title">{{ title }}</h1>
-      <div class="post-meta">
-        <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
-        <p>Written by {{ author }}</p>
-        {% if tags %}
-          <ul class="tags-list" aria-label="Tags">
-            {% for tag in tags %}
-              <li>
-                <a href="/tag/{{ tag | slug }}/" class="p-category">#{{ tag | replace(' ', '') | capitalize }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </div>
+      {% include "partials/post-meta.njk" %}
       <div class="post-content flow">
         {{ content | safe }}
       </div>

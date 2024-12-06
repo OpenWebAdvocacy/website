@@ -1,0 +1,13 @@
+<div class="post-meta">
+    <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
+    <p>Written by {{ author }}</p>
+    {% if tags %}
+        <ul class="tags-list" aria-label="Tags">
+        {% for tag in tags %}
+            <li>
+            <a href="{{ ('/tag/' + (tag | slug) + '/') | locale_url }}" class="p-category">#{{ tag | replace(' ', '') | capitalize }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</div>

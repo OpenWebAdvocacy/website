@@ -4,3 +4,18 @@ publish = "dist"
 
 [build.environment]
 NODE_VERSION = "20"
+
+# Redirect for end-user’s browser preference override
+[[redirects]]
+  from = "/"
+  to = "/es"
+  status = 302
+  force = true
+  conditions = {Language = ["es"]}
+
+[[redirects]]
+  from = "/"
+  to = "/ja"
+  status = 302
+  force = true
+  conditions = {Language = ["ja"]}

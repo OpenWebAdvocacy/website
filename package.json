@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "clean": "rm -rf ./dist/*",
+    "generate": "node generate-language-files.js",
     "serve": "npm run start",
     "start": "npx @11ty/eleventy --serve --quiet",
     "build": "npm run production",

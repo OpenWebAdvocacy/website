@@ -5,7 +5,7 @@
 {% endif %}
 <div>
   <ol class="[ post-list ] [ flow ]">
-    {% for item in postListItems %}
+    {% for item in postListItems | englishPostsFilter %}
       {% if loop.index0 < 5 and item.url %}
       <li class="post-list__item">
         <a href="{{ item.url  | locale_url }}" class="post-list__link">{{ item.data.title }}</a>

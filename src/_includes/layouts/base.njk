@@ -21,12 +21,13 @@
     <link rel="icon" type="image/png" sizes="48x48" href="/images/logo-48.png">
     <link
     rel="icon" type="image/png" sizes="192x192" href="/images/logo-192.png">
-    {% if 'en' in page.url  %}
-      <link rel="canonical" href="{{ site.url }}"/>
-    {% endif %}
+    <link rel="alternate" href="{{ site.url }}{{ page.url | removeLanguageCode(languages) }}" hreflang="x-default" />
     {% for language in languages %}
-      <link rel="alternate" hreflang="{{ language.code }}" href="{{ page.url | locale_url(language.code) }}" />
+      <link rel="alternate" hreflang="{{ language.code }}" href="{{ site.url }}{{ page.url | locale_url(language.code) }}" />
     {% endfor %}
+    {% if '/en/' in page.url  %}
+      <link rel="canonical" href="{{ site.url }}{{ page.url | removeLanguageCode(languages) }}"/>
+    {% endif %}
     {# Add facility for pages to delare an array of non-critical javascript #}
     {% if pageNonCriticalScripts %}
       {% for item in pageNonCriticalScripts %}

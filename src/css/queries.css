@@ -278,10 +278,6 @@
     flex-direction: row-reverse;
   }
 
-  div.promo div.group {
-    flex: 0;
-  }
-
   div.promo p.illustration {
     width: 120px;
     top: 1rem;

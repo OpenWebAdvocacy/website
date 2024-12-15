@@ -42,6 +42,10 @@ Translate the copied version of the homepage and any additional pages you are tr
 
 Remove the `translated: false` property from the front matter of pages you have translated. This will remove the "not yet translated" banner from the page.
 
+#### 4. Add language autodetection for homepage
+
+Update `netlify.toml` to include a redirect on the homepage to auto detect the user's language based on browser preference
+
 Raise a pull request :tada:
 
 

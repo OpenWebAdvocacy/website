@@ -57,11 +57,14 @@
     {% else %}
       {% include "partials/site-header.njk" %}
     {% endif %}
+    {% if translated === false %}
+      {% include "partials/banner-translation.njk" %}
+    {% endif %}
     {% if isHome %}
       {% block homecontent %}{% endblock %}
     {% else %}
       <div class="inner-wrapper">
-        <main tabindex="-1" id="main-content" class="inner"> {% block content %}{% endblock %}
+        <main tabindex="-1" id="main-content" class="inner" {% if translated === false %} lang="en" {% endif %}> {% block content %}{% endblock %}
           {% if not isPaperLayout %}
             {% set postListItems = collections.blog %}
           {% endif %}

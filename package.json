@@ -8,6 +8,7 @@
     "clean": "rm -rf ./dist/*",
     "serve": "npm run start",
     "start": "npx @11ty/eleventy --serve --quiet",
+    "generate": "node generate-language-files.js",
     "build": "npm run production",
     "production": "NODE_ENV=production npx @11ty/eleventy",
     "updates": "npx npm-check-updates -i --format group"

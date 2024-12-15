@@ -58,8 +58,6 @@ supportedLanguages.forEach(language => {
           if (originalPermalink) {
             parsed.data.permalink = `/${languageCode}${parsed.data.permalink}`;
           }
-          console.log('AFTER parsed.data.permalink', parsed.data.permalink);
-          console.log('AFTER poriginalPermalink', originalPermalink);
         } else if (sourceFolder === 'src/posts') {
           // Set the permalink and layout for posts if not explicitly stated
           const fileNameWithoutExtension = path.basename(file, path.extname(file));

@@ -1,5 +1,5 @@
 {% set content = languages_base[page.lang] %}
 
 <div class="banner">
-  <p>{{ content.translationNotAvailable}}</p>
+  <p>{{ content.translationNotAvailable | safe }}</p>
 </div>

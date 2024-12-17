@@ -1375,6 +1375,22 @@ img.rounded {
   border-radius: 0.5rem;
 }
 
+/* Banners */
+
+.banner {
+  background: var(--n-light);
+  padding: 1em;
+  text-align: center;
+
+  p {
+    max-width: none;
+  }
+}
+
+.site-header:has(+ .banner) {
+  margin-bottom: 0;
+}
+
 .emergency-banner {
   color: var(--text-inv);
   background-color: var(--main-dark);

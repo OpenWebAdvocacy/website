@@ -1,20 +1,20 @@
 ---
-title: Get Involved
+title: 参加しよう
 permalink: /ja/get-involved/
-metaDesc: Learn how to get involved with Open Web Advocacy's efforts.
+metaDesc: Open Web Advocacyの活動に参加する方法を学ぶ。
 layout: layouts/page.njk
-translated: false
+translated: true
 ---
 
-Join us in advocating for the open web. There are many ways you can help, from contacting legislators and regulators to helping collect and document evidence of anti-competitive behavior.
+オープンウェブのための擁護活動に参加してください。議員や規制者へのコンタクトから、反競争的行為の証拠の収集と文書化の支援まで、支援できる方法は多数あります。
 
-Unlike groups who operate on behalf of major organizations, we are unbacked, unfunded and rely on individuals to contribute their time and expertise. If you believe in the future of the web, you can help make that future a reality.
+主要な組織の代理として運営するグループとは違い、私たちはスポンサーも資金援助も受けていないため、時間と専門知識を提供してくれる個人に頼っています。もしあなたがウェブの未来を信じるなら、その未来を現実にする助けができます。
 
-Specifically, we are looking for people with any of the following:
+具体的には、以下のいずれかに該当する方を求めています。
 
-1. A strong passion for an open web
-2. Experience working with web technologies
-3. Experience with internet or technology policy
-4. Experience with advocacy or grassroots campaigning efforts
+1. オープンウェブに対する強い熱意
+2. ウェブ技術の使用経験
+3. インターネットやテクノロジー政策に関する経験
+4. 権利擁護活動や草の根運動の活動の経験
 
-If you are excited about the work we do and want to learn more, you can do so by contacting us via <a href="https://discord.gg/x53hkqrRKx">Discord</a>, <a href="https://twitter.com/OpenWebAdvocacy">Twitter</a>, <a href='https://mastodon.social/@owa' rel='me'>Mastodon</a> or send us an <a href="mailto:contactus@open-web-advocacy.org">email</a>.
+私たちの活動に興味を持って、さらに詳しく知りたい場合は、ぜひ私たちに声をかけてください。<a href="https://discord.gg/x53hkqrRKx">Discord</a>、<a href="https://twitter.com/OpenWebAdvocacy">Twitter</a>、<a href='https://mastodon.social/@owa' rel='me'>Mastodon</a>のいずれかから連絡するか、<a href="mailto:contactus@open-web-advocacy.org">メール</a>を送信してください。

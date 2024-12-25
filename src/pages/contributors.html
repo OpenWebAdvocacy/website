@@ -37,7 +37,7 @@ issues with their jobs or businesses.</p>
         <p>{{ person.what | safe }}</p>
       </div>
       <p class="social">
-        {% if person.github %}<a href="https://github.com/{{ person.github }}">Github</a>{% endif %}
+        {% if person.github %}<a href="https://github.com/{{ person.github }}">GitHub</a>{% endif %}
         {% if person.mastodon and person.github %} / {% endif %}
         {% if person.mastodon %}<a href="{{ person.mastodon }}">Mastodon</a>{% endif %}
         {% if person.twitter and (person.github or person.mastodon) %} / {% endif %}

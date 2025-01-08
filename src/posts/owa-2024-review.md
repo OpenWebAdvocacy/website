@@ -12,7 +12,7 @@ author: [ "Alex Moore" ]
 
 As 2025 begins, it's a perfect moment to reflect on 2024’s developments, achievements, and what lies ahead regarding regulators, browsers, and web applications.
 
-Last year was incredibly busy, and together with you, we have made real tangible progress to a more competitive browser and Web App ecosystem.
+Last year was incredibly busy, and together with you, we have made real tangible progress toward a more competitive browser and Web App ecosystem.
 
 If there’s one key takeaway from 2024, it’s this: **advocacy works**. When those who love what makes the web amazing come together, we can achieve wonders\!
 
@@ -414,7 +414,7 @@ The Australian Treasury department is conducting consultation [on the proposal p
 
 ## Advocating for a Fairer and More Competitive Web in 2025
 
-2025 promises to be a pivotal year, making it more important than ever for both developers and consumers to have strong advocacy for browser and Web App competition. We extend our deepest gratitude to everyone who contributed their time or financial support in 2024, helping to make the web a fairer, more competitive and more exciting platform in 2024\.
+2025 promises to be a pivotal year, making it more important than ever for both developers and consumers to have strong advocacy for browser and Web App competition. We sincerely thank everyone who generously contributed their time and expertise, whether through drafting or reviewing regulatory submissions, enhancing and building our website, engaging in detailed discussions, providing invaluable feedback, or participating in conferences and meetings; and especially those who helped provide financial support in 2024. You made the web a fairer, more competitive and more exciting platform.
 
 A special thank you goes to [startsmall](https://mastodon.social/@owa/111218243374658469) for their exceptionally generous donation in 2023, which continues to fund a significant portion of our work today.
 

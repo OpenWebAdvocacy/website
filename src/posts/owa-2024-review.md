@@ -291,7 +291,7 @@ The Commission has initiated three non-compliance proceedings against Apple, two
 
 * A [proceeding](https://ec.europa.eu/competition/digital_markets_act/cases/202417/DMA_100055_135.pdf) has been opened into Meta for its [recently introduced “pay or consent” model in the EU](https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1689). The Commission is assessing whether this complies with the DMA’s requirement that gatekeepers secure user consent before combining or cross-using personal data.
 
-However, despite the DMA being in force since March 20024, not a single browser vendor has been able to ship a browser using its own engine.
+However, despite the DMA being in force since March 2024, not a single browser vendor has been able to ship a browser using its own engine.
 
 Two big barriers, not allowing browser vendors to test their own browsers outside the EU and preventing browser vendors from also using the WkWebView, have both been resolved.
 
@@ -311,7 +311,7 @@ In August 2024, the [DOJ won the suit when Judge Mehta ruled that Google held a 
 
 The DOJ has published a [list of outlined potential remedies](https://www.justice.gov/atr/media/1378036/dl) that they are seeking. The list is dense and the DOJ is considering a lot of different and overlapping remedies.
 
-Of the over twenty five remedies that the DOJ are proposing, we are concerned by the significant potential harm to the Web from just two of the proposed remedies.They are: a total ban on revenue sharing with browser vendors in return for setting Google as the default search engine and a forced sale of Chrome by Google. These remedies strike at the heart of the web platform's funding model and will do unintended but severe damage.
+Of the over twenty five remedies that the DOJ are proposing, we are concerned by the significant potential harm to the Web from just two of the proposed remedies. They are: a total ban on revenue sharing with browser vendors in return for setting Google as the default search engine and a forced sale of Chrome by Google. These remedies strike at the heart of the web platform's funding model and will do unintended but severe damage.
 
 This will be a major focus of OWA in 2025 due to its potential to severely undermine our goals and damage the open web. Our aim in relation to this case is to ensure that the DOJ addresses Google’s monopolistic practices effectively while safeguarding the web as a vital resource for billions of consumers and millions of businesses around the world. If your business relies on the web and are concerned about these two remedies please contact us.
 

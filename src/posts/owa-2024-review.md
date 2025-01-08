@@ -5,6 +5,11 @@ tags: ['Policy', 'Updates']
 author: [ "Alex Moore" ]
 ---
 
+{% image
+  "/images/blog/owa-2024-review.png",
+  "2024 in Review. We review everything for OWA in 2024 and what’s coming up! The whole team would like to thank everyone who joined us by volunteering or donating to fight for the future of the web! With big steps in 2024, we can’t wait to see what we can do together in 2025!"
+%}
+
 As 2025 begins, it's a perfect moment to reflect on 2024’s developments, achievements, and what lies ahead regarding regulators, browsers, and web applications.
 
 Last year was incredibly busy, and together with you, we have made real tangible progress to a more competitive browser and Web App ecosystem.

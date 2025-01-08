@@ -127,7 +127,7 @@ Without implementing one of these solutions, the burden on browser vendors will 
 
 Astonishingly, Apple decided earlier this year to make it impossible for browser vendors to test their own browsers (that wished to use their own engine) if the developers were not physically located in the EU.
 
-> The Register has learned from those involved in the browser trade that Apple has limited the development and testing of third-party browser engines to devices physically located in the EU. That requirement adds an additional barrier to anyone planning to develop and support a browser with an alternative engine in the EU. <br>
+> The Register has learned from those involved in the browser trade that Apple has limited the development and testing of third-party browser engines to devices physically located in the EU. That requirement adds an additional barrier to anyone planning to develop and support a browser with an alternative engine in the EU. <br><br>
 > It effectively geofences the development team. Browser-makers whose dev teams are located in the US will only be able to work on simulators. While some testing can be done in a simulator, there's no substitute for testing on device – which means developers will have to work within Apple's prescribed geographical boundary.  
 > <cite>[Thomas Claburn \- The Register](https://www.theregister.com/2024/05/17/apple_browser_eu/)</cite>
 

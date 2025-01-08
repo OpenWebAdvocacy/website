@@ -173,7 +173,7 @@ In response to [our article discussing this](https://open-web-advocacy.org/blog/
 
 Apple has declined to elaborate on what its purpose was (if it wasn’t to make it harder for users to switch browsers) and why they stated our initial report was false rather than that they had simply fixed the issue we had identified.
 
-## Secured Hotseat Placement on the EU Choice Screen"
+## Secured Hotseat Placement on the EU Choice Screen
 
 [In August, Apple announced they would implement one of our recommendations](https://open-web-advocacy.org/blog/apple-adopts-6-owa-choice-architecture-recommendations/) that [browsers chosen in the choice seat would get placed in the hotseat/dock/first homescreen](https://open-web-advocacy.org/apple-dma-review/#apples-dark-pattern-exacerbated-by-keeping-hotseat) replacing Safari.
 

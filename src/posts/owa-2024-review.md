@@ -56,7 +56,7 @@ Bruce Lawson ([who is continuing the fight for a fairer web at Vivaldi](https://
 John Ozbay talking at the European Commission's Apple DMA Workshop:  
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/AiiU_zBirXc' frameborder='0' allowfullscreen title="OWA v Apple: EC DMA Q&A 2 - Will Apple address the dark patterns when changing the default browser?"></iframe></div>
 
-We were also delighted to join the [JS Party podcast to chat to Amal Hussein](https://changelog.com/jsparty/316) and the [Igalia’s Chats podcast with Brian Kardell and Eric Meyer](https://www.igalia.com/chats/alex-owa-remedy).
+We were also delighted to join the [JS Party podcast to chat to Amal Hussein](https://changelog.com/jsparty/316) and the [Igalia Chats podcast with Brian Kardell and Eric Meyer](https://www.igalia.com/chats/alex-owa-remedy).
 
 At times it can seem that work in the regulatory space is slow, but together with the developer community, critical advocacy from allies, and excellent work by key regulators we achieved some significant victories and tangible progress in 2024\.
 
@@ -84,7 +84,7 @@ OWA and others in the industry recognized that if this change were implemented, 
 
 We, of course, had to act. We immediately informed the DMA team and then launched a series of surveys to demonstrate how detrimental this would be to businesses and users in the EU. We had over a thousand responses in a few short days and this allowed us to hand the EU excellent information about the immediate cost of Apple breaking Web Apps.
 
-We then worked shifts around the clock to launch our [incredibly successful open letter to Tim Cook](https://letter.open-web-advocacy.org/). The letter has already garnered worldwide support and has had 4264 individuals and 441 organisations sign. Signatures include two European MEPs (Karen Melchior & Patrick Breyer); a number of significant EU companies such as social media platform Mastodon; and individuals (advocating in their personal capacity) who work for SwissLife, Tchibo, W3C, Mozilla, Google, Microsoft, Vivaldi, BBC, Financial Times, ​​Red Hat, Oracle, Amazon, Wikimedia, Vercel, Netlify, Shopify, Spotify, AirBNB, Berlin University of the Arts, Open State Foundation \- Netherlands, Cloudflare, Meta, Chase, Squarespace, Reddit, Atlassian, Maersk, Paypal, Salesforce, block, Adobe, ebay, Zynga, booking.com and thoughtworks; and many other developers and organisations from over 100 countries.
+We then worked shifts around the clock to launch our [incredibly successful open letter to Tim Cook](https://letter.open-web-advocacy.org/). The letter gained worldwide support support and has had 4264 individuals and 441 organisations sign. Signatures include two European MEPs (Karen Melchior & Patrick Breyer); a number of significant EU companies such as social media platform Mastodon; and individuals (advocating in their personal capacity) who work for SwissLife, Tchibo, W3C, Mozilla, Google, Microsoft, Vivaldi, BBC, Financial Times, ​​Red Hat, Oracle, Amazon, Wikimedia, Vercel, Netlify, Shopify, Spotify, AirBNB, Berlin University of the Arts, Open State Foundation \- Netherlands, Cloudflare, Meta, Chase, Squarespace, Reddit, Atlassian, Maersk, Paypal, Salesforce, block, Adobe, ebay, Zynga, booking.com and thoughtworks; and many other developers and organisations from over 100 countries.
 
 On the 1st of March 2024, Apple cancelled its plans to break Web Apps in the EU, issuing a statement:
 
@@ -315,7 +315,7 @@ This will be a major focus of OWA in 2025 due to its potential to severely under
 
 The DOJ is expected to deliver their updated remedies on March 7th 2025 and a remedies trial is expected to be held in April.
 
-You can hear us discuss these remedies on the [Igalia’s Chats podcast with Brian Kardell and Eric Meyer](https://www.igalia.com/chats/alex-owa-remedy).
+You can hear us discuss these remedies on the [Igalia Chats podcast with Brian Kardell and Eric Meyer](https://www.igalia.com/chats/alex-owa-remedy).
 
 ### DOJ vs Apple
 
@@ -332,7 +332,7 @@ The DOJ has a number of examples of how Apple has done this, including discussin
 > <cite>[DOJ vs Apple](https://www.justice.gov/opa/media/1344546/dl?inline)  
 (emphasis added)</cite>
 
-It is worth noting that one of the reasons that many users on iOS are unaware of how to install Web Apps is Apple has for years refused to implement install prompts and [hidden away the mechanism for installing them on the share menu](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive). At the same time, Apple has gone to great lengths to make it easy to link to and install Apple’s on iOS app store native apps from Safari.
+It is worth noting that one of the reasons that many users on iOS are unaware of how to install Web Apps is Apple has for years refused to implement install prompts and [hidden away the mechanism for installing them on the share menu](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive). At the same time, Apple has gone to great lengths to make it easy to link to and install Apple’s own iOS app store native apps from Safari.
 
 This case is in its early stages and will likely run for several years.
 
@@ -340,7 +340,7 @@ This case is in its early stages and will likely run for several years.
 
 ### DMCC
 
-The [Digital Markets, Competition, and Consumers Act 2024](https://www.legislation.gov.uk/ukpga/2024/13/enacted/data.xht?view=snippet&wrap=true) came into effect yesterday, granting the UK regulator authority to designate companies with Strategic Market Status (SMS).
+The [Digital Markets, Competition, and Consumers Act 2024](https://www.legislation.gov.uk/ukpga/2024/13/enacted/data.xht?view=snippet&wrap=true) came into effect on January the 1st 2025, granting the UK regulator authority to designate companies with Strategic Market Status (SMS).
 
 This can be thought of as the UK’s equivalent to the EU’s Digital Markets Act, although it has differences in how it is implemented as [covered in this article](https://www.ashurst.com/en/insights/digital-markets-regulation-in-the-eu-and-uk-dma-v-dmcc/#:~:text=In%20recent%20years%2C%20the%20EU%20and%20UK%20have,key%20similarities%20and%20differences%20between%20the%20two%20regimes.). The primary difference is that the DMCC is less proscriptive than the DMA and allows the CMA to impose bespoke conduct requirements on each SMS firm.
 

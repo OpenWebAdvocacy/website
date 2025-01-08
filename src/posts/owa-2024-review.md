@@ -127,8 +127,7 @@ Without implementing one of these solutions, the burden on browser vendors will 
 
 Astonishingly, Apple decided earlier this year to make it impossible for browser vendors to test their own browsers (that wished to use their own engine) if the developers were not physically located in the EU.
 
-*“The Register has learned from those involved in the browser trade that Apple has limited the development and testing of third-party browser engines to devices physically located in the EU. That requirement adds an additional barrier to anyone planning to develop and support a browser with an alternative engine in the EU.*
-
+> The Register has learned from those involved in the browser trade that Apple has limited the development and testing of third-party browser engines to devices physically located in the EU. That requirement adds an additional barrier to anyone planning to develop and support a browser with an alternative engine in the EU. <br>
 > It effectively geofences the development team. Browser-makers whose dev teams are located in the US will only be able to work on simulators. While some testing can be done in a simulator, there's no substitute for testing on device – which means developers will have to work within Apple's prescribed geographical boundary.  
 > <cite>[Thomas Claburn \- The Register](https://www.theregister.com/2024/05/17/apple_browser_eu/)</cite>
 
@@ -168,8 +167,7 @@ This [was picked up by Ars Technica](https://arstechnica.com/tech-policy/2024/04
 In response to [our article discussing this](https://open-web-advocacy.org/blog/apples-one-weird-trick-to-stop-you-changing-your-default-browser/), Apple stated that: 
 
 > Apple told MacRumors that Open Web Advocacy's allegation that Apple is misleading the Competition and Markets Authority (CMA) is inaccurate. Apple says it told the CMA that the design of the identified browser setting was changed in a recent software update. The design was apparently never intended to discourage users from setting third-party browsers as the default.  
-> <cite>[Apple \- Responding to MacRumours](https://www.macrumors.com/2024/09/06/apple-denies-evidence-of-hidden-settings/)  
-(emphasis added)</cite>
+> <cite>[Apple \- Responding to MacRumours](https://www.macrumors.com/2024/09/06/apple-denies-evidence-of-hidden-settings/)</cite>
 
 Apple has declined to elaborate on what its purpose was (if it wasn’t to make it harder for users to switch browsers) and why they stated our initial report was false rather than that they had simply fixed the issue we had identified.
 

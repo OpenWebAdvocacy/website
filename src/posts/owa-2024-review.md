@@ -16,6 +16,8 @@ Last year was incredibly busy, and together with you, we have made real tangible
 
 If there’s one key takeaway from 2024, it’s this: **advocacy works**. When those who love what makes the web amazing come together, we can achieve wonders\!
 
+Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1876900921960960297), [Mastodon](https://mastodon.social/@owa/113791667242496427), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_owas-2024-in-reviewa-huge-and-special-activity-7282666880304062464-VVYf) and [BlueSky](https://bsky.app/profile/open-web-advocacy.org/post/3lf7ovnto4s27).
+
 ## Who is Open Web Advocacy?
 
 If you’re new to Open Web Advocacy (OWA) we are a non-profit organization committed to pushing greater competition within the browser and Web App ecosystems. Our objectives are:
@@ -171,7 +173,7 @@ In response to [our article discussing this](https://open-web-advocacy.org/blog/
 
 Apple has declined to elaborate on what its purpose was (if it wasn’t to make it harder for users to switch browsers) and why they stated our initial report was false rather than that they had simply fixed the issue we had identified.
 
-## Secured Hotseat Placement on the EU Choice Screen"
+## Secured Hotseat Placement on the EU Choice Screen
 
 [In August, Apple announced they would implement one of our recommendations](https://open-web-advocacy.org/blog/apple-adopts-6-owa-choice-architecture-recommendations/) that [browsers chosen in the choice seat would get placed in the hotseat/dock/first homescreen](https://open-web-advocacy.org/apple-dma-review/#apples-dark-pattern-exacerbated-by-keeping-hotseat) replacing Safari.
 

@@ -9,13 +9,16 @@ The UK's CMA has launched an investigation into if Apple and Google have strateg
 
 This is under the newly passed Digital Markets, Competition and Consumers Act (DMCC) which came into force on January 1, 2025. The investigations include a significant focus on web apps, browser engines and browsers in relation to both Apple and Google.
 
-Being declared an SMS under the DMCC be thought of as being equivalent to being declared a gatekeeper under the DMA.
+Being declared an SMS under the DMCC be thought of as being equivalent to being declared a gatekeeper under the EU's Digital Markets Act (DMA).
 
 > Web apps, which are separate apps that can be saved to a user’s home screen from a browser, are generally not considered by app developers to be a realistic alternative to listing native apps on the App Store, due to the limited features and functionalities available for web apps on iOS; which in turn, is determined by Apple through rules that require all browsers on iOS to use its own browser engine, WebKit.
+><cite>[Apple SMS Investigation](https://assets.publishing.service.gov.uk/media/67911972e2b9324a911e26db/Apple_investigation_notice.pdf)</cite>
 
 > Apple’s requirement that all mobile browsers on iOS use its WebKit browser engine also means that WebKit does not face any competition from rival browser engines on iOS.
+><cite>[Apple SMS Investigation](https://assets.publishing.service.gov.uk/media/67911972e2b9324a911e26db/Apple_investigation_notice.pdf)</cite>
 
 > As a result of the Android Licence Agreements between Google and OEMs, Google’s Chrome is pre-installed, prominently placed, and set as the default mobile browser for many Android devices, creating barriers to entry and expansion for competing mobile browsers.
+><cite>[Google SMS Investigation](https://assets.publishing.service.gov.uk/media/679115a4e2b9324a911e26d6/Google_investigation_notice.pdf)</cite>
 
 The [Digital Markets, Competition, and Consumers Act 2024](https://www.legislation.gov.uk/ukpga/2024/13/enacted/data.xht?view=snippet&wrap=true) came into effect on January the 1st 2025, granting the UK regulator authority to designate companies with Strategic Market Status (SMS).
 
@@ -49,10 +52,11 @@ See the file on the Apple investigation [here](https://assets.publishing.service
 
 Anyone with an interest in these investigations is invited to comment until Wednesday 12 February.
 
-Stay tuned as we will be posting about its progress as more information becomes available.
+Stay tuned as Open Web Advocacy takes a closer look and shares deeper insights over the coming weeks:
 - **Email:**        [contactus@open-web-advocacy.org](mailto:contactus@open-web-advocacy.org)
 - **Mastodon:**      [@OpenWebAdvocacy](https://mastodon.social/@owa)
 - **Discord:**      [OpenWebAdvocacy](https://discord.gg/x53hkqrRKx)
+- **BlueSky:**      [open-web-advocacy.org](https://bsky.app/profile/open-web-advocacy.org)
 - **LinkedIn:**     [open-web-advocacy](https://www.linkedin.com/company/open-web-advocacy/)
 - **Twitter:**      [@OpenWebAdvocacy](https://twitter.com/OpenWebAdvocacy)
 - **Web:**         [https://open-web-advocacy.org](https://open-web-advocacy.org)

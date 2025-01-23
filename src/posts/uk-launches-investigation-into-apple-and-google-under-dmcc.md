@@ -22,7 +22,7 @@ Being declared an SMS under the DMCC can be seen as equivalent to being designat
 
 The [Digital Markets, Competition, and Consumers Act 2024](https://www.legislation.gov.uk/ukpga/2024/13/enacted/data.xht?view=snippet&wrap=true) came into effect on January the 1st 2025, granting the UK regulator authority to designate companies with Strategic Market Status (SMS).
 
-This can be thought of as the UK’s equivalent to the EU’s Digital Markets Act, although it has differences in how it is implemented as [covered in this article](https://www.ashurst.com/en/insights/digital-markets-regulation-in-the-eu-and-uk-dma-v-dmcc/#:~:text=In%20recent%20years%2C%20the%20EU%20and%20UK%20have,key%20similarities%20and%20differences%20between%20the%20two%20regimes.). The primary difference is that the DMCC is less proscriptive than the DMA and allows the CMA to impose bespoke conduct requirements on each SMS firm.
+This can be thought of as the UK’s equivalent to the EU’s Digital Markets Act, although it has differences in how it is implemented as [covered in this article](https://www.ashurst.com/en/insights/digital-markets-regulation-in-the-eu-and-uk-dma-v-dmcc/#:~:text=In%20recent%20years%2C%20the%20EU%20and%20UK%20have,key%20similarities%20and%20differences%20between%20the%20two%20regimes.). The DMCC (the written UK Act) mostly leaves it up to the CMA (the agency) to decide what rules are appropriate to impose; the DMA (the written EU Act) dictates it rules with significantly less room for flexibility
 
 Firms with Strategic Market Status (SMS) designation will be required to adhere to one or more tailored conduct requirements (CRs). The DMCC Act provides a structured framework for the Competition and Markets Authority (CMA) to follow when implementing these requirements.
 
@@ -44,7 +44,7 @@ While a very crude measure, “web app” was mentioned 300 times in the [provis
 
 In the provisional decision report, the MIR team has opted not to use the powers of the MIR but instead to hand over its findings to the CMA who will use the DMCC as the enforcement and oversight mechanism.
 
-Please consider writing in to the CMA to explain your views on browsers, browser engines and web apps, in order to enforce any of the remedies of the MIR under the DMCC, first Apple and Google must be declared SMS under the DMCC.
+In order to enforce any of the remedies of the MIR under the DMCC on Apple and Google, Apple and Google must first be declared SMS under the DMCC. To do this, the CMA needs to hear from you about your views on browsers, browser engines, and web apps; please consider responding to [this request for comment](https://assets.publishing.service.gov.uk/media/67911997cf977e4bf9a2f1aa/Invitation_to_comment.pdf).
 
 See the file on the [Google investigation](https://assets.publishing.service.gov.uk/media/679115a4e2b9324a911e26d6/Google_investigation_notice.pdf).
 

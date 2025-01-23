@@ -5,11 +5,11 @@ tags: ['Policy', 'CMA', 'UK']
 author: "OWA"
 ---
 
-The UK's CMA has launched an investigation into if Apple and Google have strategic market status (SMS) in mobile ecosystems, including operating systems, app stores and mobile browsers.
+The UK's CMA has launched an investigation into whether Apple and Google hold strategic market status (SMS) in mobile ecosystems, including operating systems, app stores, and mobile browsers.
 
-This is under the newly passed Digital Markets, Competition and Consumers Act (DMCC) which came into force on January 1, 2025. The investigations include a significant focus on web apps, browser engines and browsers in relation to both Apple and Google.
+This falls under the newly passed Digital Markets, Competition and Consumers Act (DMCC), which came into force on January 1, 2025. The investigations place significant focus on web apps, browser engines, and browsers concerning both Apple and Google.
 
-Being declared an SMS under the DMCC be thought of as being equivalent to being declared a gatekeeper under the EU's Digital Markets Act (DMA).
+Being declared an SMS under the DMCC can be seen as equivalent to being designated a gatekeeper under the EU's Digital Markets Act (DMA).
 
 > Web apps, which are separate apps that can be saved to a user’s home screen from a browser, are generally not considered by app developers to be a realistic alternative to listing native apps on the App Store, due to the limited features and functionalities available for web apps on iOS; which in turn, is determined by Apple through rules that require all browsers on iOS to use its own browser engine, WebKit.
 ><cite>[Apple SMS Investigation](https://assets.publishing.service.gov.uk/media/67911972e2b9324a911e26db/Apple_investigation_notice.pdf)</cite>

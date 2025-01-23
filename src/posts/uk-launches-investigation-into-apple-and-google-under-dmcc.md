@@ -5,9 +5,9 @@ tags: ['Policy', 'CMA', 'UK']
 author: "OWA"
 ---
 
-The UK's CMA has launched an investigation into whether Apple and Google hold strategic market status (SMS) in mobile ecosystems, including operating systems, app stores, and mobile browsers.
+The [UK's CMA has launched an investigation into whether Apple and Google hold strategic market status](https://www.gov.uk/government/news/cma-to-investigate-apple-and-googles-mobile-ecosystems) (SMS) in mobile ecosystems, including operating systems, app stores, and mobile browsers.
 
-This falls under the newly passed Digital Markets, Competition and Consumers Act (DMCC), which came into force on January 1, 2025. The investigations place significant focus on web apps, browser engines, and browsers concerning both Apple and Google.
+This falls under the newly passed Digital Markets, Competition and Consumers Act (DMCC), which came into force on January 1, 2025. The investigations place significant focus on web apps, browser engines, and browsers.
 
 Being declared an SMS under the DMCC can be seen as equivalent to being designated a gatekeeper under the EU's Digital Markets Act (DMA).
 
@@ -46,9 +46,9 @@ In the provisional decision report, the MIR team has opted not to use the powers
 
 Please consider writing in to the CMA to explain your views on browsers, browser engines and web apps, in order to enforce any of the remedies of the MIR under the DMCC, first Apple and Google must be declared SMS under the DMCC.
 
-See the file on the Google investigation [here](https://assets.publishing.service.gov.uk/media/679115a4e2b9324a911e26d6/Google_investigation_notice.pdf).
+See the file on the [Google investigation](https://assets.publishing.service.gov.uk/media/679115a4e2b9324a911e26d6/Google_investigation_notice.pdf).
 
-See the file on the Apple investigation [here](https://assets.publishing.service.gov.uk/media/67911972e2b9324a911e26db/Apple_investigation_notice.pdf).
+See the file on the [Apple investigation](https://assets.publishing.service.gov.uk/media/67911972e2b9324a911e26db/Apple_investigation_notice.pdf).
 
 Anyone with an interest in these investigations is invited to comment until Wednesday 12 February.
 

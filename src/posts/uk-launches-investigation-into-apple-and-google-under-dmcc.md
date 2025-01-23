@@ -26,7 +26,7 @@ This can be thought of as the UK’s equivalent to the EU’s Digital Markets Ac
 
 Firms with Strategic Market Status (SMS) designation will be required to adhere to one or more tailored conduct requirements (CRs). The DMCC Act provides a structured framework for the Competition and Markets Authority (CMA) to follow when implementing these requirements.
 
-Non-compliance with a conduct requirement could result in substantial penalties, amounting to up to 10% of the company’s global turnover. It will likely take till towards the end of the year (9 months from initiation) to designate the first batch of SMS companies.
+Non-compliance with a conduct requirement could result in substantial penalties, amounting to up to 10% of the company’s global turnover. It will likely take until the end of the year (9 months from initiation) to designate the first batch of SMS companies.
 
 As readers may recall, the UK Competition and Markets Authority launched a Market Investigation Reference (MIR) into [mobile browsers and cloud gaming](https://www.gov.uk/cma-cases/mobile-browsers-and-cloud-gaming) on June 10th 2022\.
 

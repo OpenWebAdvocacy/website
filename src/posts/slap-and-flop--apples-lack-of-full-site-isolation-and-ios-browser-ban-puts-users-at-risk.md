@@ -34,7 +34,7 @@ In their example in the paper, confidential email subject lines from Gmail can b
     <figcaption>SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon - Figure 17</figcaption>
 </figure>
 
-This attack only works in Safari (and all browsers on iOS due to Apple's browser engine ban) running on devices with newer Apple-designed processors, such as the M2 and A15.
+This attack only works in Safari (and all browsers on iOS due to [Apple's browser engine ban](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers)) running on devices with newer Apple-designed processors, such as the M2 and A15.
 
 This attack does not work on other major browsers such as Chrome, Firefox, Edge, Opera, and Vivaldi on platforms where they can use their own browser engines.
 
@@ -48,7 +48,7 @@ The researchers indicated that they disclosed the vulnerability to Apple on 24th
 > “The researchers disclosed their findings to Apple on May 24, 2024\. Apple’s Product Security Team acknowledged the report and proof-of-concept code, requesting an extended embargo beyond the typical 90-day window. At the time of writing, Apple has not shared a schedule regarding mitigation plans concerning the results presented in this paper.”
 > <cite>[SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon](https://predictors.fail/files/SLAP.pdf)</cite>
 
-All browsers on iOS devices are affected by this exploit due to Apple's policy requiring all browsers to use the WebKit engine, effectively making them Safari under the hood. This means iOS users cannot switch to alternative browsers that might not be affected by SLAP.
+All browsers on iOS devices are affected by this exploit due to [Apple's policy requiring all browsers to use the WebKit engine](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers), effectively making them Safari under the hood. This means iOS users cannot switch to alternative browsers that might not be affected by SLAP.
 
 ## FLOP
 
@@ -58,7 +58,7 @@ Unlike SLAP, FLOP affects all browsers. However, due to site isolation in browse
 
 In Safari, an attacker could potentially gain access to data from any arbitrary website through a malicious site on an affected device. For example, data could potentially be accessed from gmail.com via exploit code running on attacker.com. On other browsers (using either Gecko or Blink) it would only be able to potentially gain access to data on other subdomains for example from attacker.example.com to target.example.com. This greatly limits the attack's scope.
 
-Again, all browsers on iOS are impacted by this exploit, as users cannot take advantage of other browser engines' superior protections due to Apple’s browser engine ban.
+Again, all browsers on iOS are impacted by this exploit, as users cannot take advantage of other browser engines' superior protections due to [Apple’s browser engine ban](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers).
 
 > Responsible Disclosure. We disclosed our results to Apple’s Product Security Team on September 3, 2024 upon completing the initial version of the writeup. Apple has acknowledged our writeup, and after an internal investigation, communicated that they plan to address this in an upcoming security update without sharing further details.
 > <cite>[FLOP: Breaking the Apple M3 CPU via False Load Output Predictions](https://predictors.fail/files/FLOP.pdf)</cite>
@@ -71,7 +71,7 @@ Site isolation was [introduced in Blink](https://security.googleblog.com/2018/07
 
 Full site isolation requires additional memory to keep different domains in separate processes. As a result, all browsers make trade-offs and do not enforce full site isolation in every scenario. For example, Chrome disables site isolation on devices with less than 2GB of RAM and, on Android devices, primarily applies it to sites where it can detect that the user is logged in.
 
-While Safari has some level of process isolation, it lacks full site isolation and does not as aggressively keep processes separate between different domains as other browsers. As a result Apple lags several years behind in this important protection and has prevented any rival from bringing this security feature to iOS via its browser engine ban.
+While Safari has some level of process isolation, it lacks full site isolation and does not as aggressively keep processes separate between different domains as other browsers. As a result Apple lags several years behind in this important protection and has prevented any rival from bringing this security feature to iOS via its [browser engine ban](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers).
 
 ## Impacted Chips
 
@@ -106,4 +106,4 @@ result in a ‘patch gap’ which in turn gives rise to 'significant security ri
 
 In this case, not only has Apple failed to patch SLAP on iOS, despite having 250 days advanced notice, but they have also blocked all other vendors from doing so.
 
-For this exploit on iOS, changing browsers offers no protection, as all browsers are forced to use the same WebKit engine bundled with iOS. **This highlights yet again how Apple’s ban on third-party browser engines weakens security rather than strengthens it.**
+For this exploit on iOS, changing browsers offers no protection, as all browsers are forced to use the same WebKit engine bundled with iOS. **This highlights yet again how [Apple’s ban on third-party browser engines](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers) weakens security rather than strengthens it.**

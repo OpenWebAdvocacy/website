@@ -6,7 +6,7 @@ author: [ "OWA" ]
 ---
 
 <strong>TL:DR; Yet again Apple’s ban on third-party browser engines weakens security
-rather than strengthening it.</strong>
+rather than strengthens it.</strong>
 
 Researchers from the Georgia Institute of Technology and Ruhr University Bochum have published papers describing two attacks dubbed [SLAP](https://predictors.fail/files/SLAP.pdf) and [FLOP](https://predictors.fail/files/FLOP.pdf) that impact Apple’s latest chipsets.
 

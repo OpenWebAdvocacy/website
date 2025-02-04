@@ -36,7 +36,7 @@ In their example in the paper, confidential email subject lines from Gmail can b
 
 This attack only works in Safari (and all browsers on iOS due to [Apple's browser engine ban](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers)) running on devices with newer Apple-designed processors, such as the M2 and A15.
 
-This attack does not work on other major browsers such as Chrome, Firefox, Edge, Opera, and Vivaldi on platforms where they can use their own browser engines.
+This attack does not work on other major browsers such as Chrome, Firefox, Edge, Opera, and Vivaldi **on platforms where they can use their own browser engines**.
 
 This is due to a feature called site isolation which separates each domain into its own process, preventing malicious websites from accessing or stealing information from other sites.
 

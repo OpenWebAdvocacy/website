@@ -67,7 +67,7 @@ The researchers disclosed this vulnerability to Apple on September 3, 2024 (148 
 
 ## Site Isolation
 
-Site isolation was [introduced in Blink](https://security.googleblog.com/2018/07/mitigating-spectre-with-site-isolation.html) (Chrome, Opera, Vivaldi, Brave) in July 2018 as a security feature to mitigate Spectre-style attacks, and Edge since 2020. It was added to Gecko (Firefox) in December 2021 with [Project Fission](https://wiki.mozilla.org/Project_Fission). It is still being implemented for [Firefox Android](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196). 
+Site isolation was [introduced in Blink](https://security.googleblog.com/2018/07/mitigating-spectre-with-site-isolation.html) (Chrome, Opera, Vivaldi, Brave) in July 2018 as a security feature to mitigate Spectre-style attacks, and Edge since 2020. It was added to Gecko (Firefox) in December 2021 with [Project Fission](https://wiki.mozilla.org/Project_Fission). It is still being implemented for [Firefox Android](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822).
 
 Full site isolation requires additional memory to keep different domains in separate processes. As a result, all browsers make trade-offs and do not enforce full site isolation in every scenario. For example, Chrome disables site isolation on devices with less than 2GB of RAM and, on Android devices, primarily applies it to sites where it can detect that the user is logged in.
 

@@ -106,8 +106,6 @@ result in a ‘patch gap’ which in turn gives rise to 'significant security ri
 
 In this case, not only has Apple failed to patch SLAP on iOS, despite having 250 days advanced notice, but they have also blocked all other vendors from doing so.
 
-For this exploit on iOS, changing browsers offers no protection, as all browsers are forced to use the same WebKit engine bundled with iOS. Simultaniously this also shield Apple from losing any market share on iOS, no tech professional or tech newspaper is going to recommend switching browsers on iOS as such as action currently has no benefit, thus any competitive pressure to quickly fix such vulanabilities is removed. Competition and fear of losing market share is a powerful driver of improving security. 
-
 On iOS, changing browsers offers no protection from this exploit since all browsers must use the same WebKit engine. At the same time, this shields Apple from losing market share, as no tech professional or tech website will recommend switching browsers on iOS in this case, given that all browsers on iOS are essentially Safari under the hood. As a result, competitive pressure to quickly address vulnerabilities is eliminated. Competition and the fear of losing market share are powerful forces for improving security, but for browsers on iOS, they have been entirely nullified.
 
 **This highlights yet again how [Apple’s ban on third-party browser engines](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers) weakens security rather than strengthens it.**

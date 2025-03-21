@@ -11,11 +11,11 @@ Most importantly, the MIR **recommends a complete reversal of Apple’s ban on t
 
 These remedies are not just theoretical. The UK’s Competition and Markets Authority (CMA) has now launched Strategic Market Status (SMS) investigations into both Apple and Google under the new Digital Markets, Competition and Consumers Act (DMCC). Many of the MIR’s remedies, including lifting Apple’s browser engine ban, have already been integrated into the SMS investigations, signaling the CMA’s clear intent to enforce them swiftly once designation is complete, which is set to happen within nine months.
 
-This report is a landmark moment for web and browser competition. While there is still work ahead, this marks strong action by yet another country's regulator to restore fair competition between browsers and between Web Apps and native app stores. Open Web Advocacy is proud to have played a role in this process and remains committed to seeing these remedies fully implemented. We would like to thank the CMA and the MIR team for their tireless work over the last 4 years. We would also like to thank every developer, business, and supporter who helped make this possible. Together, we are one step closer to an open web that can compete effectively.
+This report is a landmark moment for web and browser competition. While there is still work ahead, this marks strong action by yet another country's regulator to restore fair competition between browsers and between Web Apps and native app stores. Open Web Advocacy is proud to have played a role in this process and remains committed to seeing these remedies fully implemented. **We would like to thank the CMA and the MIR team for their tireless work over the last 4 years. We would also like to thank every developer, business, and supporter who helped make this possible. Together, we are one step closer to an open web that can compete effectively.**
 
 ## Conclusions
 
-The report (which is more than 600 pages) contains a number of significant conclusions which we have split by section. We haven’t covered everything that the report lays out.
+The [report](https://assets.publishing.service.gov.uk/media/67d1abd1a005e6f9841a1d94/Final_decision_report1.pdf) (which is more than 600 pages) contains a number of significant conclusions which we have split by section. We haven’t covered everything that the report lays out.
 
 ### Apple’s WebKit Restriction
 
@@ -131,11 +131,7 @@ Our view is that the user's chosen browser (i.e. their default browser) should a
 
 We raised a key concern that SFSafariViewController is effectively hardwired to Safari, unlike Android Custom Tabs, which, unless explicitly overridden, respects the user’s default browser choice. Our proposal to the MIR team was straightforward: Apple should be required to upgrade SFSafariViewController so it always uses the user’s default browser, while Google should be prohibited from hard-coding Android Custom Tabs to Chrome in apps like the Android Google Search app.
 
-Instead, the MIR team concluded that third-party browser vendors should be allowed to offer alternative in-app browser components, which native app developers could choose to integrate, effectively creating new in-app browsers that respect the user’s chosen default browser setting.
-
-We believe this approach misses the core issue: the user’s choice of default browser is meaningless if non-browser apps can ignore it when opening web links. If links from apps don’t open in the default browser, then what exactly is being defaulted?
-
-Even worse, by implicitly accepting Apple’s right to lock SFSafariViewController to Safari, the MIR risks signaling to Google that it’s acceptable to follow suit, potentially leading to Android Custom Tabs being locked to Chrome rather than respecting the user’s choice of default browser.
+The user’s choice of default browser is meaningless if non-browser apps can ignore it when opening web links. If links from apps don’t open in the default browser, then what exactly is being defaulted?
 
 You can read [our full paper here](https://open-web-advocacy.org/files/OWA%20-%20DMA%20Interventions%20-%20In-App%20Browsers%20v1.2.pdf).
 
@@ -156,7 +152,7 @@ In our response paper we were concerned that there could be a significant delay 
 > OWA suggested implementation of a minimum ‘core set of the most critical remedies’ (eg to address the WebKit restriction) at the conclusion of the market investigation. Once the DMCC Act was in force, the DMU could take over responsibility for ongoing enforcement, addressing any remedies that have been ‘bypassed or whose objectives remained unfulfilled’.  
 > <cite>[MIR’s Final Report](https://assets.publishing.service.gov.uk/media/67d1abd1a005e6f9841a1d94/Final_decision_report1.pdf)</cite>
 
-We are deeply appreciative of the MIR team's detailed and convincing arguments as to why handing on these recommendations onto the CMA to implement under the DMA will be effective, less risky and not result in significant delay. This is significantly strengthened by the CMA’s investigation into Apple’s and Google’s Strategic Market Status (SMS) directly incorporating the MIR’s core recommendations, making it clear the CMA intends to act quickly once designation is complete, expected within nine months.
+We are deeply appreciative of the MIR team's detailed and convincing arguments as to why handing on these recommendations onto the CMA to implement under the DMCC will be effective, less risky and not result in significant delay. This is significantly strengthened by the CMA’s investigation into Apple’s and Google’s Strategic Market Status (SMS) directly incorporating the MIR’s core recommendations, making it clear the CMA intends to act quickly once designation is complete, expected within nine months.
 
 > In any event, we do not consider that interventions which the CMA may decide to impose under the DMCC Act powers would necessarily take significantly longer to implement than the remedies which could be imposed via the EA02 remedy-making powers. In particular, we note that:<br><br>
 > (a) As set out in the Digital markets competition regime sub-section above, the CMA commenced SMS designation investigations on 23 January 2025 to assess whether to designate Apple and Google with SMS.<br><br>
@@ -234,7 +230,7 @@ For those only loosely following, or just tuning in, this is the culmination of 
 
 OWA was formed on the 12th of March 2021 due to dissatisfaction with the slow pace of features being added to iOS Safari and the excessive number of bugs. We realized, after a series of unsuccessful attempts to woo Apple to voluntarily start work on these features and increase Safari’s budget, that the problem was two-fold. A total absence of browser competition on iOS due to Apple’s ban of rival browser engines and that Apple was actively disincentivized to allow Web Apps to effectively compete with apps sold via their own App Store.
 
-On the 15th June 2021, The UK’s Regulator the Competition and Markets Authority (CMA) [launched a market study into mobile ecosystems](https://assets.publishing.service.gov.uk/media/60c8683a8fa8f57cef61fc18/Mobile_ecosystems_-_statement_of_scope_.pdf). Attempting to assess potential sources of harm to consumers within 4 broad themes:
+On the 15th June 2021, the UK’s Competition and Markets Authority (CMA) [launched a market study into mobile ecosystems](https://assets.publishing.service.gov.uk/media/60c8683a8fa8f57cef61fc18/Mobile_ecosystems_-_statement_of_scope_.pdf), attempting to assess potential sources of harm to consumers within 4 broad themes:
 
 * Competition in the supply of mobile devices and operating systems.
 
@@ -244,11 +240,11 @@ On the 15th June 2021, The UK’s Regulator the Competition and Markets Authorit
 
 * The role of Apple and Google in competition between app developers.
 
-In early October 2021 we had a meeting with the CMA to explain how effective browser competition was being prevented on iOS and how this was harming both consumers and developers by preventing Web Apps from being a viable competitor to native app stores. The meeting consisted of three speeches by [Alex Moore](https://au.linkedin.com/in/alexlmoore), [Stuart Langridge](https://www.kryogenix.org/) and [Bruce Lawson](https://brucelawson.co.uk/). These speeches were primarily focused on iOS Safari's (and by extension all browsers on iOS) lack of support for push notifications.
+In early October 2021 we had a meeting with the CMA to explain how effective browser competition was being prevented on iOS and how this was harming both consumers and developers by preventing Web Apps from being a viable competitor to native app stores. The meeting consisted of three presentations by [Alex Moore](https://au.linkedin.com/in/alexlmoore), [Stuart Langridge](https://www.kryogenix.org/) and [Bruce Lawson](https://brucelawson.co.uk/). These presentations were primarily focused on iOS Safari's (and by extension all browsers on iOS) lack of support for push notifications.
 
 **Two weeks later (and after more than a decade of refusing to do so), Apple quietly began work on push notifications for iOS Safari.**
 
-On 21st of December 2021, the CMA published their [Interim Report into Mobile Ecosystems](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report). At the time they stated they [were not launching a Market Investigation Reference](https://assets.publishing.service.gov.uk/media/61b73591e90e07043f2b98dd/Mobile_Ecosystems_No-MIR_decision_notice.pdf) presumably as they were waiting for new powers under [the DMCC bill](https://bills.parliament.uk/bills/3453). 
+On 21st of December 2021, the CMA published their [Interim Report into Mobile Ecosystems](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report). At the time they stated they [were not launching a Market Investigation Reference](https://assets.publishing.service.gov.uk/media/61b73591e90e07043f2b98dd/Mobile_Ecosystems_No-MIR_decision_notice.pdf), presumably because they were waiting for new powers under [the DMCC bill](https://bills.parliament.uk/bills/3453). 
 
 In [this report](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report) the CMA came to several critical conclusions including:
 

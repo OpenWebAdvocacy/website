@@ -17,11 +17,11 @@ They are:
 
 * A forced sale of Chrome by Google (and barring Google from re-entering the browser market for 10 years).
 
-We fully understand the rationale behind prohibiting search engine revenue-sharing agreements and [support the DOJ's decision to cancel the Apple-Google search deal](#17.-should-the-apple-google-search-deal-be-banned?), which undermines iOS browser competition and, with a possibly 98.5% profit margin, channels only a minimal share of its value into web platform development. However, we are concerned about the unintended consequences this approach may have on smaller browsers, particularly Mozilla. **Stripping Google of, at most, an additional 1.15%, and likely only 0.74%, of U.S. search traffic does not justify the risk of bankrupting a key contributor to the open web ecosystem.**
+We fully understand the rationale behind prohibiting search engine revenue-sharing agreements and [support the DOJ's decision to cancel the Apple-Google search deal](#should-the-apple-google-search-deal-be-banned%3F), which undermines iOS browser competition and, with a possibly 98.5% profit margin, channels only a minimal share of its value into web platform development. However, we are concerned about the unintended consequences this approach may have on smaller browsers, particularly Mozilla. **Stripping Google of, at most, an additional 1.15%, and likely only 0.74%, of U.S. search traffic does not justify the risk of bankrupting a key contributor to the open web ecosystem.**
 
 Mozilla plays a uniquely valuable role in the internet ecosystem as [a non-profit committed to an open, secure, and user-centric internet](https://www.mozilla.org/en-US/about/manifesto/). Despite its modest market share, Mozilla has a large influence on web standards, holding equal footing with Google and Apple in governance bodies like the W3C TAG. Mozilla also maintains its own independent engine, Gecko, which ensures diversity in browser implementations. Gecko is one of only three engines left in major usage. Mozilla frequently serves as a crucial third implementor voice in standards discussions, offering a non-profit perspective grounded in the public interest. Removing Mozilla from this equation would do far more harm to the long-term health of the web than any marginal competitive benefit from eliminating its Google deal, especially when other remedies are already projected to push Google’s market share below 50% and the drop in Google’s share from this remedy is so negligible.
 
-Even more concerning is the likely collapse in web platform investment if Google is forced to sell Chrome. Google currently funds an estimated 90% of Chromium development. Chromium is the open-source project that powers a number of browsers including Chrome, Edge, Opera, Samsung Internet, Vivaldi, Brave, and many other smaller browsers. If Google is forced to divest Chrome and can no longer fund the project, that investment may evaporate overnight. Smaller browsers do not have the resources to fill that gap. **In total, this could result in an [estimated 70% drop](#15.-estimating-the-impact-on-web-platform-funding) in funding for the web platform, a catastrophic blow to the ongoing evolution of the web. Progress in new web features could stagnate, and the performance and stability of the web platform will deteriorate.**
+Even more concerning is the likely collapse in web platform investment if Google is forced to sell Chrome. Google currently funds an estimated 90% of Chromium development. Chromium is the open-source project that powers a number of browsers including Chrome, Edge, Opera, Samsung Internet, Vivaldi, Brave, and many other smaller browsers. If Google is forced to divest Chrome and can no longer fund the project, that investment may evaporate overnight. Smaller browsers do not have the resources to fill that gap. **In total, this could result in an [estimated 70% drop](#estimating-the-impact-on-web-platform-funding) in funding for the web platform, a catastrophic blow to the ongoing evolution of the web. Progress in new web features could stagnate, and the performance and stability of the web platform will deteriorate.**
 
 This in turn would harm the ability of the web to compete with the mobile app store duopoly of Apple and Google, directly undercutting the DOJ’s case against Apple, and threatening recent progress by UK and EU regulators to improve competition between browsers and between web apps and native apps. Critical efforts to port both Chromium and Gecko to iOS could be abandoned entirely.
 
@@ -38,23 +38,23 @@ Given the sheer scale of the web’s usage, its role underpinning the multi-tril
 
 We believe the DOJ can avoid this outcome. **We are optimistic that with targeted adjustments, the DOJ can achieve its goal of breaking Google’s monopoly while safeguarding the web platform's funding and the vast benefits it brings so many US consumers and businesses every year, for free.** In fact, we believe that the DOJ could increase both funding and browser competition with adjustments to their existing remedies.
 
-Given that just one of the DOJ’s remedies, canceling the Apple-Google search deal, will [by our estimate](#17.-should-the-apple-google-search-deal-be-banned?) reduce Google’s U.S. search market share **by approximately 21.8% to 30.2%**, there is a strong argument that the DOJ can succeed without resorting to remedies that risk gutting web platform funding.
+Given that just one of the DOJ’s remedies, canceling the Apple-Google search deal, will [by our estimate](#should-the-apple-google-search-deal-be-banned%3F) reduce Google’s U.S. search market share **by approximately 21.8% to 30.2%**, there is a strong argument that the DOJ can succeed without resorting to remedies that risk gutting web platform funding.
 
 We propose the following six potential targeted changes:
 
-* [Cap Google’s default search deals to 50% per browser](#24.1.4.-permit-browser-search-default-deals-up-to-50%-market-share,-excluding-apple), [excluding Apple, whose contract should be canceled entirely.](#24.1.2.-terminate-the-apple-google-search-agreement)
+* [Cap Google’s default search deals to 50% per browser](#permit-browser-search-default-deals-up-to-50%25-market-share%2C-excluding-apple), [excluding Apple, whose contract should be canceled entirely.](#terminate-the-apple-google-search-agreement)
 
-* [Introduce a carve-out for smaller browsers.](#24.1.6.-carve-out-for-smaller-browsers)  
+* [Introduce a carve-out for smaller browsers.](#carve-out-for-smaller-browsers)  
     
-* [Mandate 90% reinvestment of Google search revenues into web platform and browser development.](#24.1.5.-require-reinvestment-of-search-revenue-into-browser-and-web-platform-development)  
+* [Mandate 90% reinvestment of Google search revenues into web platform and browser development.](#require-reinvestment-of-search-revenue-into-browser-and-web-platform-development)  
     
-* [Restructure Chrome as an independent subsidiary within Alphabet.](#24.1.7.-move-chrome-from-google-to-alphabet)  
+* [Restructure Chrome as an independent subsidiary within Alphabet.](#move-chrome-from-google-to-alphabet-1)  
     
-* [Limit Chrome’s default search deal with Google to 50% of users and auction the remaining defaults to rival search engines.](#24.1.7.-move-chrome-from-google-to-alphabet)
+* [Limit Chrome’s default search deal with Google to 50% of users and auction the remaining defaults to rival search engines.](#move-chrome-from-google-to-alphabet-1)
 
-* [Enforce transparency and fair revenue share terms across all search deals.](#24.1.8.-conditions-on-search-deals)
+* [Enforce transparency and fair revenue share terms across all search deals.](#conditions-on-search-deals)
 
-Conservatively, we estimate these adjusted remedies would [reduce Google’s U.S. search market share to below 50%](#24.3.-estimated-impact-of-the-package-on-google's-search-engine-market-share), the threshold for presumed monopoly power. Critically, though, rather than collapsing platform funding, [these adjusted remedies would likely increase web platform investment by 150%](#24.2.7.-estimated-total-impact-on-web-platform-investment), creating a healthier, more competitive, and more innovative internet ecosystem.
+Conservatively, we estimate these adjusted remedies would [reduce Google’s U.S. search market share to below 50%](#estimated-impact-of-the-package-on-google's-search-engine-market-share), the threshold for presumed monopoly power. Critically, though, rather than collapsing platform funding, [these adjusted remedies would likely increase web platform investment by 150%](#estimated-total-impact-on-web-platform-investment), creating a healthier, more competitive, and more innovative internet ecosystem.
 
 Since the primary justification for these remedies is to prevent actions that would inadvertently dismantle the funding that sustains the web platform, it is both logical and essential that they include concrete safeguards to ensure that goal is actually met. For this reason, we have proposed measures such as minimum reinvestment requirements for any revenue derived from Google search deals, so that these remedies not only avoid harm, but actively support the long-term health of the web platform.
 
@@ -69,6 +69,245 @@ The DOJ’s case has the potential to unlock vast benefits, not just for search,
 Our interest in this case is driven by concern over the potential unintended consequences of some of the DOJ’s proposed remedies, and the broader impact these measures could have on the health of the web and the millions of developers and billions of consumers who rely upon it.
 
 ## 3. Table of Contents
+
+<details>
+<summary>Table of Contents</summary>
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web"><strong>1. Introduction</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#about-open-web-advocacy"><strong>2. About Open Web Advocacy</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#table-of-contents"><strong>3. Table of Contents</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#quick-primer-on-the-doj’s-case"><strong>4. Quick Primer on the DOJ’s Case</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#did-the-doj-deserve-to-win%3F"><strong>5. Did the DOJ Deserve to Win?</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#what-remedies-are-on-the-table%3F"><strong>6. What Remedies Are on the Table?</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#proposed-remedies-and-their-potential-unintended-consequences">6.1. Proposed Remedies and Their Potential Unintended Consequences</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#the-problem-with-canceling-deals-with-small-browsers"><strong>7. The Problem with Canceling Deals with Small Browsers</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#the-issue-with-forcing-google-to-sell-chrome"><strong>8. The Issue with Forcing Google to Sell Chrome</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#the-browser-engine-landscape"><strong>9. The Browser Engine Landscape</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#browser-vs-platform">9.1. Browser vs Platform</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#browser-engines">9.2. Browser Engines</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#the-browsers">9.3. The Browsers</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#chrome">9.3.1. Chrome</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#safari">9.3.2. Safari</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#firefox">9.3.3. Firefox</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#microsoft-edge">9.3.4. Microsoft Edge</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#smaller-browser-vendors">9.3.5. Smaller Browser Vendors</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#standards-bodies">9.4. Standards Bodies</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#native-app-closed-gardens-vs-the-open-web"><strong>10. Native App Closed Gardens vs The Open Web</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#what's-in-chromium%3F"><strong>11. What's in Chromium?</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#what-is-chromium%3F">11.1. What is Chromium?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#how-is-it-funded%3F">11.2. How is it Funded?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#what’s-in-it%3F">11.3. What’s in it?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#core%2Fmajor-chromium-technologies">11.3.1. Core/Major Chromium Technologies</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#graphics%2C-rendering-and-visual">11.3.2. Graphics, Rendering and Visual</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#networking-and-communication">11.3.3. Networking and Communication</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#developer-tools-and-debugging">11.3.4. Developer Tools and Debugging</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#security%2C-safety%2C-and-privacy">11.3.5. Security, Safety, and Privacy</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#media-and-codecs">11.3.6. Media and Codecs</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#collaboration-with-standards-bodies">11.3.7. Collaboration with Standards Bodies</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#where-is-it-used%3F">11.4. Where is it used?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#chromium-browsers">11.4.1. Chromium Browsers</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#non-chromium-browsers">11.4.2. Non-Chromium Browsers</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#spacex-terminals">11.4.3. SpaceX Terminals</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#bloomberg-terminals">11.4.4. Bloomberg Terminals</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#lg’s-webos">11.4.5. LG’s WebOS</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#native-applications">11.4.6. Native Applications</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#v8-javascript-engine">11.4.7. V8 JavaScript Engine</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#communication-–-webrtc">11.4.8. Communication – WebRTC</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#graphics-–-skia-%26-dawn">11.4.9. Graphics – Skia & Dawn</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#video-%26-image-codecs-–-av1%2C-vp9%2C-webp">11.4.10. Video & Image Codecs – AV1, VP9, WebP</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#what-does-it-cost-to-develop-and-maintain-the-web-platform%3F"><strong>12. What Does It Cost to Develop and Maintain the Web Platform?</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#how-much-does-blink%2Fchromium-cost%3F">12.1. How Much Does Blink/Chromium Cost?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#how-much-does-webkit-cost%3F">12.2. How Much Does WebKit Cost?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#what-about-the-other-chromium-browsers%3F">12.3. What About the Other Chromium Browsers?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#how-much-does-gecko-cost%3F">12.4. How Much Does Gecko Cost?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#is-%24400-million-a-year-enough-to-fund-gecko-and-firefox%3F">12.5. Is $400 Million a Year Enough to Fund Gecko and Firefox?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#tragedy-of-the-commons"><strong>13. Tragedy of the Commons</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#what’s-at-risk-for-the-open-web%3F"><strong>14. What’s at Risk for the Open Web?</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#estimating-the-impact-on-web-platform-funding"><strong>15. Estimating the Impact on Web Platform Funding</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#mozilla">15.1. Mozilla</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#google">15.2. Google</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#microsoft">15.3. Microsoft</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#apple">15.4. Apple</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#smaller-chromium-browser-vendors">15.5. Smaller Chromium Browser Vendors</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#igalia">15.6. Igalia</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#other-non-browser-companies">15.7. Other Non-Browser Companies</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#the-buyer-of-chrome">15.8. The Buyer of Chrome</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#what-could-the-total-impact-be%3F">15.9. What could the Total Impact Be?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#could-this-case-be-good-for-the-web%3F"><strong>16. Could this case be good for the Web?</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#should-the-apple-google-search-deal-be-banned%3F"><strong>17. Should the Apple Google Search Deal be Banned?</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#breakdown-of-apple-google-search-deal">17.1. Breakdown of Apple-Google Search Deal</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#how-much-share-would-google-lose-if-apple-changed-the-default-search-engine%3F">17.2. How much share would Google lose if Apple changed the Default Search Engine?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#google’s-assessment">17.2.1. Google’s Assessment</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#impact-of-the-syndication-remedy">17.3. Impact of the Syndication Remedy</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#apple’s-response-to-the-search-deal">17.4. Apple’s Response to the Search Deal</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#google’s-response-to-the-search-deal">17.5. Google’s Response to the Search Deal</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#harms-and-benefits-from-canceling-the-apple---google-search-deal">17.6. Harms and Benefits from Canceling the Apple - Google Search Deal</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#funds-safari%2Fwebkit">17.6.1. Funds Safari/WebKit</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#increases-apple’s-revenue">17.6.2. Increases Apple’s Revenue</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#the-benefits-of-canceling-the-apple-google-search-deal">17.6.3. The Benefits of Canceling the Apple-Google Search Deal</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#should-the-deal-be-canceled%3F">17.7. Should the Deal be Canceled?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#what-does-this-mean-for-the-dojs-other-remedies%3F">17.8. What does this mean for the DOJs other remedies?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#should-the-google-android-placement-and-bundling-deals-be-banned%3F"><strong>18. Should the Google Android Placement and Bundling Deals be Banned?</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#the-11-core-gms-applications">18.1. The 11 Core GMS Applications</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#mada-vs-emada">18.2. MADA vs EMADA</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#should-google’s-oem-deals-be-allowed%3F">18.3. Should Google’s OEM Deals Be Allowed?</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#should-all-search-engine-default-placement-deals-be-banned%3F"><strong>19. Should all Search Engine Default Placement Deals be Banned?</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#fixing-the-problem-without-breaking-the-web"><strong>20. Fixing the Problem Without Breaking the Web</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#protecting-the-web-platform’s-funding">20.1. Protecting the Web Platform’s Funding</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#preventing-browser-market-consolidation">20.2. Preventing Browser Market Consolidation</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#challenges-for-those-arguing-for-chrome-divestment"><strong>21. Challenges for those Arguing for Chrome Divestment</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#challenges-for-those-arguing-for-banning-search-engine-deals-with-small-browsers"><strong>22. Challenges for those Arguing for Banning Search Engine Deals with Small Browsers</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#potential-alternative-remedies"><strong>23. Potential Alternative Remedies</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#cap-default-search-deals-at-50%">23.1. Cap Default Search Deals at 50%</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#allow-exceptions-for-small-browsers">23.2. Allow Exceptions for Small Browsers</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#require-reinvestment-of-search-revenue-into-browsers-and-the-web-platform">23.3. Require Reinvestment of Search Revenue into Browsers and the Web Platform</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#transfer-chrome-to-a-non-profit">23.4. Transfer Chrome to a Non-Profit</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#allow-chrome’s-sale-with-minimum-platform-investment-conditions">23.5. Allow Chrome’s Sale with Minimum Platform Investment Conditions</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#move-chrome-from-google-to-alphabet">23.6. Move Chrome from Google to Alphabet</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#cap-chrome’s-search-defaults-to-google-at-50%">23.7. Cap Chrome’s Search Defaults to Google at 50%</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#transparency-and-uniform-revenue-share-requirement">23.8. Transparency and Uniform Revenue Share Requirement</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#guarantee-that-google-is-not-barred-from-investing-in-chromium">23.9. Guarantee that Google Is Not Barred from Investing in Chromium</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#the-ideal-remedy-package"><strong>24. The Ideal Remedy Package</strong></a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#remedies-package">24.1. Remedies Package</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#preserve-and-implement-majority-of-the-doj's-existing-remedies">24.1.1. Preserve and Implement Majority of the DOJ's Existing Remedies</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#terminate-the-apple-google-search-agreement">24.1.2. Terminate the Apple-Google Search Agreement</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#eliminate-oem-placement%2C-revenue-sharing%2C-placement-and-bundling-agreements">24.1.3. Eliminate OEM Placement, Revenue Sharing, Placement and Bundling Agreements</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#permit-browser-search-default-deals-up-to-50%25-market-share%2C-excluding-apple">24.1.4. Permit Browser Search Default Deals up to 50% Market Share, Excluding Apple</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#require-reinvestment-of-search-revenue-into-browser-and-web-platform-development">24.1.5. Require Reinvestment of Search Revenue into Browser and Web Platform Development</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#carve-out-for-smaller-browsers">24.1.6. Carve-Out for Smaller Browsers</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#move-chrome-from-google-to-alphabet-1">24.1.7. Move Chrome from Google to Alphabet</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#conditions-on-search-deals">24.1.8. Conditions on Search Deals</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#estimated-impact-on-web-funding">24.2. Estimated Impact on Web Funding</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#google-1">24.2.1. Google</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#mozilla-1">24.2.2. Mozilla</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#microsoft-1">24.2.3. Microsoft</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#apple-1">24.2.4. Apple</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#smaller-browser-vendors-1">24.2.5. Smaller Browser Vendors</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#other-non-browser-companies-1">24.2.6. Other Non-Browser Companies</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#estimated-total-impact-on-web-platform-investment">24.2.7. Estimated Total Impact on Web Platform Investment</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#estimated-impact-of-the-package-on-google's-search-engine-market-share">24.3. Estimated Impact of the Package on Google's Search Engine Market Share</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#24.3.1.-safari,-spotlight-and-siri">24.3.1. Safari, Spotlight and Siri</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#chrome">24.3.4. Chrome</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#other-remedies">24.3.6. Other Remedies</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#estimated-total-impact-on-google-search-share">24.3.7. Estimated Total Impact on Google Search Share</a></p>
+
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#final-thoughts"><strong>25. Final Thoughts</strong></a></p>
+</details>
 
 ## 4. Quick Primer on the DOJ’s Case
 
@@ -879,7 +1118,7 @@ Despite these challenges, ongoing innovation is essential for the web to remain 
 
 ### 12.1. How Much Does Blink/Chromium Cost?
 
-Recent data published by Google indicates that it is responsible for approximately [94% of all Git](#11.2.-how-is-it-funded?) commits to Chromium. While this is a crude metric, we believe it provides a reasonable estimate of Google’s relative financial contribution to Chromium’s development which we estimate at approximately 90%.
+Recent data published by Google indicates that it is responsible for approximately [94% of all Git](#how-is-it-funded%3F) commits to Chromium. While this is a crude metric, we believe it provides a reasonable estimate of Google’s relative financial contribution to Chromium’s development which we estimate at approximately 90%.
 
 Estimates suggest Google employs around 2,000 engineers working on Chrome and Blink/Chromium, with an estimated 50-50 split between browser and platform development. With an average cost of $500,000 per employee, this suggests that Google’s technical staff alone costs roughly $1 billion annually.
 
@@ -902,7 +1141,7 @@ That is, as early as 2011, Apple's management viewed Web Apps as a credible thre
 
 ### 12.3. What About the Other Chromium Browsers?
 
-We lack precise data on how much other Chromium-based browsers invest beyond their contributions to Chromium itself. However, it is clear that Microsoft allocates significantly more resources to developing its browser than to contributing to the underlying platform, a strategy made possible by [Google shouldering the majority of Chromium’s development costs.](#11.2.-how-is-it-funded?)
+We lack precise data on how much other Chromium-based browsers invest beyond their contributions to Chromium itself. However, it is clear that Microsoft allocates significantly more resources to developing its browser than to contributing to the underlying platform, a strategy made possible by [Google shouldering the majority of Chromium’s development costs.](#how-is-it-funded%3F)
 
 Smaller Chromium-based browsers can focus their limited resources, typically in the range of a few million to tens of millions, on niche features and differentiated user experiences rather than maintaining or contributing significantly to the Chromium core. This model of competition is valuable, as it pressures larger browsers (such as Chrome, Edge, Firefox, and Safari) to adopt new features they might otherwise ignore and preserves the potential for one of these smaller players to grow its market share over time.
 
@@ -1038,7 +1277,7 @@ Everything hinges on who, if anyone, ends up buying Chrome. The ideal buyer woul
 
 The DOJ has not suggested any binding conditions requiring buyers to continue investing in Chromium or the web platform. It’s also unclear what exactly the buyer would receive. Will they inherit the current engineering staff? Will they gain control over the Chromium open-source project, the Chromium brand, or Google's positions on key web standards bodies? These details matter, and currently, they remain unanswered.
 
-While it would be ideal if the new entity maintained or even increased spending, as we've outlined earlier [in this analysis](#8.-the-issue-with-forcing-google-to-sell-chrome), there will be immense financial pressure to cut costs. This is especially true given that this new owner will lose its most obvious revenue source: the ability to sell the default search engine slot to Google. 
+While it would be ideal if the new entity maintained or even increased spending, as we've outlined earlier [in this analysis](#the-issue-with-forcing-google-to-sell-chrome), there will be immense financial pressure to cut costs. This is especially true given that this new owner will lose its most obvious revenue source: the ability to sell the default search engine slot to Google. 
 
 They will, of course, be able to sell that slot to another search engine, but it is not clear whether the resulting revenue will be sufficient. According to court documents, Microsoft offered Apple $4 billion per year:
 
@@ -1076,7 +1315,7 @@ Total: $450 million per year
 
 **This represents a decline of roughly 70% in annual investment into the web platform,** a dramatic reduction that could severely undermine the pace of web innovation and long-term competitiveness of the open web.
 
-Again, it should be stressed that this is an estimate, but we have yet to see any other careful analysis on what the change in investment will be **or why a 70% plunge in investment for the web platform would not be catastrophic**. Anyone making such an analysis must answer the questions [we pose in this section](#21.-challenges-for-those-arguing-for-chrome-divestment).
+Again, it should be stressed that this is an estimate, but we have yet to see any other careful analysis on what the change in investment will be **or why a 70% plunge in investment for the web platform would not be catastrophic**. Anyone making such an analysis must answer the questions [we pose in this section](#challenges-for-those-arguing-for-chrome-divestment).
 
 While a 70% drop in web platform investment may sound dramatic, it is not, in our view, the worst-case scenario, it is the most realistic and probable outcome based on the incentives created by the DOJ’s proposed remedies. Google would lose its primary reason to invest, the new owner of Chrome would face severe financial pressure and lack viable revenue streams, Mozilla’s funding would be cut off, Microsoft would shift toward maintenance over feature development, and Apple would have little incentive to increase or maintain its already limited investment. If this is not the median case, then those who argue otherwise must identify who will fund the web platform at current levels, and why.
 
@@ -1472,7 +1711,7 @@ However, even if we assume that he is right and that Apple would never create a 
 > As the Court found, Google achieved its popularity and success through innovation: by building the best search engine and making smart investment and business decisions, like our early investment in mobile. People don't use Google because they have to — they use it because they want to.
 > <cite>[Lee-Anne Mulholland - Google Vice President, Regulatory Affairs](https://www.latimes.com/business/story/2025-01-06/google-antitrust-alphabet-doj-you-tube-chrome-internet)</cite>
 
-Google claims it has a dominant market share simply because it is the best search engine. While Google is an excellent product and very likely the current best search engine in the world, it stretches credulity that Google would be willing to pay Apple $20 billion per year if they believed that canceling the deal would have little or no negative impact on their market share. [Google’s own internal analysis](#17.2.1.-google’s-assessment) does not support that belief.
+Google claims it has a dominant market share simply because it is the best search engine. While Google is an excellent product and very likely the current best search engine in the world, it stretches credulity that Google would be willing to pay Apple $20 billion per year if they believed that canceling the deal would have little or no negative impact on their market share. [Google’s own internal analysis](#google’s-assessment) does not support that belief.
 
 Both Apple and Google are acting in public statements as if canceling the deal and allowing Apple to sell the default to a party other than Google will have limited impact on Google’s share of the market. Suggesting that the court will be handing equivalent market power to Google but this time for free. **However the evidence in the court documents and even Google’s own assessment show that the most likely outcome is that Google market share will be reduced from nearly 90% to less than 65%, and likely less than 60%, by this single remedy.**
 
@@ -1671,7 +1910,7 @@ That leaves us to three distinct types of deals:
    This arrangement is not justifiable in its current form. It covers over half of U.S. search traffic, yet Apple reinvests only a tiny fraction (estimated by us at below 2%) into Safari or WebKit. This deal should either be terminated or, at a minimum, capped at 50% of Apple’s defaults. In addition, Apple should be required to reinvest the majority (at least 95%) of the proceeds into Safari, WebKit, and the broader web platform. This would ensure that the deal’s continuation is directly tied to its public benefit.
 
 2. **Google’s deals with smaller browser vendors:**  
-   These should be allowed to continue, as they help support browser diversity and competition in the adjacent browser market. These deals are small totaling less than 1.9% of Google’s revenue share payments. In the event that one of these browsers becomes too large then the 50% cap should apply. This should be done in a manner that does not disincentivize smaller browsers from gaining market share, [such as the one discussed here](#24.1.6.-carve-out-for-smaller-browsers).   
+   These should be allowed to continue, as they help support browser diversity and competition in the adjacent browser market. These deals are small totaling less than 1.9% of Google’s revenue share payments. In the event that one of these browsers becomes too large then the 50% cap should apply. This should be done in a manner that does not disincentivize smaller browsers from gaining market share, [such as the one discussed here](#allow-exceptions-for-small-browsers).   
      
 3. **Chrome’s default search engine behavior:**  
    Chrome's default to Google is effectively an implicit internal deal. Given Google’s substantial investment in Chromium and the web platform, it is reasonable to allow Chrome to default to Google, but only in part. Chrome should be required to allocate at least 50% of its default search traffic through competitive auction to other search providers. Moreover, the majority (at least 95%) of all proceeds from these auctions should be obligated to be reinvested into Chrome and the web platform.
@@ -1776,7 +2015,7 @@ In the court proceedings, Mozilla’s contribution to the web was largely dismis
 
 So which is it? If 2.6% is considered insignificant, then 1.15% must be even more so. A consistent standard must be applied. The real question is whether the potential harm of allowing Google to pay for default placement in smaller browsers outweighs the very real benefit of continued funding for vendors like Mozilla.
 
-It is also important to consider this figure in context. [Google's current market share in general search is likely to fall below 60% under other remedies proposed by the Department of Justice](#17.-should-the-apple-google-search-deal-be-banned?). When viewed in that light, the potential impact of less than 1.15% of search traffic becomes even smaller and harder to justify as a meaningful source of harm.
+It is also important to consider this figure in context. [Google's current market share in general search is likely to fall below 60% under other remedies proposed by the Department of Justice](#should-the-apple-google-search-deal-be-banned%3F). When viewed in that light, the potential impact of less than 1.15% of search traffic becomes even smaller and harder to justify as a meaningful source of harm.
 
 Like Mozilla, we believe that its value to the web ecosystem is far greater than its market share alone might suggest. As an independent nonprofit, Mozilla has been a consistent and influential voice in web standards discussions and has played a key role in advancing openness, privacy, and user choice. Losing that voice would leave the ecosystem less diverse, less accountable, and more heavily shaped by the interests of dominant tech companies.
 
@@ -1989,7 +2228,7 @@ In particular, the search engine syndication remedies, which allow competing sea
 
 #### 24.1.2. Terminate the Apple-Google Search Agreement
 
-While earlier sections explored the possibility of allowing a 50% default search deal, including for Safari, [we ultimately agree with the DOJ that the Apple-Google agreement should be fully terminated](#17.-should-the-apple-google-search-deal-be-banned?), and that all similar deals between Apple and Google should be prohibited for the duration of the judgment, the next five to ten years.
+While earlier sections explored the possibility of allowing a 50% default search deal, including for Safari, [we ultimately agree with the DOJ that the Apple-Google agreement should be fully terminated](#should-the-apple-google-search-deal-be-banned%3F), and that all similar deals between Apple and Google should be prohibited for the duration of the judgment, the next five to ten years.
 
 Unlike other browser vendors, Apple reinvests only a small fraction of its search deal revenue into WebKit and Safari. Moreover, the sheer scale of this deal, representing over 50% of U.S. Google search traffic, means that any justification for retaining it, even in part, would need to be exceptionally compelling.
 
@@ -2013,7 +2252,7 @@ Given the anti-competitive impact of these deals and the minimal risk posed by t
 
 As previously discussed, this remedy would place a cap on Google’s ability to secure default search engine placements, limiting Google to 50% of available default placements on any browser.
 
-Crucially, Apple would be excluded from participating in such deals with Google, for reasons [outlined here](#24.1.2.-terminate-the-apple-google-search-agreement).
+Crucially, Apple would be excluded from participating in such deals with Google, for reasons [outlined here](#terminate-the-apple-google-search-agreement).
 
 **This approach strikes an important balance. It prevents Google from monopolizing the majority of available search defaults while still preserving the critical source of funding for the web platform.** In our view, this remedy represents a proportionate and pragmatic solution, one that helps reduce Google’s market share without triggering a sudden and damaging collapse in web platform investment, which underpins services relied upon by millions of American consumers and businesses.
 
@@ -2027,7 +2266,7 @@ Given this rationale, it is entirely reasonable to attach conditions to such dea
 
 #### 24.1.6. Carve-Out for Smaller Browsers
 
-As discussed earlier, smaller browsers will likely require a carve-out from the 50% default cap in order to remain viable. However, to prevent this exception from being exploited, the share that each of these browsers could sell to Google would gradually decrease to 50% as their market share increases. This could be done [using a tapered formula](#23.2.-allow-exceptions-for-small-browsers) to prevent any sharp changes in revenue and preserve appropriate incentives.
+As discussed earlier, smaller browsers will likely require a carve-out from the 50% default cap in order to remain viable. However, to prevent this exception from being exploited, the share that each of these browsers could sell to Google would gradually decrease to 50% as their market share increases. This could be done [using a tapered formula](#allow-exceptions-for-small-browsers) to prevent any sharp changes in revenue and preserve appropriate incentives.
 
 Google’s ability to pursue aggregate deals could be limited by enforcing a strict overall cap, e.g., prohibiting it from purchasing more than 50% of total browser defaults.
 
@@ -2073,7 +2312,7 @@ At a minimum, the court should require Google to apply non-discriminatory terms 
 
 ### 24.2. Estimated Impact on Web Funding
 
-Now that we have a package of remedies, it is worth revisiting [our analysis of the impact of the DOJ’s existing remedies](#15.-estimating-the-impact-on-web-platform-funding) which we predicted would lead to a 70% decline in web platform funding and estimating what the impact of the adjusted remedies would likely be.
+Now that we have a package of remedies, it is worth revisiting [our analysis of the impact of the DOJ’s existing remedies](#estimating-the-impact-on-web-platform-funding) which we predicted would lead to a 70% decline in web platform funding and estimating what the impact of the adjusted remedies would likely be.
 
 Again, as with the previous section, this is an informed but ultimately speculative estimate.
 
@@ -2096,7 +2335,7 @@ For comparison, the Apple-Google default deal, which covers 28% of search traffi
 
 If that entire $5 billion were obligated to be reinvested into the **Chrome and Chromium** ecosystem on a **50-50 basis**, Google’s annual direct spending on the web platform would rise to **$2.5 billion**, a very significant increase in its investment in the web platform.
 
-#### 24.2.3. Mozilla
+#### 24.2.2. Mozilla
 
 Available data suggests that Google is significantly underpaying Mozilla relative to Apple for default search engine placement. Safari holds a 17.59% share of the global browser market, while Firefox holds 2.5%. **Yet Apple reportedly receives around $20 billion annually from Google, compared to just $400 million for Mozilla.**
 
@@ -2108,7 +2347,7 @@ The remedy that makes these search engine contracts public and mandates that all
 
 **Under such a model, Mozilla’s payments would rise to roughly $1.4 billion annually.** That could **boost their web platform budget to around $700 million per year**, enough to fund serious, sustained investment in Gecko and allow Mozilla to apply real competitive pressure on other browser engines and other browsers.
 
-#### 24.2.2. Microsoft
+#### 24.2.3. Microsoft
 
 It is uncertain how Microsoft’s own investment in the web platform will evolve under these conditions. While Microsoft will significantly benefit from increased investment in Chromium, it’s unclear whether this will translate into a corresponding rise in their own contributions.
 
@@ -2174,11 +2413,11 @@ We can also estimate the potential impact of these alternative remedies on Googl
 
 #### 24.3.1. Safari, Spotlight and Siri
 
-As [outlined earlier](#17.-should-the-apple-google-search-deal-be-banned?), terminating the Apple-Google search deal is expected to **reduce Google’s U.S. search market share by approximately 21.8% to 30.2%**. The core assumption is that Apple will sell its default search placement to a competing engine, and given the rising quality of alternative search providers and the supporting syndication remedy, retention rates could match or exceed the 65% retention Bing achieved on Firefox in 2020\. **This, combined with the fact that the Apple deal accounts for over 50% of Google’s U.S. search traffic**, leads to such a steep decline in market share.
+As [outlined earlier](#should-the-apple-google-search-deal-be-banned%3F), terminating the Apple-Google search deal is expected to **reduce Google’s U.S. search market share by approximately 21.8% to 30.2%**. The core assumption is that Apple will sell its default search placement to a competing engine, and given the rising quality of alternative search providers and the supporting syndication remedy, retention rates could match or exceed the 65% retention Bing achieved on Firefox in 2020\. **This, combined with the fact that the Apple deal accounts for over 50% of Google’s U.S. search traffic**, leads to such a steep decline in market share.
 
 #### 24.3.4. Chrome
 
-As [discussed](#24.2.1.-google), we can infer from court documents that Chrome accounts for approximately 29.7% of Google’s U.S. search traffic. Under the proposed remedy, requiring Chrome to retain the default search engine for no more than 50% of its users and auction the default for the remaining 50%, an estimated 14.8% of Google’s U.S. search traffic would initially be redirected to competing search engines.
+As [discussed](#google-1), we can infer from court documents that Chrome accounts for approximately 29.7% of Google’s U.S. search traffic. Under the proposed remedy, requiring Chrome to retain the default search engine for no more than 50% of its users and auction the default for the remaining 50%, an estimated 14.8% of Google’s U.S. search traffic would initially be redirected to competing search engines.
 
 Not all users will stay with the new default. Some will manually switch back to Google. However, using the 65% retention rate Bing achieved on Firefox in 2020 as a benchmark, and factoring in the effects of the syndication remedy, which should improve user retention for alternatives, the actual loss for Google is likely to be smaller, but still significant.
 
@@ -2211,7 +2450,7 @@ In our opinion, the Department of Justice (DOJ) was absolutely right to bring an
 
 However, while most of the remedies will either benefit or have a neutral effect on the broader web platform, two stand out as collectively likely catastrophic: a total ban on search engine placement deals and forcing Google to divest Chrome.
 
-A total ban on search engine placement deals would **likely bankrupt Mozilla** and strip a newly independent Chrome of its most reliable revenue stream. Even more concerning, forcing a Chrome divestment **could collapse investment in the web platform, likely [cutting it by 70%](#15.-estimating-the-impact-on-web-platform-funding)**. Together, these actions risk destabilizing the browser ecosystem, concentrating power among even fewer players, and severely undermining innovation and long-term investment in the web platform.
+A total ban on search engine placement deals would **likely bankrupt Mozilla** and strip a newly independent Chrome of its most reliable revenue stream. Even more concerning, forcing a Chrome divestment **could collapse investment in the web platform, likely [cutting it by 70%](#estimating-the-impact-on-web-platform-funding)**. Together, these actions risk destabilizing the browser ecosystem, concentrating power among even fewer players, and severely undermining innovation and long-term investment in the web platform.
 
 We are deeply concerned that in trying to solve one monopoly problem, the DOJ could unintentionally harm the open web ecosystem, a sector worth trillions to the U.S. economy, and in doing so, strengthen other entrenched tech giants, potentially undermining its own antitrust efforts, including their case against Apple.
 
@@ -2237,8 +2476,8 @@ We have proposed the following six potential targeted changes:
     
 * **Enforce transparency and fair revenue share terms across all search deals.**
 
-These adjustments would still achieve the DOJ’s core goal: restoring meaningful competition in general search. Conservatively, we estimate these adjusted remedies would reduce Google’s U.S. search market share to [**below 50%**](#24.3.7.-estimated-total-impact-on-google-search-share), the threshold for presumed monopoly power.
+These adjustments would still achieve the DOJ’s core goal: restoring meaningful competition in general search. Conservatively, we estimate these adjusted remedies would reduce Google’s U.S. search market share to [**below 50%**](#estimated-total-impact-on-google-search-share), the threshold for presumed monopoly power.
 
-Critically, though, rather than collapsing platform funding, these adjusted remedies would likely [**increase web platform investment by 150%**](#24.3.-estimated-impact-of-the-package-on-google's-search-engine-market-share), creating a healthier, more competitive, and more innovative internet ecosystem.
+Critically, though, rather than collapsing platform funding, these adjusted remedies would likely [**increase web platform investment by 150%**](#estimated-impact-of-the-package-on-google's-search-engine-market-share), creating a healthier, more competitive, and more innovative internet ecosystem.
 
 With the right adjustments, the DOJ’s case against Google can mark not just the end of a monopoly, but the start of a new era of competition and innovation on the web. This is a once-in-a-generation opportunity to restore balance and ensure the internet remains an open, competitive platform, one that continues to serve millions of Americans and fuel growth across the entire U.S. economy.

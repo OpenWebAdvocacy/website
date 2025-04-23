@@ -100,6 +100,12 @@ figcaption {
   border: 0;
 }
 
+figure.equation {
+  padding: 0px;
+  background-color: white;
+}
+
+
 /* ---------------------- GLOBALS ------------------------ */
 
 body {
@@ -1209,6 +1215,12 @@ p.social {
 
 ol.alpha {
   list-style-type: lower-alpha;
+}
+
+.small {
+  @media screen and (width >= 600px) {
+    max-width: 50%
+  }
 }
 
 /* --------------------- PROMOTION GALLERY ------------------ */

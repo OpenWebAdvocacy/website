@@ -1,6 +1,9 @@
 {% set pageTitle = title + ' - ' + site.name %}
-{% set socialImage = site.url + site.logo if not socialImage %}
-
+{% if socialImage %}
+  {% set socialImage = site.url + socialImage %}
+{% else %}
+  {% set socialImage = site.url + site.logo %}
+{% endif %}
 {# We don't want any duplication. This is likely for the homepage #}
 {% if site.name === title %}
   {% set pageTitle = title %}
@@ -32,7 +35,12 @@
 {% if socialImage %}
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:image" content="{{ socialImage }}" />
-  <meta name="twitter:image" content="{{ socialImage }}" />
+  {% if twitterImage %}
+    {% set twitterImage = site.url + twitterImage %}
+  {% else %}
+    {% set twitterImage = socialImage %}
+  {% endif %}
+  <meta name="twitter:image" content="{{ twitterImage }}" />
   <meta property="og:image:alt" content="Page image for {{ site.name }}" />
   <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
 {% endif %}

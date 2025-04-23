@@ -5,6 +5,36 @@ tags: ['Policy', 'Google', 'US', 'DOJ']
 author: "OWA"
 ---
 
+{% image
+  "/images/blog/www-shatering.jpeg",
+  "Picture of the WWW logo shattering."
+%}
+
+<p><strong style="color: var(--main-color)">Web platform (noun): The technology and tools that let websites and web apps work in your browser.</strong><p>
+
+**Key Takeaways (TL;DR)**
+* DOJ wants to force Google to sell Chrome and ban search engine revenue share deals with other browser vendors, **resulting in a 70% drop in funding for the web platform**.
+
+* Progress in new web features could stagnate, and the performance, stability of the existing web could deteriorate, risking its viability.
+
+* We estimate ending the **Apple-Google deal alone could cut Google’s U.S. search share by 23–32%.**
+
+* **Mozilla could go bankrupt, killing Gecko**, one of just 3 major browser engines.
+
+* Most Chromium-based browsers rely on Google’s funding to function.
+
+* The open web supports **trillions in economic value** and it’s mostly free to use.
+
+* The impact will likely fall hardest on small U.S. e-commerce businesses that depend on the open web to compete.
+
+* DOJ can reduce Google’s market share below 50% without destroying browser funding.
+
+* New Chrome owner is likely to **gut web platform funding** to hit **short-term profit targets**.
+
+* **If the web is dealt this critical blow, users will be pushed over to Apple’s and Google’s closed ecosystems.**
+
+## Introduction
+
 In late 2020, the U.S. Department of Justice (DOJ), in conjunction with state attorneys general representing 11 states, brought a landmark antitrust case against Google for unlawfully maintaining a monopoly in the general search engine market. In August 2024, Judge Mehta ruled in favor of the DOJ, declaring unequivocally that **“Google is a monopolist, and it has acted as one to maintain its monopoly”**.
 
 We believe this ruling was correct, necessary, and that the DOJ’s case is compelling.
@@ -329,7 +359,7 @@ The DOJ submitted [its updated remedies](https://storage.courtlistener.com/recap
 
 [Apple sought to join the proceedings](https://arstechnica.com/tech-policy/2025/03/apple-barred-from-google-antitrust-trial-putting-20-billion-search-deal-on-the-line/) but was decisively rejected on the grounds that it had waited nearly four years to make the request. The court also found that Google was sufficiently positioned to represent Apple’s interests in the case. However, Apple was granted permission to submit an amicus brief, a filing by a non-party, intended to offer additional legal arguments or context for the court to consider.
 
-A trial on these remedies starts today, with a final ruling by Judge Mehta anticipated by August 2025\.
+A trial on these remedies started this monday, with a final ruling by Judge Mehta anticipated by August 2025.
 
 However, legal experts predict the case will be appealed, likely delaying the implementation of any remedies further.
 
@@ -373,9 +403,9 @@ These have been abbreviated and rewritten for the purposes of readability and �
 
 14. Google may not release any other Google Browser during the term of this Final Judgment (the next 10 years) absent approval by the Court.
 
-15. Google must not use any Google-owned asset (including any software, website, Device, service, dataset, algorithm, or app) to self-preference Google’s GSE, Search Text Ads, or AI Products. The section provides a long list of examples.
+15. Google must not use any Google-owned asset (including any software, website, device, service, dataset, algorithm, or app) to self-preference Google’s GSE, Search Text Ads, or AI Products. The section provides a long list of examples.
 
-16. Google must not use any Google-owned asset (including any software, website, Device, service, dataset, algorithm, or app) to undermine or lessen the ability of a user to discover a rival GSE or of an advertiser to discover or shift its Search Text Ad spending to a rival Search Text Ads provider. The section provides a long list of examples.
+16. Google must not use any Google-owned asset (including any software, website, device, service, dataset, algorithm, or app) to undermine or lessen the ability of a user to discover a rival GSE or of an advertiser to discover or shift its Search Text Ad spending to a rival Search Text Ads provider. The section provides a long list of examples.
 
 17. If the remedies fail to restore competition or if Google circumvents them, the Court may order additional measures, including divesting Android (and the Google Play Store). If the DOJ proves insufficient competition persists, Google must divest Android (and the Google Play Store) unless it proves that its ownership did not substantially hinder competition.
 
@@ -473,7 +503,7 @@ While we fully understand the intent behind these remedies, we are concerned tha
 
 Google has agreements with several browser vendors to set Google as the default search engine for users who have not previously made a manual choice. In return, Google shares a portion of the revenue it earns from searches performed through those browsers.
 
-The most prominent of these deals is with [Apple, which receives an astronomical $20 billion per year from Google](https://www.theverge.com/2024/5/2/24147007/google-paid-apple-20-billion-in-2022-to-be-safaris-default-search-engine). This deal is also the most problematic as we estimate only a minute percentage of it (likely less than 3%) is invested back in Safari/WebKit, leaving the remainder as pure profit.
+The most prominent of these deals is with [Apple, which receives an astronomical $20 billion per year from Google](https://www.theverge.com/2024/5/2/24147007/google-paid-apple-20-billion-in-2022-to-be-safaris-default-search-engine). This deal is also the most problematic as we estimate only a minute percentage of it ([likely less than 3%](#how-much-does-webkit-cost%3F)) is invested back in Safari/WebKit, leaving the remainder as pure profit.
 
 Google also maintains revenue-sharing agreements with several smaller browser vendors, including Mozilla. These browsers rely heavily on this funding to sustain operations. Google is estimated to pay Mozilla approximately [$410-420 million per year](https://assets.mozilla.net/annualreport/2024/mozilla-fdn-2023-fs-final-short-1209.pdf), though public figures for its deals with other vendors are not available. While these browsers collectively represent only a small share of the market, they play a disproportionately important role in maintaining competition within the browser ecosystem. However, according to the court judgment, they account for just 1.15% of search queries in the United States.
 
@@ -626,15 +656,15 @@ While Mozilla has undoubtedly made missteps, there is a compelling argument that
 
 Microsoft Edge is built on the Blink engine, utilizing the open-source Chromium project. In 2018, Microsoft transitioned Edge from its proprietary EdgeHTML engine to Chromium/Blink. While Edge is the default browser on Windows, it faces significant competition from Chrome, which remains the dominant browser on the platform.
 
-Microsoft is heavily invested in the transition to a more web-centric future. Many of its key applications, such as Teams and Visual Studio Code (VSCode), are built using web technologies (e.g., Electron), effectively making them web apps running in native wrappers powered by Chromium.
+Microsoft is heavily invested in the transition to a more web-centric future. Many of its key applications, such as Teams, Outlook and Visual Studio Code (VSCode), are built using web technologies (e.g., Electron), effectively making them web apps running in native wrappers powered by Chromium.
 
 #### 9.3.5. Smaller Browser Vendors
 
 Smaller browsers include Samsung Internet, Opera, Vivaldi, Brave, Tor, and many others. Most of these browsers are built as forks of Chromium and rely on the Blink engine. Some, but not all, of these browsers have search deals with either Google or Bing.
 
-These browsers have the ability to add, remove, or modify features in the Blink or Chromium codebase allowing them some significant ability to compete. Despite their small size, it is critical that these browsers be given the opportunity to grow and even now despite their small share they apply competitive pressure on Chrome to meet consumer and developer expectations or be replaced.
+These browsers have the [ability](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-%28features-we-disable-or-remove%29) to add, remove, or modify features in the Blink or Chromium codebase allowing them some significant ability to compete. Despite their small size, it is critical that these browsers be given the opportunity to grow and even now despite their small share they apply competitive pressure on Chrome to meet consumer and developer expectations or be replaced.
 
-However, their ability to steer Blink and Chromium's future relies on these browsers' willingness and ability to invest in the platform’s maintenance and development. Implementing and refining web standards is a costly and complex process, requiring substantial resources. Unfortunately, many smaller browsers have not reinvested enough into Chromium, even proportionally to their market share. This leaves the vast majority of the financial and developmental burden for maintaining and advancing Chromium on Google.
+However, their ability to steer Blink and Chromium's future relies on these browsers' willingness and ability to invest in the platform’s maintenance and development. Implementing and refining web standards is a costly and complex process, requiring substantial resources. Unfortunately, many smaller browsers have not reinvested enough into Chromium, even proportional to their market share. This leaves the vast majority of the financial and developmental burden for maintaining and advancing Chromium on Google.
 
 For smaller vendors, it is often more difficult to justify investing in the shared platform, work that also benefits their competitors, rather than focusing on features unique to their own browser. By contrast, for companies with larger market share, investing in the underlying web platform is more easily justified. Enhancing the platform increases the overall value of the web, which in turn raises revenue across all browsers. This return on platform investment becomes more favorable the larger the browser share.
 
@@ -668,7 +698,7 @@ Each of these organisations contain a part of the “web standards community”,
 
 In a healthy environment, Web Standards evolve quickly, spurred on by competing browser makers working with developers to solve important problems. This involves collaboration in standards bodies to improve compatibility, however if each vendor had to wait until there was consensus among every vendor regarding every design, it would be possible for a vendor (e.g. Apple) to game these processes. There is also significant risk that well-funded third-parties could infiltrate standards organisations in order to block/stall development or functionality in a manner that is not in the best interests of the user or of competition. 
 
-Browser vendors enjoy outsized influence in development of web standards, and providing them with a veto over all progress will only serve to reward the slowest mover by preventing competitors from taking market share. In the existing structure, it is enough for a vendor to  withhold engagement and prevent functionality from being standardised. This could lead to a bad situation if there were any rules preventing engines from pushing ahead and using competition to push poor performance with market outcomes.
+Browser vendors enjoy outsized influence in development of web standards, and providing them with a veto over all progress will only serve to reward the slowest mover by preventing competitors from taking market share. In the existing structure, it is enough for a vendor to withhold engagement and prevent functionality from being standardised. This could lead to a bad situation if there were any rules preventing engines from pushing ahead and using competition to push poor performance with market outcomes.
 
 Typically, cutting edge features are deployed by browser makers in their own engines first, then, using real world feedback over several years, eventual standards are created. 
 
@@ -745,12 +775,12 @@ The DOJ highlighted several ways Apple has suppressed web apps from being a viab
 Fortunately, change is beginning in jurisdictions like the [EU](https://open-web-advocacy.org/apple-dma-review/), [UK](https://open-web-advocacy.org/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition/), and [Japan](https://open-web-advocacy.org/blog/japan-ends-the-apple-browser-ban/), where regulators are pushing Apple to relax its restrictions. [Mozilla and Google are already working on porting their engines to iOS](https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/), and although Apple has erected significant barriers, regulatory pressure is forcing progress. If this trend continues, the web could finally become a competitive alternative to native ecosystems on mobile platforms.
 
 However, this progress is at risk of being undermined by the DOJ's case against Google.   
-The current funding model for browsers relies heavily on revenue from default search engine deals and this is what incentivises fighting to gain users. While we understand the DOJ's noble intent in canceling such deals, we believe that they have failed to appreciate the depth of the collateral damage that will be done but removing this funding with no viable replacement.
+The current funding model for browsers relies heavily on revenue from default search engine deals and this is what incentivises fighting to gain users. While we understand the DOJ's noble intent in canceling such deals, we believe that they have failed to appreciate the depth of the collateral damage that will be done by removing this funding with no viable replacement.
 
 > It won’t happen overnight, but stagnation will set in. A stagnated web is incentive for the operating system makers of the world to invest in pulling developers toward those proprietary systems. The browser wars sucked but at least we were still making websites. **Being forced to make proprietary apps to reach people is an expensive prospect for the rest of us companies of the world**, it will probably be done poorly, and we’ll all suffer for it.
 > <cite>[Chris Coyer - CSS Tricks](https://chriscoyier.net/2025/03/14/google-being-forced-to-sell-chrome-is-not-good-for-the-web/)<br>(emphasis added)</cite>
 
-This will likely scuttle plans to port both Gecko and Blink to iOS in the EU and eventually in other jurisdictions as Apple is forced to allow competition. Mozilla is going to have a severe hit to their finances, Google will be forced to sell Chrome, and the new owners will be blocked entirely from making a search deal with Google. If the new owners of Chrome are not investing to port it to iOS, a non-trivial investment, this will make it incredibly expensive to port all the other Chromium browsers, such as Edge, Opera, Vivaldi and Brave.
+This will likely scuttle plans to port both Gecko and Blink to iOS in the EU and eventually in other jurisdictions as Apple is forced to allow competition. Mozilla is going to have a severe hit to their finances, Google will be forced to sell Chrome, and the new owners will be blocked entirely from making a search deal with Google. If the new owners of Chrome are not investing to port it to iOS, a non-trivial investment, this will make it incredibly expensive to port any of the other Chromium browsers, such as Edge, Opera, Vivaldi and Brave.
 
 This will also greatly reduce Apple’s incentive to sustain the recent increase in investment in Safari, which is likely driven by the threat of actual competition in EU, UK, Japan and potential other territories such as Australia.
 
@@ -985,6 +1015,8 @@ A vast number of applications that might be considered "native" are actually bui
 This includes popular apps like:
 
 * Microsoft Teams  
+
+* Microsoft Outlook
     
 * Slack
 
@@ -1004,7 +1036,11 @@ This includes popular apps like:
 
 * 1Password
 
-And many more. While these apps appear to be native desktop applications, they are fundamentally Chromium-based, running inside a cross-platform Electron wrapper.
+* Netflix’s desktop client
+
+* Signal’s desktop client
+
+And many more. While these apps appear to be native desktop applications, they are fundamentally Chromium-based, running inside a cross-platform Electron wrapper, or a Chromium WebView.
 
 #### 11.4.7. V8 JavaScript Engine
 
@@ -1049,6 +1085,8 @@ WebRTC, originally based on technologies from GIPS and On2 Technologies (both ac
 * Facebook Messenger
 
 * WhatsApp
+
+* [Facetime](https://webrtchacks.com/facetime-finally-faces-webrtc-implementation-deep-dive/)
 
 * Zoom
 
@@ -1098,7 +1136,7 @@ AV1, VP9, and WebP are video and image codecs primarily developed within the Chr
 
 AV1, the successor to VP9, is an open-source, royalty-free video codec optimized for streaming efficiency. It is widely supported in Chromium-based browsers and Firefox, and is increasingly adopted by platforms like YouTube, Netflix, and Facebook.
 
-VP9, developed by Google, remains a key video codec in YouTube and WebRTC applications, offering superior compression compared to H.264. It is supported in Chromium-based browsers and Firefox, though Apple's Safari prioritizes HEVC instead.
+VP9, developed by Google, remains a key video codec in YouTube and WebRTC applications, offering superior compression compared to H.264. It is supported in Chromium-based browsers and Firefox, and more recently in Safari.
 
 WebP, a modern image format designed to replace JPEG and PNG, provides superior compression with lossless and lossy options. It is natively supported in Chromium-based browsers, Firefox and Safari.
 
@@ -1132,7 +1170,7 @@ However, this remains an approximation, as there is no publicly available breakd
 
 We have long argued that Safari is significantly underfunded compared to Chrome and that Apple needs genuine browser competition on iOS to create the incentive to invest more heavily in web platform development. Without meaningful competition, Apple has little motivation to allocate additional resources toward improving Safari and WebKit at the scale required to keep pace with the evolving web.
 
-Additionally, Apple has a significant disincentive to allowing the web to compete effectively with its app store, which earns the company roughly $31 billion per year and has long feared a web-based alternative. In 2011, Philip Schiller internally sent an email to Eddie Cue to discuss the threat of HTML5 to the Apple App Store titled “**HTML5 poses a threat to both Flash and the App Store**”.
+Additionally, Apple has a significant disincentive to allowing the web to compete effectively with its app store, which earns the company roughly $31 billion per year and has long feared a web-based alternative. In 2011, Philip Schiller internally sent an email to Eddy Cue to discuss the threat of HTML5 to the Apple App Store titled “**HTML5 poses a threat to both Flash and the App Store**”.
 
 > Food for thought: **Do we think our 30/70% split will last forever?** While I am a staunch supporter of the 30/70% split and keeping it simple and consistent across our stores, I don’t think 30/70 will last unchanged forever. **I think someday we will see a challenge from another platform or a web based solution** to want to adjust our model
 > <cite>[Internal Apple Emails](https://www.patentlyapple.com/2021/05/in-the-epic-vs-apple-trial-today-epic-revealed-apple-memos-discussing-whether-the-70-30-split-with-developers-would-stand.html)<br>(emphasis added)</cite>
@@ -1169,9 +1207,9 @@ The DOJ does not have to choose between breaking Google’s dominance and preser
 
 If Google is forced to divest Chromium, the project faces a serious risk of falling into a tragedy of the commons, a scenario where an essential shared resource benefits many, yet no single entity is willing to sustain the cost of maintaining it.
 
-Chromium is the foundation of the majority of modern web browsers, including Chrome, Edge, Opera, Vivaldi, and many others. It enables businesses across industries to generate trillions of dollars in value by providing a high-performance, secure, and continuously evolving web platform. However, the cost of maintaining and advancing Chromium is massive, requiring 1 billion dollars in annual investment to support its engineering teams, security updates, compatibility improvements, and new web standards development.
+Chromium is the foundation of the majority of modern web browsers, including Chrome, Edge, Opera, Vivaldi, and many others. It enables businesses across industries to generate trillions of dollars in value by providing a high-performance, secure, and continuously evolving web platform. However, the cost of maintaining and advancing Chromium is massive, requiring at least 1 billion dollars in annual investment to support its engineering teams, security updates, compatibility improvements, and new web standards development.
 
-The challenge is that while many companies benefit from Chromium’s existence, none may be willing to fund it at the scale necessary to keep it competitive. Microsoft, for example, benefits from Edge’s Chromium foundation but contributes only a small fraction of what Google does to Chromium’s development. Similarly, while companies like Meta and Amazon depend on the web platform for their core services, they contribute minimally to Chromium’s ongoing development compared to Google. If Google is forced to divest the project, and and no individual company or consortium steps up to replace its funding, Chromium could stagnate or deteriorate, leading to slower web innovation, a significant increase in bugs, declining security, and greater reliance on proprietary platform ecosystems such as iOS and Android.
+The challenge is that while many companies benefit from Chromium’s existence, none may be willing to fund it at the scale necessary to keep it competitive. Microsoft, for example, benefits from Edge’s Chromium foundation but contributes only a small fraction of what Google does to Chromium’s development. Similarly, while companies like Meta and Amazon depend on the web platform for their core services, they contribute minimally to Chromium’s ongoing development compared to Google. If Google is forced to divest the project, and if no individual company or consortium steps up to replace its funding, Chromium could stagnate or deteriorate, leading to slower web innovation, a significant increase in bugs, declining security, and greater reliance on proprietary platform ecosystems such as iOS and Android.
 
 **The full economic impact of such a scenario is difficult to quantify, but the risks are enormous.** The U.S. digital economy alone is estimated to contribute $2.4 trillion and support 8 million jobs. The web has been well-funded for two decades, allowing it to become a critical pillar of the global economy. The repercussions of a crippling blow to the underlying funding of the web platform could have unpredictable and lasting consequences for businesses, developers, and users worldwide.
 
@@ -1307,7 +1345,7 @@ Total: $1.45 billion per year
 **Projected post-remedy investment:**  
 Google: $150 million  
 Mozilla: $0 million  
-Microsoft: $50 million  
+Microsoft: $100 million  
 Apple: $100 million  
 Chrome Buyer: $100 million
 
@@ -1413,7 +1451,7 @@ The case offers some insight into what such a deal might look like, though the v
 
 Fortunately, Mozilla provides some relevant statistics, revealing that user behavior can vary significantly, likely depending on the quality of the replacement search engine.
 
-When Mozilla swapped Google out for Yahoo in X, Yahoo gained a mere 20% of users. That is 70% of users switched back to Google or to another search engine.
+When Mozilla swapped Google out for Yahoo in 2014, Yahoo gained a mere 20% of users. That is 70% of users switched back to Google or to another search engine.
 
 > When Mozilla switched the Firefox default GSE from Google to Yahoo, the query volume for each search provider changed. Google’s share of queries on Firefox abruptly dropped from between 80–90% to between 60–70%, a 20-point decline. Yahoo’s share, in turn, increased from around 10% to 30% of the Firefox queries.   
 > <cite>[Memorandum Opinion -  United States of America vs Google LLC](https://www.pacermonitor.com/view/VZTUTSQ/UNITED_STATES_OF_AMERICA_et_al_v_GOOGLE_LLC__dcdce-20-03010__1033.0.pdf)</cite>
@@ -1534,21 +1572,17 @@ The Google Search App is not available on macOS, so the entirety of this is on i
 <figure class="equation">
    {% image
       "/images/blog/google_doj_18.png",
-      "REPLACE",
+      "= (Google Search App share of Google Searches on Apple Devices)/(iOS share of Google Searches on Apple Devices) = 10/82% = 12.2%",
       null, null
    %}
 </figure>
-
-$$= \frac{\text{\% Google Search App share of Google Searches on Apple Devices}}{\text{iOS share of Google Searches on Apple Devices}} 
-= \frac{10\%}{82\%} 
-= 12.2\%$$
 
 5. **Safari, Spotlight and Siri make up 73.7% of searches on iOS and roughly that percentage would be impacted by switching the default search engine.**  
      
 > Between Siri, Spotlight, and Safari, Apple gets about 10 billion user queries per week. Roughly 80% of those queries are entered into Safari; Siri and Spotlight thus make up a minority of queries.
 > <cite>[Memorandum Opinion -  United States of America vs Google LLC](https://www.pacermonitor.com/view/VZTUTSQ/UNITED_STATES_OF_AMERICA_et_al_v_GOOGLE_LLC__dcdce-20-03010__1033.0.pdf)</cite>
 
-Annoyingly the case doesn’t provide a breakdown of search source per type on iOS but by combining it with browser share data from cloudflare we can come up with a reasonable estimate. On iOS, [Safari holds 82.2%](https://radar.cloudflare.com/reports/browser-market-share-2024-q4#id-5-global-market-share) of the browser market, [Chrome accounts for 15.6%](https://radar.cloudflare.com/reports/browser-market-share-2024-q4#id-5-global-market-share), and [all other browsers combined make up the remaining 2.2%](https://radar.cloudflare.com/reports/browser-market-share-2024-q4#id-5-global-market-share).
+Unfortunately the case doesn’t provide a breakdown of search source per type on iOS but by combining it with browser share data from cloudflare we can come up with a reasonable estimate. On iOS, [Safari holds 82.2%](https://radar.cloudflare.com/reports/browser-market-share-2024-q4#id-5-global-market-share) of the browser market, [Chrome accounts for 15.6%](https://radar.cloudflare.com/reports/browser-market-share-2024-q4#id-5-global-market-share), and [all other browsers combined make up the remaining 2.2%](https://radar.cloudflare.com/reports/browser-market-share-2024-q4#id-5-global-market-share).
 
 The sources of traffic are Safari, Spotlight and Siri, Chrome, Google Search App and other browsers. From the above data and the previous points we know for iOS that the Google Search App is 12.2%, Safari is 5.3 times the Google traffic of Spotlight and Siri, 8 times the Google traffic of Chrome and 37.3 times the Google traffic of other small browsers combined. That is if Safari share of Google traffic on iOS is x then:
 
@@ -1667,7 +1701,7 @@ That is the DOJ’s syndication remedy should greatly improve the effectiveness 
 
 ### 17.4. Apple’s Response to the Search Deal
 
-In response to the DOJ's remedy proposal, Apple's Eddie Cue (Senior Apple Management) testified.
+In response to the DOJ's remedy proposal, Apple's Eddy Cue (Senior Apple Management) testified.
 
 > I understand that Plaintiffs **seek a remedy that would prevent Apple from receiving any revenue share for distributing Google Search on Apple devices**, and that the proposed remedy would be in place **for the next 10 years**.
 > <cite>[Eddy Cue - In Support of Apple Inc’s Motion to Intervene](https://storage.courtlistener.com/recap/gov.uscourts.dcd.223205/gov.uscourts.dcd.223205.1111.1.pdf)<br>(emphasis added)
@@ -1749,9 +1783,9 @@ While this figure is from 10 years ago, given that Bing's search quality has con
 
 While $1.5 billion annually is significantly less than $20 billion annually, accepting such a sum will be in Apple's best financial interest.
 
-Given that we believe Apple's expenditure into Safari/WebKit (estimated by us at $300-400 million annually) is significantly lower than Google’s expenditure into Blink/Chromium (estimated at between $1 and $2 billion annually), it is clear that this is more than enough to cover Apple's browser expenses. Apple also has significant external motivations to continue to fund Safari to at least its current level of expenditure, Safari is a key part of Apple's branding and would be revenue positive. With iOS being opened up to third-party browser competition in the EU, UK, Australia, Japan (and possibly even the United States), pressure to invest is likely to increase, not decrease.
+Given that we believe Apple's expenditure into Safari/WebKit (estimated by us at $300-400 million annually) is significantly lower than Google’s expenditure into Blink/Chromium (estimated at between $1 and $2 billion annually), it is clear that this is more than enough to cover Apple's browser expenses. Apple also has significant external motivations to continue to fund Safari to at least its current level of expenditure, as Safari is a key part of Apple's branding and would be revenue positive. With iOS being opened up to third-party browser competition in the EU, UK, Australia, Japan (and possibly even the United States), pressure to invest is likely to increase, not decrease.
 
-That is, it seems likely that canceling the Apple-Google deal will not significantly reduce Apple's investment in either Safari or WebKit, nor have Apple submitted any evidence suggesting that it would.
+That is, it seems likely that canceling the Apple-Google deal by itself will not significantly reduce Apple's investment in either Safari or WebKit, nor have Apple submitted any evidence suggesting that it would.
 
 But, let's assume that cutting this deal would have severe repercussions to Safari’s financing. Even in that case, the most the DOJ should grant Apple, is that Google is only allowed to purchase 5% of the default on iOS and macOS, and there should be a clause that 95%+ of those funds must be spent on Safari and WebKit. Such a remedy would actually increase Safari’s budget.
 
@@ -1763,11 +1797,11 @@ There doesn’t appear to be a case that this additional revenue offers any bene
 
 #### 17.6.3. The Benefits of Canceling the Apple-Google Search Deal
 
-Canceling the Apple-Google search deal would significantly weaken Google’s dominance, reducing its market share from nearly 90% to likely below 60%. Without Google's payments, Apple would have a strong financial incentive to sell its default search placement to another provider. Currently, Google’s payments to Apple effectively lock out rivals from iOS, preventing them from gaining meaningful traction in the search market.
+Canceling the Apple-Google search deal would significantly weaken Google’s dominance, reducing its market share from nearly 90% to likely below 60%. Without Google's payments, Apple would have a strong financial incentive to sell its default search placement to another provider. Currently, Google’s payments to Apple effectively lock out rivals from iOS, making it very difficult for them to gain meaningful traction in the search market.
 
 Unlike Google's other search deals, where most of the revenue funds browser and platform development, Apple appears to pocket nearly all of it (likely more than 95%).These other deals have allowed and maintained browsers such as Firefox to continue to compete and exist.
 
-Additionally, removing Google’s financial incentive to remain the default search provider on Apple devices would force it to compete more aggressively in the browser market. Google currently has little reason to improve its browser offerings on iOS and macOS because it already benefits from being Safari’s default search engine. If the deal were canceled, Google might be compelled to fight harder for the right to compete on all of Apple’s platforms, improving browser competition and leading to better user experiences. A stronger Chrome competitor on iOS and macOS would put strong pressure on Safari to invest more particularly once third-party browsers are allowed to ship their real browsers with their own engines on iOS. This will increase features and reduce bugs for browsers on iOS.
+Additionally, removing Google’s financial incentive to remain the default search provider on Apple devices would force it to compete more aggressively in the browser market. Google currently has little reason to improve its browser offerings on iOS and macOS because it already benefits from being Safari’s default search engine. This is especially true on iOS where it pays Apple the same revenue split for Chrome as Safari. If the deal were canceled, Google might be compelled to fight harder for the right to compete on all of Apple’s platforms, improving browser competition and leading to better user experiences. A stronger Chrome competitor on iOS and macOS would put strong pressure on Safari to invest more, particularly once third-party browsers are allowed to ship their real browsers with their own engines on iOS. This will increase features and reduce bugs for browsers on iOS.
 
 Finally, Apple itself might be incentivized to develop its own search engine or enter the search market in a more meaningful way. As long as Google continues paying Apple billions of dollars, Apple has little reason to challenge the status quo. In the court documents it is revealed that Apple has explored creating a search engine but decided against it due to it being financially risky relative to the sure bet of Google's money.
 
@@ -1854,7 +1888,7 @@ However despite the more coercive tactic of bundling Google Search and Chrome wi
 
 ### 18.3. Should Google’s OEM Deals Be Allowed?
 
-Google’s revenue sharing arrangements with smaller browser vendors serve a fundamentally different purpose than its deals with OEMs. While Firefox, for example, accounts for less than 1.6% of Google’s total mobile RSA payouts, its contribution to the ecosystem is far greater than that figure. Firefox helps sustain an independent browser engine and heavily engages in web standards which deliver outsized value to consumers and to the health of the open web. Thus the relative benefit is significantly greater than the relative harm of specifically those deals.
+Google’s revenue sharing arrangements with smaller browser vendors serve a fundamentally different purpose than its deals with OEMs. While Firefox, for example, accounts for less than 1.6% of Google’s total mobile RSA payouts, and less than 1.15% of the US search market, its contribution to the Web ecosystem is far greater than those figures. Firefox helps sustain an independent browser engine and heavily engages in web standards which deliver outsized value to consumers and to the health of the open web. Thus the relative benefit is significantly greater than the relative harm of specifically those deals.
 
 Google’s OEM agreements represent a double bind that locks rivals out of the ecosystem entirely. First, Chrome is preinstalled, often as the default and non-removable browser. Second, Google’s dominant position and extensive suite of apps mean that few OEMs would risk rejecting Google Play just to preinstall an alternative browser.
 
@@ -1937,7 +1971,7 @@ For the past two decades, search default deals have been the primary funding mec
 
 Without a clear, sustainable and substantial funding model, we risk a tragedy of the commons: a situation where a vital resource, the web platform, contributes trillions to the global economy, and serves as critical infrastructure powering our public and private services but lacks enough entities willing to adequately fund its development and maintenance.
 
-To be clear, no one in the industry prefers that the web platform’s primary funding source is Google Search. However, it must be funded somehow. The real issue is not the existence of search default deals, but rather that Google monopolizes 100% of these agreements, preventing other search engines from scaling to a level where they can meaningfully compete.
+To be clear, no one in the industry wants the web platform’s primary funding source to be Google Search. However, it must be funded somehow. The real issue is not the existence of search default deals, but rather that Google monopolizes 100% of these agreements, preventing other search engines from scaling to a level where they can meaningfully compete.
 
 A viable solution would be to guarantee other search engines access to at least half of the available search default placements. This could go a long way toward addressing the underlying competition problem without destabilizing web platform funding.
 
@@ -1970,7 +2004,7 @@ It is worth stating clearly: browsers and the web will not vanish. But that’s 
      
    While exact figures are difficult to pin down, we can make a reasonable estimate of current investment in the web platform. Google likely contributes around $1 billion annually, with Microsoft investing approximately $100 million, Mozilla about $200 million, and Apple in the range of $150 to $200 million. If Chrome is left without a meaningful funding source, Mozilla is bankrupted, Microsoft is forced to shift resources from feature development to maintenance, competition in the browser space collapses, and confidence in the web as a platform erodes, the consequences would be severe.  
      
-   In such a scenario, Chrome’s investment could shrink to a minimal maintenance budget, Mozilla’s contributions would disappear entirely (though not immediately, due to reserves), and Apple’s already limited investment could decline further in the absence of meaningful browser competition. **Altogether, this could amount to a loss of up to $1 billion in annual investment, an estimated 70 percent drop in funding for the web platform.**  
+   In such a scenario, Chrome’s investment could shrink to a minimal maintenance budget, Mozilla’s contributions would disappear almost entirely (though not immediately, due to reserves), and Apple’s already limited investment could decline further in the absence of meaningful browser competition. **Altogether, this could amount to a loss of up to $1 billion in annual investment, an estimated 70 percent drop in funding for the web platform.**  
      
 2. **What will be the cost to businesses in terms of more bugs, lower stability, and a major slowdown in feature development?**  
      
@@ -1980,11 +2014,11 @@ It is worth stating clearly: browsers and the web will not vanish. But that’s 
      
 3. **Will this lead to even more market consolidation, as only tech giants with unrelated revenue streams can afford to operate browsers without a viable business model?**  
      
-   Yes, consolidation will increase, though not all smaller vendors will disappear as they can rely on smaller teams focusing on browser features rather than platform development, even these companies will suffer from a plunge in Chromium funding however. Mozilla, an independent non-profit, will likely go bankrupt if it loses its primary funding source. This would push the web into even fewer hands. Only the largest tech companies, like Apple and Microsoft, will have the resources to sustain full-scale browser and engine development, further concentrating control over the future of the web.  
+   Yes, consolidation will increase. Although not all smaller vendors will disappear immediately, as they can remain competitive by relying on smaller teams focused on browser features rather than platform development, However these companies will suffer significantly from a plunge in Chromium funding. Mozilla, an independent non-profit, will likely go bankrupt if it loses its primary funding source. This would push the web into even fewer hands. Only the largest tech companies, like Apple and Microsoft, will have the resources to sustain full-scale browser and engine development, further concentrating control over the future of the web.
      
 4. **Could this halt the deployment of non-WebKit browsers on iOS, due to funding cuts that weaken both Chromium and Gecko?**  
      
-   Yes. Without sufficient funding, both Gecko and Chromium will be unable to sustain the substantial engineering effort required to port their engines to iOS. [Apple’s long-standing platform restrictions](https://open-web-advocacy.org/apple-dma-review/) already make this an unusually complex and costly undertaking. If Mozilla loses its primary source of funding, it will almost certainly be unable to port Gecko. Likewise, a divested Chrome entity may lack the resources, strategic priorities, or incentives to maintain the Chromium iOS port. Other browser vendors depend on these core engine ports to support their own efforts. Without them, the prospect of future engine-level competition, and, more broadly, any realistic chance of meaningful browser competition on iOS, will never materialize.  
+   Yes. Without sufficient funding, both Gecko and Chromium will be unable to sustain the substantial engineering effort required to port their engines to iOS. [Apple’s long-standing platform restrictions](https://open-web-advocacy.org/apple-dma-review/) already make this an unusually complex and costly undertaking. If Mozilla loses its primary source of funding, it will almost certainly be unable to port Gecko. Likewise, a divested Chrome entity may lack the resources, strategic priorities, or incentives to continue the Chromium iOS port. Other browser vendors depend on these core engine ports to support their own efforts. Without them, the prospect of future engine-level competition, and, more broadly, any realistic chance of meaningful browser competition on iOS, will never materialize.  
      
 5. **Will vendors like Microsoft be forced to pause new features and focus solely on maintenance, due to a lack of upstream fixes from Google?**  
      
@@ -2147,7 +2181,7 @@ The concerns surrounding a potential forced sale of Chrome could be entirely all
 
 If such a buyer emerged, the benefits of divestment would outweigh the now-mitigated risks. To ensure this, **the buyer should make a legally binding commitment to invest in Chromium at a level equivalent to Google’s current annual funding for at least five years**. While there is some risk that funding could decline after that period, there is no guarantee that Google itself will continue funding Chromium indefinitely. **Ideally, the buyer should be an entity with a strong financial interest in the long-term success of the web.**
 
-Notably, if the new owner were able to sell 50% of its search default placement to Google, this would easily cover all ongoing development, maintenance, and web platform research costs while still generating a healthy profit for other ventures while not contributing to majority market share for Google.
+Notably, if the new owner were able to sell 50% of its search default placement to Google, this would easily cover all ongoing development, maintenance, and web platform research costs while still allowing them to generate a healthy profit from other ventures, without contributing to majority market share for Google.
 
 We appreciate that the DOJ is taking these concerns seriously and acknowledging the importance of a viable future for Chromium and the open web in its Revised Final Judgment Proposal, which now requires an evaluation of the buyer’s business and investment plans, including those for the open-source Chromium project. The proposal states:
 
@@ -2182,7 +2216,7 @@ While this may seem like a subtle structural shift, it preserves web platform in
 
 As outlined in the previous section, the DOJ should consider capping Chrome’s default search allocation to Google at 50% while requiring the remaining 50% to be sold to other search engines through an auction-style system.
 
-While search choice screens offer some benefits, typically shifting only a few percentage points of market share, they would be far less impactful than directly reallocating 50% of the default search market to competing providers.
+While search choice screens do offer some important benefits, they typically only shift a few percentage points of market share, which would be far less impactful than directly reallocating 50% of the default search market to competing providers.
 
 This remedy will be even more effective if Chrome is removed from Google’s corporate structure and established as a standalone entity under Alphabet, ensuring stronger operational independence and fully separate financial governance.
 
@@ -2236,7 +2270,7 @@ The strongest argument in favor of keeping the agreement is that it helps fund A
 
 Court documents reveal that Microsoft offered $4 billion per year for this placement back in 2015\. While future offers might be significantly lower in the absence of a bidding war with Google, the value of default placement on Apple’s platforms is so high that **a non-Google search engine would almost certainly be willing to pay between $500 million and $1 billion per year for the opportunity.**
 
-Combined with increasing global regulatory pressure on the browser engine ban on iOS, as well as our proposed remedies that promote broader browser competition and platform investment, Apple will have both the financial means and significant pressure to increase its investment in Safari and WebKit, even without Google’s payments.
+Combined with increasing global regulatory pressure on the browser engine ban on iOS, as well as our proposed remedies that promote broader browser competition and platform investment, and given their other many revenue streams and the importance of maintaining their brand recognition, Apple will have both the financial means and significant pressure to increase its investment in Safari and WebKit, even without Google’s payments.
 
 **For these reasons, we strongly support the DOJ’s position and advocate for the complete cancellation and long-term prohibition of all default search agreements between Apple and Google.**
 

@@ -33,6 +33,12 @@ author: "OWA"
 
 * **If the web is dealt this critical blow, users will be pushed over to Apple’s and Google’s closed ecosystems.**
 
+<p class="download">You can also download the
+   <a href="/files/OWA - Break Google’s Search Monopoly without Breaking the Web v1.0">PDF version</a> [10.9 MB]
+</p>
+
+
+
 ## Introduction
 
 In late 2020, the U.S. Department of Justice (DOJ), in conjunction with state attorneys general representing 11 states, brought a landmark antitrust case against Google for unlawfully maintaining a monopoly in the general search engine market. In August 2024, Judge Mehta ruled in favor of the DOJ, declaring unequivocally that **“Google is a monopolist, and it has acted as one to maintain its monopoly”**.

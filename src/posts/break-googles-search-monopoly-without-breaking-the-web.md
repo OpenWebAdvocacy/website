@@ -5,10 +5,12 @@ tags: ['Policy', 'Google', 'US', 'DOJ']
 author: "OWA"
 ---
 
-{% image
-  "/images/blog/www-shatering.jpeg",
-  "Picture of the WWW logo shattering."
-%}
+<div class="small">
+   {% image
+   "/images/blog/www-shatering.jpeg",
+   "Picture of the WWW logo shattering."
+   %}
+</div>
 
 <p><strong style="color: var(--main-color)">Web platform (noun): The technology and tools that let websites and web apps work in your browser.</strong><p>
 
@@ -915,7 +917,7 @@ This list is far from exhaustive; it simply highlights the surprisingly broad, v
 <figure>
    {% image
       "/images/blog/google_doj_2.png",
-      "Logo's of various Chromium browsers.",
+      "Logos of various Chromium browsers.",
       null, null
    %}
 </figure>
@@ -928,13 +930,15 @@ Hard-forking, where a party duplicates the project’s current code and assumes 
 
 #### 11.4.2. Non-Chromium Browsers
 
-<figure>
-   {% image
-      "/images/blog/google_doj_3.png",
-      "Logo's of Firefox and Safari.",
-      null, null
-   %}
-</figure>
+<div class="small">
+   <figure>
+      {% image
+         "/images/blog/google_doj_3.png",
+         "Logos of Firefox and Safari.",
+         null, null
+      %}
+   </figure>
+</div>
 
 It may seem surprising, given that Firefox and Safari have their own distinct engines, but Chromium plays a significant role in supporting both. This happens in two key ways. First, several components, libraries, and services maintained under the Chromium project are used by these browsers. For example, Google Safe Browsing, WebRTC, HTTP3, various codecs, and graphics libraries.
 
@@ -985,7 +989,7 @@ As of 2021, over 20 brands had adopted webOS for their smart TVs. By 2022, this 
 <figure>
    {% image
       "/images/blog/google_doj_7.png",
-      "Logo's of various brands using webOS.",
+      "Logos of various brands using webOS.",
       null, null
    %}
 </figure>
@@ -1052,7 +1056,7 @@ And many more. While these apps appear to be native desktop applications, they a
 
 #### 11.4.7. V8 JavaScript Engine
 
-<figure>
+<figure class="small">
    {% image
       "/images/blog/google_doj_11.png",
       "V8 logo",
@@ -1078,7 +1082,7 @@ V8 is particularly favored for handling high-demand, high-traffic applications a
 
 #### 11.4.8. Communication – WebRTC
 
-<figure>
+<figure class="small">
    {% image
       "/images/blog/google_doj_12.png",
       "WebRTC logo",
@@ -1116,7 +1120,7 @@ WebRTC, originally based on technologies from GIPS and On2 Technologies (both ac
 
 #### 11.4.9. Graphics – Skia & Dawn
 
-<figure>
+<figure class="small">
    {% image
       "/images/blog/google_doj_13.png",
       "Skia and Dawn logos",
@@ -1132,7 +1136,7 @@ Together, Skia and Dawn power critical graphics rendering in Chromium-based brow
 
 #### 11.4.10. Video & Image Codecs – AV1, VP9, WebP
 
-<figure>
+<figure class="small">
    {% image
       "/images/blog/google_doj_14.png",
       "AV1, VP9, and WebP logos",

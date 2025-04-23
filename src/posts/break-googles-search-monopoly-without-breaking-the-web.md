@@ -404,7 +404,9 @@ These have been abbreviated and rewritten for the purposes of readability and �
 14. Google may not release any other Google Browser during the term of this Final Judgment (the next 10 years) absent approval by the Court.
 
 15. Google must not use any Google-owned asset (including any software, website, device, service, dataset, algorithm, or app) to self-preference Google’s GSE, Search Text Ads, or AI Products. The section provides a long list of examples.
+15. Google must not use any Google-owned asset (including any software, website, device, service, dataset, algorithm, or app) to self-preference Google’s GSE, Search Text Ads, or AI Products. The section provides a long list of examples.
 
+16. Google must not use any Google-owned asset (including any software, website, device, service, dataset, algorithm, or app) to undermine or lessen the ability of a user to discover a rival GSE or of an advertiser to discover or shift its Search Text Ad spending to a rival Search Text Ads provider. The section provides a long list of examples.
 16. Google must not use any Google-owned asset (including any software, website, device, service, dataset, algorithm, or app) to undermine or lessen the ability of a user to discover a rival GSE or of an advertiser to discover or shift its Search Text Ad spending to a rival Search Text Ads provider. The section provides a long list of examples.
 
 17. If the remedies fail to restore competition or if Google circumvents them, the Court may order additional measures, including divesting Android (and the Google Play Store). If the DOJ proves insufficient competition persists, Google must divest Android (and the Google Play Store) unless it proves that its ownership did not substantially hinder competition.
@@ -1799,7 +1801,7 @@ There doesn’t appear to be a case that this additional revenue offers any bene
 
 Canceling the Apple-Google search deal would significantly weaken Google’s dominance, reducing its market share from nearly 90% to likely below 60%. Without Google's payments, Apple would have a strong financial incentive to sell its default search placement to another provider. Currently, Google’s payments to Apple effectively lock out rivals from iOS, making it very difficult for them to gain meaningful traction in the search market.
 
-Unlike Google's other search deals, where most of the revenue funds browser and platform development, Apple appears to pocket nearly all of it (likely more than 95%).These other deals have allowed and maintained browsers such as Firefox to continue to compete and exist.
+Unlike Google's other search deals, where most of the revenue funds browser and platform development, Apple appears to pocket nearly all of it (likely more than 95%). These other deals have allowed and maintained browsers such as Firefox to continue to compete and exist.
 
 Additionally, removing Google’s financial incentive to remain the default search provider on Apple devices would force it to compete more aggressively in the browser market. Google currently has little reason to improve its browser offerings on iOS and macOS because it already benefits from being Safari’s default search engine. This is especially true on iOS where it pays Apple the same revenue split for Chrome as Safari. If the deal were canceled, Google might be compelled to fight harder for the right to compete on all of Apple’s platforms, improving browser competition and leading to better user experiences. A stronger Chrome competitor on iOS and macOS would put strong pressure on Safari to invest more, particularly once third-party browsers are allowed to ship their real browsers with their own engines on iOS. This will increase features and reduce bugs for browsers on iOS.
 

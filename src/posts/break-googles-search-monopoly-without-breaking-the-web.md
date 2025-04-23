@@ -38,7 +38,7 @@ twitterImage: "/images/blog/www-shatering-twitter.webp"
 * **If the web is dealt this critical blow, users will be pushed over to Apple’s and Google’s closed ecosystems.**
 
 <p class="download">You can also download the
-   <a href="/files/OWA - Break Google’s Search Monopoly without Breaking the Web v1.0">PDF version</a> [10.9 MB]
+   <a href="/files/OWA - Break Google’s Search Monopoly without Breaking the Web v1.0.pdf">PDF version</a> [10.9 MB]
 </p>
 
 

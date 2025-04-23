@@ -3,6 +3,8 @@ title: 'Break Google’s Search Monopoly without Breaking the Web'
 date: '2025-04-21'
 tags: ['Policy', 'Google', 'US', 'DOJ']
 author: "OWA"
+socialImage: "/images/blog/www-shatering.jpeg"
+twitterImage: "/images/blog/www-shatering-twitter.webp"
 ---
 
 <div class="small">

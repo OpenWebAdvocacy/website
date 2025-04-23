@@ -1217,6 +1217,12 @@ ol.alpha {
   list-style-type: lower-alpha;
 }
 
+.small {
+  @media screen and (width >= 600px) {
+    max-width: 50%
+  }
+}
+
 /* --------------------- PROMOTION GALLERY ------------------ */
 
 ul.thumbs {

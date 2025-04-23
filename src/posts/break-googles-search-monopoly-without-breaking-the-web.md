@@ -1,11 +1,14 @@
 ---
 title: 'Break Google’s Search Monopoly without Breaking the Web'
-date: '2025-04-21'
+date: '2025-04-23'
 tags: ['Policy', 'Google', 'US', 'DOJ']
 author: "OWA"
 socialImage: "/images/blog/www-shatering.jpeg"
 twitterImage: "/images/blog/www-shatering-twitter.webp"
 ---
+
+**Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1915027899264205182), [Mastodon](https://mastodon.social/@owa/114387432385613913
+), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_new-the-doj-wants-to-break-up-chrome-activity-7320794137350352899-r47S) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3lniarvlik22l).**
 
 <div class="small">
    {% image

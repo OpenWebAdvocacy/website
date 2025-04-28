@@ -2,6 +2,8 @@
 title: "Is It Worth Killing Mozilla to Shave Off Less Than 1% From Google’s Market Share?"
 date: '2025-04-28'
 tags: ['Policy', 'Mozilla', 'Google', 'DOJ', 'Gecko']
+socialImage: "/images/blog/Firefox-logo.png"
+twitterImage: "/images/blog/Firefox-logo.png"
 author: "OWA"
 ---
 
@@ -18,9 +20,9 @@ Google has agreements with several browser vendors to set Google as the default 
 
 During the case, evidence showed that Mozilla reinvested the vast majority of its Google search revenue into Firefox and Gecko. However, its market share, under 3%, was deemed too small to deliver a significant public benefit.
 
-This reasoning is flawed. If Mozilla’s market share is considered negligible, [then given that Mozilla makes up only 1.15% of the U.S. search market](https://blog.mozilla.org/en/mozilla/internet-policy/proposed-remedies-browsers/?utm_source=chatgpt.com#:~:text=Judge%20Mehta%20found%20that%20independent%20browsers%20account%20for%20just%201.15%25%20of%20U.S.%20search%20queries.), it should also be seen as insignificant in the broader context. It is inconsistent to argue that one metric matters while dismissing the other.
+This reasoning is flawed. If Mozilla’s market share is considered negligible, [then given that searches via Firefox makes up less than 1.15% of the U.S. search market](https://blog.mozilla.org/en/mozilla/internet-policy/proposed-remedies-browsers/#:~:text=Judge%20Mehta%20found%20that%20independent%20browsers%20account%20for%20just%201.15%25%20of%20U.S.%20search%20queries.), it should also be seen as insignificant in the broader context. It is inconsistent to argue that one metric matters while dismissing the other.
 
-Given the only 1.15% share of the U.S. search market and [that an estimated 35% of users would manually switch back to Google](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/#:~:text=However%20when%20Mozilla%20repeated%20the%20experiment%204%20years%20later%2C%20in%202022%2C%20Bing%20retained%2065%25%20of%20the%20users.%20This%20is%20likely%20due%20to%20the%20improvement%20in%20the%20quality%20of%20Bing%20over%20those%20years.), this suggests that **Google will only lose a mere .75% market share from blocking Google’s deal with Mozilla.**
+Further, [that an estimated 35% of users would manually switch back to Google](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/#:~:text=However%20when%20Mozilla%20repeated%20the%20experiment%204%20years%20later%2C%20in%202022%2C%20Bing%20retained%2065%25%20of%20the%20users.%20This%20is%20likely%20due%20to%20the%20improvement%20in%20the%20quality%20of%20Bing%20over%20those%20years.), this suggests that **Google will only lose less than a mere .75% market share from being blocked from signing a search engine default deal with Mozilla**.
 
 Mozilla plays a uniquely valuable role in the internet ecosystem as [a non-profit committed to an open, secure, and user-centric internet](https://www.mozilla.org/en-US/about/manifesto/). Despite its modest market share, Mozilla has a large influence on web standards, holding equal footing with Google and Apple in governance bodies like the W3C TAG. Mozilla also maintains its own independent engine, Gecko, which ensures diversity in browser implementations. Gecko is one of only three engines left in major usage. Mozilla frequently serves as a crucial third implementor voice in standards discussions, offering a non-profit perspective grounded in the public interest. Removing Mozilla from this equation would do far more harm to the long-term health of the web than any marginal competitive benefit from eliminating its Google deal, especially [when other remedies could already push Google’s search engine market share below 50%](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/#estimated-impact-of-the-package-on-google's-search-engine-market-share) and the drop in Google’s share from this remedy is so negligible.
 
@@ -30,7 +32,7 @@ One might reasonably ask: couldn’t Mozilla simply sign a deal with another sea
 
 During the U.S. v. Google case, evidence showed that both Bing and DuckDuckGo had [repeatedly attempted to strike default search deals with Apple](https://www.pacermonitor.com/view/VZTUTSQ/UNITED_STATES_OF_AMERICA_et_al_v_GOOGLE_LLC__dcdce-20-03010__1033.0.pdf). Both failed. Neither could match the immense sums Google was offering, currently an estimated $20 billion annually. Bing came closest, offering approximately $4 billion per year at an unsustainable 90% revenue share rate. By contrast, [Google reportedly pays Apple just 36% of search revenue](https://news.bloomberglaw.com/antitrust/apple-gets-36-of-google-revenue-from-search-deal-witness-says).
 
-It’s important to understand the scale at play: **over half of all U.S. search queries pass through Apple devices**, [with roughly 67% of those influenced by Apple’s default search deal](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/#:~:text=67.1%25%20of%20Apple%E2%80%99s%20searches%20on%20both%20platforms%20would%20be%20impacted%20by%20changing%20the%20default%20search%20engine.). In comparison, [Mozilla accounts for just 1.15% of U.S. search queries](https://blog.mozilla.org/en/mozilla/internet-policy/proposed-remedies-browsers/?utm_source=chatgpt.com#:~:text=Judge%20Mehta%20found%20that%20independent%20browsers%20account%20for%20just%201.15%25%20of%20U.S.%20search%20queries.).
+It’s important to understand the scale at play: **over half of all U.S. search queries pass through Apple devices**, [with roughly 67% of those influenced by Apple’s default search deal](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/#:~:text=67.1%25%20of%20Apple%E2%80%99s%20searches%20on%20both%20platforms%20would%20be%20impacted%20by%20changing%20the%20default%20search%20engine.). In comparison, [Mozilla accounts for less than 1.15% of U.S. search queries](https://blog.mozilla.org/en/mozilla/internet-policy/proposed-remedies-browsers/#:~:text=Judge%20Mehta%20found%20that%20independent%20browsers%20account%20for%20just%201.15%25%20of%20U.S.%20search%20queries.).
 
 > over half of all search volume in the United States flows through Apple devices  
 > <cite>[Memorandum Opinion \-  United States of America vs Google LLC](https://www.pacermonitor.com/view/VZTUTSQ/UNITED_STATES_OF_AMERICA_et_al_v_GOOGLE_LLC__dcdce-20-03010__1033.0.pdf)
@@ -38,7 +40,13 @@ It’s important to understand the scale at play: **over half of all U.S. search
 
 Given these dynamics, it is unlikely Microsoft would engage in a major bidding war to secure a deal with Mozilla, especially without Google driving prices up. Crucially, the bargaining power would lie with Microsoft, not Mozilla. After all, Microsoft and Bing are at no risk of bankruptcy were a deal to fall through.
 
-Realistically, this suggests **any deal Microsoft might offer Mozilla would fall between $40 million and $130 million annually**, with $130 million being an unrealistic upper bound, assuming a highly unlikely 90% revenue share rate similar to their offer to Apple. A much more plausible figure would be closer to $40 million a year.
+One way to estimate the potential value of a Microsoft-Mozilla search deal is by looking at the ratio of market shares. Microsoft was willing to pay around $4 billion per year to be the default search engine for approximately 33.5% of the U.S. search market (68% impacted by Apple deal × 50% Apple Devices U.S. Search Share). Applying the same ratio, Mozilla’s less than 1.15% share would translate to roughly $130 million per year (4000 ÷ 33.5 × 1.15).
+
+However, even this figure likely overstates the real value. It's highly improbable that Microsoft would offer Mozilla a 90% revenue share, they offered Apple. A more realistic offer would likely resemble the 36% rate that Google agreed upon with Apple.
+
+Finally this 1.15% figure includes all small browsers, not just Mozilla.
+
+Taking that into account, **any search deal Microsoft might offer Mozilla would realistically fall between $40 million and $130 million per year**, with the upper bound being unlikely. A more plausible figure would be closer to $40 million annually.
 
 ## Could Mozilla Simply Spend Less?
 
@@ -58,7 +66,7 @@ We propose that smaller browsers, such as Mozilla, be allowed to sell 100% of th
 
 **Two potential concerns might be raised:**
 
-1. **Growth scenario**: A smaller browser, such as Firefox, Opera, or Samsung Internet, could significantly grow in market share over 5–10 years, reaching 20–40% of the market. While such growth is highly desirable from a competition standpoint, it could become problematic if Google continued paying for 100% of the default search placement at that scale.
+1. **Growth scenario**: A smaller browser, such as Firefox, Opera, Vivaldi, or Samsung Internet, could significantly grow in market share over 5–10 years, reaching 20–40% of the browser market. While such growth is highly desirable from a competition standpoint, it could become problematic if Google continued paying for 100% of the default search placement at that scale.
 
 2. **Aggregate deals scenario**: Google might strike numerous deals with smaller browsers, which in aggregate could exceed the 50% market share cap.
 

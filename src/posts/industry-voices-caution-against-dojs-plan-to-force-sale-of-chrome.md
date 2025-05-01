@@ -18,7 +18,7 @@ David Dahlquist, leading the DOJ’s arguments, stated:
 > Your honor, we are not here for a Pyrrhic victory. This is the time for the court to tell Google and all other monopolists who are out there listening — and they are listening — that there are consequences when you break the antitrust laws.
 > <cite>[David Dahlquist - Justice Department Lawyer](https://qz.com/google-doj-chrome-antitrust-case-search-engine-monopoly-1851777192)</cite>
 
-**We agree with the DOJ.** **A hollow win that leaves Google’s monopoly intact is not beneficial to either US consumers or businesses, and [Google’s counter-proposals](https://blog.google/outreach-initiatives/public-policy/google-remedies-proposal-dec-2024/) will not fix the underlying problem: that Google has and has abused its monopoly in search.**
+**We agree with the DOJ.** **A hollow win that leaves Google’s monopoly intact is not beneficial to either US consumers or businesses, and [Google’s counter-proposals](https://blog.google/outreach-initiatives/public-policy/google-remedies-proposal-dec-2024/) will not fix the underlying problem: that Google held and has abused its monopoly in search.**
 
 However, we’re concerned that if the DOJ goes too far, particularly by forcing a sale of Chrome and banning search deals with smaller browser vendors like Mozilla, it will do lasting harm to the web platform. We estimate that such remedies could cause a [70% drop in web platform investment](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/#estimating-the-impact-on-web-platform-funding) and [could potentially bankrupt Mozilla](https://open-web-advocacy.org/blog/is-it-worth-killing-mozilla-to-shave-off-less-than-1-percent-from-googles-market-share/).
 

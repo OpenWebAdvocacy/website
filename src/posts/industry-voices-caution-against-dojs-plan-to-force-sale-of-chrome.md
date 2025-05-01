@@ -7,6 +7,8 @@ socialImage: "/images/blog/www-shatering.jpeg"
 twitterImage: "/images/blog/www-shatering-twitter.webp"
 ---
 
+**Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1917930227101323740), [Mastodon](https://mastodon.social/@owa/114432795142977559), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_industry-voices-caution-against-dojs-plan-activity-7323697951413829632-KIvz) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3lo4feipk2k2x).**
+
 In late 2020, the U.S. Department of Justice (DOJ), in conjunction with state attorneys general representing 11 states, brought a landmark antitrust case against Google for unlawfully maintaining a monopoly in the general search engine market. In August 2024, Judge Mehta ruled that *“Google is a monopolist, and it has acted as one to maintain its monopoly”*.
 
 **We believe this ruling was correct, necessary, and that the DOJ’s case is compelling.**

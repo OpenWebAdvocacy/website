@@ -18,7 +18,7 @@
   .card {
     display: flex;
     flex-direction: column;
-    padding: 30px 30px 50px 50px;
+    padding: 50px 30px 30px 50px;
     background-color: #F4E1D9;
   }
 
@@ -43,7 +43,7 @@
     text-wrap: balance;
     line-clamp: 4;
     line-height: 1.24; /* 62px */
-    letter-spacing: -0.01em; /* -1% */
+    letter-spacing: -0.02em; /* -2% */
     font-size: 50px;
     color: #333;
 
@@ -64,13 +64,13 @@
   <div class="card">
 
     <div class="row">
-      <img class="logo" src="{% imageInline '/images/og/og.logo-full-horizontal.svg' %}" width="267" height="143" />
+      <div class="title">{{ title | safe }}</div>
     </div>
 
     <div class="row-fill"></div>
 
     <div class="row">
-      <div class="title">{{ title | safe }}</div>
+      <img class="logo" src="{% imageInline '/images/og/og.logo-full-horizontal.svg' %}" width="267" height="143" />
     </div>
 
   </div>

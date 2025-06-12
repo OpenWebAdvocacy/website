@@ -1,13 +1,19 @@
+// Node, libs
+import { readFileSync } from 'node:fs';
+import { slugify } from 'rgjs7/uri';
+
 // Eleventy Plugins
 import {EleventyI18nPlugin} from '@11ty/eleventy';
 import rssPlugin from '@11ty/eleventy-plugin-rss';
 import externalLinksPlugin from '@sardine/eleventy-plugin-external-links';
 import tocPlugin from 'eleventy-plugin-toc';
+import ogImagePlugin from './src/plugins/ogImagePlugin.js';
 
 // Markdown Libraries
 import markdownIt from 'markdown-it';
 import markdownItAnchor from 'markdown-it-anchor';
 import markdownItAttrs from 'markdown-it-attrs';
+
 // Filters
 import cleanTocFilter from './src/filters/clean-toc-filter.js';
 import dateFilter from './src/filters/date-filter.js';
@@ -19,6 +25,7 @@ import w3DateFilter from './src/filters/w3-date-filter.js';
 
 // Shortcodes
 import imageShortcode from './src/shortcodes/image.js';
+import imageInlineShortcode from './src/shortcodes/imageInline.js';
 
 // Utils
 import groupEntriesByYear from './src/utils/group-entries-by-year.js';
@@ -40,6 +47,7 @@ export default config => {
 
   // Add shortcodes
   config.addNunjucksAsyncShortcode('image', imageShortcode);
+  config.addNunjucksAsyncShortcode('imageInline', imageInlineShortcode);
 
   // Plugins
   config.addPlugin(rssPlugin);
@@ -52,6 +60,26 @@ export default config => {
   config.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en',
     errorMode: 'allow-fallback'
+  });
+  config.addPlugin(ogImagePlugin, {
+    satoriOptions: {
+      fonts: [
+        {
+          name: 'Kumbh Sans Regular',
+          data: readFileSync('./src/css/fonts/KumbhSans-700.woff'),
+          weight: 400,
+          style: 'normal',
+        },
+      ],
+    },
+    sharpOptions: {
+      mozjpeg: true,
+    },
+    outputFileSlug: async ogImage => slugify( ogImage.data.page.filePathStem ),
+    outputFileExtension: 'jpeg',
+    outputDir: 'images/og/',
+    previewDir: 'images/og/preview/',
+    shortcodeOutput: async ogImage => ogImage.outputUrl(),
   });
 
   // Returns a collection of blog posts in reverse date order

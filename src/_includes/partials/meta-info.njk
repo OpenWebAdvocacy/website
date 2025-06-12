@@ -1,8 +1,11 @@
 {% set pageTitle = title + ' - ' + site.name %}
 {% if socialImage %}
   {% set socialImage = site.url + socialImage %}
-{% else %}
-  {% set socialImage = site.url + site.logo %}
+{% elseif not noSocialImage %}
+  {% setAsync "socialImage" -%}
+    {% ogImage "./images/og/og-template.og.njk", { title: title } %}
+  {%- endsetAsync %}
+  {% set socialImage = site.url + socialImage %}
 {% endif %}
 {# We don't want any duplication. This is likely for the homepage #}
 {% if site.name === title %}

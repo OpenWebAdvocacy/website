@@ -6,6 +6,8 @@
     {% ogImage "./images/og/og-template.og.njk", { title: title } %}
   {%- endsetAsync %}
   {% set socialImage = site.url + socialImage %}
+{% else %}
+  {% set socialImage = site.url + site.logo %}
 {% endif %}
 {# We don't want any duplication. This is likely for the homepage #}
 {% if site.name === title %}

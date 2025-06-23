@@ -1,0 +1,77 @@
+
+<style>
+  .root {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 95px 30px 30px 95px;
+    background-color: #CD4C1D;
+  }
+
+  .globe {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px 30px 50px;
+    background-color: #F4E1D9;
+  }
+
+  .row {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  .row-fill {
+    display: flex;
+    flex: 0 1 100%;
+  }
+
+  .logo {
+    margin-left: auto;
+  }
+
+  .title {
+    overflow: hidden;
+    align-self: flex-start;
+    width: 100%;
+    max-height: 248px; /* 50 * 1.24 * 4 */
+    text-wrap: balance;
+    line-clamp: 4;
+    line-height: 1.24; /* 62px */
+    letter-spacing: -0.02em; /* -2% */
+    font-size: 50px;
+    color: #333;
+
+    {% if title.length < 16  %}
+      line-height: 1;
+      font-size: 80px;
+    {% elseif title.length < 24 %}
+      line-height: 1;
+      font-size: 60px;
+    {% endif %}
+  }
+</style>
+
+<div class="root">
+
+  <img class="globe" src="{% imageInline '/images/og/og.globe.svg' %}" width="190" height="180" />
+
+  <div class="card">
+
+    <div class="row">
+      <div class="title">{{ title | safe }}</div>
+    </div>
+
+    <div class="row-fill"></div>
+
+    <div class="row">
+      <img class="logo" src="{% imageInline '/images/og/og.logo-full-horizontal.svg' %}" width="267" height="143" />
+    </div>
+
+  </div>
+
+</div>

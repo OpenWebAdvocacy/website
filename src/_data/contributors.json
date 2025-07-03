@@ -322,5 +322,13 @@
     "what": "Web Developer",
     "twitter": "andre_wiggins",
     "mastodon": "https://infosec.exchange/@drewigg"
+  },
+  {
+    "name": "James Heppell",
+    "countries": ["UK🇬🇧","Spain🇪🇸"],
+    "avatar": "james-heppell.jpg",
+    "what": "OWA Volunteer, Web Developer, Student",
+    "mastodon": "https://social.vivaldi.net/@FormularSumo",
+    "website": "https://formularsumo.co.uk/"
   }
 ]

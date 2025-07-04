@@ -1,7 +1,7 @@
 ---
 title: "UK Regulator's Final Verdict: Apple’s Browser Engine Ban Harms Competition"
 date: '2025-03-19'
-tags: ['Policy', 'Apple', 'Google', 'UK', 'MIR']
+tags: ['Policy', 'Apple', 'Google', 'UK', 'MIR', 'hotseat']
 author: "OWA"
 ---
 

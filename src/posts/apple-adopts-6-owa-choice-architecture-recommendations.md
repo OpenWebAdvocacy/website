@@ -1,7 +1,7 @@
 ---
 title: "Apple adopts 6 of OWA's Choice Architecture Recommendations"
 date: '2024-08-23'
-tags: ['Policy', 'Apple', 'EU']
+tags: ['Policy', 'Apple', 'EU', 'hotseat']
 author: "OWA"
 ---
 

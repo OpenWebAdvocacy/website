@@ -69,7 +69,7 @@ Only two companies, Apple and Google, have been designated for both browsers and
 
 OWA's Roderick Gadellaa, made the comment:
 
-> **We agree with Kyle**: Hotseat should be default on Android as well, and we’ll be raising this tomorrow.
+> **We agree with Apple**: Hotseat should be default on Android as well, and we’ll be raising this tomorrow.
 > <cite><strong>Roderick Gadellaa - Open Web Advocacy</strong><br>(emphasis added)</cite>
 </cite>  
 

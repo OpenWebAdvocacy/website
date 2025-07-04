@@ -47,8 +47,8 @@ The **hotseat** refers to the set of app icons located on the dock at the bottom
 On all Apple devices and many Android devices gatekeepers’ browsers are placed in the hotseat via the default setup of the device.  
 
 <figure>
-    <img alt="Main icons on iOS’s hotseat" src="/images/apple-dma-report/image2.png">
-    <figcaption>The hotseat on iOS’s homescreen</figcaption>
+    <img alt="Main icons on Android’s hotseat" src="/images/blog/google-hotseat.png">
+    <figcaption>The hotseat on Android’s homescreen</figcaption>
 </figure>
 
 At last year’s Apple DMA Workshop, [we argued that Apple (and Google) should place a browser chosen in the browser choice screen in the hotseat or dock](https://www.youtube.com/watch?v=_m6tQtDpSbM), replacing the gatekeeper’s browser.

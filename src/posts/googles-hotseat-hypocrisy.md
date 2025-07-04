@@ -1,6 +1,6 @@
 ---
 title: "Google's Hotseat Hypocrisy"
-date: '2025-07-03'
+date: '2025-07-04'
 tags: ['Policy', 'Google', 'EU', 'DMA', 'hotseat']
 author: "OWA"
 ---
@@ -8,6 +8,8 @@ author: "OWA"
 **TL;DR:** On iOS in the EU, selecting a third-party browser from the choice screen replaces Safari in the hotseat (dock), ensuring the user’s choice is respected. This change has already led to meaningful gains in market share; **Mozilla, for example, saw its daily active users double in France and Germany on iOS, where the hotseat change is implemented. DuckDuckGo’s findings suggest that replacing Safari in the hotseat boosted the iOS choice screen’s effectiveness by a factor of nine.** Yet Google refuses to make an equivalent change on Android, relying on an unreasonably narrow and, in our view, incorrect interpretation of the Digital Markets Act. **Even when users choose a different browser, Chrome remains prominently placed, undermining their decision and steering them back toward Google’s own product.**
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube-nocookie.com/embed/A4396RmGXIY?si=jFCoiYPZhgK4PIvo" frameborder='0' allowfullscreen title="OWA v Google - EC DMA 2025 - Google"></iframe></div>
+
+**Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1941030576280293521), [Mastodon](https://mastodon.social/@owa/114793703617793090), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_dma-browserchoice-android-activity-7346795332401250304-JX54) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3lt4pbiethc22).**
 
 Multiple browser vendors on Android and [BEUC](https://en.wikipedia.org/wiki/European_Consumer_Organisation) spoke to us about why they believe Google should implement this change:
 
@@ -143,7 +145,7 @@ The Act also imposes a complementary obligation in Article 8(1): gatekeepers mus
 > The gatekeeper shall ensure and demonstrate compliance with the obligations laid down in Articles 5, 6 and 7 of this Regulation. The measures implemented by the gatekeeper to ensure compliance with those Articles **shall be effective in achieving the objectives of this Regulation and of the relevant obligation**.
 > <cite>[Article 8(1) - Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)<br>(emphasis added)</cite>
 
-The intent of Article 6(3) is to eliminate the self-preferencing advantages that gatekeepers grant their own apps through the default configuration of the device. It is not enough for Google to nominally allow a browser choice, it must ensure that the user’s choice is effectively respected. Replacing Chrome in the hotseat with the selected browser is a clear and neccessary step toward fulfilling that obligation.
+The intent of Article 6(3) is to eliminate the self-preferencing advantages that gatekeepers grant their own apps through the default configuration of the device. It is not enough for Google to nominally allow a browser choice, it must ensure that the user’s choice is effectively respected. Replacing Chrome in the hotseat with the selected browser is a clear and necessary step toward fulfilling that obligation.
 
 Apple’s lawyers clearly agreed with our interpretation. We believe it is highly unlikely that Apple would have made this change to every iPhone in the EU **and re-run the choice screen** unless they had a high level of confidence they would lose a legal battle on this point.
 

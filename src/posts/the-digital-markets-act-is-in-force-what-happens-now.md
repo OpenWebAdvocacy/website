@@ -1,7 +1,7 @@
 ---
 title: 'The Digital Markets Act is in force! What happens now?'
 date: '2024-03-07'
-tags: ['Policy', 'Apple', 'Google', 'Microsoft', 'Meta', 'Bytedance', 'EU']
+tags: ['Policy', 'Apple', 'Google', 'Microsoft', 'Meta', 'Bytedance', 'EU', 'hotseat']
 author: "OWA"
 ---
 

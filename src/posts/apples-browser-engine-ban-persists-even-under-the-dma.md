@@ -230,10 +230,12 @@ Gary Davis (Senior Director Apple Legal) and Kyle Andeer (Vice President Apple L
 > Let me take the browser engine first. I know this is **all just conversation is supposed to be about browser choice screens and defaults**, but I know some of you, many of you with the same group, have traveled very far to have this conversation. And so I'll take a question on that, which is, listen: as everyone knows, when we designed and released iOS and iPadOS over 15 years, we were hyper focused on how do we create the most secure computing platform in the world. We built it from the ground up with security and privacy in mind. **The browser engine was a critical aspect of that design.** Webkit was that aspect of the design. And that has worked for 18 years. **We recognize under the DMA that we've been forced to change** And we have created a program that keeps security and privacy in mind, that keeps the integrity of the operating system in mind, and allows third parties to bring their browser engine, Google, Mozilla, to the platform. **And for whatever reason, they've chosen not to do so.** And so we remain open. We remain open to engagement. We have had conversations, constructive conversations with Mozilla, less constructive engagement from the other party, but we are working to resolve that, those differences, and bring them to iOS in a way that we feel comfortable with in terms of security, privacy, and integrity perspective.
 > <cite>[Kyle Andeer - Apple - Vice President Apple Legal](https://www.youtube-nocookie.com/embed/_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd)<br>(emphasis added)</cite>
 
-Kyle began by incorrectly asserting that the session was focused solely on browser choice screens and defaults, despite the session being explicitly titled “Browsers”. This appeared to suggest that our question on browser engines was somehow out of scope
+Kyle began by incorrectly asserting that the session was focused solely on browser choice screens and defaults, [despite the session being explicitly titled “Browsers”](https://digital-markets-act.ec.europa.eu/document/download/23098dd4-cdcb-4762-99ff-bcd6566762d8_en?filename=Agenda_DMA%20Enforcement%20Workshop_Apple_30%20June_2025.pdf). This appeared to suggest that our question on browser engines was somehow out of scope
 
-![][image1]  
-[DMA Apple Workshop Agenda 2025](https://digital-markets-act.ec.europa.eu/document/download/23098dd4-cdcb-4762-99ff-bcd6566762d8_en?filename=Agenda_DMA%20Enforcement%20Workshop_Apple_30%20June_2025.pdf)
+<figure>
+    <img alt="The agenda for the workshop, the title of the session is browsers." src="/images/blog/workshop-agenda.png">
+    <figcaption>DMA Apple Workshop Agenda 2025</figcaption>
+</figure>
 
 He acknowledged that under the DMA, Apple is now required to allow third-party browser engines on iOS. He then reiterated Apple’s long standing talking points: that iOS was built from the ground up with security and privacy in mind, that WebKit is a core part of that design, and that any changes must preserve what Apple deems the "integrity" of the platform.
 
@@ -405,7 +407,7 @@ Apple has stated that it will prevent all updates for apps downloaded from third
 
 ### Web Apps
 
-* [**Web Apps run by Third-Party Engine**](https://open-web-advocacy.org/apple-dma-review/#web-app-installation-and-management-for-third-party-browsers)  
+* [**Web Apps run by Third-Party Engines**](https://open-web-advocacy.org/apple-dma-review/#web-app-installation-and-management-for-third-party-browsers)  
   Allow browsers to install and manage Web Apps which then run in the third-party browser’s engine. Third-party browsers should be able to manage the web app install process and customize the web apps settings page to support desired features.  Browsers should also be able to operate “web app stores”.
 
 * [**Web App Install Discoverability**](https://open-web-advocacy.org/apple-dma-review/#implement-web-app-install-prompts-for-ios-safari-and-wKWebView-browsers)  

@@ -5,15 +5,17 @@ tags: ['Policy', 'Apple', 'EU', 'DMA', 'Browser Engine']
 author: "OWA"
 ---
 
-**TL;DR: Apple’s rules and technical restrictions are blocking other browser vendors from successfully offering their own engines to users in the EU.** At the recent Digital Markets Act (DMA) workshop, Apple claimed it didn’t know why no browser vendor has ported their engine to iOS over the past 15 months. But the reality is Apple knows exactly what the barriers are, and has chosen not to remove them.
+**TL;DR: Apple’s rules and technical restrictions are blocking other browser vendors from successfully offering their own engines to users in the EU.**
 
-Safari is **the highest margin product** Apple has ever made, accounts for 14-16% of Apple’s annual operating profit and brings in $20 billion per year in [search engine revenue](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/#should-the-apple-google-search-deal-be-banned%3F) from Google. For **each 1% browser market share** that Apple loses for Safari, **Apple is set to lose $200 million in revenue per year**. 
+At the recent Digital Markets Act (DMA) workshop, Apple claimed it didn’t know why no browser vendor has ported their engine to iOS over the past 15 months. But the reality is Apple knows exactly what the barriers are, and has chosen not to remove them.
+
+Safari is **the highest margin product** Apple has ever made, accounts for 14-16% of Apple’s annual operating profit and brings in $20 billion per year in [search engine revenue](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/#should-the-apple-google-search-deal-be-banned%3F) from Google. For **each 1% browser market share** that Apple loses for Safari, **Apple is set to lose $200 million in revenue per year**.
 
 Ensuring other browsers are not able to compete fairly is critical to Apple’s best and easiest revenue stream, and allows Apple to retain full control over the maximum capabilities of web apps, limiting their performance and utility to prevent them from meaningfully competing with native apps distributed through their app store. Consumers and developers (native or web) then suffer due to a lack of competition.
 
 **This browser engine ban is unique to Apple and no other gatekeeper imposes such a restriction. Until Apple lifts these barriers they are not in effective compliance with the DMA.**
 
-We had the opportunity to question Apple directly on this at the 2025 DMA workshop. Here's how they responded:  
+We had the opportunity to question Apple directly on this at the 2025 DMA workshop. Here's how they responded:
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube-nocookie.com/embed/\_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd" frameborder='0' allowfullscreen title="Apple’s Browser Engine Ban Persists, Even Under the DMA"></iframe></div>
 
@@ -25,15 +27,15 @@ As a quick background to new readers, we (Open Web Advocacy) are a non-profit de
 
 Our primary concern is [Apple’s rule banning third-party browser engines from iOS](https://open-web-advocacy.org/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers) and thus setting a ceiling on browser and web app competition.
 
-We engaged extensively with the UK’s CMA and the EU on this topic and to our delight specific text was added to the EU’s Digital Markets Act **explicitly prohibiting the banning of third-party browser engines,** and stating that the purpose was to prevent gatekeepers from determining the performance, stability and functionality of third party browsers a**nd the web apps they power**.
+We engaged extensively with the UK’s CMA and the EU on this topic and to our delight specific text was added to the EU’s Digital Markets Act **explicitly prohibiting the banning of third-party browser engines,** and stating that the purpose was to prevent gatekeepers from determining the performance, stability and functionality of third-party browsers **and the web apps they power**.
 
-The first batch of designated gatekeepers Apple, Google, Meta, Amazon, Bytedance, Microsoft **were required to be in compliance with the DMA by March 7th, 2024\.**
+The first batch of designated gatekeepers Apple, Google, Meta, Amazon, Bytedance, Microsoft **were required to be in compliance with the DMA by March 7th, 2024.**
 
 Apple’s compliance did not start well. Faced with the genuine possibility of third-party browsers effectively powering web apps, [Apple's first instinct was to remove web app support entirely from iOS](https://open-web-advocacy.org/blog/its-official-apple-kills-web-apps-in-the-eu/) with no notice to either businesses or consumers. Under significant pressure from us and the Commission, [Apple canceled their plan to sabotage web apps in the EU](https://open-web-advocacy.org/blog/apple-backs-off-killing-web-apps/).
 
-Both Google and Mozilla [began porting their browser engines Blink and Gecko respectively to iOS](https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/). Other browser vendors are dependent on these ports to bring their own engines to their browsers iOS, as their products are typically soft forks (copies with modifications) of Blink or Gecko.
+Both Google and Mozilla [began porting their browser engines Blink and Gecko respectively to iOS](https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/). Other browser vendors are dependent on these ports to bring their own engines to their browsers on iOS, as their products are typically soft forks (copies with modifications) of Blink or Gecko.
 
-However there were significant issues with Apple’s contract and technical restrictions that made porting browser engines to iOS “as painful as possible” for browser vendors.
+However there were significant issues with Apple’s contract and technical restrictions that made porting browser engines to iOS “as painful as possible” for browser vendors:
 
 > Apple’s proposals fail to give consumers viable choices by making it as painful as possible for others to provide competitive alternatives to Safari \[...\] This is another example of Apple creating barriers to prevent true browser competition on iOS.
 > <cite>[Damiano DeMonte - Mozilla](https://www.theverge.com/2024/1/26/24052067/mozilla-apple-ios-browser-rules-firefox)</cite>
@@ -66,8 +68,8 @@ The most critical barriers that continue to block third-party engines on iOS inc
 
 Apple has addressed two of the issues we raised [in our original paper](https://open-web-advocacy.org/apple-dma-review/):
 
-* [**Dual engine support**](https://open-web-advocacy.org/apple-dma-review/#must-not-use-browser-engine-of-operating-system): Apple now allows browsers to include both WebKit and their own engine in the same app. This is essential for introducing a new engine to the platform while maintaining fallback compatibility.  
-    
+* [**Dual engine support**](https://open-web-advocacy.org/apple-dma-review/#must-not-use-browser-engine-of-operating-system): Apple now allows browsers to include both WebKit and their own engine in the same app. This is essential for introducing a new engine to the platform while maintaining fallback compatibility.
+
 * [**Allow browser vendors to test their own browsers**](https://open-web-advocacy.org/apple-dma-review/#testing-for-browser-vendors-and-developers-outside-the-EU): Apple now permits browser vendors to test their own engines outside the EU. Yes, you read that correctly, [Apple initially attempted to block Google, Mozilla, and Microsoft from testing their own browsers](https://www.theregister.com/2024/05/17/apple_browser_eu).
 
 However, the most critical barrier remains firmly in place: Apple still forces browser vendors to abandon all their existing EU users if they want to ship a non-WebKit engine. **This single requirement destroys the business case for porting an engine to iOS.** Building and maintaining a full browser engine is a major undertaking. Requiring vendors to start from scratch in one region (even a region as large as the EU), with zero users, makes the investment commercially nonviable.
@@ -183,7 +185,7 @@ Web apps, which already have a dominant 70% share on desktop, can replace most o
 
 **This is important because it explains why Apple will not voluntarily make these changes.** No rational actor with such a tight monopolistic grip on a market (the market for browsers and the market for apps on iOS) would give that up if they could plausibly hang onto it by subtly or explicitly undermining attempts to open it up. Apple’s statements about engaging or making changes are meaningless, **it is only the concrete actions that they have taken to date that must be measured**.
 
-These changes, and the competition and interoperability they bring, will literally cost Apple billions if not tens of billions per year. On the flip side these are savings that developers and consumers are missing out on, both in terms of quality of apps and services, and direct costs. This is money that Apple is extracting out the market via their control of iOS on high-cost and high-margin devices sold to consumers at full price.
+These changes, and the competition and interoperability they bring, will literally cost Apple billions if not tens of billions per year. On the flip side, these are savings that developers and consumers are missing out on, both in terms of quality of apps and services, and direct costs. This is money that Apple is extracting out the market via their control of iOS on high-cost and high-margin devices sold to consumers at full price.
 
 With a market value of $3 trillion, Apple has a legal budget of over $1 billion a year, giving it legal power that outstrips that of small nations. It is also not afraid to step as close to the line of non-compliance as possible, as Apple’s former general counsel explains:
 
@@ -192,7 +194,7 @@ With a market value of $3 trillion, Apple has a legal budget of over $1 billion 
 
 This, unfortunately, means that regulation is the only answer. Even Open Web Advocacy was only formed after we had exhausted every possible avenue at trying to convince Apple to develop critical web functionality.
 
-Many other parties have attempted to negotiate with Apple on these topics over the last 15 years and all have come to naught, **the power imbalance and the incentives for Apple not to do this is simply too strong**.  
+Many other parties have attempted to negotiate with Apple on these topics over the last 15 years and all have come to naught, **the power imbalance and the incentives for Apple not to do this is simply too strong**.
 
 ## Apple vs the World
 
@@ -301,11 +303,11 @@ When it comes to designing an operating system that enables fair competition and
 > James, maybe I'll just take yours first in terms of what we'd call the testing entitlement. I think as we've been going along, we have learnt a lot as to how to facilitate that kind of testing outside of the EU, even in relation to browser engines. I think that's a subjective, active discussion. **I think we've been discussing it with Mozilla and Google also. And the commission, I would expect to see some updates there**.
 > <cite>[Gary Davis - Apple - Senior Director Apple Legal](https://www.youtube-nocookie.com/embed/_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd)<br>(emphasis added)</cite>
 
-As far as we’re aware, none of the browser vendors have been informed about this. That said, if Apple is actively working on a solution, that’s great. However, without published details, it’s difficult to properly evaluate. Note, [Apple has been aware of this issue since June 2024, over a year ago](https://open-web-advocacy.org/apple-dma-review/#testing-for-browser-vendors-and-developers-outside-the-EU:~:text=Finally%2C%20of%20the,to%20develop%20for.). 
+As far as we’re aware, none of the browser vendors have been informed about this. That said, if Apple is actively working on a solution, that’s great. However, without published details, it’s difficult to properly evaluate. Note, [Apple has been aware of this issue since June 2024, over a year ago](https://open-web-advocacy.org/apple-dma-review/#testing-for-browser-vendors-and-developers-outside-the-EU:~:text=Finally%2C%20of%20the,to%20develop%20for.).
 
-[Our proposed solution is straightforward](https://open-web-advocacy.org/apple-dma-review/#testing-for-browser-vendors-and-developers-outside-the-EU:~:text=Any%20developer%20with,test%20their%20products.): web developers outside the EU should be able to download and install test versions of third-party browsers on iOS, using their own engines, directly onto their devices for the purpose of testing web apps and websites for EU users. This is strengthened by the fact that Apple has already implemented an equivalent solution for native app developers outside to test EU only features for their EU users. 
+[Our proposed solution is straightforward](https://open-web-advocacy.org/apple-dma-review/#testing-for-browser-vendors-and-developers-outside-the-EU:~:text=Any%20developer%20with,test%20their%20products.): web developers outside the EU should be able to download and install test versions of third-party browsers on iOS, using their own engines, directly onto their devices for the purpose of testing web apps and websites for EU users. This is strengthened by the fact that Apple has already implemented an equivalent solution for native app developers outside to test EU only features for their EU users.
 
-### Mozilla on the Separate App Requirement  
+### Mozilla on the Separate App Requirement
 
 > Yeah, just to your last point, Gary, my first question about user testing would be great to get a response to that. And then just to Kyle's point about two separate binaries and security being the reason for the BrowserEngineKit restrictions, we'd love to understand how you see those things connected and why security is the reason for that restriction.
 > <cite>[Kush Amlani - Mozilla - Director, Global Competition & Regulation](https://www.youtube-nocookie.com/embed/_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd)</cite>
@@ -324,7 +326,7 @@ Apple has previously asserted to the UK regulator that its WebKit engine was mor
 > Overall, the evidence we have received to date **does not suggest that Apple's WebKit restriction allows for quicker and more effective response to security threats for dedicated browser apps on iOS**<br><br>
 > <cite>[UK CMA - Interim Report into Mobile Ecosystems](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report)<br>(emphasis added)</cite>
 
-Another key issue is that, due to how performance and sandboxing are implemented in browser engines, Apple will inevitably need to entrust significant responsibility for user security to the browser vendors themselves. Given that [these browser vendors have security track records that are arguably superior to Apple’s](https://open-web-advocacy.org/walled-gardens-report/#security), **this will, in fact, improve security on iOS**. Apple is well within its rights under the DMA to impose reasonable baseline requirements such as regular security updates to all browsers on iOS, including Safari, and few would object to that. What needs to be avoided though is security rules that restrict utility to Apple’s native app ecosystem or that undermine competition. 
+Another key issue is that, due to how performance and sandboxing are implemented in browser engines, Apple will inevitably need to entrust significant responsibility for user security to the browser vendors themselves. Given that [these browser vendors have security track records that are arguably superior to Apple’s](https://open-web-advocacy.org/walled-gardens-report/#security), **this will, in fact, improve security on iOS**. Apple is well within its rights under the DMA to impose reasonable baseline requirements such as regular security updates to all browsers on iOS, including Safari, and few would object to that. What needs to be avoided though is security rules that restrict utility to Apple’s native app ecosystem or that undermine competition.
 
 ### Web Apps powered by other Engines
 
@@ -357,13 +359,6 @@ Rejecting requests to share the ability to install and manage web apps, without 
 
 Again, and this is critical, while it is encouraging that Apple has not explicitly denied its obligation to make this functionality available, **compliance must be measured by actions, not words.**
 
-
-
-
-
-
-
-
 ## What needs to be fixed on iOS?
 
 To comply with the aims of Article 5(7) of the DMA, and as outlined by Recital 43, Apple must stop imposing the use of its own browser engine on users, developers, and browser vendors within the EU. It must also no longer use such restrictions to control the functionality, performance, or stability of web applications installed and managed by third-party browsers.
@@ -376,70 +371,70 @@ Below is a brief summary of the most critical outstanding issues. You can follow
 
 ### Browser Engines and Interoperability
 
-* [**No Separate App Requirement (Single Bundle ID)**](https://open-web-advocacy.org/apple-dma-review/#potential-solutions)  
+* [**No Separate App Requirement (Single Bundle ID)**](https://open-web-advocacy.org/apple-dma-review/#potential-solutions)
   Allow browser vendors to keep their existing users by letting vendors update their existing apps to use their own browser engine.
 
-* [**Web Developer Testing**](https://open-web-advocacy.org/apple-dma-review/#testing-for-browser-vendors-and-developers-outside-the-EU:~:text=Any%20developer%20with,test%20their%20products.)  
-  Allow non-EU web developers to be able to test web software for the purpose of supporting their EU users.  
-    
-* [**SFSafariViewController**](https://open-web-advocacy.org/apple-dma-review/#sfsafariviewcontroller-must-respect-browser-choice)  
-  Update SFSafariViewController to respect the users choice of default browser and to provide meaningful benefit from the browser choice screen. The solution already works for Android via Android Custom Tabs.  
-    
-* [**Interoperability and Hardware Access**](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#browser-api-access)  
-  Ensure browser vendors have access to all relevant hardware related functionality like on other operating systems for the purposes of developing web APIs such as WebUSB, WebBluetooth, WebNFC and ensure functionality extends to web apps installed by these browsers.  
-    
-* [**BrowserEngineKit**](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#apple's-decade-long-app-review-woes:~:text=Importantly%2C%20gatekeepers%20should,an%20unfair%20advantage.)  
+* [**Web Developer Testing**](https://open-web-advocacy.org/apple-dma-review/#testing-for-browser-vendors-and-developers-outside-the-EU:~:text=Any%20developer%20with,test%20their%20products.)
+  Allow non-EU web developers to be able to test web software for the purpose of supporting their EU users.
+
+* [**SFSafariViewController**](https://open-web-advocacy.org/apple-dma-review/#sfsafariviewcontroller-must-respect-browser-choice)
+  Update SFSafariViewController to respect the users choice of default browser and to provide meaningful benefit from the browser choice screen. The solution already works for Android via Android Custom Tabs.
+
+* [**Interoperability and Hardware Access**](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#browser-api-access)
+  Ensure browser vendors have access to all relevant hardware related functionality like on other operating systems for the purposes of developing web APIs such as WebUSB, WebBluetooth, WebNFC and ensure functionality extends to web apps installed by these browsers.
+
+* [**BrowserEngineKit**](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#apple's-decade-long-app-review-woes:~:text=Importantly%2C%20gatekeepers%20should,an%20unfair%20advantage.)
   Improve the stability and functionality of BrowserEngineKit. Ensure Apple has a transition strategy **to migrate Safari to use their own framework**.
 
 * [**Grant Equivalent Access to Content Filtering APIs**](https://open-web-advocacy.org/blog/ios-age-restriction-blocks-all-browsers-except-safari-breaks-choice-screen/)
 Currently, iOS content filtering settings, used by parents to restrict access to harmful or adult material, only apply to Safari and apps using WKWebView. Third-party browsers with their own engines cannot integrate with these system-level protections, meaning they can not respect parental controls configured by users.<br><br>Apple has stated that adding support is a *"mild engineering effort"* and has promised a beta release in March 2026.<br><br>Likely, no browser vendor will be willing to ship a consumer product without this API given its importance to online safety and parental controls.
 
-* [**Fair Browser Engine Entitlement Contract Terms**](https://open-web-advocacy.org/apple-dma-review/#browser-engine-entitlement-contract)  
+* [**Fair Browser Engine Entitlement Contract Terms**](https://open-web-advocacy.org/apple-dma-review/#browser-engine-entitlement-contract)
   Remove all unfair and non-security related terms from the [Browser Engine Entitlement Contract](https://open-web-advocacy.org/files/Apple%20Browser%20Engine%20Entitlement%20Contact%20\(2024-10-23\).pdf). Any security terms must be proportionate and iOS Safari must be proven to be meeting them.
 
 * [**Apple Should Not Break Updates for EU Residents Traveling Outside The EU**](https://open-web-advocacy.org/apple-dma-review/#apple-should-not-break-updates-for-eu-residents-traveling-outside-the-eu)
-Apple has stated that it will prevent all updates for apps downloaded from third-party app stores that are outside the EU for more than 30 days.<br><br>Apple has not released any explicit statement on what will happen to browsers using their own engine downloaded from Apple’s app store if the user (an EU resident) leaves the EU for greater than 30 days. [Given Apple attempted to block even browser vendors from testing on their own test devices outside the EU](https://www.theregister.com/2024/05/17/apple_browser_eu), it seems likely they will attempt to extend a similar policy to third party browsers which use their own engine even if they are downloaded from Apple’s app store.<br><br>**We would like a statement from Apple clarifying that this does not apply to browsers with the browser engine entitlement.**
+Apple has stated that it will prevent all updates for apps downloaded from third-party app stores that are outside the EU for more than 30 days.<br><br>Apple has not released any explicit statement on what will happen to browsers using their own engine downloaded from Apple’s app store if the user (an EU resident) leaves the EU for greater than 30 days. [Given Apple attempted to block even browser vendors from testing on their own test devices outside the EU](https://www.theregister.com/2024/05/17/apple_browser_eu), it seems likely they will attempt to extend a similar policy to third-party browsers which use their own engine even if they are downloaded from Apple’s app store.<br><br>**We would like a statement from Apple clarifying that this does not apply to browsers with the browser engine entitlement.**
 
-* [**Allow Own Browser Extensions**](https://open-web-advocacy.org/apple-dma-review/#allow-third-party-browsers-to-ship-their-own-extensions)  
+* [**Allow Own Browser Extensions**](https://open-web-advocacy.org/apple-dma-review/#allow-third-party-browsers-to-ship-their-own-extensions)
   Allow third-party browsers to ship their own extensions on iOS (something that Apple currently only allows Safari to do), including separately from Apple’s app store if desired.  Browser Extensions are a critical part of browser competition.
 
 ### Web Apps
 
-* [**Web Apps run by Third-Party Engines**](https://open-web-advocacy.org/apple-dma-review/#web-app-installation-and-management-for-third-party-browsers)  
+* [**Web Apps run by Third-Party Engines**](https://open-web-advocacy.org/apple-dma-review/#web-app-installation-and-management-for-third-party-browsers)
   Allow browsers to install and manage Web Apps which then run in the third-party browser’s engine. Third-party browsers should be able to manage the web app install process and customize the web apps settings page to support desired features.  Browsers should also be able to operate “web app stores”.
 
-* [**Web App Install Discoverability**](https://open-web-advocacy.org/apple-dma-review/#implement-web-app-install-prompts-for-ios-safari-and-wKWebView-browsers)  
+* [**Web App Install Discoverability**](https://open-web-advocacy.org/apple-dma-review/#implement-web-app-install-prompts-for-ios-safari-and-wKWebView-browsers)
   Allow installation of Web Apps in Safari to be as [discoverable as](https://open-web-advocacy.org/walled-gardens-report/#app-clips) [native apps](https://open-web-advocacy.org/walled-gardens-report/#smart-app-banners). Currently [the option to install a web app is hidden](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive) and has been made worse in the upcoming iOS 26\.
 
 ### Distribution
 
-* [**Direct Browser Installation**](https://open-web-advocacy.org/apple-dma-review/#direct-browser-installation)  
-  Allow direct browser installation independently from Apple’s app store without scare screens. 
+* [**Direct Browser Installation**](https://open-web-advocacy.org/apple-dma-review/#direct-browser-installation)
+  Allow direct browser installation independently from Apple’s app store without scare screens.
 
-* [**Automatic Notarization**](https://open-web-advocacy.org/apple-dma-review/#apple-should-make-notarization-for-directly-downloaded-browsers-automatic)  
+* [**Automatic Notarization**](https://open-web-advocacy.org/apple-dma-review/#apple-should-make-notarization-for-directly-downloaded-browsers-automatic)
   Make notarization for browsers with the browser engine entitlement automatic. Browser vendors with the [browser engine entitlement](https://developer.apple.com/contact/request/download/web_browser_engine.pdf) have agreed to security conditions such as regular patching and some have [arguably better security](https://open-web-advocacy.org/walled-gardens-report/#safari-users-are-exposed-for-longer) [than Apple](%20https://open-web-advocacy.org/blog/slap-and-flop--apples-lack-of-full-site-isolation-and-ios-browser-ban-puts-users-at-risk/). The app review team does not contain browser engineers and certainly not on the scale to meaningfully contribute. This means the [human review element adds nothing](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#apple's-decade-long-app-review-woes:~:text=Despite%20Apple%27s%20label%20of%20%22expert%22%2C%20Apple%20has%20submitted%20no%20evidence%20as%20to%20what%20this%20expertise%20is.) but it does grant Apple the ability to suppress competition and delay compliance [via app review](https://www.macworld.com/article/234319/apple-refuses-to-relent-as-fight-with-basecamp-over-hey-app-rages-on.html) as with [Spotify](https://www.theverge.com/2024/8/14/24220105/spotify-iphone-app-pricing-information-eu-update) and Epic.
 
-* [**Alpha and Beta Versions of Browsers**](https://open-web-advocacy.org/apple-dma-review/#allow-dev-beta-versions-of-browsers-on-non-beta-versions-of-iOS)  
+* [**Alpha and Beta Versions of Browsers**](https://open-web-advocacy.org/apple-dma-review/#allow-dev-beta-versions-of-browsers-on-non-beta-versions-of-iOS)
   Allow Alpha and Beta versions of Browsers in the App Store, currently blocked by App Store rules. Currently Safari can not offer this feature due to being tightly tied to the operating system but that should not stop third-party browser vendors from contesting Safari by doing so. The scale that browsers operate on makes this necessary and other beta testing methods insufficient.  Several browser engineers we have spoken to have said that testflights 10k user limit makes it next to useless for applications of this scale.
 
 ### Choice & Contestability
 
-* [**Age-Restriction Parity**](https://open-web-advocacy.org/blog/ios-age-restriction-blocks-all-browsers-except-safari-breaks-choice-screen/)  
-  Ensure equal treatment between Safari and third party browsers in relation to Age‑Restrictions including accounting for Safari being preinstalled.  
-    
-* [**System Change Default Browser Prompt**](https://open-web-advocacy.org/apple-dma-review/#default-browser-dark-patterns-and-prompt-api)  
-  Make setting the default browser easier, by adding a system prompt to switch default browser. Other operating systems such as Android have such a prompt. Apple may subject this prompt to the usual anti-spamming rules it uses for iOS app permissions such as push notifications.  
-    
-* [**Hotseat on Setting Default Browser**](https://open-web-advocacy.org/apple-dma-review/#apples-dark-pattern-exacerbated-by-keeping-hotseat)  
-  When a user manually downloads a browser and sets it as their default the operating system should prompt the user as to whether to place this browser in the hotseat replacing Safari.  
-    
-* [**Safari Should Not Be Locked to Apple Pay**](https://open-web-advocacy.org/apple-dma-review/#safari-is-locked-to-apple-pay)  
-  Update Safari to allow Apple Pay competitors. Apple is directly obligated to do this under Article 5(7) which stipulates they can not impose a payment provider via a core platform service. Safari is a core platform service.  
-    
-* [**Default Browser Detection**](https://open-web-advocacy.org/apple-dma-review/#default-browser-dark-patterns-and-prompt-api:~:text=Third%2Dparty%20browsers%20cannot%20detect%20whether%20they%20are%20the%20default.)  
-  Initially, third-party browsers on iOS were unable to detect whether they were set as the default. Apple now permits this check, but only four times per year. This arbitrary limitation prevents browser vendors from creating user experiences similar to Apple’s own flow for Safari on macOS, where the browser’s internal settings page indicates whether the browser is currently the default. By contrast, Apple imposes no such restrictions on more potentially intrusive APIs, such as push notifications, which can be queried without limit. Apple should apply consistent and non-discriminatory logic, and allow third-party browsers the same flexibility in determining their default status.  
-    
-* [**Direct Install Browsers Should Be Included In Choice Screens**](https://open-web-advocacy.org/apple-dma-review/#direct-install-browsers-should-be-included-in-choice-screens)  
+* [**Age-Restriction Parity**](https://open-web-advocacy.org/blog/ios-age-restriction-blocks-all-browsers-except-safari-breaks-choice-screen/)
+  Ensure equal treatment between Safari and third-party browsers in relation to Age‑Restrictions including accounting for Safari being preinstalled.
+
+* [**System Change Default Browser Prompt**](https://open-web-advocacy.org/apple-dma-review/#default-browser-dark-patterns-and-prompt-api)
+  Make setting the default browser easier, by adding a system prompt to switch default browser. Other operating systems such as Android have such a prompt. Apple may subject this prompt to the usual anti-spamming rules it uses for iOS app permissions such as push notifications.
+
+* [**Hotseat on Setting Default Browser**](https://open-web-advocacy.org/apple-dma-review/#apples-dark-pattern-exacerbated-by-keeping-hotseat)
+  When a user manually downloads a browser and sets it as their default the operating system should prompt the user as to whether to place this browser in the hotseat replacing Safari.
+
+* [**Safari Should Not Be Locked to Apple Pay**](https://open-web-advocacy.org/apple-dma-review/#safari-is-locked-to-apple-pay)
+  Update Safari to allow Apple Pay competitors. Apple is directly obligated to do this under Article 5(7) which stipulates they can not impose a payment provider via a core platform service. Safari is a core platform service.
+
+* [**Default Browser Detection**](https://open-web-advocacy.org/apple-dma-review/#default-browser-dark-patterns-and-prompt-api:~:text=Third%2Dparty%20browsers%20cannot%20detect%20whether%20they%20are%20the%20default.)
+  Initially, third-party browsers on iOS were unable to detect whether they were set as the default. Apple now permits this check, but only four times per year. This arbitrary limitation prevents browser vendors from creating user experiences similar to Apple’s own flow for Safari on macOS, where the browser’s internal settings page indicates whether the browser is currently the default. By contrast, Apple imposes no such restrictions on more potentially intrusive APIs, such as push notifications, which can be queried without limit. Apple should apply consistent and non-discriminatory logic, and allow third-party browsers the same flexibility in determining their default status.
+
+* [**Direct Install Browsers Should Be Included In Choice Screens**](https://open-web-advocacy.org/apple-dma-review/#direct-install-browsers-should-be-included-in-choice-screens)
   Upgrade the browser choice screen to install the direct install version of the browser if the browser vendor so chooses.
 
 

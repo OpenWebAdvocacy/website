@@ -17,7 +17,7 @@ We had the opportunity to question Apple directly on this at the 2025 DMA worksh
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube-nocookie.com/embed/\_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd" frameborder='0' allowfullscreen title="Apple’s Browser Engine Ban Persists, Even Under the DMA"></iframe></div>
 
-**Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1944649343555777006), [Mastodon](https://mastodon.social/@owa/114850246920974522), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_new-owa-report-apples-browser-engine-ban-activity-7350415543637602304-CRks) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3ltvs465ajs25).**
+**Share on [X/Twitter](https://x.com/OpenWebAdvocacy/status/1944649343555777006), [Mastodon](https://mastodon.social/@owa/114850246920974522), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_new-owa-report-apples-browser-engine-ban-activity-7350415543637602304-CRks), [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3ltvs465ajs25) or join the lively conversation on <span style="color: var(--main-color);">[Hacker News](https://news.ycombinator.com/item?id=44557348)</span>.**
 
 ## Quick Background
 
@@ -392,11 +392,7 @@ Below is a brief summary of the most critical outstanding issues. You can follow
   Improve the stability and functionality of BrowserEngineKit. Ensure Apple has a transition strategy **to migrate Safari to use their own framework**.
 
 * [**Grant Equivalent Access to Content Filtering APIs**](https://open-web-advocacy.org/blog/ios-age-restriction-blocks-all-browsers-except-safari-breaks-choice-screen/)
-Currently, iOS content filtering settings, used by parents to restrict access to harmful or adult material, only apply to Safari and apps using WKWebView. Third-party browsers with their own engines cannot integrate with these system-level protections, meaning they can not respect parental controls configured by users.
-
-Apple has stated that adding support is a *"mild engineering effort"* and has promised a beta release in March 2026\. 
-
-Likely, no browser vendor will be willing to ship a consumer product without this API given its importance to online safety and parental controls.
+Currently, iOS content filtering settings, used by parents to restrict access to harmful or adult material, only apply to Safari and apps using WKWebView. Third-party browsers with their own engines cannot integrate with these system-level protections, meaning they can not respect parental controls configured by users.<br><br>Apple has stated that adding support is a *"mild engineering effort"* and has promised a beta release in March 2026.<br><br>Likely, no browser vendor will be willing to ship a consumer product without this API given its importance to online safety and parental controls.
 
 * [**Fair Browser Engine Entitlement Contract Terms**](https://open-web-advocacy.org/apple-dma-review/#browser-engine-entitlement-contract)  
   Remove all unfair and non-security related terms from the [Browser Engine Entitlement Contract](https://open-web-advocacy.org/files/Apple%20Browser%20Engine%20Entitlement%20Contact%20\(2024-10-23\).pdf). Any security terms must be proportionate and iOS Safari must be proven to be meeting them.

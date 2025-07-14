@@ -17,7 +17,7 @@ We had the opportunity to question Apple directly on this at the 2025 DMA worksh
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube-nocookie.com/embed/\_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd" frameborder='0' allowfullscreen title="Apple’s Browser Engine Ban Persists, Even Under the DMA"></iframe></div>
 
-**Share on [X/Twitter](https://x.com/OpenWebAdvocacy/status/1944649343555777006), [Mastodon](https://mastodon.social/@owa/114850246920974522), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_new-owa-report-apples-browser-engine-ban-activity-7350415543637602304-CRks), [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3ltvs465ajs25) or join the lively conversation on <span style="color: var(--main-color);">[Hacker News](https://news.ycombinator.com/item?id=44557348)</span>.**
+**Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1944649343555777006), [Mastodon](https://mastodon.social/@owa/114850246920974522), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_new-owa-report-apples-browser-engine-ban-activity-7350415543637602304-CRks), [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3ltvs465ajs25).**
 
 ## Quick Background
 

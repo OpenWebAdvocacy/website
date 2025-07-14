@@ -185,7 +185,7 @@ Web apps, which already have a dominant 70% share on desktop, can replace most o
 
 **This is important because it explains why Apple will not voluntarily make these changes.** No rational actor with such a tight monopolistic grip on a market (the market for browsers and the market for apps on iOS) would give that up if they could plausibly hang onto it by subtly or explicitly undermining attempts to open it up. Apple’s statements about engaging or making changes are meaningless, **it is only the concrete actions that they have taken to date that must be measured**.
 
-These changes, and the competition and interoperability they bring, will literally cost Apple billions if not tens of billions per year. On the flip side, these are savings that developers and consumers are missing out on, both in terms of quality of apps and services, and direct costs. This is money that Apple is extracting out the market via their control of iOS on high-cost and high-margin devices sold to consumers at full price.
+These changes, and the competition and interoperability they bring, will literally cost Apple billions if not tens of billions per year. On the flip side, these are savings that developers and consumers are missing out on, both in terms of quality of apps and services, and direct costs. This is money that Apple is extracting out the market via their control of iOS on high-cost and high-margin devices, sold to consumers at full price.
 
 With a market value of $3 trillion, Apple has a legal budget of over $1 billion a year, giving it legal power that outstrips that of small nations. It is also not afraid to step as close to the line of non-compliance as possible, as Apple’s former general counsel explains:
 

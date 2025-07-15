@@ -242,7 +242,7 @@ There are still a vast amount of issues to fix here, and we will continue to wor
 
 * [Respect the user's choice of default browser in apps such as Facebook Messenger and Instagram.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)
 
-#### Bytedance
+#### ByteDance
 
 * [Respect the user's choice of default browser in TikTok.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)
 

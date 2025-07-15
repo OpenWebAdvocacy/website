@@ -1,7 +1,7 @@
 ---
 title: "It's time for a fairer, more competitive app ecosystem"
 date: '2024-10-24'
-tags: ['Policy', 'EU', 'DMA', 'Apple', 'Google', 'Microsoft', 'Meta', 'Bytedance']
+tags: ['Policy', 'EU', 'DMA', 'Apple', 'Google', 'Microsoft', 'Meta', 'ByteDance']
 author: "OWA"
 ---
 
@@ -69,7 +69,7 @@ The following issues remain unresolved:
 
 * [Respect the user's choice of default browser in apps such as Facebook Messenger and Instagram.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)
 
-**Bytedance:**
+**ByteDance:**
 
 * [Respect the user's choice of default browser in TikTok.](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/)
 
@@ -78,6 +78,3 @@ For this reason we are adding our voice to many others asking for a fairer, more
 We urge MEPs of the ECON and IMCO Committees to hold the gatekeepers accountable for compliance with the DMA.
 
 Read [our joint letter here](/files/Open%20Letter%20-%20DMA%20enforcement.pdf).
-
-
-

@@ -42,7 +42,11 @@ or website instead of the terms laid out here.
 Below is a non-exhaustive list of services we knowingly link to within our site, along with that service's privacy terms:
 
 - Discord - [Privacy Policy](https://discord.com/privacy)
-- Twitter - [Privacy Policy](https://twitter.com/en/privacy)
+- X/Twitter - [Privacy Policy](https://twitter.com/en/privacy)
+- Mastodon - [Privacy Policy](https://mastodon.social/privacy-policy)
+- Bluesky - [Privacy Policy](https://bsky.social/about/support/privacy-policy)
+- LinkedIn - [Privacy Policy](https://www.linkedin.com/legal/privacy-policy)
+- GitHub - [Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 
 ## Children’s privacy protection
 

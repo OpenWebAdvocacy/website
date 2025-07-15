@@ -5,7 +5,7 @@
         <ul class="tags-list" aria-label="Tags">
         {% for tag in tags %}
             <li>
-            <a href="{{ ('/tag/' + (tag | slug) + '/') | locale_url }}" class="p-category">#{{ tag | replace(' ', '') | capitalize }}</a>
+            <a href="{{ ('/tag/' + (tag | slug) + '/') | locale_url }}" class="p-category">#{{ tag | replace(' ', '') }}</a>
             </li>
         {% endfor %}
         </ul>

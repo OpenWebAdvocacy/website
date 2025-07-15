@@ -1204,6 +1204,7 @@ p.social {
 .tags-list {
   margin: 0;
   list-style: none;
+  text-transform: capitalize;
   font-variation-settings: var(--fvs-bold);
   color: #666;
 }

@@ -457,5 +457,5 @@ Such enforcement will benefit EU consumers, EU businesses **and ultimately the e
 ## Further reading
 
 * [Up the kriek: Apple gets punchy in Brussels DMA compliance workshop](https://brucelawson.co.uk/2025/up-the-kriek-apple-gets-punchy-in-brussels-dma-compliance-workshop/)<br>Bruce Lawson (Vivaldi)
-* [Apple Vs The Law](https://formularsumo.co.uk/blog/2025/apple-vs-the-law/)<br>James Happell (OWA)
+* [Apple Vs The Law](https://formularsumo.co.uk/blog/2025/apple-vs-the-law/)<br>James Heppell (OWA)
 * [Apple's Billion-Dollar Stonewall: Our View from the EU DMA Workshop Hearing](https://blog.crypt.ee/apples-billion-dollar-stonewall-our-view-from-the-eu-dma-workshop-hearing/)<br>John Ozbay (Cryptee)

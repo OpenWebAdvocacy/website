@@ -35,7 +35,7 @@ Apple's compliance did not start well. Faced with the genuine possibility of thi
 
 Both Google and Mozilla [began porting their browser engines Blink and Gecko respectively to iOS](https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/). Other browser vendors are dependent on these ports to bring their own engines to their browsers on iOS, as their products are typically soft forks (copies with modifications) of Blink or Gecko.
 
-However there were significant issues with Apple's contract and technical restrictions that made porting browser engines to iOS “as painful as possible” for browser vendors:
+However there were significant issues with Apple's contract and technical restrictions that made porting browser engines to iOS "as painful as possible" for browser vendors:
 
 > Apple's proposals fail to give consumers viable choices by making it as painful as possible for others to provide competitive alternatives to Safari \[...\] This is another example of Apple creating barriers to prevent true browser competition on iOS.
 > <cite>[Damiano DeMonte - Mozilla](https://www.theverge.com/2024/1/26/24052067/mozilla-apple-ios-browser-rules-firefox)</cite>
@@ -52,7 +52,7 @@ In June, 2024 [we published a paper outlining these barriers](https://open-web-a
 > We recognize under the DMA that we've been forced to change. And we have created a program that keeps security and privacy in mind, that keeps the integrity of the operating system in mind, and **allows third parties to bring their browser engine, Google, Mozilla, to the platform. And for whatever reason, they have chosen not to do so.**
 > <cite>[Kyle Andeer - Apple - Vice President Apple Legal](https://www.youtube-nocookie.com/embed/_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd)<br>(emphasis added)</cite>
 
-At the DMA workshop last week, we directly raised with Apple the primary blocker preventing third-party browser engines from shipping on iOS. Apple claimed that vendors like Google and Mozilla have *“everything they need”* to ship a browser engine in the EU and simply *"have chosen not to do so”*.
+At the DMA workshop last week, we directly raised with Apple the primary blocker preventing third-party browser engines from shipping on iOS. Apple claimed that vendors like Google and Mozilla have *"everything they need"* to ship a browser engine in the EU and simply *"have chosen not to do so"*.
 
 Apple has been fully aware of these barriers since at least June 2024, [when we covered them in exhaustive detail](https://open-web-advocacy.org/apple-dma-review/). Multiple browser vendors have also discussed these same issues with Apple directly. The suggestion that Apple is unaware of the problems is not just ridiculous, it's demonstrably false. **Apple knows exactly what the issues are. It is simply refusing to address them.**
 
@@ -94,7 +94,7 @@ Apple's justification for its gatekeeping is security. Its position is that only
 
 But the secure, interoperable, and capable alternative already exists, and it's thriving. That solution is the Web, and more specifically, web apps. On open platforms like desktop, web technologies already account for over 70% of user activity, and that figure is only growing.
 
-Web apps offer the key properties needed to solve the cross-platform problem. They run inside the browser sandbox, which even [Apple admits](https://assets.publishing.service.gov.uk/media/62277271d3bf7f158779fe39/Apple_11.3.22.pdf) is *“orders of magnitude more stringent than the sandbox for native iOS apps”*. They are fully interoperable across operating systems. They don't require contracts with OS vendors. And they're highly capable: if there was effective competition, around 90% of the apps on your phone could be delivered as web apps.
+Web apps offer the key properties needed to solve the cross-platform problem. They run inside the browser sandbox, which even [Apple admits](https://assets.publishing.service.gov.uk/media/62277271d3bf7f158779fe39/Apple_11.3.22.pdf) is *"orders of magnitude more stringent than the sandbox for native iOS apps"*. They are fully interoperable across operating systems. They don't require contracts with OS vendors. And they're highly capable: if there was effective competition, around 90% of the apps on your phone could be delivered as web apps.
 
 However, this promise only holds if browser vendors are allowed to compete, using their own engines, on every platform. Without that, Apple can unilaterally limit what the web is capable of, not just on iOS, but everywhere. If a feature can't be used on a platform as critical as iOS, then for many developers, it may as well not exist.
 
@@ -170,7 +170,7 @@ Interoperability via middleware would reduce lock-in for Apple's devices. Lock-i
 > iMessage on Android would simply serve to remove \[an\] obstacle to iPhone families giving their kids Android phones ... moving iMessage to Android will hurt us more than help us, this email illustrates why.
 > <cite>[Craig Federighi - Apple's Senior Vice President of Software Engineering](https://www.theverge.com/2021/4/9/22375128/apple-imessage-android-ecosystem-lock-in-epic-games-filings-app-store-dispute)</cite>
 
-Apple has also long been concerned that the web could be a threat to its app store. In 2011, Philip Schiller internally sent an email to Eddie Cue to discuss the threat of HTML5 to the Apple App Store titled **“HTML5 poses a threat to both Flash and the App Store”**.
+Apple has also long been concerned that the web could be a threat to its app store. In 2011, Philip Schiller internally sent an email to Eddie Cue to discuss the threat of HTML5 to the Apple App Store titled **"HTML5 poses a threat to both Flash and the App Store"**.
 
 > Food for thought: Do we think our 30/70% split will last forever? While I am a staunch supporter of the 30/70% split and keeping it simple and consistent across our stores, I don't think 30/70 will last unchanged forever. I think someday we will see a challenge from another platform or a web based solution to want to adjust our model
 > <cite>[Internal Apple Emails](https://www.patentlyapple.com/2021/05/in-the-epic-vs-apple-trial-today-epic-revealed-apple-memos-discussing-whether-the-70-30-split-with-developers-would-stand.html)<br>(emphasis added)</cite>
@@ -234,7 +234,7 @@ Gary Davis (Senior Director Apple Legal) and Kyle Andeer (Vice President Apple L
 > Let me take the browser engine first. I know this is **all just conversation is supposed to be about browser choice screens and defaults**, but I know some of you, many of you with the same group, have traveled very far to have this conversation. And so I'll take a question on that, which is, listen: as everyone knows, when we designed and released iOS and iPadOS over 15 years, we were hyper focused on how do we create the most secure computing platform in the world. We built it from the ground up with security and privacy in mind. **The browser engine was a critical aspect of that design.** Webkit was that aspect of the design. And that has worked for 18 years. **We recognize under the DMA that we've been forced to change** And we have created a program that keeps security and privacy in mind, that keeps the integrity of the operating system in mind, and allows third parties to bring their browser engine, Google, Mozilla, to the platform. **And for whatever reason, they've chosen not to do so.** And so we remain open. We remain open to engagement. We have had conversations, constructive conversations with Mozilla, less constructive engagement from the other party, but we are working to resolve that, those differences, and bring them to iOS in a way that we feel comfortable with in terms of security, privacy, and integrity perspective.
 > <cite>[Kyle Andeer - Apple - Vice President Apple Legal](https://www.youtube-nocookie.com/embed/_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd)<br>(emphasis added)</cite>
 
-Kyle began by incorrectly asserting that the session was focused solely on browser choice screens and defaults, [despite the session being explicitly titled “Browsers”](https://digital-markets-act.ec.europa.eu/document/download/23098dd4-cdcb-4762-99ff-bcd6566762d8_en?filename=Agenda_DMA%20Enforcement%20Workshop_Apple_30%20June_2025.pdf). This appeared to suggest that our question on browser engines was somehow out of scope.
+Kyle began by incorrectly asserting that the session was focused solely on browser choice screens and defaults, [despite the session being explicitly titled "Browsers"](https://digital-markets-act.ec.europa.eu/document/download/23098dd4-cdcb-4762-99ff-bcd6566762d8_en?filename=Agenda_DMA%20Enforcement%20Workshop_Apple_30%20June_2025.pdf). This appeared to suggest that our question on browser engines was somehow out of scope.
 
 <figure>
     <img alt="The agenda for the workshop, the title of the session is browsers." src="/images/blog/workshop-agenda.png">
@@ -245,7 +245,7 @@ He acknowledged that under the DMA, Apple is now required to allow third-party b
 
 However, the fact that Safari heavily reuses iOS code and components is unlikely to be a genuine security feature and is almost certainly a cost-saving measure. By reusing code and libraries between iOS components, Apple can save significant amounts on staffing. This comes with two significant downsides: First it worsens security by locking Safari updates to iOS updates, increasing the time it takes security patches to reach users. Second, this tight coupling harms Safari itself by making it difficult for Apple to port its browser to other operating systems, ultimately weakening its competitiveness and reach. It also means that Apple can't offer beta versions of Safari to iOS users without them installing an entire beta version of the operating system, a limitation that other browsers do not have.
 
-According to Kyle, Apple has created a program that allows third-party engines *“in a way we feel comfortable with in terms of security, privacy, and integrity”* but offered no specifics. He then shifted blame onto browser vendors, stating that Mozilla and Google have simply *“chosen not to”* bring their engines to iOS, omitting the fact that Apple's technical and contractual constraints make doing so unviable.
+According to Kyle, Apple has created a program that allows third-party engines *"in a way we feel comfortable with in terms of security, privacy, and integrity"* but offered no specifics. He then shifted blame onto browser vendors, stating that Mozilla and Google have simply *"chosen not to"* bring their engines to iOS, omitting the fact that Apple's technical and contractual constraints make doing so unviable.
 
 > There's a lot of OWA people here in the rooms so well done on that. **I also half the questions at least were about browser engines, which is obviously an Article 5(7) as opposed to a 6(3) issue**. More than happy as Kyle already did to address the question, **but I think it would be a shame that a session that is about choice screens and uninstallation and the defaults become a browser engine discussion.** I was pleased that Kush was nodding when Kyle was pointing out the ongoing engagements with Google and Mozilla, which are continuing right up even to last week, and I think just some more this week. **There was a bottom line issue, however, which is that both Google and Mozilla have everything they need to build their engines and ship them on iOS today.** We heard some other issues mentioned. We are happy to engage on those issues. We are engaging on those issues, but everything is in place to ship here in the EU today. I think that's an extremely important point to take away from this.
 > <cite>[Gary Davis - Apple - Senior Director Apple Legal](https://www.youtube-nocookie.com/embed/_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd)<br>(emphasis added)</cite>
@@ -346,7 +346,7 @@ First, it is concerning that even Kyle, Apple's lead executive responsible for D
 
 Kyle's statements in relation to security are also misleading. While he is correct in that, as covered in the previous section, Apple will need to give significantly greater access and delegate more security to browsers than a typical native app, the same is not true for web apps.
 
-Web apps are extremely tightly sandboxed. According to Apple, this sandboxing is “orders of magnitude” stronger:
+Web apps are extremely tightly sandboxed. According to Apple, this sandboxing is "orders of magnitude" stronger:
 
 > WebKit's sandbox profile on iOS is **orders of magnitude** more stringent than the sandbox for native iOS apps.
 > <cite>[Apple's Response to the CMA's Mobile Ecosystems Market Study Interim Report](https://assets.publishing.service.gov.uk/media/62277271d3bf7f158779fe39/Apple_11.3.22.pdf) <br>(emphasis added)</cite>
@@ -401,7 +401,7 @@ Apple has stated that it will prevent all updates for apps downloaded from third
 ### Web Apps
 
 * [**Web Apps run by Third-Party Engines**](https://open-web-advocacy.org/apple-dma-review/#web-app-installation-and-management-for-third-party-browsers):
-  Allow browsers to install and manage Web Apps which then run in the third-party browser's engine. Third-party browsers should be able to manage the web app install process and customize the web apps settings page to support desired features.  Browsers should also be able to operate “web app stores”.
+  Allow browsers to install and manage Web Apps which then run in the third-party browser's engine. Third-party browsers should be able to manage the web app install process and customize the web apps settings page to support desired features.  Browsers should also be able to operate "web app stores".
 
 * [**Web App Install Discoverability**](https://open-web-advocacy.org/apple-dma-review/#implement-web-app-install-prompts-for-ios-safari-and-wKWebView-browsers):
   Allow installation of Web Apps in Safari to be as [discoverable as](https://open-web-advocacy.org/walled-gardens-report/#app-clips) [native apps](https://open-web-advocacy.org/walled-gardens-report/#smart-app-banners). Currently [the option to install a web app is hidden](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive) and has been made worse in the upcoming iOS 26\.

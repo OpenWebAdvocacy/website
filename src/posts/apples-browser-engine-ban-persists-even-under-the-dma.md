@@ -458,3 +458,9 @@ Apple will continue to reap billions per year as a reward for its defiance of th
 We call on the Commission to investigate Apple's compliance and to compel Apple to make the necessary changes that would allow browser vendors to port their engines to iOS and, for the first time in 15 years, compete on fair terms.
 
 Such enforcement will benefit EU consumers, EU businesses **and ultimately the entire world.**
+
+## Further reading
+
+* [Up the kriek: Apple gets punchy in Brussels DMA compliance workshop](https://brucelawson.co.uk/2025/up-the-kriek-apple-gets-punchy-in-brussels-dma-compliance-workshop/)<br>Bruce Lawson (Vivaldi)
+* [Apple Vs The Law](https://formularsumo.co.uk/blog/2025/apple-vs-the-law/)<br>James Happell (OWA)
+* [Apple's Billion-Dollar Stonewall: Our View from the EU DMA Workshop Hearing](https://blog.crypt.ee/apples-billion-dollar-stonewall-our-view-from-the-eu-dma-workshop-hearing/)<br>John Ozbay (Cryptee)

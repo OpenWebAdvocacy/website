@@ -16,4 +16,4 @@ Específicamente, buscamos personas con cualquiera de las siguientes caracterís
 3. Experiencia con política de internet o tecnología.
 4. Experiencia en esfuerzos de promoción o campañas de base.
 
-Si está entusiasmado con el trabajo que hacemos y deseas obtener más información, puede hacerlo comunicándote con nosotros a través de <a href="https://discord.gg/x53hkqrRKx">Discord</a>, <a href="https://twitter.com/OpenWebAdvocacy">Twitter</a>, <a href='https://mastodon.social/@owa' rel='me'>Mastodon</a>, <a href="https://bsky.app/profile/open-web-advocacy.org">Bluesky</a> o enviándonos un <a href="mailto:contactus@open-web-advocacy.org">correo electrónico</a>.
+Si está entusiasmado con el trabajo que hacemos y deseas obtener más información, puede hacerlo comunicándote con nosotros a través de <a href="https://discord.gg/x53hkqrRKx">Discord</a>, <a href="https://twitter.com/OpenWebAdvocacy">X/Twitter</a>, <a href='https://mastodon.social/@owa' rel='me'>Mastodon</a>, <a href="https://bsky.app/profile/open-web-advocacy.org">Bluesky</a> o enviándonos un <a href="mailto:contactus@open-web-advocacy.org">correo electrónico</a>.

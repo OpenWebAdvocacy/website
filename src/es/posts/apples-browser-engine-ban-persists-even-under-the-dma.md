@@ -1,8 +1,16 @@
 ---
-title: "Apple's Browser Engine Ban Persists, Even Under the DMA"
+title: 'Apple''s Browser Engine Ban Persists, Even Under the DMA'
 date: '2025-07-14'
-tags: ['Policy', 'Apple', 'EU', 'DMA', 'Browser Engine']
-author: "OWA"
+tags:
+  - Policy
+  - Apple
+  - EU
+  - DMA
+  - Browser Engine
+author: OWA
+permalink: /es/blog/apples-browser-engine-ban-persists-even-under-the-dma/index.html
+layout: layouts/post.njk
+translated: false
 ---
 
 **TL;DR: Apple's rules and technical restrictions are blocking other browser vendors from successfully offering their own engines to users in the EU.**
@@ -29,7 +37,7 @@ Our primary concern is [Apple's rule banning third-party browser engines from iO
 
 We engaged extensively with the UK's CMA and the EU on this topic and to our delight specific text was added to the EU's Digital Markets Act **explicitly prohibiting the banning of third-party browser engines,** and stating that the purpose was to prevent gatekeepers from determining the performance, stability and functionality of third-party browsers **and the web apps they power**.
 
-The first batch of designated gatekeepers Apple, Google, Meta, Amazon, ByteDance, Microsoft **were required to be in compliance with the DMA by March 7th, 2024.**
+The first batch of designated gatekeepers Apple, Google, Meta, Amazon, Bytedance, Microsoft **were required to be in compliance with the DMA by March 7th, 2024.**
 
 Apple's compliance did not start well. Faced with the genuine possibility of third-party browsers effectively powering web apps, [Apple's first instinct was to remove web app support entirely from iOS](https://open-web-advocacy.org/blog/its-official-apple-kills-web-apps-in-the-eu/) with no notice to either businesses or consumers. Under significant pressure from us and the Commission, [Apple canceled their plan to sabotage web apps in the EU](https://open-web-advocacy.org/blog/apple-backs-off-killing-web-apps/).
 

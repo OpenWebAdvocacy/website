@@ -38,11 +38,11 @@ issues with their jobs or businesses.</p>
         <p>{{ person.what | safe }}</p>
       </div>
       <p class="social">
-        {% if person.github %}<a href="https://github.com/{{ person.github }}">Github</a>{% endif %}
+        {% if person.github %}<a href="https://github.com/{{ person.github }}">GitHub</a>{% endif %}
         {% if person.mastodon and person.github %} / {% endif %}
         {% if person.mastodon %}<a href="{{ person.mastodon }}">Mastodon</a>{% endif %}
         {% if person.twitter and (person.github or person.mastodon) %} / {% endif %}
-        {% if person.twitter %}<a href="https://twitter.com/{{ person.twitter }}">Twitter</a>{% endif %}
+        {% if person.twitter %}<a href="https://twitter.com/{{ person.twitter }}">X/Twitter</a>{% endif %}
         {% if person.linkedIn and (person.github or person.mastodon or person.twitter) %} / {% endif %}
         {% if person.linkedIn %}<a href="{{ person.linkedIn }}">LinkedIn</a>{% endif %}
         {% if person.email and (person.github or person.mastodon or person.twitter or person.linkedIn) %} / {% endif %}
@@ -63,5 +63,5 @@ issues with their jobs or businesses.</p>
 <p>If you would like to support/contribute you can <a href="{{'/donate' | locale_url}}">donate</a> or join our community on
   <a href="https://discord.com/invite/x53hkqrRKx">Discord</a> to get more deeply involved. Can't spare the
   cash or time? Keep up with what we're up to and help spread the word by following us on
-  <a href="https://twitter.com/OpenWebAdvocacy">Twitter</a> and/or <a href="https://mastodon.social/@owa">Mastodon</a>
+  <a href="https://twitter.com/OpenWebAdvocacy">X/Twitter</a>, <a href="https://mastodon.social/@owa">Mastodon</a> or <a href='https://bsky.app/profile/open-web-advocacy.org'>Bluesky</a>
   .</p>

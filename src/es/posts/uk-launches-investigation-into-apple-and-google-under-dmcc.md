@@ -62,7 +62,7 @@ Stay tuned as Open Web Advocacy takes a closer look and shares deeper insights o
 - **Email:**        [contactus@open-web-advocacy.org](mailto:contactus@open-web-advocacy.org)
 - **Mastodon:**      [@OpenWebAdvocacy](https://mastodon.social/@owa)
 - **Discord:**      [OpenWebAdvocacy](https://discord.gg/x53hkqrRKx)
-- **BlueSky:**      [open-web-advocacy.org](https://bsky.app/profile/open-web-advocacy.org)
+- **Bluesky:**      [open-web-advocacy.org](https://bsky.app/profile/open-web-advocacy.org)
 - **LinkedIn:**     [open-web-advocacy](https://www.linkedin.com/company/open-web-advocacy/)
 - **Twitter:**      [@OpenWebAdvocacy](https://twitter.com/OpenWebAdvocacy)
 - **Web:**         [https://open-web-advocacy.org](https://open-web-advocacy.org)

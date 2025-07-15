@@ -22,7 +22,7 @@ Last year was incredibly busy, and together with you, we have made real tangible
 
 If there’s one key takeaway from 2024, it’s this: **advocacy works**. When those who love what makes the web amazing come together, we can achieve wonders\!
 
-Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1876900921960960297), [Mastodon](https://mastodon.social/@owa/113791667242496427), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_owas-2024-in-reviewa-huge-and-special-activity-7282666880304062464-VVYf) and [BlueSky](https://bsky.app/profile/open-web-advocacy.org/post/3lf7ovnto4s27).
+Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1876900921960960297), [Mastodon](https://mastodon.social/@owa/113791667242496427), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_owas-2024-in-reviewa-huge-and-special-activity-7282666880304062464-VVYf) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3lf7ovnto4s27).
 
 ## Who is Open Web Advocacy?
 

@@ -125,7 +125,7 @@ Apple’s defenders might have been able to argue that [a history of inadequate 
 Apple looks to be taking active and provocative steps to scuttle Web Apps and to prevent other browsers from providing them. This suggests that Apple is still fearful of a future where users and developers can simply bypass Apple’s App Store using the power of the Web. OWA welcomes that future and will continue to work to ensure it becomes reality, in Europe and beyond -- just as Steve Jobs promised.
 
 <div class="prom-banner" style="max-width: 30em;">
-    <p class"illustration"><img src="/images/donate.svg" alt="" /></p>
+    <p class="x-illustration"><img src="/images/donate.svg" alt="" /></p>
     <p><strong>If you ship a Web App in the EU and will be impacted by this, please sign our open letter to Tim Cook.</strong> It is critical that we gather as much evidence as possible to prevent Apple from breaking Web Apps in the EU.</p>
 
     <div>

@@ -24,8 +24,12 @@ import language from './src/filters/language.js';
 import w3DateFilter from './src/filters/w3-date-filter.js';
 
 // Shortcodes
+import cssInlineShortcode from './src/shortcodes/cssInline.js';
 import imageShortcode from './src/shortcodes/image.js';
 import imageInlineShortcode from './src/shortcodes/imageInline.js';
+
+// Transforms
+import htmlminTransform from './src/transforms/htmlminTransform.js';
 
 // Utils
 import groupEntriesByYear from './src/utils/group-entries-by-year.js';
@@ -46,6 +50,7 @@ export default config => {
   });
 
   // Add shortcodes
+  config.addNunjucksAsyncShortcode('cssInline', cssInlineShortcode());
   config.addNunjucksAsyncShortcode('image', imageShortcode);
   config.addNunjucksAsyncShortcode('imageInline', imageInlineShortcode);
 
@@ -81,6 +86,12 @@ export default config => {
     previewDir: 'images/og/preview/',
     shortcodeOutput: async ogImage => ogImage.outputUrl(),
   });
+
+  // Transforms
+  config.addTransform('htmlmin', htmlminTransform({
+    collapseWhitespace: true,
+    useShortDoctype: true,
+  }));
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {

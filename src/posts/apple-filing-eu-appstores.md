@@ -7,7 +7,8 @@ author: "Frances Berriman"
 
 {% image
   "/images/blog/apple-appstore-filing-img.webp",
-  "Apple will be allowed to continue not offering alternative browsers to their users via the default mechanism those users get apps - Open Web Advocacy"
+  "Apple will be allowed to continue not offering alternative browsers to their users via the default mechanism those users get apps - Open Web Advocacy",
+  { loading: 'eager' }
 %}
 
 We’ve previously covered filings from Apple [claiming Safari is actually 3 browsers](https://www.macrumors.com/2023/11/04/apple-argued-safari-is-three-different-browsers) and that [iPadOS shouldn’t be regulated under the DMA](https://open-web-advocacy.org/blog/owa-eu-dma-submission-apple-ipados/) at all, which are arguments that have not held much water in our minds. But on Monday the EU published Apple's November filing, so we’ve been [able to see a bit more about what they’re requesting](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202400563). 

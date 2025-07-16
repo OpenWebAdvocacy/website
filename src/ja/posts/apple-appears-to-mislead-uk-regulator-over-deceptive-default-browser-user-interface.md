@@ -13,6 +13,7 @@ permalink: >-
   /ja/blog/apple-appears-to-mislead-uk-regulator-over-deceptive-default-browser-user-interface/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 TLDR: Apple seems to have tried to mislead the UK regulator that a deceptive pattern they had previously implemented for picking default browsers, in fact, never existed.

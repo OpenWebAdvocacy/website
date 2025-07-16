@@ -9,6 +9,7 @@ author: Frances Berriman
 permalink: /ja/blog/apple-filing-eu-appstores/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 {% image

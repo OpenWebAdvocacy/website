@@ -22,7 +22,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-cache-assets": "^2.3.0",
-    "@11ty/eleventy-img": "^5.0.0",
+    "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@sardine/eleventy-plugin-external-links": "^1.4.0",
     "eleventy-plugin-og-image": "^4.0.1",

@@ -121,8 +121,7 @@ Reacting to a post on “Google may be forced to sell the Chrome browser to brea
 <figure>
    {% image
       "/images/blog/google-monoperation-game.jpg",
-      "A \"game\" board that looks like the game Operation, but instead of pieces of internal anatomy there are logos for chrome, gmail, ads, adsense, android and on the board it says \"Monoperation: Skill game where you are the DOJ\" and the person is removing chrome, and a buzzer is going off",
-      null, null
+      "A \"game\" board that looks like the game Operation, but instead of pieces of internal anatomy there are logos for chrome, gmail, ads, adsense, android and on the board it says \"Monoperation: Skill game where you are the DOJ\" and the person is removing chrome, and a buzzer is going off"
    %}
 </figure>
 

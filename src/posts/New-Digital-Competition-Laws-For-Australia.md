@@ -7,7 +7,8 @@ author: "Alex Moore"
 
 {% image
   "/images/blog/NewDigitalLawsAustralia.webp",
-  "Australia - New Laws for Digital Platforms. In-principle agreement reached. The code of conduct for mobile OS services could require Designated Digital Platforms to allow third-party browser engines to be used on their mobile OS. This could allow third-party providers of browsers and web apps to compete on their merits. We also consider that the additional competition measures should include the ability to provide third-party providers of apps and services with reasonable and equivalent access to hardware, software and functionality through their mobile OS. ACCC - Digital Platform Services Inquiry #5"
+  "Australia - New Laws for Digital Platforms. In-principle agreement reached. The code of conduct for mobile OS services could require Designated Digital Platforms to allow third-party browser engines to be used on their mobile OS. This could allow third-party providers of browsers and web apps to compete on their merits. We also consider that the additional competition measures should include the ability to provide third-party providers of apps and services with reasonable and equivalent access to hardware, software and functionality through their mobile OS. ACCC - Digital Platform Services Inquiry #5",
+  { loading: 'eager' }
 %}
 
 The Australian government has agreed to [new competition laws for digital platforms](https://www.accc.gov.au/media-release/consumers-and-small-businesses-to-benefit-from-proposed-new-regulation-of-digital-platforms)!

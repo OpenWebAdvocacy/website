@@ -19,8 +19,11 @@ function imageShortcode( _defaults={} ) {
     alt: null,
     loading: 'lazy',
     formats: [ IS_PROD && 'avif', 'webp', 'jpg' ].filter( Boolean ),
-    widths: [ 800 ],
-    sizes: [ '100vw' ],
+    widths: [ 1280, 800 ],
+    sizes: [
+      '(min-width: 1000px) 72vw',
+      '100vw'
+    ],
     transparent: false,
     ..._defaults
   };

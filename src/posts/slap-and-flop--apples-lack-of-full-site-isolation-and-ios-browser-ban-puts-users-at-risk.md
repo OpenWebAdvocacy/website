@@ -28,8 +28,7 @@ In their example in the paper, confidential email subject lines from Gmail can b
 <figure>
     {% image
         "/images/blog/slap.png",
-        "Example of extracting GMAIL email titles.",
-        null, null
+        "Example of extracting GMAIL email titles."
     %}
     <figcaption>SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon - Figure 17</figcaption>
 </figure>
@@ -78,8 +77,7 @@ While Safari has some level of process isolation, it lacks full site isolation a
 <figure>
     {% image
         "/images/blog/slap-devices.png",
-        "Chart of chips impacted by SLAP. In the chart M1 is not affected but M2 and M3 are. In the second part of the chart iPhone 11, 12 and 13 are not affected but iPhone 13 Mini, iPhone 14, iPhone 15 and iPad Pro 7th Gen are.",
-        null, null
+        "Chart of chips impacted by SLAP. In the chart M1 is not affected but M2 and M3 are. In the second part of the chart iPhone 11, 12 and 13 are not affected but iPhone 13 Mini, iPhone 14, iPhone 15 and iPad Pro 7th Gen are."
     %}
     <figcaption>Chips impacted by SLAP</figcaption>
 </figure>
@@ -87,8 +85,7 @@ While Safari has some level of process isolation, it lacks full site isolation a
 <figure>
     {% image
         "/images/blog/flop-devices.png",
-        "Chart of chips impacted by FLOP. In the chart M2 is not affected by M3 and M4 are. In the second part of the chart A15 Bionic and A16 Bionic are not affected but A17 is.",
-        null, null
+        "Chart of chips impacted by FLOP. In the chart M2 is not affected by M3 and M4 are. In the second part of the chart A15 Bionic and A16 Bionic are not affected but A17 is."
     %}
     <figcaption>Chips impacted by FLOP</figcaption>
 </figure>

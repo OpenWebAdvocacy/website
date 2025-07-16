@@ -84,9 +84,10 @@ For those wanting more details about the Apple-Google Search deal (ISA), worth $
     {% image
         "/images/blog/isa-mir-report.png",
         "Screenshot of a report. It states 'In relation to Apple's submission we note that', followed by 3 redacted dotpoints. Then it states 'In relation to Google's submission we note that', followed by 3 redacted dotpoints.",
-        null, null,
-        [500],
-        "500px"
+        {
+          widths: [ 500 ],
+          sizes: '500px'
+        }
     %}
     <figcaption>Screenshot of section of MIR Final Report on the Apple-Google Search Deal</figcaption>
 </figure>

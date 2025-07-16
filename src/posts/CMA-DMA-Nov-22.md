@@ -13,7 +13,10 @@ We've had encouraging success at putting browser engines on the regulators' agen
 
 Many web developers don't realise this, which is why we made this meme:
 
-{% image "/images/blog/apple-browser-ban.webp", "Fred from Scooby Doo with a masked figure and text 'Firefox on iPhone'. Fred removes the mask to reveal the villain headed 'Apple's Safari'. Then the same with Edge on iPhone and Chrome on iPhone." %}
+{% image 
+  "/images/blog/apple-browser-ban.webp", 
+  "Fred from Scooby Doo with a masked figure and text 'Firefox on iPhone'. Fred removes the mask to reveal the villain headed 'Apple's Safari'. Then the same with Edge on iPhone and Chrome on iPhone."
+%}
 
 So we're thrilled that, after we met with those drafting the EU rules, the final text of the [Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R1925&from=EN) (DMA), browser engines are explicitly referenced:
 

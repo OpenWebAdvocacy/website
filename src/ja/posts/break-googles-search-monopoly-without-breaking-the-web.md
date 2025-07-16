@@ -12,6 +12,7 @@ twitterImage: /images/blog/www-shatering-twitter.webp
 permalink: /ja/blog/break-googles-search-monopoly-without-breaking-the-web/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 **Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1915027899264205182), [Mastodon](https://mastodon.social/@owa/114387432385613913

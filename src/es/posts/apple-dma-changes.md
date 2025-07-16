@@ -16,6 +16,7 @@ relatedLinks:
 permalink: /es/blog/apple-dma-changes/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 The #AppleBrowserBan Ends in the EU!

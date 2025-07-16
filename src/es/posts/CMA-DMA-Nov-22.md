@@ -10,6 +10,7 @@ author: Bruce Lawson
 permalink: /es/blog/CMA-DMA-Nov-22/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 Howdy, [Bruce](https://brucelawson.co.uk) here, with an update on progress we've made in both the EU and with the UK's competition regulator, the Competition and Markets Authority (CMA).

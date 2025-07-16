@@ -12,6 +12,7 @@ permalink: >-
   /ja/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 The UK's Mobile Browsers and Cloud Gaming Market Investigation Reference (MIR) has published its [final report](https://assets.publishing.service.gov.uk/media/67d1abd1a005e6f9841a1d94/Final_decision_report1.pdf). **The conclusion is clear: Apple’s “WebKit restriction”, which forces all browsers on iOS to use Apple’s engine, harms competition, stifles innovation and functionality, particularly for Web Apps.**

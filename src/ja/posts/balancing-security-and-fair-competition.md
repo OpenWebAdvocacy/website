@@ -7,6 +7,7 @@ permalink: >-
   /ja/blog/balancing-security-and-fair-competition/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 Regulators around the world are working to address competition issues in digital markets, particularly on mobile devices. Several new laws have already been passed, including the [UK’s Digital Markets, Competition and Consumers Act](https://open-web-advocacy.org/blog/uk-launches-investigation-into-apple-and-google-under-dmcc/) (DMCC), [Japan’s Smartphone Act](https://open-web-advocacy.org/blog/japan-ends-the-apple-browser-ban/), and the [EU’s Digital Markets Act](https://open-web-advocacy.org/blog/the-digital-markets-act-is-in-force-what-happens-now/) (DMA). [Australia](https://open-web-advocacy.org/blog/owa-2024-review/#australia) and the [United States are also considering similar legislation](https://cammack.house.gov/sites/evo-subsites/cammack.house.gov/files/evo-media-document/app-store-freedom-119.pdf) with the [U.S. Department of Justice pursuing an antitrust case against Apple](https://open-web-advocacy.org/blog/us-doj-files-apple-antitrust-case/). Across all of these efforts, common questions arise: How should competition, user choice, and utility be balanced against security concerns? What is proportionate and necessary in relation to security? And how effective is app store review in practice?

@@ -49,6 +49,7 @@ function imageShortcode( _defaults={} ) {
 
     const { inputPath } = this.page;
     const { input, output } = this.eleventy.directories;
+    const { imageShortcodeIgnoreLegacy } = this.ctx;
 
     // Legacy options
     if (!isObject( options )) {
@@ -58,10 +59,12 @@ function imageShortcode( _defaults={} ) {
         widths: rest.at( 1 ),
         sizes: rest.at( 2 ),
       }, Boolean );
-      console.warn(`WARN: {% image %} options param is not an object (legacy mode).`);
-      console.warn(` -> File: ${ inputPath }`);
-      console.warn(` -> Image: ${ src }`);
-      console.warn(' -> Converted to:', options );
+      if ( !imageShortcodeIgnoreLegacy ) {
+        console.warn(`WARN: {% image %} options param is not an object (legacy mode).`);
+        console.warn(` -> File: ${ inputPath }`);
+        console.warn(` -> Image: ${ src }`);
+        console.warn(' -> Converted to:', options );
+      }
     }
 
     let { className, alt, loading, formats, widths, sizes, transparent, ...attrs } = { ...defaults, ...options };

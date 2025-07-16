@@ -10,12 +10,11 @@ twitterImage: "/images/blog/www-shatering-twitter.webp"
 **Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1915027899264205182), [Mastodon](https://mastodon.social/@owa/114387432385613913
 ), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_new-the-doj-wants-to-break-up-chrome-activity-7320794137350352899-r47S) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3lniarvlik22l).**
 
-<div class="small">
-   {% image
-   "/images/blog/www-shatering.jpeg",
-   "Picture of the WWW logo shattering."
-   %}
-</div>
+{% image
+  "/images/blog/www-shatering-twitter.webp",
+  "Picture of the WWW logo shattering.",
+  { loading: 'eager' }
+%}
 
 <p><strong style="color: var(--main-color)">Web platform (noun): The technology and tools that let websites and web apps work in your browser.</strong><p>
 
@@ -816,8 +815,7 @@ Google recently published a graph showing Chromium’s committed contributions b
 <figure>
    {% image
       "/images/blog/google_doj_1.png",
-      "Graph of commits other various vendors to Chromium.",
-      null, null
+      "Graph of commits other various vendors to Chromium."
    %}
    <figcaption>Commits in Chromium.</figcaption>
 </figure>
@@ -922,8 +920,7 @@ This list is far from exhaustive; it simply highlights the surprisingly broad, v
 <figure>
    {% image
       "/images/blog/google_doj_2.png",
-      "Logos of various Chromium browsers.",
-      null, null
+      "Logos of various Chromium browsers."
    %}
 </figure>
 
@@ -939,8 +936,7 @@ Hard-forking, where a party duplicates the project’s current code and assumes 
    <figure>
       {% image
          "/images/blog/google_doj_3.png",
-         "Logos of Firefox and Safari.",
-         null, null
+         "Logos of Firefox and Safari."
       %}
    </figure>
 </div>
@@ -956,8 +952,7 @@ Ideally, Mozilla and Apple would take on more of this exploratory development, b
 <figure>
    {% image
       "/images/blog/google_doj_4.png",
-      "Chromium running on SpaceX Dragon spacecraft.",
-      null, null
+      "Chromium running on SpaceX Dragon spacecraft."
    %}
 </figure>
 
@@ -968,8 +963,7 @@ SpaceX uses Chromium for the touchscreen interfaces in its Dragon spacecraft, a 
 <figure>
    {% image
       "/images/blog/google_doj_5.png",
-      "Chromium running on Bloomberg Terminals.",
-      null, null
+      "Chromium running on Bloomberg Terminals."
    %}
 </figure>
 
@@ -982,8 +976,7 @@ Bloomberg terminals are among the most relied-upon systems in global finance, us
 <figure>
    {% image
       "/images/blog/google_doj_6.png",
-      "LG’s WebOS",
-      null, null
+      "LG’s WebOS"
    %}
    <figcaption>LG’s WebOS</figcaption>
 </figure>
@@ -994,8 +987,7 @@ As of 2021, over 20 brands had adopted webOS for their smart TVs. By 2022, this 
 <figure>
    {% image
       "/images/blog/google_doj_7.png",
-      "Logos of various brands using webOS.",
-      null, null
+      "Logos of various brands using webOS."
    %}
 </figure>
 
@@ -1005,8 +997,7 @@ A vast number of applications that might be considered "native" are actually bui
 <figure>
    {% image
       "/images/blog/google_doj_8.png",
-      "Microsoft Teams",
-      null, null
+      "Microsoft Teams"
    %}
    <figcaption>Microsoft Teams</figcaption>
 </figure>
@@ -1014,8 +1005,7 @@ A vast number of applications that might be considered "native" are actually bui
 <figure>
    {% image
       "/images/blog/google_doj_9.png",
-      "Visual Studio Code",
-      null, null
+      "Visual Studio Code"
    %}
    <figcaption>Visual Studio Code</figcaption>
 </figure>
@@ -1023,8 +1013,7 @@ A vast number of applications that might be considered "native" are actually bui
 <figure>
    {% image
       "/images/blog/google_doj_10.png",
-      "Figma",
-      null, null
+      "Figma"
    %}
    <figcaption>Figma</figcaption>
 </figure>
@@ -1064,8 +1053,7 @@ And many more. While these apps appear to be native desktop applications, they a
 <figure class="small">
    {% image
       "/images/blog/google_doj_11.png",
-      "V8 logo",
-      null, null
+      "V8 logo"
    %}
 </figure>
 
@@ -1090,8 +1078,7 @@ V8 is particularly favored for handling high-demand, high-traffic applications a
 <figure class="small">
    {% image
       "/images/blog/google_doj_12.png",
-      "WebRTC logo",
-      null, null
+      "WebRTC logo"
    %}
 </figure>
 
@@ -1128,8 +1115,7 @@ WebRTC, originally based on technologies from GIPS and On2 Technologies (both ac
 <figure class="small">
    {% image
       "/images/blog/google_doj_13.png",
-      "Skia and Dawn logos",
-      null, null
+      "Skia and Dawn logos"
    %}
 </figure>
 
@@ -1144,8 +1130,7 @@ Together, Skia and Dawn power critical graphics rendering in Chromium-based brow
 <figure class="small">
    {% image
       "/images/blog/google_doj_14.png",
-      "AV1, VP9, and WebP logos",
-      null, null
+      "AV1, VP9, and WebP logos"
    %}
 </figure>
 
@@ -1554,8 +1539,7 @@ iOS has a 28.7%  operating system share and macOS has a 11.2% operating system s
 <figure class="equation">
    {% image
       "/images/blog/google_doj_15.png",
-      "= Mobile Searches\Desktop Searches = 64%/35% = 1.82",
-      null, null
+      "= Mobile Searches\Desktop Searches = 64%/35% = 1.82"
    %}
 </figure>
 
@@ -1564,8 +1548,7 @@ iOS has a 28.7%  operating system share and macOS has a 11.2% operating system s
 <figure class="equation">
    {% image
       "/images/blog/google_doj_16.png",
-      "= (iOS Share * Ratio)/(iOS Share * Ratio + macOS Share) = (28.7% * 1.82)/(28.7% * 1.82 + 11.2%) = 82%",
-      null, null
+      "= (iOS Share * Ratio)/(iOS Share * Ratio + macOS Share) = (28.7% * 1.82)/(28.7% * 1.82 + 11.2%) = 82%"
    %}
 </figure>
 
@@ -1574,8 +1557,7 @@ iOS has a 28.7%  operating system share and macOS has a 11.2% operating system s
 <figure class="equation">
    {% image
       "/images/blog/google_doj_17.png",
-      "= 100% - iOS Share of Google Searches on Apple Devices = 100% - 82% = 18%",
-      null, null
+      "= 100% - iOS Share of Google Searches on Apple Devices = 100% - 82% = 18%"
    %}
 </figure>
 
@@ -1589,8 +1571,7 @@ The Google Search App is not available on macOS, so the entirety of this is on i
 <figure class="equation">
    {% image
       "/images/blog/google_doj_18.png",
-      "= (Google Search App share of Google Searches on Apple Devices)/(iOS share of Google Searches on Apple Devices) = 10/82% = 12.2%",
-      null, null
+      "= (Google Search App share of Google Searches on Apple Devices)/(iOS share of Google Searches on Apple Devices) = 10/82% = 12.2%"
    %}
 </figure>
 
@@ -1606,8 +1587,7 @@ The sources of traffic are Safari, Spotlight and Siri, Chrome, Google Search App
 <figure class="equation">
    {% image
       "/images/blog/google_doj_19.png",
-      "x + x/5.3 + x/8 + x/37.3 = 100 - 12.2\n(1 + 1/5.3 + 1/8 + 1/37.3)x = 87.8\nx = 87.8/1.34 \nx = 65.5%",
-      null, null
+      "x + x/5.3 + x/8 + x/37.3 = 100 - 12.2\n(1 + 1/5.3 + 1/8 + 1/37.3)x = 87.8\nx = 87.8/1.34 \nx = 65.5%"
    %}
 </figure>
 
@@ -1630,8 +1610,7 @@ Note: that while Spotlight and Siri can show results that link directly to a thi
 <figure class="equation">
    {% image
       "/images/blog/google_doj_20.png",
-      "= (iOS Google Search Percentage Affected by Changing Default) * (% of Apple Google Searches on iOS}) + (macOS Google Search Percentage Affected by Changing Default * % of Apple Google Searches on macOS) = 73.7% * 82% + 37.8% * 18% = 67.1%",
-      null, null
+      "= (iOS Google Search Percentage Affected by Changing Default) * (% of Apple Google Searches on iOS) + (macOS Google Search Percentage Affected by Changing Default * % of Apple Google Searches on macOS) = 73.7% * 82% + 37.8% * 18% = 67.1%"
    %}
 </figure>
 
@@ -1892,8 +1871,7 @@ Google subsequently updated and created a new agreement for Europe called the Eu
 <figure>
    {% image
       "/images/blog/google_doj_21.png",
-      "Diagram of contracts in EMADA",
-      null, null
+      "Diagram of contracts in EMADA"
    %}
    <figcaption>UK - CMA - Mobile Ecosystems Investigation</figcaption>
 </figure>
@@ -2155,8 +2133,7 @@ Where **X** is the browser's share of the total browser market.
 <figure>
    {% image
       "/images/blog/google_doj_22.png",
-      "Diagram showing the overall revenue of the browser and the share it can sell to Google.",
-      null, null
+      "Diagram showing the overall revenue of the browser and the share it can sell to Google."
    %}
 </figure>
 

@@ -10,6 +10,7 @@ permalink: >-
   /ja/blog/ios-age-restriction-blocks-all-browsers-except-safari-breaks-choice-screen/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 **Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1857393321922162818), [Mastodon](https://mastodon.social/@owa/113486859647211896

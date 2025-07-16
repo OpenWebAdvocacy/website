@@ -13,6 +13,7 @@ permalink: >-
   /ja/blog/industry-voices-caution-against-dojs-plan-to-force-sale-of-chrome/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 **Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1917930227101323740), [Mastodon](https://mastodon.social/@owa/114432795142977559), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_industry-voices-caution-against-dojs-plan-activity-7323697951413829632-KIvz) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3lo4feipk2k2x).**

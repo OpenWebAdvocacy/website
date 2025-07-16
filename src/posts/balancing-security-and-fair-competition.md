@@ -340,8 +340,7 @@ Lasspass was a password app masquerading as Lastpass on Apple’s iOS App Store.
 <figure>
    {% image
       "/images/blog/security_image1.png",
-      "App Store page for Lass Pass, copies all the colors and styling for popular password manager Last Pass.",
-      null, null
+      "App Store page for Lass Pass, copies all the colors and styling for popular password manager Last Pass."
    %}
    <figcaption>App Store page for Lass Pass.</figcaption>
 </figure>
@@ -528,8 +527,7 @@ Safari updates are tied to the operating system, an antiquated practice. This me
 <figure>
    {% image
       "/images/blog/security_image2.png",
-      "Graph showing number of days from a vulnerability being patched till that patch is actually shipped to consumers for Gecko, WebKit and Blink. WebKit is clearly the slowest in the graph.",
-      null, null
+      "Graph showing number of days from a vulnerability being patched till that patch is actually shipped to consumers for Gecko, WebKit and Blink. WebKit is clearly the slowest in the graph."
    %}
    <figcaption>Google Project Zero - Statistics on Patch Gap.</figcaption>
 </figure>
@@ -706,8 +704,7 @@ Part of the issue that allows such scams to thrive isn’t just that app review 
 <figure>
    {% image
       "/images/blog/security_image3.png",
-      "Internal Apple slide discussing how hard to cancel subscriptions. Suggests auto-cancelling subscriptions when app is deleted, having a less than six step process and having subscription appear in search.",
-      null, null
+      "Internal Apple slide discussing how hard to cancel subscriptions. Suggests auto-cancelling subscriptions when app is deleted, having a less than six step process and having subscription appear in search."
    %}
    <figcaption>Internal Apple slide discussing how hard it is to cancel subscriptions.</figcaption>
 </figure>
@@ -793,8 +790,7 @@ Many companies used this misfeature to [track users' locations without their con
 <figure>
    {% image
       "/images/blog/security_image4.png",
-      "Prompt to enable bluetooth for an app.",
-      null, null
+      "Prompt to enable bluetooth for an app."
    %}
    <figcaption>Prompt to enable bluetooth for an app.</figcaption>
 </figure>
@@ -828,8 +824,7 @@ Up until iOS 10 (2016) there was no way for users to disable AdID. Since iOS 14 
 <figure>
    {% image
       "/images/blog/security_image5.png",
-      "Prompt to enable tracking for an app. Reads: Pal About would like permission to track you accross apps and websites owned by other companies. Your data will be used to deliver personalized ads to you. Then two buttons: 'Allow Tracking' and 'Ask App not to Track'.",
-      null, null
+      "Prompt to enable tracking for an app. Reads: Pal About would like permission to track you accross apps and websites owned by other companies. Your data will be used to deliver personalized ads to you. Then two buttons: 'Allow Tracking' and 'Ask App not to Track'."
    %}
    <figcaption>Prompt to enable tracking for app.</figcaption>
 </figure>
@@ -931,8 +926,7 @@ Fleeceware appears to be significantly more prevalent on app stores than the web
 <figure>
    {% image
       "/images/blog/security_image6.png",
-      "Full page advert on internet reading 'Your phone has been severely damaged by 19 viruses.",
-      null, null
+      "Full page advert on internet reading 'Your phone has been severely damaged by 19 viruses."
    %}
    <figcaption>Fake virus scam advert in Safari linking to fleeceware on the iOS App Store.</figcaption>
 </figure>
@@ -950,8 +944,7 @@ There are a number of good reasons for this:
 <figure>
    {% image
       "/images/blog/security_image7.png",
-      "A list of fleeceware apps with install counts ranging from 1000 to 10 million. Each costs over a hundred UK pounds per a year.",
-      null, null
+      "A list of fleeceware apps with install counts ranging from 1000 to 10 million. Each costs over a hundred UK pounds per a year."
    %}
    <figcaption>Chart showing some signficant fleeceware apps.</figcaption>
 </figure>

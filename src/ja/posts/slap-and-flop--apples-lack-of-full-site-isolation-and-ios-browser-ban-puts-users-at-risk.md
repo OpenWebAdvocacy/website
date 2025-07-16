@@ -14,6 +14,7 @@ permalink: >-
   /ja/blog/slap-and-flop--apples-lack-of-full-site-isolation-and-ios-browser-ban-puts-users-at-risk/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 <strong>TL:DR; Yet again Apple’s ban on third-party browser engines weakens security

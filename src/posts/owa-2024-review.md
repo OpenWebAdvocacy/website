@@ -7,7 +7,8 @@ author: [ "Alex Moore" ]
 
 {% image
   "/images/blog/owa-2024-review.png",
-  "2024 in Review. We review everything for OWA in 2024 and what’s coming up! The whole team would like to thank everyone who joined us by volunteering or donating to fight for the future of the web! With big steps in 2024, we can’t wait to see what we can do together in 2025!"
+  "2024 in Review. We review everything for OWA in 2024 and what’s coming up! The whole team would like to thank everyone who joined us by volunteering or donating to fight for the future of the web! With big steps in 2024, we can’t wait to see what we can do together in 2025!",
+  { loading: 'eager' }
 %}
 
 As 2025 begins, it's a perfect moment to reflect on 2024’s developments, achievements, and what lies ahead regarding regulators, browsers, and web applications.
@@ -146,18 +147,15 @@ Earlier this year [we reported on a deceptive pattern](https://open-web-advocacy
 <figure>
     {% image
         "/images/blog/cma-browser-selection-1.png",
-        "Example of changing the browser on iOS when Safari is not the default.",
-        null, null
+        "Example of changing the browser on iOS when Safari is not the default."
     %}
     {% image
         "/images/blog/cma-browser-selection-2.png",
-        "Example of changing the browser on iOS when Safari is the default (the dropdown disappears).",
-        null, null
+        "Example of changing the browser on iOS when Safari is the default (the dropdown disappears)."
     %}
     {% image
         "/images/blog/cma-browser-selection-3.png",
-        "Larger example of changing the browser on iOS when Safari is the default (the dropdown disappears).",
-        null, null
+        "Larger example of changing the browser on iOS when Safari is the default (the dropdown disappears)."
     %}
     <figcaption>UK Regulator's Screenshots of the Issue - Working Paper 5</figcaption>
 </figure>

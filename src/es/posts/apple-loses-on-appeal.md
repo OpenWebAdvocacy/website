@@ -9,6 +9,7 @@ author: Alex Moore
 permalink: /es/blog/apple-loses-on-appeal/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 {% image

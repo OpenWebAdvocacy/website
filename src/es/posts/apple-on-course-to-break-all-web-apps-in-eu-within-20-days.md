@@ -14,6 +14,7 @@ relatedLinks:
 permalink: /es/blog/apple-on-course-to-break-all-web-apps-in-eu-within-20-days/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 

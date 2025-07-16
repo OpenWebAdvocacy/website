@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { slugify } from 'rgjs7/uri';
 
 // Eleventy Plugins
-import {EleventyI18nPlugin} from '@11ty/eleventy';
+import { EleventyI18nPlugin } from '@11ty/eleventy';
 import rssPlugin from '@11ty/eleventy-plugin-rss';
 import externalLinksPlugin from '@sardine/eleventy-plugin-external-links';
 import tocPlugin from 'eleventy-plugin-toc';
@@ -29,7 +29,7 @@ import imageInlineShortcode from './src/shortcodes/imageInline.js';
 
 // Utils
 import groupEntriesByYear from './src/utils/group-entries-by-year.js';
-import {loadPageDetails} from './src/utils/page-details.js';
+import { loadPageDetails } from './src/utils/page-details.js';
 
 export default config => {
   // Add filters
@@ -116,6 +116,9 @@ export default config => {
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
+
+  // Pass through _copy
+  config.addPassthroughCopy({'./src/_copy': './'});
 
   // Pass through images
   config.addPassthroughCopy('./src/images');

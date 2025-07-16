@@ -38,8 +38,7 @@
     {# Add facility for pages to delare an array of critical styles #}
     {% if pageCriticalStyles %}
       {% for item in pageCriticalStyles %}
-        <style>
-          {% include item %}</style>
+        <style>{% include item %}</style>
       {% endfor %}
     {% endif %}
     {# Add facility for pages to declare an array of stylesheet paths #}
@@ -48,9 +47,10 @@
         <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="/css/vars.css"/>
-    <link rel="stylesheet" href="/css/main.css"/>
-    <link rel="stylesheet" href="/css/queries.css"/>
+    <link rel="stylesheet" href="/css/vars.css?{{ assetHash }}"/>
+    <link rel="stylesheet" href="/css/main.css?{{ assetHash }}"/>
+    <link rel="stylesheet" href="/css/queries.css?{{ assetHash }}"/>
+    <script type="module" src="/js/language-picker.js?{{ assetHash }}" defer></script>
   </head>
   <body>
     {% if isHome %}
@@ -77,6 +77,5 @@
     {% endif %}
     {% include "partials/site-footer.njk" %}
     {% include "partials/language-dialog.njk" %}
-    <script defer="" async="" type="module" src="/js/language-picker.js"></script>
   </body>
 </html>

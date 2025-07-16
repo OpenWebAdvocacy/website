@@ -46,7 +46,7 @@ export default config => {
   });
 
   // Add shortcodes
-  config.addNunjucksAsyncShortcode('image', imageShortcode);
+  config.addNunjucksAsyncShortcode('image', imageShortcode());
   config.addNunjucksAsyncShortcode('imageInline', imageInlineShortcode);
 
   // Plugins

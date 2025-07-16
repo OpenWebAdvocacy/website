@@ -237,8 +237,11 @@ Gary Davis (Senior Director Apple Legal) and Kyle Andeer (Vice President Apple L
 Kyle began by incorrectly asserting that the session was focused solely on browser choice screens and defaults, [despite the session being explicitly titled "Browsers"](https://digital-markets-act.ec.europa.eu/document/download/23098dd4-cdcb-4762-99ff-bcd6566762d8_en?filename=Agenda_DMA%20Enforcement%20Workshop_Apple_30%20June_2025.pdf). This appeared to suggest that our question on browser engines was somehow out of scope.
 
 <figure>
-    <img alt="The agenda for the workshop, the title of the session is browsers." src="/images/blog/workshop-agenda.png">
-    <figcaption>DMA Apple Workshop Agenda 2025</figcaption>
+  {% image
+    "/images/blog/workshop-agenda.png",
+    "The agenda for the workshop, the title of the session is browsers."
+  %}
+  <figcaption>DMA Apple Workshop Agenda 2025</figcaption>
 </figure>
 
 He acknowledged that under the DMA, Apple is now required to allow third-party browser engines on iOS. He then reiterated Apple's long standing talking points: that iOS was built from the ground up with security and privacy in mind, that WebKit is a core part of that design, and that any changes must preserve what Apple deems the "integrity" of the platform.

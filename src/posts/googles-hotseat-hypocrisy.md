@@ -7,7 +7,7 @@ author: "OWA"
 
 **TL;DR:** On iOS in the EU, selecting a third-party browser from the choice screen replaces Safari in the hotseat (dock), ensuring the user’s choice is respected. This change has already led to meaningful gains in market share; **Mozilla, for example, saw its daily active users double in France and Germany on iOS, where the hotseat change is implemented. DuckDuckGo’s findings suggest that replacing Safari in the hotseat boosted the iOS choice screen’s effectiveness by a factor of nine.** Yet Google refuses to make an equivalent change on Android, relying on an unreasonably narrow and, in our view, incorrect interpretation of the Digital Markets Act. **Even when users choose a different browser, Chrome remains prominently placed, undermining their decision and steering them back toward Google’s own product.**
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube-nocookie.com/embed/A4396RmGXIY?si=jFCoiYPZhgK4PIvo" frameborder='0' allowfullscreen title="OWA v Google - EC DMA 2025 - Google"></iframe></div>
+https://www.youtube.com/watch?v=A4396RmGXIY
 
 **Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1941030576280293521), [Mastodon](https://mastodon.social/@owa/114793703617793090), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_dma-browserchoice-android-activity-7346795332401250304-JX54) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3lt4pbiethc22).**
 

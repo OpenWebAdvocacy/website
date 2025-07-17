@@ -7,6 +7,7 @@ import { EleventyI18nPlugin } from '@11ty/eleventy';
 import rssPlugin from '@11ty/eleventy-plugin-rss';
 import externalLinksPlugin from '@sardine/eleventy-plugin-external-links';
 import tocPlugin from 'eleventy-plugin-toc';
+import embedYoutubePlugin from 'eleventy-plugin-youtube-embed';
 import ogImagePlugin from './src/plugins/ogImagePlugin.js';
 
 // Markdown Libraries
@@ -56,6 +57,10 @@ export default config => {
   config.addNunjucksAsyncShortcode('imageInline', imageInlineShortcode);
 
   // Plugins
+  config.addPlugin(EleventyI18nPlugin, {
+    defaultLanguage: 'en',
+    errorMode: 'allow-fallback'
+  });
   config.addPlugin(rssPlugin);
   config.addPlugin(externalLinksPlugin);
   config.addPlugin(tocPlugin, {
@@ -63,9 +68,13 @@ export default config => {
     ul: true,
     flat: false
   });
-  config.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: 'en',
-    errorMode: 'allow-fallback'
+  config.addPlugin(embedYoutubePlugin, {
+    lite: {
+      css: { inline: true, path: 'node_modules/lite-youtube-embed/src/lite-yt-embed.css', },
+      js: { inline: true, path: 'node_modules/lite-youtube-embed/src/lite-yt-embed.js', },
+      responsive: true,
+    },
+    titleOptions: { download: true },
   });
   config.addPlugin(ogImagePlugin, {
     satoriOptions: {

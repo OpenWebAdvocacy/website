@@ -89,7 +89,9 @@ export default config => {
   });
 
   // Transforms
-  config.addTransform('html', htmlTransform());
+  config.addTransform('html', htmlTransform({
+    inputDir: 'src',
+  }));
   config.addTransform('htmlmin', htmlminTransform({
     collapseWhitespace: true,
     useShortDoctype: true,

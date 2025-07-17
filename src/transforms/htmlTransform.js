@@ -35,6 +35,8 @@ function htmlTransform( _options={} ) {
 
   const options = assign(
     {
+      debug: false,
+      inputDir: 'src',
       anchors: {
         externalInNewWindow: true,
         setTitle: true,
@@ -48,7 +50,6 @@ function htmlTransform( _options={} ) {
         inlineSvgMaxSize: 8,
         setWidthHeight: true,
       },
-      debug: false,
     },
     _options
   );
@@ -131,7 +132,7 @@ function htmlTransform( _options={} ) {
       const isRemote = REGEX_HREF_EXTERNAL.test( src );
       const isSvg = REGEX_IS_SVG.test( src );
 
-      const path = !isRemote ? join( './dist', src ) : src;
+      const path = !isRemote ? join( options.inputDir, src ) : src;
 
       // // Check alt / title attrs
       // if ( !hasAltTitle ) {

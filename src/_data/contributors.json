@@ -1,334 +1,506 @@
 [
   {
     "name": "Alex Moore",
-    "countries": ["Australia🇦🇺", "UK🇬🇧"],
+    "countries": [
+      "Australia🇦🇺",
+      "UK🇬🇧"
+    ],
     "avatar": "alex-moore.jpg",
     "what": "<b>OWA Executive Director</b>, Web Developer, Small Business Owner",
-    "twitter": "mtomweb",
-    "mastodon": "https://mastodon.social/@mtomweb",
-    "email": "alex@open-web-advocacy.org",
-    "linkedIn": "https://au.linkedin.com/in/alexlmoore"
+    "links": {
+      "email": "mailto:alex@open-web-advocacy.org",
+      "mastodon": "https://mastodon.social/@mtomweb",
+      "x/twitter": "https://twitter.com/mtomweb",
+      "linkedin": "https://au.linkedin.com/in/alexlmoore"
+    }
   },
-
   {
     "name": "Feross Aboukhadijeh",
-    "website": "https://feross.org/",
-    "countries": ["USA🇺🇸"],
+    "countries": [
+      "USA🇺🇸"
+    ],
     "avatar": "feross-aboukhadije.jpg",
     "what": "Founder & CEO, <a href='https://socket.dev/'>Socket Security</a>, <a href='https://wormhole.app/'>Wormhole</a>, Visiting Lecturer, Stanford University",
-    "twitter": "feross"
+    "links": {
+      "website": "https://feross.org/",
+      "x/twitter": "https://twitter.com/feross"
+    }
   },
   {
     "name": "Thomas Allmer",
-    "website": "http://open-wc.org/",
-    "countries": ["Austria🇦🇹"],
+    "countries": [
+      "Austria🇦🇹"
+    ],
     "avatar": "thomas-allmer.jpg",
     "what": "Senior Web Application Developer, Web Components",
-    "twitter": "dakmor"
+    "links": {
+      "website": "http://open-wc.org/",
+      "x/twitter": "https://twitter.com/dakmor"
+    }
   },
   {
     "name": "Dion Almaer",
-    "website": "https://blog.almaer.com",
-    "countries": ["USA🇺🇸","UK🇬🇧"],
+    "countries": [
+      "USA🇺🇸",
+      "UK🇬🇧"
+    ],
     "avatar": "dion-almaer.jpg",
     "what": "#TeamWeb whether working at Google, Mozilla, or Shopify",
-    "twitter": "dalmaer",
-    "mastodon": "https://indieweb.social/@dalmaer"
+    "links": {
+      "website": "https://blog.almaer.com",
+      "mastodon": "https://indieweb.social/@dalmaer",
+      "x/twitter": "https://twitter.com/dalmaer"
+    }
   },
   {
     "name": "John Allsopp",
-    "website": "https://webdirections.org/",
-    "countries": ["Australia🇦🇺"],
+    "countries": [
+      "Australia🇦🇺"
+    ],
     "avatar": "john-allsopp.jpg",
     "what": "<a href='https://webdirections.org'>Web Directions</a> Conference Organizer, Author",
-    "mastodon": "https://indieweb.social/@johnallsopp",
-    "twitter": "johnallsopp"
+    "links": {
+      "website": "https://webdirections.org/",
+      "mastodon": "https://indieweb.social/@johnallsopp",
+      "x/twitter": "https://twitter.com/johnallsopp"
+    }
   },
   {
     "name": "Andy Bell",
-    "website": "https://andy-bell.co.uk/about/",
-    "countries": ["UK🇬🇧"],
+    "countries": [
+      "UK🇬🇧"
+    ],
     "avatar": "andy-bell.jpg",
     "what": "Designer, Front-End Developer, Agency Founder",
-    "mastodon": "https://mastodon.social/@hankchizljaw",
-    "twitter": "piccalilli_"
+    "links": {
+      "website": "https://andy-bell.co.uk/about/",
+      "mastodon": "https://mastodon.social/@hankchizljaw",
+      "x/twitter": "https://twitter.com/piccalilli_"
+    }
   },
   {
     "name": "Frances Berriman",
-    "website": "https://fberriman.com/about/",
-    "countries": ["UK🇬🇧", "USA🇺🇸"],
+    "countries": [
+      "UK🇬🇧",
+      "USA🇺🇸"
+    ],
     "avatar": "frances-berriman.jpg",
-    "what": "Artist, designer and technologist"
+    "what": "Artist, designer and technologist",
+    "links": {
+      "website": "https://fberriman.com/about/"
+    }
   },
   {
     "name": "Ashley Beshensky",
-    "countries": ["USA🇺🇸"],
+    "countries": [
+      "USA🇺🇸"
+    ],
     "avatar": "ashley-and-steven-beshensky.jpg",
-    "what": "Graphic Designer, OWA Logo"
+    "what": "Graphic Designer, OWA Logo",
+    "links": {}
   },
   {
     "name": "Steven Beshensky",
-    "countries": ["USA🇺🇸"],
+    "countries": [
+      "USA🇺🇸"
+    ],
     "avatar": "ashley-and-steven-beshensky.jpg",
     "what": "Web Developer",
-    "mastodon": "https://hachyderm.io/@sbesh",
-    "twitter": "sbesh91"
+    "links": {
+      "mastodon": "https://hachyderm.io/@sbesh",
+      "x/twitter": "https://twitter.com/sbesh91"
+    }
   },
   {
     "name": "Dan Brown",
-    "website": "https://danb.me/",
-    "countries": ["UK🇬🇧"],
+    "countries": [
+      "UK🇬🇧"
+    ],
     "avatar": "dan-brown.jpg",
     "what": "Full Stack Web Developer",
-    "mastodon": "https://fosstodon.org/@danb"
+    "links": {
+      "website": "https://danb.me/",
+      "mastodon": "https://fosstodon.org/@danb"
+    }
   },
   {
     "name": "Owen Buckley",
-    "website": "https://www.thegreenhouse.io/",
-    "countries": ["USA🇺🇸"],
+    "countries": [
+      "USA🇺🇸"
+    ],
     "avatar": "owen-buckley.jpg",
     "what": "Independent (Open Source) Software Developer, Speaker / Writer, and Entrepreneur",
-    "twitter": "thegreenhouseio",
-    "github": "thescientist13"
+    "links": {
+      "website": "https://www.thegreenhouse.io/",
+      "x/twitter": "https://twitter.com/thegreenhouseio",
+      "github": "https://github.com/thescientist13"
+    }
   },
   {
     "name": "Kushal Dave",
-    "website": "https://kushaldave.com",
-    "countries": ["USA🇺🇸"],
+    "countries": [
+      "USA🇺🇸"
+    ],
     "avatar": "kushal-dave.jpg",
     "what": "CTO / Engineer, Past: Scroll (acq Twitter), Foursquare, Google",
-    "twitter": "krave",
-    "mastodon": "https://mstdn.social/@krave"
+    "links": {
+      "website": "https://kushaldave.com",
+      "mastodon": "https://mstdn.social/@krave",
+      "x/twitter": "https://twitter.com/krave"
+    }
   },
   {
     "name": "Jesper van den Ende",
-    "website": "https://narrow.one",
-    "countries": ["Netherlands🇳🇱"],
+    "countries": [
+      "Netherlands🇳🇱"
+    ],
     "avatar": "jesper-van-den-ende.jpg",
     "what": "Game Developer, Developer of <a href='https://narrow.one'>narrow.one</a>",
-    "mastodon": "https://mastodon.social/@jespertheend",
-    "twitter": "Jespertheend"
+    "links": {
+      "website": "https://narrow.one",
+      "mastodon": "https://mastodon.social/@jespertheend",
+      "x/twitter": "https://twitter.com/Jespertheend"
+    }
   },
   {
     "name": "Maximiliano Firtman",
-    "website": "https://firt.dev/",
-    "countries": ["Argentina🇦🇷"],
+    "countries": [
+      "Argentina🇦🇷"
+    ],
     "avatar": "maximiliano-firtman.jpg",
     "what": "Web App Expert, Author, Trainer & Conference Speaker",
-    "twitter": "firt",
-    "mastodon": "https://mastodon.social/@firt"
+    "links": {
+      "website": "https://firt.dev/",
+      "mastodon": "https://mastodon.social/@firt",
+      "x/twitter": "https://twitter.com/firt"
+    }
   },
   {
     "name": "Roderick Gadellaa",
-    "countries": ["Netherlands🇳🇱"],
+    "countries": [
+      "Netherlands🇳🇱"
+    ],
     "avatar": "roderick-gadella.jpg",
     "what": "Designer, Front-End Developer, iOS Safari Expert",
-    "mastodon": "https://mastodon.social/@rgadellaa/",
-    "twitter": "RGadellaa"
+    "links": {
+      "website": "https://webventures.rejh.nl",
+      "mastodon": "https://mastodon.social/@rgadellaa/",
+      "x/twitter": "https://twitter.com/RGadellaa"
+    }
   },
   {
     "name": "Thomas Güttler",
-    "website": "https://thomas-guettler.de/",
-    "countries": ["Germany🇩🇪"],
+    "countries": [
+      "Germany🇩🇪"
+    ],
     "avatar": "thomas-güttler.jpg",
     "what": "Software Engineer",
-    "twitter": "guettli"
+    "links": {
+      "website": "https://thomas-guettler.de/",
+      "x/twitter": "https://twitter.com/guettli"
+    }
   },
   {
     "name": "Scott Jenson",
-    "countries": ["USA🇺🇸"],
+    "countries": [
+      "USA🇺🇸"
+    ],
     "avatar": "scott-jenson.jpg",
     "what": "UX Designer (Apple, Google, Symbian)",
-    "twitter": "scottjenson",
-    "mastodon": "https://social.coop/@scottjenson"
+    "links": {
+      "mastodon": "https://social.coop/@scottjenson",
+      "x/twitter": "https://twitter.com/scottjenson"
+    }
   },
   {
     "name": "Chris Lacy",
-    "countries": ["Australia🇦🇺"],
+    "countries": [
+      "Australia🇦🇺"
+    ],
     "avatar": "chris-lacy.jpg",
     "what": "<a href='https://time.com/35712/link-bubble-app-is-a-real-time-saver-for-android-users/'>Link Bubble</a> creator, Native and Web App Developer",
-    "twitter": "chrismlacy"
+    "links": {
+      "x/twitter": "https://twitter.com/chrismlacy"
+    }
   },
   {
     "name": "Stuart Langridge",
-    "countries": ["UK🇬🇧"],
-    "website": "https://www.kryogenix.org/",
+    "countries": [
+      "UK🇬🇧"
+    ],
     "avatar": "stuart-langridge.jpg",
     "what": "W3C Invited Expert, Mobile Web App Specialist, Consultant",
-    "mastodon": "https://mastodon.social/@sil/",
-    "twitter": "sil"
+    "links": {
+      "website": "https://www.kryogenix.org/",
+      "mastodon": "https://mastodon.social/@sil/",
+      "x/twitter": "https://twitter.com/sil"
+    }
   },
   {
     "name": "Bruce Lawson",
-    "countries": ["UK🇬🇧"],
-    "website": "https://brucelawson.co.uk/",
+    "countries": [
+      "UK🇬🇧"
+    ],
     "avatar": "bruce-lawson.jpg",
     "what": "W3C Invited Expert, Accessibility Expert, Ex-Deputy CTO of Opera Browser",
-    "mastodon": "https://social.vivaldi.net/@brucelawson",
-    "twitter": "brucel"
+    "links": {
+      "website": "https://brucelawson.co.uk/",
+      "mastodon": "https://social.vivaldi.net/@brucelawson",
+      "x/twitter": "https://twitter.com/brucel"
+    }
   },
   {
     "name": "Michaela Merz",
-    "website": "https://blog.michaelamerz.com/wordpress/",
-    "countries": ["USA🇺🇸","Germany🇩🇪", "Switzerland🇨🇭"],
+    "countries": [
+      "USA🇺🇸",
+      "Germany🇩🇪",
+      "Switzerland🇨🇭"
+    ],
     "avatar": "michaela-merz.jpg",
     "what": "Lead developer of <a href='https://packfrog.com'>Packfrog</a>",
-    "mastodon": "https://techhub.social/@mischmerz"
+    "links": {
+      "website": "https://blog.michaelamerz.com/wordpress/",
+      "mastodon": "https://techhub.social/@mischmerz"
+    }
   },
   {
     "name": "Danny Moerkerke",
-    "website": "https://www.dannymoerkerke.com/",
-    "countries": ["Netherlands🇳🇱"],
+    "countries": [
+      "Netherlands🇳🇱"
+    ],
     "avatar": "danny-moerkerke.jpg",
     "what": "PWA/Web Components Specialist, Creator of <a href='https://whatpwacando.today'>whatpwacando.today</a>",
-    "twitter": "dannymoerkerke"
+    "links": {
+      "website": "https://www.dannymoerkerke.com/",
+      "x/twitter": "https://twitter.com/dannymoerkerke"
+    }
   },
   {
     "name": "James Moore",
-    "countries": ["Australia🇦🇺", "UK🇬🇧"],
+    "countries": [
+      "Australia🇦🇺",
+      "UK🇬🇧"
+    ],
     "avatar": "james-moore.jpg",
     "what": "OWA Regulatory Submissions, Web App Developer",
-    "github": "jamesMooreOWA",
-    "email": "james@open-web-advocacy"
+    "links": {
+      "email": "mailto:james@open-web-advocacy",
+      "github": "https://github.com/jamesMooreOWA"
+    }
   },
   {
     "name": "Vincent Morneau",
-    "countries": ["Canada🇨🇦"],
+    "countries": [
+      "Canada🇨🇦"
+    ],
     "avatar": "vincent-morneau.jpg",
     "what": "Oracle, Principal Member of Technical Staff, Mobile and PWA Strategy Lead",
-    "twitter": "vincentmorneau"
+    "links": {
+      "x/twitter": "https://twitter.com/vincentmorneau"
+    }
   },
   {
     "name": "John Ozbay",
-    "website": "https://crypt.ee/",
-    "countries": ["Estonia🇪🇪", "Finland🇫🇮"],
+    "countries": [
+      "Estonia🇪🇪",
+      "Finland🇫🇮"
+    ],
     "avatar": "john-ozbay.jpg",
     "what": "Maker of weird things and Founder/CEO of Cryptee <a href='https://crypt.ee/'>crypt.ee</a>",
-    "twitter": "johnozbay"
+    "links": {
+      "website": "https://crypt.ee/",
+      "x/twitter": "https://twitter.com/johnozbay"
+    }
   },
   {
     "name": "Tim Perry",
-    "website": "https://tim.fyi/",
-    "countries": ["Spain🇪🇸"],
+    "countries": [
+      "Spain🇪🇸"
+    ],
     "avatar": "tim-perry.jpg",
     "what": "Creator of HTTP Toolkit <a href='https://httptoolkit.com'>httptoolkit.com</a>",
-    "twitter": "pimterry",
-    "mastodon": "https://toot.cafe/@pimterry"
+    "links": {
+      "website": "https://tim.fyi/",
+      "mastodon": "https://toot.cafe/@pimterry",
+      "x/twitter": "https://twitter.com/pimterry"
+    }
   },
   {
     "name": "Ondřej Pokorný",
-    "countries": ["Czech Republic🇨🇿"],
+    "countries": [
+      "Czech Republic🇨🇿"
+    ],
     "avatar": "ondrej-pokorny.jpg",
     "what": "Freelance Technology Consultant",
-    "mastodon": "https://social.unextro.net/@ondra"
+    "links": {
+      "mastodon": "https://social.unextro.net/@ondra"
+    }
   },
   {
     "name": "Thomas Powell",
-    "countries": ["USA🇺🇸"],
+    "countries": [
+      "USA🇺🇸"
+    ],
     "avatar": "thomas-powell.jpg",
     "what": "Lecturer of Computer Science at UCSD, <a href='https://pint.com'>pint.com</a> Founder, and creator of <a href='https://zingchart.com'>ZingChart</a> and <a href='https://zinggrid.com'>ZingGrid</a>.",
-    "mastodon": "https://fosstodon.org/@thomasapowell"
+    "links": {
+      "mastodon": "https://fosstodon.org/@thomasapowell"
+    }
   },
   {
     "name": "Benny Powers",
-    "countries": ["Canada🇨🇦","Israel🇮🇱"],
+    "countries": [
+      "Canada🇨🇦",
+      "Israel🇮🇱"
+    ],
     "avatar": "benny-powers.png",
     "what": "Principal UX Engineer, Red Hat",
-    "twitter": "PowersBenny",
-    "mastodon": "https://social.bennypowers.dev/@bp"
+    "links": {
+      "mastodon": "https://social.bennypowers.dev/@bp",
+      "x/twitter": "https://twitter.com/PowersBenny"
+    }
   },
   {
     "name": "Angela P. Ricci",
-    "countries": ["Brazil🇧🇷", "France🇫🇷"],
+    "countries": [
+      "Brazil🇧🇷",
+      "France🇫🇷"
+    ],
     "avatar": "gericci.jpg",
     "what": "Web Designer and front-end developer, working for an accessible web",
-    "mastodon": "https://indieweb.social/@gericci",
-    "github": "https://github.com/gericci",
-    "website": "https://gericci.me/"
+    "links": {
+      "website": "https://gericci.me/",
+      "mastodon": "https://indieweb.social/@gericci",
+      "github": "https://github.com/https://github.com/gericci"
+    }
   },
   {
     "name": "Daniel Roe",
-    "website": "https://roe.dev",
-    "countries": ["UK🇬🇧"],
+    "countries": [
+      "UK🇬🇧"
+    ],
     "avatar": "daniel-roe.jpg",
     "what": "Core Team, <a href='https://nuxtjs.org'>Nuxt</a>",
-    "twitter": "danielcroe"
+    "links": {
+      "website": "https://roe.dev",
+      "x/twitter": "https://twitter.com/danielcroe"
+    }
   },
   {
     "name": "Jonathan Rowley",
-    "website": "https://heyjonr.com",
-    "countries": ["UK🇬🇧"],
+    "countries": [
+      "UK🇬🇧"
+    ],
     "avatar": "jonathan-rowley.jpg",
     "what": "Web Developer",
-    "twitter": "HeyJonR"
+    "links": {
+      "website": "https://heyjonr.com",
+      "x/twitter": "https://twitter.com/HeyJonR"
+    }
   },
   {
     "name": "Runos",
-    "countries": ["France🇫🇷"],
+    "countries": [
+      "France🇫🇷"
+    ],
     "avatar": "runos.jpg",
-    "what": "UI/UX Developer, iOS Safari Expert"
+    "what": "UI/UX Developer, iOS Safari Expert",
+    "links": {}
   },
   {
     "name": "Yuya Saito",
-    "countries": ["Japan🇯🇵"],
+    "countries": [
+      "Japan🇯🇵"
+    ],
     "avatar": "yuya-saito.jpg",
     "what": "Web Developer, Technical Translation",
-    "twitter": "cssradar"
+    "links": {
+      "x/twitter": "https://twitter.com/cssradar"
+    }
   },
   {
     "name": "Christian Schaefer",
-    "website": "https://schepp.dev/",
-    "countries": ["Germany🇩🇪"],
+    "countries": [
+      "Germany🇩🇪"
+    ],
     "avatar": "christian-schaefer.jpg",
     "what": "Senior front-end developer, podcaster, meetup and conference organizer, lecturer",
-    "twitter": "derSchepp",
-    "mastodon": "https://mastodon.social/@Schepp"
+    "links": {
+      "website": "https://schepp.dev/",
+      "mastodon": "https://mastodon.social/@Schepp",
+      "x/twitter": "https://twitter.com/derSchepp"
+    }
   },
   {
     "name": "Isaac Z. Schlueter",
-    "countries": ["USA🇺🇸"],
+    "countries": [
+      "USA🇺🇸"
+    ],
     "avatar": "isaac-z-schlueter.jpg",
     "what": "NPM Inventor",
-    "mastodon": "https://fosstodon.org/@isaacs",
-    "github": "https://github.com/isaacs"
+    "links": {
+      "mastodon": "https://fosstodon.org/@isaacs",
+      "github": "https://github.com/https://github.com/isaacs"
+    }
   },
   {
     "name": "Dan Shappir",
-    "countries": ["Israel🇮🇱"],
+    "countries": [
+      "Israel🇮🇱"
+    ],
     "avatar": "dan-shappir.jpg",
     "what": "W3C Invited Expert, Performance Expert, Host of Javascript Jabber",
-    "twitter": "DanShappir",
-    "mastodon": "https://webperf.social/@DanShappir"
+    "links": {
+      "mastodon": "https://webperf.social/@DanShappir",
+      "x/twitter": "https://twitter.com/DanShappir"
+    }
   },
   {
     "name": "Alistair Shepherd",
-    "website": "https://alistairshepherd.uk/",
-    "countries": ["UK🇬🇧"],
+    "countries": [
+      "UK🇬🇧"
+    ],
     "avatar": "alistair-shepherd.jpg",
     "what": "Lead developer at <a href='https://serieseight.com/'>Series Eight</a>",
-    "mastodon": "https://mastodon.scot/@accudio"
+    "links": {
+      "website": "https://alistairshepherd.uk/",
+      "mastodon": "https://mastodon.scot/@accudio"
+    }
   },
   {
     "name": "Paul Trifa",
-    "countries": ["Romania🇷🇴"],
+    "countries": [
+      "Romania🇷🇴"
+    ],
     "avatar": "paul-trifa.jpg",
     "what": "Senior FE Architect and Tech Lead",
-    "twitter": "paul3fa"
+    "links": {
+      "x/twitter": "https://twitter.com/paul3fa"
+    }
   },
   {
     "name": "Andre Wiggins",
-    "countries": ["USA🇺🇸"],
+    "countries": [
+      "USA🇺🇸"
+    ],
     "avatar": "andre-wiggins.jpg",
     "what": "Web Developer",
-    "twitter": "andre_wiggins",
-    "mastodon": "https://infosec.exchange/@drewigg"
+    "links": {
+      "mastodon": "https://infosec.exchange/@drewigg",
+      "x/twitter": "https://twitter.com/andre_wiggins"
+    }
   },
   {
     "name": "James Heppell",
-    "countries": ["UK🇬🇧","Spain🇪🇸"],
+    "countries": [
+      "UK🇬🇧",
+      "Spain🇪🇸"
+    ],
     "avatar": "james-heppell.jpg",
     "what": "OWA Volunteer, Web Developer, Student",
-    "mastodon": "https://social.vivaldi.net/@FormularSumo",
-    "website": "https://formularsumo.co.uk/"
+    "links": {
+      "website": "https://formularsumo.co.uk/",
+      "mastodon": "https://social.vivaldi.net/@FormularSumo"
+    }
   }
 ]

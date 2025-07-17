@@ -14,8 +14,6 @@ const IS_PROD = process.env.NODE_ENV === 'production';
 const REGEX_HREF_EXTERNAL = /^(https|http|):\/\//;
 const REGEX_IS_SVG = /\.svg$/;
 
-const SVG_INLINE_MAX_SIZE = 16;
-
 const JSDOM_ERRORS_IGNORES = [
   'css parsing',
 ];
@@ -41,7 +39,8 @@ function htmlTransform( _options={} ) {
         setTitle: true,
       },
       images: {
-        inlineSvg: true,
+        inlineSvg: false,
+        inlineSvgMaxSize: 16,
         setWidthHeight: true,
       },
       debug: false,
@@ -118,7 +117,7 @@ function htmlTransform( _options={} ) {
       if ( options.images?.inlineSvg && !isRemote && isSvg ) {
         const buffer = _readFile( path );
         const bufferSize = Math.round( buffer.byteLength / 1024 );
-        if ( bufferSize < SVG_INLINE_MAX_SIZE ) {
+        if ( bufferSize < options.images?.inlineSvgMaxSize ?? 0 ) {
           options.debug && console.log(` -> Image - Inline: ${ src }, ${ bufferSize } kb`)
           element.src = `data:image/svg+xml;base64,${ buffer.toString('base64') }`;
         }

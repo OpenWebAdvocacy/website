@@ -39,8 +39,8 @@ function htmlTransform( _options={} ) {
         setTitle: true,
       },
       images: {
-        inlineSvg: false,
-        inlineSvgMaxSize: 16,
+        inlineSvg: true,
+        inlineSvgMaxSize: 8,
         setWidthHeight: true,
       },
       debug: false,

@@ -29,6 +29,7 @@ import imageShortcode from './src/shortcodes/image.js';
 import imageInlineShortcode from './src/shortcodes/imageInline.js';
 
 // Transforms
+import htmlTransform from './src/transforms/htmlTransform.js';
 import htmlminTransform from './src/transforms/htmlminTransform.js';
 
 // Utils
@@ -88,6 +89,7 @@ export default config => {
   });
 
   // Transforms
+  config.addTransform('html', htmlTransform());
   config.addTransform('htmlmin', htmlminTransform({
     collapseWhitespace: true,
     useShortDoctype: true,

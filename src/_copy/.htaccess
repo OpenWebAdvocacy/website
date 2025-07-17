@@ -8,7 +8,7 @@
   ExpiresDefault "access plus 4 weeks"
 
   # Cache images for longer
-  <FilesMatch "\.(avif|gif|jpg|jpeg|png|webp|svg|ico)$">
+  <FilesMatch "\.(avif|gif|ico|jpg|jpeg|png|webp|svg)$">
     ExpiresDefault "access plus 6 months"
   </FilesMatch>
 
@@ -18,7 +18,7 @@
   </FilesMatch>
 
   # Disable expire for html, php, etc
-  <FilesMatch "\.(html|php|json|xml|map|txt)$">
+  <FilesMatch "\.(html|json|map|php|txt|xml)$">
     ExpiresActive Off
     FileETag None
     <ifModule mod_headers.c>
@@ -32,7 +32,7 @@
 
 # Gzip / deflate
 <IfModule mod_deflate.c>
-  <FilesMatch "\.(html|php|txt|xml|js|css|json|ico)$">
+  <FilesMatch "\.(css|html|ico|js|json|map|php|svg|txt|xml)$">
     SetOutputFilter DEFLATE
   </FilesMatch>
 </IfModule>

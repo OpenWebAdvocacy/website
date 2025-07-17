@@ -49,7 +49,7 @@
     {# Stylesheets - Add facility for pages to declare an array of non-crit stylesheet paths #}
     {% if pageStylesheets %}
       {% for item in pageStylesheets %}
-        <link rel="stylesheet" href="{{ item }}">
+        <link rel="preload" as="style" href="{{ item }}?{{ assetHash }}" fetchpriority="low" onload="this.rel='stylesheet';" />
       {% endfor %}
     {% endif %}
   </head>

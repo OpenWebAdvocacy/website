@@ -1,7 +1,7 @@
 
 
 import { readFileSync } from 'node:fs';
-import { join, resolve } from 'node:path';
+import { join } from 'node:path';
 
 import { imageSize } from 'image-size'
 import { JSDOM, VirtualConsole } from 'jsdom';
@@ -13,6 +13,7 @@ const IS_PROD = process.env.NODE_ENV === 'production';
 
 const REGEX_HREF_EXTERNAL = /^(https|http|):\/\//;
 const REGEX_IS_SVG = /\.svg$/;
+const REGEX_YOUTUBE_EMBED_ID = /(?:youtu\.be|youtube\.com\/embed)\/([^/?\s]+)/ig;
 
 const JSDOM_ERRORS_IGNORES = [
   'css parsing',
@@ -37,6 +38,10 @@ function htmlTransform( _options={} ) {
       anchors: {
         externalInNewWindow: true,
         setTitle: true,
+      },
+      iframes: {
+        lazyload: true,
+        youtubeNoCookie: true,
       },
       images: {
         inlineSvg: true,
@@ -93,8 +98,30 @@ function htmlTransform( _options={} ) {
 
     });
 
+    // Iframes
+    const iframes = [ ...docElem.querySelectorAll('iframe') ];
+    iframes.forEach( element => {
+
+      // Lazyload
+      if ( options.iframes?.lazyload && !element.hasAttribute('loading') ) {
+        options.debug && console.log(` -> Iframe - Lazyload: ${ element.src }`)
+        _setAttrs( element, { loading: 'lazy' });
+      }
+
+      // Youtube No Cookie
+      if ( options.iframes?.youtubeNoCookie ) {
+        const ytEmbedId = [ ...REGEX_YOUTUBE_EMBED_ID.exec( element.src ) ?? [] ].flat().at( 1 );
+        if ( ytEmbedId ) {
+          const src = `https://www.youtube-nocookie.com/embed/${ ytEmbedId }`;
+          options.debug && console.log(` -> Iframe - No cookie: ${ src }`)
+          _setAttrs( element, { src });
+        }
+      }
+
+    });
+
     // Images
-    const images = [ ...docElem.querySelectorAll('img') ]
+    const images = [ ...docElem.querySelectorAll('img') ];
     images.forEach( element => {
 
       const src = element.getAttribute('src');

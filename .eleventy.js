@@ -3,10 +3,11 @@ import { readFileSync } from 'node:fs';
 import { slugify } from 'rgjs7/uri';
 
 // Eleventy Plugins
-import {EleventyI18nPlugin} from '@11ty/eleventy';
+import { EleventyI18nPlugin } from '@11ty/eleventy';
 import rssPlugin from '@11ty/eleventy-plugin-rss';
 import externalLinksPlugin from '@sardine/eleventy-plugin-external-links';
 import tocPlugin from 'eleventy-plugin-toc';
+import embedYoutubePlugin from 'eleventy-plugin-youtube-embed';
 import ogImagePlugin from './src/plugins/ogImagePlugin.js';
 
 // Markdown Libraries
@@ -24,12 +25,17 @@ import language from './src/filters/language.js';
 import w3DateFilter from './src/filters/w3-date-filter.js';
 
 // Shortcodes
+import cssInlineShortcode from './src/shortcodes/cssInline.js';
 import imageShortcode from './src/shortcodes/image.js';
 import imageInlineShortcode from './src/shortcodes/imageInline.js';
 
+// Transforms
+import htmlTransform from './src/transforms/htmlTransform.js';
+import htmlminTransform from './src/transforms/htmlminTransform.js';
+
 // Utils
 import groupEntriesByYear from './src/utils/group-entries-by-year.js';
-import {loadPageDetails} from './src/utils/page-details.js';
+import { loadPageDetails } from './src/utils/page-details.js';
 
 export default config => {
   // Add filters
@@ -46,10 +52,15 @@ export default config => {
   });
 
   // Add shortcodes
+  config.addNunjucksAsyncShortcode('cssInline', cssInlineShortcode());
   config.addNunjucksAsyncShortcode('image', imageShortcode());
   config.addNunjucksAsyncShortcode('imageInline', imageInlineShortcode);
 
   // Plugins
+  config.addPlugin(EleventyI18nPlugin, {
+    defaultLanguage: 'en',
+    errorMode: 'allow-fallback'
+  });
   config.addPlugin(rssPlugin);
   config.addPlugin(externalLinksPlugin);
   config.addPlugin(tocPlugin, {
@@ -57,9 +68,13 @@ export default config => {
     ul: true,
     flat: false
   });
-  config.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: 'en',
-    errorMode: 'allow-fallback'
+  config.addPlugin(embedYoutubePlugin, {
+    lite: {
+      css: { inline: true, path: 'node_modules/lite-youtube-embed/src/lite-yt-embed.css', },
+      js: { inline: true, path: 'node_modules/lite-youtube-embed/src/lite-yt-embed.js', },
+      responsive: true,
+    },
+    titleOptions: { download: true },
   });
   config.addPlugin(ogImagePlugin, {
     satoriOptions: {
@@ -81,6 +96,15 @@ export default config => {
     previewDir: 'images/og/preview/',
     shortcodeOutput: async ogImage => ogImage.outputUrl(),
   });
+
+  // Transforms
+  config.addTransform('html', htmlTransform({
+    inputDir: 'src',
+  }));
+  config.addTransform('htmlmin', htmlminTransform({
+    collapseWhitespace: true,
+    useShortDoctype: true,
+  }));
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {
@@ -116,6 +140,9 @@ export default config => {
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
+
+  // Pass through _copy
+  config.addPassthroughCopy({'./src/_copy': './'});
 
   // Pass through images
   config.addPassthroughCopy('./src/images');

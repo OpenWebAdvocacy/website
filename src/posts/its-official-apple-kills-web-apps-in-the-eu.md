@@ -10,7 +10,7 @@ relatedLinks:
 ---
 
 <div class="prom-banner" style="max-width: 30em;">
-    <p class"illustration"><img src="/images/owa-home-logo.svg" alt="" /></p>
+    <p class="x-illustration"><img src="/images/owa-home-logo.svg" alt="" /></p>
     <p><strong>If you ship a Web App in the EU and will be impacted by this, please sign our open letter to Tim Cook.</strong> It is critical that we gather as much evidence as possible to prevent Apple from breaking Web Apps in the EU.</p>
 
     <div>

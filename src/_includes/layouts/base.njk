@@ -15,13 +15,12 @@
     {% include "partials/schema-json.njk" %}
     {% include "partials/meta-info.njk" %} <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml"/>
     <link rel="me" href="https://mastodon.social/@owa"/>
-    <link
-    rel="preload" href="/css/fonts/KumbhSans-VariableFont_wght.ttf" as="font" type="font/woff2" crossorigin/> <!-- Site Icons -->
+    <link rel="preload" href="/css/fonts/KumbhSans-VariableFont_wght.ttf" as="font" type="font/woff2" crossorigin/>
+    {# Site icons #}
     <link rel="icon" type="image/png" sizes="16x16" href="/images/logo-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/logo-32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="/images/logo-48.png">
-    <link
-    rel="icon" type="image/png" sizes="192x192" href="/images/logo-192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/logo-192.png">
     <link rel="alternate" href="{{ site.url }}{{ page.url | removeLanguageCode(languages) }}" hreflang="x-default" />
     {% for language in languages %}
       <link rel="alternate" hreflang="{{ language.code }}" href="{{ site.url }}{{ page.url | locale_url(language.code) }}" />
@@ -29,28 +28,30 @@
     {% if '/en/' in page.url  %}
       <link rel="canonical" href="{{ site.url }}{{ page.url | removeLanguageCode(languages) }}"/>
     {% endif %}
-    {# Add facility for pages to delare an array of non-critical javascript #}
+    {# Javascript #}
+    <script type="module" src="/js/language-picker.js?{{ assetHash }}" defer></script>
+    {# Javascript - Add facility for pages to delare an array of non-critical javascript #}
     {% if pageNonCriticalScripts %}
       {% for item in pageNonCriticalScripts %}
         <script src="{{ item }}?{{ assetHash }}" defer></script>
       {% endfor %}
     {% endif %}
-    {# Add facility for pages to delare an array of critical styles #}
+    {# Stylesheets #}
+    <style>{% cssInline '/css/vars.css' %}</style>
+    <style>{% cssInline '/css/main.css' %}</style>
+    <style>{% cssInline '/css/queries.css' %}</style>
+    {# Stylesheets - Add facility for pages to delare an array of critical styles #}
     {% if pageCriticalStyles %}
       {% for item in pageCriticalStyles %}
-        <style>
-          {% include item %}</style>
+        <style>{% cssInline item %}</style>
       {% endfor %}
     {% endif %}
-    {# Add facility for pages to declare an array of stylesheet paths #}
+    {# Stylesheets - Add facility for pages to declare an array of non-crit stylesheet paths #}
     {% if pageStylesheets %}
       {% for item in pageStylesheets %}
-        <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
+        <link rel="preload" as="style" href="{{ item }}?{{ assetHash }}" fetchpriority="low" onload="this.rel='stylesheet';" />
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="/css/vars.css"/>
-    <link rel="stylesheet" href="/css/main.css"/>
-    <link rel="stylesheet" href="/css/queries.css"/>
   </head>
   <body>
     {% if isHome %}
@@ -77,6 +78,5 @@
     {% endif %}
     {% include "partials/site-footer.njk" %}
     {% include "partials/language-dialog.njk" %}
-    <script defer="" async="" type="module" src="/js/language-picker.js"></script>
   </body>
 </html>

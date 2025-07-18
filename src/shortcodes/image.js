@@ -5,6 +5,7 @@ import Image, { generateHTML } from '@11ty/eleventy-img';
 
 import { filter } from 'rgjs7/obj';
 import { concat } from 'rgjs7/path';
+import { escapeHtmlAttr } from 'rgjs7/str';
 import { isArray, isObject } from 'rgjs7/val';
 
 const IS_PROD = process.env.NODE_ENV === 'production';
@@ -91,7 +92,8 @@ function imageShortcode( _defaults={} ) {
 
     const imageAttributes = filter({
       class: className,
-      title, alt: alt ?? title,
+      title: escapeHtmlAttr( title ),
+      alt: escapeHtmlAttr( alt ?? title ),
       fetchpriority: [
         loading === 'eager' && 'high',
         loading === 'lazy' && 'low',

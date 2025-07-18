@@ -1176,10 +1176,13 @@ ul.contributors img {
 }
 
 p.social {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1ch;
   max-width: 100%;
   font-size: 0.65em;
-  text-align: right;
   margin-top: auto;
+  & a { flex: none; }
 }
 
 

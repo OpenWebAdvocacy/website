@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { slugify } from 'rgjs7/uri';
 
 // Eleventy Plugins
-import {EleventyI18nPlugin} from '@11ty/eleventy';
+import { EleventyI18nPlugin } from '@11ty/eleventy';
 import rssPlugin from '@11ty/eleventy-plugin-rss';
 import externalLinksPlugin from '@sardine/eleventy-plugin-external-links';
 import tocPlugin from 'eleventy-plugin-toc';
@@ -24,12 +24,16 @@ import language from './src/filters/language.js';
 import w3DateFilter from './src/filters/w3-date-filter.js';
 
 // Shortcodes
+import cssInlineShortcode from './src/shortcodes/cssInline.js';
 import imageShortcode from './src/shortcodes/image.js';
 import imageInlineShortcode from './src/shortcodes/imageInline.js';
 
+// Transforms
+import htmlminTransform from './src/transforms/htmlminTransform.js';
+
 // Utils
 import groupEntriesByYear from './src/utils/group-entries-by-year.js';
-import {loadPageDetails} from './src/utils/page-details.js';
+import { loadPageDetails } from './src/utils/page-details.js';
 
 export default config => {
   // Add filters
@@ -46,6 +50,7 @@ export default config => {
   });
 
   // Add shortcodes
+  config.addNunjucksAsyncShortcode('cssInline', cssInlineShortcode());
   config.addNunjucksAsyncShortcode('image', imageShortcode());
   config.addNunjucksAsyncShortcode('imageInline', imageInlineShortcode);
 
@@ -82,6 +87,12 @@ export default config => {
     shortcodeOutput: async ogImage => ogImage.outputUrl(),
   });
 
+  // Transforms
+  config.addTransform('htmlmin', htmlminTransform({
+    collapseWhitespace: true,
+    useShortDoctype: true,
+  }));
+
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
@@ -116,6 +127,9 @@ export default config => {
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
+
+  // Pass through _copy
+  config.addPassthroughCopy({'./src/_copy': './'});
 
   // Pass through images
   config.addPassthroughCopy('./src/images');

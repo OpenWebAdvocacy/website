@@ -1,6 +1,6 @@
 ---
 title: "UK Regulator Flags Apple’s iOS Browser Engine Ban in Draft SMS Designation"
-date: '2025-08-23'
+date: '2025-07-23'
 tags: ['Policy', 'Apple', 'UK', 'Browser Engine']
 author: "OWA"
 ---

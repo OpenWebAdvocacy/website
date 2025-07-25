@@ -16,16 +16,16 @@ The UK’s Competition and Markets Authority (CMA) [is today proposing to design
 > <cite>[UK CMA](https://www.gov.uk/government/news/cma-proposes-action-to-drive-more-competition-on-mobile-platforms)</cite>
 
 
-[The report](https://assets.publishing.service.gov.uk/media/6880b22cf47abf78ca1d351a/Proposed_decision.pdf) highlights the lack of competition for Apple’s WebKit on iOS:
+[The report](https://ehq-production-europe.s3.eu-west-1.amazonaws.com/2459d0fa976fa6eeef75fe14a502834b0a896a91/original/1753293030/4b5d191db0661182c10364f421437b26_Proposed%20decision.pdf) highlights the lack of competition for Apple’s WebKit on iOS:
 
 > On Apple mobile devices, all mobile browsers are required to use Apple’s WebKit browser engine (ie as a result of the WebKit restriction), as specified in Apple’s App Store Review guidelines. Apple therefore does not face competition from rival mobile browser engines on its Mobile Ecosystem. **This position will not change unless Apple lifts its total prohibition on the use of alternative browser engines on its Mobile Ecosystem.**
-> <cite>[SMS Investigation into Apple’s Mobile  Platform \- Proposed Decision](https://assets.publishing.service.gov.uk/media/6880b22cf47abf78ca1d351a/Proposed_decision.pdf)
+> <cite>[SMS Investigation into Apple’s Mobile  Platform \- Proposed Decision](https://ehq-production-europe.s3.eu-west-1.amazonaws.com/2459d0fa976fa6eeef75fe14a502834b0a896a91/original/1753293030/4b5d191db0661182c10364f421437b26_Proposed%20decision.pdf)
 </cite>
 
 The report also highlighted that web apps are not a competitive substitute due to Apple’s restrictions:
 
 > Specifically, 58 of 108 content providers we gathered evidence from indicated that **web apps are not a viable substitute to the native apps**, and a number of these content providers indicated that substitutability is particularly **limited in terms of functionality and discoverability**, which are important factors for app developers’ distribution choices. Several content providers further submitted that **functionality issues with web apps are due to restrictions that Apple has imposed on web browsers within its Mobile Ecosystem**.
-> <cite>[SMS Investigation into Apple’s Mobile  Platform - Proposed Decision](https://assets.publishing.service.gov.uk/media/6880b22cf47abf78ca1d351a/Proposed_decision.pdf)
+> <cite>[SMS Investigation into Apple’s Mobile  Platform - Proposed Decision](https://ehq-production-europe.s3.eu-west-1.amazonaws.com/2459d0fa976fa6eeef75fe14a502834b0a896a91/original/1753293030/4b5d191db0661182c10364f421437b26_Proposed%20decision.pdf)
 </cite>
 
 ## Will Strong Enforcement of Pro-Competition Laws Help or Hinder Startups?

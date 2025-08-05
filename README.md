@@ -8,6 +8,8 @@ The Open Web Advocacy website resides at [open-web-advocacy.org](https://open-we
 
 This website is based on [hankchizljaw's](https://github.com/hankchizljaw) [11ty-base](https://github.com/hankchizljaw/11ty-base) project.
 
+This project is tested with BrowserStack.
+
 ## Getting Started
 
 This site is built using the [Eleventy](https://www.11ty.dev/) static site generator and the content of the site is primarily written in Markdown or HTML. Core page content can be found in the `src/pages` directory.

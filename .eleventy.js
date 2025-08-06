@@ -124,6 +124,8 @@ export default config => {
   config.addPassthroughCopy('./src/css');
   config.addPassthroughCopy('./src/js');
 
+  config.addPassthroughCopy('./manifest.json');
+
   // Pass through files
   config.addPassthroughCopy('./src/files');
 

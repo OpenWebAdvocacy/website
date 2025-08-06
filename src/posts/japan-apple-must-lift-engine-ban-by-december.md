@@ -1,5 +1,5 @@
 ---
-title: "Japan: Apple Must Lift Engine Engine Ban by December"
+title: "Japan: Apple Must Lift Browser Engine Ban by December"
 date: '2025-08-06'
 tags: ['Policy', 'Apple', 'Japan', 'Browser Engine']
 author: "OWA"

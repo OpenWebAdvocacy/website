@@ -1,6 +1,6 @@
 {
-    "manifest_version": "1.0",
-    "name": "https://open-web-advocacy.org/",
+    "manifest_version": "2.0",
+    "name": "Open Web Advocacy",
     "short_name": "OWA",
     "version": "1",
     "default_locale": "en",
@@ -53,9 +53,11 @@
         }
       ],
       "author": "Open Web Advocacy",
-      "display": "minimal-ui",
+      "display": "standalone",
+      "display_override": ["minimal-ui"],
       "id": "/index.html",
       "start_url": "/index.html",
+      "scope": "/",
       "background_color": "#FFFFFF",
       "theme_color": "#CD4C1D"
     }

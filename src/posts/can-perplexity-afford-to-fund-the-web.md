@@ -7,6 +7,8 @@ author: "OWA"
 
 **TL;DR:** AI startup Perplexity [has made a $34.5 billion bid to acquire Chrome](https://www.ft.com/content/d357d9d0-2a03-493a-b73b-e21b16b8ba37), despite previously opposing its divestiture from Google and arguing no other company could run it effectively. We are concerned that [this sale could lead to a 70% plunge in web platform investment](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/) **and that Perplexity has neither the means nor incentive to fund the web platform to the same level as Google.** This outcome would further strengthen the anti-competitive grip of Apple and Google’s native platforms at the expense of the open web.
 
+**Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1955541450210558127), [Mastodon](https://mastodon.social/@owa/115020426457933314), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_can-perplexity-afford-to-fund-the-web-the-activity-7361308258873040896-pkDE) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3lwbel2zuwk2b).**
+
 ## Perplexity's U-Turn
 
 This offer comes as [Judge Mehta is considering forcing Google to sell the browser](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/#quick-primer-on-the-doj%E2%80%99s-case:~:text=Google%20must%20promptly%20and%20fully%20divest%20Chrome%2C%20to%20a%20buyer%20approved%20by%20the%20Plaintiffs%20in%20their%20sole%20discretion%20subject%20to%20terms%20that%20the%20Court%20and%20Plaintiffs%20approve.). Perplexity claims *“multiple large \[venture capital\] funds have agreed to finance the \[all-cash\] transaction in full”*, but refused to name them.

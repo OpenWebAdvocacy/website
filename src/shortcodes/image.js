@@ -80,7 +80,7 @@ function imageShortcode( _defaults={} ) {
 
     const absSrc = concat( input, src );
     const urlPath = dirname( src );
-    const outputDir = concat( output, urlPath );
+    const outputDir = concat( '.cache/files', urlPath );
 
     const metadata = await Image( absSrc, {
       formats, widths, urlPath, outputDir,

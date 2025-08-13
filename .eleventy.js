@@ -77,7 +77,7 @@ export default config => {
     },
     outputFileSlug: async ogImage => slugify( ogImage.data.page.filePathStem ),
     outputFileExtension: 'jpeg',
-    outputDir: 'images/og/',
+    outputDir: '.cache/files/images/og/',
     previewDir: 'images/og/preview/',
     shortcodeOutput: async ogImage => ogImage.outputUrl(),
   });
@@ -128,6 +128,10 @@ export default config => {
 
   // Pass through files
   config.addPassthroughCopy('./src/files');
+
+  // Pass through .cache/files
+  // https://www.zachleat.com/web/faster-builds-with-eleventy-img/
+  config.addPassthroughCopy({ './.cache/files': 'dist' });
 
   // Set custom markdown library
   config.setLibrary('md', buildMarkdownLibrary());

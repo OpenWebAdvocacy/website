@@ -35,6 +35,7 @@
     "rgjs7": "^0.0.55"
   },
   "devDependencies": {
+    "netlify-plugin-cache": "^1.0.3",
     "prettier": "^3.3.3"
   },
   "optionalDependencies": {

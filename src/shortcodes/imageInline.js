@@ -8,8 +8,6 @@ export default async function imageInlineShortcode( path ) {
 
   const { input } = this.eleventy.directories;
 
-  console.log( 'imageInlineShortcode', path );
-
   // Use cache
   if ( cache.has( path ) ) return await cache.get( path );
 

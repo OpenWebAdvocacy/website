@@ -18,11 +18,11 @@ This is also at odds with statements made by Perplexity earlier this year where 
 > **The remedy that is right in our opinion is not a breakup of Google; but rather offering consumers the choice to pick their defaults on Android without feeling the risk of a loss in revenue. That's what we will be proposing.**<br><br>
 > <cite>[Aravind Srinivas - Cofounder & CEO of Perplexity](https://open-web-advocacy.org/blog/industry-voices-caution-against-dojs-plan-to-force-sale-of-chrome/#:~:text=%23-,Aravind%20Srinivas%20%2D%20Cofounder%20%26%20CEO%20of%20Perplexity,-Perplexity%20has%20been)<br>(emphasis added)</cite>
 
-So why has Perplexity changed their mind and why do they want to buy Chrome and Chromium now?
+So why has Perplexity [changed their mind](https://www.ft.com/content/d357d9d0-2a03-493a-b73b-e21b16b8ba37) and why do they want to buy Chrome and Chromium now?
 
 ## Why does Perplexity want to buy Chrome and Chromium?
 
-The most obvious motivation is user acquisition. Chrome has over a 1000x the user base of Perplexity.  **Perplexity reportedly has [fewer than <span style="color: var(--main-color);">3 million daily users</span>](https://www.demandsage.com/perplexity-ai-statistics/?utm_source=chatgpt.com#:~:text=Approximately%202%20million%20people%20worldwide%20visit%20Perplexity%20AI%20daily.), compared to [<span style="color: var(--main-color);">Chrome’s 3.45 billion</span>](https://backlinko.com/chrome-users#:~:text=An%20estimated%203.45%20billion%20internet%20users%20globally%20use%20Chrome%20as%20their%20browser.)**. Even capturing a small percentage of that user base through this acquisition would represent a massive boost, something they could show to investors.
+The most obvious motivation is user acquisition. Chrome has over a 1000x the user base of Perplexity.  **Perplexity reportedly has [fewer than <span style="color: var(--main-color);">3 million daily users</span>](https://www.demandsage.com/perplexity-ai-statistics/#:~:text=Approximately%202%20million%20people%20worldwide%20visit%20Perplexity%20AI%20daily.), compared to [<span style="color: var(--main-color);">Chrome’s 3.45 billion</span>](https://backlinko.com/chrome-users#:~:text=An%20estimated%203.45%20billion%20internet%20users%20globally%20use%20Chrome%20as%20their%20browser.)**. Even capturing a small percentage of that user base through this acquisition would represent a massive boost, something they could show to investors.
 
 While Perplexity has a steadily growing userbase, this acquisition would catapult them to be the largest AI company by active users on the planet.
 

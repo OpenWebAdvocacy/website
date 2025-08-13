@@ -7,7 +7,7 @@ author: "OWA"
 
 **TL;DR:** AI startup Perplexity [has made a $34.5 billion bid to acquire Chrome](https://www.ft.com/content/d357d9d0-2a03-493a-b73b-e21b16b8ba37), despite previously opposing its divestiture from Google and arguing no other company could run it effectively. We are concerned that [this sale could lead to a 70% plunge in web platform investment](https://open-web-advocacy.org/blog/break-googles-search-monopoly-without-breaking-the-web/) **and that Perplexity has neither the means nor incentive to fund the web platform to the same level as Google.** This outcome would further strengthen the anti-competitive grip of Apple and Google’s native platforms at the expense of the open web.
 
-**Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1955541450210558127), [Mastodon](https://mastodon.social/@owa/115020426457933314), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_can-perplexity-afford-to-fund-the-web-the-activity-7361308258873040896-pkDE) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3lwbel2zuwk2b).**
+**Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1955541450210558127), [Mastodon](https://mastodon.social/@owa/115020426457933314), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_can-perplexity-afford-to-fund-the-web-the-activity-7361308258873040896-pkDE) and [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3lwbel2zuwk2b).** 
 
 ## Perplexity's U-Turn
 

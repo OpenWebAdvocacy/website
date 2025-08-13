@@ -1,9 +1,10 @@
 [build]
 command = "npm run production"
 publish = "dist"
+cache = true
 
 [build.cache]
-  paths = [".cache"]
+  paths = [".cache", "node_modules"]
 
 [build.environment]
 NODE_VERSION = "20"

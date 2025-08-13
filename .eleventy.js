@@ -133,7 +133,6 @@ export default config => {
 
   // Pass through .cache/files
   // https://www.zachleat.com/web/faster-builds-with-eleventy-img/
-  // Just a comment so I can trigger a deploy
   config.on('eleventy.after', () => {
     const inputDir = '.cache/files/';
     const inputFiles = globbySync(`${ inputDir }/**/*`, { onlyFiles: true });

@@ -81,7 +81,7 @@ export default config => {
     outputFileExtension: 'jpeg',
     outputDir: '../.cache/files/images/og/',
     previewDir: 'images/og/preview/',
-    shortcodeOutput: async ogImage => ogImage.outputUrl(),
+    shortcodeOutput: async ogImage => (await ogImage.outputUrl()).replace('.cache/files/', ''),
   });
 
   // Returns a collection of blog posts in reverse date order
@@ -139,7 +139,6 @@ export default config => {
     const outputDir = 'dist/';
     inputFiles.forEach( inputFile => {
       const outputFile = join( outputDir, inputFile.replace( inputDir, '' ) );
-      console.log(outputFile);
       cpSync(inputFile, outputFile);
     });
   });

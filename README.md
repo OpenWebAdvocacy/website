@@ -1,3 +1,5 @@
+This project is tested with BrowserStack
+
 # Open Web Advocacy Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6ca86e2c-f78f-4dee-a51d-6699afe30e2c/deploy-status)](https://app.netlify.com/sites/cool-elf-8eb15a/deploys)

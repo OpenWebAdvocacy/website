@@ -50,14 +50,17 @@ In particular these three 2024 papers are worth a read for those interested in b
 
 You can also see Alex Moore talk at [Web Directions \- Code 24](https://conffab.com/presentation/the-state-of-mobile-browsers/?gl=Ljh5ZT0QBAV6).
 
-Stuart Langridge talk at State of the Browser:  
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Mn2YFU_UkEI' frameborder='0' allowfullscreen title="Stuart Langridge - The Mazy Web She Whirls"></iframe></div>
+Stuart Langridge talk at State of the Browser:
 
-Bruce Lawson ([who is continuing the fight for a fairer web at Vivaldi](https://brucelawson.co.uk/2024/three-years-of-open-web-advocacy-work/)) at FrontMania:  
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/D1pxzpCtAmc' frameborder='0' allowfullscreen title="Bruce Lawson - Whose web is it anyway?"></iframe></div>
+https://www.youtube.com/watch?v=Mn2YFU_UkEI
 
-John Ozbay talking at the European Commission's Apple DMA Workshop:  
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/AiiU_zBirXc' frameborder='0' allowfullscreen title="OWA v Apple: EC DMA Q&A 2 - Will Apple address the dark patterns when changing the default browser?"></iframe></div>
+Bruce Lawson ([who is continuing the fight for a fairer web at Vivaldi](https://brucelawson.co.uk/2024/three-years-of-open-web-advocacy-work/)) at FrontMania:
+
+https://www.youtube.com/watch?v=D1pxzpCtAmc
+
+John Ozbay talking at the European Commission's Apple DMA Workshop:
+
+https://www.youtube.com/watch?v=AiiU_zBirXc
 
 We were also delighted to join the [JS Party podcast to chat to Amal Hussein](https://changelog.com/jsparty/316) and the [Igalia Chats podcast with Brian Kardell and Eric Meyer](https://www.igalia.com/chats/alex-owa-remedy).
 

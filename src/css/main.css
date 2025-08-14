@@ -1506,3 +1506,13 @@ header:not(.home-header) p:has(button.language-picker) {
 .language-dialog .action-button {
   cursor: pointer;
 }
+
+/* ---------------------- PLUGINS ------------------------ */
+
+lite-youtube {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin-inline: auto;
+  & > button { padding: 0; }
+}

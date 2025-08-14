@@ -5,7 +5,7 @@ tags: ['Policy', 'Apple', 'Google', 'Meta', 'TikTok']
 author: "OWA"
 ---
 
-<iframe style="max-width: 100%;" width="560" height="315" src="https://www.youtube-nocookie.com/embed/-6mFC__dMWM?si=dCn6x88fPOox76WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=-6mFC__dMWM
 
 In-App Browsers subvert user choice, stifle innovation, trap users into apps, break websites and enable applications to severely undermine user privacy. In-App Browsers hurt consumers, developers and damage the entire web ecosystem.
 

@@ -29,6 +29,7 @@
     "cssnano": "^7.1.0",
     "eleventy-plugin-og-image": "^4.0.1",
     "eleventy-plugin-toc": "^1.1.5",
+    "globby": "^14.1.0",
     "html-minifier": "^4.0.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
@@ -37,6 +38,11 @@
     "rgjs7": "^0.0.55"
   },
   "devDependencies": {
+    "netlify-plugin-cache": "^1.0.3",
     "prettier": "^3.3.3"
+  },
+  "optionalDependencies": {
+    "@resvg/resvg-js-darwin-arm64": "^2.6.2",
+    "sharp": "^0.34.3"
   }
 }

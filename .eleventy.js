@@ -1,5 +1,7 @@
 // Node, libs
-import { readFileSync } from 'node:fs';
+import { cpSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { globbySync  } from 'globby';
 import { slugify } from 'rgjs7/uri';
 
 // Eleventy Plugins
@@ -82,9 +84,9 @@ export default config => {
     },
     outputFileSlug: async ogImage => slugify( ogImage.data.page.filePathStem ),
     outputFileExtension: 'jpeg',
-    outputDir: 'images/og/',
+    outputDir: '../.cache/files/images/og/',
     previewDir: 'images/og/preview/',
-    shortcodeOutput: async ogImage => ogImage.outputUrl(),
+    shortcodeOutput: async ogImage => (await ogImage.outputUrl()).replace('.cache/files/', ''),
   });
 
   // Transforms
@@ -138,8 +140,22 @@ export default config => {
   config.addPassthroughCopy('./src/css');
   config.addPassthroughCopy('./src/js');
 
+  config.addPassthroughCopy('./manifest.json');
+
   // Pass through files
   config.addPassthroughCopy('./src/files');
+
+  // Pass through .cache/files
+  // https://www.zachleat.com/web/faster-builds-with-eleventy-img/
+  config.on('eleventy.after', () => {
+    const inputDir = '.cache/files/';
+    const inputFiles = globbySync(`${ inputDir }/**/*`, { onlyFiles: true });
+    const outputDir = 'dist/';
+    inputFiles.forEach( inputFile => {
+      const outputFile = join( outputDir, inputFile.replace( inputDir, '' ) );
+      cpSync(inputFile, outputFile);
+    });
+  });
 
   // Set custom markdown library
   config.setLibrary('md', buildMarkdownLibrary());

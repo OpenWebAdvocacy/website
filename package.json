@@ -43,6 +43,7 @@
   },
   "optionalDependencies": {
     "@resvg/resvg-js-darwin-arm64": "^2.6.2",
+    "@resvg/resvg-js-linux-x64-gnu": "^2.6.2",
     "sharp": "^0.34.3"
   }
 }

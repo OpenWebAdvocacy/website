@@ -37,7 +37,7 @@ Our primary focus is to ensure what made the web great on desktop, happens for m
 Imagine, a future where developers and businesses can write their software once, deploy to any device without the gatekeepers… **this is a future worth fighting for.**
 
 <div class="prom-banner">
-  <p class"illustration"><img src="/images/donate.svg" alt="" /></p>
+  <p class="x-illustration"><img src="/images/donate.svg" alt="" /></p>
   <p>If you love what we're doing and would like to support our work, please consider
     <a href="https://www.paypal.com/donate/?hosted_button_id=3FD5DUWT4DNBG">making a donation</a>.</p>
   <p>OWA is a registered not-for-profit fighting for the Web against heavily financed gatekeepers
@@ -429,7 +429,7 @@ A special thank you goes to [startsmall](https://mastodon.social/@owa/1112182433
 
 If you have the opportunity, please join us in 2025\!  
 <div class="prom-banner">
-  <p class"illustration"><img src="/images/donate.svg" alt="" /></p>
+  <p class="x-illustration"><img src="/images/donate.svg" alt="" /></p>
   <p>If you love what we're doing and would like to support our work, please consider
     <a href="https://www.paypal.com/donate/?hosted_button_id=3FD5DUWT4DNBG">making a donation</a>.</p>
   <p>OWA is a registered not-for-profit fighting for the Web against heavily financed gatekeepers

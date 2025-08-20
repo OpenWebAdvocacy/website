@@ -102,6 +102,7 @@ export default config => {
   // Transforms
   config.addTransform('html', htmlTransform({
     inputDir: 'src',
+    anchors: { setTitle: false },
   }));
   config.addTransform('htmlmin', htmlminTransform({
     collapseWhitespace: true,

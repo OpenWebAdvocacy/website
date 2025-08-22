@@ -13,7 +13,7 @@ author: "OWA"
 
 1. [Browser vendors should be **granted the hotseat** when being selected as the default browser in the choice screen.](https://open-web-advocacy.org/apple-dma-review/#apples-dark-pattern-exacerbated-by-keeping-hotseat)
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/_m6tQtDpSbM?si=H37IuGP1F_yueGtd' frameborder='0' allowfullscreen title="OWA v Apple: EC DMA Q&A 2 - Will Apple address the dark patterns when changing the default browser?"></iframe></div>
+https://www.youtube.com/watch?v=_m6tQtDpSbM
 
 2. [Browsers should be able to **display more information** in the choice screen](https://open-web-advocacy.org/apple-dma-review/#browser-should-be-allowed-to-show-more-information-on-choice-screen)
 
@@ -69,7 +69,7 @@ The deceptive pattern of hiding the option to change default browser in Safari s
 
 Additionally, the deceptive pattern of triggering the choice screen when Safari is not the default browser (typically because it still occupies the hotseat) has been fixed. That is Apple was triggering the choice screen in the hope that users will change from a third-party browser back to Safari.
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/AiiU_zBirXc' frameborder='0' allowfullscreen title="OWA v Apple: EC DMA Q&A 2 - Will Apple address the dark patterns when changing the default browser?"></iframe></div>
+https://www.youtube.com/watch?v=AiiU_zBirXc
 
 ## To Regulators outside the EU
 

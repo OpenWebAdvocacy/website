@@ -75,6 +75,7 @@ export default config => {
       css: { inline: true, path: 'node_modules/lite-youtube-embed/src/lite-yt-embed.css', },
       js: { inline: true, path: 'node_modules/lite-youtube-embed/src/lite-yt-embed.js', },
       responsive: true,
+      thumbnailFormat: 'webp',
     },
     titleOptions: { download: true },
   });

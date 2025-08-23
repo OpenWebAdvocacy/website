@@ -595,6 +595,10 @@ a.donate-button {
   gap: 1rem;
 }
 
+a.donate-button:focus {
+  outline-color: var(--n-dark);
+}
+
 .donate-button svg {
   width: 1.3em;
   height: 1.3em;

@@ -142,6 +142,8 @@
     padding: 0;
   }
 
+  header nav ul {justify-content: space-between;}
+
   header.home-header li {
     font-variation-settings: var(--fvs-regular);
   }
@@ -168,6 +170,10 @@
     display: flex;
     justify-content: space-between;
     gap: 4vw;
+  }
+  aside {
+    box-sizing: border-box;
+    max-width: 328px;
   }
 }
 

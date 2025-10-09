@@ -259,7 +259,7 @@ a:hover {
   text-decoration: none;
 }
 
-a:not(:has(img), .action-button, .donate-button)[target]::after {
+/* a:not(:has(img), .action-button, .donate-button)[target]::after {
   display: inline-block;
   overflow: hidden;
   content: "Open new tab";
@@ -271,7 +271,7 @@ a:not(:has(img), .action-button, .donate-button)[target]::after {
   background-position: bottom;
   background-repeat: no-repeat;
   margin-left: .3em;
-}
+} */
 
 :focus {
   outline: 2px dashed currentColor;

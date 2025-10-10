@@ -152,10 +152,6 @@ The request process follows 3 phases:
     
 * Phase III – Development: to establish a predictable and reliable timeline for the development phase. Apple should develop interoperability solutions that require minor, mild, and significant efforts within 6, 12, or 18 months from the submission of the interoperability request, respectively.
 
-[This page by Apple](https://developer.apple.com/support/ios-interoperability/) provides the information on how to lodge a request.
-
-#### Security
-
 Under the DMA, Apple can attach security measures when it opens up access to a particular feature in order to protect the integrity of the operating system. However, these must be justified by Apple and must be objective. [This document](https://ec.europa.eu/competition/digital_markets_act/cases/202523/DMA_100204_2073.pdf) has a lot of discussion as to exactly what this means.
 
 If you are a third-party company or developer that requires functionality that Apple currently reserves for itself in the EU to make your apps or devices better (or possible), then you can follow [this process and make an interop request](https://developer.apple.com/support/ios-interoperability/). All of these requests can be done at a non-legal technical level, as just polite technical requests for required functionality. Apple is not allowed to ignore these requests and must respond in writing within the above time limits.
@@ -178,9 +174,7 @@ Documents revealed during the [2021 Epic Games v. Apple trial](https://en.wikipe
 
 [Apple's app review process](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#is-app-review-effective%3F) failed spectacularly in the case of the XcodeGhost malware. This highlights the inherent limitations of app review as it's impractical for human reviewers (reportedly only 500 reviewers to review 130,000 apps per week, [with only](https://www.wired.com/story/apples-app-store-review-fix-fails-placate-developers/#:~:text=that%20app%20reviewers%20often%20have%20only%20minutes%20to%20review%20each%20app%20and%20work%20under%20a%20system%20that%20permits%20wide%20variation%20in%20standards) a [few minutes spent per app](https://www.cnbc.com/2019/06/21/how-apples-app-review-process-for-the-app-store-works.html#:~:text=only%20a%20few%20minutes%20per%20app) ) to scrutinize the vast amounts of code submitted for each app and these reviewers likely did not even attempt to do so. 
 
-Even with the assistance of automated code scanning tools, which can be circumvented by various obfuscation techniques, complex malware like XcodeGhost, injected during the compilation process, can easily slip through. 
-
-There are long-standing and [unresolved issues](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#is-app-review-effective%3F) with malware, [phishing apps](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#phishing), and [fleeceware](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#fleeceware) across both Apple and Google’s app stores over the past 16 years.
+Even with the assistance of automated code scanning tools, which can be circumvented by various obfuscation techniques, complex malware like XcodeGhost, injected during the compilation process, can easily slip through contributing to ongoing [unresolved issues](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#is-app-review-effective%3F) with malware, [phishing apps](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#phishing), and [fleeceware](https://open-web-advocacy.org/blog/balancing-security-and-fair-competition/#fleeceware) in both Apple and Google’s app stores over the past 16 years.
 
 <figure>
     {% image

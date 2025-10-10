@@ -1,6 +1,6 @@
 ---
 title: "OWA at the EU Parliament DMA Working Group"
-date: '2025-10-09'
+date: '2025-10-10'
 tags: ['Policy', 'Apple', 'EU', 'DMA']
 author: "OWA"
 ---

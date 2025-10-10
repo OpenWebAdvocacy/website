@@ -76,7 +76,7 @@ At the recent DMA workshop, [Apple claimed they would not *"export a European la
 
 These benefits are real, they are tangible and they are spreading globally.
 
-Outside the EU, regulators and governments in [the UK, the US, Japan, Brazil, Korea and Australia are closely watching what the EU has achieved](https://open-web-advocacy.org/blog/owa-2024-review/#the-regulatory-landscape-at-the-end-of-2024). Many have already passed laws, are in the process of doing so, or have opened investigations against Apple on these very issues.
+Outside the EU, regulators and governments in [the UK, the US, Japan, Brazil, South Korea and Australia are closely watching what the EU has achieved](https://open-web-advocacy.org/blog/owa-2024-review/#the-regulatory-landscape-at-the-end-of-2024). Many have already passed laws, are in the process of doing so, or have opened investigations against Apple on these very issues.
 
 To ensure the Digital Markets Act delivers on its promise, the EU should:
 

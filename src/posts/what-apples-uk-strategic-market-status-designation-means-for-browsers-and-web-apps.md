@@ -111,7 +111,7 @@ In practice, 2.5.6 is a requirement that on iOS, browsers from Google, Microsoft
 
 No other major operating system imposes such a ban. Microsoft Windows, Android, Linux, and Apple’s own macOS all enable browser vendors to choose and modify their own engines. All rival iOS browsers are essentially Safari under the hood. This browser ban is unique to Apple’s iOS.
 
-Even in the EU, where Apple has been legally obligated to allow browser vendors to use their own engines for over 19 months, **no browser vendor has successfully ported a competing engine to iOS. [The financial, technical, and contractual barriers Apple has put in place remain insurmountable.](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/)** 
+Even in the EU, where Apple has been legally obligated to allow browser vendors to use their own engines for over 19 months, **no browser vendor has successfully ported a competing engine to iOS because [the financial, technical, and contractual barriers Apple has put in place remain insurmountable.](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/)** 
 
 The [CMA’s Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf) finds that Apple’s ban of third party browser engines harms both browser and web app competition on iOS:
 
@@ -123,6 +123,34 @@ The [CMA’s Final Decision](https://assets.publishing.service.gov.uk/media/68fb
 > (b) It means that app developers are prevented from developing their own in-app browsing implementations using their own browser engines. One app developer \[✄\] submitted that this prevents both mobile browsers and in-app browsing on iOS from competing more effectively with Safari. This app developer submitted that \[✄\].  <br><br>
 > (c) **It increases their costs by requiring them to develop a WebKit-based version of their browser to enter as a mobile browser on Apple’s Mobile Ecosystem, as opposed to being able to use the same browser engine that they use on other platforms.** This means they sometimes have to rebuild features in a different way for Apple’s Mobile Ecosystem, incurring additional costs. A few browser developers submitted that this delayed their entry on Apple’s Mobile Ecosystem.
 > <cite>[CMA \- SMS Investigation into Apple’s Mobile Platform \- Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf)<br>(emphasis added)</cite>
+
+## Web Apps can not Effectively Compete on iOS
+
+Somewhat surprisingly, **Apple submitted evidence** **arguing that web apps were an effective competitor to native apps on their app store**, despite the significant barriers that Apple has placed in their way, and the fact they [attempted to remove the functionality altogether](https://open-web-advocacy.org/blog/apple-backs-off-killing-web-apps/) in the EU rather than share it with third-party browsers using their own engines.
+
+[While this is an argument that Apple has made repeatedly around the globe](https://open-web-advocacy.org/walled-gardens-report/#:~:text=Apple%E2%80%99s%20original%20vision,Australia%20with%20Epic.), we had believed that given the [mounting regulatory push to enable both browsers and web apps to compete fairly on iOS](https://open-web-advocacy.org/blog/owa-2024-review/#the-regulatory-landscape-at-the-end-of-2024), and **the distinct possibility that web apps could actually become a powerful competitor to their app store, that Apple might retreat from this line of argument.**
+
+In particular, [were browser vendors allowed to use their own engines](https://open-web-advocacy.org/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers), [allowed to install and manage web apps using those engines](https://open-web-advocacy.org/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition/#:~:text=Most%20importantly%2C%20the,an%20open%20web.) and [were Apple to implement an equivalent installation mechanism to that they provide to their native apps via Safari](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive) (i.e. smart banners or an equivalent to install prompts), the impact on web apps’ viability would be profound.
+
+> Apple submitted that:  <br><br>
+> (a) On iOS and iPadOS, app developers have multiple web-based distribution options, **including web apps and web browsers and that the App Store is ‘constrained by these alternatives’.**  <br><br>
+> (b) **Web apps and PWAs often have a similar appearance, user experience and functionality as a native app and app developers can sell the same or very similar content via a traditional website as through a native app.** Apple highlighted several examples of apps that are available both as web apps and on the App Store, and noted that cloud gaming services allow video games to be streamed via web apps.  <br><br>
+> (c) **There are no factors that cause users to face difficulties in switching between using native apps and web apps** or home-screen web apps on iOS or using a combination of these distribution methods.  <br><br>
+> (d) It expects to continue to support tools for web apps and PWAs and **it will likely remain straightforward for users to access web apps and PWAs on iOS** by the end of 2030\.
+> <cite>[CMA \- SMS Investigation into Apple’s Mobile Platform \- Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf)<br>(emphasis added)</cite>
+
+However the CMA found that web apps are **not currently** a viable competitor to Apple’s App Store:
+
+> The evidence indicates that for content providers, **at present, web apps are not a viable substitute for native apps downloaded from the App Store.** This is despite web apps in principle being an attractive option for content providers because they involve lower development and maintenance costs compared to native apps.  <br><br>
+> Specifically, a range of content providers we gathered evidence from indicated that web apps are not viable substitutes to native apps, and a number of these content providers indicated that substitutability is **particularly limited in terms of functionality and discoverability, which are important factors for app developers’ distribution choices**. Several content providers further submitted that functionality **issues with web apps are due to restrictions that Apple has imposed on web browsers within its Mobile Ecosystem**.
+> <cite>[CMA \- SMS Investigation into Apple’s Mobile Platform \- Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf)<br>(emphasis added)</cite>
+
+This is unsurprising given the [extensive issues](https://webventures.rejh.nl/blog/2024/history-of-safari-show-stoppers/) [with developing web apps in iOS Safari](https://open-web-advocacy.org/walled-gardens-report/#ios-safari-is-buggy), [Apple’s ban on third-party browser engines](https://open-web-advocacy.org/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers) and the [lack of equivalent discoverability for web apps in Safari as Apple provides its own app store’s apps](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive).
+
+Worse, these problems on iOS dampen web app viability across the entire mobile ecosystem:
+
+> Several content providers further submitted that functionality **issues with web apps are due to restrictions that Apple has imposed on web browsers within its Mobile Ecosystem, which** **carry over to Google’s Mobile Ecosystem** due to the platform-agnostic nature of web apps (ie because web developers build their web apps using functionalities available across all major browsers).
+> <cite>[CMA \- SMS Investigation into Google’s Mobile Platform \- Final Decision](https://assets.publishing.service.gov.uk/media/68f8bf4780cf98c6e8ed8f83/Final_decision_report.pdf)<br>(emphasis added)</cite>
 
 ## Barriers to Rival Browsers on iOS
 
@@ -154,34 +182,6 @@ Finally, all of these issues combined lead the CMA to conclude that the competit
 > <cite>[CMA \- SMS Investigation into Apple’s Mobile Platform \- Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf)<br>(emphasis added)</cite>
 
 Importantly these are all issues that the CMA can directly address in their code of conduct for Apple.
-
-## Web Apps can not Effectively Compete on iOS
-
-Somewhat surprisingly, **Apple submitted evidence** **arguing that web apps were an effective competitor to native apps on their app store**, despite the significant barriers that Apple has placed in their way, and the fact they [attempted to remove the functionality altogether](https://open-web-advocacy.org/blog/apple-backs-off-killing-web-apps/) in the EU rather than share it with third-party browsers using their own engines.
-
-[While this is an argument that Apple has made repeatedly around the globe](https://open-web-advocacy.org/walled-gardens-report/#:~:text=Apple%E2%80%99s%20original%20vision,Australia%20with%20Epic.), we had believed that given the [mounting regulatory push to enable both browsers and web apps to compete fairly on iOS](https://open-web-advocacy.org/blog/owa-2024-review/#the-regulatory-landscape-at-the-end-of-2024), and **the distinct possibility that web apps could actually become a powerful competitor to their app store, that Apple might retreat from this line of argument.**
-
-In particular, [were browser vendors allowed to use their own engines](https://open-web-advocacy.org/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers), [allowed to install and manage web apps using those engines](https://open-web-advocacy.org/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition/#:~:text=Most%20importantly%2C%20the,an%20open%20web.) and [were Apple to implement an equivalent installation mechanism to that they provide to their native apps via Safari](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive) (i.e. smart banners or an equivalent to install prompts), the impact on web apps’ viability would be profound.
-
-> Apple submitted that:  <br><br>
-> (a) On iOS and iPadOS, app developers have multiple web-based distribution options, **including web apps and web browsers and that the App Store is ‘constrained by these alternatives’.**  <br><br>
-> (b) **Web apps and PWAs often have a similar appearance, user experience and functionality as a native app and app developers can sell the same or very similar content via a traditional website as through a native app.** Apple highlighted several examples of apps that are available both as web apps and on the App Store, and noted that cloud gaming services allow video games to be streamed via web apps.  <br><br>
-> (c) **There are no factors that cause users to face difficulties in switching between using native apps and web apps** or home-screen web apps on iOS or using a combination of these distribution methods.  <br><br>
-> (d) It expects to continue to support tools for web apps and PWAs and **it will likely remain straightforward for users to access web apps and PWAs on iOS** by the end of 2030\.
-> <cite>[CMA \- SMS Investigation into Apple’s Mobile Platform \- Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf)<br>(emphasis added)</cite>
-
-However the CMA found that web apps are **not currently** a viable competitor to Apple’s App Store:
-
-> The evidence indicates that for content providers, **at present, web apps are not a viable substitute for native apps downloaded from the App Store.** This is despite web apps in principle being an attractive option for content providers because they involve lower development and maintenance costs compared to native apps.  <br><br>
-> Specifically, a range of content providers we gathered evidence from indicated that web apps are not viable substitutes to native apps, and a number of these content providers indicated that substitutability is **particularly limited in terms of functionality and discoverability, which are important factors for app developers’ distribution choices**. Several content providers further submitted that functionality **issues with web apps are due to restrictions that Apple has imposed on web browsers within its Mobile Ecosystem**.
-> <cite>[CMA \- SMS Investigation into Apple’s Mobile Platform \- Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf)<br>(emphasis added)</cite>
-
-This is unsurprising given the [extensive issues](https://webventures.rejh.nl/blog/2024/history-of-safari-show-stoppers/) [with developing web apps in iOS Safari](https://open-web-advocacy.org/walled-gardens-report/#ios-safari-is-buggy), [Apple’s ban on third-party browser engines](https://open-web-advocacy.org/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers) and the [lack of equivalent discoverability for web apps in Safari as Apple provides its own app store’s apps](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive).
-
-Worse, these problems on iOS dampen web app viability across the entire mobile ecosystem:
-
-> Several content providers further submitted that functionality **issues with web apps are due to restrictions that Apple has imposed on web browsers within its Mobile Ecosystem, which** **carry over to Google’s Mobile Ecosystem** due to the platform-agnostic nature of web apps (ie because web developers build their web apps using functionalities available across all major browsers).
-> <cite>[CMA \- SMS Investigation into Google’s Mobile Platform \- Final Decision](https://assets.publishing.service.gov.uk/media/68f8bf4780cf98c6e8ed8f83/Final_decision_report.pdf)<br>(emphasis added)</cite>
 
 ## Apple Claims it has multiple Safaris (Again)
 

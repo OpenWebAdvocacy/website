@@ -301,8 +301,7 @@ The CMA in their latest report note that innovations have been held back due to 
 
 This matters as competition is the primary driver of growth and innovation. Companies that, due to anti-competitive behaviour or some structural reason, do not face sufficient competition, are likely to raise prices and minimize expenditure beyond what is necessary to retain existing customers.
 
-The CMA highlight that Apple can and does profitably forego innovation without fear of   
-losing customers to competitors with this quote:
+The CMA highlight that Apple can and does profitably forego innovation without fear of losing customers to competitors with this quote:
 
 > **Apple’s vice president of iPhone marketing** who explained in February 2020:‘In looking at it with hindsight, I think going forward we need to set a stake in the ground for **what features we think are ‘good enough’ for the consumer.** I would argue were \[sic\] already doing \*more\* than what would have been good enough.’ After identifying old features that ‘would have been good enough today if we hadn’t introduced \[updated features\] already’, she explained, ‘**anything new and especially expensive needs to be rigorously challenged before it’s allowed into the consumer phone**.’
 > <cite>[CMA \- SMS Investigation into Apple’s Mobile Platform \- Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf)<br>(emphasis added)</cite>

@@ -121,7 +121,7 @@ This is important, and lines up with a common argument about browser engines, wh
 
 ## Will Apple have to Allow Other Browser Engines on iOS?
 
-As Nilay mentions, Apple is gradually becoming legally obligated to allow browser vendors to use their own engines in a number of jurisdictions. However while there is significant forward momentum, **[Apple is obstructing browser vendors from actually upgrading their browsers to use their own engines](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/)**. Mozilla spokesperson Damiano DeMonte accused Apple of “*making it as painful as possible”.*
+As Nilay mentions, Apple is gradually becoming legally obligated to allow browser vendors to use their own engines in a number of jurisdictions. However, while there is significant forward momentum, **[Apple is obstructing browser vendors from actually upgrading their browsers to use their own engines](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/)**. Mozilla spokesperson Damiano DeMonte accused Apple of “*making it as painful as possible”.*
 
 > Apple's proposals fail to give consumers viable choices by making it as painful as possible for others to provide competitive alternatives to Safari \[...\] This is another example of Apple creating barriers to prevent true browser competition on iOS.
 > <cite>[Damiano DeMonte \- Mozilla](https://www.theverge.com/2024/1/26/24052067/mozilla-apple-ios-browser-rules-firefox)</cite>
@@ -156,7 +156,7 @@ Now, despite Apple being legally obligated to allow browser vendors to use their
 
 In 2024 the Department of Justice (DOJ) launched a [lawsuit](https://www.justice.gov/opa/media/1344546/dl?inline) against Apple arguing that they have illegally monopolized the US smartphone market. The government claimed Apple broke the law by maintaining a closed ecosystem for the iPhone in pursuit of profits and at the expense of consumers and innovation.
 
-The essence of the DOJ case is that Apple has made iPhones worse for US consumers in order to increase lock-in, reduce interoperability and block competitors from competing. The DOJ also argues that Apple uses security and privacy as a shield to justify its anticompetitive conduct.
+The essence of the DOJ case is that Apple has made iPhones worse for US consumers in order to increase lock-in, reduce interoperability, and block competitors from competing. The DOJ also argues that Apple uses security and privacy as a shield to justify its anticompetitive conduct.
 
 > Apple wraps itself in a cloak of privacy, security, and consumer preferences to justify its anticompetitive conduct. Indeed, it spends billions on marketing and branding to promote the self-serving premise that only Apple can safeguard consumers’ privacy and security interests. Apple selectively compromises privacy and security interests when doing so is in Apple’s own financial interest
 > <cite>[DOJ vs Apple](https://www.justice.gov/opa/media/1344546/dl?inline)</cite>
@@ -166,11 +166,11 @@ The DOJ has a number of examples of how Apple has done this, including discussin
 > **Developers cannot avoid Apple’s control of app distribution and app creation by making web apps**—apps created using standard programming languages for web-based content and available over the internet—as an alternative to native apps. **Many iPhone users do not look for or know how to find web apps, causing web apps to constitute only a small fraction of app usage.** Apple recognizes that web apps are not a good alternative to native apps for developers. As one Apple executive acknowledged, “\[d\]evelopers can’t make much money on the web.” Regardless, **Apple can still control the functionality of web apps because Apple requires all web browsers on the iPhone to use WebKit**, Apple’s browser engine—the key software components that third-party browsers use to display web content.
 > <cite>[DOJ vs Apple](https://www.justice.gov/opa/media/1344546/dl?inline)<br>(emphasis added)</cite>
 
-It is worth noting that one of the reasons that many users on iOS are unaware of how to install web apps is Apple has for years refused to implement install prompts and [hidden away the mechanism for installing them on the share menu](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive). At the same time, Apple has gone to great lengths to make it easy to link to and install Apple’s own iOS app store native apps from Safari.
+It is worth noting that one of the reasons that many users are unaware of how to install web apps on iOS, is that Apple has for years refused to implement install prompts and [hidden away the mechanism for installing them on the share menu](https://open-web-advocacy.org/walled-gardens-report/#ios-web-app-installation---a-well-hidden-safari-exclusive). At the same time, Apple has gone to great lengths to make it easy to link to and install native apps via Apple’s own iOS app store, right from Safari.
 
 This case is in its early stages and will likely run for several years.
 
-David Pierce of the Verge hits upon this idea of Apple making its iPad actively worse for consumers by blocking competing browser engines [in his most recent piece](https://www.theverge.com/tech/817939/ipad-pro-laptop-computer-2025):
+David Pierce of The Verge hits upon this idea of Apple making its iPad actively worse for consumers by blocking competing browser engines [in his most recent piece](https://www.theverge.com/tech/817939/ipad-pro-laptop-computer-2025):
 
 > **The iPad’s** **draconian security policies, underpowered browser**, and minuscule ideas about multitasking **made the device feel like less than the sum of its parts**. Users wanted a new laptop, and Apple told them to kick rocks. The iPad was something else, it said, and if you wanted a laptop you should buy a Mac. \[...\]  <br><br>
 > **Which makes it all the more annoying every time you run into some totally unnecessary system limitation.** There are still a lot of those. Apple’s laptops are allowed to run any app, not just the ones in the App Store. They can interact with more accessories. They can access virtually everything about the system through the Terminal. **They can run better browsers.** Utility apps I rely on to make my computing life easier, like Raycast and Better Touch Tool, just don’t exist the same way on the iPad. **There’s almost nothing the Mac straight-up won’t let you do, but the iPad is full of limitations.** **They’ve been there for so long, and are so glaring, that we’ve been mad about them in reviews since at least 2018\. Apple saw them as a feature, not a bug.** \[...\]  <br><br>
@@ -228,7 +228,7 @@ According to the CMA these interventions could lead to greater browser and web a
 
 On the 22nd of October 2025, [the CMA formally designated both Apple](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf) [and Google](https://assets.publishing.service.gov.uk/media/68f8bf4780cf98c6e8ed8f83/Final_decision_report.pdf) as having Strategic Market Status.
 
-The [CMA’s Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf) finds that Apple’s ban of third party browser engines harms both browser and web app competition on iOS:
+The [CMA’s Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf) finds that Apple’s ban of third-party browser engines harms both browser and web app competition on iOS:
 
 > **We find that the WebKit restriction restricts the ability of rival mobile browsers to innovate and develop features, and increases their costs.** It therefore creates a barrier to entry and expansion for rival mobile browsers on Apple’s Mobile Ecosystem and limits the competitive constraint on Safari.
 > <cite>[CMA \- SMS Investigation into Apple’s Mobile Platform \- Final Decision](https://assets.publishing.service.gov.uk/media/68fb86f430c331c88be6f0cb/Final_decision_report.pdf)<br>(emphasis added)</cite>

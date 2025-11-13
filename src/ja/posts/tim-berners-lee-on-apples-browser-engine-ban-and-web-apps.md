@@ -1,8 +1,18 @@
 ---
-title: "Sir Tim Berners-Lee Discusses Apple’s Browser Engine Ban and Web Apps"
+title: Tim Berners-Lee On Apple’s Browser Engine Ban and Web Apps
 date: '2025-11-13'
-tags: ['Policy', 'Apple', 'UK', 'EU', 'Japan', 'USA', 'Australia']
-author: "OWA"
+tags:
+  - Policy
+  - Apple
+  - UK
+  - EU
+  - Japan
+  - USA
+  - Australia
+author: OWA
+permalink: /ja/blog/tim-berners-lee-on-apples-browser-engine-ban-and-web-apps/index.html
+layout: layouts/post.njk
+translated: false
 ---
 
 **TL;DR: Sir Tim Berners-Lee, inventor of the World Wide Web and HTML has expressed support for compelling Apple to allow other browser engines on iOS, as more competition leads to more innovation and bright ideas. He also states that having a powerful browser on iOS would *"change the dynamic"* with respect to web app's viability on mobile.**
@@ -27,7 +37,8 @@ The [Verge’s Decoder podcast just published a fascinating interview](https://w
 > We’ve been chatting to a bunch of experts on tests to find out to what extent this is true. Yes, I’ve heard rumors, but I can’t substantiate them on whether Apple is deliberately slowing down WebKit on the phone, so as not to compete with Apple native apps.
 > <cite>[Sir Tim Berners-Lee](https://youtu.be/78w61I62N_0?t=2457)</cite>
 
-> By the way, just for the record, Apple would tell you as loudly as they can that WebKit on the phone is as good as any other browser. And I think most users would tell you that it is not. And that gap is where I think the theories about Apple's development priorities come from. But I'm just asking more hypothetically. **We've discussed the web as an application at an all-time high. Right? On desktop, if you have a Mac or a Windows PC or Linux, you are using web apps.** Like mostly what you're using is applications expressed through web technology. Even if they appear to be native, right? Electron and other wrappers are just presenting web apps to you in ways that feel native. That is not true on mobile. It just really is not. Even for Google's efforts on Android, right? Progressive web apps on Android have not taken the world by storm. **Do you think a more powerful browser on the iPhone would ever change that dynamic or do you think people just want apps on phones?**
+> By the way, just for the record, Apple would tell you as loudly as they can that WebKit on the phone is as good as any other browser. And I think most users would tell you that it is not. And that gap is where I think the theories about Apple's development priorities come from. But I'm just asking more hypothetically. **We've discussed the web as an application at an all-time high. Right? On desktop, if you have a Mac or a Windows PC or Linux, you are using web apps.** Like mostly what you're using is applications expressed through web technology. Even if they appear to be native, right? Electron and other wrappers are just presenting web apps to you in ways that feel native. That is not true on mobile. It just really is not. Even for Google's efforts on Android, right? Progressive web apps on Android have not taken the world by storm.<br><br>
+> **Do you think a more powerful browser on the iPhone would ever change that dynamic or do you think people just want apps on phones?**
 > <cite>[Nilay Patel \- The Verge](https://youtu.be/78w61I62N_0?t=2457)<br>(emphasis added)</cite>
 
 > **<span style="color: var(--main-color);">I think a more powerful browser on the iPhone would change that dynamic</span>**

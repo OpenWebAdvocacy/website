@@ -5,9 +5,9 @@ tags: ['Policy', 'Apple', 'UK', 'EU', 'Japan', 'USA', 'Australia']
 author: "OWA"
 ---
 
-**TL;DR: Sir Tim Berners-Lee, inventor of the World Wide Web and HTML has expressed support for compelling Apple to allow other browser engines on iOS, as more competition leads to more innovation and bright ideas. He also states that having a powerful browser on iOS would *"change the dynamic"* with respect to web app's viability on mobile.**
+**TL;DR: Sir Tim Berners-Lee, inventor of the World Wide Web and HTML, has expressed support for compelling Apple to allow other browser engines on iOS, as more competition leads to more innovation and bright ideas. He also states that having a powerful browser on iOS would *"change the dynamic"* with respect to web app's viability on mobile.**
 
-The [Verge’s Decoder podcast just published a fascinating interview](https://www.youtube.com/watch?v=78w61I62N_0) with [Sir Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee), the inventor of the World Wide Web and HTML. The whole interview is great and we recommend you listen to it in full.
+[The Verge’s Decoder podcast just published a fascinating interview](https://www.youtube.com/watch?v=78w61I62N_0) with [Sir Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee), the inventor of the World Wide Web and HTML. The whole interview is great and we recommend you listen to it in full.
 
 [This section](https://youtu.be/78w61I62N_0?t=2457) was particularly striking:
 
@@ -20,7 +20,7 @@ The [Verge’s Decoder podcast just published a fascinating interview](https://w
 > <cite>[Sir Tim Berners-Lee](https://youtu.be/78w61I62N_0?t=2457)<br>(emphasis added)</cite>
 
 > **One of the arguments I've heard for why Apple will not allow other browser engines is that they can artificially restrict WebKit.** So, it's not as good of a competitor to the native apps on the iPhone as web apps on the desktop are to native apps on the Mac or Windows or whatever.<br><br>
-> **If you had true web apps being able to run in Chromium on the iPhone, if you had that browser competition, there was a much more capable browser. Do you think that would displace how the native apps work?** <br><br>
+> **If you had true web apps being able to run in Chromium on the iPhone, if you had that browser competition, there was a much more capable browser, do you think that would displace how the native apps work?** <br><br>
 > This is where we began the conversation, right? Is this push to apps because they're more capable on the iPhone? But if you had a browser that was as capable as a desktop browser on the iPhone, do you think that would change the dynamic?
 > <cite>[Nilay Patel \- The Verge](https://youtu.be/78w61I62N_0?t=2457)<br>(emphasis added)</cite>
 
@@ -33,7 +33,7 @@ The [Verge’s Decoder podcast just published a fascinating interview](https://w
 > **<span style="color: var(--main-color);">I think a more powerful browser on the iPhone would change that dynamic</span>**
 > <cite>[Sir Tim Berners-Lee](https://youtu.be/78w61I62N_0?t=2457)<br>(emphasis added)</cite>
 
-> Because that to me feels like for all of the things we've talked about the future of the web has to happen on mobile, right I mean that is where the people are, that is the device that everyone carries around every day, and right now **Apple's decisions about what the web cannot do on mobile are actually the gatekeeper right. In real ways for most people's experience of the web**. **And so it's if you introduce some competition, can you break that or do you need to just switch to Android where Google wants you to use the web?**
+> Because that, to me, feels like for all of the things we've talked about the future of the web has to happen on mobile, right? I mean, that is where the people are, that is the device that everyone carries around every day, and right now **Apple's decisions about what the web cannot do on mobile are actually the gatekeeper right? In real ways, for most people's experience of the web**. **And so, it's if you introduce some competition, can you break that or do you need to just switch to Android where Google wants you to use the web?**
 > <cite>[Nilay Patel \- The Verge](https://youtu.be/78w61I62N_0?t=2457)<br>(emphasis added)</cite>
 
 > **Exactly**
@@ -43,7 +43,7 @@ There is a lot to unpack here.
 
 We 100% agree with both Sir Tim Berners-Lee and Nilay Patel and would like to thank them for taking the time to discuss the issue so clearly. 
 
-For new readers, [Open Web Advocacy was founded in March 2021](https://open-web-advocacy.org/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition/#timeline-of-events) specifically to ensure that browsers and web apps could compete fairly on all operating systems. At the heart of that goal is ending Apple’s ban on third-party browser engines on iOS. For the last four years we have worked with regulators in the [EU](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/), [UK](https://open-web-advocacy.org/blog/what-apples-uk-strategic-market-status-designation-means-for-browsers-and-web-apps/), [Japan](https://open-web-advocacy.org/blog/japan-apple-must-lift-engine-ban-by-december/), [USA](https://open-web-advocacy.org/blog/us-doj-files-apple-antitrust-case/) and [Australia](https://open-web-advocacy.org/blog/new-digital-competition-laws-for-australia/) to fix the Web on mobile which we believe is fundamentally being held back by anti-competitive behaviour. 
+For new readers, [Open Web Advocacy was founded in March 2021](https://open-web-advocacy.org/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition/#timeline-of-events) specifically to ensure that browsers and web apps could compete fairly on all operating systems. At the heart of that goal is ending Apple’s ban on third-party browser engines on iOS. For the last four years we have worked with regulators in the [EU](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/), [UK](https://open-web-advocacy.org/blog/what-apples-uk-strategic-market-status-designation-means-for-browsers-and-web-apps/), [Japan](https://open-web-advocacy.org/blog/japan-apple-must-lift-engine-ban-by-december/), [USA](https://open-web-advocacy.org/blog/us-doj-files-apple-antitrust-case/) and [Australia](https://open-web-advocacy.org/blog/new-digital-competition-laws-for-australia/) to fix the Web on mobile, which we believe is fundamentally being held back by anti-competitive behaviour. 
 
 ## Apple’s Browser Engine Ban
 
@@ -51,7 +51,7 @@ For the last 16 years, Apple has banned browser vendors from porting their own b
 
 > 2.5.6 Apps that browse the web must use the appropriate WebKit framework and WebKit JavaScript.
 
-In practice, 2.5.6 is a requirement that on iOS, browsers from Google, Microsoft, Mozilla, Samsung, Vivaldi, Brave, Opera and others cannot use their own engines the way they do everywhere else. These engines take hundreds of thousands of engineer hours to develop, and are excluded from Apple’s most successful consumer operating system. Competing browser vendors are only allowed to produce shells around a very specific, unaltered version of Safari’s WebView; a component whose features Apple dictates.
+In practice, 2.5.6 is a requirement that, on iOS, browsers from Google, Microsoft, Mozilla, Samsung, Vivaldi, Brave, Opera and others cannot use their own engines the way they do everywhere else. These engines take hundreds of thousands of engineer hours to develop, and are prohibited from running on Apple’s most successful consumer operating system. Competing browser vendors are only allowed to produce shells around a very specific, unaltered version of Safari’s WebView; a component whose features Apple dictates.
 
 ## Is Apple holding back the Web on iOS?
 

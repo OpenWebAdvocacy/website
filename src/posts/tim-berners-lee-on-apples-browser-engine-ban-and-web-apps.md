@@ -7,7 +7,7 @@ author: "OWA"
 
 **TL;DR: Sir Tim Berners-Lee, inventor of the World Wide Web and HTML, has expressed support for compelling Apple to allow other browser engines on iOS, as more competition leads to more innovation and bright ideas. He also states that having a powerful browser on iOS would *"change the dynamic"* with respect to web app's viability on mobile.**
 
-[The Verge’s Decoder podcast just published a fascinating interview](https://www.youtube.com/watch?v=78w61I62N_0) with [Sir Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee), the inventor of the World Wide Web and HTML. The whole interview is great and we recommend you listen to it in full.
+[The Verge’s Decoder podcast just published a fascinating interview](https://www.theverge.com/podcast/814552/tim-berners-lee-world-wide-web-ai-future-interview) with [Sir Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee), the inventor of the World Wide Web and HTML. The whole interview is great and we recommend you listen to it in full.
 
 [This section](https://youtu.be/78w61I62N_0?t=2457) was particularly striking:
 

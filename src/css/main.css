@@ -1156,6 +1156,28 @@ div.prom-banner div:nth-child(4) {
   max-width: 30em;
 }
 
+div.prom-banner div.donation-details div {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+div.prom-banner div.donation-details table, th, td {
+  border: none;
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+  background: var(--main-light);
+  color: inherit;
+}
+
+div.prom-banner div.donation-details table {
+  border-spacing: 0;
+}
+
+div.prom-banner div.donation-details th, td {
+  font-weight: normal;
+}
+
 /* CONTRIBUTORS PAGE */
 
 ul.contributors {

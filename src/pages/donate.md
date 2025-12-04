@@ -37,7 +37,7 @@ Please consult a tax professional regarding the deductibility of donations in yo
       For banking details, please <a href="mailto:contactus@open-web-advocacy.org">email us</a>.</p>
       </li>
       <li><p><strong>Donor Advised Funds</strong></br>
-      Please make the donation out to Aspiration (EIN: 91-2106274). In the details please write &quot;To further OWA&#39;s charitable purpose&quot;.</p>
+      Please make the donation out to Aspiration (EIN: 91-2106274). See details below.</p>
       </li>
       <li><p><strong>Matching Gifts</strong></br>
       You may be able to double or triple your gift through your employer’s matching gift program. Contact your employer’s social impact team or HR team to see if they match. If they do, <a href="mailto:contactus@open-web-advocacy.org">let us know</a>!</p>
@@ -49,8 +49,31 @@ Please consult a tax professional regarding the deductibility of donations in yo
       For stock transfer details, please <a href="mailto:contactus@open-web-advocacy.org">email us</a>.</p>
       </li>
     </ul>
+    <div class="donation-details">
+      <div><strong>Donation Details</strong></div>
+      <table>
+        <tr>
+          <td>Name</td>
+          <td>Aspiration</td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>2973 16th St Ste 300 San Francisco, CA 94103-3633 USA</td>
+        </tr>
+        <tr>
+          <td>Tax ID</td>
+          <td>91-2106274</td>
+        </tr>
+        <tr>
+          <td>Purpose</td>
+          <td>"To further OWA's charitable purpose"</td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
+
+
 
 ## What do we do?
 

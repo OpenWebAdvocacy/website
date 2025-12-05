@@ -34,19 +34,21 @@ Please consult a tax professional regarding the deductibility of donations in yo
     <p>Aspiration can accept a wide variety of donation types including:</p>
     <ul>
       <li><p><strong>Bank Transfer / Wire Transfer / EFT</strong></br>
-      For banking details, please <a href="mailto:contactus@open-web-advocacy.org">email us</a>.</p>
+      For banking details, please <a href="mailto:contactus@open-web-advocacy.org?subject=Donation%20-%20Bank%20Transfer%20%2F%20Wire%20Transfer%20%2F%20EFT&body=Dear%20Open%20Web%20Advocacy%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20Aspiration%20in%20support%20of%20OWA%E2%80%99s%20charitable%20purpose.%0A%0APlease%20provide%20me%20with%20the%20details%20for%20a%20Bank%20Transfer%20%2F%20Wire%20Transfer%20%2F%20EFT.%0A%0A%0A">email us</a>.</p>
       </li>
       <li><p><strong>Donor Advised Funds</strong></br>
-      Please make the donation out to Aspiration (EIN: 91-2106274). See details below.</p>
+      Please make the donation out to Aspiration (EIN: 91-2106274). In the details please write &quot;To further OWA&#39;s charitable purpose&quot;.</p>
       </li>
       <li><p><strong>Matching Gifts</strong></br>
-      You may be able to double or triple your gift through your employer’s matching gift program. Contact your employer’s social impact team or HR team to see if they match. If they do, <a href="mailto:contactus@open-web-advocacy.org">let us know</a>!</p>
+      You may be able to double or triple your gift through your employer’s matching gift program. Contact your employer’s social impact team or HR team to see if they match. If they do, <a href="mailto:contactus@open-web-advocacy.org?subject=Donation%20-%20Matching%20Gift&body=Dear%20Open%20Web%20Advocacy%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20Aspiration%20in%20support%20of%20OWA%E2%80%99s%20charitable%20purpose.%0A%0APlease%20provide%20me%20with%20the%20details%20for%20a%20matching%20gift.%0A%0A%0A">let us know</a>!</p>
       </li>
-      <li><p><strong>Check</strong></br>
-      For check details, please <a href="mailto:contactus@open-web-advocacy.org">email us</a>.</p>
-      </li>
-      <li><p><strong>Stock</strong></br>
-      For stock transfer details, please <a href="mailto:contactus@open-web-advocacy.org">email us</a>.</p>
+      <li>
+        <p>
+          <strong>Check / Stock / Crypto / Other</strong>
+          </br>
+          For details please
+          <a href="mailto:contactus@open-web-advocacy.org?subject=Donation%20-%20Check%2FStock%2FCrypto%2FOther&body=Dear%20Open%20Web%20Advocacy%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20Aspiration%20in%20support%20of%20OWA%E2%80%99s%20charitable%20purpose.%0A%0APlease%20provide%20me%20with%20the%20details%20for%20a%20Check%20%2F%20Stock%20%2F%20Crypto%20%2F%20Other%20transfer.%0A%0A%0A">email us</a>.
+        </p>
       </li>
     </ul>
     <div class="donation-details">
@@ -72,8 +74,6 @@ Please consult a tax professional regarding the deductibility of donations in yo
     </div>
   </div>
 </div>
-
-
 
 ## What do we do?
 

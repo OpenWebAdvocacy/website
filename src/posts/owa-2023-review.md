@@ -45,7 +45,8 @@ relatedLinks:
 
 {% image
   "/images/blog/owa-2023-review.webp",
-  "Let’s ring in the new year with a review of everything OWA achieved in 2023. The whole team would like to thank our kind volunteers and donors. We couldn’t do it without you! Happy New Year! Open-Web-Advocacy.org"
+  "Let’s ring in the new year with a review of everything OWA achieved in 2023. The whole team would like to thank our kind volunteers and donors. We couldn’t do it without you! Happy New Year! Open-Web-Advocacy.org",
+  { loading: 'eager' }
 %}
 
 We’re living through a moment of real potential for change. For over a decade the Web has been prevented from fairly competing. That’s changing, and we’re working without fear or favor to direct change toward a safe, open future for computing and a better Web for all.

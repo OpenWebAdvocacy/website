@@ -1,24 +1,24 @@
 /* --------------------------------------------------------------------
     OPEN WEB ADVOCACY
     Media queries
-    2022
+    2022/2025
 -------------------------------------------------------------------- */
 
 @media screen and (min-width: 400px) {
-  div.site-header__inner {
+  /* div.site-header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+  } */
 
   header:not(.home-header) nav {
     text-align: right;
-    padding: 0 0 1rem;
+    /* padding: 0 0 1rem; */
   }
 
-  header:not(.home-header) nav ul {
+  /* header:not(.home-header) nav ul {
     display: block;
-  }
+  } */
 
   dl.glossary dd {
     position: relative;
@@ -57,15 +57,7 @@
   ul.contributors li {
     min-width: 300px;
   }
-}
 
-@media screen and (min-width: 500px) and (max-width: 1300px) {
-  .home-wrapper div.timer {
-    flex-direction: row;
-    align-items: center;
-    gap: 3rem;
-  }
-  main > div.dma-countdown .timeCd {--flow-space: 0; font-size: 2.5em;}
 }
 
 @media screen and (min-width: 500px) {
@@ -79,15 +71,25 @@
   }
 
   header:not(.home-header) nav a:hover {
-    color: var(--n-dark);
-    background-color: var(--main-color);
+    color: var(--main-light);
   }
 
   header.home-header nav {
     text-align: right;
   }
 
-  body>footer {
+  div.site-header__inner a.site-header__brand {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: end;
+    gap: 3vw;
+  }
+
+  div.site-header__inner a span {
+    display: block;
+  }
+
+  body > footer {
     margin-top: 4rem;
     margin-bottom: 1rem;
   }
@@ -96,8 +98,15 @@
     gap: 3rem;
     margin-bottom: 3rem;
   }
-}
 
+  blockquote {
+    padding-right: 0;
+    padding-left: 3.5rem;
+  }
+  blockquote::before {
+    font-size: 7rem;
+  }
+}
 
 @media screen and (min-width: 700px) {
   p.logo-home {
@@ -105,25 +114,15 @@
   }
 
   figure {
-    display: flex;
-    gap: 2rem;
     padding: 2rem;
   }
-}
 
-@media screen and (min-width: 900px) and (max-width: 1300px) {
-  .home-wrapper div.dma-countdown {
-    position: relative;
+  dl {
     display: grid;
-    grid-template-columns: 1fr 425px;
-    gap: 1.5rem;
+    grid-template-columns: minmax(auto, 20ch) 1fr;
+    grid-gap: 0.5rem 1rem;
   }
-  .home-wrapper div.timer {margin: 0;}
-  .home-wrapper div.dma-countdown > p:last-of-type {
-    position: absolute;
-    bottom: 1.65rem;
-    left: 1.5rem;
-  }
+  dt {margin-top: 0;}
 }
 
 @media screen and (min-width: 1000px) {
@@ -133,7 +132,7 @@
     align-items: flex-end;
   }
 
-  header nav ul {
+  header.home-header nav ul {
     display: block;
   }
 
@@ -142,6 +141,8 @@
     background-color: var(--body-bg);
     padding: 0;
   }
+
+  header nav ul {justify-content: space-between;}
 
   header.home-header li {
     font-variation-settings: var(--fvs-regular);
@@ -169,6 +170,10 @@
     display: flex;
     justify-content: space-between;
     gap: 4vw;
+  }
+  aside {
+    box-sizing: border-box;
+    max-width: 328px;
   }
 }
 
@@ -257,6 +262,10 @@
     padding-right: 2rem;
   }
 
+  header:not(.home-header) nav ul {
+    justify-content: space-between;
+  }
+
   dl.counter dt {
     font-size: 1.5em;
     padding-top: 0.5em;
@@ -273,10 +282,6 @@
 
   div.promo {
     flex-direction: row-reverse;
-  }
-
-  div.promo div.group {
-    flex: 0;
   }
 
   div.promo p.illustration {
@@ -356,13 +361,5 @@
   summary h2 {
     font-size: 1.2em;
   }
-
-  aside > div.dma-countdown {
-    display: block;
-  }
-  main > div.dma-countdown {
-    display: none;
-  }
-  div.timer {width: calc(100% + 5rem);}
 
 }

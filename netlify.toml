@@ -1,6 +1,26 @@
 [build]
-  command = "npm run production"
-  publish = "dist"
+command = "npm run production"
+publish = "dist"
+
+[[plugins]]
+package = "netlify-plugin-cache"
+  [plugins.inputs]
+  paths = [".cache"]
 
 [build.environment]
-  NODE_VERSION = "16.14.0"
+NODE_VERSION = "20"
+
+# Redirect for end-user’s browser preference override
+[[redirects]]
+  from = "/"
+  to = "/es"
+  status = 302
+  force = true
+  conditions = {Language = ["es"]}
+
+[[redirects]]
+  from = "/"
+  to = "/ja"
+  status = 302
+  force = true
+  conditions = {Language = ["ja"]}

@@ -7,9 +7,9 @@ author: "Frances Berriman"
 
 {% image
   "/images/blog/CMA-restarts-investigation.webp",
-  "The deadline for Apple to seek the Court of Appeal’s permission to appeal the Court’s decision has now lapsed, therefore in accordance with the Court’s order dated 30 November 2023, the market investigation will recommence on 24 January 2023. Competition and Markets Authority, UK Government"
+  "The deadline for Apple to seek the Court of Appeal’s permission to appeal the Court’s decision has now lapsed, therefore in accordance with the Court’s order dated 30 November 2023, the market investigation will recommence on 24 January 2023. Competition and Markets Authority, UK Government",
+  { loading: 'eager' }
 %}
-
 
 Nearly three weeks ago, [we reported that](https://open-web-advocacy.org/blog/apple-loses-on-appeal/) London's Court of Appeal [had ruled against Apple](https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/1445) and in favour of the UK’s Competition and Markets Authority (CMA), allowing the CMA to reopen their [Browser and Cloud Gaming Market Investigation](https://www.gov.uk/cma-cases/mobile-browsers-and-cloud-gaming). There was a 21 day grace period before that investigation could restart to allow Apple to respond.
 

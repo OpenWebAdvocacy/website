@@ -11,7 +11,8 @@ relatedLinks:
 
 {% image
   "/images/blog/AppleLosesonAppeal.webp",
-  "Apple loses on Appeal,  CMA Investigation into browsers to reopen. This ruling gives the CMA the backing it needs to protect consumers and promote competition in UK. As this judgement clearly states, the previous ruling by the CAT would have had ‘serious consequences’ for the CMA’s ability to investigate potential breaches of the law. We launched this investigation over a year ago in order to make sure that UK consumers get the best services and apps on their mobile phones, and that UK developers can invest in innovative new apps. We stand ready to reopen it when the legal process is complete. Sarah Cardell, Chief Executive of the CMA"
+  "Apple loses on Appeal,  CMA Investigation into browsers to reopen. This ruling gives the CMA the backing it needs to protect consumers and promote competition in UK. As this judgement clearly states, the previous ruling by the CAT would have had ‘serious consequences’ for the CMA’s ability to investigate potential breaches of the law. We launched this investigation over a year ago in order to make sure that UK consumers get the best services and apps on their mobile phones, and that UK developers can invest in innovative new apps. We stand ready to reopen it when the legal process is complete. Sarah Cardell, Chief Executive of the CMA",
+  { loading: 'eager' }
 %}
 
 In a victory for consumers and developers, London's Court of Appeal [has ruled against Apple](https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/1445) and in favour of the UK’s Competition and Markets Authority (CMA), allowing the CMA to reopen their [Browser and Cloud Gaming Market Investigation Reference](https://www.gov.uk/cma-cases/mobile-browsers-and-cloud-gaming).

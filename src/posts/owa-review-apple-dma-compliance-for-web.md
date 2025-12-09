@@ -153,7 +153,7 @@ Browser vendors need to be able to roll out their engines in a stable, predictab
 
 No one on our team is a lawyer, but to our un-lawyerly eyes a number of clauses in Apple’s contract seem not only unfair, but also in direct violation of the DMA. 
 
-To our knowledge a specific contract to be “allowed” to use bring a browser engine is unique to Apple in the history of successful consumer operating systems.
+To our knowledge a specific contract to be “allowed” to bring a browser engine is unique to Apple in the history of successful consumer operating systems.
 
 > While in no way limiting Apple’s other rights under this Addendum or the Developer Agreement, or any other remedies at law or equity, if Apple has reason to believe You or Your Alternative Web Browser Engine App (EU) have failed to comply with the requirements of this Addendum or the Developer Agreement, Apple reserves the right to revoke to Your access to any or all of the Alternative Web Browser Engine APIs immediately upon notice to You; require You to remove Your Entitlement Profile from Your Alternative Web Browser Engine Application (EU); terminate this Addendum; block updates of, hide, or remove Your Alternative Web Browser Engine App (EU) and/or other Applications from the App Store; block Your Applications from distribution on Apple platforms; and/or to suspend or remove You from the Apple Developer Program.
 ><cite>[Apple’s New Browser Engine Contract](https://developer.apple.com/contact/request/download/web_browser_engine.pdf)</cite>

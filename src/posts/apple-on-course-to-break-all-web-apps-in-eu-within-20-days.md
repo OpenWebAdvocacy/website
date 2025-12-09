@@ -14,7 +14,8 @@ relatedLinks:
 
 {% image
   "/images/blog/apple-on-course-to-break-all-web-apps-in-eu-within-20-days.png",
-  "OWA Logo and open-web-advocacy.org with the text: Apple on course to break all Web Apps in EU within 20 days. No Fix: Beta 1, Beta 2, Beta 3. New UI indicates deliberate choice. Nothing in release notes. No mention in compliance proposal. No response to bug tickets. No response from Apple. NOT required by the DMA."
+  "OWA Logo and open-web-advocacy.org with the text: Apple on course to break all Web Apps in EU within 20 days. No Fix: Beta 1, Beta 2, Beta 3. New UI indicates deliberate choice. Nothing in release notes. No mention in compliance proposal. No response to bug tickets. No response from Apple. NOT required by the DMA.",
+  { loading: 'eager' }
 %}
 
 In 2011, Philip Schiller internally sent an email to Eddie Cue to discuss the threat of HTML5 to the Apple App Store titled **“HTML5 poses a threat to both Flash and the App Store”**.
@@ -51,8 +52,8 @@ The Digital Markets Act even stated it as the primary motivation to prohibit ban
 
 We wrote last week [about concerning changes in  iOS 17.4 Beta 1 (EU)](https://open-web-advocacy.org/blog/did-apple-just-break-web-apps-in-ios17.4-beta-eu/). Sites installed to the homescreen failed to launch in their own top-level activities, opening directly in the default browser instead, even when the default browser is the browser that installed it. This demotes Web Apps from first-class citizens to mere shortcuts. Developers have since confirmed this does not occur outside the EU. Two betas later it is becoming more likely that this is a deliberate choice on the part of Apple to remove the ability to install Web Apps.
 
-Beta 2 [contained a more detailed message](https://twitter.com/mysk_co/status/1754978973417672794) to the user stating: 
-> "Open 'WEB APP NAME' in Safari. 'WEB APP NAME' will open in your default browser from now on.". 
+Beta 2 [contained a more detailed message](https://twitter.com/mysk_co/status/1754978973417672794) to the user stating:
+> "Open 'WEB APP NAME' in Safari. 'WEB APP NAME' will open in your default browser from now on.".
 
 This message occurs even if both the browser that installed the Web App and your default browser is iOS Safari.
 
@@ -98,9 +99,9 @@ Outright remove support for Web Apps by converting them all to bookmarks. This r
 
 We considered that Apple might try something like this, but dismissed it as too blatantly anti-competitive, [even for them](https://open-web-advocacy.org/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers). Now, even as it looks increasingly less likely that Cupertino is acting in good faith, Apple could declare this unfinished or a bug. That would go some way towards alleviating concerns, but if the Beta breakage of Web Apps ever makes it onto users’ devices, it will show that Apple is actively seeking to block the Web from ever competing fairly with their App Store.
 
-Some defend Apple's decision to remove Web Apps as a necessary response to the DMA, but this is misguided. 
+Some defend Apple's decision to remove Web Apps as a necessary response to the DMA, but this is misguided.
 
-Apple has had 15 years to facilitate true browser competition worldwide, and nearly two years since the DMA’s final text. It could have used that time to share functionality it historically self-preferenced to Safari with other browsers. Inaction and silence speaks volumes. 
+Apple has had 15 years to facilitate true browser competition worldwide, and nearly two years since the DMA’s final text. It could have used that time to share functionality it historically self-preferenced to Safari with other browsers. Inaction and silence speaks volumes.
 
 The complete absence of Web Apps in Apple's DMA compliance proposal, combined with the omission of this major change from Safari beta release notes, indicates to us a strategy of deliberate obfuscation. Even if Apple were just starting to internalize its responsibilities under the DMA, this behaviour is unacceptable.  A concrete proposal with clear timelines, outlining how third party browsers could install and power Web Apps using their own engines, could prevent formal proceedings, but this looks increasingly unlikely. Nothing in the DMA compels Apple to break developers' Web Apps, and doing so through ineptitude is no excuse.
 
@@ -118,11 +119,11 @@ Apple’s defenders might have been able to argue that [a history of inadequate 
 Apple looks to be taking active and provocative steps to scuttle Web Apps and to prevent other browsers from providing them. This suggests that Apple is still fearful of a future where users and developers can simply bypass Apple’s App Store using the power of the Web. OWA welcomes that future and will continue to work to ensure it becomes reality, in Europe and beyond -- just as Steve Jobs promised.
 
 <div class="prom-banner" style="max-width: 30em;">
-    <p class"illustration"><img src="/images/donate.svg" alt="" /></p>
-    <p><strong>If you ship a Web App in the EU and will be impacted by this, please fill in our survey.</strong> It is critical that we gather as much evidence as possible to prevent Apple from breaking Web Apps in the EU.</p>
-    
+    <p class="x-illustration"><img src="/images/donate.svg" alt="" /></p>
+    <p><strong>If you ship a Web App in the EU and will be impacted by this, please sign our open letter to Tim Cook.</strong> It is critical that we gather as much evidence as possible to prevent Apple from breaking Web Apps in the EU.</p>
+
     <div>
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfNgzepH4lwmWf2kaKC4EpKPdfi69jUHFM8kf4-TBsAyWU1BA/viewform" class="donate-button">Fill in our Survey
+        <p><a href="https://letter.open-web-advocacy.org/" class="donate-button">Sign the letter to Tim Cook
             <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg>
         </a></p>
     </div>

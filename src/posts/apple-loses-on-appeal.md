@@ -3,6 +3,10 @@ title: 'Apple loses on Appeal, CMA can restart investigation into browsers'
 date: '2023-12-01'
 tags: ['Policy', 'Updates', 'UK']
 author: "Alex Moore"
+relatedLinks:
+  - url: https://www.marketwatch.com/story/how-profitable-is-apples-app-store-even-a-landmark-antitrust-trial-couldnt-tell-us-11622224506
+    title: How much does Apple make from the App Store? Even a landmark antitrust trial couldn’t reveal it
+    date: 2021-05-28
 ---
 
 {% image

@@ -7,6 +7,12 @@ relatedLinks:
   - url: https://www.apple.com/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/
     title: Apple announces changes to iOS, Safari, and the App Store in the European Union
     date: 2024-01-25
+  - url: https://www.theverge.com/2024/1/26/24052067/mozilla-apple-ios-browser-rules-firefox
+    title: Mozilla says Apple’s new browser rules are ‘as painful as possible’ for Firefox
+    date: 2024-01-26
+  - url: https://www.theverge.com/2024/1/25/24050478/apple-ios-17-4-browser-engines-eu
+    title: Apple is finally allowing full versions of Chrome and Firefox to run on the iPhone
+    date: 2024-01-25
 ---
 
 The #AppleBrowserBan Ends in the EU!

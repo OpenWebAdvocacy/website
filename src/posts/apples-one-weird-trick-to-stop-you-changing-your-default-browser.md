@@ -5,11 +5,11 @@ tags: ['Policy', 'Apple']
 author: "OWA"
 ---
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/AiiU_zBirXc' frameborder='0' allowfullscreen title="OWA v Apple: EC DMA Q&A 2 - Will Apple address the dark patterns when changing the default browser?"></iframe></div>
+https://www.youtube.com/watch?v=AiiU_zBirXc
 
 Long time readers will already know that [Apple has effectively banned all browsers from iOS by preventing them from bringing or modifying their own engines](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers). That makes all browsers on iOS essentially skins round Safari. We brought this up in one of our questions to Apple at their DMA workshop where we stated that _"Apple’s 15 year ban of third-party browser engines has effectively removed browser competition from iOS."_. [Surprisingly, there was no rebuttal from Apple, even veiled, of our assertion](https://www.youtube.com/watch?v=s41Ha8lZ0Zk&t).
 
-But let's put that aside for now to discuss a different topic. Defaults.
+But let's put that aside for now to discuss a different topic: defaults.
 
 The Digital Market Act introduces obligations for gatekeepers to make it easy for users to change defaults including obligating a choice screen.
 
@@ -42,7 +42,7 @@ In an astonishingly brazen dark pattern Apple engineers added code to the Safari
 
 This video demonstrates it, and you can test it yourself right now.
 
-<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube-nocookie.com/embed/o6uwiG1nKK4?si=269jgW7xPT_KnlQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=o6uwiG1nKK4
 
 **There is absolutely no plausible defence for this behaviour.**
 
@@ -63,7 +63,7 @@ Let's break down Apple's reply.
 
 > Obviously there are a ton of other ways in which users can choose different browsers, different default browsers if they so choose. **We have worked to make this simple and straightforward.**
 
-This is clearly false and does not address any of the specifics in John's question.
+This is clearly false, and does not address any of the specifics in John's question.
 
 > And we know from the experience over the last couple of years that millions of users arround the world choose alternative browsers all the time.
 

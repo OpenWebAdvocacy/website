@@ -1,54 +1,176 @@
 {
-  "primary": [
-    {
-      "text": "Home",
-      "url": "/"
-    },
-    {
-      "text": "About Us",
-      "url": "/contributors/"
-    },
-    {
-      "text": "News",
-      "url": "/blog/"
-    },
-    {
-      "text": "Walled Gardens Report",
-      "url": "/walled-gardens-report/"
-    },
-    {
-      "text": "Get Involved",
-      "url": "/get-involved/"
-    },
-    {
-      "text": "Donate",
-      "url": "/donate"
-    }
-  ],
-  "secondary": [
-    {
-      "text": "Contributors",
-      "url": "/contributors/"
-    },
-    {
-      "text": "Privacy",
-      "url": "/privacy/"
-    },
-    {
-      "text": "Accessibility",
-      "url": "/accessibility/"
-    },
-    {
-      "text": "RSS",
-      "url": "/feed.xml"
-    },
-    {
-      "text": "Glossary",
-      "url": "/glossary/"
-    },
-    {
-      "text": "Files",
-      "url": "/files/"
-    }
-  ]
+  "en": {
+    "primary": [
+      {
+        "text": "Home",
+        "url": "/"
+      },
+      {
+        "text": "About Us",
+        "url": "/contributors/"
+      },
+      {
+        "text": "News",
+        "url": "/blog/"
+      },
+      {
+        "text": "Walled Gardens Report",
+        "url": "/walled-gardens-report/"
+      },
+      {
+        "text": "Apple DMA Review",
+        "url": "/apple-dma-review/"
+      },
+      {
+        "text": "Get Involved",
+        "url": "/get-involved/"
+      },
+      {
+        "text": "Donate",
+        "url": "/donate"
+      }
+    ],
+    "secondary": [
+      {
+        "text": "Contributors",
+        "url": "/contributors/"
+      },
+      {
+        "text": "Privacy",
+        "url": "/privacy/"
+      },
+      {
+        "text": "Accessibility",
+        "url": "/accessibility/"
+      },
+      {
+        "text": "RSS",
+        "url": "/feed.xml"
+      },
+      {
+        "text": "Glossary",
+        "url": "/glossary/"
+      },
+      {
+        "text": "Files",
+        "url": "/files/"
+      }
+    ]
+  },
+  "es": {
+    "primary": [
+      {
+        "text": "Inicio",
+        "url": "/"
+      },
+      {
+        "text": "Sobre nosotros",
+        "url": "/contributors/"
+      },
+      {
+        "text": "Noticias",
+        "url": "/blog/"
+      },
+      {
+        "text": "Informe de Walled Gardens",
+        "url": "/walled-gardens-report/"
+      },
+      {
+        "text": "Revisión de Apple DMA",
+        "url": "/apple-dma-review/"
+      },
+      {
+        "text": "Participe",
+        "url": "/get-involved/"
+      },
+      {
+        "text": "Donaciones",
+        "url": "/donate"
+      }
+    ],
+    "secondary": [
+      {
+        "text": "Colaboradores",
+        "url": "/contributors/"
+      },
+      {
+        "text": "Privacidad",
+        "url": "/privacy/"
+      },
+      {
+        "text": "Accesibilidad",
+        "url": "/accessibility/"
+      },
+      {
+        "text": "RSS",
+        "url": "/feed.xml"
+      },
+      {
+        "text": "Glosario",
+        "url": "/glossary/"
+      },
+      {
+        "text": "Archivos",
+        "url": "/files/"
+      }
+    ]
+  },
+  "ja": {
+    "primary": [
+      {
+        "text": "ホーム",
+        "url": "/"
+      },
+      {
+        "text": "OWAについて",
+        "url": "/contributors/"
+      },
+      {
+        "text": "ニュース",
+        "url": "/blog/"
+      },
+      {
+        "text": "ウォールド・ガーデン報告書",
+        "url": "/walled-gardens-report/"
+      },
+      {
+        "text": "Apple DMAレビュー",
+        "url": "/apple-dma-review/"
+      },
+      {
+        "text": "参加しよう",
+        "url": "/get-involved/"
+      },
+      {
+        "text": "寄付",
+        "url": "/donate"
+      }
+    ],
+    "secondary": [
+      {
+        "text": "貢献者",
+        "url": "/contributors/"
+      },
+      {
+        "text": "プライバシー",
+        "url": "/privacy/"
+      },
+      {
+        "text": "アクセシビリティ",
+        "url": "/accessibility/"
+      },
+      {
+        "text": "RSS",
+        "url": "/feed.xml"
+      },
+      {
+        "text": "用語集",
+        "url": "/glossary/"
+      },
+      {
+        "text": "ファイル",
+        "url": "/files/"
+      }
+    ]
+  }
 }

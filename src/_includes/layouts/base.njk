@@ -1,58 +1,57 @@
 {% set assetHash = global.hash() %}
 {% set isPaperLayout = false %}
+{% set languages = languages_base.supported %}
 {% if layout and layout is string %}
   {% if 'paper.njk' in layout %}
     {% set isPaperLayout = true %}
   {% endif %}
 {% endif %}
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang={{ page.lang }} dir="{{ languages_base[page.lang].direction or 'ltr' }}">
   <head>
-
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-
-    {% include "partials/meta-info.njk" %}
-
-    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml"/>
-    <link rel="me" href="https://mastodon.social/@owa" />
-
-    <link rel="preload" href="/css/fonts/KumbhSans-VariableFont_wght.ttf" as="font" type="font/woff2" crossorigin />
-
-    <!-- Site Icons -->
+    {% include "partials/schema-json.njk" %}
+    {% include "partials/meta-info.njk" %} <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml"/>
+    <link rel="me" href="https://mastodon.social/@owa"/>
+    <link rel="preload" href="/css/fonts/KumbhSans-VariableFont_wght.ttf" as="font" type="font/woff2" crossorigin/>
+    {# Site icons #}
     <link rel="icon" type="image/png" sizes="16x16" href="/images/logo-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/logo-32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="/images/logo-48.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/images/logo-192.png">
-
-    {# Add facility for pages to delare an array of non-critical javascript #}
+    <link rel="alternate" href="{{ site.url }}{{ page.url | removeLanguageCode(languages) }}" hreflang="x-default" />
+    {% for language in languages %}
+      <link rel="alternate" hreflang="{{ language.code }}" href="{{ site.url }}{{ page.url | locale_url(language.code) }}" />
+    {% endfor %}
+    {% if '/en/' in page.url  %}
+      <link rel="canonical" href="{{ site.url }}{{ page.url | removeLanguageCode(languages) }}"/>
+    {% endif %}
+    {# Javascript #}
+    <script type="module" src="/js/language-picker.js?{{ assetHash }}" defer></script>
+    {# Javascript - Add facility for pages to delare an array of non-critical javascript #}
     {% if pageNonCriticalScripts %}
       {% for item in pageNonCriticalScripts %}
         <script src="{{ item }}?{{ assetHash }}" defer></script>
       {% endfor %}
     {% endif %}
-
-    {# Add facility for pages to delare an array of critical styles #}
+    {# Stylesheets #}
+    <style>{% cssInline '/css/vars.css' %}</style>
+    <style>{% cssInline '/css/main.css' %}</style>
+    <style>{% cssInline '/css/queries.css' %}</style>
+    {# Stylesheets - Add facility for pages to delare an array of critical styles #}
     {% if pageCriticalStyles %}
       {% for item in pageCriticalStyles %}
-        <style>
-          {% include item %}
-        </style>
+        <style>{% cssInline item %}</style>
       {% endfor %}
     {% endif %}
-
-    {# Add facility for pages to declare an array of stylesheet paths #}
+    {# Stylesheets - Add facility for pages to declare an array of non-crit stylesheet paths #}
     {% if pageStylesheets %}
       {% for item in pageStylesheets %}
-        <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
+        <link rel="preload" as="style" href="{{ item }}?{{ assetHash }}" fetchpriority="low" onload="this.rel='stylesheet';" />
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="/css/vars.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/queries.css" />
   </head>
   <body>
     {% if isHome %}
@@ -60,13 +59,14 @@
     {% else %}
       {% include "partials/site-header.njk" %}
     {% endif %}
-
+    {% if translated === false %}
+      {% include "partials/banner-translation.njk" %}
+    {% endif %}
     {% if isHome %}
       {% block homecontent %}{% endblock %}
     {% else %}
       <div class="inner-wrapper">
-        <main tabindex="-1" id="main-content" class="inner">
-          {% block content %}{% endblock %}
+        <main tabindex="-1" id="main-content" class="inner" {% if translated === false %} lang="en" {% endif %}> {% block content %}{% endblock %}
           {% if not isPaperLayout %}
             {% set postListItems = collections.blog %}
           {% endif %}
@@ -76,76 +76,7 @@
         {% endif %}
       </div>
     {% endif %}
-
     {% include "partials/site-footer.njk" %}
-
-
-    <script>
-      //Countdown for DMA
-      (() => {
-
-        const SECOND = 1000;
-        const MINUTE = SECOND * 60;
-        const HOUR = MINUTE * 60;
-        const DAY = HOUR * 24;
-
-        [...document.querySelectorAll('.dma-countdown')].forEach(
-          parent => {
-
-            function countDown(deadline) {
-              const deadlineTime = Date.parse(deadline);
-              const nowTime = Date.now();
-              const total = Math.abs( deadlineTime - nowTime );
-              const seconds = Math.floor((total / SECOND) % 60);
-              const minutes = Math.floor( (total / MINUTE) % 60 );
-              const hours = Math.floor( (total / HOUR) % 24 );
-              const days = Math.floor( total/DAY );
-
-              cdDays.innerText = days;
-              cdHours.innerText = ('0' + hours).slice(-2);
-              cdMins.innerText = ('0' + minutes).slice(-2);
-              cdSecs.innerText = ('0' + seconds).slice(-2);
-
-              if ( deadlineTime < nowTime ) {
-                untilDL.style.display = 'none';
-                sinceDL.style.display = 'block';
-              }
-
-              return {
-                days,
-                hours,
-                minutes,
-                seconds
-              };
-            }
-
-            function initializeClock(endtime) {
-              countDown(endtime);
-              setInterval(() => countDown(endtime), 1000);
-            }
-
-            const noscript = parent.querySelector('.deadline');
-            const deadline = '2024-03-06T23:00:00Z'; // 23:00:00 UTC = 00:00:00 CET
-            const timer = parent.querySelector('div.timer');
-            const dayCd = parent.querySelector('.dayCd');
-            const timeCd = parent.querySelector('.timeCd');
-            const cdDays = parent.querySelector('.remaining-days');
-            const cdHours = parent.querySelector('.remaining-hours');
-            const cdMins = parent.querySelector('.remaining-mins');
-            const cdSecs = parent.querySelector('.remaining-secs');
-            const untilDL = parent.querySelector('.until-deadline');
-            const sinceDL = parent.querySelector('.since-deadline');
-
-            // If Js on
-            noscript.style.display = 'none';
-            timer.style.display = 'flex';
-
-            initializeClock(deadline);
-
-          }
-        )
-
-      })();
-    </script>
+    {% include "partials/language-dialog.njk" %}
   </body>
 </html>

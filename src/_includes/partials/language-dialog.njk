@@ -1,0 +1,19 @@
+{% set languages = languages_base.supported %}
+{% set content = languages_base[page.lang] %}
+<dialog class="language-dialog">
+  <header>
+    <h2>{{ content.languages }}</h2>
+  </header>
+  <section aria-label="List of available language versions">
+    <ul>
+      {% for language in languages %}
+        <li>
+          <a rel="alternate" hreflang="{{ language.code }}" href="{{ page.url | locale_url(language.code) | language(language.code, page.lang) }}">{{ language.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <footer>
+    <button class="action-button">{{ content.close }}</button>
+  </footer>
+</dialog>

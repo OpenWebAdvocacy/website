@@ -1,0 +1,56 @@
+---
+title: Press Coverage
+permalink: /ja/press/
+metaDesc: The Open Web Advocacy on the Press
+layout: layouts/page.njk
+translated: false
+---
+
+{% macro pressEntry(entry) %}
+<li lang="{{ entry.lang | default('en') }}">
+  <div class="press-entry">
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+    <div class="press-details">
+      {% if entry.publisher %}
+      published by "{{ entry.publisher }}"
+      {% else %}
+      published on {{ entry.url | hostnameFilter }}
+      {% endif %}
+      {% if entry.date %}
+      - <time datetime="{{ entry.date | w3DateFilter }}" class="dt-published">{{ entry.date | dateFilter }}</time>
+      {% endif %}
+    </div>
+  </div>
+</li>
+{% endmacro %}
+
+
+{% if collections.press | length > 0 %}
+<h2>OWA Press mentions</h2>
+{% for yearlyData in collections.press %}
+{% if collections.press | length > 1 %}
+<h3 id="owa_{{ yearlyData.year }}">{{ yearlyData.year }}</h3>
+{% endif %}
+<ul class="press-list">
+  {% for entry in yearlyData.entries %}
+  {{ pressEntry(entry) }}
+  {% endfor %}
+</ul>
+{% endfor %}
+{% endif %}
+
+{% if collections.links | length > 0 %}
+<h2>Related links</h2>
+{% for yearlyData in collections.links %}
+{% if collections.links | length > 1 %}
+<h3 id="related_{{ yearlyData.year }}">{{ yearlyData.year }}</h3>
+{% endif %}
+<ul class="press-list">
+  {% for entry in yearlyData.entries %}
+  {{ pressEntry(entry) }}
+  {% endfor %}
+</ul>
+{% endfor %}
+{% endif %}
+
+<p><strong>Last updated:</strong> <time datetime="2024-02-19">Feb 19th, 2024</time></p>

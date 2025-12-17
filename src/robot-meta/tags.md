@@ -7,4 +7,5 @@ pagination:
   alias: tag
   filter: ['all', 'nav', 'blog', 'work', 'featuredWork', 'people', 'rss']
 permalink: '/tag/{{ tag | slug }}/'
+noSocialImage: true
 ---

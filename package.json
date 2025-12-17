@@ -3,32 +3,50 @@
   "version": "1.0.1",
   "description": "",
   "main": ".eleventy.js",
+  "type": "module",
   "scripts": {
     "clean": "rm -rf ./dist/*",
     "serve": "npm run start",
     "start": "npx @11ty/eleventy --serve --quiet",
+    "generate": "node generate-language-files.js",
     "build": "npm run production",
-    "production": "NODE_ENV=production npx @11ty/eleventy"
+    "production": "npm run generate && NODE_ENV=production npx @11ty/eleventy",
+    "updates": "npx npm-check-updates -i --format group"
   },
   "engines": {
-    "node": ">=16.14.0"
+    "node": ">=20"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-cache-assets": "^2.3.0",
-    "@11ty/eleventy-img": "^2.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.0.2",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@sardine/eleventy-plugin-external-links": "^1.4.0",
+    "clean-css": "^5.3.3",
+    "cssnano": "^7.1.0",
+    "eleventy-plugin-og-image": "^4.0.1",
     "eleventy-plugin-toc": "^1.1.5",
-    "markdown-it": "^12.3.2",
-    "markdown-it-anchor": "^8.4.1",
-    "markdown-it-attrs": "^4.1.4",
-    "moment": "^2.29.1"
+    "eleventy-plugin-youtube-embed": "^1.13.0",
+    "globby": "^14.1.0",
+    "html-minifier": "^4.0.0",
+    "image-size": "^2.0.2",
+    "jsdom": "^26.1.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "markdown-it-attrs": "^4.2.0",
+    "moment": "^2.30.1",
+    "rgjs7": "^0.0.55"
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "netlify-plugin-cache": "^1.0.3",
+    "prettier": "^3.3.3"
+  },
+  "optionalDependencies": {
+    "@resvg/resvg-js-darwin-arm64": "^2.6.2",
+    "@resvg/resvg-js-linux-x64-gnu": "^2.6.2",
+    "sharp": "^0.34.3"
   }
 }

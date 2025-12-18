@@ -128,7 +128,7 @@ h1 {
   font-size: calc(2em + 2vw);
   color: var(--main-color);
   background: var(--body-bg);
-  margin-bottom: calc(1em + 1vw);
+  /* margin-bottom: calc(1em + 1vw); */
 }
 
 h2 {
@@ -1156,6 +1156,32 @@ div.prom-banner div:nth-child(4) {
   max-width: 30em;
 }
 
+div.prom-banner div.donation-details div {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+div.prom-banner div.donation-details table, th, td {
+  border: none;
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+  background: var(--main-light);
+  color: inherit;
+}
+
+div.prom-banner div.donation-details table td:first-child {
+  min-width: 4.5em;
+}
+
+div.prom-banner div.donation-details table {
+  border-spacing: 0;
+}
+
+div.prom-banner div.donation-details th, td {
+  font-weight: normal;
+}
+
 /* CONTRIBUTORS PAGE */
 
 ul.contributors {
@@ -1371,10 +1397,6 @@ div.license img {
 
 
 /* --------------------- WALLED GARDENS PAGE ------------------ */
-
-div.article-data {
-  margin: -2em 0 3rem;
-}
 
 p.baseline {
   font-size: 120%;

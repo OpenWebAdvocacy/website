@@ -5,7 +5,7 @@ metaDesc: 'Donate to Open Web Advocacy'
 layout: 'layouts/page.njk'
 ---
 
-Help make a difference for the future of the web!
+Help make a difference for the future of the web! 
 
 <div class="prom-banner">
     <p class="x-illustration"><img src="/images/donate.svg" alt="" /></p>

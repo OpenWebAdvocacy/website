@@ -17,4 +17,4 @@ Specifically, we are looking for people with any of the following:
 3. Experience with internet or technology policy
 4. Experience with advocacy or grassroots campaigning efforts
 
-If you are excited about the work we do and want to learn more, you can do so by contacting us via <a href="https://discord.gg/x53hkqrRKx">Discord</a>, <a href="https://twitter.com/OpenWebAdvocacy">X/Twitter</a>, <a href='https://mastodon.social/@owa' rel='me'>Mastodon</a>, <a href="https://bsky.app/profile/open-web-advocacy.org">Bluesky</a> or send us an <a href="mailto:contactus@open-web-advocacy.org">email</a>.
+If you are excited about the work we do and want to learn more, you can do so by contacting us via <a href="https://discord.gg/x53hkqrRKx">Discord</a>, <a href='https://mastodon.social/@owa' rel='me'>Mastodon</a>, <a href="https://bsky.app/profile/open-web-advocacy.org">Bluesky</a>, <a href="https://twitter.com/OpenWebAdvocacy">X/Twitter</a> or by sending us an <a href="mailto:contactus@open-web-advocacy.org">email</a>.

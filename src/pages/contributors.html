@@ -4,35 +4,39 @@ permalink: '/contributors/'
 metaDesc: 'Team of contributors to the Open Web Advocacy initiative'
 layout: 'layouts/page.njk'
 ---
+
 <p>Open Web Advocacy is a not-for-profit organization made up of a loose group of software engineers from all over the world,
   who work for many different companies who have come together to fight for the future of the open web by providing regulators,
   legislators and policy makers the intricate technical details that they need to understand the major anti-competitive issues
   in our industry and potential ways to solve them.</p>
+
 <p>Open Web Advocacy was started in March 2021 by brothers Alex and James Moore.
   Early contributors include Stuart Langridge and Bruce Lawson were interviewed for a piece in The Register &ndash;
   <strong>
-    <a href="https://www.theregister.com/2022/02/28/apple_apps_challenge/">Web devs rally to
-  challenge Apple App Store browser rules</a>
+    <a href="https://www.theregister.com/2022/02/28/apple_apps_challenge/">Web devs rally to challenge Apple App Store browser rules</a>
   </strong>,
-  and we have listed coverage on our
-  <a href="{{'/press/' | locale_url}}">press page</a>.</p>
+  and we have listed coverage on our <a href="{{'/press/' | locale_url}}">press page</a>.
+</p>
+
 <p>A number of our contributers wish to remain private as they are concerned that publicly confronting gatekeepers will cause
 issues with their jobs or businesses.</p>
+
 <p>Please note that contributions by individals do not necessarily reflect an endorsement by their employers.</p>
+
 <ul class="contributors">
   {% for person in contributors %}
-  <li>
-    <div class="main-data">
-      <p>
-        <img src="/images/contributors/{{ person.avatar }}" alt="Profile picture of {{ person.name }}">
-        <strong>
-          {{ person.name }}
-          <span>({{ person.countries | join(',&nbsp;') | safe}})</span>
-        </strong>
-      </p>
-      <p>{{ person.what | safe }}</p>
-    </div>
-    <p class="social">
+    <li>
+      <div class="main-data">
+        <p>
+          <img src="/images/contributors/{{ person.avatar }}" alt="" />
+          <strong>
+            {{ person.name }}
+            <span>({{ person.countries | join(',&nbsp;') | safe}})</span>
+          </strong>
+        </p>
+        <p>{{ person.what | safe }}</p>
+      </div>
+      <p class="social">
       {% for key, value in person.links %}
       <a href="{{ value }}">{{ key }}</a>
       {% endfor %}
@@ -41,19 +45,16 @@ issues with their jobs or businesses.</p>
   {% endfor %}
 
   {% if contributors.length % 2 !== 0%}
-  <li></li>
+    <li></li>
   {% endif%}
 </ul>
-<p>If you are a contributor or a supporter and wish to be listed above please
-  <a href="mailto:contactus@open-web-advocacy.org">contact us.</a></p>
-<p>If you would like to support/contribute you can
-  <a href="{{'/donate' | locale_url}}">donate</a>
-  or join our community on
-  <a href="https://discord.com/invite/x53hkqrRKx">Discord</a>
-  to get more deeply involved. Can't spare the
+
+<p>If you are a contributor or a supporter and wish to be listed above please <a href="mailto:contactus@open-web-advocacy.org">contact us.</a></p>
+
+<p>If you would like to support/contribute you can <a href="{{'/donate' | locale_url}}">donate</a> or join our community on
+  <a href="https://discord.com/invite/x53hkqrRKx">Discord</a> to get more deeply involved. Can't spare the
   cash or time? Keep up with what we're up to and help spread the word by following us on
-  <a href="https://twitter.com/OpenWebAdvocacy">X/Twitter</a>,
-  <a href="https://mastodon.social/@owa">Mastodon</a>
-  or
+  <a href="https://mastodon.social/@owa">Mastodon</a>,
   <a href='https://bsky.app/profile/open-web-advocacy.org'>Bluesky</a>
+  or <a href="https://twitter.com/OpenWebAdvocacy">X/Twitter</a>
   .</p>

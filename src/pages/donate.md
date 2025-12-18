@@ -10,7 +10,7 @@ Help make a difference for the future of the web!
 <div class="prom-banner">
     <p class="x-illustration"><img src="/images/donate.svg" alt="" /></p>
     <p>If you love what we're doing and would like to support our work, please consider
-      <a href="https://www.paypal.com/donate/?hosted_button_id=3FD5DUWT4DNBG">making a donation</a> or by getting your company to support us.</p>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=3FD5DUWT4DNBG">making a donation</a> or by getting your company to support us.</p>
     <p>OWA is a registered not-for-profit fighting for the Web against heavily financed gatekeepers
       to ensure the future of Browser competition and Web Apps</p>
     <div>
@@ -34,20 +34,23 @@ Please consult a tax professional regarding the deductibility of donations in yo
     <p>Aspiration can accept a wide variety of donation types including:</p>
     <ul>
       <li><p><strong>Bank Transfer / Wire Transfer / EFT</strong></br>
-      For banking details, please <a href="mailto:contactus@open-web-advocacy.org?subject=Donation%20-%20Bank%20Transfer%20%2F%20Wire%20Transfer%20%2F%20EFT&body=Dear%20Open%20Web%20Advocacy%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20Aspiration%20in%20support%20of%20OWA%E2%80%99s%20charitable%20purpose.%0A%0APlease%20provide%20me%20with%20the%20details%20for%20a%20Bank%20Transfer%20%2F%20Wire%20Transfer%20%2F%20EFT.%0A%0A%0A">email us</a>.</p>
+      For banking details, please <a href="mailto:donations-owa@aspirationtech.org">email us</a>.</p>
       </li>
       <li><p><strong>Donor Advised Funds</strong></br>
       Please make the donation out to Aspiration (EIN: 91-2106274). In the details please write &quot;To further OWA&#39;s charitable purpose&quot;.</p>
       </li>
+      <li><p><strong>Benevity</strong></br>
+      You can donate to Aspiration on <a href="https://benevity.com/">Benevity</a> (EIN: 91-2106274). In the details please write "To further OWA's charitable purpose".</p>
+      </li>
       <li><p><strong>Matching Gifts</strong></br>
-      You may be able to double or triple your gift through your employer’s matching gift program. Contact your employer’s social impact team or HR team to see if they match. If they do, <a href="mailto:contactus@open-web-advocacy.org?subject=Donation%20-%20Matching%20Gift&body=Dear%20Open%20Web%20Advocacy%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20Aspiration%20in%20support%20of%20OWA%E2%80%99s%20charitable%20purpose.%0A%0APlease%20provide%20me%20with%20the%20details%20for%20a%20matching%20gift.%0A%0A%0A">let us know</a>!</p>
+      You may be able to double or triple your gift through your employer’s matching gift program. Contact your employer’s social impact team or HR team to see if they match. Aspiration supports Benevity, see above. If they use another platform, <a href="mailto:donations-owa@aspirationtech.org">let us know</a>!</p>
       </li>
       <li>
         <p>
           <strong>Check / Stock / Crypto / Other</strong>
           </br>
           For details please
-          <a href="mailto:contactus@open-web-advocacy.org?subject=Donation%20-%20Check%2FStock%2FCrypto%2FOther&body=Dear%20Open%20Web%20Advocacy%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20Aspiration%20in%20support%20of%20OWA%E2%80%99s%20charitable%20purpose.%0A%0APlease%20provide%20me%20with%20the%20details%20for%20a%20Check%20%2F%20Stock%20%2F%20Crypto%20%2F%20Other%20transfer.%0A%0A%0A">email us</a>.
+          <a href="mailto:donations-owa@aspirationtech.org">email us</a>.
         </p>
       </li>
     </ul>
@@ -60,7 +63,7 @@ Please consult a tax professional regarding the deductibility of donations in yo
         </tr>
         <tr>
           <td>Address</td>
-          <td>2973 16th St Ste 300 San Francisco, CA 94103-3633 USA</td>
+          <td>1300 Evans Ave #880264 San Francisco, CA 94188</td>
         </tr>
         <tr>
           <td>Tax ID</td>

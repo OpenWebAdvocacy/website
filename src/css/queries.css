@@ -305,7 +305,7 @@
   }
 
   div.contact-entry {
-    flex-basis: 45%;
+    min-width: 340px;
     margin-top: 0;
   }
 

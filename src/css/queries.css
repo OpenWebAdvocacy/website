@@ -306,7 +306,12 @@
 
   div.contact-entry {
     flex-basis: 45%;
+    min-width: 360px;
     margin-top: 0;
+  }
+
+  div.who-entry {
+    flex-basis: 55%;
   }
 
   div.presentation {

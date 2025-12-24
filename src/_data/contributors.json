@@ -202,6 +202,19 @@
     }
   },
   {
+    "name": "James Heppell",
+    "countries": [
+      "UK🇬🇧",
+      "Spain🇪🇸"
+    ],
+    "avatar": "james-heppell.jpg",
+    "what": "OWA Volunteer, Web Developer, Student",
+    "links": {
+      "website": "https://formularsumo.co.uk/",
+      "mastodon": "https://social.vivaldi.net/@FormularSumo"
+    }
+  },
+  {
     "name": "Scott Jenson",
     "countries": [
       "USA🇺🇸"
@@ -211,6 +224,18 @@
     "links": {
       "mastodon": "https://social.coop/@scottjenson",
       "x/twitter": "https://twitter.com/scottjenson"
+    }
+  },
+  {
+    "name": "Ayasaka-Koto",
+    "countries": [
+      "Japan🇯🇵"
+    ],
+    "avatar": "ayasaka-koto.png",
+    "what": "Web Developer, Student",
+    "links": {
+      "website": "https://axtech.dev/",
+      "x/twitter": "https://x.com/AXT_AyaKoto"
     }
   },
   {
@@ -489,19 +514,6 @@
     "links": {
       "mastodon": "https://infosec.exchange/@drewigg",
       "x/twitter": "https://twitter.com/andre_wiggins"
-    }
-  },
-  {
-    "name": "James Heppell",
-    "countries": [
-      "UK🇬🇧",
-      "Spain🇪🇸"
-    ],
-    "avatar": "james-heppell.jpg",
-    "what": "OWA Volunteer, Web Developer, Student",
-    "links": {
-      "website": "https://formularsumo.co.uk/",
-      "mastodon": "https://social.vivaldi.net/@FormularSumo"
     }
   }
 ]

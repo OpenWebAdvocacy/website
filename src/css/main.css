@@ -1054,7 +1054,23 @@ ul.press-list > li[lang="fr"]::before {
 
 ul.press-list > li[lang="de"]::before {
   content: "DE";
-  background-color: #B26C03;
+  background-color: #4b8003;
+}
+
+ul.press-list > li[lang="es"]::before {
+  content: "ES";
+  background-color: #c70318;
+  /* background-color: #ac8901; */
+}
+
+ul.press-list > li[lang="nl"]::before {
+  content: "NL";
+  background-color: rgb(160, 104, 0);
+}
+
+ul.press-list > li[lang="sv"]::before {
+  content: "SV";
+  background-color: rgb(0, 130, 147);
 }
 
 ul.press-list > li[lang="it"]::before {

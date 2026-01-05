@@ -1,6 +1,6 @@
 ---
 title: "How Apple’s Key Tactic Could Prevent Japan’s Smartphone Act from Improving Browser Competition"
-date: '2025-12-24'
+date: '2026-01-06'
 tags: ['Policy', 'Apple', 'Japan', 'Browser Engine']
 author: "OWA"
 ---

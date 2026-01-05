@@ -394,6 +394,8 @@ We’d like to extend our gratitude to the extensive work over many years by the
 
 On December 17th, [Apple published how it intends to comply with the new law with respect to browser engines](https://developer.apple.com/support/alternative-browser-engines-jp/). However, Apple looks set to use the same tactic it has used in the EU to avoid complying with the same provision of the Digital Markets Act for the last twenty-one months. Namely, Apple demands that browser vendors lose all their existing Japanese users and produce a brand new browser, rather than simply updating their existing users. Apple will also not allow browser vendors to use their own engine on iPadOS and other iOS variants.
 
+Read [our detailed analysis here](/blog/how_apples_key_tactic_could_prevent_japans_smartphone_act_from_improving_browser_competition/).
+
 ## DOJ vs Google
 
 In late 2020, the U.S. Department of Justice (DOJ), in conjunction with state attorneys general representing 11 states, brought a landmark antitrust case against Google for unlawfully maintaining a monopoly in the general search engine market. In August 2024, Judge Mehta ruled in favor of the DOJ, declaring unequivocally that ***“Google is a monopolist, and it has acted as one to maintain its monopoly”***.

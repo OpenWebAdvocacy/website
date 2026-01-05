@@ -110,5 +110,7 @@ If you would like to volunteer your time to support this cause, please [contact 
 ## Years in Review
 
 Find out what we are up to each year by reading our end of year reports:  
-[OWA YEAR IN REVIEW \- 2024](https://open-web-advocacy.org/blog/owa-2024-review/)  
-[OWA YEAR IN REVIEW \- 2023](https://open-web-advocacy.org/blog/owa-2023-review/)  
+* [OWA YEAR IN REVIEW - 2025](/blog/owa-2025-review/)
+* [OWA YEAR IN REVIEW - 2024](/blog/owa-2024-review/)  
+* [OWA YEAR IN REVIEW - 2023](/blog/owa-2023-review/) 
+

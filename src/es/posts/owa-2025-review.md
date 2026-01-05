@@ -1,18 +1,25 @@
 ---
 title: Open Web Advocacy 2025 in Review
-date: '2026-01-04'
+date: '2026-01-05'
 tags:
   - Policy
   - Updates
 author:
   - Alex Moore
+socialImage: /images/blog/owa-2025-review.png
+twitterImage: /images/blog/owa-2025-review.png
 permalink: /es/blog/owa-2025-review/index.html
 layout: layouts/post.njk
 translated: false
 ---
 
-
 **TL;DR: A lot happened in 2025 for browsers and web apps with new investigations, laws, and court cases across the EU, Japan, the US, Australia, and the UK. OWA continues to play a key role in pushing for fair and effective browser and web app competition on all platforms. Apple is now barred from blocking third-party browser engines on iOS in 28 countries, soon likely 30\. However, it continues to resist real competition. Learn what is happening worldwide and how you can help\!**
+
+{% image
+  "/images/blog/owa-2025-review.png",
+  "2025 in Review. We review everything for OWA in 2025 and what’s coming up! The whole team would like to thank everyone who joined us by volunteering or donating to fight for the future of the web! With big steps in 2025, we can’t wait to see what we can do together in 2026!",
+  { loading: 'eager' }
+%}
 
 As the calendar turns and we step into 2026, it's a perfect moment to reflect on 2025’s developments, achievements, and what lies ahead regarding regulators, browsers, and web applications. The momentum we have built over the past year did not happen by accident. It was shaped by persistence, collaboration, and a shared belief that the open web deserves to be allowed to compete fairly.
 
@@ -168,13 +175,17 @@ Apple is taking the EU Commission to court in three separate court cases related
 **Designation**  
 In [this case](https://eur-lex.europa.eu/eli/C/2024/563/oj/eng) (still ongoing) Apple is taking the EU Commission to court claiming the following points:
 
-1. Article 6(7), The article that imposing interoperability requirements on Apple is illegal due to being disproportionate under the European Charter of Fundamental Rights.
+1. Article 6(7), the article imposing interoperability requirements, which Apple argues is illegal due to being disproportionate under the European Charter of Fundamental Rights.
 
 2. Apple in fact has 5 app stores, not one. i.e. the App Store on iOS, iPadOS, WatchOS, VisionOS and MacOS are distinct.
 
-3. iMessage is a number-independent interpersonal communications service.
+3. iMessage isn’t a number-independent interpersonal communications service.
 
-Apple’s claim to have multiple App Stores is despite the fact that users use the same Apple account across all of them, and pay once for apps on all of them. As well as this, developers upload and update their apps to all of them in a single process.
+Apple’s claim to have multiple App Stores is despite the fact that users use the same Apple account across all of them, and pay once for apps on all of them. As well as this, developers upload and update their apps to all of them in a single process. 
+
+Apple is also challenging iMessage’s classification as a number-independent interpersonal communications service, despite the fact that you can use iMessage without a phone number, and despite the EU Commission having already decided against designating it as a gatekeeper.
+
+Apple is asking that the court to annul the Commission’s decision designating iOS as a gatekeeper, declare Article 6(7) inapplicable, annul the finding that Apple’s App Store is a single core platform service, annul the finding that iMessage is a number-independent interpersonal communications service, and order the Commission to pay Apple’s costs.
 
 **Interoperability Specification Process**  
 [This case](https://eur-lex.europa.eu/eli/C/2025/5213/oj/eng) (also still ongoing) relates to the [final decision in the EU Article 6(7) specification proceeding against Apple](https://ec.europa.eu/competition/digital_markets_act/cases/202523/DMA_100204_2073.pdf). Article 6(7) of the DMA is the one which mandates that gatekeepers must provide API access to third-parties free of charge, subject to strictly necessary, proportionate and justified security conditions.
@@ -262,9 +273,9 @@ We directly questioned Google on this at the DMA workshop. [Read this article](h
 
 ### WebAPKMinting
 
-For 8 years, Google has failed to keep its commitment to share the ability to install web apps with third-party browsers on Android, despite [public requests](https://issues.chromium.org/issues/40195497) from Samsung, Microsoft, Brave & Kiwi browser.
+For over 8 years, Google has failed to keep its commitment to share the ability to install web apps with third-party browsers on Android, despite [public requests](https://issues.chromium.org/issues/40195497) from Samsung, Microsoft, Brave & Kiwi browser.
 
-In 2015, Google introduced a method on Android to install web apps and subsequently replaced it with a better system called "WebAPK minting" in 2017\. This system allows Chrome on Android to install web apps that integrate well with the operating system. At the time, now more than 8 years ago, Google [promised to share this with third-party browser vendors](https://web.dev/webapks/). However, as of today this functionality is still exclusive to Chrome on most Android devices (Note: Samsung has implemented their own version for Samsung Internet on Samsung devices).
+In 2015, Google introduced a method on Android to install web apps and subsequently replaced it with a better system called "WebAPK minting" in 2017. This system allows Chrome on Android to install web apps that integrate well with the operating system. At the time, now more than 8 years ago, Google [promised to share this with third-party browser vendors](https://web.dev/webapks/). However, as of today this functionality is still exclusive to Chrome on most Android devices (Note: Samsung has implemented their own version for Samsung Internet on Samsung devices).
 
 > QUESTION: I am a developer of another browser on Android, can I have this seamless install process?  <br><br>
 > We are working on it. We are committed to making this available to all browsers on Android and we will have more details soon.
@@ -272,7 +283,7 @@ In 2015, Google introduced a method on Android to install web apps and subsequen
 
 A [WebAPK](https://web.dev/webapks/) is a thin wrapper Native App that provides a splash screen, system launcher integration, and system settings configuration points. When launched, a WebAPK essentially starts a tab in the browser which installed the WebAPK, loading the specific URL the web app developer configures. Google has implemented this API using Google Play Services.
 
-All native apps on Android are packaged as APKs, either via an app store such as Google Play or via sideloading. WebAPKs allow web apps to be integrated into the OS for the purposes of discoverability, permissions management, shortcut creation, registering url with the operating system (so links will open in the web app instead of a browser tab) and uninstallation. This means that web apps installed as WebAPKs are able to be shown in Android’s app drawer and search, system app pages such as apps, storage, screen time and battery usage, and shown without a browser badge.
+All native apps on Android are packaged as APKs, either via an app store such as Google Play or via sideloading. WebAPKs allow web apps to be integrated into the OS for the purposes of discoverability, permissions management, shortcut creation, registering urls with the operating system (so links will open in the web app instead of a browser tab) and uninstallation. This means that web apps installed as WebAPKs are able to be shown in Android’s app drawer and search, system app pages such as apps, storage, screen time and battery usage, and shown without a browser badge.
 
 Android’s security model is built around signed native APKs. In order for web apps to integrate properly on Android without significant architectural changes, web apps need to be wrapped in a signed native APK. This allowed Google to support web apps across existing versions of Android without having to introduce a new architecture to support web apps and wait for years for it to be updated.
 
@@ -284,11 +295,11 @@ Under Article 6(7) of the DMA, Google is obligated to share operating system API
 
 The [UK’s MIR unfortunately disagreed with us in their final report](https://open-web-advocacy.org/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition/#webapk-minting) on this specific issue, however we [will continue to push for it to be fixed under the DMCC](https://assets.publishing.service.gov.uk/media/68f8bf4780cf98c6e8ed8f83/Final_decision_report.pdf).
 
-### The EU Should Open a Proceding into Apple under the DMA
+### The EU Should Open a Proceeding into Apple under the DMA
 
 [Apple is not complying with the DMA in relation to browsers, browser engines and web apps](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/#is-apple-obligated-to-fix-this-under-the-dma%3F). The EU Commission has given Apple ample time to remedy their compliance and has had sufficient time (21 months) to see that the act will not be effective in these goals under the current compliance Apple has implemented.
 
-The EU Commission should open a preceding into this and compel Apple to comply with Article 5(7) of the DMA. [These changes](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/#what-needs-to-be-fixed-on-ios%3F) will finally allow browser vendors and the Web to compete fairly on iOS.
+The EU Commission should open a preceeding into this and compel Apple to comply with Article 5(7) of the DMA. [These changes](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/#what-needs-to-be-fixed-on-ios%3F) will finally allow browser vendors and the Web to compete fairly on iOS.
 
 ## The UK
 

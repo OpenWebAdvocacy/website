@@ -21,14 +21,14 @@ The legislation was based on the [Final Report by Japan’s Headquarters for Dig
 
 Crucially, this bill directly prohibits Apple’s long-standing ban on third-party browser engines on iOS.
 
-In July this year Japan’s Fair Trade Commission published the [Mobile Software Competition Act (MSCA) Guidelines](https://www.jftc.go.jp/file/MSCA_Guidelines_tentative_translation.pdf), which [clarifies how the Smartphone Act will be interpreted and enforced](https://open-web-advocacy.org/blog/japan-apple-must-lift-engine-ban-by-december/). In particular, for designated providers such as Apple:
+In July 2025 Japan’s Fair Trade Commission published the [Mobile Software Competition Act (MSCA) Guidelines](https://www.jftc.go.jp/file/MSCA_Guidelines_tentative_translation.pdf), which [clarifies how the Smartphone Act will be interpreted and enforced](https://open-web-advocacy.org/blog/japan-apple-must-lift-engine-ban-by-december/). In particular, for designated providers such as Apple:
 
 * **Banning browser engines is prohibited, as are actions “preventing” their adoption.**  
 * There must be **functionally equivalent API access** for 3rd parties, subject to justifiable measures.  
 * It must be **easy to change the default settings** of the operating system.  
 * **A choice screen for browsers** must be provided **“promptly after the first activation”**.
 
-**The act came into full effect on the 18th of December this year**.
+**The act came into full effect on the 18th of December 2025**.
 
 We’d like to extend our gratitude to the extensive work over many years by the [HDMC](https://www.kantei.go.jp/jp/singi/digitalmarket/index_e.html) (Headquarters for Digital Market Competition), [JFTC](https://www.jftc.go.jp/en/) (Japan Fair Trade Commission) and others in improving browser, browser engine and web app competition.
 
@@ -88,7 +88,7 @@ Many of Apple’s barriers rely on vague security and privacy grounds for which 
 > In the end, Apple deploys privacy and security justifications as an elastic shield that can stretch or contract to serve Apple’s financial and business interests.
 > <cite>[DOJ Complaint against Apple](https://www.justice.gov/opa/media/1344546/dl?inline)<br>(emphasis added)</cite>
 
-At the DMA workshop this year, we directly raised with Apple the primary blocker preventing third-party browser engines from shipping on iOS. Apple claimed that vendors like Google and Mozilla have “everything they need” to ship a browser engine in the EU and simply *"have chosen not to do so”*.
+At the DMA workshop in 2025, we directly raised with Apple the primary blocker preventing third-party browser engines from shipping on iOS. Apple claimed that vendors like Google and Mozilla have “everything they need” to ship a browser engine in the EU and simply *"have chosen not to do so”*.
 
 > We recognize under the DMA that we've been forced to change. And we have created a program that keeps security and privacy in mind, that keeps the integrity of the operating system in mind, and **allows third parties to bring their browser engine, Google, Mozilla, to the platform. And for whatever reason, they have chosen not to do so.**
 > <cite>[Kyle Andeer \- Apple \- Vice President Apple Legal](https://www.youtube-nocookie.com/embed/_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd)<br>(emphasis added)</cite>

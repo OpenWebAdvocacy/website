@@ -190,6 +190,19 @@
     }
   },
   {
+    "name": "Andrew Gaul",
+    "countries": [
+      "USA🇺🇸",
+      "Japan🇯🇵"
+    ],
+    "avatar": "andrew-gaul.jpg",
+    "what": "Systems programmer, hacker, entrepreneur",
+    "links": {
+      "website": "http://gaul.org/",
+      "mastodon": "https://mastodon.social/@gaul"
+    }
+  },
+  {
     "name": "Thomas Güttler",
     "countries": [
       "Germany🇩🇪"

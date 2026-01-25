@@ -437,7 +437,7 @@ aside h3 {
 }
 
 aside h3 {
-  font-size: calc(1rem + 1vw);
+  font-size: calc(1rem + 0.5vw);
   line-height: 1.1;
 }
 
@@ -478,10 +478,6 @@ aside div.press-entry {
   border-top: 1px solid var(--n-dark);
 }
 
-div.promo h3, aside div.press-entry h3 {
-  font-size: calc(1rem + 0.5vw);
-}
-
 aside div.rss-feed {
   --flow-space: 1rem;
   padding-top: 1rem;
@@ -499,8 +495,8 @@ aside div.rss-feed img {
   padding-inline-end: 0.25em;
 }
 
-div.promo h3, aside div.rss-feed h3 {
-  font-size: calc(1rem + 0.5vw);
+/*This undoes the RSS feed heading being set to lowercase*/
+aside div.rss-feed h3 {
   text-transform: initial;
 }
 

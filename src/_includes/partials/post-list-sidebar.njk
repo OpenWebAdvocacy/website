@@ -1,11 +1,8 @@
 <div>
   <ol class="[ post-list ] [ flow ]">
     {% for item in postListItems | englishPostsFilter %}
-      {% if item.url %}
+      {% if loop.index0 < 5 and item.url %}
       <li class="post-list__item">
-        {% if showDate %}
-          <time datetime="{{ item.date | w3DateFilter }}">{{ (item.date | w3DateFilter).slice(0, 10) }}</time> —
-        {% endif %}
         <a href="{{ item.url  | locale_url }}" class="post-list__link">{{ item.data.title }}</a>
       </li>
       {% endif %}

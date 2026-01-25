@@ -6,7 +6,7 @@
     {% if permalink != '/blog/' %}
       <div class="blog">
         <h2>{{ content.asideHeading }}</h2>
-        {% include "partials/post-list.njk" %}
+        {% include "partials/post-list-sidebar.njk" %}
         <p><a href="{{ '/blog' | locale_url }}" class="action-button">{{ content.asideLinkText }}</a></p>
       </div>
     {% endif %}

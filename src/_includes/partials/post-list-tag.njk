@@ -1,0 +1,10 @@
+<div>
+  <ul class="[ post-list ] [ flow ]">
+    {% for item in postListItems | englishPostsFilter %}
+      <li class="post-list__item">
+        <p><a href="{{ item.url | locale_url }}" class="post-list__link">{{ item.data.title }}</a></p>
+        <p><time datetime="{{ item.date | w3DateFilter }}">{{ (item.date | w3DateFilter).slice(0, 10) }}</time></p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

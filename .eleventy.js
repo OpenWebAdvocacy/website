@@ -20,6 +20,7 @@ import markdownItAttrs from 'markdown-it-attrs';
 // Filters
 import cleanTocFilter from './src/filters/clean-toc-filter.js';
 import dateFilter from './src/filters/date-filter.js';
+import localisedDateFilter from './src/filters/localised-date-filter.js';
 import hostnameFilter from './src/filters/hostname-filter.js';
 import englishPostsFilter from './src/filters/english-posts-filter.js';
 import removeLanguageCode from './src/filters/remove-language-code-filter.js';
@@ -42,6 +43,7 @@ import { loadPageDetails } from './src/utils/page-details.js';
 export default config => {
   // Add filters
   config.addFilter('dateFilter', dateFilter);
+  config.addFilter('localisedDateFilter', localisedDateFilter);
   config.addFilter('hostnameFilter', hostnameFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('cleanTocFilter', cleanTocFilter);

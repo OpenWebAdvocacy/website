@@ -76,7 +76,7 @@ Apple has been required to allow browser vendors to use their own engines on iOS
 > <cite>[Article 5(7) - Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)<br>(emphasis added)</cite>
 
 
-Both Google and Mozilla [began porting their browser engines Blink and Gecko respectively to iOS](https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/). Other browser vendors are dependent on these ports to bring their own engines to their browsers iOS, as their products are typically soft forks (copies with modifications) of Blink or Gecko.
+Both Google and Mozilla [began porting their respective browser engines, Blink and Gecko, to iOS](https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/). Other browser vendors are dependent on these ports to bring their own engines to their browsers on iOS, as their products are typically soft forks (copies with modifications) of Blink or Gecko.
 
 However there were significant issues with Apple’s contract and technical restrictions that made porting browser engines to iOS “as painful as possible” for browser vendors.
 

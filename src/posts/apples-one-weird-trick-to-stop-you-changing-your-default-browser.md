@@ -7,13 +7,13 @@ author: "OWA"
 
 https://www.youtube.com/watch?v=AiiU_zBirXc
 
-Long time readers will already know that [Apple has effectively banned all browsers from iOS by preventing them from bringing or modifying their own engines](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers). That makes all browsers on iOS essentially skins round Safari. We brought this up in one of our questions to Apple at their DMA workshop where we stated that _"Apple’s 15 year ban of third-party browser engines has effectively removed browser competition from iOS."_, [surprisingly there was no rebuttal from Apple, even veiled, of our assertion](https://www.youtube.com/watch?v=s41Ha8lZ0Zk&t).
+Long time readers will already know that [Apple has effectively banned all browsers from iOS by preventing them from bringing or modifying their own engines](/walled-gardens-report/#apple-has-effectively-banned-all-third-party-browsers). That makes all browsers on iOS essentially skins round Safari. We brought this up in one of our questions to Apple at their DMA workshop where we stated that _"Apple’s 15 year ban of third-party browser engines has effectively removed browser competition from iOS."_. [Surprisingly, there was no rebuttal from Apple, even veiled, of our assertion](https://www.youtube.com/watch?v=s41Ha8lZ0Zk&t).
 
 But let's put that aside for now to discuss a different topic: defaults.
 
 The Digital Market Act introduces obligations for gatekeepers to make it easy for users to change defaults including obligating a choice screen.
 
-There is a common phrase about following the letter and spirit of the law. The spirit being: are you making good faith efforts to comply with the intent? In the case of the intent of the DMA, you don't need to guess as the act itself contains 26 pages of recitals that in very clear language explain exactly what the act is trying to achieve via the letter of the law as spelt out in the articles.
+There is a common phrase about following the letter and spirit of the law: are you making good faith efforts to comply with the intent? In the case of the intent of the DMA you don't need to guess as the act itself contains 26 pages of recitals that in very clear language explain exactly what the act is trying to achieve via the letter of the law as spelt out in the articles.
 
 In the case of the defaults the recitals have this to say:
 
@@ -22,6 +22,7 @@ In the case of the defaults the recitals have this to say:
 > **Gatekeepers should also allow end users to easily change the default settings on the operating system**, virtual assistant and web browser **when those default settings favour their own software applications and services. This includes prompting a choice screen** ...
 
 On dark patterns the recitals had this to say:
+
 >Gatekeepers should not engage in behaviour that would undermine the effectiveness of the prohibitions and obligations laid down in this Regulation. Such behaviour includes the design used by the gatekeeper, the presentation of end-user choices in a non-neutral manner, or using the structure, function or manner of operation of a user interface or a part thereof to subvert or impair user autonomy, decision-making, or choice.
 
 While on defaults Article 6(3) simply says:
@@ -30,13 +31,14 @@ While on defaults Article 6(3) simply says:
 Recently our own John Ozbay attended a workshop where [Apple could explain how it was complying with the DMA](https://digital-markets-act.ec.europa.eu/events-poolpage/apple-dma-compliance-workshop-2024-03-18_en).
 
 In Apple's opening speech on changing defaults, Apple's spokesperson had this to say:
+
 > In this session we are going to provide a summary of what we are doing on the web browser choice screen and defaults pursuant to the DMA. Lets start with defaults and specifically the ability to select a default browser. **For a long time Apple have made it easy for users to choose a browser in the settings app**. Many users have already chosen to set a non-Safari default browser even before the DMA. **They can do it in just a few taps.**
 
-This is a little surprising. Apple didn't even let users change the default browser until late 2020. When they did add the ability to do so the design was awkward and confusing. There is no centralised location to change defaults, no way of searching for the option in the OS settings and the option to change the default is inappropriately shown on each browser settings page. Further they provide no API to allow newly installed browsers to prompt the user to switch default browser or even be aware that they are the default browser.
+This is a little surprising. Apple didn't even let users change the default browser until [late 2020](https://ios.gadgethacks.com/how-to/change-your-default-browser-ios-14-from-safari-chrome-firefox-edge-another-app-0339071/). When they did add the ability to do so the design was awkward and confusing. There is no centralised location to change defaults, no way of searching for the option in the OS settings and the option to change the default is inappropriately shown on each browser settings page. Further, they provide no API to allow newly installed browsers to prompt the user to switch default browser or even be aware that they are the default browser.
 
 Now, some may think it is unfair to suggest that Apple deliberately designed it to be as awkward as possible to change the default browser but **they went one critical step further that unambiguously shows that they maliciously intended to undermine user choice**.
 
-In an astonishingly brazen dark pattern Apple engineers added code to the Safari's settings page to hide the option to change the default browser if Safari was the default but then to prominently show it if another browser was the default.
+In an astonishingly brazen dark pattern Apple engineers added code to the Safari's settings page to hide the option to change the default browser if Safari was the default - but then to prominently show it if another browser was the default.
 
 This video demonstrates it, and you can test it yourself right now.
 
@@ -52,6 +54,7 @@ We had John ask Apple directly about this at Apple DMA Workshop.
 > My question to Apple is, are they planning on addressing these or not?
 
 Apple's spokesperson responded with:
+
 > In terms of the first question, the choice as required by the DMA is presented once to users. Obviously there are a ton of other ways in which users can choose different browsers, different default browsers if they so choose. We have worked to make this simple and straightforward. And we know from the experience over the last couple of years that millions of users around the world choose alternative browsers all the time. We also know that many of them will choose to make that browser their default one of choice. That happens all the time. In terms of what's being required here by the DMA our focus is on presenting this choice even more clearly to consumers the first time you use Safari. Obviously there are not choices being presented when you use other browsers on iOS. So we are complying from our perspective with the spirit here.
 
 The video of John's question and the reply is at the top of the article.
@@ -72,19 +75,21 @@ Apple doesn't publicly share any aggregated data on browser defaults, so it's ha
 
 > In terms of what's being required here by the DMA our focus is on presenting this choice even more clearly to consumers the first time you use Safari. Obviously there are not choices being presented when you use other browsers on iOS.
 
-The framing here again is false. As Apple stated in their opening speech there are two aspects of the DMA they have to comply with one making it easy to change the default, and two allowing a choice screen. Apple obviously has no defence on the first and so tries to deflect by focusing on the second.
+The framing here, again, is false. As Apple stated in their opening speech there are two aspects of the DMA they have to comply with. One: making it easy to change the default. Two: allowing a choice screen. Apple obviously has no defence on the first and so tries to deflect by focusing on the second.
 
 > So we are complying from our perspective with the spirit here.
 
-We disagree and clearly so does the EU Commission, which on 25 March [opened a proceeding against Apple investigating them over Article 6(3)](https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1689).
+We disagree, and clearly so does the EU Commission, which on 25 March [opened a proceeding against Apple investigating them over Article 6(3)](https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1689).
 
-In their press release they stated:
+In there press release they stated:
+
 > The Commission has opened proceedings against Apple regarding their measures to comply with obligations to (i) enable end users to easily uninstall any software applications on iOS, (ii) easily change default settings on iOS and (iii) prompt users with choice screens which must effectively and easily allow them to select an alternative default service, such as a browser or search engine on their iPhones.<br><br>
 > The Commission is concerned that Apple's measures, including the design of the web browser choice screen, may be preventing users from truly exercising their choice of services within the Apple ecosystem, in contravention of Article 6(3) of the DMA.
 
-This is just one topic among many but we should know more when the EU releases its non-confidential version of its initial findings and invites third parties to comment which according to the act could take up to 3 months.
+This is just one topic among many, but we should know more when the EU releases its non-confidential version of its initial findings and invites third parties to comment which according to the act could take up to 3 months.
 
 In order to be compliant with this specific aspect of the DMA we believe Apple should make the following changes:
+
 1. Remove the dark pattern of hiding the option to switch default browser if the default is Safari.
 2. Move the option to change default browser out of the browser settings and into a centralised location.
 3. Have this option visible even if Safari is the only currently installed browser.

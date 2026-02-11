@@ -13,7 +13,7 @@ But let's put that aside for now to discuss a different topic: defaults.
 
 The Digital Market Act introduces obligations for gatekeepers to make it easy for users to change defaults including obligating a choice screen.
 
-There is a common phrase about following the letter and spirit of the law: Are you making good faith efforts to comply with the intent. In the case of the intent of the DMA you don't need to guess as the act itself contains 26 pages of recitals that in very clear language explain exactly what the act is trying to achieve via the letter of the law as spelt out in the articles.
+There is a common phrase about following the letter and spirit of the law: are you making good faith efforts to comply with the intent? In the case of the intent of the DMA you don't need to guess as the act itself contains 26 pages of recitals that in very clear language explain exactly what the act is trying to achieve via the letter of the law as spelt out in the articles.
 
 In the case of the defaults the recitals have this to say:
 
@@ -34,7 +34,7 @@ In Apple's opening speech on changing defaults, Apple's spokesperson had this to
 
 > In this session we are going to provide a summary of what we are doing on the web browser choice screen and defaults pursuant to the DMA. Lets start with defaults and specifically the ability to select a default browser. **For a long time Apple have made it easy for users to choose a browser in the settings app**. Many users have already chosen to set a non-Safari default browser even before the DMA. **They can do it in just a few taps.**
 
-This is a little surprising. Apple didn't even let users change the default browser until [late 2020](https://support.apple.com/en-us/104975). When they did add the ability to do so the design was awkward and confusing. There is no centralised location to change defaults, no way of searching for the option in the OS settings and the option to change the default is inappropriately shown on each browser settings page. Further, they provide no API to allow newly installed browsers to prompt the user to switch default browser or even be aware that they are the default browser.
+This is a little surprising. Apple didn't even let users change the default browser until [late 2020](https://ios.gadgethacks.com/how-to/change-your-default-browser-ios-14-from-safari-chrome-firefox-edge-another-app-0339071/). When they did add the ability to do so the design was awkward and confusing. There is no centralised location to change defaults, no way of searching for the option in the OS settings and the option to change the default is inappropriately shown on each browser settings page. Further, they provide no API to allow newly installed browsers to prompt the user to switch default browser or even be aware that they are the default browser.
 
 Now, some may think it is unfair to suggest that Apple deliberately designed it to be as awkward as possible to change the default browser but **they went one critical step further that unambiguously shows that they maliciously intended to undermine user choice**.
 

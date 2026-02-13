@@ -6,6 +6,8 @@ layout: layouts/page.njk
 translated: false
 ---
 
+{% set content = languages_base[page.lang] %}
+
 <p>Open Web Advocacy is a not-for-profit organization made up of a loose group of software engineers from all over the world,
   who work for many different companies who have come together to fight for the future of the open web by providing regulators,
   legislators and policy makers the intricate technical details that they need to understand the major anti-competitive issues
@@ -38,7 +40,15 @@ issues with their jobs or businesses.</p>
       </div>
       <p class="social">
       {% for key, value in person.links %}
-      <a href="{{ value }}">{{ key }}</a>
+        {% if key == "email" %}
+          {% set label = content.email %}
+        {% elseif key == "website" %}
+          {% set label = content.website %}
+        {% else %}
+          {% set label = key %}
+        {% endif %}
+
+        <a href="{{ value }}">{{ label }}</a>
       {% endfor %}
     </p>
   </li>

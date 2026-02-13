@@ -5,6 +5,8 @@ metaDesc: Equipo de contribuidores de Open Web Advocacy
 layout: layouts/page.njk
 ---
 
+{% set content = languages_base[page.lang] %}
+
 <p>Open Web Advocacy es una organización sin ánimo de lucro formada por un grupo de ingenieros de software de todo el mundo,
   que trabajan para distintas companias, y que se han unido para luchar por el futuro de la web abierta con el fin de
   proporcionar los detalles técnicos que los reguladores, legisladores y responsables políticos necesitan para
@@ -36,7 +38,15 @@ layout: layouts/page.njk
       </div>
       <p class="social">
         {% for key, value in person.links %}
-        <a href="{{ value }}">{{ key }}</a>
+          {% if key == "email" %}
+            {% set label = content.email %}
+          {% elseif key == "website" %}
+            {% set label = content.website %}
+          {% else %}
+            {% set label = key %}
+          {% endif %}
+
+          <a href="{{ value }}">{{ label }}</a>
         {% endfor %}
       </p>
     </li>

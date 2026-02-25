@@ -1580,6 +1580,60 @@ header:not(.home-header) p:has(button.language-picker) {
   cursor: pointer;
 }
 
+
+/* Call to Arms Box */
+.cta-box {
+  max-width: 720px;
+  border: 2px solid var(--main-color);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.cta-header {
+  background: var(--main-color);
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1rem 1.5rem;
+}
+
+.cta-body {
+  background: var(--main-light);
+  text-align: center;
+  padding: 2rem 1.5rem;
+  color: #222;
+  line-height: 1.5;
+}
+
+.cta-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+  color: #111;
+}
+
+.cta-button {
+  display: inline-block;
+  background: white;
+  color: #222;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.9rem 1.6rem;
+  border-radius: 10px;
+  border: 2px solid #cd4c1d;
+  transition: all 0.2s ease;
+}
+
+.cta-button:hover {
+  background: #cd4c1d;
+  color: white;
+}
+
 /* ---------------------- PLUGINS ------------------------ */
 
 lite-youtube {

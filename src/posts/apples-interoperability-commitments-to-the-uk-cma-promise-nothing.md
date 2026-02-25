@@ -7,13 +7,29 @@ author: "OWA"
 
 **TL;DR: The UK's Competition and Markets Authority (CMA) has stated that developers need access to key iOS and iPadOS features to build innovative products and services, so UK consumers do not miss out. But Apple’s proposed interoperability commitments are far too weak to deliver that outcome. The CMA has the power to impose effective and enforceable interoperability obligations on mobile operating system gatekeepers under the UK's Digital Markets, Competition and Consumers Act 2024 (DMCCA), it just doesn’t appear to be using them.** 
 
+## How you can help!
+
+> **We welcome views on Apple’s proposed commitments in relation to interoperable access requests**. \[...\]  <br><br>
+> We welcome feedback from stakeholders on the approach as set out in this document, and on the respective proposed commitments provided by both Apple and Google individually, as well as on both approaches in the round. In particular, we welcome views on the metrics proposed to support in monitoring the delivery and effectiveness of the commitments. **If you wish to provide such views, please get in touch at mobilesms@cma.gov.uk by 5pm on 3 March 2026\.** Should any aspects of your views be confidential, we ask that you also provide a non-confidential version of your views alongside.
+> <cite>[CMA \- Proposed Commitments \- Call for Evidence](https://assets.publishing.service.gov.uk/media/698aee6fcfe7ccf77efbc87f/Call_for_evidence_10_February.pdf)<br>(emphasis added)</cite>
+
+The CMA has invited stakeholders to submit views on Apple’s proposed commitments. Because API access is essential to a competitive and fair mobile ecosystem, we encourage non-profits, developers, businesses that operate in the UK, and UK consumers to share their perspectives.
+
+In particular, we ask respondents to address:
+
+1. Whether a general interoperability requirement should be imposed on Apple and/or Google in relation to their mobile operating systems?
+
+2. Whether Apple’s proposed commitments are likely to deliver fair and effective API access for businesses operating in the UK, and whether they would end Apple’s self-preferencing of APIs?
+
+3. Any personal experiences where APIs or equivalent platform functionality were denied or made unavailable to third-parties.
+
+4. Whether an interoperability requirement of this kind would lead to greater growth and innovation in the UK?
+
 <div class="cta-box">
     <div class="cta-header">Email the UK CMA and Make Your Voice Heard!</div>
 
     <div class="cta-body">
-        <p>
-        Read [all the details here](#how-you-can-help!). Send your email before <strong>March 3rd 5:00pm</strong> to:
-        </p>
+        <p>Send your email before <strong>March 3rd 5:00pm</strong> to:</p>
 
         <div class="cta-email">
         <span class="address">mobilesms@cma.gov.uk</span>
@@ -280,24 +296,6 @@ Key requirements should include:
 Finally, the CMA should build in a structured review and update mechanism from the outset, on the assumption that new circumvention strategies will emerge and will need to be addressed quickly.
 
 Without these measures, it is, in our view, highly likely that the CMA’s stated objective to grant developers interoperable access to key functionality in Apple’s iOS and iPadOS to create innovative products will fail.
-
-## How you can help\!
-
-> **We welcome views on Apple’s proposed commitments in relation to interoperable access requests**. \[...\]  <br><br>
-> We welcome feedback from stakeholders on the approach as set out in this document, and on the respective proposed commitments provided by both Apple and Google individually, as well as on both approaches in the round. In particular, we welcome views on the metrics proposed to support in monitoring the delivery and effectiveness of the commitments. **If you wish to provide such views, please get in touch at mobilesms@cma.gov.uk by 5pm on 3 March 2026\.** Should any aspects of your views be confidential, we ask that you also provide a non-confidential version of your views alongside.
-> <cite>[CMA \- Proposed Commitments \- Call for Evidence](https://assets.publishing.service.gov.uk/media/698aee6fcfe7ccf77efbc87f/Call_for_evidence_10_February.pdf)<br>(emphasis added)</cite>
-
-The CMA has invited stakeholders to submit views on Apple’s proposed commitments. Because API access is essential to a competitive and fair mobile ecosystem, we encourage non-profits, developers, businesses that operate in the UK, and UK consumers to share their perspectives.
-
-In particular, we ask respondents to address:
-
-1. Whether a general interoperability requirement should be imposed on Apple and/or Google in relation to their mobile operating systems?
-
-2. Whether Apple’s proposed commitments are likely to deliver fair and effective API access for businesses operating in the UK, and whether they would end Apple’s self-preferencing of APIs?
-
-3. Any personal experiences where APIs or equivalent platform functionality were denied or made unavailable to third-parties.
-
-4. Whether an interoperability requirement of this kind would lead to greater growth and innovation in the UK?
 
 <div class="cta-box">
     <div class="cta-header">Email the UK CMA and Make Your Voice Heard!</div>

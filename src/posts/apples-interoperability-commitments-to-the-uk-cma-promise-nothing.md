@@ -55,6 +55,95 @@ On February 10th 2026, the CMA [announced that Apple and Google had proposed com
 > We consider commitments could **prove a swift, effective and proportionate way of addressing these specific concerns** and we have worked with Apple and Google to interrogate and further develop their proposals. **Our goal is to deliver meaningful outcomes to UK consumers and businesses**, and we seek to deliver these outcomes in the most effective and efficient way for the specific circumstances, **using the full range of tools available to us.**
 > <cite>[CMA \- Proposed Commitments \- Call for Evidence](https://assets.publishing.service.gov.uk/media/698aee6fcfe7ccf77efbc87f/Call_for_evidence_10_February.pdf)<br>(emphasis added)</cite>
 
+## What has Apple committed to in the UK
+
+Apple has committed to providing a feedback channel for developers to make interoperability requests. Apple has committed to publicly publishing some annual statistics on this process and a statement that it is abiding by these commitments. Apple has also committed bi-annually reporting more detailed data on the request system to the CMA.
+
+This all sounds great, until you dig into the details, and at which point multiple problems that invalidate the whole proposal become apparent.
+
+> **Today’s announcement is unfortunately a gift to Apple and Google**. Allowing dominant gatekeepers to set the terms of their own restraint— after years of abusing market power and dodging enforcement, including a US contempt finding against Apple — **will not deliver real competition**.
+> <cite>[Coalition for App Fairness](https://appfairness.org/caf-statement-in-response-to-cma-announcement-on-apple-and-googles-proposed-commitments/)<br>(emphasis added)</cite>
+
+> Given the highly dubious track record of these tech giants, **we would question whether these voluntary commitments are really worth the paper they are printed on**.
+> <cite>[News Media Association](https://newsmediauk.org/blog/2026/02/10/nma-questions-whether-tech-giants-app-store-commitments-worth-paper-they-are-printed-on/)<br>(emphasis added)</cite>
+
+> Four years on from the publication of the mobile ecosystems market study report, t**he CMA isn’t actually proposing any formal conduct requirements at all. They are proposing to accept non-binding commitments from Google and Apple** that they will run a fairer app review process and be fairer in how they rank apps in the app stores. **Oh, and Apple is promising to consider interoperability requests fairly and objectively** 😉 🤞  <br><br>
+> \[...\]  <br><br>
+> This is disappointing. **It’s an outcome so weak that the possibility is not even mentioned in the CMA’s 220-page guidance document** published in December.  <br><br>
+> **It’s also deeply misleading for the CMA to describe these promises as “commitments”, which is a word with actual legal meaning (and legal enforceability)** in the pro-competitive interventions process and in competition enforcement cases under the Competition Act.
+> <cite>[Tom Smith Former Legal Director at the CMA](https://www.linkedin.com/posts/tom-smith-geradin-partners_the-competition-and-markets-authority-has-activity-7426947039244111872-lfcQ)<br>(emphasis added)</cite>
+
+> Five years after the CMA began investigating competition in the mobile ecosystem, **this feels pretty weak to me**. \[...\]
+> Quite why the CMA does not aim to create a default interoperability requirement is beyond my small brain to fathom. But even within this very lightweight framing, Apple’s commitments are hugely underwhelming \[...\] Hang on: **Apple can deny a competitor access to an existing iOS service, if it decides there won’t be enough user uptake? Then why did it implement it in the first place?** If access to a feature, that Apple has already implemented and uses in its own products, doesn’t align “with Apple’s platform priorities”, why did they add that feature to their platform?
+> <cite>[Bruce Lawson](https://brucelawson.co.uk/2026/on-apples-pinky-promises-to-cma/)<br>(emphasis added)</cite>
+
+### Apple Isn’t Committing to Sharing Anything
+
+The first and biggest problem is that the proposal is layered with multiple ways of Apple not having to share any API it doesn’t want to, regardless of the circumstances. Nowhere in the proposed commitment does Apple commit to sharing the operating system features and functionalities used by its own apps, services and ancillary devices. It doesn’t even commit to this subject to security, privacy or other conditions.
+
+Just in case there was any doubt, Apple states:
+
+> Receiving a request through the feedback channel **will not create any obligation or expectation that Apple will commit to building a specific requested feature** (or, if Apple does choose to build a requested feature, **whether or not it will make it available to the Eligible Developer or developers generally for a fee**), which will remain at Apple’s discretion in line **with its commercial strategy** and priorities.
+> <cite>[Apple Proposed Commitments](https://assets.publishing.service.gov.uk/media/69899adbd3f57710b50a9b86/apple_proposed_commitments.pdf)<br>(emphasis added)</cite>
+
+Apple’s “commitment” boils down to this: Apple will decide, case by case, what access it grants and to whom. It reserves the right to keep certain APIs or higher quality versions of APIs for its own apps, devices, and services. In effect, Apple is promising only that it will do what it wants.
+
+Apple also concedes it may withhold API access where granting it could undermine its commercial strategy. Put plainly: if enabling an API would help someone compete with Apple, that alone can be a reason not to provide it.
+
+### UK Developer Program Only
+
+Eligibility to make these interoperability requests is limited to *“developers \[...\] whose account membership with the Developer Program is registered in the UK”*. This does not cover a significant majority of the apps and devices that are available to UK users via Apple’s app store. Many apps and devices that UK users rely on are developed by entities whose developer program is registered outside the UK. Apple needs to expand this to all developers and vendors that provide apps, services, or connected devices that work with iOS devices used by UK users, regardless of where the developer account is registered.
+
+### Broad and Gameable Rejection Criteria
+
+Apple's assessment criteria are broad, subjective, and allow denial of any request.
+
+They include:
+
+* *“expected user and developer uptake”*  
+* *“alignment with Apple’s platform priorities”*  
+* *“potential implementation costs”*  
+* *“potential impact on user experience, performance/battery, security, safety, privacy, integrity, and accessibility”*  
+* *“potential impact on Apple’s intellectual property rights”*
+
+With these criteria, Apple can trivially deny any request and still be in full compliance with this policy.
+
+### Apple Allows For Billing for API Access
+
+> Receiving a request through the feedback channel will not create any obligation or expectation that Apple will commit to building a specific requested feature (or, if Apple does choose to build a requested feature, **whether or not it will make it available to the Eligible Developer or developers generally for a fee**), which will remain at Apple’s discretion in line with its commercial strategy and priorities.
+> <cite>[Apple Proposed Commitments](https://assets.publishing.service.gov.uk/media/69899adbd3f57710b50a9b86/apple_proposed_commitments.pdf)<br>(emphasis added)</cite>
+
+Apple has inserted a clause allowing it to charge for API access. This could be a powerful mechanism for Apple to block fair competition with its own apps. We argue here in extensive detail [why API access should be free](https://open-web-advocacy.org/apple-dma-review/#the-fair-price-for-api-access), something that the DMA already mandates.
+
+Imagine if Microsoft charged developers for access to basic Windows APIs such as Bluetooth, so that an app had to pay Microsoft simply to use system functionality on devices that users already own. That would be an obvious barrier to competition and would clearly be ridiculous, but is the very thing that Apple is proposing here.
+
+### Weak Deadlines and Lack of Transparency
+
+> Apple will endeavour to provide developers with an update on the status of their requests within four weeks of receiving them. \[...\]  <br><br>
+> Apple will inform developers of the outcome of its review of their requests, and the associated reasoning for this outcome. \[...\]  <br><br>
+> Apple will inform developers generally about forthcoming changes to iOS and iPadOS, including those resulting from eligible requests, in its beta releases.
+> <cite>[Apple Proposed Commitments](https://assets.publishing.service.gov.uk/media/69899adbd3f57710b50a9b86/apple_proposed_commitments.pdf)</cite>
+
+Apple states that it will “endeavour” to provide developers with an update on the status of their requests within four weeks, inform them of the outcome and reasoning, and communicate forthcoming platform changes through beta releases.
+
+These are weak, non-binding commitments. Apple is not required to meet the four-week timeframe, only to attempt to do so. Developers are given no certainty about whether a request has been approved, when any approved changes will be implemented, or even whether implementation will occur at all. The commitments also impose no obligation on Apple to publish in advance what changes it plans to make in response to a successful request, nor to provide a concrete delivery timeline.
+
+Given that persistent delays were a primary reason the European Commission initiated specification proceedings against Apple, deadlines are an important requirement in any effective interoperability obligation.
+
+## How Apple can comply and still do nothing
+
+Apple could fully comply with this proposal while effectively changing nothing.
+
+The core problem is that Apple could simply deny every request for access to key APIs from companies that compete with Apple’s own apps, accessories, and services, and still claim it is following the rules. In practice, this turns the proposal into a blank cheque that lets Apple avoid sharing APIs indefinitely, with no real consequences. The CMA’s interventions are meant to drive real change but they risk failing in their aim of ensuring interoperable access to essential iOS and iPadOS functionality, leaving UK developers unable to build the full range of innovative products and services and UK consumers worse off through reduced choice and weaker competition.
+
+Apple's poor compliance with the EU’s far more stringent Digital Markets Act does not bode well for such a process. The EU Commission [has already had to run a specification proceeding](https://ec.europa.eu/competition/digital_markets_act/cases/202523/DMA_100204_2073.pdf) against Apple to force upon them a more stringent process, with deadlines. [A proceeding that is now the target of a lawsuit from Apple](https://open-web-advocacy.org/blog/owa-2025-review/#dma---apple-court-cases).
+
+**That makes it very hard to believe this entirely voluntary proposal with no hard requirements to share anything will deliver the outcomes the CMA says it wants.**
+
+By contrast, the EU approach has already led to tangible gains for UK consumers and UK businesses, including [USB-C charging for iPhones](https://www.theguardian.com/technology/2022/oct/26/iphone-usb-c-lightning-connectors-apple-eu-rules), [support for game emulators](https://9to5mac.com/2024/04/05/app-store-guidelines-music-apps-game-emulators/), [NFC access for third-party payments](https://www.finextra.com/newsarticle/44594/apple-to-open-up-nfc-payments-access-to-third-parties), [the new default apps page](https://www.macrumors.com/2024/10/23/ios-18-2-default-apps-section/), and most recently [cross-platform AirDrop support](https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/).
+
+Given the powers available under the DMCCA and the SMS designations of Apple and Google, the CMA can do far better than this. **Endorsing this proposal would effectively give regulatory cover to a process that offers no meaningful benefit for UK businesses or consumers. Worse, it could delay the introduction of measures that would actually be effective.**
+
 ## Why an Interoperability Requirement is Needed
 
 Interoperability is the foundation of effective competition in digital markets. On mobile platforms, access to operating system features and application programming interfaces (APIs) determines what third-party developers can build, how well their products perform, and whether they can compete on equal terms with the platform owner’s own apps and services. Without meaningful interoperability, competition is constrained not by innovation or consumer preference, but by technical restrictions imposed by the gatekeeper.
@@ -151,95 +240,6 @@ The iPod illustrates how yesterday’s antitrust enforced interoperability can t
 Interoperability obligations also made it far more feasible for third-party browsers such as Firefox and later Chrome to succeed on Windows, rather than leaving the field to an increasingly stagnant Internet Explorer. **This shift was critical to allowing the web to compete on the desktop, where it now accounts for roughly 70% of user time.**
 
 **The irony is that Apple, once a beneficiary of an ecosystem where the dominant platform was pushed to open up, is now large enough to fear the same sort of openness.** Interoperability mandates are easy to celebrate when they pry open someone else’s gate, and much harder to embrace when your own platform becomes the one that must be easier to build on, easier to leave, and less able to treat integration as a moat.
-
-## What has Apple committed to in the UK
-
-Apple has committed to providing a feedback channel for developers to make interoperability requests. Apple has committed to publicly publishing some annual statistics on this process and a statement that it is abiding by these commitments. Apple has also committed bi-annually reporting more detailed data on the request system to the CMA.
-
-This all sounds great, until you dig into the details, and at which point multiple problems that invalidate the whole proposal become apparent.
-
-> **Today’s announcement is unfortunately a gift to Apple and Google**. Allowing dominant gatekeepers to set the terms of their own restraint— after years of abusing market power and dodging enforcement, including a US contempt finding against Apple — **will not deliver real competition**.
-> <cite>[Coalition for App Fairness](https://appfairness.org/caf-statement-in-response-to-cma-announcement-on-apple-and-googles-proposed-commitments/)<br>(emphasis added)</cite>
-
-> Given the highly dubious track record of these tech giants, **we would question whether these voluntary commitments are really worth the paper they are printed on**.
-> <cite>[News Media Association](https://newsmediauk.org/blog/2026/02/10/nma-questions-whether-tech-giants-app-store-commitments-worth-paper-they-are-printed-on/)<br>(emphasis added)</cite>
-
-> Four years on from the publication of the mobile ecosystems market study report, t**he CMA isn’t actually proposing any formal conduct requirements at all. They are proposing to accept non-binding commitments from Google and Apple** that they will run a fairer app review process and be fairer in how they rank apps in the app stores. **Oh, and Apple is promising to consider interoperability requests fairly and objectively** 😉 🤞  <br><br>
-> \[...\]  <br><br>
-> This is disappointing. **It’s an outcome so weak that the possibility is not even mentioned in the CMA’s 220-page guidance document** published in December.  <br><br>
-> **It’s also deeply misleading for the CMA to describe these promises as “commitments”, which is a word with actual legal meaning (and legal enforceability)** in the pro-competitive interventions process and in competition enforcement cases under the Competition Act.
-> <cite>[Tom Smith Former Legal Director at the CMA](https://www.linkedin.com/posts/tom-smith-geradin-partners_the-competition-and-markets-authority-has-activity-7426947039244111872-lfcQ)<br>(emphasis added)</cite>
-
-> Five years after the CMA began investigating competition in the mobile ecosystem, **this feels pretty weak to me**. \[...\]
-> Quite why the CMA does not aim to create a default interoperability requirement is beyond my small brain to fathom. But even within this very lightweight framing, Apple’s commitments are hugely underwhelming \[...\] Hang on: **Apple can deny a competitor access to an existing iOS service, if it decides there won’t be enough user uptake? Then why did it implement it in the first place?** If access to a feature, that Apple has already implemented and uses in its own products, doesn’t align “with Apple’s platform priorities”, why did they add that feature to their platform?
-> <cite>[Bruce Lawson](https://brucelawson.co.uk/2026/on-apples-pinky-promises-to-cma/)<br>(emphasis added)</cite>
-
-### Apple Isn’t Committing to Sharing Anything
-
-The first and biggest problem is that the proposal is layered with multiple ways of Apple not having to share any API it doesn’t want to, regardless of the circumstances. Nowhere in the proposed commitment does Apple commit to sharing the operating system features and functionalities used by its own apps, services and ancillary devices. It doesn’t even commit to this subject to security, privacy or other conditions.
-
-Just in case there was any doubt, Apple states:
-
-> Receiving a request through the feedback channel **will not create any obligation or expectation that Apple will commit to building a specific requested feature** (or, if Apple does choose to build a requested feature, **whether or not it will make it available to the Eligible Developer or developers generally for a fee**), which will remain at Apple’s discretion in line **with its commercial strategy** and priorities.
-> <cite>[Apple Proposed Commitments](https://assets.publishing.service.gov.uk/media/69899adbd3f57710b50a9b86/apple_proposed_commitments.pdf)<br>(emphasis added)</cite>
-
-Apple’s “commitment” boils down to this: Apple will decide, case by case, what access it grants and to whom. It reserves the right to keep certain APIs or higher quality versions of APIs for its own apps, devices, and services. In effect, Apple is promising only that it will do what it wants.
-
-Apple also concedes it may withhold API access where granting it could undermine its commercial strategy. Put plainly: if enabling an API would help someone compete with Apple, that alone can be a reason not to provide it.
-
-### UK Developer Program Only
-
-Eligibility to make these interoperability requests is limited to *“developers \[...\] whose account membership with the Developer Program is registered in the UK”*. This does not cover a significant majority of the apps and devices that are available to UK users via Apple’s app store. Many apps and devices that UK users rely on are developed by entities whose developer program is registered outside the UK. Apple needs to expand this to all developers and vendors that provide apps, services, or connected devices that work with iOS devices used by UK users, regardless of where the developer account is registered.
-
-### Broad and Gameable Rejection Criteria
-
-Apple's assessment criteria are broad, subjective, and allow denial of any request.
-
-They include:
-
-* *“expected user and developer uptake”*  
-* *“alignment with Apple’s platform priorities”*  
-* *“potential implementation costs”*  
-* *“potential impact on user experience, performance/battery, security, safety, privacy, integrity, and accessibility”*  
-* *“potential impact on Apple’s intellectual property rights”*
-
-With these criteria, Apple can trivially deny any request and still be in full compliance with this policy.
-
-### Apple Allows For Billing for API Access
-
-> Receiving a request through the feedback channel will not create any obligation or expectation that Apple will commit to building a specific requested feature (or, if Apple does choose to build a requested feature, **whether or not it will make it available to the Eligible Developer or developers generally for a fee**), which will remain at Apple’s discretion in line with its commercial strategy and priorities.
-> <cite>[Apple Proposed Commitments](https://assets.publishing.service.gov.uk/media/69899adbd3f57710b50a9b86/apple_proposed_commitments.pdf)<br>(emphasis added)</cite>
-
-Apple has inserted a clause allowing it to charge for API access. This could be a powerful mechanism for Apple to block fair competition with its own apps. We argue here in extensive detail [why API access should be free](https://open-web-advocacy.org/apple-dma-review/#the-fair-price-for-api-access), something that the DMA already mandates.
-
-Imagine if Microsoft charged developers for access to basic Windows APIs such as Bluetooth, so that an app had to pay Microsoft simply to use system functionality on devices that users already own. That would be an obvious barrier to competition and would clearly be ridiculous, but is the very thing that Apple is proposing here.
-
-### Weak Deadlines and Lack of Transparency
-
-> Apple will endeavour to provide developers with an update on the status of their requests within four weeks of receiving them. \[...\]  <br><br>
-> Apple will inform developers of the outcome of its review of their requests, and the associated reasoning for this outcome. \[...\]  <br><br>
-> Apple will inform developers generally about forthcoming changes to iOS and iPadOS, including those resulting from eligible requests, in its beta releases.
-> <cite>[Apple Proposed Commitments](https://assets.publishing.service.gov.uk/media/69899adbd3f57710b50a9b86/apple_proposed_commitments.pdf)</cite>
-
-Apple states that it will “endeavour” to provide developers with an update on the status of their requests within four weeks, inform them of the outcome and reasoning, and communicate forthcoming platform changes through beta releases.
-
-These are weak, non-binding commitments. Apple is not required to meet the four-week timeframe, only to attempt to do so. Developers are given no certainty about whether a request has been approved, when any approved changes will be implemented, or even whether implementation will occur at all. The commitments also impose no obligation on Apple to publish in advance what changes it plans to make in response to a successful request, nor to provide a concrete delivery timeline.
-
-Given that persistent delays were a primary reason the European Commission initiated specification proceedings against Apple, deadlines are an important requirement in any effective interoperability obligation.
-
-## How Apple can comply and still do nothing
-
-Apple could fully comply with this proposal while effectively changing nothing.
-
-The core problem is that Apple could simply deny every request for access to key APIs from companies that compete with Apple’s own apps, accessories, and services, and still claim it is following the rules. In practice, this turns the proposal into a blank cheque that lets Apple avoid sharing APIs indefinitely, with no real consequences. The CMA’s interventions are meant to drive real change but they risk failing in their aim of ensuring interoperable access to essential iOS and iPadOS functionality, leaving UK developers unable to build the full range of innovative products and services and UK consumers worse off through reduced choice and weaker competition.
-
-Apple's poor compliance with the EU’s far more stringent Digital Markets Act does not bode well for such a process. The EU Commission [has already had to run a specification proceeding](https://ec.europa.eu/competition/digital_markets_act/cases/202523/DMA_100204_2073.pdf) against Apple to force upon them a more stringent process, with deadlines. [A proceeding that is now the target of a lawsuit from Apple](https://open-web-advocacy.org/blog/owa-2025-review/#dma---apple-court-cases).
-
-**That makes it very hard to believe this entirely voluntary proposal with no hard requirements to share anything will deliver the outcomes the CMA says it wants.**
-
-By contrast, the EU approach has already led to tangible gains for UK consumers and UK businesses, including [USB-C charging for iPhones](https://www.theguardian.com/technology/2022/oct/26/iphone-usb-c-lightning-connectors-apple-eu-rules), [support for game emulators](https://9to5mac.com/2024/04/05/app-store-guidelines-music-apps-game-emulators/), [NFC access for third-party payments](https://www.finextra.com/newsarticle/44594/apple-to-open-up-nfc-payments-access-to-third-parties), [the new default apps page](https://www.macrumors.com/2024/10/23/ios-18-2-default-apps-section/), and most recently [cross-platform AirDrop support](https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/).
-
-Given the powers available under the DMCCA and the SMS designations of Apple and Google, the CMA can do far better than this. **Endorsing this proposal would effectively give regulatory cover to a process that offers no meaningful benefit for UK businesses or consumers. Worse, it could delay the introduction of measures that would actually be effective.**
 
 ## Small businesses are the drivers of growth and innovation
 

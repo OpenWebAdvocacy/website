@@ -1642,5 +1642,6 @@ lite-youtube {
   height: auto;
   aspect-ratio: 16/9;
   margin-inline: auto;
+  margin-top: 1em;
   & > button { padding: 0; }
 }

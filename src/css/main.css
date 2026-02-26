@@ -300,7 +300,8 @@ img {
 /* More info: https://piccalil.li/quick-tip/flow-css-utility/ */
 .flow>*+*,
 .flow>blockquote>*+* {
-  margin-top: var(--flow-space, 1em);
+  margin-top: var(1em);
+  margin-bottom: var(--flow-space, 1em);
 }
 
 .flow>p+p,

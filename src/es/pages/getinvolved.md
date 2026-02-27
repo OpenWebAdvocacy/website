@@ -1,5 +1,5 @@
 ---
-title: 'Involucrarte'
+title: 'Participa'
 permalink: '/es/get-involved/'
 metaDesc: "Descubra cómo participar en los esfuerzos de defensa de la web abierta."
 layout: 'layouts/page.njk'

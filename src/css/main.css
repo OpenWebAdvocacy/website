@@ -298,9 +298,13 @@ img {
 }
 
 /* More info: https://piccalil.li/quick-tip/flow-css-utility/ */
-.flow>*+*,
-.flow>blockquote>*+* {
+.flow>*+* {
   margin-top: var(--flow-space, 1em);
+}
+
+.flow>blockquote>*+* {
+  margin-top: 1em;
+  margin-bottom: var(--flow-space, 1em);
 }
 
 .flow>p+p,
@@ -1641,5 +1645,6 @@ lite-youtube {
   height: auto;
   aspect-ratio: 16/9;
   margin-inline: auto;
+  margin-top: 1em;
   & > button { padding: 0; }
 }

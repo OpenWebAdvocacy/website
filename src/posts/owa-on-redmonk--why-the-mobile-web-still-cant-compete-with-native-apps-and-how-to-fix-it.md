@@ -1,6 +1,6 @@
 ---
 title: "OWA on RedMonk: Why the Mobile Web Still Can’t Compete with Native Apps, and How to Fix It!"
-date: '2026-02-26'
+date: '2026-02-27'
 tags: ['Policy', 'Apple', 'DMA', 'DMCCA']
 author: "OWA"
 ---
@@ -28,7 +28,7 @@ And why web apps could replace native apps:
 > And I just want to respond to what I hear often when I speak to developers who really are cynical about the eventual success of web apps. And they just say that native apps work better. And they sort of dismiss the PWAs as just not being realistic as much as they maybe ideologically agree with all the points that you’re making here. **What is your response to folks who are skeptical of PWAs being able to function at the level of native apps?**
 > <cite>[Kate Holterhoff](https://redmonk.com/videos/alex-moore-open-web-advocacy/)</cite>
 
-> So the way I like to think about it is, at the end of the day, what you’re talking about in terms of the difference between native apps and web apps is, do you really think that web apps do not have the capability of painting to the screen 60 frames a second and doing the kinds of interactions that native apps can do? \[...\] So a great example is Photoshop. They ported the entirety of desktop Photoshop into a web browser. \[...\] **If you can build a software as complicated as Photoshop in the web, then all of the other software, which is arguably significantly more simple, is also possible.** \[...\] All the features and functionalities that we’re missing from native. Most of them are artificial. They’re just Apple’s, t**hey’ve refused to provide an easy installation process and there’s no competition. So there’s nothing pushing them to invest significantly so that the lowest common denominator across the browsers is at a higher level.**
+> So the way I like to think about it is, at the end of the day, what you’re talking about in terms of the difference between native apps and web apps is, do you really think that web apps do not have the capability of painting to the screen 60 frames a second and doing the kinds of interactions that native apps can do? \[...\] So a great example is Photoshop. They ported the entirety of desktop Photoshop into a web browser. \[...\] **If you can build a software as complicated as Photoshop in the web, then all of the other software, which is arguably significantly more simple, is also possible.** \[...\] All the features and functionalities that we’re missing from native. Most of them are artificial. They’re just Apple’s, **they’ve refused to provide an easy installation process and there’s no competition. So there’s nothing pushing them to invest significantly so that the lowest common denominator across the browsers is at a higher level.**
 > <cite>[Alex Moore](https://redmonk.com/videos/alex-moore-open-web-advocacy/)</cite>
 
 To learn more [listen to the full talk](https://redmonk.com/videos/alex-moore-open-web-advocacy/). We also recommend listening to [this conversation between Kate Holterhoff and Alex Russell on PWAs, App Stores, and Mobile Performance](https://redmonk.com/blog/2025/11/24/alex-russell/).

@@ -528,5 +528,18 @@
       "mastodon": "https://infosec.exchange/@drewigg",
       "x/twitter": "https://twitter.com/andre_wiggins"
     }
+  },
+  {
+    "name": "TAKAHASHI Shuuji",
+    "countries": [
+      "Japan🇯🇵"
+    ],
+    "avatar": "shuuji3.png",
+    "what": "Web Developer, Open Source Contributor",
+    "links": {
+      "website": "https://shuuji3.xyz/",
+      "bluesky": "https://bsky.app/profile/did:plc:6yg3amb6efesrcbrkctyyfio",
+      "mastodon": "https://elk.zone/mastodon.social/@shuuji3@webtoo.ls"
+    }
   }
 ]

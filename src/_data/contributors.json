@@ -10,7 +10,7 @@
     "links": {
       "email": "mailto:alex@open-web-advocacy.org",
       "mastodon": "https://mastodon.social/@mtomweb",
-      "x/twitter": "https://twitter.com/mtomweb",
+      "x": "https://twitter.com/mtomweb",
       "linkedin": "https://au.linkedin.com/in/alexlmoore"
     }
   },
@@ -23,7 +23,7 @@
     "what": "Founder & CEO, <a href='https://socket.dev/'>Socket Security</a>, <a href='https://wormhole.app/'>Wormhole</a>, Visiting Lecturer, Stanford University",
     "links": {
       "website": "https://feross.org/",
-      "x/twitter": "https://twitter.com/feross"
+      "x": "https://twitter.com/feross"
     }
   },
   {
@@ -35,7 +35,7 @@
     "what": "Senior Web Application Developer, Web Components",
     "links": {
       "website": "http://open-wc.org/",
-      "x/twitter": "https://twitter.com/dakmor"
+      "x": "https://twitter.com/dakmor"
     }
   },
   {
@@ -49,7 +49,7 @@
     "links": {
       "website": "https://blog.almaer.com",
       "mastodon": "https://indieweb.social/@dalmaer",
-      "x/twitter": "https://twitter.com/dalmaer"
+      "x": "https://twitter.com/dalmaer"
     }
   },
   {
@@ -62,7 +62,7 @@
     "links": {
       "website": "https://webdirections.org/",
       "mastodon": "https://indieweb.social/@johnallsopp",
-      "x/twitter": "https://twitter.com/johnallsopp"
+      "x": "https://twitter.com/johnallsopp"
     }
   },
   {
@@ -75,7 +75,7 @@
     "links": {
       "website": "https://andy-bell.co.uk/about/",
       "mastodon": "https://mastodon.social/@hankchizljaw",
-      "x/twitter": "https://twitter.com/piccalilli_"
+      "x": "https://twitter.com/piccalilli_"
     }
   },
   {
@@ -132,7 +132,7 @@
     "what": "Independent (Open Source) Software Developer, Speaker / Writer, and Entrepreneur",
     "links": {
       "website": "https://www.thegreenhouse.io/",
-      "x/twitter": "https://twitter.com/thegreenhouseio",
+      "x": "https://twitter.com/thegreenhouseio",
       "github": "https://github.com/thescientist13"
     }
   },
@@ -146,7 +146,7 @@
     "links": {
       "website": "https://kushaldave.com",
       "mastodon": "https://mstdn.social/@krave",
-      "x/twitter": "https://twitter.com/krave"
+      "x": "https://twitter.com/krave"
     }
   },
   {
@@ -159,7 +159,7 @@
     "links": {
       "website": "https://narrow.one",
       "mastodon": "https://mastodon.social/@jespertheend",
-      "x/twitter": "https://twitter.com/Jespertheend"
+      "x": "https://twitter.com/Jespertheend"
     }
   },
   {
@@ -172,7 +172,7 @@
     "links": {
       "website": "https://firt.dev/",
       "mastodon": "https://mastodon.social/@firt",
-      "x/twitter": "https://twitter.com/firt"
+      "x": "https://twitter.com/firt"
     }
   },
   {
@@ -186,7 +186,7 @@
       "website": "https://webventures.rejh.nl",
       "bluesky": "https://bsky.app/profile/rgadellaa.bsky.social",
       "mastodon": "https://mastodon.social/@rgadellaa/",
-      "x/twitter": "https://twitter.com/RGadellaa"
+      "x": "https://twitter.com/RGadellaa"
     }
   },
   {
@@ -211,7 +211,7 @@
     "what": "Software Engineer",
     "links": {
       "website": "https://thomas-guettler.de/",
-      "x/twitter": "https://twitter.com/guettli"
+      "x": "https://twitter.com/guettli"
     }
   },
   {
@@ -236,7 +236,7 @@
     "what": "UX Designer (Apple, Google, Symbian)",
     "links": {
       "mastodon": "https://social.coop/@scottjenson",
-      "x/twitter": "https://twitter.com/scottjenson"
+      "x": "https://twitter.com/scottjenson"
     }
   },
   {
@@ -248,7 +248,7 @@
     "what": "Web Developer, Student",
     "links": {
       "website": "https://axtech.dev/",
-      "x/twitter": "https://x.com/AXT_AyaKoto"
+      "x": "https://x.com/AXT_AyaKoto"
     }
   },
   {
@@ -259,7 +259,7 @@
     "avatar": "chris-lacy.jpg",
     "what": "<a href='https://time.com/35712/link-bubble-app-is-a-real-time-saver-for-android-users/'>Link Bubble</a> creator, Native and Web App Developer",
     "links": {
-      "x/twitter": "https://twitter.com/chrismlacy"
+      "x": "https://twitter.com/chrismlacy"
     }
   },
   {
@@ -310,7 +310,7 @@
     "what": "PWA/Web Components Specialist, Creator of <a href='https://whatpwacando.today'>whatpwacando.today</a>",
     "links": {
       "website": "https://www.dannymoerkerke.com/",
-      "x/twitter": "https://twitter.com/dannymoerkerke"
+      "x": "https://twitter.com/dannymoerkerke"
     }
   },
   {
@@ -334,7 +334,7 @@
     "avatar": "vincent-morneau.jpg",
     "what": "Oracle, Principal Member of Technical Staff, Mobile and PWA Strategy Lead",
     "links": {
-      "x/twitter": "https://twitter.com/vincentmorneau"
+      "x": "https://twitter.com/vincentmorneau"
     }
   },
   {
@@ -347,7 +347,7 @@
     "what": "Maker of weird things and Founder/CEO of Cryptee <a href='https://crypt.ee/'>crypt.ee</a>",
     "links": {
       "website": "https://crypt.ee/",
-      "x/twitter": "https://twitter.com/johnozbay"
+      "x": "https://twitter.com/johnozbay"
     }
   },
   {
@@ -360,7 +360,7 @@
     "links": {
       "website": "https://tim.fyi/",
       "mastodon": "https://toot.cafe/@pimterry",
-      "x/twitter": "https://twitter.com/pimterry"
+      "x": "https://twitter.com/pimterry"
     }
   },
   {
@@ -395,7 +395,7 @@
     "what": "Principal UX Engineer, Red Hat",
     "links": {
       "mastodon": "https://social.bennypowers.dev/@bp",
-      "x/twitter": "https://twitter.com/PowersBenny"
+      "x": "https://twitter.com/PowersBenny"
     }
   },
   {
@@ -421,7 +421,7 @@
     "what": "Core Team, <a href='https://nuxtjs.org'>Nuxt</a>",
     "links": {
       "website": "https://roe.dev",
-      "x/twitter": "https://twitter.com/danielcroe"
+      "x": "https://twitter.com/danielcroe"
     }
   },
   {
@@ -433,7 +433,7 @@
     "what": "Web Developer",
     "links": {
       "website": "https://heyjonr.com",
-      "x/twitter": "https://twitter.com/HeyJonR"
+      "x": "https://twitter.com/HeyJonR"
     }
   },
   {
@@ -453,7 +453,7 @@
     "avatar": "yuya-saito.jpg",
     "what": "Web Developer, Technical Translation",
     "links": {
-      "x/twitter": "https://twitter.com/cssradar"
+      "x": "https://twitter.com/cssradar"
     }
   },
   {
@@ -466,7 +466,7 @@
     "links": {
       "website": "https://schepp.dev/",
       "mastodon": "https://mastodon.social/@Schepp",
-      "x/twitter": "https://twitter.com/derSchepp"
+      "x": "https://twitter.com/derSchepp"
     }
   },
   {
@@ -490,7 +490,7 @@
     "what": "W3C Invited Expert, Performance Expert, Host of Javascript Jabber",
     "links": {
       "mastodon": "https://webperf.social/@DanShappir",
-      "x/twitter": "https://twitter.com/DanShappir"
+      "x": "https://twitter.com/DanShappir"
     }
   },
   {
@@ -526,7 +526,7 @@
     "avatar": "paul-trifa.jpg",
     "what": "Senior FE Architect and Tech Lead",
     "links": {
-      "x/twitter": "https://twitter.com/paul3fa"
+      "x": "https://twitter.com/paul3fa"
     }
   },
   {
@@ -538,7 +538,7 @@
     "what": "Web Developer",
     "links": {
       "mastodon": "https://infosec.exchange/@drewigg",
-      "x/twitter": "https://twitter.com/andre_wiggins"
+      "x": "https://twitter.com/andre_wiggins"
     }
   }
 ]

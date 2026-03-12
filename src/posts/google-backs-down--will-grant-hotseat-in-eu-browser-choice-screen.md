@@ -11,6 +11,9 @@ author: "OWA"
 
 We are grateful to [BEUC](https://www.beuc.eu/), [Mozilla](https://www.mozilla.org/), [Vivaldi](http://vivaldi.com), [DuckDuckGo](http://duckduckgo.com), [Ecosia](http://ecosia.org) and [Brave](http://brave.com) for their valuable support in achieving this result, and to OWA volunteers John Ozbay, Roderick Gadellaa and James Heppell who helped make this happen at the DMA workshops last year. Finally, and perhaps most of all, we thank the European Commission’s Digital Markets Act team for its important precedent-setting work. The EU’s browser choice screens will help push the world toward a fairer and more competitive browser ecosystem, where gatekeepers can no longer rely on operating system defaults to preserve their market share and must instead compete to earn it.
 
+**Share and join the conversation: [Mastodon](https://mastodon.social/@owa/116215275864858256), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_google-backs-down-will-grant-hotseat-in-activity-7437784413503090688-4k1k), [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3mgtyon3jic27
+) and [X/Twitter](https://x.com/OpenWebAdvocacy/status/2032013733493686726).**
+
 https://www.youtube.com/watch?v=A4396RmGXIY
 
 ## What the Hotseat Is and Why It Matters

@@ -18,7 +18,7 @@ translated: false
 
 **Previously, even when users selected a different default browser, Chrome remained in this prominent position, steering users back toward Google’s own browser and undermining the user’s choice.**
 
-We are grateful to [BEUC](https://www.beuc.eu/), [Mozilla](https://www.mozilla.org/), [Vivaldi](http://vivaldi.com), [DuckDuckGo](http://duckduckgo.com), [Ecosia](http://ecosia.org) & [Brave](http://brave.com) for their valuable support in achieving this result, and most of all to the European Commission’s Digital Markets Act team for their valuable precedent-setting work. The EU’s browser choice screens will help push the world toward a fairer and more competitive browser ecosystem, where gatekeepers can no longer rely on operating system defaults to preserve their market share and must instead compete to earn it.
+We are grateful to [BEUC](https://www.beuc.eu/), [Mozilla](https://www.mozilla.org/), [Vivaldi](http://vivaldi.com), [DuckDuckGo](http://duckduckgo.com), [Ecosia](http://ecosia.org) and [Brave](http://brave.com) for their valuable support in achieving this result, and to OWA volunteers John Ozbay, Roderick Gadellaa and James Heppell who helped make this happen at the DMA workshops last year. Finally, and perhaps most of all, we thank the European Commission’s Digital Markets Act team for its important precedent-setting work. The EU’s browser choice screens will help push the world toward a fairer and more competitive browser ecosystem, where gatekeepers can no longer rely on operating system defaults to preserve their market share and must instead compete to earn it.
 
 https://www.youtube.com/watch?v=A4396RmGXIY
 
@@ -42,7 +42,7 @@ As far back as early 2023, OWA started its campaign for browser choice screens, 
     <figcaption>OWA’s Presentation to the UK CMA’s Browsers and Cloud Gaming MIR Team in 2023</figcaption>
 </figure>
 
-This has long been a concern for Open Web Advocacy, and it was included in our list of recommendations published in our [7 March 2024 article](https://open-web-advocacy.org/blog/the-digital-markets-act-is-in-force-what-happens-now/#:~:text=Reduce%20the%20power,backup%20and%20restore) marking the beginning of DMA compliance obligations for gatekeepers:
+This has long been a concern for Open Web Advocacy, and it was included in our list of recommendations published in our [7th of March 2024 article](https://open-web-advocacy.org/blog/the-digital-markets-act-is-in-force-what-happens-now/#:~:text=Reduce%20the%20power,backup%20and%20restore) marking the beginning of DMA compliance obligations for gatekeepers:
 
 > Reduce the power of the default browser with a choice screen  <br><br>
 > **Ensure that both Apple and Google implement effective designs for their browser choice screens**. Specifically, the choice screen should not self-preference their own browsers, **should grant the chosen browser the “hotseat”** and should appear on all existing devices once and all new devices (including after backup and restore).
@@ -64,10 +64,10 @@ We disagreed. Specifically Google was trying to narrow the DMA by treating *"def
 
 ## Google Finally Changes Course
 
-On 9 March 2026, it emerged that Google had reversed its stance and agreed to give the chosen browser the hotseat, likely due to the tireless work behind the scenes of the EU Commission:
+On the 9th of March 2026, it emerged that Google had reversed its stance and agreed to give the chosen browser the hotseat, likely due to the work behind the scenes of the EU Commission:
 
 > **Due to pressure from stakeholders (and most prominently, from Open Web Advocacy),** **the gatekeeper** **finally** budged and **agreed to place the icon of the browser selected by the user as a default** from the choice screen displayed according to Article 6(3) DMA **in the hotseat of new Pixel devices** (page 125 of Alphabet’s compliance report) (although not on all Android devices).
-> <cite>[Alba Ribera Martínez](https://www.linkedin.com/pulse/gatekeepers-submit-dma-compliance-reports-regulatory-ribera-mart%C3%ADnez-7vwve#:~:text=Due%20to%20pressure,way%20or%20another)<br>(emphasis added)</cite>
+> <cite>[Dr Alba Ribera Martínez - Lecturer in Competition Law at University Villanueva](https://www.linkedin.com/pulse/gatekeepers-submit-dma-compliance-reports-regulatory-ribera-mart%C3%ADnez-7vwve#:~:text=Due%20to%20pressure,way%20or%20another)<br>(emphasis added)</cite>
 
 > **Choice Screen Design**<br>
 > Without prejudice to Google’s legal position that this is not required by Article 6(3), Google has agreed to place the icon of the browser selected by the user from the choice screen in the hotseat of new Pixel devices.

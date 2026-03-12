@@ -44,7 +44,7 @@ This has long been a concern for Open Web Advocacy, and it was included in our l
     <figcaption>OWA’s Presentation to the EU’s Digital Markets Act 6(3) Team in 2024</figcaption>
 </figure>
 
-We also reiterated this argument in [multiple written submissions](https://open-web-advocacy.org/apple-dma-review/#apples-dark-pattern-exacerbated-by-keeping-hotseat). To Apple's credit, [they actually made this change](https://open-web-advocacy.org/blog/apple-adopts-6-owa-choice-architecture-recommendations/), along with 6 other choice architecture suggestions we had submitted, [although broader DMA compliance issues remain](http://localhost:8080/blog/apples-browser-engine-ban-persists-even-under-the-dma/).
+We also reiterated this argument in [multiple written submissions](https://open-web-advocacy.org/apple-dma-review/#apples-dark-pattern-exacerbated-by-keeping-hotseat). To Apple's credit, [they actually made this change](https://open-web-advocacy.org/blog/apple-adopts-6-owa-choice-architecture-recommendations/), along with 6 other choice architecture suggestions we had submitted, [although broader DMA compliance issues remain](/blog/apples-browser-engine-ban-persists-even-under-the-dma/).
 
 However Google refused to make the equivalent change on covered Android devices. When we (along with Mozilla) questioned Google about this at last year’s DMA workshop, Google representatives essentially flatly denied they had any obligation to do so under the wording in the DMA:
 

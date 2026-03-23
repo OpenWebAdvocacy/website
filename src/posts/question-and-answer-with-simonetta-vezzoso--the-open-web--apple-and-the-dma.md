@@ -11,8 +11,8 @@ Some readers may remember [John previously representing OWA at the EU’s DMA wo
 
 If you have the opportunity we recommend listening to the full interview:
 
-https://www.youtube.com/watch?v=uF2bHOYWdjY
 
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://peertube.wtf/videos/embed/v2YmJrnCWB67fftfL8kXUc' frameborder='0' allowfullscreen title="Ep.2 - De-Occupy the Web!"  sandbox="allow-same-origin allow-scripts allow-popups allow-forms" allow="fullscreen"></iframe></div>
 
 **Share and join the conversation: [Mastodon](https://mastodon.social/@owa/116277652689867752), [LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7441779472145575936), [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3mhpqgkai5k2m) and [X/Twitter](https://x.com/OpenWebAdvocacy/status/2036011797795545217).**
 

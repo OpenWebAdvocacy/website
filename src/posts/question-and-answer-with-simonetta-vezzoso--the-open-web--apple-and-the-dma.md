@@ -13,6 +13,9 @@ If you have the opportunity we recommend listening to the full interview:
 
 https://www.youtube.com/watch?v=uF2bHOYWdjY
 
+
+**Share and join the conversation: [Mastodon](https://mastodon.social/@owa/116277652689867752), [LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7441779472145575936), [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3mhpqgkai5k2m) and [X/Twitter](https://x.com/OpenWebAdvocacy/status/2036011797795545217).**
+
 ## How John Got Involved in Digital Policy
 
 John was asked how he got involved with OWA:

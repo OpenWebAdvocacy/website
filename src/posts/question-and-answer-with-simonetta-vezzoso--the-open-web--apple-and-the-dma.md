@@ -5,7 +5,7 @@ tags: ['Policy', 'Apple', 'EU', 'DMA']
 author: "OWA"
 ---
 
-**TL;DR: [Alex Moore](https://www.linkedin.com/in/alexlmoore) (Executive Director of OWA) and [John Ozbay](https://johnozbay.com/bio) (CEO and Founder of Cyptee) were recently interviewed by [Simonetta Vezzoso](https://www.competitionpolicyinternational.com/author/simonetta-2/), a European academic specializing in digital competition law and the EU’s Digital Markets Act (DMA).**
+**TL;DR: [Alex Moore](https://www.linkedin.com/in/alexlmoore) (Executive Director of OWA) and [John Ozbay](https://johnozbay.com/bio) (CEO and Founder of Cryptee) were recently interviewed by [Simonetta Vezzoso](https://www.competitionpolicyinternational.com/author/simonetta-2/), a European academic specializing in digital competition law and the EU’s Digital Markets Act (DMA).**
 
 Some readers may remember [John previously representing OWA at the EU’s DMA workshops](https://open-web-advocacy.org/blog/apple-adopts-6-owa-choice-architecture-recommendations/).
 
@@ -18,8 +18,8 @@ https://www.youtube.com/watch?v=uF2bHOYWdjY
 John was asked how he got involved with OWA:
 
 > **John, you are a software engineer. How did you end up doing digital policy in the general interest on top of your day job?**  <br><br>
-> I'm a software engineer and I'm the founder and CEO of a company called* Cyptee*. About two years ago, Apple wanted to try to kill web apps and they used European Commission's DMA as an excuse. I reached out to a bunch of amazing folks at Open Web Advocacy and I got involved in and I've been doing this ever since. My platform is intentionally not on the app stores because I never wanted to give Apple or Google 30% of the commission. We intentionally decided that we're going to ship only web apps.
-> <cite>[John Ozbay \- CEO and Founder of Cyptee](https://www.youtube.com/watch?v=uF2bHOYWdjY)</cite>
+> I'm a software engineer and I'm the founder and CEO of a company called Cryptee. About two years ago, Apple wanted to try to kill web apps and they used European Commission's DMA as an excuse. I reached out to a bunch of amazing folks at Open Web Advocacy and I got involved in and I've been doing this ever since. My platform is intentionally not on the app stores because I never wanted to give Apple or Google 30% of the commission. We intentionally decided that we're going to ship only web apps.
+> <cite>[John Ozbay - CEO and Founder of Cryptee](https://www.youtube.com/watch?v=uF2bHOYWdjY)</cite>
 
 This refers to the period when [Apple appeared poised to break key web app functionality in Europe](https://open-web-advocacy.org/blog/its-official-apple-kills-web-apps-in-the-eu/), a move that would likely have had global consequences. Following significant pushback, [Apple ultimately reversed course](https://open-web-advocacy.org/blog/apple-backs-off-killing-web-apps/).
 
@@ -39,7 +39,7 @@ John also had an excellent description of why the web remains uniquely accessibl
 
 > What's amazing about the web is that it doesn't require you to have a multi-million dollar company to take part in to create a website. You can do it for a few bucks yourself or it doesn't require you to have any specific technical knowledge when you can use stuff like Squarespace to create websites for yourself. So that's the cool thing about the web is that it's open versus if you think about app stores, they're not exactly open.  <br><br>
 > They're the opposite of open where you have to pay Apple some fees and it's only specific for a specific platform and all these things are restrictions around what you can and can't do on iOS and which features you're allowed to ship and which features you're not allowed to ship. You have to sign some special agreements with Apple or Google and whatnot. So, we believe that the web is cool because it's very very open and it stands for all this openness that comes from not being attached to any specific gatekeeping business party.
-> <cite>[John Ozbay \- CEO and Founder of Cyptee](https://www.youtube.com/watch?v=uF2bHOYWdjY)</cite>
+> <cite>[John Ozbay \- CEO and Founder of Cryptee](https://www.youtube.com/watch?v=uF2bHOYWdjY)</cite>
 
 ## **Why There Hasn’t Been an Anti-Circumvention Case**
 

@@ -39,7 +39,7 @@ Please consider reading these other responses:
 
 A big thank you to everyone who wrote in. Public submissions really do matter, and they help the CMA understand how these issues affect people in practice. Even a short one-paragraph email explaining why this matters to you as a business or consumer can make a meaningful difference.
 
-# Our Full Response
+# Response to Apple\'s Interoperability Commitments
 
 <section class="owa-report-download-hero">
   <div class="owa-report-download-hero__stage">
@@ -54,19 +54,15 @@ A big thank you to everyone who wrote in. Public submissions really do matter, a
     </div>
     <div class="owa-report-download-hero__cta-side">
       <div class="owa-report-download-hero__cta-card">
-        <a class="owa-report-download-hero__button" href="/files/OWA - CMA - MOBILESMS - Response to Apple&#x27;s Interoperability Commitments (Version 1.1.0).pdf" download>
-          <svg class="owa-report-download-hero__icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 3v10"></path>
-            <polyline points="7 10 12 15 17 10"></polyline>
-            <path d="M4 18h16"></path>
-            <path d="M5 18v2h14v-2"></path>
-          </svg>
-          <span>Download PDF</span>
+        <a class="owa-report-download-hero__button" href="/files/OWA - CMA - MOBILESMS - Response to Apple&#x27;s Interoperability Commitments (Version 1.1.0).pdf" target="_blank" rel="noopener noreferrer">
+          <span>Read the PDF</span>
         </a>
       </div>
     </div>
   </div>
 </section>
+
+
 
 <a id="1-introduction"></a>
 ## 1. Introduction

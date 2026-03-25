@@ -1663,26 +1663,9 @@ header:not(.home-header) p:has(button.language-picker) {
   align-items: center;
   gap: 20px;
   min-height: auto;
-  padding: 24px 20px;
-  background:
-    linear-gradient(180deg, rgba(255,255,255,0.72), rgba(255,255,255,0.48)),
-    linear-gradient(135deg, #f9f7f8 0%, #eff0f6 100%);
-  border-radius: var(--owa-rh-radius-xl);
-  box-shadow: var(--owa-rh-shadow-soft);
-  overflow: hidden;
+  padding: 8px 0 0;
   box-sizing: border-box;
   max-width: 100%;
-}
-
-.owa-report-download-hero__stage::before {
-  content: "";
-  position: absolute;
-  inset: auto 10% -20% auto;
-  width: 250px;
-  height: 250px;
-  border-radius: 999px;
-  background: radial-gradient(circle, rgba(230, 83, 44, 0.10), transparent 68%);
-  pointer-events: none;
 }
 
 .owa-report-download-hero__cover-side,
@@ -1721,16 +1704,7 @@ header:not(.home-header) p:has(button.language-picker) {
 }
 
 .owa-report-download-hero__book::after {
-  content: "";
-  position: absolute;
-  top: -1.8%;
-  right: -2%;
-  width: 18%;
-  height: 17%;
-  background: linear-gradient(145deg, rgba(255,255,255,0.98), rgba(238,238,240,0.92));
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 52% 82%, 0 100%);
-  border-top-right-radius: 18px;
-  box-shadow: -9px 10px 16px rgba(0,0,0,0.08);
+  content: none;
 }
 
 .owa-report-download-hero__cover {
@@ -1788,21 +1762,6 @@ header:not(.home-header) p:has(button.language-picker) {
   transform: translateY(-2px);
 }
 
-.owa-report-download-hero__icon {
-  width: 28px;
-  height: 28px;
-  flex: 0 0 auto;
-}
-
-.owa-report-download-hero__icon path,
-.owa-report-download-hero__icon polyline {
-  stroke: currentColor;
-  stroke-width: 2.3;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
-}
-
 @media (max-width: 860px) {
   .owa-report-download-hero {
     width: 100%;
@@ -1815,7 +1774,7 @@ header:not(.home-header) p:has(button.language-picker) {
     justify-items: center;
     gap: 26px;
     min-height: auto;
-    padding: 24px 16px 20px;
+    padding: 8px 0 0;
   }
 
   .owa-report-download-hero__cover-side,
@@ -1836,7 +1795,6 @@ header:not(.home-header) p:has(button.language-picker) {
     padding: 16px 16px;
   }
 }
-
 
 /* ---------------------- PLUGINS ------------------------ */
 

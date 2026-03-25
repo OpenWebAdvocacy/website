@@ -1638,6 +1638,206 @@ header:not(.home-header) p:has(button.language-picker) {
   color: white;
 }
 
+
+/* ---------------------- HERO PDF ------------------------ */
+.owa-report-download-hero {
+  --owa-rh-text: #26232b;
+  --owa-rh-accent: #e6532c;
+  --owa-rh-shadow-soft: 0 18px 44px rgba(33, 24, 18, 0.09);
+  --owa-rh-shadow-button: 0 9px 20px rgba(230, 83, 44, 0.24);
+  --owa-rh-radius-xl: 30px;
+  --owa-rh-radius-lg: 22px;
+  --owa-rh-radius-sm: 13px;
+  width: 100%;
+  max-width: min(630px, calc(100vw - 40px));
+  margin: 0;
+  padding: 20px 0 36px;
+  color: var(--owa-rh-text);
+  box-sizing: border-box;
+}
+
+.owa-report-download-hero__stage {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(190px, 230px) minmax(0, 1fr);
+  align-items: center;
+  gap: 20px;
+  min-height: auto;
+  padding: 24px 20px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.72), rgba(255,255,255,0.48)),
+    linear-gradient(135deg, #f9f7f8 0%, #eff0f6 100%);
+  border-radius: var(--owa-rh-radius-xl);
+  box-shadow: var(--owa-rh-shadow-soft);
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.owa-report-download-hero__stage::before {
+  content: "";
+  position: absolute;
+  inset: auto 10% -20% auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(230, 83, 44, 0.10), transparent 68%);
+  pointer-events: none;
+}
+
+.owa-report-download-hero__cover-side,
+.owa-report-download-hero__cta-side {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+}
+
+.owa-report-download-hero__cover-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+  padding: 4px 0 0;
+}
+
+.owa-report-download-hero__book {
+  position: relative;
+  width: min(100%, 205px);
+  transform: rotate(-6deg) translateY(2px);
+  filter: drop-shadow(0 20px 20px rgba(51, 33, 24, 0.20));
+}
+
+.owa-report-download-hero__book::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 2px;
+  width: 100%;
+  height: calc(100% - 14px);
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0.10), rgba(17, 17, 17, 0.03));
+  border-radius: 14px 18px 10px 14px;
+  transform: translateX(-10px) skewY(-2deg);
+  z-index: -1;
+}
+
+.owa-report-download-hero__book::after {
+  content: "";
+  position: absolute;
+  top: -1.8%;
+  right: -2%;
+  width: 18%;
+  height: 17%;
+  background: linear-gradient(145deg, rgba(255,255,255,0.98), rgba(238,238,240,0.92));
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 52% 82%, 0 100%);
+  border-top-right-radius: 18px;
+  box-shadow: -9px 10px 16px rgba(0,0,0,0.08);
+}
+
+.owa-report-download-hero__cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px 18px 10px 14px;
+  background: #fff;
+}
+
+.owa-report-download-hero__cta-side {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: auto;
+  width: 100%;
+}
+
+.owa-report-download-hero__cta-card {
+  width: min(100%, 470px);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 14px;
+  border-radius: var(--owa-rh-radius-lg);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 14px 34px rgba(38, 28, 22, 0.10);
+  backdrop-filter: blur(4px);
+  box-sizing: border-box;
+}
+
+.owa-report-download-hero__button {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 16px;
+  border-radius: var(--owa-rh-radius-sm);
+  background: linear-gradient(180deg, #ef6131 0%, #dc4e25 100%);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: var(--owa-rh-shadow-button);
+  font-size: clamp(0.98rem, 1.1vw, 1.08rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+  box-sizing: border-box;
+}
+
+.owa-report-download-hero__button:hover {
+  color: #fff;
+  text-decoration: none;
+  filter: saturate(1.04);
+  transform: translateY(-2px);
+}
+
+.owa-report-download-hero__icon {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+}
+
+.owa-report-download-hero__icon path,
+.owa-report-download-hero__icon polyline {
+  stroke: currentColor;
+  stroke-width: 2.3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+@media (max-width: 860px) {
+  .owa-report-download-hero {
+    width: 100%;
+    max-width: min(630px, calc(100vw - 24px));
+    padding: 18px 0 30px;
+  }
+
+  .owa-report-download-hero__stage {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 26px;
+    min-height: auto;
+    padding: 24px 16px 20px;
+  }
+
+  .owa-report-download-hero__cover-side,
+  .owa-report-download-hero__cta-side {
+    min-height: auto;
+  }
+
+  .owa-report-download-hero__book {
+    width: min(100%, 220px);
+  }
+
+  .owa-report-download-hero__cta-card {
+    width: 100%;
+    padding: 14px;
+  }
+
+  .owa-report-download-hero__button {
+    padding: 16px 16px;
+  }
+}
+
+
 /* ---------------------- PLUGINS ------------------------ */
 
 lite-youtube {

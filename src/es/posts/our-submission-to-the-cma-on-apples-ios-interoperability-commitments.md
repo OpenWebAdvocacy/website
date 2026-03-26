@@ -1,8 +1,16 @@
 ---
-title: "Our Submission to the CMA on Apple’s iOS Interoperability Commitments"
+title: Our Submission to the CMA on Apple’s iOS Interoperability Commitments
 date: '2026-03-26'
-tags: ['Policy', 'Apple', 'UK', 'DMCCA']
-author: "OWA"
+tags:
+  - Policy
+  - Apple
+  - UK
+  - DMCCA
+author: OWA
+permalink: >-
+  /es/blog/our-submission-to-the-cma-on-apples-ios-interoperability-commitments/index.html
+layout: layouts/post.njk
+translated: false
 ---
 
 **TL;DR: The UK’s Competition and Markets Authority (CMA) has stated that developers need access to key iOS and iPadOS features to build innovative products and services, so UK consumers do not miss out. As outlined [in our previous article](https://open-web-advocacy.org/blog/apples-interoperability-commitments-to-the-uk-cma-promise-nothing/), Apple’s proposed commitments are far too weak to deliver that outcome. The CMA has the power to impose effective and enforceable interoperability obligations on mobile operating system gatekeepers under the UK’s Digital Markets, Competition and Consumers Act 2024 (DMCCA), but it does not appear to be using those powers.**

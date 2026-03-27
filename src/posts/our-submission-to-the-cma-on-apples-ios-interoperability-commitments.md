@@ -1013,10 +1013,10 @@ We are available to regulators, legislators and policy makers for presentations/
 For those who would like to help or join us in fighting for a free and open future for the web, please contact us at any of the links below.
 
 - Mastodon: [@owa@mastodon.social](https://mastodon.social/@owa)
-- Website: [open-web-advocacy.org](https://bsky.app/profile/open-web-advocacy.org)
+- Bluesky: [@open-web-advocacy.org](https://bsky.app/profile/open-web-advocacy.org)
 - X: [@OpenWebAdvocacy](https://twitter.com/OpenWebAdvocacy)
 - LinkedIn: [@open-web-advocacy](https://www.linkedin.com/company/open-web-advocacy/)
 - YouTube: [@openwebadvocacy](https://www.youtube.com/@openwebadvocacy)
 - Discord: [OpenWebAdvocacy](https://discord.gg/x53hkqrRKx)
-- Website: [open-web-advocacy.org](mailto:contactus@open-web-advocacy.org)
-- Website: [open-web-advocacy.org](https://open-web-advocacy.org)
+- Email: [contactus@open-web-advocacy.org](mailto:contactus@open-web-advocacy.org)
+- Website: [https://open-web-advocacy.org](https://open-web-advocacy.org)

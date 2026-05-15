@@ -8,7 +8,7 @@ author: [ "OWA" ]
 **TL;DR: The Digital Markets Act is delivering real wins for consumers in the EU, and in some cases globally, by forcing Apple and Google to open up functionality previously reserved for their own products. Apple is now challenging several of these changes in court, seeking to roll back many of the DMA’s interoperability gains. But one major failure stands out: more than two years after Apple was required to allow third-party browser engines on iOS in the EU, no browser vendor has been able to port one under Apple’s current rules. The European Commission should investigate Apple’s browser engine compliance, and regulators worldwide should ask why these interoperability benefits are not available to all users globally.**
 
 **Share and join the conversation: [Mastodon](https://mastodon.social/@owa/116577326903499562), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_the-digital-markets-act-is-delivering-real-activity-7460963654407208961-zwNq), [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3mlus6hawfk2g
-) and [X/Twitter](https://x.com/OpenWebAdvocacy/status/2055191949238587805).**
+) and [X](https://x.com/OpenWebAdvocacy/status/2055191949238587805).**
 
 ## Digital Markets Act Wins
 

@@ -1796,6 +1796,154 @@ header:not(.home-header) p:has(button.language-picker) {
   }
 }
 
+/* ------------------- TABLE ------------------- */
+.owa-table-wrap {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.owa-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--body-bg);
+  border: 1px solid color-mix(in srgb, var(--n-dark) 18%, white);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+  font-family: var(--stack);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--body-text);
+}
+
+.owa-table thead th {
+  padding: 1rem 1.1rem;
+  background: #faf7f5;
+  color: var(--n-dark);
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.83rem;
+  font-weight: 700;
+  font-variation-settings: var(--fvs-bold);
+  border-bottom: 1px solid color-mix(in srgb, var(--n-dark) 14%, white);
+}
+
+.owa-table tbody td {
+  padding: 1rem 1.1rem;
+  vertical-align: top;
+  border-bottom: 1px solid color-mix(in srgb, var(--main-light) 45%, var(--n-light));
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.owa-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.owa-table tbody tr:nth-child(odd) td {
+  background: var(--main-light);
+}
+
+.owa-table tbody tr:nth-child(even) td {
+  background: #fff;
+}
+
+.owa-table tbody tr:hover td {
+  background: color-mix(in srgb, var(--main-light) 65%, white);
+}
+
+.owa-table th:first-child,
+.owa-table td:first-child {
+  width: 150px;
+}
+
+.owa-table tbody td:first-child {
+  white-space: normal;
+  line-height: 1.35;
+  color: color-mix(in srgb, var(--n-dark) 68%, white);
+  font-weight: 700;
+  font-variation-settings: var(--fvs-bold);
+  font-variant-numeric: tabular-nums;
+}
+
+.owa-table strong {
+  color: var(--n-dark);
+  font-variation-settings: var(--fvs-bold);
+}
+
+.owa-table__subdate {
+  display: inline-block;
+  margin-top: 0.15rem;
+  font-size: 0.92em;
+}
+
+@media (max-width: 720px) {
+  .owa-table {
+    font-size: 0.94rem;
+    border-radius: 16px;
+  }
+
+  .owa-table thead,
+  .owa-table tbody,
+  .owa-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .owa-table thead tr,
+  .owa-table tbody tr {
+    display: flex;
+    width: 100%;
+  }
+
+  .owa-table thead th,
+  .owa-table tbody td {
+    display: block;
+    box-sizing: border-box;
+    min-width: 0;
+    padding: 0.85rem 0.9rem;
+  }
+
+  .owa-table thead th:first-child,
+  .owa-table tbody td:first-child {
+    flex: 0 0 112px;
+    width: 112px;
+    min-width: 112px;
+  }
+
+  .owa-table thead th:last-child,
+  .owa-table tbody td:last-child {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .owa-table {
+    font-size: 0.9rem;
+    border-radius: 14px;
+  }
+
+  .owa-table thead th,
+  .owa-table tbody td {
+    padding: 0.75rem 0.8rem;
+  }
+
+  .owa-table thead th:first-child,
+  .owa-table tbody td:first-child {
+    flex: 0 0 98px;
+    width: 98px;
+    min-width: 98px;
+  }
+}
+
+
+
+
+
 /* ---------------------- PLUGINS ------------------------ */
 
 lite-youtube {

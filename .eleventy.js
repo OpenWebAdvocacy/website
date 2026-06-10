@@ -38,7 +38,6 @@ import htmlminTransform from './src/transforms/htmlminTransform.js';
 
 // Utils
 import groupEntriesByYear from './src/utils/group-entries-by-year.js';
-import { loadPageDetails } from './src/utils/page-details.js';
 
 export default config => {
   // Add filters
@@ -125,8 +124,7 @@ export default config => {
     for (const post of posts) {
       const relatedLinks = post?.data?.relatedLinks || [];
       for (const link of relatedLinks) {
-        const linkDetails = await loadPageDetails(link);
-        relatedLinkData.push(linkDetails);
+        relatedLinkData.push(link);
       }
     }
     return groupEntriesByYear(relatedLinkData);
@@ -138,8 +136,7 @@ export default config => {
       collection.getAll().filter(item => item.data.press)[0]?.data?.press || [];
     const pressLinkData = [];
     for (const link of pressData) {
-      const linkDetails = await loadPageDetails(link);
-      pressLinkData.push(linkDetails);
+      pressLinkData.push(link);
     }
     return groupEntriesByYear(pressLinkData);
   });

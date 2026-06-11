@@ -869,7 +869,7 @@ div.home-wrapper p {
 p.home-intro {
   max-width: 27em;
   font-size: 1.2em;
-  font-variation-settings: "wght"500;
+  font-variation-settings: var(--fvs-medium);
   margin: 5% 1.5rem 3rem;
 }
 

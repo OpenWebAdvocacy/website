@@ -120,7 +120,7 @@
   dl {
     display: grid;
     grid-template-columns: minmax(auto, 20ch) 1fr;
-    grid-gap: 0.5rem 1rem;
+    gap: 0.5rem 1rem;
   }
   dt {margin-top: 0;}
 }

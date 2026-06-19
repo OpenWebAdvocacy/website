@@ -1,7 +1,6 @@
 ---
 title: >-
-  28% Faster: The Blink Prototype That Shows Why Apple's iOS Browser Engine Ban
-  Must End
+  28%高速化: AppleのiOSブラウザエンジン禁止措置を終わらせるべき理由を示すBlinkプロトタイプ
 date: '2026-06-18'
 tags:
   - Policy
@@ -14,65 +13,83 @@ author: OWA
 permalink: >-
   /ja/blog/28-percent-faster--the-blink-prototype-that-shows-why-apples-ios-browser-engine-ban-must-end/index.html
 layout: layouts/post.njk
-translated: false
+translated: true
 ---
 
-**TL;DR: Newly published tests show a Chromium/Blink prototype running on iOS is 28.6% faster than Safari in Speedometer 3.1 page responsiveness tests. The tests also highlight a significant number of web features already available in the prototype but which rival browser vendors are blocked from bringing to iOS. This is a clear example of how much Apple's browser engine ban is costing consumers, businesses and the Web.**
+**要約: 新たに公開されたテストは、iOSで動作するChromium/Blinkのプロトタイプは、Speedometer 3.1ベンチマークにおいてSafariより28.6%高速であることを表しています。また、このテストは、プロトタイプにはすでに導入されているものの、iOS上の競合ブラウザに導入することが阻まれているWeb機能が数多く存在することも明らかにしました。これは、Appleによる第三者製ブラウザエンジンの禁止措置が、消費者、企業、ひいてはWeb全体にどれほどの損失をもたらしているかを如実に物語る例です。**
 
-## New iOS Blink Performance Statistics
+## 新たなiOS版Blinkの性能の統計
 
-> The Edge web platform team has been contributing changes to Chromium to help build a prototype exploring what an iOS browser using Blink (via BrowserEngineKit) can achieve. Blink is the same open-source rendering engine that powers Edge on every other platform.</br></br>
-> Over the weekend, I loaded a development build on my iPhone and ran some classic browser benchmarks side by side with Safari on the same device.
+> Edgeウェブプラットフォームチームは、(BrowserEngineKitを経由して)Blinkを用いたiOS向けブラウザで何ができるかを調査するプロトタイプの構築を支援するために、Chromiumに貢献を続けてきました。
+> Blinkは、iOS以外のすべてのプラットフォーム上のEdgeを支えるものと同じ、オープンソースのレンダリングエンジンです。
+>
+> 私は、週末にそのプロトタイプの開発版ビルドを私のiPhoneにインストールし、同じデバイス上でSafariと並行して、いくつかの一般的なブラウザのベンチマークを実行してみました。
 
-[Newly reported by The Register](https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384), on Tuesday [an Edge engineer published some very interesting statistics](https://www.linkedin.com/pulse/test-drive-blink-ios-kyle-pflug-0nyxc/) on the new Chromium prototype running on iOS 26.5.1 and how it stacks up compared to Safari.
-
-<figure>
-    <img alt="Screenshot of a prototype benchmark comparison for Chromium/Blink versus Safari/WebKit on iOS. Three cards show Chromium ahead of Safari on an iPhone 17 Pro Max running iOS 26.5.1: Speedometer 3.1 web responsiveness, 49.27 vs 38.3, listed as +28.6%; JetStream 3 JavaScript and Wasm throughput, 306.35 vs 270.9, listed as +13.1%; and MotionMark 1.3.1 graphics rendering, 4,773.52 vs 4,673.68, listed as about +2.1%." src="/images/blog/blink-on-ios-speedometer.png">
-    <figcaption>Blink vs WebKit performance tests running on a iPhone 17 Pro Max</figcaption>
-</figure>
-
-Speedometer is a browser-performance benchmark originally developed by Apple. Apple’s WebKit team described Speedometer as [“the best way yet to measure browser performance”](https://webkit.org/blog/15131/speedometer-3-0-the-best-way-yet-to-measure-browser-performance/). 
-
-The tests show the Chromium (Blink) prototype is a striking 28.6% faster at web responsiveness than iOS Safari (and every other browser on iOS forced to use the bundled WebKit engine).
-
-What makes this even more significant is that to the best of our knowledge, teams working at Microsoft and Google have not put any significant effort into optimising the engine on iOS.
-
-> Given how Chromium and WebKit are always vying for the top spot in Speedometer on macOS, it's really striking how big the gap is on iOS\! And **we haven't even really tried to optimize performance for that platform yet\!** IMHO this is what you should expect to see when there's a lack of competition\!  
-> <cite>[Rick Byers \- Principal Engineer on Chromium](https://www.linkedin.com/pulse/test-drive-blink-ios-kyle-pflug-0nyxc/)<br>(emphasis added)</cite>
-
-A natural question arises: how could a browser engine, not yet optimised for iOS, outperform Safari by such a large margin? Surely a company as well-resourced as Apple should be able to deliver competitive performance on its own platform.
-
-In our view, the answer is lack of competition. Apple had no need to invest in better iOS Safari performance as no one could compete with them due to their browser engine ban. All other browsers on iOS are equally under-performant due to being forced to use the same bundled WebKit engine.
-
-## Missing Features
-
-Also published were some interesting feature comparisons using [Microsoft Edge’s top developer needs dashboard](https://microsoftedge.github.io/TopDeveloperNeeds/) highlighting a number of features the prototype supports that Safari (and by extension of Apple’s browser engine ban, all other browsers on iOS) do not.  
+[The Registerが新たに報じたところ](https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384)によると、Microsoft Edgeのエンジニアが、iOS 26.5.1上で動作する新しいChromiumプロトタイプに関する非常に[興味深い統計情報](https://www.linkedin.com/pulse/test-drive-blink-ios-kyle-pflug-0nyxc/)と、そのSafariとの比較を公開しました。
 
 <figure>
-    <img alt="Two iPhone screenshots compare feature support for Blink on iOS versus WebKit on iOS. The left phone, labeled “Chromium 151.0.7882.0,” shows a prototype Blink on iOS page where selected top developer needs are supported: CSS corner-shape, CSS calc-size(), JavaScript Temporal, and four listed features: reading-flow, Scheduler API, moveBefore(), and requestIdleCallback(). The right phone, labeled “Safari 26.5.1,” shows the production WebKit on iOS version of the same page, with the same features marked “not available here” or “0 of 4 supported.” A caption below says the selected feature tests come from a Top Developer Needs dashboard and represent progress toward resolving developer pain points and closing interoperability gaps." src="/images/blog/blink-on-ios-feature-tests.png">
-    <figcaption>Blink vs WebKit feature tests running on a iPhone 17 Pro Max</figcaption>
+    <img alt="iOS 上で Chromium/Blink と Safari/WebKit のプロトタイプベンチマーク比較を行った結果についてのスクリーンショット。3 つのカードは、iOS 26.5.1 を実行している iPhone 17 Pro Max で Chromium が Safari より優れていることを示しています。Speedometer 3.1 のウェブ応答性テストの結果は 49.27 対 38.3 で、+28.6% と表示されています。JetStream 3 の JavaScript および Wasm スループットテストの結果は 306.35 対 270.9 で、+13.1% と表示されています。MotionMark 1.3.1 のグラフィックレンダリングテストの結果は 4,773.52 対 4,673.68 で、約 +2.1% と表示されています。
+" src="/images/blog/blink-on-ios-speedometer.png">
+    <figcaption>iPhone 17 Pro Maxで実行したBlinkとWebKitのパフォーマンステスト</figcaption>
 </figure>
 
-> This dashboard represents our view of progress across the web ecosystem towards resolving top developer pain points and closing interoperability gaps. For each feature listed below, the relevant browser compatibility status, as well as the most recent stable channel test results from the Web Platform Tests (WPT) or test262 projects, are given.
+Speedometerは、もともとAppleが開発したブラウザのパフォーマンスベンチマークツールです。
+AppleのWebKitチームは、Speedometerを[「ブラウザのパフォーマンスを測定する最良の方法」](https://webkit.org/blog/15131/speedometer-3-0-the-best-way-yet-to-measure-browser-performance/)と評しています。
+
+テスト結果によると、Chromium (Blink)のプロトタイプはiOS Safari（およびiOSに同梱されたWebKitエンジンを使用せざるを得ないiOS上の他のすべてのブラウザ）よりも実に28.6%も高速であることがわかりました。
+
+さらに重要なのは、私たちが知る限り、MicrosoftやGoogleのチームはiOSにおけるBlinkエンジンの最適化にほとんど注力していないということです。
+
+> macOSのSpeedometerでは常にChromiumとWebKitがトップの座を争っていることを考えると、iOSでのその差の大きさは本当に驚くべきものです！
+> しかも、**まだそのプラットフォームのパフォーマンス最適化に本格的に取り組んでいないんです！**
+> 僭越ながら申し上げると、競争相手が少ない状況ではこういうことが起こるものです！
+> <cite>[Rick Byers \- Chromium主席エンジニア](https://www.linkedin.com/pulse/test-drive-blink-ios-kyle-pflug-0nyxc/)<br>(強調は記事英語版の著者が追加)</cite>
+
+自然と疑問が浮かびます。なぜ、iOS向けに最適化されていないブラウザエンジンが、Safariをこれほどまでに上回る性能で動作するのでしょうか？
+Appleほど豊富なリソースを持つ企業であれば、自社のプラットフォームでは競争力のある性能を発揮するものを作れるはずです。
+
+私たちは、その答えは競争の欠如にあると考えています。
+Appleは各ブラウザアプリの提供者に対して、iOS上で第三者製のブラウザエンジンを使用することを禁止してきたため、他社のブラウザとSafariの間で競争が発生することがありませんでした。これにより、AppleはiOS版Safariの性能を向上させるための投資を行う必要がなかったのです。
+iOS上の他のすべてのブラウザも、Safariと同様に低性能です。これは、iOSに同梱されたSafariと同じWebKitエンジンを使う必要があるからです。
+
+## 不足している機能
+
+また、[Microsoft Edgeの開発者向け機能ニーズ・ダッシュボード](https://microsoftedge.github.io/TopDeveloperNeeds)を活用した興味深い比較も公開されました。これによれば、開発中のプロトタイプがサポートしている機能の中には、Safari（ひいては、Appleによる第三者製ブラウザエンジンの禁止措置の影響を受けるiOS上のすべてのブラウザ）が対応していない機能が数多く含まれていることが示されています。
+
+<figure>
+    <img alt="iOS上のBlinkとiOS上のWebKitのそれぞれについて機能のサポート状況を比較を示す、2つのiPhoneのスクリーンショット。左側の「Chromium 151.0.7882.0」とラベル付けされた端末は、iOS 上の Blink のプロトタイプページを示しており、選択された開発者のニーズ上位の機能 (CSS の corner-shape、CSS の calc-size()、JavaScript の Temporal、および reading-flow、Scheduler API、moveBefore()、requestIdleCallback() の 4 つの機能) がサポートされています。右側の「Safari 26.5.1」とラベル付けされた端末は、同じページの本番環境の iOS 上の WebKit バージョンを示しており、同じ機能が「ここでは利用できません」または「4 個中 0 個がサポートされています」と表示されています。画像下部にキャプションがあり、「選択された機能テストは、開発者のニーズ上位ダッシュボードから取得され、開発者の課題を解決し、相互運用性のギャップを埋めるための進捗状況を表している」と書かれています。" src="/images/blog/blink-on-ios-feature-tests.png">
+    <figcaption>iPhone 17 Pro Maxで実行したBlinkとWebKitの機能テスト</figcaption>
+</figure>
+
+> このダッシュボードは、ウェブエコシステム全体における、開発者が抱える主要な課題の解決と相互運用性のギャップの解消に向けた進捗状況を示すものです。
+> 以下に挙げる各機能について、関連するブラウザ互換性ステータス、およびWeb Platform Tests（WPT）またはtest262プロジェクトによる最新の安定版チャネルに対するテストの結果が示されています。
 > <cite>[Microsoft Edge \- 2026 web platform top developer needs](https://microsoftedge.github.io/TopDeveloperNeeds/)</cite>
 
-As you can see from the chart below, while there have been improvements, Safari lags significantly behind Edge, Chrome and Firefox.  
+下のグラフからもわかるように、改善は見られるものの、Safariは機能面でEdge、Chrome、Firefoxに比べて大きく遅れをとっています。
 
 <figure>
-    <img alt="Line chart showing browser test progress from July 2025 to May 2026, measured as the sum of passed WPT subtests and test262 tests. Safari, shown in purple, remains far behind the other browsers throughout the period, starting around 1,500 passed tests, stepping up to about 4,700 in September 2025, and making only slight gains to just over 5,000 by May 2026. Edge and Chrome rise from roughly 15,000 to around 24,000 passed tests, Firefox improves from about 11,000 to 18,000, and the “All subtests” total increases from around 22,000 to about 25,500. The chart highlights that Safari has improved modestly but still trails substantially behind Chrome, Edge, and Firefox." src="/images/blog/top-developer-needs.png">
+    <img alt="2025年7月から2026年5月までのブラウザテストの進捗状況を示す折れ線グラフ。合格したWPTサブテストとtest262テストの合計で測定。紫色で示されているSafariは、この期間を通して他のブラウザに大きく遅れをとっており、合格したテスト数は約1,500件から始まり、2025年9月には約4,700件に増加し、2026年5月までにわずかに増加して5,000件強となった。EdgeとChromeは合格テスト数が約15,000件から約24,000件に増加し、Firefoxは約11,000件から18,000件に改善し、「すべてのサブテスト」の合計は約22,000件から約25,500件に増加した。このグラフは、Safariがわずかに改善したものの、Chrome、Edge、Firefoxに依然として大きく遅れをとっていることを示している。" src="/images/blog/top-developer-needs.png">
     <figcaption>2026 web platform top developer needs</figcaption>
 </figure>
 
-## Apple is Imposing a Cost on Consumers, Businesses and the Entire Web
+## Appleは消費者、企業、そしてウェブ全体にコストを押し付けている
 
-This is a clear example of the costs Apple imposes on consumers and businesses worldwide, costs created by its 17-year ban on competing browser engines. Even [in the EU](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/) [and Japan](https://open-web-advocacy.org/blog/how_apples_key_tactic_could_prevent_japans_smartphone_act_from_improving_browser_competition/), where Apple is now legally required to allow browser vendors to use their own engines, [the barriers it has put in place ensure browser vendors are prevented from porting their own engines to iOS](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/).
+これらは、アップルが競合するブラウザエンジンを17年間禁止してきたことによって、世界中の消費者や企業が負わされているコストを明確に示している資料のひとつです。
 
-Apple is setting a ceiling on the entire mobile web. This harms the web’s performance, features [and security](https://open-web-advocacy.org/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition/#apple-security-justification-for-banning-rival-browser-engines). It also lowers Apple’s incentives to seriously invest in Safari as it has no fear of losing market share to competitors who could produce superior browsers for iOS. As the web is itself a platform, this harms not only browser vendors and their users, but every business that relies upon the web.
+Appleは、モバイル端末におけるWeb全体に天井をつくっています。それにより、Webのパフォーマンス、機能、そして[セキュリティ](https://open-web-advocacy.org/blog/uk-regulators-final-verdict--apples-browser-engine-ban-harms-competition/#apple-security-justification-for-banning-rival-browser-engines)が大きく損なわれています。
+また、iOS向けに優れたブラウザを開発できる競合他社に市場シェアを奪われる恐れがないため、AppleがSafariに本格的に投資する意欲は低い状態にあります。Web自体がプラットフォームであるゆえに、これらの現状は、ブラウザの提供者とそのユーザーだけでなく、ウェブに依存するすべての企業に損害を与えています。
 
-## Why the Web Needs to Be Allowed to Compete
+[EU](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/)や[日本](https://open-web-advocacy.org/ja/blog/how_apples_key_tactic_could_prevent_japans_smartphone_act_from_improving_browser_competition/)のようなAppleがブラウザ提供者に独自のエンジンの使用を許可することを法的に義務付けている地域でさえも、[Appleが設けた障壁により、ブラウザ提供者が独自のブラウザエンジンをiOSに移植することが阻まれています](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/)。これを踏まえると、これらの損害は真に全世界に押し付けられているのです。
 
-Browser engines are not ordinary app components. They are the foundation of the web platform, determining which web features are available, how fast web applications run, how secure users are, and whether web apps can compete with native apps. If Apple continues to control the only browser engine on iOS, then it continues to control the practical boundaries of the mobile web. That undermines the DMA’s goal of opening core platform services to genuine competition.
+## Webに競争がもたらされるべき理由
 
-Unlike app stores and the operating systems they live in, the web is open, interoperable, and available to businesses of every size without asking permission from any gatekeeper. But the web can only compete if browsers can compete. If Apple can restrict browser engines on iOS, it can limit what the mobile web is capable of, and keep businesses dependent on native apps and app store rules. 
+ブラウザエンジンは、単なるアプリの構成要素ではありません。それはWebプラットフォームの基盤であり、どのようなWebの機能が利用できるか、どのくらいWebアプリが高速に動作するか、どれだけ安全に使うことができるか、そしてWebアプリがネイティブアプリと競争できるかどうかを決定づけるものです。
+AppleがiOS上のブラウザエンジンの独占的な支配を続ける限り、それは事実上モバイル端末上のWebの限界を支配し続けることになります。
+それは、EUデジタル市場法や日本スマホソフトウェア競争促進法が掲げる、プラットフォームの基幹となるサービスの公正かつ自由な競争の促進という目標を傷つけることです。
 
-Given that Apple has now had more than two years to produce a compliant solution, the European Commission needs to open a specification proceeding to instruct Apple, in precise terms, how these barriers must be removed. This is, in our view, the most critical intervention the EU could possibly make, and the one most likely to reshape the entire mobile ecosystem. No other intervention comes close.
+Webは開かれていて、相互運用性があり、あらゆる規模の企業、あるいは個人が、いかなるゲートキーパーの許可も要することなく利用できるものです。これらは、アプリストアやそれが存在するOSとは異なる、Webに固有の特長です。
+しかし、ウェブが競争力を持つためには、ブラウザ間の競争が行われる必要があります。
+AppleがiOS上のブラウザエンジンを制限できるならば、モバイルにおけるWebの可能性を阻害し、企業をネイティブアプリやアプリストアのルールに依存させることができてしまいます。
+
+Appleには対応策を策定する猶予がすでに2年以上与えられてきたことを踏まえると、**欧州委員会は速やかに法的手続きを開始し、これらの障壁をどのように取り除くべきか、その具体的な指示をAppleに対して行う必要があります**。
+我々の見解では、これこそがEUが実施し得る最も重要な介入であり、モバイルエコシステム全体を再編する可能性が最も高い措置です。他のいかなる介入も、これに比肩するものはありません。

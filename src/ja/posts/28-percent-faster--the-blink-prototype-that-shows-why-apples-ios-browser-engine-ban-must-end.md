@@ -41,7 +41,7 @@ AppleのWebKitチームは、Speedometerを[「ブラウザのパフォーマン
 > macOSのSpeedometerでは常にChromiumとWebKitがトップの座を争っていることを考えると、iOSでのその差の大きさは本当に驚くべきものです！
 > しかも、**まだそのプラットフォームのパフォーマンス最適化に本格的に取り組んでいないんです！**
 > 僭越ながら申し上げると、競争相手が少ない状況ではこういうことが起こるものです！
-> <cite>[Rick Byers \- Chromium主席エンジニア](https://www.linkedin.com/pulse/test-drive-blink-ios-kyle-pflug-0nyxc/)<br>(強調は記事英語版の著者が追加)</cite>
+> <cite>[Rick Byers \- Chromium主席エンジニア](https://www.linkedin.com/pulse/test-drive-blink-ios-kyle-pflug-0nyxc/)<br>(強調は引用者による)</cite>
 
 ここで、自然と疑問が浮かぶでしょう。なぜ、iOS向けに最適化されていないブラウザエンジンが、Safariをこれほどまでに上回る性能で動作するのでしょうか？
 Appleほど豊富なリソースを持つ企業であれば、自社のプラットフォームでは競争力のある性能を発揮するものを作れるはずです。

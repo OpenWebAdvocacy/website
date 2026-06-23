@@ -1098,6 +1098,11 @@ ul.press-list > li[lang="id"]::before {
   background-color: rgb(169, 86, 207);
 }
 
+ul.press-list > li[lang="pt"]::before {
+  content: "PT";
+  background-color: rgb(247, 189, 41);
+}
+
 /* Glossary */
 dl.glossary {
   display: block;

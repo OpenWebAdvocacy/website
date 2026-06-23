@@ -235,6 +235,11 @@
     "date": "2025-10-06"
   },
   {
+    "url": "https://apple.gadgethacks.com/news/ios-browser-performance-webkit-rules-what-apples-engine-requirement-actually-means/",
+    "title": "iOS Browser Performance WebKit Rules: What Apple's Engine Requirement Actually Means",
+    "date": "2026-06-17"
+  },
+  {
     "url": "https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384",
     "title": "Apple's WebKit performance tax leaves iOS browsers stuck in the slow lane, says Microsoft",
     "date": "2026-06-17"
@@ -243,6 +248,12 @@
     "url": "https://www.macrumors.com/2026/06/17/webkit-rule-costs-ios-users-browser-performance/",
     "title": "Apple's WebKit Rules Reportedly Cost iOS Users Almost 30% Browser Performance",
     "date": "2026-06-17"
+  },
+  {
+    "url": "https://iphoneaddict.fr/post/news-430402-apple-plombe-30-performances-navigateurs-iphone-webkit",
+    "title": "Apple est accusé de plomber de 30 % les performances des navigateurs sur iPhone avec WebKit",
+    "date": "2026-06-17",
+    "lang": "fr"
   },
   {
     "url": "https://www.heise.de/news/WebKit-statt-Konkurrenz-Engines-iOS-Browser-laut-Microsoft-30-Prozent-lahmer-11339615.html",

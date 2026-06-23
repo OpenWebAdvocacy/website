@@ -1054,7 +1054,7 @@ ul.press-list > li[lang="fr"]::before {
 
 ul.press-list > li[lang="de"]::before {
   content: "DE";
-  background-color: #4b8003;
+  background-color: #568f00;
 }
 
 ul.press-list > li[lang="es"]::before {
@@ -1080,7 +1080,7 @@ ul.press-list > li[lang="ja"]::before {
 
 ul.press-list > li[lang="it"]::before {
   content: "IT";
-  background-color: var(--highlight-color);
+  background-color: rgb(13, 96, 7);
 }
 
 /* Glossary */

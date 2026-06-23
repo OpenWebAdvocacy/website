@@ -1073,6 +1073,11 @@ ul.press-list > li[lang="sv"]::before {
   background-color: rgb(0, 130, 147);
 }
 
+ul.press-list > li[lang="ja"]::before {
+  content: "JA";
+  background-color: #f46284;
+}
+
 ul.press-list > li[lang="it"]::before {
   content: "IT";
   background-color: var(--highlight-color);

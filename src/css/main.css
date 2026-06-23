@@ -1083,6 +1083,11 @@ ul.press-list > li[lang="it"]::before {
   background-color: rgb(13, 96, 7);
 }
 
+ul.press-list > li[lang="ru"]::before {
+  content: "RU";
+  background-color: rgb(181, 87, 87);
+}
+
 /* Glossary */
 dl.glossary {
   display: block;

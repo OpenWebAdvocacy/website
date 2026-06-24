@@ -821,7 +821,6 @@ header.home-header nav ul li:last-of-type a:hover {
 
 header.home-header h1 {
   max-width: 4em;
-  font-size: calc(1.2em + 2vw);
   font-size: clamp(1.2rem, 5vw, 3.5rem);
   line-height: 1;
   text-transform: lowercase;

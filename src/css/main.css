@@ -110,7 +110,6 @@ figure.equation {
 
 body {
   font: 100%/1.5 var(--stack);
-  font-display: optional;
   color: var(--body-text);
   background: var(--body-bg);
 }

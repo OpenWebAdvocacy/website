@@ -577,7 +577,7 @@ button,
 
 button,
 .donate-button {
-  --display: inline-block;
+  display: inline-block;
   text-decoration: none;
   color: var(--text-inv);
   background-color: var(--main-color);

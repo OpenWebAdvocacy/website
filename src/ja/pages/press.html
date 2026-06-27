@@ -17,7 +17,7 @@ translated: false
       published on {{ entry.url | hostnameFilter }}
       {% endif %}
       {% if entry.date %}
-      - <time datetime="{{ entry.date | w3DateFilter }}" class="dt-published">{{ entry.date | dateFilter }}</time>
+      - <time datetime="{{ entry.date | w3DateFilter }}" class="dt-published">{{ entry.date | localisedDateFilter(page.lang) }}</time>
       {% endif %}
     </div>
   </div>

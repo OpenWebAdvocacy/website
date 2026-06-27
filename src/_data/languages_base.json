@@ -28,7 +28,8 @@
     "skipLinkText": "Skip to content",
     "translationNotAvailable": "Unfortunately this page has not been translated into your preferred language yet. If you'd like to help us translate it, please join <a href=\"https://discord.gg/x53hkqrRKx\">#translation on the OWA Discord</a>.",
     "email": "Email",
-    "website": "Website"
+    "website": "Website",
+    "writtenBy": "Written by"
   },
   "es": {
     "ariaLabelPaginationlinks": "Enlaces de paginación",
@@ -54,7 +55,8 @@
     "skipLinkText": "Saltar al contenido",
     "translationNotAvailable": "Lamentablemente, esta página aún no se ha traducido a tu idioma preferido. Si deseas ayudarnos a traducirla, únete a <a href=\"https://discord.gg/x53hkqrRKx\">#translation en el Discord de OWA</a>.",
     "email": "Correo electrónico",
-    "website": "Página web"
+    "website": "Página web",
+    "writtenBy": "Escrito por"
   },
   "ja": {
     "ariaLabelPaginationlinks": "ページネーションリンク",
@@ -80,6 +82,7 @@
     "skipLinkText": "コンテンツにスキップする",
     "translationNotAvailable": "残念ながら、このページはまだ日本語に翻訳されていません。翻訳にご協力いただける場合は、<a href=\"https://discord.gg/x53hkqrRKx\">OWA Discord の #translation</a> にご参加ください。",
     "email": "Email",
-    "website": "Website"
+    "website": "Website",
+    "writtenBy": "Written by"
   }
 }

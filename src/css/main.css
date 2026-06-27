@@ -45,7 +45,6 @@ code,
 del,
 dfn,
 em,
-form,
 img,
 ins,
 kbd,
@@ -110,7 +109,6 @@ figure.equation {
 
 body {
   font: 100%/1.5 var(--stack);
-  font-display: optional;
   color: var(--body-text);
   background: var(--body-bg);
 }
@@ -579,7 +577,7 @@ button,
 
 button,
 .donate-button {
-  --display: inline-block;
+  display: inline-block;
   text-decoration: none;
   color: var(--text-inv);
   background-color: var(--main-color);
@@ -822,9 +820,7 @@ header.home-header nav ul li:last-of-type a:hover {
 
 header.home-header h1 {
   max-width: 4em;
-  font-size: calc(1.2em + 2vw);
   font-size: clamp(1.2rem, 5vw, 3.5rem);
-  ;
   line-height: 1;
   text-transform: lowercase;
   font-variation-settings: var(--fvs-black);
@@ -869,7 +865,7 @@ div.home-wrapper p {
 p.home-intro {
   max-width: 27em;
   font-size: 1.2em;
-  font-variation-settings: "wght"500;
+  font-variation-settings: var(--fvs-medium);
   margin: 5% 1.5rem 3rem;
 }
 
@@ -1054,7 +1050,7 @@ ul.press-list > li[lang="fr"]::before {
 
 ul.press-list > li[lang="de"]::before {
   content: "DE";
-  background-color: #4b8003;
+  background-color: #568f00;
 }
 
 ul.press-list > li[lang="es"]::before {
@@ -1073,9 +1069,34 @@ ul.press-list > li[lang="sv"]::before {
   background-color: rgb(0, 130, 147);
 }
 
+ul.press-list > li[lang="ja"]::before {
+  content: "JA";
+  background-color: #f46284;
+}
+
 ul.press-list > li[lang="it"]::before {
   content: "IT";
-  background-color: var(--highlight-color);
+  background-color: rgb(13, 96, 7);
+}
+
+ul.press-list > li[lang="ru"]::before {
+  content: "RU";
+  background-color: rgb(181, 87, 87);
+}
+
+ul.press-list > li[lang="zh"]::before {
+  content: "ZH";
+  background-color: rgb(131, 2, 105);
+}
+
+ul.press-list > li[lang="id"]::before {
+  content: "ID";
+  background-color: rgb(169, 86, 207);
+}
+
+ul.press-list > li[lang="pt"]::before {
+  content: "PT";
+  background-color: rgb(247, 189, 41);
 }
 
 /* Glossary */
@@ -1214,7 +1235,7 @@ ul.contributors li+li {
 }
 
 ul.contributors li {
-  flex: 1 1 33%;
+  flex: 1 1 100%;
   display: grid;
   grid-template-rows: auto 1.5rem;
 }
@@ -1318,7 +1339,6 @@ ul.thumbs {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  ;
   list-style-type: none;
   margin-left: 0;
 }
@@ -1637,6 +1657,312 @@ header:not(.home-header) p:has(button.language-picker) {
   background: #cd4c1d;
   color: white;
 }
+
+
+/* ---------------------- HERO PDF ------------------------ */
+.owa-report-download-hero {
+  --owa-rh-text: #26232b;
+  --owa-rh-accent: #e6532c;
+  --owa-rh-shadow-soft: 0 18px 44px rgba(33, 24, 18, 0.09);
+  --owa-rh-shadow-button: 0 9px 20px rgba(230, 83, 44, 0.24);
+  --owa-rh-radius-xl: 30px;
+  --owa-rh-radius-lg: 22px;
+  --owa-rh-radius-sm: 13px;
+  width: 100%;
+  max-width: min(630px, calc(100vw - 40px));
+  margin: 0;
+  padding: 20px 0 36px;
+  color: var(--owa-rh-text);
+  box-sizing: border-box;
+}
+
+.owa-report-download-hero__stage {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(190px, 230px) minmax(0, 1fr);
+  align-items: center;
+  gap: 20px;
+  min-height: auto;
+  padding: 8px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.owa-report-download-hero__cover-side,
+.owa-report-download-hero__cta-side {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+}
+
+.owa-report-download-hero__cover-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+  padding: 4px 0 0;
+}
+
+.owa-report-download-hero__book {
+  position: relative;
+  width: min(100%, 205px);
+  transform: rotate(-6deg) translateY(2px);
+  filter: drop-shadow(0 20px 20px rgba(51, 33, 24, 0.20));
+}
+
+.owa-report-download-hero__book::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 2px;
+  width: 100%;
+  height: calc(100% - 14px);
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0.10), rgba(17, 17, 17, 0.03));
+  border-radius: 14px 18px 10px 14px;
+  transform: translateX(-10px) skewY(-2deg);
+  z-index: -1;
+}
+
+.owa-report-download-hero__book::after {
+  content: none;
+}
+
+.owa-report-download-hero__cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px 18px 10px 14px;
+  background: #fff;
+}
+
+.owa-report-download-hero__cta-side {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: auto;
+  width: 100%;
+}
+
+.owa-report-download-hero__cta-card {
+  width: min(100%, 470px);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 14px;
+  border-radius: var(--owa-rh-radius-lg);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 14px 34px rgba(38, 28, 22, 0.10);
+  backdrop-filter: blur(4px);
+  box-sizing: border-box;
+}
+
+.owa-report-download-hero__button {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 16px;
+  border-radius: var(--owa-rh-radius-sm);
+  background: linear-gradient(180deg, #ef6131 0%, #dc4e25 100%);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: var(--owa-rh-shadow-button);
+  font-size: clamp(0.98rem, 1.1vw, 1.08rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+  box-sizing: border-box;
+}
+
+.owa-report-download-hero__button:hover {
+  color: #fff;
+  text-decoration: none;
+  filter: saturate(1.04);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 860px) {
+  .owa-report-download-hero {
+    width: 100%;
+    max-width: min(630px, calc(100vw - 24px));
+    padding: 18px 0 30px;
+  }
+
+  .owa-report-download-hero__stage {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 26px;
+    min-height: auto;
+    padding: 8px 0 0;
+  }
+
+  .owa-report-download-hero__cover-side,
+  .owa-report-download-hero__cta-side {
+    min-height: auto;
+  }
+
+  .owa-report-download-hero__book {
+    width: min(100%, 220px);
+  }
+
+  .owa-report-download-hero__cta-card {
+    width: 100%;
+    padding: 14px;
+  }
+
+  .owa-report-download-hero__button {
+    padding: 16px 16px;
+  }
+}
+
+/* ------------------- TABLE ------------------- */
+.owa-table-wrap {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.owa-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--body-bg);
+  border: 1px solid color-mix(in srgb, var(--n-dark) 18%, white);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+  font-family: var(--stack);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--body-text);
+}
+
+.owa-table thead th {
+  padding: 1rem 1.1rem;
+  background: #faf7f5;
+  color: var(--n-dark);
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.83rem;
+  font-weight: 700;
+  font-variation-settings: var(--fvs-bold);
+  border-bottom: 1px solid color-mix(in srgb, var(--n-dark) 14%, white);
+}
+
+.owa-table tbody td {
+  padding: 1rem 1.1rem;
+  vertical-align: top;
+  border-bottom: 1px solid color-mix(in srgb, var(--main-light) 45%, var(--n-light));
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.owa-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.owa-table tbody tr:nth-child(odd) td {
+  background: var(--main-light);
+}
+
+.owa-table tbody tr:nth-child(even) td {
+  background: #fff;
+}
+
+.owa-table tbody tr:hover td {
+  background: color-mix(in srgb, var(--main-light) 65%, white);
+}
+
+.owa-table th:first-child,
+.owa-table td:first-child {
+  width: 150px;
+}
+
+.owa-table tbody td:first-child {
+  white-space: normal;
+  line-height: 1.35;
+  color: color-mix(in srgb, var(--n-dark) 68%, white);
+  font-weight: 700;
+  font-variation-settings: var(--fvs-bold);
+  font-variant-numeric: tabular-nums;
+}
+
+.owa-table strong {
+  color: var(--n-dark);
+  font-variation-settings: var(--fvs-bold);
+}
+
+.owa-table__subdate {
+  display: inline-block;
+  margin-top: 0.15rem;
+  font-size: 0.92em;
+}
+
+@media (max-width: 720px) {
+  .owa-table {
+    font-size: 0.94rem;
+    border-radius: 16px;
+  }
+
+  .owa-table thead,
+  .owa-table tbody,
+  .owa-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .owa-table thead tr,
+  .owa-table tbody tr {
+    display: flex;
+    width: 100%;
+  }
+
+  .owa-table thead th,
+  .owa-table tbody td {
+    display: block;
+    box-sizing: border-box;
+    min-width: 0;
+    padding: 0.85rem 0.9rem;
+  }
+
+  .owa-table thead th:first-child,
+  .owa-table tbody td:first-child {
+    flex: 0 0 112px;
+    width: 112px;
+    min-width: 112px;
+  }
+
+  .owa-table thead th:last-child,
+  .owa-table tbody td:last-child {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .owa-table {
+    font-size: 0.9rem;
+    border-radius: 14px;
+  }
+
+  .owa-table thead th,
+  .owa-table tbody td {
+    padding: 0.75rem 0.8rem;
+  }
+
+  .owa-table thead th:first-child,
+  .owa-table tbody td:first-child {
+    flex: 0 0 98px;
+    width: 98px;
+    min-width: 98px;
+  }
+}
+
+
+
+
 
 /* ---------------------- PLUGINS ------------------------ */
 

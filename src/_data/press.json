@@ -233,5 +233,97 @@
     "title": "Apple’s unlawful evil",
     "publisher": "Cory Doctorow",
     "date": "2025-10-06"
+  },
+  {
+    "url": "https://apple.gadgethacks.com/news/ios-browser-performance-webkit-rules-what-apples-engine-requirement-actually-means/",
+    "title": "iOS Browser Performance WebKit Rules: What Apple's Engine Requirement Actually Means",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384",
+    "title": "Apple's WebKit performance tax leaves iOS browsers stuck in the slow lane, says Microsoft",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://www.macrumors.com/2026/06/17/webkit-rule-costs-ios-users-browser-performance/",
+    "title": "Apple's WebKit Rules Reportedly Cost iOS Users Almost 30% Browser Performance",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://iphoneaddict.fr/post/news-430402-apple-plombe-30-performances-navigateurs-iphone-webkit",
+    "title": "Apple est accusé de plomber de 30 % les performances des navigateurs sur iPhone avec WebKit",
+    "date": "2026-06-17",
+    "lang": "fr"
+  },
+  {
+    "url": "https://www.igen.fr/ios/2026/06/deux-ans-apres-le-dma-microsoft-decouvre-un-blink-30-plus-rapide-que-webkit-sur-iphone-156627",
+    "title": "Deux ans après le DMA, Microsoft « découvre » un Blink 30 % plus rapide que WebKit sur iPhone",
+    "date": "2026-06-17",
+    "lang": "fr"
+  },
+  {
+    "url": "https://www.iphones.ru/iNotes/brauzer-edge-bez-dvizhka-webkit-okazalsya-bystree-safari-na-30-v-iphone-microsoft-pokazala-skolko-skorosti-teryali-polzovateli-godami",
+    "title": "Браузер Edge без движка WebKit оказался на 30% быстрее Safari в iPhone. Microsoft показала, сколько скорости теряли пользователи годами",
+    "date": "2026-06-17",
+    "lang": "ru"
+  },
+  {
+    "url": "https://cinemaecerveja.com.br/tecnologia/as-regras-do-webkit-da-apple-supostamente-custam-aos-usuarios-do-ios-quase-30-do-desempenho-do-navegador/42828/",
+    "title": "As regras do WebKit da Apple supostamente custam aos usuários do iOS quase 30% do desempenho do navegador",
+    "date": "2026-06-17",
+    "lang": "pt"
+  },
+  {
+    "url": "https://www.ithinkdiff.com/microsoft-ios-browser-benchmark-28-percent-webkit-performance-gap/",
+    "title": "Microsoft’s iOS Browser Benchmark Shows 28.6% WebKit Performance Gap",
+    "date": "2026-06-18"
+  },
+  {
+    "url": "https://gigazine.net/news/20260618-blink-on-ios/",
+    "title": "iOSで動作するBlink駆動の試作版ChromiumブラウザがSafariを30％上回るパフォーマンスを発揮",
+    "date": "2026-06-18",
+    "lang": "ja"
+  },
+  {
+    "url": "https://www.mactechnews.de/news/article/Microsoft-demonstriert-Browser-Performance-unter-iOS-wenn-es-nicht-Apples-WebKit-sein-muss-189585.html",
+    "title": "Microsoft demonstriert: Browser-Performance unter iOS, wenn es nicht Apples WebKit sein muss",
+    "date": "2026-06-18",
+    "lang": "de"
+  },
+  {
+    "url": "https://iphonesoft.fr/2026/06/17/webkit-regles-apple-grevent-performances-navigateurs-tiers-ios",
+    "title": "WebKit : les règles d’Apple grèvent les performances des navigateurs tiers sur iOS",
+    "date": "2026-06-18",
+    "lang": "fr"
+  },
+  {
+    "url": "https://www.macitynet.it/browser-iphone-piu-lenti-apple-webkit/",
+    "title": "Microsoft accusa Apple: i browser su iPhone sono più lenti per colpa di WebKit",
+    "date": "2026-06-18",
+    "lang": "it"
+  },
+  {
+    "url": "https://www.newmobilelife.com/2026/06/18/apple-webkit-rules-ios-browser-performance/",
+    "title": "Apple WebKit 規則　iOS 瀏覽器效能低近三成",
+    "date": "2026-06-18",
+    "lang": "zh"
+  },
+  {
+    "url": "https://www.katajambi.com/detail/45039/uji-benchmark-microsoft-ungkap-aturan-webkit-bikin-browser-di-ios-kehilangan-performa-hingga-286-persen",
+    "title": "Uji Benchmark Microsoft Ungkap Aturan WebKit Bikin Browser di iOS Kehilangan Performa Hingga 28,6 Persen",
+    "date": "2026-06-18",
+    "lang": "id"
+  },
+  {
+    "url": "https://next.ink/243416/sur-ios-blink-est-plus-rapide-que-webkit-mais-cela-ne-change-rien/",
+    "title": "Sur iOS, Blink est plus rapide que WebKit, mais cela ne change rien",
+    "date": "2026-06-19",
+    "lang": "fr"
+  },
+  {
+    "url": "https://www.heise.de/news/WebKit-statt-Konkurrenz-Engines-iOS-Browser-laut-Microsoft-30-Prozent-lahmer-11339615.html",
+    "title": "WebKit statt Konkurrenz-Engines: iOS-Browser laut Microsoft 30 Prozent lahmer",
+    "date": "2026-06-22",
+    "lang": "de"
   }
 ]

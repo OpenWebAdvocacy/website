@@ -7,7 +7,7 @@
   {% endif %}
 {% endif %}
 <!DOCTYPE html>
-<html lang={{ page.lang }} dir="{{ languages_base[page.lang].direction or 'ltr' }}">
+<html lang="{{ page.lang }}" dir="{{ languages_base[page.lang].direction or 'ltr' }}">
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -15,7 +15,7 @@
     {% include "partials/schema-json.njk" %}
     {% include "partials/meta-info.njk" %} <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml"/>
     <link rel="me" href="https://mastodon.social/@owa"/>
-    <link rel="preload" href="/css/fonts/KumbhSans-VariableFont_wght.ttf" as="font" type="font/woff2" crossorigin/>
+    <link rel="preload" href="/css/fonts/KumbhSans-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin/>
     {# Site icons #}
     <link rel="icon" type="image/png" sizes="16x16" href="/images/logo-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/logo-32.png">
@@ -29,7 +29,7 @@
       <link rel="canonical" href="{{ site.url }}{{ page.url | removeLanguageCode(languages) }}"/>
     {% endif %}
     {# Javascript #}
-    <script type="module" src="/js/language-picker.js?{{ assetHash }}" defer></script>
+    <script type="module" src="/js/language-picker.js?{{ assetHash }}"></script>
     {# Javascript - Add facility for pages to delare an array of non-critical javascript #}
     {% if pageNonCriticalScripts %}
       {% for item in pageNonCriticalScripts %}

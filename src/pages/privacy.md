@@ -43,7 +43,7 @@ Below is a non-exhaustive list of services we knowingly link to within our site,
 - Discord - [Privacy Policy](https://discord.com/privacy)
 - Mastodon - [Privacy Policy](https://mastodon.social/privacy-policy)
 - Bluesky - [Privacy Policy](https://bsky.social/about/support/privacy-policy)
-- X/Twitter - [Privacy Policy](https://twitter.com/en/privacy)
+- X - [Privacy Policy](https://x.com/en/privacy)
 - LinkedIn - [Privacy Policy](https://www.linkedin.com/legal/privacy-policy)
 - GitHub - [Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 

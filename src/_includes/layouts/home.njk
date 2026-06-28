@@ -2,7 +2,7 @@
 
 {% block homecontent %}
   <div class="home-wrapper">
-    {% set postListItems = collections.blog | englishPostsFilter%}
+    {% set postListItems = collections.blog %}
     <main tabindex="-1" id="main-home">
         {{ content | safe }}
     </main>

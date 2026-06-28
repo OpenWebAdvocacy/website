@@ -15,13 +15,14 @@ permalink: >-
 layout: layouts/post.njk
 translated: true
 ---
+
 **要約: 新たに公開されたテスト結果によれば、iOSで動作するChromium/Blinkのプロトタイプは、Speedometer 3.1ベンチマークにおいてSafariより28.6%高速であることが示されています。また、このテストは、プロトタイプではすでに利用可能なものの、競合ブラウザベンダーがiOSへ導入することを阻まれているウェブ機能が数多く存在することも明らかにしました。これは、Appleによる第三者製ブラウザエンジンの禁止措置が、消費者、企業、ひいてはウェブ全体にどれほどの損失をもたらしているかを如実に物語る例です。**
 
 ## 新たなiOS版Blinkの性能統計
 
 > Edgeウェブプラットフォームチームは、（BrowserEngineKit経由で）Blinkを用いたiOS向けブラウザで何が可能かを検証するプロトタイプの構築を支援するために、Chromiumへの変更を提案し続けてきました。
-> Blinkは、iOS以外のすべてのプラットフォーム上のEdgeを支えるものと同じ、オープンソースのレンダリングエンジンです。</br></br>
-> 私は、週末にそのプロトタイプの開発版ビルドを私のiPhoneにインストールし、同じデバイス上でSafariと並行して、いくつかの一般的なブラウザのベンチマークを実行してみました。
+> Blinkは、iOS以外のすべてのプラットフォーム上のEdgeを支えるのと同じ、オープンソースのレンダリングエンジンです。</br></br>
+> 私は、週末にそのプロトタイプの開発版ビルドをiPhoneにインストールし、同じデバイス上でSafariと並べて、いくつかの一般的なブラウザのベンチマークを実行してみました。
 
 [The Registerが新たに報じたところ](https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384)によると、火曜日にMicrosoft Edgeのエンジニアが、iOS 26.5.1上で動作する新しいChromiumプロトタイプに関する非常に[興味深い統計情報](https://www.linkedin.com/pulse/test-drive-blink-ios-kyle-pflug-0nyxc/)と、そのSafariとの比較を公開しました。
 

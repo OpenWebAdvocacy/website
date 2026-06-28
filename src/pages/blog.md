@@ -7,7 +7,7 @@ templateEngineOverride: njk
 {% extends 'layouts/base.njk' %}
 {% block content %}
 <h1 class="post-title">{{ title }}</h1>
-  {% for item in collections.blog %}
+  {% for item in collections.blog | englishPostsFilter %}
 
 
   <article class="h-entry blog-index">

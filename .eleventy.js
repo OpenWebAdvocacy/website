@@ -113,7 +113,7 @@ export default config => {
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+    return [...collection.getFilteredByGlob('./src/**/posts/*.md')].reverse();
   });
 
   // Returns list of related-links from all posts and pages,

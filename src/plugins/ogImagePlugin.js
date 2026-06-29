@@ -1,7 +1,7 @@
 
 import ogImage from 'eleventy-plugin-og-image';
 
-const IS_PROD = process.env.NODE_ENV === 'production';
+const IS_PROD = true;
 
 /**
  * Only register the actual eleventy-plugin-og-image for production builds.

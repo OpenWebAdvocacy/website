@@ -84,9 +84,8 @@ export default config => {
     satoriOptions: {
       fonts: [
         {
-          name: 'Kumbh Sans Regular',
+          name: 'Kumbh Sans Bold',
           data: readFileSync('./src/css/fonts/KumbhSans-700.woff'),
-          weight: 400,
           style: 'normal',
         },
       ],

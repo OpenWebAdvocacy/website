@@ -88,6 +88,11 @@ export default config => {
           data: readFileSync('./src/css/fonts/KumbhSans-700.woff'),
           style: 'normal',
         },
+        {
+          name: 'Noto Sans JP Bold',
+          data: readFileSync('./src/css/fonts/NotoSansJP-700.woff'),
+          style: 'normal',
+        },
       ],
     },
     sharpOptions: {

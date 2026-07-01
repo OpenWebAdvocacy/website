@@ -14,7 +14,7 @@
     "updates": "npx npm-check-updates -i --format group"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=26"
   },
   "keywords": [],
   "author": "",

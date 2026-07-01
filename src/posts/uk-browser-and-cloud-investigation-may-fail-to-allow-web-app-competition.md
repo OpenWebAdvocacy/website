@@ -126,16 +126,18 @@ In order for Web Apps to have a significant opportunity to truly compete on iOS,
     {% image
         "/images/blog/InstallPrompts1.png",
         "Example of Install Prompt in Chrome on Android",
-        null, null,
-        [150, 200, 300],
-        "150px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     {% image
         "/images/blog/InstallPrompts2.png",
         "Example of Expanded Install Prompt in Chrome on Android",
-        null, null,
-        [150, 200, 300],
-        "150px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     <figcaption>Example of Install Prompt in Chrome on Android</figcaption>
 </figure>

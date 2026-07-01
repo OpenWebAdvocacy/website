@@ -16,7 +16,7 @@ layout: 'layouts/page.njk'
       published on {{ entry.url | hostnameFilter }}
       {% endif %}
       {% if entry.date %}
-      - <time datetime="{{ entry.date | w3DateFilter }}" class="dt-published">{{ entry.date | dateFilter }}</time>
+      - <time datetime="{{ entry.date | w3DateFilter }}" class="dt-published">{{ entry.date | localisedDateFilter(page.lang) }}</time>
       {% endif %}
     </div>
   </div>
@@ -51,5 +51,3 @@ layout: 'layouts/page.njk'
 </ul>
 {% endfor %}
 {% endif %}
-
-<p><strong>Last updated:</strong> <time datetime="2024-02-19">Feb 19th, 2024</time></p>

@@ -4,7 +4,7 @@
     2022/2025
 -------------------------------------------------------------------- */
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 440px) {
   /* div.site-header__inner {
     display: flex;
     justify-content: space-between;
@@ -56,6 +56,7 @@
 
   ul.contributors li {
     min-width: 300px;
+    flex-basis: 33%;
   }
 
 }
@@ -120,7 +121,7 @@
   dl {
     display: grid;
     grid-template-columns: minmax(auto, 20ch) 1fr;
-    grid-gap: 0.5rem 1rem;
+    gap: 0.5rem 1rem;
   }
   dt {margin-top: 0;}
 }
@@ -141,6 +142,8 @@
     background-color: var(--body-bg);
     padding: 0;
   }
+
+  header nav ul {justify-content: space-between;}
 
   header.home-header li {
     font-variation-settings: var(--fvs-regular);
@@ -168,6 +171,10 @@
     display: flex;
     justify-content: space-between;
     gap: 4vw;
+  }
+  aside {
+    box-sizing: border-box;
+    max-width: 328px;
   }
 }
 
@@ -300,7 +307,12 @@
 
   div.contact-entry {
     flex-basis: 45%;
+    min-width: 360px;
     margin-top: 0;
+  }
+
+  div.who-entry {
+    flex-basis: 55%;
   }
 
   div.presentation {

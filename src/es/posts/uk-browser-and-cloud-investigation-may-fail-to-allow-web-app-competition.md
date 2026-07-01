@@ -11,6 +11,7 @@ permalink: >-
   /es/blog/uk-browser-and-cloud-investigation-may-fail-to-allow-web-app-competition/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 **TL;DR:** We believe the UK Market Investigation Reference is missing [critical remedies](/blog/uk-browser-and-cloud-investigation-may-fail-to-allow-web-app-competition/#remedies). Most importantly *"Apple shall allow third-party browsers to install and manage Web Apps using their own browser engine."*. [**We need YOU to write to the CMA**](/blog/uk-browser-and-cloud-investigation-may-fail-to-allow-web-app-competition/#we-need-your-help!-act-today!) (before August 29th) and provide feedback on why allowing browsers to compete in providing Web App functionality is important.

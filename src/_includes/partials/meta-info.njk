@@ -1,6 +1,12 @@
 {% set pageTitle = title + ' - ' + site.name %}
-{% set socialImage = site.url + site.logo if not socialImage %}
-
+{% if socialImage %}
+  {% set socialImage = site.url + socialImage %}
+{% elseif not noSocialImage %}
+  {% setAsync "socialImage" -%}
+    {% ogImage "./images/og/og-template.og.njk", { title: title, lang: page.lang } %}
+  {%- endsetAsync %}
+  {% set socialImage = site.url + socialImage %}
+{% endif %}
 {# We don't want any duplication. This is likely for the homepage #}
 {% if site.name === title %}
   {% set pageTitle = title %}
@@ -32,9 +38,14 @@
 {% if socialImage %}
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:image" content="{{ socialImage }}" />
-  <meta name="twitter:image" content="{{ socialImage }}" />
-  <meta property="og:image:alt" content="Page image for {{ site.name }}" />
-  <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
+  {% if twitterImage %}
+    {% set twitterImage = site.url + twitterImage %}
+  {% else %}
+    {% set twitterImage = socialImage %}
+  {% endif %}
+  <meta name="twitter:image" content="{{ twitterImage }}" />
+  <meta property="og:image:alt" content="Page image for {{ pageTitle }}" />
+  <meta name="twitter:image:alt" content="Page image for {{ pageTitle }}" />
 {% endif %}
 
 {% if metaDesc %}
@@ -42,3 +53,5 @@
   <meta name="twitter:description" content="{{ metaDesc }}" />
   <meta property="og:description" content="{{ metaDesc }}" />
 {% endif %}
+
+<link rel="manifest" href="/manifest.json" />

@@ -6,6 +6,7 @@ metaDesc: 'The full Bringing Competition to Walled Gardens report, published by 
 subtitle: 'Third-Party Browsers & Web Apps - VERSION 1.2'
 paperName: 'OWA - Bringing Competition to Walled Gardens - v1.2'
 paperSize: '7.7MB'
+imageShortcodeIgnoreLegacy: true
 ---
 
 ## 2. Preface
@@ -301,9 +302,10 @@ The [Progressive Web App Feature Detector](https://tomayac.github.io/pwa-feature
     {% image
       "/images/walled-gardens/01_pwa-features-chrome.jpg",
       "Chrome (Android) progressive web app feature detector results showing 18/18 feature support",
-      null, null,
-      [150, 200, 300],
-      "150px"
+      {
+        widths: [ 150, 200, 300 ],
+        sizes: '150px'
+      }
     %}
     <figcaption>Chrome (Android)</figcaption>
   </figure>
@@ -311,9 +313,10 @@ The [Progressive Web App Feature Detector](https://tomayac.github.io/pwa-feature
     {% image
       "/images/walled-gardens/02_pwa-features-safari.png",
       "Safari (iOS) progressive web app feature detector results showing 6/18 feature support",
-      null, null,
-      [150, 200, 300],
-      "150px"
+      {
+        widths: [ 150, 200, 300 ],
+        sizes: '150px'
+      }
     %}
     <figcaption>Safari (iOS)</figcaption>
   </figure>
@@ -584,8 +587,10 @@ An App Badge showing a count of 29 on iOS in 2011:
 {% image
   "/images/walled-gardens/03_ios-app-badge.png",
   "iOS app badge example screenshot",
-  "screenshot rounded", null, null,
-  "121px"
+  {
+    className: [ 'screenshot', 'rounded' ],
+    sizes: '121px'
+  }
 %}
 
 Because of these missing features entire categories of apps can either not be built using the web or which ensure that the native app is significantly better.
@@ -614,44 +619,56 @@ Developers have a huge freedom of choice and can add installers in headers, foot
   {% image
     "/images/walled-gardens/04_install-banner-top.png",
     "Mockup view of web app install banner at top of window",
-    "screenshot", null,
-    [150, 200, 300],
-    "150px"
+    {
+      className: 'screenshot',
+      widths: [ 150, 200, 300 ],
+      sizes: '150px'
+    }
   %}
   {% image
     "/images/walled-gardens/05_install-banner-bottom.png",
     "Mockup view of web app install banner across webpage",
-    "screenshot", null,
-    [150, 200, 300],
-    "150px"
+    {
+      className: 'screenshot',
+      widths: [ 150, 200, 300 ],
+      sizes: '150px'
+    }
   %}
   {% image
     "/images/walled-gardens/06_install-banner-sidebar.png",
     "Mockup view of web app install banner in sidebar",
-    "screenshot", null,
-    [150, 200, 300],
-    "150px"
+    {
+      className: 'screenshot',
+      widths: [ 150, 200, 300 ],
+      sizes: '150px'
+    }
   %}
   {% image
     "/images/walled-gardens/07_install-banner-inline.png",
     "Mockup view of web app install banner within page content",
-    "screenshot", null,
-    [150, 200, 300],
-    "150px"
+    {
+      className: 'screenshot',
+      widths: [ 150, 200, 300 ],
+      sizes: '150px'
+    }
   %}
   {% image
     "/images/walled-gardens/08_install-via-menu.png",
     "Mockup view of web app install banner in app menu",
-    "screenshot", null,
-    [150, 200, 300],
-    "150px"
+    {
+      className: 'screenshot',
+      widths: [ 150, 200, 300 ],
+      sizes: '150px'
+    }
   %}
   {% image
     "/images/walled-gardens/09_install-toast.png",
     "Mockup view of web app install banner bottom popup toast",
-    "screenshot", null,
-    [150, 200, 300],
-    "150px"
+    {
+      className: 'screenshot',
+      widths: [ 150, 200, 300 ],
+      sizes: '150px'
+    }
   %}
 </div>
 
@@ -661,16 +678,20 @@ Finally there is a clearly marked "**Install App**" on the main menu. As demonst
   {% image
     "/images/walled-gardens/15_proxx-install-a.jpg",
     "proxx.app web app install banner example",
-    "screenshot", null,
-    [150, 200, 300],
-    "150px"
+    {
+      className: 'screenshot',
+      widths: [ 150, 200, 300 ],
+      sizes: '150px'
+    }
   %}
   {% image
     "/images/walled-gardens/16_proxx-install-b.jpg",
     "proxx.app web app install banner expanded",
-    "screenshot", null,
-    [150, 200, 300],
-    "150px"
+    {
+      className: 'screenshot',
+      widths: [ 150, 200, 300 ],
+      sizes: '150px'
+    }
   %}
 </div>
 
@@ -687,9 +708,11 @@ On iOS, Apple makes installing native apps very easy with [Smart App Banners](ht
 {% image
   "/images/walled-gardens/17_ios-app-install-banner.png",
   "oceanjournalweb.com webpage showing an app store install banner",
-  "screenshot", null,
-  [150, 200, 300],
-  "150px"
+  {
+    className: 'screenshot',
+    widths: [ 150, 200, 300 ],
+    sizes: '150px'
+  }
 %}
 
 You can see in the example taken from Apple’s documentation that a **link to the native app is prominently displayed at the top of the screen.**
@@ -701,9 +724,10 @@ To install a Web App on iOS the current process is as follows:
     {% image
       "/images/walled-gardens/18_ios-web-install-step-1.png",
       "A circled example of the share button in iOS Safari",
-      null, null,
-      [150, 200, 300],
-      "150px"
+      {
+        widths: [ 150, 200, 300 ],
+        sizes: '150px'
+      }
     %}
     <figcaption>1. The user must know to hit this "share" button. Even this share button can be obscured if the user has scrolled, because the bottom bar is hidden away.</figcaption>
   </figure>
@@ -711,9 +735,10 @@ To install a Web App on iOS the current process is as follows:
     {% image
       "/images/walled-gardens/19_ios-web-install-step-2.png",
       "An example of the iOS share panel open at the bottom of the screen with various share options",
-      null, null,
-      [150, 200, 300],
-      "150px"
+      {
+        widths: [ 150, 200, 300 ],
+        sizes: '150px'
+      }
     %}
     <figcaption>2. This causes a bottom panel to be displayed on screen. Then the user <em>must know</em> to scroll down that panel. At this point it is obvious that installing Web Apps is deeply obscured.</figcaption>
   </figure>
@@ -721,9 +746,10 @@ To install a Web App on iOS the current process is as follows:
     {% image
       "/images/walled-gardens/20_ios-web-install-step-3.png",
       "A circled example of the Add to Home Screen action in the iOS Safari share drawer",
-      null, null,
-      [150, 200, 300],
-      "150px"
+      {
+        widths: [ 150, 200, 300 ],
+        sizes: '150px'
+      }
     %}
     <figcaption>3. Then the user must hit the "Add to Home Screen" button.</figcaption>
   </figure>
@@ -731,9 +757,10 @@ To install a Web App on iOS the current process is as follows:
     {% image
       "/images/walled-gardens/21_ios-web-install-step-4.png",
       "An Add to Home Screen view with details of a web page in addition to Cancel and Add buttons",
-      null, null,
-      [150, 200, 300],
-      "150px"
+      {
+        widths: [ 150, 200, 300 ],
+        sizes: '150px'
+      }
     %}
     <figcaption>4. Then the user must hit "Add".</figcaption>
   </figure>
@@ -741,9 +768,10 @@ To install a Web App on iOS the current process is as follows:
     {% image
       "/images/walled-gardens/22_ios-web-install-step-5.png",
       "A view of the iOS home screen with an icon for the added web page",
-      null, null,
-      [150, 200, 300],
-      "150px"
+      {
+        widths: [ 150, 200, 300 ],
+        sizes: '150px'
+      }
     %}
     <figcaption>5. Finally the Web App appears on the user's home screen.</figcaption>
   </figure>
@@ -762,7 +790,7 @@ An [App Clip](https://developer.apple.com/app-clips/) is a micro-version of nati
 {% image
   "/images/walled-gardens/23_ios-app-clips.png",
   "A series of 5 iPhones each showing an App Clip panel with a prominent open action",
-  null, ["webp", "png"]
+  { transparent: true }
 %}
 
 <cite>App Clips as shown on [Apple.com](https://developer.apple.com/app-clips/)</cite>
@@ -783,16 +811,18 @@ Apple has a technology called [Smart App Banners](https://developer.apple.com/do
   {% image
     "/images/walled-gardens/25_ios-smart-banner-open.png",
     "iOS Safari shown an Ocean Journal website with a banner at the top to open in the Ocean Journal app",
-    null, null,
-    [150, 200, 300],
-    "150px"
+    {
+      widths: [ 150, 200, 300 ],
+      sizes: '150px'
+    }
   %}
   {% image
     "/images/walled-gardens/26_ios-smart-banner-view.png",
     "iOS Safari shown an Ocean Journal website with a banner at the top to view in the Ocean Journal app",
-    null, null,
-    [150, 200, 300],
-    "150px"
+    {
+      widths: [ 150, 200, 300 ],
+      sizes: '150px'
+    }
   %}
 </div>
 
@@ -902,9 +932,11 @@ The Website/Web App **never gets to see this list of bluetooth devices, it may n
 {% image
   "/images/walled-gardens/27_pair-process-web.png",
   "An Android screenshot showing device options to pair with, for a webpage, with a 'PAIR' primary action",
-  "screenshot", null,
-  [200, 300, 400],
-  "200px"
+  {
+    className: 'screenshot',
+    widths: [ 200, 300, 400 ],
+    sizes: '200px'
+  }
 %}
 
 
@@ -922,7 +954,7 @@ The process for iOS native applications using Swift CoreBluetooth is:
 {% image
   "/images/walled-gardens/28_pair-process-ios-a.jpg",
   "iOS screenshot showing a prompt asking if the application can use Bluetooth",
-  "screenshot"
+  { className: 'screenshot' }
 %}
 
 <sup>2</sup> Until 2019, steps 1 - 3 were not required. **This means before 2019 that the very large number of apps with bluetooth permissions track all users and connect to any device**.
@@ -940,7 +972,7 @@ Many companies were using this to [track users' locations without their consent]
 {% image
   "/images/walled-gardens/29_pair-process-ios-b.jpg",
   "iOS screenshot showing a prompt asking if the application can use Bluetooth",
-  "screenshot"
+  { className: 'screenshot' }
 %}
 
 All three of the above listed privacy/security concerns are currently essentially unmitigated except by:
@@ -1001,7 +1033,7 @@ The only consistent privacy policy with Apple’s concern for uniquely fingerpri
 {% image
   "/images/walled-gardens/30_allow-tracking-prompt.png",
   "iOS prompt asking if an application can track the user across apps and websites",
-  "screenshot"
+  { className: 'screenshot' }
 %}
 
 Apple has not announced any plans to entirely remove this functionality from iOS. Apple’s privacy stance needs to be consistent to believe that they are doing it for the benefit of the user. If they apply strict conditions that limit functionality on the web but allow pervasive tracking in native it can be argued they are providing pervasive tracking in the area which generates revenue while applying heavy restrictions beyond what is needed to prevent tracking on the other side.
@@ -1325,7 +1357,7 @@ Developers were so frustrated in the lack of development and response from Apple
 {% image
   "/images/walled-gardens/41_change-dot-org-petition-web-push.png",
   "A change.org petition, asking Apple to implement Web Push notifications",
-  "screenshot"
+  { className: 'screenshot' }
 %}
 
 Extracted from the site are some quotes:
@@ -2131,7 +2163,7 @@ Apple says it never intended iOS 14 security updates to last forever, whereas Fi
 {% image
   "/images/walled-gardens/36_safari-cve-list.png",
   "A spreadsheet view of reported vulnerabilities in iOS",
-  "centered"
+  { className: 'centered' }
 %}
 
 
@@ -2366,7 +2398,7 @@ Ensuring that APIs are made available to competing browsers to facilitate this o
 {% image
   "/images/walled-gardens/38_proxx-install-example.png",
   "A screenshot of the prox.app website on an Android device, with an install banner at the top of the view",
-  "centered"
+  { className: 'centered' }
 %}
 
 
@@ -2407,9 +2439,11 @@ Example of iOS permission settings screen:
 {% image
   "/images/walled-gardens/39_ios-permission-settings.png",
   "A view of the iOS permission settings screen for WeChat showing toggles for many iOS features",
-  "screenshot", null,
-  [150, 200, 300],
-  "150px"
+  {
+    className: 'screenshot',
+    widths: [ 150, 200, 300 ],
+    sizes: '150px'
+  }
 %}
 
 

@@ -17,18 +17,15 @@ Earlier this year (2024-03-28) [we reported on a deceptive pattern](https://open
 <figure>
     {% image
         "/images/blog/cma-browser-selection-1.png",
-        "Example of changing the browser on iOS when Safari is not the default.",
-        null, null
+        "Example of changing the browser on iOS when Safari is not the default."
     %}
     {% image
         "/images/blog/cma-browser-selection-2.png",
-        "Example of changing the browser on iOS when Safari is the default (the dropdown disappears).",
-        null, null
+        "Example of changing the browser on iOS when Safari is the default (the dropdown disappears)."
     %}
     {% image
         "/images/blog/cma-browser-selection-3.png",
-        "Larger example of changing the browser on iOS when Safari is the default (the dropdown disappears).",
-        null, null
+        "Larger example of changing the browser on iOS when Safari is the default (the dropdown disappears)."
     %}
     <figcaption>UK Regulator's Screenshots of the Issue - Working Paper 5</figcaption>
 </figure>

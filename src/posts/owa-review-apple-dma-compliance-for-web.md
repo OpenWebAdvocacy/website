@@ -3,6 +3,26 @@ title: "OWA’s Review of Apple’s DMA Compliance Proposal for the Web"
 date: '2024-01-29'
 tags: ['Policy', 'Apple', 'EU']
 author: "OWA"
+relatedLinks:
+  - url: https://developer.apple.com/support/dma-and-apps-in-the-eu
+    title: Update on apps distributed in the European Union
+    date: 2024-02-19
+  - url: https://www.apple.com/au/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/
+    title: Apple announces changes to iOS, Safari and the App Store in the European Union
+    date: 2024-01-26
+  - url: https://9to5mac.com/2024/01/26/apple-shares-more-details-about-the-new-default-web-browser-prompt-in-ios-17-4/
+    title: Apple shares more details about the new default web browser prompt in iOS 17.4
+    date: 2024-01-26
+  - url: https://www.macrumors.com/2024/01/26/mozilla-on-apple-eu-browser-engine-change/
+    title: Mozilla is 'Extremely Disappointed' With Implementation of Apple's EU Browser Engine Change
+    date: 2024-01-26
+  - url: https://www.reuters.com/technology/apple-faces-strong-action-if-app-store-changes-fall-short-eus-breton-says-2024-01-26/
+    title: "Apple faces 'strong action' if App Store changes fall short, EU's Breton says"
+    publisher: Reuters
+    date: 2024-01-26
+  - url: https://www.theverge.com/2020/6/17/21293813/apple-app-store-policies-hey-30-percent-developers-the-trial-by-franz-kafka
+    title: Apple’s App Store policies are bad, but its interpretation and enforcement are worse
+    date: 2020-06-17
 ---
 
 ## Will Apple ever let browsers and Web Apps compete fairly?
@@ -133,7 +153,7 @@ Browser vendors need to be able to roll out their engines in a stable, predictab
 
 No one on our team is a lawyer, but to our un-lawyerly eyes a number of clauses in Apple’s contract seem not only unfair, but also in direct violation of the DMA. 
 
-To our knowledge a specific contract to be “allowed” to use bring a browser engine is unique to Apple in the history of successful consumer operating systems.
+To our knowledge a specific contract to be “allowed” to bring a browser engine is unique to Apple in the history of successful consumer operating systems.
 
 > While in no way limiting Apple’s other rights under this Addendum or the Developer Agreement, or any other remedies at law or equity, if Apple has reason to believe You or Your Alternative Web Browser Engine App (EU) have failed to comply with the requirements of this Addendum or the Developer Agreement, Apple reserves the right to revoke to Your access to any or all of the Alternative Web Browser Engine APIs immediately upon notice to You; require You to remove Your Entitlement Profile from Your Alternative Web Browser Engine Application (EU); terminate this Addendum; block updates of, hide, or remove Your Alternative Web Browser Engine App (EU) and/or other Applications from the App Store; block Your Applications from distribution on Apple platforms; and/or to suspend or remove You from the Apple Developer Program.
 ><cite>[Apple’s New Browser Engine Contract](https://developer.apple.com/contact/request/download/web_browser_engine.pdf)</cite>

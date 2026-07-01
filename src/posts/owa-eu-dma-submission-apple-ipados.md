@@ -3,6 +3,11 @@ title: 'OWA submits response to EU DMA investigation into Apple iPadOS'
 date: '2023-11-21'
 tags: ['Policy', 'Updates', 'EU']
 author: "Frances Berriman"
+relatedLinks:
+  - url: https://ec.europa.eu/commission/presscorner/detail/en/ip_23_4328
+    title: "Digital Markets Act: Commission designates six gatekeepers"
+    publisher: "European Commission"
+    date: 2023-09-06
 ---
 
 As the EU further rolls out the Digital Marketing Act, they have designated a variety of companies and their platforms as “Gatekeepers”. You can see the [complete list of Gatekeepers](https://ec.europa.eu/commission/presscorner/detail/en/ip_23_4328) and some really useful explainers on what being a [Gatekeeper means on the EU’s very informative website](https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-markets-act-ensuring-fair-and-open-digital-markets_en).

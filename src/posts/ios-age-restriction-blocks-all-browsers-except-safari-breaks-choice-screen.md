@@ -100,9 +100,10 @@ When attempting to delete the only browser on iOS, Apple will display the follow
     {% image
         "/images/blog/delete-only-browser-error-message.png",
         "An error message on iOS. Reads At least one browser app is required on iPhone. Download another browser app, then you can delete 'Safari'.",
-        null, null,
-        [300],
-        "300px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     <figcaption>Apple's error message for deleting only browser.</figcaption>
 </figure>
@@ -119,16 +120,18 @@ Apple has the following age rating settings available:
     {% image
         "/images/blog/age-settings.jpeg",
         "The age restrictions settings page on iOS. It has the title apps and 5 settings. The settings are Don't Allow, 4+, 9+, 12+, 17+. The 17+ setting is ticked",
-        null, null,
-        [300],
-        "300px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     {% image
         "/images/blog/age-rating-explanations.jpeg",
         "A screenshot of an article by Apple explaining what age ratings apple has.",
-        null, null,
-        [300],
-        "300px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     <figcaption>Apple's age rating settings and explanation.</figcaption>
 </figure>
@@ -147,16 +150,18 @@ Disney Plus has a 4+ rating, yet one of the first things advertised on its app s
     {% image
         "/images/blog/disney-plus-ios-app-store.jpeg",
         "A screenshot of the disney+ iOS app store page. It has the age rating 4+.",
-        null, null,
-        [300],
-        "300px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     {% image
         "/images/blog/disney-plus-deadpool.jpeg",
         "A screenshot of the disney+ iOS app store page showing the the new deadpool film is now available.",
-        null, null,
-        [300],
-        "300px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     <figcaption>Disney Plus (4+) and Deadpool & Wolverine.</figcaption>
 </figure>
@@ -168,16 +173,18 @@ Disney Plus has a 4+ rating, yet one of the first things advertised on its app s
     {% image
         "/images/blog/kindergarten-app-1.jpeg",
         "An screenshot of the bebi teaching app. It has a 4+ rating.",
-        null, null,
-        [300],
-        "300px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     {% image
         "/images/blog/kindergarten-app-2.jpeg",
         "An screenshot of the bebi teaching app, it indicates it can help 2,3,4 and even 5 year olds learn.",
-        null, null,
-        [300],
-        "300px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     <figcaption>Teaching App for Babies and Kindergarten with 4+ rating</figcaption>
 </figure>
@@ -194,16 +201,18 @@ For example adult websites can be visited in apps with low age ratings (such as 
     {% image
         "/images/blog/instagram-link-1.jpeg",
         "A message being sent with a link on Instagram.",
-        null, null,
-        [300],
-        "300px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     {% image
         "/images/blog/instagram-link-2.jpeg",
         "That link opening into an in-app browser with the warning 18+ splash page for an adult website.",
-        null, null,
-        [300],
-        "300px"
+        {
+          widths: [ 300 ],
+          sizes: '300px'
+        }
     %}
     <figcaption>A link being opened in a 12+ app to an adult website.</figcaption>
 </figure>

@@ -1,7 +1,7 @@
 ---
 title: "Apple implements six of OWA's DMA compliance requests"
 date: '2024-10-25'
-tags: ['Policy', 'Apple', 'EU', 'DMA']
+tags: ['Policy', 'Apple', 'EU', 'DMA', 'hotseat']
 author: "OWA"
 ---
 

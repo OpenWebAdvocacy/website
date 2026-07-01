@@ -3,6 +3,21 @@ title: 'Why is browser choice vital for the future of the Open Web?'
 date: '2023-11-13'
 tags: ['Browsers']
 author: "Frances Berriman"
+relatedLinks:
+  - url: https://infrequently.org/2021/04/progress-delayed/
+    title: Progress Delayed Is Progress Denied - Do App Store policies harm developers? Is the web a credible alternative? A look at the data.
+    publisher: Alex Russell
+    date: 2021-04-30
+  - url: https://infrequently.org/2021/07/hobsons-browser/
+    title: Hobson's Browser - How Apple, Facebook, and Google Broke the Mobile Browser Market by Silently Undermining User Choice
+    publisher: Alex Russell
+    date: 2021-06-15
+  - url: https://www.washingtonpost.com/technology/2023/02/24/apps-subscription-costs/
+    title: The money-saving deals Apple and Google are hiding from you
+    date: 2023-02-24
+  - url: https://gs.statcounter.com/browser-market-share#yearly-2009-2024
+    title: Browser Market Share Worldwide (2009-2023)
+    date: 2023-12-31
 ---
 
 OWA’s key goal is to enable true competition and browser choice across all devices. But, why do we care so deeply about this, and what would success look like?

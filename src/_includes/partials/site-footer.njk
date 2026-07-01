@@ -2,7 +2,7 @@
 
 <hr/>
 <footer class="footer-wrapper">
-  <p class="copyright">&copy; {{ site.name }}, 2024</p>
+  <p class="copyright">&copy; {{ site.name }}, 2026</p>
   <p>
     <a href="https://www.netlify.com/">{{ content.siteFooterPoweredBy }}</a>
   </p>
@@ -10,7 +10,7 @@
     <ul class="nav__list">
       {% for item in navigation[page.lang].secondary %}
         <li>
-          <a href="{{ item.url | locale_url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a >
+          <a href="{{ item.url | locale_url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
         </li>
       {% endfor %}
     </ul>

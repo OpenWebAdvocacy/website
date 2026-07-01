@@ -9,6 +9,7 @@ author:
 permalink: /ja/blog/owa-2023-review/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 {% image

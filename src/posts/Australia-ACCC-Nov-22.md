@@ -3,6 +3,11 @@ title: 'Australian Government considering ACCC proposed anti-competitive conduct
 date: '2022-11-30'
 tags: ['Policy', 'Updates']
 author: "Bruce Lawson"
+relatedLinks:
+  - title: Digital Platform Services Inquiry Discussion Paper (PDF) 
+    url: https://www.accc.gov.au/system/files/Digital%20platform%20services%20inquiry.pdf
+    publisher: Australian Government
+    date: 2022-11-30
 ---
 
 G'day, sport! [Bruce](https://brucelawson.co.uk) here, with an update on progress we've made down under with the Australian Competition and Consumer Commission (ACCC).

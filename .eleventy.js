@@ -1,36 +1,52 @@
+// Node, libs
+import { cpSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { globbySync  } from 'globby';
+import { slugify } from 'rgjs7/uri';
+
 // Eleventy Plugins
-import {EleventyI18nPlugin} from '@11ty/eleventy';
+import { EleventyI18nPlugin } from '@11ty/eleventy';
 import rssPlugin from '@11ty/eleventy-plugin-rss';
 import externalLinksPlugin from '@sardine/eleventy-plugin-external-links';
 import tocPlugin from 'eleventy-plugin-toc';
+import embedYoutubePlugin from 'eleventy-plugin-youtube-embed';
+import ogImagePlugin from './src/plugins/ogImagePlugin.js';
 
 // Markdown Libraries
 import markdownIt from 'markdown-it';
 import markdownItAnchor from 'markdown-it-anchor';
 import markdownItAttrs from 'markdown-it-attrs';
+
 // Filters
 import cleanTocFilter from './src/filters/clean-toc-filter.js';
 import dateFilter from './src/filters/date-filter.js';
+import localisedDateFilter from './src/filters/localised-date-filter.js';
 import hostnameFilter from './src/filters/hostname-filter.js';
-import englishPostsFilter from './src/filters/english-posts-filter.js';
+import localePostsFilter from './src/filters/locale-posts-filter.js';
 import removeLanguageCode from './src/filters/remove-language-code-filter.js';
 import language from './src/filters/language.js';
 import w3DateFilter from './src/filters/w3-date-filter.js';
 
 // Shortcodes
+import cssInlineShortcode from './src/shortcodes/cssInline.js';
 import imageShortcode from './src/shortcodes/image.js';
+import imageInlineShortcode from './src/shortcodes/imageInline.js';
+
+// Transforms
+import htmlTransform from './src/transforms/htmlTransform.js';
+import htmlminTransform from './src/transforms/htmlminTransform.js';
 
 // Utils
 import groupEntriesByYear from './src/utils/group-entries-by-year.js';
-import {loadPageDetails} from './src/utils/page-details.js';
 
 export default config => {
   // Add filters
   config.addFilter('dateFilter', dateFilter);
+  config.addFilter('localisedDateFilter', localisedDateFilter);
   config.addFilter('hostnameFilter', hostnameFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('cleanTocFilter', cleanTocFilter);
-  config.addFilter('englishPostsFilter', englishPostsFilter);
+  config.addFilter('localePostsFilter', localePostsFilter);
   config.addFilter('removeLanguageCode', removeLanguageCode);
   config.addFilter('language', language);
   config.addFilter('excerpt', post => {
@@ -39,9 +55,15 @@ export default config => {
   });
 
   // Add shortcodes
-  config.addNunjucksAsyncShortcode('image', imageShortcode);
+  config.addNunjucksAsyncShortcode('cssInline', cssInlineShortcode());
+  config.addNunjucksAsyncShortcode('image', imageShortcode());
+  config.addNunjucksAsyncShortcode('imageInline', imageInlineShortcode);
 
   // Plugins
+  config.addPlugin(EleventyI18nPlugin, {
+    defaultLanguage: 'en',
+    errorMode: 'allow-fallback'
+  });
   config.addPlugin(rssPlugin);
   config.addPlugin(externalLinksPlugin);
   config.addPlugin(tocPlugin, {
@@ -49,14 +71,53 @@ export default config => {
     ul: true,
     flat: false
   });
-  config.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: 'en',
-    errorMode: 'allow-fallback'
+  config.addPlugin(embedYoutubePlugin, {
+    lite: {
+      css: { inline: true, path: 'node_modules/lite-youtube-embed/src/lite-yt-embed.css', },
+      js: { inline: true, path: 'node_modules/lite-youtube-embed/src/lite-yt-embed.js', },
+      responsive: true,
+      thumbnailFormat: 'webp',
+    },
+    titleOptions: { download: true },
   });
+  config.addPlugin(ogImagePlugin, {
+    satoriOptions: {
+      fonts: [
+        {
+          name: 'Kumbh Sans Bold',
+          data: readFileSync('./src/css/fonts/KumbhSans-700.woff'),
+          style: 'normal',
+        },
+        {
+          name: 'Noto Sans JP Bold',
+          data: readFileSync('./src/css/fonts/NotoSansJP-700.woff'),
+          style: 'normal',
+        },
+      ],
+    },
+    sharpOptions: {
+      mozjpeg: true,
+    },
+    outputFileSlug: async ogImage => slugify( ogImage.data.page.filePathStem ),
+    outputFileExtension: 'jpeg',
+    outputDir: '../.cache/files/images/og/',
+    previewDir: 'images/og/preview/',
+    shortcodeOutput: async ogImage => (await ogImage.outputUrl()).replace('.cache/files/', ''),
+  });
+
+  // Transforms
+  config.addTransform('html', htmlTransform({
+    inputDir: 'src',
+    anchors: { setTitle: false },
+  }));
+  config.addTransform('htmlmin', htmlminTransform({
+    collapseWhitespace: true,
+    useShortDoctype: true,
+  }));
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+    return [...collection.getFilteredByGlob('./src/**/posts/*.md')].reverse();
   });
 
   // Returns list of related-links from all posts and pages,
@@ -67,8 +128,7 @@ export default config => {
     for (const post of posts) {
       const relatedLinks = post?.data?.relatedLinks || [];
       for (const link of relatedLinks) {
-        const linkDetails = await loadPageDetails(link);
-        relatedLinkData.push(linkDetails);
+        relatedLinkData.push(link);
       }
     }
     return groupEntriesByYear(relatedLinkData);
@@ -80,14 +140,16 @@ export default config => {
       collection.getAll().filter(item => item.data.press)[0]?.data?.press || [];
     const pressLinkData = [];
     for (const link of pressData) {
-      const linkDetails = await loadPageDetails(link);
-      pressLinkData.push(linkDetails);
+      pressLinkData.push(link);
     }
     return groupEntriesByYear(pressLinkData);
   });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);
+
+  // Pass through _copy
+  config.addPassthroughCopy({'./src/_copy': './'});
 
   // Pass through images
   config.addPassthroughCopy('./src/images');
@@ -96,8 +158,22 @@ export default config => {
   config.addPassthroughCopy('./src/css');
   config.addPassthroughCopy('./src/js');
 
+  config.addPassthroughCopy('./manifest.json');
+
   // Pass through files
   config.addPassthroughCopy('./src/files');
+
+  // Pass through .cache/files
+  // https://www.zachleat.com/web/faster-builds-with-eleventy-img/
+  config.on('eleventy.after', () => {
+    const inputDir = '.cache/files/';
+    const inputFiles = globbySync(`${ inputDir }/**/*`, { onlyFiles: true });
+    const outputDir = 'dist/';
+    inputFiles.forEach( inputFile => {
+      const outputFile = join( outputDir, inputFile.replace( inputDir, '' ) );
+      cpSync(inputFile, outputFile);
+    });
+  });
 
   // Set custom markdown library
   config.setLibrary('md', buildMarkdownLibrary());

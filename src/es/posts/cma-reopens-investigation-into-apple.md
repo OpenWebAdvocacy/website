@@ -9,6 +9,7 @@ author: Frances Berriman
 permalink: /es/blog/cma-reopens-investigation-into-apple/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 {% image

@@ -24,8 +24,7 @@ All native apps on Android are packaged as APKs, either via an app store such as
 <figure>
     {% image
         "/images/blog/webapkminting.png",
-        "Example of installing web apps on Android.",
-        null, null
+        "Example of installing web apps on Android."
     %}
     <figcaption>Left to right: narrow.one installed on Chrome, Firefox & Edge. Only the WebAPK version is able to be shown anywhere other than this homescreen.</figcaption>
 </figure>
@@ -73,5 +72,3 @@ Importantly, given this service is provided by Google Play Services, Google shou
 To Google, we request that they fix this promptly, globally and fairly. We ask that Google not play any regulatory games by only fixing it where they are legally compelled to do so and at the earliest possible date publicly publish a full plan on how they intend to share this functionality. We ask that they reach out and talk to interested browser vendors directly.
 
 We would also like to thank everyone who supports us for making our work possible. Without it we would not be able to apply this pressure to improve competition for both browsers and Web Apps.
-
-

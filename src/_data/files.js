@@ -27,7 +27,7 @@ export default async function () {
   const fileNames = await readdir(filesDir);
   const filePromises = fileNames.map(name => fileToDetails(filesDir, name));
   const files = await Promise.all(filePromises);
-  files.sort((a, b) => a.name - b.name);
+  files.sort((a, b) => a.name.localeCompare(b.name));
 
   return files;
 }

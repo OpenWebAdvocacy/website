@@ -9,6 +9,7 @@ author: Alex Moore
 permalink: /ja/blog/New-Digital-Competition-Laws-For-Australia/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 {% image

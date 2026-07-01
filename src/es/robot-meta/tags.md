@@ -15,5 +15,5 @@ pagination:
     - rss
 permalink: '/es/tag/{{ tag | slug }}/'
 translated: false
+noSocialImage: true
 ---
-

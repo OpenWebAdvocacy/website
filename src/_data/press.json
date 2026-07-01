@@ -1,5 +1,10 @@
 [
   {
+    "url": "https://www.theregister.com/2022/02/28/apple_apps_challenge/",
+    "title": "Web devs rally to challenge Apple App Store browser rules",
+    "date": "2022-02-28"
+  },
+  {
     "url": "https://appleinsider.com/articles/22/03/01/web-devs-create-advocacy-group-aimed-at-relaxing-ios-browser-restrictions",
     "title": "Web devs create advocacy group aimed at relaxing iOS browser restrictions",
     "date": "2022-03-02"
@@ -10,20 +15,14 @@
     "date": "2022-03-02"
   },
   {
-    "url": "https://www.theregister.com/2022/02/28/apple_apps_challenge/",
-    "title": "Web devs rally to challenge Apple App Store browser rules",
-    "publisher": "The Register",
-    "date": "2022-02-28"
-  },
-  {
     "url": "https://www.macrumors.com/2022/03/02/web-devs-advocacy-group-browser-engines-ios/",
     "title": "Web Developers Form Advocacy Group to Allow Other Browser Engines on iOS",
     "date": "2022-03-02"
   },
   {
-    "url": "https://thenewstack.io/owa-takes-on-apples-browser-ban-for-pwa-parity/",
-    "title": "OWA Takes on Apple’s Browser Ban for PWA Parity",
-    "date": "2022-03-17"
+    "url": "https://pocketnow.com/developers-pressuring-apple-allow-third-party-browser-engines-ios/",
+    "title": "Developers pressuring Apple to allow third-party browser engines on iOS",
+    "date": "2022-03-02"
   },
   {
     "url": "https://www.heise.de/news/Browser-Web-Entwickler-fuer-Ende-von-WebKit-Zwang-auf-iPhones-6533101.html",
@@ -36,5 +35,295 @@
     "title": "Les développeurs Web se mobilisent pour contester les règles de navigation de l'App Store d'Apple",
     "date": "2022-03-02",
     "lang": "fr"
+  },
+  {
+    "url": "https://thenewstack.io/owa-takes-on-apples-browser-ban-for-pwa-parity/",
+    "title": "OWA Takes on Apple’s Browser Ban for PWA Parity",
+    "date": "2022-03-17"
+  },
+  {
+    "url": "https://www.theregister.com/2022/04/26/apple_ios_browser/",
+    "title": "Apple's grip on iOS browser engines disallowed under latest draft EU rules",
+    "date": "2022-04-26"
+  },
+  {
+    "url": "https://ios.developpez.com/actu/334652/Apple-dit-interdire-d-autres-moteurs-de-rendu-sur-iOS-pour-des-raisons-de-securite-mais-les-analyses-d-une-firme-externe-suggerent-que-l-ouverture-a-Blink-et-Gecko-ne-pose-pas-de-probleme/",
+    "title": "Apple dit interdire d'autres moteurs de rendu sur iOS pour des raisons de sécurité",
+    "date": "2022-6-28",
+    "lang": "fr"
+  },
+  {
+    "url": "https://thenewstack.io/2023-web-tech-check-in-react-performance-pwas-ios-browsers/",
+    "title": "2023 Web Tech Check-In: React Performance, PWAs, iOS Browsers",
+    "date": "2023-01-11"
+  },
+  {
+    "url": "https://thenewstack.io/the-state-of-the-open-web-3-takeaways-heading-into-2024/",
+    "title": "The State of the Open Web: 3 Takeaways Heading into 2024",
+    "date": "2023-11-29"
+  },
+  {
+    "url": "https://www.scmagazine.com/news/2-apple-webkit-zero-day-bugs-exploited-on-iphone-browsers",
+    "title": "Apple issues emergency fixes for 2 WebKit 0-days exploited in the wild",
+    "date": "2023-12-01"
+  },
+  {
+    "url": "https://ca.news.yahoo.com/apple-change-iphone-browsing-forever-221435282.html",
+    "title": "Apple is about to change iPhone web browsing forever",
+    "date": "2024-01-25"
+  },
+  {
+    "url": "https://www.theregister.com/2024/01/31/web_developers_worry_apple_ios/",
+    "title": "Web devs fear Apple's iOS shakeup for Europe will be a nightmare for support",
+    "date": "2024-01-31"
+  },
+  {
+    "url": "https://www.theregister.com/2024/02/08/apple_web_apps_eu/",
+    "title": "In its tantrum with Europe, Apple broke web apps in iOS 17 beta, still hasn't fixed them",
+    "date": "2024-02-08"
+  },
+  {
+    "url": "https://www.tomsguide.com/phones/iphones/ios-174-beta-just-broke-iphone-web-apps-but-only-in-the-eu",
+    "title": "iOS 17.4 beta just broke iPhone web apps — but only in the EU",
+    "date": "2024-02-09"
+  },
+  {
+    "url": "https://techcrunch.com/2024/02/15/apple-confirms-its-breaking-iphone-web-apps-in-the-eu-on-purpose/",
+    "title": "Apple confirms it’s breaking iPhone web apps in the EU on purpose",
+    "date": "2024-02-15"
+  },
+  {
+    "url": "https://www.siliconrepublic.com/business/apple-home-screen-web-apps-breaking-eu-digital-markets-act-iphone",
+    "title": "Apple ‘breaking’ iPhone web apps in EU to comply with DMA rules",
+    "date": "2024-02-16"
+  },
+  {
+    "url": "https://www.engadget.com/apple-confirms-home-screen-web-apps-will-no-longer-work-on-european-ios-devices-112527560.html",
+    "title": "Apple confirms home screen web apps will no longer work on European iOS devices",
+    "date": "2024-02-16"
+  },
+  {
+    "url": "https://www.futurezone.de/digital-life/article527099/ios-17-4-web-apps-a.html",
+    "title": "iOS 17.4: Apple gibt eine Verschlechterung zu",
+    "date": "2024-02-19",
+    "lang": "de"
+  },
+  {
+    "url": "https://newsletter.wearedevelopers.com/104",
+    "title": "Spotlight: Web Apps on Apple iOS in the EU",
+    "date": "2024-02-23"
+  },
+  {
+    "url": "https://arstechnica.com/tech-policy/2024/02/apple-under-fire-for-disabling-iphone-web-apps-eu-asks-developers-to-weigh-in/",
+    "title": "Apple under fire for disabling iPhone web apps—EU asks developers to weigh in",
+    "date": "2024-02-27"
+  },
+  {
+    "url": "https://remysharp.com/2024/02/28/apple-trying-to-kneecap-the-web-pwas",
+    "title": "Apple going to kneecap the web: PWAs",
+    "publisher": "Remy Sharp",
+    "date": "2024-02-28"
+  },
+  {
+    "url": "https://offthemainthread.tech/episode/the-apple-pwa-ban/",
+    "title": "The Apple PWA Ban",
+    "date": "2024-02-29"
+  },
+  {
+    "url": "https://9to5mac.com/2024/03/01/apple-home-screen-web-apps-ios-17-eu/",
+    "title": "Apple says iOS 17.4 won’t remove Home Screen web apps in the EU after all",
+    "date": "2024-03-01"
+  },
+  {
+    "url": "https://www.theregister.com/2024/05/17/apple_browser_eu/",
+    "title": "Apple says if you want to ship your own iOS browser engine in EU, you need to be there",
+    "date": "2024-05-17"
+  },
+  {
+    "url": "https://www.theregister.com/2024/06/21/eu_apple_owa/",
+    "title": "How Europe can force Apple to support competition",
+    "date": "2024-06-21"
+  },
+  {
+    "url": "https://www.xatakandroid.com/google/obligar-a-google-a-vender-chrome-idea-terrible",
+    "title": "Obligar a Google a vender Chrome es un 'tiro en el pie' que amenaza a toda la web",
+    "date": "2025-05-06",
+    "lang": "es"
+  },
+  {
+    "url": "https://www.theverge.com/news/706569/apple-ios-iphone-alternative-browser-webkit-owa",
+    "title": "Where are the iPhone’s WebKit-less browsers?",
+    "date": "2025-07-14"
+  },
+  {
+    "url": "https://appleinsider.com/articles/25/07/14/apple-still-effectively-blocks-rival-browser-engines-on-ios-despite-eu-order",
+    "title": "Apple still effectively blocks rival browser engines on iOS despite EU order",
+    "date": "2025-07-14"
+  },
+  {
+    "url": "https://9to5mac.com/2025/07/14/apple-profits-means-iphone-users-still-get-no-real-browser-choice-says-group/",
+    "title": "Apple profits means iPhone users still get no real browser choice, says group",
+    "date": "2025-07-14"
+  },
+  {
+    "url": "https://winbuzzer.com/2025/07/14/how-apples-malicious-compliance-keeps-its-browser-engine-ban-alive-in-the-eu-defying-the-digital-markets-act-xcxwbn/",
+    "title": "How Apple’s ‘Malicious Compliance’ Keeps its Browser Engine Ban Alive in the EU, Defying the Digital Markets Act",
+    "date": "2025-07-14"
+  },
+  {
+    "url": "https://www.igen.fr/app-store/2025/07/dma-apple-accusee-dempecher-le-developpement-de-navigateurs-sans-webkit-151055",
+    "title": "DMA : Apple accusée d’empêcher le développement de navigateurs sans WebKit",
+    "date": "2025-07-14",
+    "lang": "fr"
+  },
+  {
+    "url": "https://www.larazon.es/tecnologia-consumo/obligo-apple-permitir-navegadores-terceros-pero-16-meses-despues-existe-uno_20250715687609d5525aa26f9a4d12ea.html",
+    "title": "La UE obligó a Apple a permitir navegadores de terceros, pero 16 meses después no existe ni uno",
+    "date": "2025-07-15",
+    "lang": "es"
+  },
+  {
+    "url": "https://www.applesfera.com/ios/apple-permite-navegadores-rivales-iphone-problema-que-ha-creado-laberinto-imposible-para-google-firefox",
+    "title": "Apple ya permite motores de navegación rivales en el iPhone. El problema es que ha creado un laberinto imposible para Google y Firefox",
+    "date": "2025-07-15",
+    "lang": "es"
+  },
+  {
+    "url": "https://www.security.nl/posting/896421/OWA%3A+Apple+belemmert+ontwikkelaars+eigen+search+engine+aan+te+bieden+op+iOS",
+    "title": "OWA: Apple belemmert ontwikkelaars eigen search engine aan te bieden op iOS",
+    "date": "2025-07-15",
+    "lang": "nl"
+  },
+  {
+    "url": "https://dig.watch/updates/apple-accused-of-blocking-real-browser-competition-on-ios",
+    "title": "Apple accused of blocking real browser competition on iOS",
+    "date": "2025-07-16"
+  },
+  {
+    "url": "https://www.thurrott.com/apple/323343/open-web-advocacy-says-apple-is-making-web-browsers-with-alternative-engines-financially-unviable",
+    "title": "Open Web Advocacy Says Apple is Making Web Browsers With Alternative Engines “Financially Unviable”",
+    "date": "2025-07-16"
+  },
+  {
+    "url": "https://www.itopnews.de/2025/07/blockiert-apple-deshalb-gibt-es-bisher-keine-browser-app-mit-eigener-engine/",
+    "title": "Blockiert Apple? Deshalb gibt es bisher keine Browser-App mit eigener Engine",
+    "date": "2025-07-16",
+    "lang": "de"
+  },
+  {
+    "url": "https://ios.developpez.com/actu/373833/Malgre-le-Digital-Markets-Act-Apple-empeche-de-facto-l-arrivee-de-navigateurs-tiers-sur-iOS-le-defenseur-du-numerique-OWA-denonce-une-ouverture-de-facade-qui-protege-WebKit-et-etouffe-la-concurrence/",
+    "title": "Malgré le Digital Markets Act, Apple empêche de facto l'arrivée de navigateurs tiers sur iOS : le défenseur du numérique OWA dénonce une ouverture de façade qui protège WebKit et étouffe la concurrence",
+    "date": "2025-07-16",
+    "lang": "fr"
+  },
+  {
+    "url": "https://www.macworld.se/article/2848277/apple-anklagas-for-att-fortsatt-blockera-webblasarmotorer.html",
+    "title": "Apple anklagas för att fortsatt blockera webbläsarmotorer",
+    "date": "2025-07-16",
+    "lang": "sv"
+  },
+  {
+    "url": "https://www.infobae.com/tecno/2025/08/08/adios-a-la-exclusividad-iphone-abrira-su-sistema-a-mas-motores-de-navegacion-en-diciembre-de-2025/",
+    "title": "Adiós a la exclusividad: iPhone abrirá su sistema a más motores de navegación en diciembre de 2025",
+    "date": "2025-08-08",
+    "lang": "es"
+  },
+  {
+    "url": "https://pluralistic.net/2025/10/06/rogue-capitalism/#:~:text=Apple%20also,iOS,-%3A",
+    "title": "Apple’s unlawful evil",
+    "publisher": "Cory Doctorow",
+    "date": "2025-10-06"
+  },
+  {
+    "url": "https://apple.gadgethacks.com/news/ios-browser-performance-webkit-rules-what-apples-engine-requirement-actually-means/",
+    "title": "iOS Browser Performance WebKit Rules: What Apple's Engine Requirement Actually Means",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384",
+    "title": "Apple's WebKit performance tax leaves iOS browsers stuck in the slow lane, says Microsoft",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://www.macrumors.com/2026/06/17/webkit-rule-costs-ios-users-browser-performance/",
+    "title": "Apple's WebKit Rules Reportedly Cost iOS Users Almost 30% Browser Performance",
+    "date": "2026-06-17"
+  },
+  {
+    "url": "https://iphoneaddict.fr/post/news-430402-apple-plombe-30-performances-navigateurs-iphone-webkit",
+    "title": "Apple est accusé de plomber de 30 % les performances des navigateurs sur iPhone avec WebKit",
+    "date": "2026-06-17",
+    "lang": "fr"
+  },
+  {
+    "url": "https://www.igen.fr/ios/2026/06/deux-ans-apres-le-dma-microsoft-decouvre-un-blink-30-plus-rapide-que-webkit-sur-iphone-156627",
+    "title": "Deux ans après le DMA, Microsoft « découvre » un Blink 30 % plus rapide que WebKit sur iPhone",
+    "date": "2026-06-17",
+    "lang": "fr"
+  },
+  {
+    "url": "https://www.iphones.ru/iNotes/brauzer-edge-bez-dvizhka-webkit-okazalsya-bystree-safari-na-30-v-iphone-microsoft-pokazala-skolko-skorosti-teryali-polzovateli-godami",
+    "title": "Браузер Edge без движка WebKit оказался на 30% быстрее Safari в iPhone. Microsoft показала, сколько скорости теряли пользователи годами",
+    "date": "2026-06-17",
+    "lang": "ru"
+  },
+  {
+    "url": "https://cinemaecerveja.com.br/tecnologia/as-regras-do-webkit-da-apple-supostamente-custam-aos-usuarios-do-ios-quase-30-do-desempenho-do-navegador/42828/",
+    "title": "As regras do WebKit da Apple supostamente custam aos usuários do iOS quase 30% do desempenho do navegador",
+    "date": "2026-06-17",
+    "lang": "pt"
+  },
+  {
+    "url": "https://www.ithinkdiff.com/microsoft-ios-browser-benchmark-28-percent-webkit-performance-gap/",
+    "title": "Microsoft’s iOS Browser Benchmark Shows 28.6% WebKit Performance Gap",
+    "date": "2026-06-18"
+  },
+  {
+    "url": "https://gigazine.net/news/20260618-blink-on-ios/",
+    "title": "iOSで動作するBlink駆動の試作版ChromiumブラウザがSafariを30％上回るパフォーマンスを発揮",
+    "date": "2026-06-18",
+    "lang": "ja"
+  },
+  {
+    "url": "https://www.mactechnews.de/news/article/Microsoft-demonstriert-Browser-Performance-unter-iOS-wenn-es-nicht-Apples-WebKit-sein-muss-189585.html",
+    "title": "Microsoft demonstriert: Browser-Performance unter iOS, wenn es nicht Apples WebKit sein muss",
+    "date": "2026-06-18",
+    "lang": "de"
+  },
+  {
+    "url": "https://iphonesoft.fr/2026/06/17/webkit-regles-apple-grevent-performances-navigateurs-tiers-ios",
+    "title": "WebKit : les règles d’Apple grèvent les performances des navigateurs tiers sur iOS",
+    "date": "2026-06-18",
+    "lang": "fr"
+  },
+  {
+    "url": "https://www.macitynet.it/browser-iphone-piu-lenti-apple-webkit/",
+    "title": "Microsoft accusa Apple: i browser su iPhone sono più lenti per colpa di WebKit",
+    "date": "2026-06-18",
+    "lang": "it"
+  },
+  {
+    "url": "https://www.newmobilelife.com/2026/06/18/apple-webkit-rules-ios-browser-performance/",
+    "title": "Apple WebKit 規則　iOS 瀏覽器效能低近三成",
+    "date": "2026-06-18",
+    "lang": "zh"
+  },
+  {
+    "url": "https://www.katajambi.com/detail/45039/uji-benchmark-microsoft-ungkap-aturan-webkit-bikin-browser-di-ios-kehilangan-performa-hingga-286-persen",
+    "title": "Uji Benchmark Microsoft Ungkap Aturan WebKit Bikin Browser di iOS Kehilangan Performa Hingga 28,6 Persen",
+    "date": "2026-06-18",
+    "lang": "id"
+  },
+  {
+    "url": "https://next.ink/243416/sur-ios-blink-est-plus-rapide-que-webkit-mais-cela-ne-change-rien/",
+    "title": "Sur iOS, Blink est plus rapide que WebKit, mais cela ne change rien",
+    "date": "2026-06-19",
+    "lang": "fr"
+  },
+  {
+    "url": "https://www.heise.de/news/WebKit-statt-Konkurrenz-Engines-iOS-Browser-laut-Microsoft-30-Prozent-lahmer-11339615.html",
+    "title": "WebKit statt Konkurrenz-Engines: iOS-Browser laut Microsoft 30 Prozent lahmer",
+    "date": "2026-06-22",
+    "lang": "de"
   }
 ]

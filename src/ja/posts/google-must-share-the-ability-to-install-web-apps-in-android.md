@@ -13,6 +13,7 @@ permalink: >-
   /ja/blog/google-must-share-the-ability-to-install-web-apps-in-android/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 **TLDR: For 7 years, Google has failed to keep its commitment to share the ability to install Web Apps with third-party browsers on Android, despite [public requests](https://issues.chromium.org/issues/40195497) from Samsung, Microsoft, Brave & Kiwi browser. With regulatory intervention from the EU, Japan and the UK that may be changing.**
@@ -83,5 +84,3 @@ Importantly, given this service is provided by Google Play Services, Google shou
 To Google, we request that they fix this promptly, globally and fairly. We ask that Google not play any regulatory games by only fixing it where they are legally compelled to do so and at the earliest possible date publicly publish a full plan on how they intend to share this functionality. We ask that they reach out and talk to interested browser vendors directly.
 
 We would also like to thank everyone who supports us for making our work possible. Without it we would not be able to apply this pressure to improve competition for both browsers and Web Apps.
-
-

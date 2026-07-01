@@ -1,0 +1,63 @@
+{
+    "manifest_version": "2.0",
+    "name": "Open Web Advocacy",
+    "short_name": "OWA",
+    "version": "1",
+    "default_locale": "en",
+    "description": "A group of software engineers from all over the world who have come together to advocate for the future of the open web",
+    "icons": [{
+          "src": "/images/maskable-logo.png",
+          "sizes": "196x196",
+          "type": "image/png",
+          "purpose": "maskable"
+        }, {
+          "src": "/images/icon48.png",
+          "sizes": "48x48",
+          "type": "image/png"
+        }, {
+          "src": "/images/icon128.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        }, {
+          "src": "/images/icon192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }, {
+          "src": "/images/icon256.png",
+          "sizes": "256x256",
+          "type": "image/png"
+        }, {
+          "src": "/images/icon512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }, {
+          "src": "/images/icon1200.png",
+          "sizes": "1200x1200",
+          "type": "image/png"
+        }
+      ],
+      "screenshots": [
+        {
+          "src": "/images/home.webp",
+          "sizes": "1280x720",
+          "type": "image/webp",
+          "form_factor": "wide",
+          "label": "Home screen"
+        },
+        {
+          "src": "/images/homemobile.webp",
+          "sizes": "540x720",
+          "type": "image/webp",
+          "platform": "android",
+          "label": "Home screen on mobile"
+        }
+      ],
+      "author": "Open Web Advocacy",
+      "display": "standalone",
+      "display_override": ["minimal-ui"],
+      "id": "/index.html",
+      "start_url": "/index.html",
+      "scope": "/",
+      "background_color": "#FFFFFF",
+      "theme_color": "#CD4C1D"
+    }

@@ -9,6 +9,7 @@ author: Frances Berriman
 permalink: /es/blog/developers-react-apple-eu-dma-compliance/index.html
 layout: layouts/post.njk
 translated: false
+imageShortcodeIgnoreLegacy: true
 ---
 
 {% image

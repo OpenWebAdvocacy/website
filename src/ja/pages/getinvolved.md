@@ -1,20 +1,20 @@
 ---
-title: Get Involved
+title: 参加しよう
 permalink: /ja/get-involved/
-metaDesc: Learn how to get involved with Open Web Advocacy's efforts.
+metaDesc: Open Web Advocacyの活動に参加する方法について。
 layout: layouts/page.njk
-translated: false
+translated: true
 ---
 
-Join us in advocating for the open web. There are many ways you can help, from contacting legislators and regulators to helping collect and document evidence of anti-competitive behavior.
+開かれたウェブを守る活動に、ぜひ参加してください。議員や規制当局への働きかけから、反競争的行為の証拠収集と文書化の支援まで、協力できる方法はたくさんあります。
 
-Unlike groups who operate on behalf of major organizations, we are unbacked, unfunded and rely on individuals to contribute their time and expertise. If you believe in the future of the web, you can help make that future a reality.
+主要な組織の代理として運営するグループとは異なり、私たちはスポンサーも資金援助も受けておらず、個人の時間と専門知識による貢献に頼っています。もしあなたがウェブの未来を信じるなら、その未来を現実にする助けになれます。
 
-Specifically, we are looking for people with any of the following:
+具体的には、以下のような情熱や経験を持つ人を求めています。
 
-1. A strong passion for an open web
-2. Experience working with web technologies
-3. Experience with internet or technology policy
-4. Experience with advocacy or grassroots campaigning efforts
+1. 開かれたウェブに対する強い情熱
+2. ウェブ技術の利用経験
+3. インターネットまたはテクノロジー政策に関する経験
+4. アドボカシー（権利擁護活動）や草の根運動の経験
 
-If you are excited about the work we do and want to learn more, you can do so by contacting us via <a href="https://discord.gg/x53hkqrRKx">Discord</a>, <a href='https://mastodon.social/@owa' rel='me'>Mastodon</a>, <a href="https://bsky.app/profile/open-web-advocacy.org">Bluesky</a>, <a href="https://x.com/OpenWebAdvocacy">X</a> or by sending us an <a href="mailto:contactus@open-web-advocacy.org">email</a>.
+私たちの活動に共感し、さらに詳しく知りたい場合は、ぜひお気軽にご連絡ください。<a href="https://discord.gg/x53hkqrRKx">Discord</a>、<a href='https://mastodon.social/@owa' rel='me'>Mastodon</a>、<a href="https://bsky.app/profile/open-web-advocacy.org">Bluesky</a>、<a href="https://x.com/OpenWebAdvocacy">X</a>のいずれかから連絡するか、<a href="mailto:contactus@open-web-advocacy.org">メール</a>で連絡してください。

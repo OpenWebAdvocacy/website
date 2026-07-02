@@ -146,7 +146,7 @@
   header nav ul {justify-content: space-between;}
 
   header.home-header li {
-    font-variation-settings: var(--fvs-regular);
+    font-weight: normal;
   }
 
   header.home-header nav a {

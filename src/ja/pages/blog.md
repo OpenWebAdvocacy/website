@@ -1,9 +1,8 @@
 ---
-title: News
+title: ニュース
 permalink: /ja/blog/
-metaDesc: Check out the most recent blog posts from Open Web Advocacy.
+metaDesc: Open Web Advocacyの最新ブログ記事をチェック。
 templateEngineOverride: njk
-translated: false
 ---
 {% extends 'layouts/base.njk' %}
 {% block content %}

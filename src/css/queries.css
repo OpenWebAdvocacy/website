@@ -175,6 +175,7 @@
   aside {
     box-sizing: border-box;
     max-width: 328px;
+    flex: 0 0 30%;
   }
 }
 
@@ -273,7 +274,7 @@
   }
 
   aside {
-    flex: 0 0 20%;
+    flex: 0 0 23%;
     margin: 0;
   }
 

@@ -4,7 +4,7 @@
 
 {# If this is a tag, grab those items instead as one large collection #}
 {% if tag %}
-  {% set postListItems = collections[tag] | reverse | localePostsFilter("en") %}
+  {% set postListItems = collections[tag] | reverse | localePostsFilter(page.lang) %}
   {% set title = 'Blog posts filed under “' + (languages_base[page.lang].tags[tag] or tag) + '”' %}
 {% endif %}
 

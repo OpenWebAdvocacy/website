@@ -7,7 +7,7 @@ tags:
   - UK
   - EU
   - Japan
-  - USA
+  - US
   - Australia
 author: OWA
 permalink: /ja/blog/tim-berners-lee-on-apples-browser-engine-ban-and-web-apps/index.html

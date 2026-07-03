@@ -1,7 +1,7 @@
 ---
 title: "Tim Berners-Lee On Apple’s Browser Engine Ban and Web Apps"
 date: '2025-11-13'
-tags: ['Policy', 'Apple', 'UK', 'EU', 'Japan', 'USA', 'Australia']
+tags: ['Policy', 'Apple', 'UK', 'EU', 'Japan', 'US', 'Australia']
 author: "OWA"
 ---
 

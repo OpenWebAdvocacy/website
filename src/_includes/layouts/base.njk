@@ -66,10 +66,10 @@
       {% block homecontent %}{% endblock %}
     {% else %}
       <div class="inner-wrapper">
-        {% if not isPaperLayout %}
-          {% set postListItems = collections.blog %}
-        {% endif %}
         <main tabindex="-1" id="main-content" class="inner" {% if translated === false %} lang="en" {% endif %}> {% block content %}{% endblock %}
+          {% if not isPaperLayout %}
+            {% set postListItems = collections.blog %}
+          {% endif %}
         </main>
         {% if not isPaperLayout %}
           {% include "partials/aside.njk" %}

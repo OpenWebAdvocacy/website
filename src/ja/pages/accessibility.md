@@ -1,28 +1,25 @@
 ---
-title: Accessibility
+title: アクセシビリティ
 permalink: /ja/accessibility/
-metaDesc: Learn about the accessibility of the Open Web Advocacy website.
+metaDesc: Open Web Advocacyウェブサイトのアクセシビリティについて。
 layout: layouts/page.njk
-translated: false
 ---
 
-The Open Web Advocacy is committed to ensuring digital accessibility for people with disabilities.
-We are applying the relevant accessibility standards, and we will do our best to continually improve the user experience
-for everyone.
+Open Web Advocacyは、障害のある人々のためにデジタルアクセシビリティを保証することに尽力しています。
+私たちは、関連するアクセシビリティ標準をウェブサイトに適用し、すべての人のためにユーザーエクスペリエンスを継続的に改善できるよう最善を尽くします。
 
-## Measures to support accessibility
+## アクセシビリティをサポートするための措置
 
-As a team of enthusiastic volunteers, we are focusing our efforts on web standards and semantic HTML.
+熱意あるボランティアチームとして、私たちはウェブ標準とセマンティックHTMLに注力しています。
 
-The tests done during development are:
+私たちは、開発中に以下のテストを行います。
 
-- checking for general accessibility problems with WAVE (Web Accessibility Evaluation Tool);
-- navigating the site using the keyboard;
-- using NVDA screen reader.
+- WAVE (Web Accessibility Evaluation Tool) を使用した、一般的なアクセシビリティの問題の確認
+- キーボードを使用したサイトのナビゲーション
+- NVDAスクリーンリーダーの使用
 
-## Feedback
+## フィードバック
 
-We welcome your feedback on the accessibility of our pages.
-If you encounter any accessibility barriers accessing our content, please let us know by email:
-[contactus@open-web-advocacy.org](mailto:contactus@open-web-advocacy.org). We will do our
-best to address the issue as soon as possible.
+私たちは、ウェブサイトのアクセシビリティに関するフィードバックを歓迎します。
+コンテンツへのアクセスに際してアクセシビリティの障壁に遭遇した場合は、メール（[contactus@open-web-advocacy.org](mailto:contactus@open-web-advocacy.org)）でお知らせください。
+速やかに問題を解決できるよう、最善を尽くします。

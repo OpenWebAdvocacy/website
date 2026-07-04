@@ -47,7 +47,7 @@ test.describe('translations', () => {
   });
 
   test('non-English tag page has translated tag', async ({page}) => {
-    await page.goto('/ja/tag/japan');
+    await page.goto('/ja/tag/japan/');
     const header = page.getByRole('heading', { level: 1})
     await expect(header).toContainText('日本');
     await expect(header).not.toContainText('Japan');

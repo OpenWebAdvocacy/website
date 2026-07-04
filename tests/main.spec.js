@@ -38,3 +38,25 @@ test.describe('tag list page', () => {
     await expect(page.getByRole('list', {name: 'Tags'}).getByRole('link', {name: '#Japan'})).not.toBeVisible();
   });
 });
+
+test.describe('translations', () => {
+  test('non-English page has translated text', async ({page}) => {
+    await page.goto('/ja/');
+    await expect(page.locator('.home-intro')).toContainText('開かれたウェブ');
+    await expect(page.locator('.home-intro')).not.toContainText('the open web');
+  });
+
+  test('non-English tag page has translated tag', async ({page}) => {
+    await page.goto('/ja/tag/japan');
+    const header = page.getByRole('heading', { level: 1})
+    await expect(header).toContainText('日本');
+    await expect(header).not.toContainText('Japan');
+  });
+
+  test('translated news article has translated tag', async ({page}) => {
+    await page.goto('/ja/blog/28-percent-faster--the-blink-prototype-that-shows-why-apples-ios-browser-engine-ban-must-end/');
+
+    await expect(page.getByRole('list', {name: 'Tags'}).getByRole('link', {name: '#日本'})).toBeVisible();
+    await expect(page.getByRole('list', {name: 'Tags'}).getByRole('link', {name: '#Japan'})).not.toBeVisible();
+  });
+});

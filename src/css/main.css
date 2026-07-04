@@ -113,6 +113,10 @@ body {
   background: var(--body-bg);
 }
 
+html[lang="ja"] > body {
+  font-feature-settings: 'palt';
+}
+
 h1,
 h2,
 h3 {

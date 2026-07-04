@@ -21,7 +21,13 @@
 }
 
 :root {
+
   --stack: "Kumbh Sans Regular", "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
 
   --body-text: #333;
   --body-bg: #FFF;

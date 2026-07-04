@@ -29,7 +29,9 @@
     "translationNotAvailable": "Unfortunately this page has not been translated into your preferred language yet. If you'd like to help us translate it, please join <a href=\"https://discord.gg/x53hkqrRKx\">#translation on the OWA Discord</a>.",
     "email": "Email",
     "website": "Website",
-    "writtenBy": "Written by"
+    "writtenBy": "Written by",
+    "tagPageTitle1": "News articles filed under\"",
+    "tagPageTitle2": "\""
   },
   "es": {
     "ariaLabelPaginationlinks": "Enlaces de paginación",
@@ -89,7 +91,9 @@
       "Updates": "Updates",
       "WebKit": "WebKit",
       "hotseat": "hotseat"
-    }
+    },
+    "tagPageTitle1": "News articles filed under\"",
+    "tagPageTitle2": "\""
   },
   "ja": {
     "ariaLabelPaginationlinks": "ページネーションリンク",
@@ -149,6 +153,8 @@
       "Updates": "アップデート",
       "WebKit": "WebKit",
       "hotseat": "ホットシート"
-    }
+    },
+    "tagPageTitle1": "「",
+    "tagPageTitle2": "」カテゴリーのニュース一覧"
   }
 }

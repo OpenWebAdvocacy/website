@@ -10,8 +10,8 @@ test.describe('tag list page', () => {
     await page.goto('/tag/japan/');
 
     const postLinks = page.locator('main').getByRole('link');
-    const firstPost = await postLinks.first();
-    const lastPost = await postLinks.last();
+    const firstPost = postLinks.first();
+    const lastPost = postLinks.last();
 
     for (const postLink of [firstPost, lastPost]) {
       await postLink.click();

@@ -14,6 +14,5 @@ pagination:
     - people
     - rss
 permalink: '/es/tag/{{ tag | slug }}/'
-translated: false
 noSocialImage: true
 ---

@@ -11,7 +11,10 @@
     "generate": "node generate-language-files.js",
     "build": "npm run production",
     "production": "npm run generate && NODE_ENV=production npx @11ty/eleventy",
-    "updates": "npx npm-check-updates -i --format group"
+    "updates": "npx npm-check-updates -i --format group",
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug"
   },
   "engines": {
     "node": ">=26"
@@ -41,6 +44,8 @@
     "rgjs7": "^0.0.88"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0",
     "netlify-plugin-cache": "^1.0.3",
     "prettier": "^3.9.4"
   },
@@ -48,5 +53,10 @@
     "@resvg/resvg-js-darwin-arm64": "^2.6.2",
     "@resvg/resvg-js-linux-x64-gnu": "^2.6.2",
     "sharp": "^0.35.3"
+  },
+  "allowScripts": {
+    "sharp@0.33.5": true,
+    "sharp@0.34.5": true,
+    "sharp@0.35.3": true
   }
 }

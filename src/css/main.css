@@ -1969,9 +1969,65 @@ header:not(.home-header) p:has(button.language-picker) {
   }
 }
 
+/* social feed */
+.social-feed {
+  --flow-space: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--n-dark);
+  width: 100%;
+  max-width: 100%;
 
+  & h3 {
+    text-transform: initial;
+  }
 
+  & .mt-container {
+    height: auto;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
 
+  & nav {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+
+    & button {
+      all: unset;
+      cursor: pointer;
+      font-size: 0.85em;
+      font-weight: var(--font-weight-bold);
+      padding: 0.3em 0.8em;
+      border-radius: 2em;
+      color: var(--n-dark);
+      background: var(--body-bg);
+      text-transform: lowercase;
+    }
+
+    & button[aria-selected="true"] {
+      color: var(--text-inv);
+      background: var(--n-dark);
+    }
+  }
+
+  & .panels {
+    margin-top: 0.75rem;
+    width: 100%;
+    max-width: 100%;
+
+    & .bluesky-feed-loading,
+    & .bluesky-feed-error {
+      font-size: 0.85em;
+      color: var(--n-dark);
+      padding: 0.5em 0;
+    }
+
+    & .bluesky-embed {
+      width: 100%;
+    }
+  }
+}
 
 /* ---------------------- PLUGINS ------------------------ */
 

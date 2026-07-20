@@ -163,6 +163,26 @@ export default config => {
   // Pass through files
   config.addPassthroughCopy('./src/files');
 
+  // Pass through vendor modules from node_modules
+  config.addPassthroughCopy({
+    'node_modules/@idotj/mastodon-embed-timeline/dist/mastodon-timeline.esm.js':
+      'js/vendor/mastodon-timeline.esm.js',
+    'node_modules/@idotj/mastodon-embed-timeline/dist/mastodon-timeline.min.css':
+      'css/vendor/mastodon-timeline.min.css',
+    'node_modules/bluesky-profile-feed-embed/dist/wc.js':
+      'js/vendor/bluesky-profile-feed-embed/wc.js',
+    'node_modules/bluesky-profile-feed-embed/dist/core.js':
+      'js/vendor/bluesky-profile-feed-embed/core.js',
+    'node_modules/bluesky-profile-feed-embed/dist/core.css':
+      'css/vendor/bluesky-profile-feed-embed.css',
+    'node_modules/bluesky-profile-feed-embed/themes':
+      'css/vendor/themes',
+    'node_modules/@atcute/client/dist':
+      'js/vendor/atcute-client',
+    'node_modules/@atcute/bluesky-richtext-segmenter/dist':
+      'js/vendor/atcute-bluesky-richtext-segmenter',
+  });
+
   // Pass through .cache/files
   // https://www.zachleat.com/web/faster-builds-with-eleventy-img/
   config.on('eleventy.after', () => {

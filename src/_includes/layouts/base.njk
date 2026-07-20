@@ -28,8 +28,20 @@
     {% if '/en/' in page.url  %}
       <link rel="canonical" href="{{ site.url }}{{ page.url | removeLanguageCode(languages) }}"/>
     {% endif %}
+    {# Import map for social feed module deps (served locally from node_modules) #}
+    <script type="importmap">
+    {
+      "imports": {
+        "@idotj/mastodon-embed-timeline": "/js/vendor/mastodon-timeline.esm.js",
+        "bluesky-profile-feed-embed": "/js/vendor/bluesky-profile-feed-embed/wc.js",
+        "@atcute/client": "/js/vendor/atcute-client/index.js",
+        "@atcute/bluesky-richtext-segmenter": "/js/vendor/atcute-bluesky-richtext-segmenter/index.js"
+      }
+    }
+    </script>
     {# Javascript #}
     <script type="module" src="/js/language-picker.js?{{ assetHash }}"></script>
+    <script src="/js/social-feed.js?{{ assetHash }}" type="module"></script>
     {# Javascript - Add facility for pages to delare an array of non-critical javascript #}
     {% if pageNonCriticalScripts %}
       {% for item in pageNonCriticalScripts %}
@@ -40,6 +52,9 @@
     <style>{% cssInline '/css/vars.css' %}</style>
     <style>{% cssInline '/css/main.css' %}</style>
     <style>{% cssInline '/css/queries.css' %}</style>
+    <link rel="stylesheet" href="/css/vendor/mastodon-timeline.min.css" />
+    <link rel="stylesheet" href="/css/vendor/bluesky-profile-feed-embed.css" />
+    <link rel="stylesheet" href="/css/vendor/themes/light.css" />
     {# Stylesheets - Add facility for pages to delare an array of critical styles #}
     {% if pageCriticalStyles %}
       {% for item in pageCriticalStyles %}

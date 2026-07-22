@@ -107,17 +107,28 @@ figure.equation {
 
 /* ---------------------- GLOBALS ------------------------ */
 
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 body {
   font: 100%/1.5 var(--stack);
   color: var(--body-text);
   background: var(--body-bg);
 }
 
+html[lang="ja"] > body {
+  font-feature-settings: 'palt';
+}
+
 h1,
 h2,
 h3 {
   max-width: 35ch;
-  font-variation-settings: var(--fvs-black);
+  font-weight: var(--font-weight-black);
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
@@ -135,7 +146,7 @@ h2 {
 
 h3 {
   font-size: calc(1rem + 1vw);
-  font-variation-settings: var(--fvs-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 h4 {
@@ -152,7 +163,7 @@ dl {
 dl {}
 
 dt {
-  font-weight: bold;
+  font-weight: var(--font-weight-bold);
   margin-top: var(--flow-space);
 }
 
@@ -201,7 +212,7 @@ cite:before {
 code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   font-size: 0.95em;
-  font-weight: bold;
+  font-weight: var(--font-weight-bold);
 }
 
 pre {
@@ -277,7 +288,7 @@ a:hover {
 }
 
 strong {
-  font-variation-settings: var(--fvs-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 img {
@@ -337,13 +348,13 @@ img {
 
 .post h5 {
   font-size: 100%;
-  font-variation-settings: var(--fvs-regular);
+  font-weight: var(--font-weight-regular);
   font-style: italic;
 }
 
 .post h6 {
   font-size: 90%;
-  font-variation-settings: var(--fvs-regular);
+  font-weight: var(--font-weight-regular);
   text-indent: 1em;
 }
 
@@ -376,7 +387,7 @@ figure.double p {
 
 figcaption {
   position: relative;
-  font-variation-settings: var(--fvs-black);
+  font-weight: var(--font-weight-black);
   padding: 1rem 0 0 3rem;
 }
 
@@ -517,7 +528,7 @@ button,
   background-color: var(--n-dark);
   padding: 0.7em 2.5em 0.8em 1.2em;
   border-radius: 2em;
-  font-variation-settings: var(--fvs-black);
+  font-weight: var(--font-weight-black);
   text-transform: lowercase;
   line-height: 1;
 }
@@ -583,7 +594,7 @@ button,
   background-color: var(--main-color);
   padding: 0.8em .8em 0.8em .8em;
   border-radius: 2em;
-  font-variation-settings: var(--fvs-black);
+  font-weight: var(--font-weight-black);
   line-height: 1;
 }
 
@@ -618,7 +629,7 @@ div.site-header__inner {
   margin: 0 auto;
 
   & a {
-    font-variation-settings: var(--fvs-black);
+    font-weight: var(--font-weight-black);
     text-decoration: none;
     text-transform: lowercase;
     line-height: 1;
@@ -707,7 +718,7 @@ body>footer li {
 }
 
 p.copyright {
-  font-variation-settings: var(--fvs-black);
+  font-weight: var(--font-weight-black);
 }
 
 
@@ -752,7 +763,7 @@ header nav ul li {
 }
 
 header nav a {
-  font-weight: bold;
+  font-weight: var(--font-weight-bold);
   text-decoration: none;
 }
 
@@ -823,7 +834,7 @@ header.home-header h1 {
   font-size: clamp(1.2rem, 5vw, 3.5rem);
   line-height: 1;
   text-transform: lowercase;
-  font-variation-settings: var(--fvs-black);
+  font-weight: var(--font-weight-black);
   margin-bottom: -0.1em;
 }
 
@@ -865,7 +876,7 @@ div.home-wrapper p {
 p.home-intro {
   max-width: 27em;
   font-size: 1.2em;
-  font-variation-settings: var(--fvs-medium);
+  font-weight: var(--font-weight-medium);
   margin: 5% 1.5rem 3rem;
 }
 
@@ -913,7 +924,7 @@ dl.counter {
 dl.counter dt {
   position: relative;
   font-size: 1.2em;
-  font-variation-settings: var(--fvs-black);
+  font-weight: var(--font-weight-black);
   padding-top: 1em;
   padding-left: 4rem;
 }
@@ -926,7 +937,7 @@ dl.counter dt::before {
   top: 0.2em;
   left: 0;
   font: 2rem/1.5em var(--stack);
-  font-variation-settings: var(--fvs-black);
+  font-weight: var(--font-weight-black);
   content: counter(counter);
   counter-increment: counter;
   text-align: center;
@@ -1036,7 +1047,7 @@ ul.press-list > li::before {
   content: "EN";
   width: 2em;
   height: 2em;
-  font-variation-settings: var(--fvs-black);
+  font-weight: var(--font-weight-black);
   text-align: center;
   color: var(--text-inv);
   background-color: var(--n-dark);
@@ -1143,7 +1154,7 @@ div.gallery figcaption {
   padding: 0 1rem;
   text-align: center;
   font-size: 80%;
-  font-variation-settings: var(--fvs-regular);
+  font-weight: var(--font-weight-regular);
 }
 
 div.gallery figcaption::before {
@@ -1216,7 +1227,7 @@ div.prom-banner div.donation-details table {
 }
 
 div.prom-banner div.donation-details th, td {
-  font-weight: normal;
+  font-weight: var(--font-weight-regular);
 }
 
 /* CONTRIBUTORS PAGE */
@@ -1307,14 +1318,14 @@ p.social {
 }
 
 .post-meta time {
-  font-variation-settings: var(--fvs-black);
+  font-weight: var(--font-weight-black);
 }
 
 .tags-list {
   margin: 0;
   list-style: none;
   text-transform: capitalize;
-  font-variation-settings: var(--fvs-bold);
+  font-weight: var(--font-weight-bold);
   color: #666;
 }
 
@@ -1437,7 +1448,7 @@ div.license img {
 
 p.baseline {
   font-size: 120%;
-  font-variation-settings: var(--fvs-bold);
+  font-weight: var(--font-weight-bold);
   line-height: 1.3;
   margin-bottom: 0.5em;
 }
@@ -1616,7 +1627,7 @@ header:not(.home-header) p:has(button.language-picker) {
 .cta-header {
   background: var(--main-color);
   color: white;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   font-size: 1.4rem;
   text-align: center;
   padding: 1rem 1.5rem;
@@ -1846,8 +1857,7 @@ header:not(.home-header) p:has(button.language-picker) {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   font-size: 0.83rem;
-  font-weight: 700;
-  font-variation-settings: var(--fvs-bold);
+  font-weight: var(--font-weight-bold);
   border-bottom: 1px solid color-mix(in srgb, var(--n-dark) 14%, white);
 }
 
@@ -1884,14 +1894,13 @@ header:not(.home-header) p:has(button.language-picker) {
   white-space: normal;
   line-height: 1.35;
   color: color-mix(in srgb, var(--n-dark) 68%, white);
-  font-weight: 700;
-  font-variation-settings: var(--fvs-bold);
+  font-weight: var(--font-weight-bold);
   font-variant-numeric: tabular-nums;
 }
 
 .owa-table strong {
   color: var(--n-dark);
-  font-variation-settings: var(--fvs-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 .owa-table__subdate {

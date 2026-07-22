@@ -22,7 +22,7 @@ import cleanTocFilter from './src/filters/clean-toc-filter.js';
 import dateFilter from './src/filters/date-filter.js';
 import localisedDateFilter from './src/filters/localised-date-filter.js';
 import hostnameFilter from './src/filters/hostname-filter.js';
-import englishPostsFilter from './src/filters/english-posts-filter.js';
+import localePostsFilter from './src/filters/locale-posts-filter.js';
 import removeLanguageCode from './src/filters/remove-language-code-filter.js';
 import language from './src/filters/language.js';
 import w3DateFilter from './src/filters/w3-date-filter.js';
@@ -46,7 +46,7 @@ export default config => {
   config.addFilter('hostnameFilter', hostnameFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
   config.addFilter('cleanTocFilter', cleanTocFilter);
-  config.addFilter('englishPostsFilter', englishPostsFilter);
+  config.addFilter('localePostsFilter', localePostsFilter);
   config.addFilter('removeLanguageCode', removeLanguageCode);
   config.addFilter('language', language);
   config.addFilter('excerpt', post => {
@@ -84,9 +84,13 @@ export default config => {
     satoriOptions: {
       fonts: [
         {
-          name: 'Kumbh Sans Regular',
+          name: 'Kumbh Sans Bold',
           data: readFileSync('./src/css/fonts/KumbhSans-700.woff'),
-          weight: 400,
+          style: 'normal',
+        },
+        {
+          name: 'Noto Sans JP Bold',
+          data: readFileSync('./src/css/fonts/NotoSansJP-700.woff'),
           style: 'normal',
         },
       ],
@@ -113,7 +117,7 @@ export default config => {
 
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+    return [...collection.getFilteredByGlob('./src/**/posts/*.md')].reverse();
   });
 
   // Returns list of related-links from all posts and pages,

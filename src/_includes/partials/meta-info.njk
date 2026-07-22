@@ -3,7 +3,7 @@
   {% set socialImage = site.url + socialImage %}
 {% elseif not noSocialImage %}
   {% setAsync "socialImage" -%}
-    {% ogImage "./images/og/og-template.og.njk", { title: title } %}
+    {% ogImage "./images/og/og-template.og.njk", { title: title, lang: page.lang } %}
   {%- endsetAsync %}
   {% set socialImage = site.url + socialImage %}
 {% endif %}

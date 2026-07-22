@@ -1974,18 +1974,9 @@ header:not(.home-header) p:has(button.language-picker) {
   --flow-space: 1rem;
   padding-top: 1rem;
   border-top: 1px solid var(--n-dark);
-  width: 100%;
-  max-width: 100%;
 
   & h3 {
     text-transform: initial;
-  }
-
-  & .mt-container {
-    height: auto;
-    max-height: 600px;
-    overflow-y: auto;
-    scrollbar-width: thin;
   }
 
   & nav {
@@ -2012,21 +2003,151 @@ header:not(.home-header) p:has(button.language-picker) {
   }
 
   & .panels {
-    margin-top: 0.75rem;
-    width: 100%;
-    max-width: 100%;
+    margin-top: 1rem;
+  }
 
-    & .bluesky-feed-loading,
-    & .bluesky-feed-error {
-      font-size: 0.85em;
-      color: var(--n-dark);
-      padding: 0.5em 0;
-    }
+  & .mt-container {
+    height: auto;
+    max-height: 600px;
+    border: 1px solid var(--mt-color-line-gray);
+    border-radius: 8px;
+  }
 
-    & .bluesky-embed {
-      width: 100%;
+  & .mt-body {
+    padding: 0;
+  }
+
+  & .mt-post {
+    padding: 0 16px 0 64px;
+    margin: 0;
+
+    &:last-child {
+      border-bottom: none;
     }
   }
+
+  & .mt-post-header {
+    display: block;
+    margin: 0;
+  }
+
+  & .mt-post-avatar {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+  }
+
+  & .mt-post-avatar-image-big img {
+    border-radius: 9999px;
+    object-fit: cover;
+  }
+
+  & .mt-post-header-user {
+    display: inline;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  & .mt-post-header-user-name {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  & .mt-post-header-user-account {
+    display: inline;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  & .mt-post-header-date {
+    display: inline;
+    margin: 0;
+    font-size: 14px;
+    color: var(--mt-color-contrast-gray, #455668);
+    white-space: nowrap;
+
+    &::before {
+      content: '·';
+      margin: 0 6px;
+      color: var(--mt-color-contrast-gray, #455668);
+    }
+  }
+
+  & .mt-post-txt {
+    margin: 0 0 2px;
+    font-size: 14px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+
+  & .mt-post-preview {
+    display: block;
+    margin: 12px 0;
+    border-radius: 6px;
+  }
+
+  & .mt-post-preview-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1.91;
+    object-fit: cover;
+    border-bottom: 1px solid var(--mt-color-line-gray, #d4dbe2);
+  }
+
+  & .mt-post-preview-content {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+  }
+
+  & .mt-post-preview-provider {
+    display: block;
+    margin: 0;
+    font-size: 11px;
+    color: var(--mt-color-contrast-gray, #455668);
+  }
+
+  & .mt-post-preview-title {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  & .mt-post-preview-description {
+    margin: 0;
+    overflow: hidden;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  & .mt-post-counter-bar {
+    align-items: center;
+    gap: 16px;
+    margin: 12px 0;
+    justify-content: normal;
+    font-size: 13px;
+  }
+
+  & .mt-post-counter-bar-replies,
+  & .mt-post-counter-bar-reblog,
+  & .mt-post-counter-bar-favorites {
+    gap: 8px;
+    margin: 0;
+  }
+
 }
 
 /* ---------------------- PLUGINS ------------------------ */

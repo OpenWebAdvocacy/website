@@ -4,6 +4,9 @@ export default function firstParagraphFilter(html, maxLength = 160) {
   // handles SafeString and any other non-string value
   const str = String(html);
 
+  // Return an empty description for non-string objects used in tag pages
+  if (str === '[object Object]') return '';
+
   // Get the first <p>...</p> anywhere in the page content
   const match = str.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
   let text = match ? match[1] : str;

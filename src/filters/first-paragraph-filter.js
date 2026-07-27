@@ -11,6 +11,9 @@ export default function firstParagraphFilter(html, maxLength = 160) {
   // Strip any nested tags (links, em, etc.) and collapse whitespace
   text = text.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 
+  // Strip leading "TL;DR" if there is one, with or without semicolon/colon/dash, case-insensitive
+  text = text.replace(/^\s*TL;?DR\s*[:\-–—]*\s*/i, '');
+
   // Truncate on a word boundary appropriate description length, end with '...'
   if (text.length > maxLength) {
     text = text.slice(0, maxLength).replace(/\s+\S*$/, '') + '…';

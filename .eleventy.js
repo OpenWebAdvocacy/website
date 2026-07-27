@@ -26,6 +26,7 @@ import localePostsFilter from './src/filters/locale-posts-filter.js';
 import removeLanguageCode from './src/filters/remove-language-code-filter.js';
 import language from './src/filters/language.js';
 import w3DateFilter from './src/filters/w3-date-filter.js';
+import firstParagraphFilter from './src/filters/first-paragraph-filter.js';
 
 // Shortcodes
 import cssInlineShortcode from './src/shortcodes/cssInline.js';
@@ -53,6 +54,7 @@ export default config => {
     const content = post.replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>|<[^>]*>/gi, '');
     return content.substr(0, content.lastIndexOf(' ', 400)) + '...';
   });
+  config.addFilter('firstParagraph', firstParagraphFilter);
 
   // Add shortcodes
   config.addNunjucksAsyncShortcode('cssInline', cssInlineShortcode());

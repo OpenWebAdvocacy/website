@@ -22,7 +22,7 @@
 {% endif %}
 
 {% if not metaDesc %}
-  {% set metaDesc = summary %}
+  {% set metaDesc = summary or (content | firstParagraph) %}
 {% endif %}
 
 <title>{{ pageTitle }}</title>

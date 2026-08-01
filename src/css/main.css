@@ -2006,6 +2006,28 @@ header:not(.home-header) p:has(button.language-picker) {
     margin-top: 1rem;
   }
 
+  & .bluesky-embed {
+    & .display-name-wrapper {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    & .meta {
+      flex-direction: column;
+      align-items: start;
+
+      & .name-wrapper {
+        flex-direction: column;
+        gap: 0 4px;
+      }
+
+      & .dot {
+        display: none;
+      }
+    }
+  }
+
   & .mt-container {
     height: 600px;
     border: 1px solid var(--mt-color-line-gray);

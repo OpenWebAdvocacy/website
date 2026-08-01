@@ -2007,8 +2007,7 @@ header:not(.home-header) p:has(button.language-picker) {
   }
 
   & .mt-container {
-    height: auto;
-    max-height: 600px;
+    height: 600px;
     border: 1px solid var(--mt-color-line-gray);
     border-radius: 8px;
   }

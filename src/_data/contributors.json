@@ -547,6 +547,7 @@
     "avatar": "andre-wiggins.jpg",
     "what": "Web Developer",
     "links": {
+      "bluesky": "https://bsky.app/profile/drewigg.bsky.social",
       "mastodon": "https://infosec.exchange/@drewigg",
       "x": "https://twitter.com/andre_wiggins"
     }

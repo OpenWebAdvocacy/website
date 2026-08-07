@@ -425,7 +425,8 @@
     "what": "Core Team, <a href='https://nuxtjs.org'>Nuxt</a>",
     "links": {
       "website": "https://roe.dev",
-      "x": "https://twitter.com/danielcroe"
+      "mastodon": "https://mastodon.roe.dev/@daniel",
+      "bluesky": "https://bsky.app/profile/danielroe.dev"
     }
   },
   {

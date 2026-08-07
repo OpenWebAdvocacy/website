@@ -497,6 +497,7 @@
     "avatar": "dan-shappir.jpg",
     "what": "W3C Invited Expert, Performance Expert, Host of Javascript Jabber",
     "links": {
+      "bluesky": "https://bsky.app/profile/danshappir.bsky.social",
       "mastodon": "https://webperf.social/@DanShappir",
       "x": "https://twitter.com/DanShappir"
     }

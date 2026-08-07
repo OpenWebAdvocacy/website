@@ -484,6 +484,7 @@
     "avatar": "isaac-z-schlueter.jpg",
     "what": "NPM Inventor",
     "links": {
+      "bluesky": "https://bsky.app/profile/isaacs.bsky.social",
       "mastodon": "https://fosstodon.org/@isaacs",
       "github": "https://github.com/isaacs"
     }

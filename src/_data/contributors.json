@@ -389,6 +389,7 @@
     "avatar": "thomas-powell.jpg",
     "what": "Lecturer of Computer Science at UCSD, <a href='https://pint.com'>pint.com</a> Founder, and creator of <a href='https://zingchart.com'>ZingChart</a> and <a href='https://zinggrid.com'>ZingGrid</a>.",
     "links": {
+      "bluesky": "https://bsky.app/profile/tpowell.bsky.social",
       "mastodon": "https://fosstodon.org/@thomasapowell"
     }
   },

@@ -1,5 +1,5 @@
 ---
-title: 'Bruce Lawson Interviews OWA: For A Better Web'
+title: 'ブルース・ローソンがOWAにインタビュー：より良いウェブのために'
 date: '2026-07-31'
 tags:
   - Policy
@@ -13,19 +13,18 @@ tags:
 author: OWA
 permalink: /ja/blog/bruce-lawson-interviews-owa--for-a-better-web/index.html
 layout: layouts/post.njk
-translated: false
 ---
 
-Check out Bruce Lawson’s interview with Alex Moore, executive director and co-founder of Open Web Advocacy. They run through the history of OWA, why OWA exists and what OWA fights for.
+Open Web Advocacy（OWA）のエグゼクティブ・ディレクター兼共同創設者であるアレックス・ムーア（Alex Moore）への、ブルース・ローソン（Bruce Lawson）のインタビューをご覧ください。OWAの歴史から、なぜ組織が存在するのか、そして彼らが何のために戦っているのかについて詳しく語られています。
 
 https://www.youtube.com/watch?v=U-qAoGisVRE\&list=PL72e6dBabYNUluI-D22vWhe_8Vu0qD3Zj
 
-> **Bruce**: So tell me, what is Open Web Advocacy and what is your fight?<br><br>
-> **Alex**: So Open Web Advocacy is a non-profit, which is a fair competition for browsers, browser engines and web apps. **Our primary goal is to get the web to be able to compete on mobile devices.** I think if we look at the statistics now, the mobile web, even though on desktop, the web is extremely competitive. And **by many stats is over 60% usage of all software on desktop. On mobile devices, it’s very small.** Some quotes, **even sub 13%.** We think that’s down to a bunch of anti-competitive issues. Basically, **we formed Open Web Advocacy to fight those issues and to try and bring the web back to mobile.** [...]<br><br>
-> **Alex**: 10 years of underinvestment later, and then now the gap is so big, and there’s no competition. There’s no viable web apps on iOS. It’s just so you suddenly realize just how critical competition is.<br><br>
-> **Bruce**: Okay, but devil’s advocate here. Apple iPhones are what, 10% of the world’s phones. 90% are Android. I mean, give or take, but the lion’s share of the phones in the world are Android. **So why should anybody care what Apple does? Why was what Apple doing affecting the whole industry?**<br><br>
-> **Alex**: Yeah, I think one of the things is iPhone utilization is very different country by country. In fact, for example, like **in Australia, I think iPhones are actually over 50% usage. Same in Japan. Japan is a very iPhone-heavy country**. What you’ll find is the wealthier the country, the more iPhones there are. The other problem is the **rich customers are almost overwhelmingly pushed towards iOS, and that also shows up in what their expenditure is**, and what they’re willing to spend on products and software.<br><br>
-> And then the thing is, the market that we need to look at is, although we’re really focused on consumers, **the market we need to look at is businesses**. The thing is, if you’re a software company and you’re developing a piece of software for a client, or even if you’re producing software for your company, it’s very likely your boss is going to have an iPhone. And if not, he’s still **going to want to target those customers first**. And if you’re coming to your boss and you say, look, and you’re trying to come up with the pros and cons for building a web app, versus the pros and cons of building a native app, **if you come to the conclusion that’s not going to work properly on an iPhone**, then they’re going to go to it, **they’re just going to build a native app. And then if they build a native app on iOS**, it’s kind of like, well, Do we build a web app on Android?
-> <cite>[Alex Moore and Bruce Lawson](https://www.youtube.com/watch?v=U-qAoGisVRE&list=PL72e6dBabYNUluI-D22vWhe_8Vu0qD3Zj)<br>(emphasis added)</cite>
+> **ブルース**： 教えてください。Open Web Advocacy（OWA）とは何で、何のために戦っているんですか？<br><br>
+> **アレックス**： OWAは、ブラウザやブラウザ・エンジン、そしてウェブアプリが公正に競争できるための非営利団体です。**私たちの主な目標は、モバイルデバイス上でもウェブが競争力を維持できるようにすることです**。現在の統計を見ると、デスクトップ環境ではウェブは極めて競争的です。**多くの統計が示す通り、デスクトップにおける全ソフトウェアの利用の60%以上はウェブを活用しています。しかし、モバイルデバイス上ではその割合は非常に小さく**、統計によっては**13%にも満たない**ものもあります。私たちは、その根本的な原因には一連の「反競争的な問題」があると考えています。要するに、**そうした問題と戦い、モバイルの世界にウェブを取り戻そうとOWAを設立したのです**。（…）<br><br>
+> **アレックス**： 10年間に及ぶ投資抑制の結果、今ではその格差はあまりに大きく、競争は存在さえしません。iOS上には、実用的なウェブアプリが存在しないのです。競争がいかに極めて重要であるか、このことがそれを物語っています。<br><br>
+> **ブルース**： なるほど。ですが、ここで議論を深めるために、あえて反論させてください。AppleのiPhoneは、世界中の携帯電話の10%程度ですよね？残りの90%はAndroidです。つまり、世界中の携帯電話の大部分を占めているのはAndroidなのです。**それなのに、なぜ人々はAppleの動向を気にかける必要があるのでしょうか？なぜAppleの振る舞いが、業界全体に影響を与えることになるのですか？**<br><br>
+> **アレックス**： ええ。まず、iPhoneの普及率は国によって大きく異なります。例えば**オーストラリアでは、iPhoneの利用率は50%を超えています。日本も同じです。日本は非常にiPhoneの普及率が高い国です**。実情として、国が豊かであればあるほど、iPhoneの普及率は高くなります。もう一つの問題は、**購買力の高い層が圧倒的にiOSへと流れていることです。それは彼らの支出額**や、製品やソフトウェアに対してどれだけの購買意欲を持っているか、という点**にも表れています**。<br><br>
+> そして重要なのは、私たちが注目すべき市場は――私たちは消費者のことを非常に大切に考えていますが――**私たちが直視すべき市場は「ビジネス」だということです**。もしあなたがソフトウェア会社で、クライアントのため、あるいは自社のためにソフトウェアを開発しているとしましょう。その場合、あなたの上司がiPhoneを持っている可能性は非常に高いですし、たとえそうではなくても、上司は**iPhoneユーザーである顧客を第一にターゲットにしたいと考えるでしょう**。もしあなたが、ウェブアプリとネイティブアプリのそれぞれについて開発する場合のメリット・デメリットを比較検討し、**「これはiPhoneではうまく機能しない」という結論に至ったとすれば、上司は「じゃあ、ネイティブアプリを作ろう」と言うはずです**。そして、もしiOS向けにネイティブアプリを作るとなれば、果たして「じゃあAndroidではウェブアプリを作ろう」なんてことがあり得るでしょうか？
+> <cite>[Alex Moore and Bruce Lawson](https://www.youtube.com/watch?v=U-qAoGisVRE&list=PL72e6dBabYNUluI-D22vWhe_8Vu0qD3Zj)<br>（強調は引用者による）</cite>
 
-Be sure to [check out the full interview](https://www.youtube.com/watch?v=U-qAoGisVRE&list=PL72e6dBabYNUluI-D22vWhe_8Vu0qD3Zj). [Transcript available here](https://vivaldi.com/blog/alex-moore-open-web-advocacy-for-a-better-web/).
+ぜひ[完全版のインタビューを聞いてください](https://www.youtube.com/watch?v=U-qAoGisVRE&list=PL72e6dBabYNUluI-D22vWhe_8Vu0qD3Zj)。こちらから[書き起こし](https://vivaldi.com/blog/alex-moore-open-web-advocacy-for-a-better-web/)も利用できます。

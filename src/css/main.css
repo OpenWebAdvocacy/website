@@ -1985,7 +1985,10 @@ header:not(.home-header) p:has(button.language-picker) {
     margin-top: 0.5rem;
 
     & button {
-      all: unset;
+      display: inline-block;
+      margin: 0;
+      line-height: inherit;
+      text-decoration: none;
       cursor: pointer;
       font-size: 0.85em;
       font-weight: var(--font-weight-bold);
@@ -1994,6 +1997,11 @@ header:not(.home-header) p:has(button.language-picker) {
       color: var(--n-dark);
       background: var(--body-bg);
       text-transform: lowercase;
+    }
+
+    & button:focus {
+      outline: 2px dashed var(--n-dark);
+      outline-offset: 0.15rem;
     }
 
     & button[aria-selected="true"] {

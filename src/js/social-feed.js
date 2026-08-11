@@ -1,5 +1,4 @@
 import { Init as MastodonInit } from '@idotj/mastodon-embed-timeline';
-import 'bluesky-profile-feed-embed';
 
 (() => {
   new MastodonInit({
@@ -18,6 +17,10 @@ import 'bluesky-profile-feed-embed';
 
   const panels = document.querySelector('.panels');
   if (!panels) return;
+
+  tablist
+    .querySelector('[data-social-tab="bluesky"]')
+    .addEventListener('click', () => import('bluesky-profile-feed-embed'), { once: true });
 
   for (const tab of tablist.children) {
     tab.addEventListener('click', () => {

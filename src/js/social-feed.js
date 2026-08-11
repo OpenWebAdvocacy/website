@@ -11,16 +11,13 @@ import { Init as MastodonInit } from '@idotj/mastodon-embed-timeline';
     hideReblog: true,
     insistSearchContainer: true,
   });
+  import('bluesky-profile-feed-embed');
 
   const tablist = document.querySelector('[role="tablist"]');
   if (!tablist) return;
 
   const panels = document.querySelector('.panels');
   if (!panels) return;
-
-  tablist
-    .querySelector('[data-social-tab="bluesky"]')
-    .addEventListener('click', () => import('bluesky-profile-feed-embed'), { once: true });
 
   for (const tab of tablist.children) {
     tab.addEventListener('click', () => {

@@ -10,6 +10,8 @@ import { Init as MastodonInit } from '@idotj/mastodon-embed-timeline';
     hideReplies: true,
     hideReblog: true,
     insistSearchContainer: true,
+    maxNbPostFetch: 5,
+    maxNbPostShow: 5,
   });
   import('bluesky-profile-feed-embed');
 

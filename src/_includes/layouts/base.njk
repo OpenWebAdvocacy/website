@@ -40,7 +40,7 @@
     </script>
     {# Javascript #}
     <script type="module" src="/js/language-picker.js?{{ assetHash }}"></script>
-    <script src="/js/social-feed.js?{{ assetHash }}" type="module"></script>
+    <script src="/js/social-feed.js?{{ assetHash }}" type="module" fetchpriority="low"></script>
     {# Javascript - Add facility for pages to delare an array of non-critical javascript #}
     {% if pageNonCriticalScripts %}
       {% for item in pageNonCriticalScripts %}

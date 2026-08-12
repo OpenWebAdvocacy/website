@@ -51,9 +51,6 @@
     <style>{% cssInline '/css/vars.css' %}</style>
     <style>{% cssInline '/css/main.css' %}</style>
     <style>{% cssInline '/css/queries.css' %}</style>
-    <link rel="stylesheet" href="/css/vendor/mastodon-timeline.min.css" />
-    <link rel="stylesheet" href="/css/vendor/bluesky-profile-feed-embed.css" />
-    <link rel="stylesheet" href="/css/vendor/themes/light.css" />
     {# Stylesheets - Add facility for pages to delare an array of critical styles #}
     {% if pageCriticalStyles %}
       {% for item in pageCriticalStyles %}
@@ -66,6 +63,9 @@
         <link rel="preload" as="style" href="{{ item }}?{{ assetHash }}" fetchpriority="low" onload="this.rel='stylesheet';" />
       {% endfor %}
     {% endif %}
+    <link rel="preload" as="style" href="/css/vendor/mastodon-timeline.min.css" fetchpriority="low" onload="this.rel='stylesheet';" />
+    <link rel="preload" as="style" href="/css/vendor/bluesky-profile-feed-embed.css" fetchpriority="low" onload="this.rel='stylesheet';" />
+    <link rel="preload" as="style" href="/css/vendor/themes/light.css" fetchpriority="low" onload="this.rel='stylesheet';" />
   </head>
   <body>
     {% if isHome %}

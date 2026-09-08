@@ -15,6 +15,13 @@ const REGEX_HREF_EXTERNAL = /^(https|http|):\/\//;
 const REGEX_IS_SVG = /\.svg$/;
 const REGEX_YOUTUBE_EMBED_ID = /(?:youtu\.be|youtube\.com\/embed)\/([^/?\s]+)/ig;
 
+// Mirrors the markdown-it-anchor config in .eleventy.js (permalink.ariaHidden, symbol '#')
+// so glossary terms get the same linkable "#" anchors as headings, despite the
+// glossary pages being plain HTML rather than markdown.
+const GLOSSARY_ANCHOR_SELECTOR = 'dl.glossary dt[id]';
+const GLOSSARY_ANCHOR_CLASS = 'header-anchor';
+const GLOSSARY_ANCHOR_SYMBOL = '#';
+
 const JSDOM_ERRORS_IGNORES = [
   'css parsing',
 ];
@@ -49,6 +56,9 @@ function htmlTransform( _options={} ) {
         inlineSvg: true,
         inlineSvgMaxSize: 8,
         setWidthHeight: true,
+      },
+      glossary: {
+        addAnchors: true,
       },
     },
     _options
@@ -170,6 +180,34 @@ function htmlTransform( _options={} ) {
       }
 
     });
+
+    // Glossary terms: add a linkable "#" anchor to each <dt id="…">,
+    // matching the markdown-it-anchor output used for headings on blog posts and other md pages.
+    if ( options.glossary?.addAnchors ) {
+      const terms = [ ...docElem.querySelectorAll( GLOSSARY_ANCHOR_SELECTOR ) ];
+      terms.forEach( element => {
+
+        // Skip if an anchor has already been added (eg re-run, or hand-authored)
+        if ( element.querySelector(`a.${ GLOSSARY_ANCHOR_CLASS }`) ) return;
+
+        const id = element.getAttribute('id');
+        options.debug && console.log(` -> Glossary - Add anchor: ${ id }`)
+
+        _setAttrs( element, { tabindex: '-1' } );
+
+        const anchor = document.createElement('a');
+        _setAttrs( anchor, {
+          class: GLOSSARY_ANCHOR_CLASS,
+          href: `#${ id }`,
+          'aria-hidden': 'true',
+        });
+        anchor.textContent = GLOSSARY_ANCHOR_SYMBOL;
+
+        const firstChild = element.firstChild;
+        element.insertBefore( anchor, firstChild );
+        element.insertBefore( document.createTextNode(' '), firstChild );
+      });
+    }
 
     return jsdom.serialize();
 

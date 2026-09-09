@@ -1969,9 +1969,216 @@ header:not(.home-header) p:has(button.language-picker) {
   }
 }
 
+/* social feed */
+.social-feed {
+  --flow-space: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--n-dark);
 
+  & h3 {
+    text-transform: initial;
+  }
 
+  & nav {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
 
+    & button {
+      display: inline-block;
+      margin: 0;
+      line-height: inherit;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 0.85em;
+      font-weight: var(--font-weight-bold);
+      padding: 0.3em 0.8em;
+      border-radius: 2em;
+      color: var(--n-dark);
+      background: var(--body-bg);
+      text-transform: lowercase;
+    }
+
+    & button:focus {
+      outline: 2px dashed var(--n-dark);
+      outline-offset: 0.15rem;
+    }
+
+    & button[aria-selected="true"] {
+      color: var(--text-inv);
+      background: var(--n-dark);
+    }
+  }
+
+  & .panels {
+    margin-top: 1rem;
+  }
+
+  & .bluesky-embed {
+    & .display-name-wrapper {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    & .meta {
+      flex-direction: column;
+      align-items: start;
+
+      & .name-wrapper {
+        flex-direction: column;
+        gap: 0 4px;
+      }
+
+      & .dot {
+        display: none;
+      }
+    }
+  }
+
+  & .mt-container {
+    height: 600px;
+    border: 1px solid var(--mt-color-line-gray);
+    border-radius: 8px;
+    contain: strict;
+  }
+
+  & .mt-body {
+    padding: 0;
+  }
+
+  & .mt-post {
+    padding: 0 16px 0 64px;
+    margin: 0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  & .mt-post-header {
+    display: block;
+    margin: 0;
+  }
+
+  & .mt-post-avatar {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+  }
+
+  & .mt-post-avatar-image-big img {
+    border-radius: 9999px;
+    object-fit: cover;
+  }
+
+  & .mt-post-header-user {
+    display: inline;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  & .mt-post-header-user-name {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  & .mt-post-header-user-account {
+    display: inline;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  & .mt-post-header-date {
+    display: inline;
+    margin: 0;
+    font-size: 14px;
+    color: var(--mt-color-contrast-gray, #455668);
+    white-space: nowrap;
+
+    &::before {
+      content: '·';
+      margin: 0 6px;
+      color: var(--mt-color-contrast-gray, #455668);
+    }
+  }
+
+  & .mt-post-txt {
+    margin: 0 0 2px;
+    font-size: 14px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+
+  & .mt-post-preview {
+    display: block;
+    margin: 12px 0;
+    border-radius: 6px;
+  }
+
+  & .mt-post-preview-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1.91;
+    object-fit: cover;
+    border-bottom: 1px solid var(--mt-color-line-gray, #d4dbe2);
+  }
+
+  & .mt-post-preview-content {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+  }
+
+  & .mt-post-preview-provider {
+    display: block;
+    margin: 0;
+    font-size: 11px;
+    color: var(--mt-color-contrast-gray, #455668);
+  }
+
+  & .mt-post-preview-title {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  & .mt-post-preview-description {
+    margin: 0;
+    overflow: hidden;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  & .mt-post-counter-bar {
+    align-items: center;
+    gap: 16px;
+    margin: 12px 0;
+    justify-content: normal;
+    font-size: 13px;
+  }
+
+  & .mt-post-counter-bar-replies,
+  & .mt-post-counter-bar-reblog,
+  & .mt-post-counter-bar-favorites {
+    gap: 8px;
+    margin: 0;
+  }
+
+}
 
 /* ---------------------- PLUGINS ------------------------ */
 

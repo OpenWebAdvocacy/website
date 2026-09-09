@@ -1209,7 +1209,7 @@ div.prom-banner div.donation-details div {
   margin-bottom: 0rem;
 }
 
-div.prom-banner div.donation-details table, th, td {
+div.prom-banner div.donation-details :is(table, th, td) {
   border: none;
   padding: 0;
   margin: 0;
@@ -1226,7 +1226,7 @@ div.prom-banner div.donation-details table {
   border-spacing: 0;
 }
 
-div.prom-banner div.donation-details th, td {
+div.prom-banner div.donation-details :is(th, td) {
   font-weight: var(--font-weight-regular);
 }
 

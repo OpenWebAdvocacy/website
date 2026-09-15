@@ -7,6 +7,23 @@
   {% set postListItems = collections[tag] | reverse | localePostsFilter(page.lang) %}
   {% set content = languages_base[page.lang] %}
   {% set title = content.tagPageTitle1 + (languages_base[page.lang].tags[tag] or tag) + content.tagPageTitle2 %}
+
+  {# Build a short, localised description from the five most recent articles. #}
+  {% if postListItems[0] %}
+    {% set metaDesc = postListItems[0].data.title | firstParagraph(28) %}
+    {% if postListItems[1] %}
+      {% set metaDesc = metaDesc + ' | ' + (postListItems[1].data.title | firstParagraph(28)) %}
+    {% endif %}
+    {% if postListItems[2] %}
+      {% set metaDesc = metaDesc + ' | ' + (postListItems[2].data.title | firstParagraph(28)) %}
+    {% endif %}
+    {% if postListItems[3] %}
+      {% set metaDesc = metaDesc + ' | ' + (postListItems[3].data.title | firstParagraph(28)) %}
+    {% endif %}
+    {% if postListItems[4] %}
+      {% set metaDesc = metaDesc + ' | ' + (postListItems[4].data.title | firstParagraph(28)) %}
+    {% endif %}
+  {% endif %}
 {% endif %}
 
 {% block content %}

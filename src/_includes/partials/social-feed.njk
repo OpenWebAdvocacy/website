@@ -1,0 +1,54 @@
+<div class="social-feed" data-social-feed>
+  <h3>social feed</h3>
+  <nav role="tablist">
+    <button
+      role="tab"
+      aria-selected="true"
+      aria-controls="social-feed-mastodon"
+      id="social-tab-mastodon"
+      data-social-tab="mastodon"
+    >
+      mastodon
+    </button>
+    <button
+      role="tab"
+      aria-selected="false"
+      aria-controls="social-feed-bluesky"
+      id="social-tab-bluesky"
+      data-social-tab="bluesky"
+    >
+      bluesky
+    </button>
+  </nav>
+  <div class="panels">
+    <div
+      role="tabpanel"
+      id="social-feed-mastodon"
+      aria-labelledby="social-tab-mastodon"
+      data-social-panel="mastodon"
+    >
+      <div id="mt-container" class="mt-container">
+        <div class="mt-body" role="feed">
+          <div class="mt-loading-spinner"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      role="tabpanel"
+      id="social-feed-bluesky"
+      aria-labelledby="social-tab-bluesky"
+      data-social-panel="bluesky"
+      hidden
+    >
+      <bluesky-profile-feed actor="open-web-advocacy.org">
+        <a
+          target="_blank"
+          href="https://bsky.app/profile/open-web-advocacy.org"
+          class="bluesky-profile-feed-fallback"
+        >
+          Posts by Open Web Advocacy (@open-web-advocacy.org)
+        </a>
+      </bluesky-profile-feed>
+    </div>
+  </div>
+</div>

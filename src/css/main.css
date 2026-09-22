@@ -1970,6 +1970,171 @@ header:not(.home-header) p:has(button.language-picker) {
 }
 
 
+/* ----------------- SPEAKER ---------------------------- */
+.talk-card {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem 0;
+  padding: 2rem;
+
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 18px;
+
+  box-sizing: border-box;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.talk-title {
+  margin: 0 0 1.75rem;
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.speaker-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.speaker-photo {
+  width: 200px;
+  height: 200px;
+
+  object-fit: cover;
+  border-radius: 16px;
+
+  flex-shrink: 0;
+}
+
+.speaker-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  min-width: 0;
+}
+
+.speaker-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.speaker-name:hover {
+  text-decoration: underline;
+}
+
+.speaker-role {
+  font-size: 1.05rem;
+  line-height: 1.4;
+
+  color: #666;
+}
+
+.talk-description {
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.talk-description p {
+  margin: 0 0 1rem;
+}
+
+.talk-description p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Tablet / smaller screens */
+
+@media (max-width: 800px) {
+  .talk-card {
+    padding: 1.5rem;
+  }
+
+  .talk-title {
+    font-size: 1.75rem;
+  }
+
+  .speaker-photo {
+    width: 160px;
+    height: 160px;
+  }
+
+  .speaker-name {
+    font-size: 1.35rem;
+  }
+
+  .speaker-role {
+    font-size: 1rem;
+  }
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .talk-card {
+    margin: 1.5rem 0;
+    padding: 1.25rem;
+
+    border-radius: 14px;
+  }
+
+  .talk-title {
+    margin-bottom: 1.25rem;
+
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .speaker-row {
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .speaker-photo {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 12px;
+  }
+
+  .speaker-name {
+    font-size: 1.2rem;
+  }
+
+  .speaker-role {
+    font-size: 0.95rem;
+  }
+
+  .talk-description {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+}
+
+
+/* Very small phones */
+
+@media (max-width: 420px) {
+  .speaker-row {
+    flex-direction: column;
+  }
+
+  .speaker-photo {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+}
 
 
 

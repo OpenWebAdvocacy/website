@@ -18,6 +18,38 @@ Everyone is welcome, but places are limited, so [please book in advance](https:/
 
 <article class="talk-card">
   <h2 class="talk-title">
+    MC
+  </h2>
+
+  <div class="speaker-row">
+    <img
+      class="speaker-photo"
+      src="/images/blog/bruce-lawson.jpg"
+      alt="Bruce Lawson"
+      width="200"
+      height="200"
+      loading="eager"
+    />
+
+    <div class="speaker-details">
+      <div class="speaker-name">
+        [Bruce Lawson](https://brucelawson.co.uk/)
+      </div>
+      <div class="speaker-role">
+        Vivaldi - Technical Communications Officer
+      </div>
+    </div>
+  </div>
+
+  <div class="talk-description">
+    <p>
+      The talks will be MC'ed by the delightful Bruce Lawson.
+    </p>
+  </div>
+</article>
+
+<article class="talk-card">
+  <h2 class="talk-title">
     When Are Third-Party Browser Engines Coming to iOS?
     & Fixing the Mobile Web App Ecosystem
   </h2>

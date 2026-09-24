@@ -179,7 +179,7 @@ Everyone is welcome, but places are limited, so [please book in advance](https:/
   <div class="speaker-row">
     <img
       class="speaker-photo"
-      src="/images/blog/kush.jpg"
+      src="/images/blog/kush2.png"
       alt="Kush Amlani"
       width="200"
       height="200"
@@ -201,7 +201,7 @@ Everyone is welcome, but places are limited, so [please book in advance](https:/
 
   <div class="talk-description">
     <p>
-      What regulators can do to create a more competitive browser market!
+      Stitching together the global picture of regulation and litigation: as many countries raise concerns about competition in digital markets, regulatory opportunities arise for better interoperability for developers and choice for users. What does this mean for browsers and browser engine competition?
     </p>
   </div>
 </article>

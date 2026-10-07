@@ -15,6 +15,14 @@
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
 
+{# English pages don't have language prefixes, except for the homepage, where /en/ is an alias of /.
+  This ensures that both English homepage's canonical URL is set to the de-languaged one (/). #}
+{% if page.url.startsWith('/en/') %}
+  {% set canonicalUrl = site.url + (page.url | removeLanguageCode(languages_base.supported)) %}
+{% else %}
+  {% set canonicalUrl = currentUrl %}
+{% endif %}
+
 {# If the page’s frontmatter has specific metaTitle and/or metaDesc items, switch
   them into the mix #}
 {% if metaTitle %}
@@ -26,7 +34,7 @@
 {% endif %}
 
 <title>{{ pageTitle }}</title>
-<link rel="canonical" href="{{ currentUrl }}" />
+<link rel="canonical" href="{{ canonicalUrl }}" />
 
 <meta name="generator" content="{{ eleventy.generator }}">
 

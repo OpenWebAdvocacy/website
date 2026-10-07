@@ -24,9 +24,6 @@
     {% for language in languages %}
       <link rel="alternate" hreflang="{{ language.code }}" href="{{ site.url }}{{ page.url | locale_url(language.code) }}" />
     {% endfor %}
-    {% if '/en/' in page.url  %}
-      <link rel="canonical" href="{{ site.url }}{{ page.url | removeLanguageCode(languages) }}"/>
-    {% endif %}
     {# Javascript #}
     <script type="module" src="/js/language-picker.js?{{ assetHash }}"></script>
     {# Javascript - Add facility for pages to delare an array of non-critical javascript #}

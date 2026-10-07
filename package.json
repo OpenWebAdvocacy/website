@@ -5,7 +5,7 @@
   "main": ".eleventy.js",
   "type": "module",
   "scripts": {
-    "clean": "rm -rf ./dist/*",
+    "clean": "npx rimraf ./dist",
     "serve": "npm run start",
     "start": "npx @11ty/eleventy --serve --quiet",
     "generate": "node generate-language-files.js",

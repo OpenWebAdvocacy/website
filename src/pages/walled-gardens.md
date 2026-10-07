@@ -1109,7 +1109,7 @@ Here are some extracts from the survey:
 > Safari is the main problem
 
 <div class="collapser">
-  <button class="action-button">Show more comments</button>
+  <button type="button" class="action-button">Show more comments</button>
   <div class="collapsed">
 
 > Full screen height is a pain to work with in Safari
@@ -1393,7 +1393,7 @@ Extracted from the site are some quotes:
 > <cite>[Shaun Bliss (1 year ago)](https://www.change.org/p/tim-cook-apple-inc-implement-web-push-notifications-on-ios-devices) <br />(emphasis added)</cite>
 
 <div class="collapser">
-  <button class="action-button">Show more comments</button>
+  <button type="button" class="action-button">Show more comments</button>
   <div class="collapsed">
 
 > Need it! **Soon**!!
@@ -1641,7 +1641,7 @@ Those kind of systems must be more agnostic.
 > <cite>[Tom Bielecki (May 1, 2016)](https://twitter.com/tombielecki/status/726560977823526912?s=20&t=Pjt8d3GlAJzYPgdlQPbp5A) <br />(emphasis added)</cite>
 
 <div class="collapser">
-  <button class="action-button">Show more comments</button>
+  <button type="button" class="action-button">Show more comments</button>
   <div class="collapsed">
 
 > A number of issues C3 has in "Add to home screen" mode on iOS are Safari bugs. We report them **but Apple are very slow and opaque in dealing with them**. For example switching between Safari and web app loses all storage: [https://bugs.webkit.org/show_bug.cgi?id=181849](https://bugs.webkit.org/show_bug.cgi?id=181849)

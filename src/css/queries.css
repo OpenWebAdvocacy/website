@@ -177,9 +177,7 @@
     max-width: 328px;
     flex: 0 0 30%;
   }
-}
 
-@media screen and (min-width: 1000px) {
   div.highlight {
     position: relative;
     padding: 1.8rem 2rem 2rem;

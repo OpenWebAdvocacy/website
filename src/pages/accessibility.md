@@ -5,7 +5,7 @@ metaDesc: 'Learn about the accessibility of the Open Web Advocacy website.'
 layout: 'layouts/page.njk'
 ---
 
-The Open Web Advocacy is committed to ensuring digital accessibility for people with disabilities.
+Open Web Advocacy is committed to ensuring digital accessibility for people with disabilities.
 We are applying the relevant accessibility standards, and we will do our best to continually improve the user experience
 for everyone.
 

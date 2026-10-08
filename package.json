@@ -11,6 +11,7 @@
     "generate": "node generate-language-files.js",
     "build": "npm run production",
     "production": "npm run generate && NODE_ENV=production npx @11ty/eleventy",
+    "serve:production": "npm run build && npx --yes http-server dist -p 8080 -c-1",
     "updates": "npx npm-check-updates -i --format group",
     "test": "npx playwright test",
     "test:ui": "npx playwright test --ui",

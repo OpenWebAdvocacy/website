@@ -1,4 +1,5 @@
 {% set content = languages_base[page.lang] %}
+{% set homeUrl = '/' if page.lang == 'en' else '/' + page.lang + '/' %}
 <p class="skiplink">
   <a class="[ skip-link ] [ button ]" href="#main-home">{{ content.skipLinkText }}</a>
 </p>
@@ -15,7 +16,7 @@
     <ul class="nav__list">
       {% for item in navigation[page.lang].primary %}
         <li>
-          <a href="{{ item.url | locale_url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+          <a href="{{ homeUrl if item.url == '/' else (item.url | locale_url) }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
             {{ item.text }}</a>
         </li>
       {% endfor %}

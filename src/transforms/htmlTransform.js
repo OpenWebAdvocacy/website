@@ -29,7 +29,7 @@ const JSDOM_ERRORS_IGNORES = [
 const cache = new Map();
 
 const virtualConsole = new VirtualConsole();
-virtualConsole.forwardTo( console, { omitJSDOMErrors: true } );
+virtualConsole.forwardTo( console, { jsdomErrors: 'none' } );
 virtualConsole.on( 'jsdomError', error => {
   if ( JSDOM_ERRORS_IGNORES.includes( error.type ) ) return false;
   console.error( error );

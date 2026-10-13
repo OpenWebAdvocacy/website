@@ -27,7 +27,7 @@
       },
       {
         "text": "Donate",
-        "url": "/donate"
+        "url": "/donate/"
       }
     ],
     "secondary": [
@@ -85,7 +85,7 @@
       },
       {
         "text": "Donaciones",
-        "url": "/donate"
+        "url": "/donate/"
       }
     ],
     "secondary": [
@@ -143,7 +143,7 @@
       },
       {
         "text": "寄付",
-        "url": "/donate"
+        "url": "/donate/"
       }
     ],
     "secondary": [

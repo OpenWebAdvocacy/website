@@ -1,6 +1,6 @@
 {% set content = languages_base[page.lang] %}
 
-{% if not permalink.includes('/owa-promotional/') %}
+{% if page.url != ('/owa-promotional/' | locale_url) %}
   <div class="promo">
     <p class="illustration">
       <img src="/images/prom-gallery/sticker-applebrowserban-03.svg" loading="lazy" alt="Example of sticker" />

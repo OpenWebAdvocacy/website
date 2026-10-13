@@ -114,7 +114,7 @@ Our interest in this case is driven by concern over the potential unintended con
 
 <details>
 <summary>Table of Contents</summary>
-<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web"><strong>1. Introduction</strong></a></p>
+<p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/"><strong>1. Introduction</strong></a></p>
 
 <p><a href="/blog/break-googles-search-monopoly-without-breaking-the-web/#about-open-web-advocacy"><strong>2. About Open Web Advocacy</strong></a></p>
 

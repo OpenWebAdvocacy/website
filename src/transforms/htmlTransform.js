@@ -23,7 +23,7 @@ const GLOSSARY_ANCHOR_CLASS = 'header-anchor';
 const GLOSSARY_ANCHOR_SYMBOL = '#';
 
 const JSDOM_ERRORS_IGNORES = [
-  'css parsing',
+  'css-parsing',
 ];
 
 const cache = new Map();

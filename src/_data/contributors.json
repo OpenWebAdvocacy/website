@@ -256,6 +256,20 @@
     }
   },
   {
+    "name": "Felix Krause",
+    "countries": [
+      "Austria🇦🇹"
+    ],
+    "avatar": "felix-krause.jpg",
+    "what": "iOS Privacy & Security Researcher, Creator of <a href='https://github.com/fastlane/fastlane'>fastlane</a>",
+    "links": {
+      "website": "https://krausefx.com/about",
+      "x": "https://x.com/KrauseFx",
+      "github": "https://github.com/KrauseFx",
+      "linkedin": "https://www.linkedin.com/in/krausefx"
+    }
+  },
+  {
     "name": "Chris Lacy",
     "countries": [
       "Australia🇦🇺"

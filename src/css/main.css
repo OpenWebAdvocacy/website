@@ -160,8 +160,6 @@ dl {
   max-width: 70ch;
 }
 
-dl {}
-
 dt {
   font-weight: var(--font-weight-bold);
   margin-top: var(--flow-space);
@@ -174,7 +172,6 @@ li+li {
 blockquote {
   --flow-space: 3rem;
   position: relative;
-  max-width: 25em;
   max-width: 40ch;
   font-style: italic;
   font-size: 1.25rem;
@@ -1475,7 +1472,7 @@ p.download {
   border-bottom: 2px solid var(--main-color);
 }
 
-/* Collapser, see js/pages/collapser.js */
+/* Collapser, see js/papers/collapser.js */
 .collapser {
   contain: content;
   margin-top: 0;

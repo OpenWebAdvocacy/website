@@ -26,7 +26,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.1.7",
     "@11ty/eleventy-cache-assets": "^2.3.0",
-    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-img": "^7.0.0",
     "@11ty/eleventy-plugin-rss": "^3.1.0",
     "@sardine/eleventy-plugin-external-links": "^1.4.0",
     "clean-css": "^5.3.3",

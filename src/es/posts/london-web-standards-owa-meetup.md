@@ -154,7 +154,7 @@ Everyone is welcome, but places are limited, so [please book in advance](https:/
   <div class="speaker-row">
     <img
       class="speaker-photo"
-      src="/images/blog/kush.jpg"
+      src="/images/blog/kush2.png"
       alt="Kush Amlani"
       width="200"
       height="200"

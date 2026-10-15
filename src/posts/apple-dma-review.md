@@ -453,4 +453,4 @@ relatedLinks:
 </p>
 
 
-<p>That was the introduction to our report. You can read the <a href="/apple-dma-review/#h.3znysh7">full far more detailed report here.<a></p>
+<p>That was the introduction to our report. You can read the <a href="/apple-dma-review/#review">full far more detailed report here.</a></p>

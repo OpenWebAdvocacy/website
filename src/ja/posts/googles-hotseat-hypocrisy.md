@@ -23,19 +23,15 @@ Multiple browser vendors on Android and [BEUC](https://en.wikipedia.org/wiki/Eur
 
 > Alphabet is undermining the browser choice screen if it leaves Chrome in the dock after a user has chosen an alternative browser. The choice the user makes should apply throughout the device and that means it should be the only browser you see in the dock and on the Home Screen.
 > <cite><strong>Sébastien Pant - The European Consumer Organisation (BEUC)</strong></cite>
-</cite>  
 
 > Automatically placing the user's chosen default browser on the dock considerably improved our app's retention on iOS. The same change is likely to cause the same effect on Android, and we see no reason why Android should apply the same obligation differently.  
 > <cite><strong>Aurélien Mähl - DuckDuckGo - Lead Public Policy Manager</strong></cite>
-</cite>  
 
 > The hotseat is a place for the user's most important apps. It's confusing for users who choose Vivaldi as their default to continue to see Chrome in the hotseat when they've clearly expressed their preference and switched away. It's obviously designed to steer users back to the gatekeeper's own browser.
 > <cite><strong>Bruce Lawson - Vivaldi - Technical Communications Officer</strong></cite>
-</cite>  
 
 > Ecosia has evidence to believe that 50% of users who select an alternative browser in the choice screen do not even open it. They stick with what is easily accessible. "Default" is not just a technical concept. Above all, it refers to the default positions in the User Interface, especially the “hot seat”.
 > <cite><strong>Dr. Wolfgang Oels - Ecosia - Chief Operating Officer</strong></cite>
-</cite>
 
 > We're disappointed that Google continues to undermine the DMA, which aims to preserve personal choice and market competition. Instead of following the plain intent in the DMA, which aims to make it easy for Android users to use whatever browser they prefer, Google is cynically "playing dumb", and professing narrow, absurd interpretations of the DMA's plain meaning and goal.<br><br>
 > If an Android user chooses Brave (or any other browser) to be their "default" browser, that user is (obviously) expressing the desire for Brave to be the primary, easy to access Web browser on the device. That means placing Brave in the "hotseat" just as much as making Brave the browser used to open websites on the device. We hope Google will stop dragging their feet, stop trying to undermine the DMA, and start respecting Android users' preferences, no matter the cost to Google's monopoly business interests.
@@ -44,7 +40,6 @@ Multiple browser vendors on Android and [BEUC](https://en.wikipedia.org/wiki/Eur
 > Some elements of the browser choice screen implementation remain lacking on Android. When a user selects Firefox as their default browser in the choice screen, it does not replace Chrome on the homepage (or "hotseat"). This means that, despite making a clear and specific choice, Chrome still remains the more prominent and easily accessible option on the device.
 > Moving the selected browser to the hotseat would be a step towards making the DMA browser choice screen work for EU Android users and lead to further growth for independent browsers on Android. On iOS, where Apple made the hotseat change, Firefox saw an uptick of 111% daily active users in France and 99% in Germany in the first 12 months of the DMA - despite initially poor compliance. 
 > <cite><strong>Kush Amlani - Mozilla - Director, Global Competition & Regulation</strong></cite>
-</cite>  
 
 This has long been a concern for Open Web Advocacy, and it was included in our list of recommendations published in our [7 March 2024 article](https://open-web-advocacy.org/blog/the-digital-markets-act-is-in-force-what-happens-now/#:~:text=Reduce%20the%20power,backup%20and%20restore) marking the beginning of DMA compliance obligations for gatekeepers:
 
@@ -71,7 +66,6 @@ At this year’s DMA Apple workshop on Monday, Apple directly brought up their c
 
 > These are changes that go significantly further than the other designated companies who are subject to obligations of Article 6(3), one example is the fact that Apple and **Apple alone amongst all designated gatekeepers for browsers, has been required to replace Safari on the dock or in the homescreen for the browser selected on the choice screen.**
 > <cite><strong>Kyle Andeer - Apple - Vice President Apple Legal</strong><br>(emphasis added)</cite>
-</cite>  
 
 Only two companies, Apple and Google, have been designated for both browsers and operating systems, and are therefore required to comply with this aspect of Article 6(3). While we actively campaigned for Microsoft Edge to receive a similar designation, through both written submissions and [an open letter](https://www.theregister.com/2024/10/07/microsoft_edge_eu_gatekeeper/), those efforts were ultimately unsuccessful.
 
@@ -79,7 +73,6 @@ OWA's Roderick Gadellaa, made the comment:
 
 > **We agree with Apple**: Hotseat should be default on Android as well, and we’ll be raising this tomorrow.
 > <cite><strong>Roderick Gadellaa - Open Web Advocacy</strong><br>(emphasis added)</cite>
-</cite>  
 
 Last year at their DMA workshop, Google struck a markedly different tone to Apple, offering a complimentary and compliant outlook on the DMA, an approach that stood in welcome contrast to [Apple’s overt hostility](https://www.apple.com/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/).
 
@@ -93,7 +86,6 @@ At the Digital Markets Act Google Workshop, our very own James Heppell was on th
 > Given that **Google already benefits from the hotseat on iOS**, can **Google commit to implementing an equivalent hotseat placement for browsers on Android**?<br><br>
 > And if so, when can we expect that to roll out?
 > <cite><strong>James Heppell - Open Web Advocacy</strong><br>(emphasis added)</cite>
-</cite>  
 
 The question prompted a brief acknowledgment from Google’s Oliver Bethell:
 
@@ -101,13 +93,11 @@ The question prompted a brief acknowledgment from Google’s Oliver Bethell:
 > \[...\]<br><br>
 > and, **the hotseat issue which was a hot topic as I understand yesterday**.  
 > <cite><strong>Oliver Bethall - Google - Head of Competition, Regulatory Engagement & Advisory </strong><br>(emphasis added)</cite>
-</cite> 
 
 Google's formal response came from Clare Kelly, who offered a very narrow interpretation of Article 6(3):
 
 > And then the question from Open Web Advocacy on hotseat, again our approach to this is informed by what the DMA says, and **Article 6(3) is clearly about defaults, a hotseat is not a default**, so a default is a service that will trigger as a result of a generic user action, as I mentioned earlier, and so if the user goes to do something, **for example clicks on a url, it would be the browser that is used in order to fulfil that specific user intent. The placement of a particular app on a device has nothing to do with the default.** And so that is our view in respect of how the hotseat question fits with what we are talking about, when we are talking about compliance with the DMA.
 > <cite><strong>Clare Kelly - Google - Senior Competition Counsel</strong><br>(emphasis added)</cite>
-</cite> 
    
 This is an overly narrow interpretation, and it's particularly striking that Google chose to emphasise that the default browser is the one used when a user clicks on a URL, given that this is something Google itself actively undermines on Android. **The Android Google Search widget, for instance, doesn’t open links in the user’s chosen default browser** **but instead opens them in the Google Chrome in-app browser.** Many other popular apps also override the system default browser and silently open links in their own in-app browsers, [a practice we’ve documented extensively](https://open-web-advocacy.org/blog/in-app-browsers-the-worst-erosion-of-user-choice-you-havent-heard-of/). As a result, the very concept of a default browser is being steadily eroded on mobile. In this environment, **securing a position in the hotseat has become a crucial source of traffic for the user’s selected browser and a key part of respecting the user's choice.**
 
@@ -115,13 +105,11 @@ Mozilla’s Kush Amlani then challenged Google’s interpretation in a followup 
 
 > Coming back to the hotseat and to your response there, I wanted to say that **if you select a browser via a choice screen and it downloads to page 13 of your apps, I am not sure that necessarily complies with 6(3)** and we would contest your interpretation of that. I mean, **Recital 49 of the DMA says that "gatekeepers should allow end users to easily change default settings when those default setting favor their own software applications and services"** and Article 6(3) also says that "gatekeepers should allow and technical enable end users to easily change default settings including via prompting by a choice screen" **so from our point of view both of those things do require you to place the selected browser in the hotseat and obviously it has already been done by other gatekeepers as well**.
 > <cite><strong>Kush Amlani - Mozilla - Director, Global Competition & Regulation</strong><br>(emphasis added)</cite>
-</cite> 
 
 Despite Mozilla’s intervention, Google doubled down on its position:  
 > In respect of the hotseat, I mean again, I can understand, you know, your perspective on things, but again it has to **come back to what is said in the DMA** even your reference to the recital reference is a default, **a default means a very very specific thing** and it **hasn't to do the with the placement on a device** and in any event on Android it is extremely easy for users to move around where their apps are placed when they are downloaded.<br><br>
 > So again, we don't think it gives rise to any questions of non-compliance with the DMA, so as, again here our position is what I stated earlier.
 > <cite><strong>Clare Kelly - Google - Senior Competition Counsel</strong><br>(emphasis added)</cite>
-</cite> 
 
 Here, again, Google is attempting to shrink the scope of the DMA by changing **“default settings”** to mean strictly **“default apps”**. They also repeatedly state that it all comes back to what the DMA actually says… so let us take a look at what it actually says in the act:
 

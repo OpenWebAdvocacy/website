@@ -9,7 +9,7 @@ Apple's ban of third party browsers on iOS is deeply anti-competitive, starves t
 
 ## What is the Apple browser ban?
 
-You might wonder what we're talking about: Chrome, Firefox and others are available in the Apple AppStore!  All is not what it seems. 
+You might wonder what we're talking about: Chrome, Firefox and others are available in the Apple App Store! All is not what it seems.
 
 When you download Chrome, Firefox or any other browser that isn't Safari on an Apple device, that browser is forced to use Safari's rendering engine WebKit. Chrome normally uses Chromium, and Firefox Gecko. However, Apple will not allow those browsers to use their own engines. Without the ability to use their own engines, those browsers are unable to bring you their latest and greatest features, and can only go so far as whatever WebKit has added.
 

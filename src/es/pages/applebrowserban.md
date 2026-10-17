@@ -1,19 +1,18 @@
 ---
-title: Apple Browser Ban
+title: La prohibición de Apple de los navegadores de terceros
 permalink: /es/apple-browser-ban/
-metaDesc: 'Learn more about the #AppleBrowserBan campaign run by Open Web Advocacy.'
+metaDesc: 'Aprende más de la campaña #AppleBrowserBan dirigida por Open Web Advocacy.'
 layout: layouts/page.njk
-translated: false
 ---
 
-Apple's ban of third party browsers on iOS is deeply anti-competitive, starves the Safari/WebKit team of funding and has stalled innovation for the past 10 years and prevented Web Apps from taking off on mobile.
+La prohibición de los navegadores de terceros en iOS por parte de Apple es profundamente anticompetitiva y priva de financiación al equipo de Safari/WebKit. Ha estancado la innovación durante los últimos 10 años e impedido que las Aplicaciones Web despeguen en los dispositivos móviles.
 
-## What is the Apple browser ban?
+## ¿Qué es la prohibición de navegadores de terceros hecha por Apple?
 
-You might wonder what we're talking about: Chrome, Firefox and others are available in the Apple App Store! All is not what it seems.
+Tal vez te estés preguntando de qué estamos hablando: Chrome, Firefox, entre otros, están disponibles en la Apple App Store (tienda de aplicaciones de Apple). Sin embargo, no es lo que podría parecer a primera vista.
 
-When you download Chrome, Firefox or any other browser that isn't Safari on an Apple device, that browser is forced to use Safari's rendering engine WebKit. Chrome normally uses Chromium, and Firefox Gecko. However, Apple will not allow those browsers to use their own engines. Without the ability to use their own engines, those browsers are unable to bring you their latest and greatest features, and can only go so far as whatever WebKit has added.
+Cuando instalas Chrome, Firefox u otro navegador que no sea Safari en un dispositivo de Apple, este navegador está obligado a usar WebKit, el motor de renderización de Safari. Normalmente Chrome usaría Chromium y Firefox Gecko. No obstante, Apple no permite que estos navegadores usen sus propios motores. Sin esa habilidad para usar los suyos propios, estos son incapaces de brindarte sus nuevas y mejoradas funciones, pudiendo sólo avanzar hasta el que sea el punto que WebKit ha añadido.
 
-This behaviour is anti-competitive, and lessens the web experience for users on Apple devices.
+Esta actitud es anticompetitiva, y empeora la experiencia en la web para los usuarios de dispositivos de Apple.
 
-You can read more about this behaviour in our [Walled Garden Report](/walled-gardens-report/), and also show your understanding and support of lifting the Apple browser ban by using the hashtag [#AppleBrowserBan](https://twitter.com/search?q=%23AppleBrowserBan&f=live)
+Puedes leer más de esta en nuestro [Reportaje de los Jardines Amurallados](/es/walled-gardens-report/), y a su vez mostrar tu comprensión y apoyo para acabar con la prohibición de Apple de los navegadores de terceros usando el hashtag #AppleBrowserBan.

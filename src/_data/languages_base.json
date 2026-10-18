@@ -17,9 +17,10 @@
     "config": {
       "direction": ""
     },
+    "email": "Email",
     "homeText": "Home",
-    "languages": "Languages",
     "language": "English",
+    "languages": "Languages",
     "pressCoverageHeading": "OWA Press Coverage",
     "pressCoverageParagraph": "Check out how the press is covering OWA actions.",
     "promoHeading": "Promotional Resources",
@@ -28,12 +29,11 @@
     "rssFeedParagraph": "Subscribe to the latest news from OWA.",
     "siteFooterPoweredBy": "This site is powered by Netlify",
     "skipLinkText": "Skip to content",
-    "translationNotAvailable": "Unfortunately this page has not been translated into your preferred language yet. If you'd like to help us translate it, please join <a href=\"https://discord.gg/x53hkqrRKx\">#translation on the OWA Discord</a>.",
-    "email": "Email",
-    "website": "Website",
-    "writtenBy": "Written by",
     "tagPageTitle1": "News articles filed under \"",
-    "tagPageTitle2": "\""
+    "tagPageTitle2": "\"",
+    "translationNotAvailable": "Unfortunately this page has not been translated into your preferred language yet. If you'd like to help us translate it, please join <a href=\"https://discord.gg/x53hkqrRKx\">#translation on the OWA Discord</a>.",
+    "website": "Website",
+    "writtenBy": "Written by"
   },
   "es": {
     "ariaLabelPaginationlinks": "Enlaces de paginación",
@@ -48,9 +48,10 @@
     "config": {
       "direction": ""
     },
+    "email": "Correo electrónico",
     "homeText": "Inicio",
-    "languages": "Idiomas",
     "language": "Español",
+    "languages": "Idiomas",
     "pressCoverageHeading": "Cobertura de prensa de OWA",
     "pressCoverageParagraph": "Vea cómo la prensa cubre las acciones de OWA.",
     "promoHeading": "Recursos Promocionales",
@@ -59,10 +60,8 @@
     "rssFeedParagraph": "Suscríbete a las últimas noticias de OWA.",
     "siteFooterPoweredBy": "Este sitio funciona con Netlify",
     "skipLinkText": "Saltar al contenido",
-    "translationNotAvailable": "Lamentablemente, esta página aún no se ha traducido a tu idioma preferido. Si deseas ayudarnos a traducirla, únete a <a href=\"https://discord.gg/x53hkqrRKx\">#translation en el Discord de OWA</a>.",
-    "email": "Correo electrónico",
-    "website": "Página web",
-    "writtenBy": "Escrito por",
+    "tagPageTitle1": "Noticias archivadas bajo \"",
+    "tagPageTitle2": "\"",
     "tags": {
       "Apple": "Apple",
       "Australia": "Australia",
@@ -71,13 +70,14 @@
       "Browsers": "Navegadores",
       "ByteDance": "ByteDance",
       "CMA": "CMA",
+      "DMA": "DMA",
       "DMCC": "DMCC",
       "DMCCA": "DMCCA",
-      "DMA": "DMA",
       "DOJ": "DOJ",
       "EU": "UE",
       "Gecko": "Gecko",
       "Google": "Google",
+      "hotseat": "hotseat",
       "Interop": "Interop",
       "iOS": "iOS",
       "Japan": "Japón",
@@ -91,13 +91,13 @@
       "Security": "Seguridad",
       "TikTok": "TikTok",
       "UK": "Reino Unido",
-      "US": "EE.UU.",
       "Updates": "Novedades",
-      "WebKit": "WebKit",
-      "hotseat": "hotseat"
+      "US": "EE.UU.",
+      "WebKit": "WebKit"
     },
-    "tagPageTitle1": "Noticias archivadas bajo \"",
-    "tagPageTitle2": "\""
+    "translationNotAvailable": "Lamentablemente, esta página aún no se ha traducido a tu idioma preferido. Si deseas ayudarnos a traducirla, únete a <a href=\"https://discord.gg/x53hkqrRKx\">#translation en el Discord de OWA</a>.",
+    "website": "Página web",
+    "writtenBy": "Escrito por"
   },
   "ja": {
     "ariaLabelPaginationlinks": "ページネーションリンク",
@@ -112,9 +112,10 @@
     "config": {
       "direction": ""
     },
+    "email": "メール",
     "homeText": "ホーム",
-    "languages": "言語",
     "language": "日本語",
+    "languages": "言語",
     "pressCoverageHeading": "OWAのメディア掲載",
     "pressCoverageParagraph": "メディアによるOWAの活動の掲載状況をご覧ください。",
     "promoHeading": "プロモーション・リソース",
@@ -123,10 +124,8 @@
     "rssFeedParagraph": "OWAの最新ニュースを購読する。",
     "siteFooterPoweredBy": "このサイトはNetlifyを利用しています",
     "skipLinkText": "コンテンツにスキップする",
-    "translationNotAvailable": "残念ながら、このページはまだ日本語に翻訳されていません。翻訳にご協力いただける場合は、<a href=\"https://discord.gg/x53hkqrRKx\">OWA Discord の #translation</a> にご参加ください。",
-    "email": "メール",
-    "website": "ウェブサイト",
-    "writtenBy": "執筆:",
+    "tagPageTitle1": "「",
+    "tagPageTitle2": "」カテゴリーのニュース一覧",
     "tags": {
       "Apple": "Apple",
       "Australia": "オーストラリア",
@@ -135,13 +134,14 @@
       "Browsers": "ブラウザ",
       "ByteDance": "ByteDance",
       "CMA": "CMA",
+      "DMA": "DMA",
       "DMCC": "DMCC",
       "DMCCA": "DMCCA",
-      "DMA": "DMA",
       "DOJ": "DOJ",
       "EU": "EU",
       "Gecko": "Gecko",
       "Google": "Google",
+      "hotseat": "ホットシート",
       "Interop": "Interop",
       "iOS": "iOS",
       "Japan": "日本",
@@ -155,12 +155,12 @@
       "Security": "セキュリティ",
       "TikTok": "TikTok",
       "UK": "イギリス",
-      "US": "アメリカ合衆国",
       "Updates": "アップデート",
-      "WebKit": "WebKit",
-      "hotseat": "ホットシート"
+      "US": "アメリカ合衆国",
+      "WebKit": "WebKit"
     },
-    "tagPageTitle1": "「",
-    "tagPageTitle2": "」カテゴリーのニュース一覧"
+    "translationNotAvailable": "残念ながら、このページはまだ日本語に翻訳されていません。翻訳にご協力いただける場合は、<a href=\"https://discord.gg/x53hkqrRKx\">OWA Discord の #translation</a> にご参加ください。",
+    "website": "ウェブサイト",
+    "writtenBy": "執筆:"
   }
 }

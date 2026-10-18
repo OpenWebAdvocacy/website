@@ -13,6 +13,8 @@ pagination:
     - featuredWork
     - people
     - rss
+    - links
+    - press
 permalink: '/tag/{{ tag | slug }}/'
 noSocialImage: true
 ---

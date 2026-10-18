@@ -3,7 +3,7 @@
   <button
     type="button"
     data-lang="{{ page.lang }}"
-    aria-label="Current version: {{ content.language }} (Click to change)"
+    aria-label="{{ content.languagePickerLabel1 }}{{ content.language }}{{ content.languagePickerLabel2 }}"
     class="language-picker">
     {% include "partials/globe.njk" %}
     {{ content.language }}

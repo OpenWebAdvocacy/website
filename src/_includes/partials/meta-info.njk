@@ -53,8 +53,8 @@
     {% set twitterImage = socialImage %}
   {% endif %}
   <meta name="twitter:image" content="{{ twitterImage }}" />
-  <meta property="og:image:alt" content="Page image for {{ pageTitle }}" />
-  <meta name="twitter:image:alt" content="Page image for {{ pageTitle }}" />
+  <meta property="og:image:alt" content="{{ languages_base[page.lang].socialImageAlt1 }}{{ pageTitle }}{{ languages_base[page.lang].socialImageAlt2 }}" />
+  <meta name="twitter:image:alt" content="{{ languages_base[page.lang].socialImageAlt1 }}{{ pageTitle }}{{ languages_base[page.lang].socialImageAlt2 }}" />
 {% endif %}
 
 {% if metaDesc %}

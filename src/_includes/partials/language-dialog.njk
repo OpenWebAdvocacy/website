@@ -4,7 +4,7 @@
   <header>
     <h2>{{ content.languages }}</h2>
   </header>
-  <section aria-label="List of available language versions">
+  <section aria-label="{{ content.languageListLabel }}">
     <ul>
       {% for language in languages %}
         <li>

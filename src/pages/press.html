@@ -9,7 +9,7 @@ layout: 'layouts/page.njk'
 <li lang="{{ entry.lang | default('en') }}">
   <div class="press-entry">
     <a href="{{ entry.url }}">{{ entry.title }}</a>
-    <div class="press-details">
+    <div class="press-details" lang="{{ page.lang }}">
       {% if entry.publisher %}
       published by "{{ entry.publisher }}"
       {% else %}

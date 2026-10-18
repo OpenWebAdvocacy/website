@@ -1291,8 +1291,8 @@ p.social {
   max-width: 100%;
   font-size: 0.65em;
   margin-top: auto;
-  & a { flex: none; }
   text-transform: lowercase;
+  & a { flex: none; }
 }
 
 

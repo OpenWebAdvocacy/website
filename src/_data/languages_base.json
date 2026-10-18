@@ -10,7 +10,9 @@
     "ariaLabelSecondaryNav": "Secondary navigation",
     "asideHeading": "Recent updates",
     "asideLinkText": "Read more news",
-    "bannerText": "Is Apple DMA compliant? Read the full report!",
+    "bannerLinkText": "Read More",
+    "bannerText": "2025 in Review",
+    "bannerTitle": "Open Web Advocacy 2025 in Review",
     "close": "Close",
     "config": {
       "direction": ""
@@ -39,7 +41,9 @@
     "ariaLabelSecondaryNav": "Navegación secundaria",
     "asideHeading": "Noticias recientes",
     "asideLinkText": "Leer más noticias",
-    "bannerText": "¿Cumple Apple con la normativa DMA? ¡Lea el informe completo!",
+    "bannerLinkText": "Leer más",
+    "bannerText": "Resumen de 2025",
+    "bannerTitle": "Open Web Advocacy: resumen de 2025",
     "close": "Cerrar",
     "config": {
       "direction": ""
@@ -101,7 +105,9 @@
     "ariaLabelSecondaryNav": "セカンダリーナビゲーション",
     "asideHeading": "最近の更新",
     "asideLinkText": "ニュースをもっと読む",
-    "bannerText": "Appleはデジタル市場法を順守しているでしょうか？ 報告書を読んでください！",
+    "bannerLinkText": "続きを読む",
+    "bannerText": "2025年の振り返り",
+    "bannerTitle": "Open Web Advocacy 2025年の振り返り",
     "close": "閉じる",
     "config": {
       "direction": ""

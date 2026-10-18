@@ -1507,7 +1507,7 @@ img.rounded {
   padding: 1em;
   text-align: center;
 
-  p {
+  & p {
     max-width: none;
   }
 }

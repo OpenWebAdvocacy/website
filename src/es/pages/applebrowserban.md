@@ -15,4 +15,4 @@ Cuando instalas Chrome, Firefox u otro navegador que no sea Safari en un disposi
 
 Esta conducta es anticompetitiva, y empeora la experiencia en la web para los usuarios de dispositivos de Apple.
 
-Puedes leer más de esta en nuestro [*informe de los jardines amurallados*](/es/walled-gardens-report/), y a su vez mostrar tu comprensión y apoyo para acabar con la prohibición de Apple de los navegadores de terceros usando el hashtag *#AppleBrowserBan*.
+Puedes leer más de esta en nuestro [*informe de los jardines amurallados*](/es/walled-gardens-report/), y a su vez mostrar tu comprensión y apoyo para acabar con la prohibición de Apple de los navegadores de terceros usando el hashtag #AppleBrowserBan.

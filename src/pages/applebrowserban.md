@@ -15,4 +15,4 @@ When you download Chrome, Firefox or any other browser that isn't Safari on an A
 
 This behaviour is anti-competitive, and lessens the web experience for users on Apple devices.
 
-You can read more about this behaviour in our [Walled Garden Report](/walled-gardens-report/), and also show your understanding and support of lifting the Apple browser ban by using the hashtag #AppleBrowserBan.
+You can read more about this behaviour in our [Walled Gardens Report](/walled-gardens-report/), and also show your understanding and support of lifting the Apple browser ban by using the hashtag #AppleBrowserBan.

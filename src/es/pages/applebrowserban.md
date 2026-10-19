@@ -11,7 +11,7 @@ La prohibición de los navegadores de terceros en iOS por parte de Apple es prof
 
 Tal vez te estés preguntando de qué estamos hablando: Chrome, Firefox, entre otros, están disponibles en la *Apple App Store*. Sin embargo, no es lo que podría parecer a simple vista.
 
-Cuando instalas Chrome, Firefox u otro navegador que no sea Safari en un dispositivo de Apple, este navegador está obligado a usar WebKit, el motor de renderización de Safari. Normalmente Chrome usaría Blink, parte del proyecto Chromium, y Firefox usaría Gecko. No obstante, Apple no permite que estos navegadores usen sus propios motores. Sin esa capacidad para usar los suyos propios, estos son incapaces de brindarte sus nuevas y mejoradas funciones, pudiendo solo avanzar hasta el que sea el punto que WebKit ha añadido.
+Cuando instalas Chrome, Firefox u otro navegador que no sea Safari en un dispositivo de Apple, este navegador está obligado a usar WebKit, el motor de renderización de Safari. Normalmente Chrome usaría Blink, parte del proyecto Chromium, y Firefox usaría Gecko. No obstante, Apple no permite que estos navegadores usen sus propios motores. Sin esa capacidad para usar los suyos propios, estos son incapaces de brindarte sus funciones nuevas y mejoradas, pudiendo solo avanzar hasta el que sea el punto que WebKit ha añadido.
 
 Esta conducta es anticompetitiva, y empeora la experiencia en la web para los usuarios de dispositivos de Apple.
 

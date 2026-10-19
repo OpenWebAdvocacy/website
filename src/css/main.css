@@ -1527,18 +1527,6 @@ img.rounded {
   max-width: 100%;
 }
 
-.apple-dma-review div.toc ul {
-  margin-left: 1rem;
-}
-
-article.apple-dma-review ul, article.apple-dma-review ol {
-  margin: 1rem 0rem;
-}
-
-article.apple-dma-review div.toc details {
-  padding: .5rem .5rem;
-}
-
 /* Language Picker and modal */
 
 .language-picker {
@@ -1592,11 +1580,6 @@ header:not(.home-header) p:has(button.language-picker) {
 
 .language-dialog h2 {
   text-transform: lowercase;
-}
-
-.language-dialog header svg {
-  height: 1.5rem;
-  width: 1.5rem;
 }
 
 .language-dialog ul {

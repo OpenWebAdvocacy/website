@@ -328,7 +328,7 @@ img {
 .post h3,
 .post footer {
   --flow-space: 3rem;
-  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .post h1+*,
@@ -1846,7 +1846,6 @@ header:not(.home-header) p:has(button.language-picker) {
   vertical-align: top;
   border-bottom: 1px solid color-mix(in srgb, var(--main-light) 45%, var(--n-light));
   overflow-wrap: anywhere;
-  word-break: break-word;
 }
 
 .owa-table tbody tr:last-child td {

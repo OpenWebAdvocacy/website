@@ -10,7 +10,7 @@
     "start": "npx @11ty/eleventy --serve --quiet",
     "generate": "node generate-language-files.js",
     "build": "npm run production",
-    "production": "npm run generate && NODE_ENV=production npx @11ty/eleventy",
+    "production": "npm run generate && cross-env NODE_ENV=production npx @11ty/eleventy",
     "serve:production": "npm run build && npx --yes http-server dist -p 8080 -c-1",
     "updates": "npx npm-check-updates -i --format group",
     "test": "npx playwright test",
@@ -47,6 +47,7 @@
   "devDependencies": {
     "@playwright/test": "^1.64.1",
     "@types/node": "^26.6.5",
+    "cross-env": "^10.1.0",
     "netlify-plugin-cache": "^1.0.3",
     "prettier": "^3.9.10"
   },

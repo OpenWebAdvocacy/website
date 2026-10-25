@@ -118,6 +118,7 @@ body {
   font: 100%/1.5 var(--stack);
   color: var(--body-text);
   background: var(--body-bg);
+  overflow-wrap: break-word;
 }
 
 html[lang="ja"] > body {

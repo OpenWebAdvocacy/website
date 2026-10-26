@@ -13,6 +13,15 @@ pageNonCriticalScripts: [ '/js/papers/collapser.js' ]
       <p class="baseline">{{ subtitle }}</p>
     {% endif %}
 
+    {% if published %}
+      <p class="post-meta">
+        <span>Published <time datetime="{{ published | w3DateFilter }}" class="dt-published">{{ published | localisedDateFilter(page.lang) }}</time></span>
+        {% if updated %}
+          <span>Last updated <time datetime="{{ updated | w3DateFilter }}" class="dt-updated">{{ updated | localisedDateFilter(page.lang) }}</time></span>
+        {% endif %}
+      </p>
+    {% endif %}
+
     <p class="p-author">
       By <strong>Open Web Advocacy</strong>
       <a href="mailto:contactus@open-web-advocacy.org">contactus@open-web-advocacy.org</a>

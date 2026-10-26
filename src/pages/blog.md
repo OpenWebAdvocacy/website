@@ -18,7 +18,7 @@ templateEngineOverride: njk
       {% set tags = item.data.tags %}
       {% include "partials/post-meta.njk" %}
       <div class="post-content flow">
-        {{ item.content | excerpt }} <a href="{{ item.url | locale_url }}">Continue reading</a>
+        {{ item.content | excerpt | safe }} <a href="{{ item.url | locale_url }}">Continue reading</a>
       </div>
     </div>
   </article>

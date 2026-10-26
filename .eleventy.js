@@ -51,8 +51,10 @@ export default config => {
   config.addFilter('removeLanguageCode', removeLanguageCode);
   config.addFilter('language', language);
   config.addFilter('excerpt', post => {
-    const content = post.replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>|<[^>]*>/gi, '');
-    return content.substr(0, content.lastIndexOf(' ', 400)) + '...';
+  const text = post
+    .replace(/<a class="header-anchor"[^>]*>.*?<\/a>/g, '')
+    .replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>|<[^>]*>/gi, '');
+  return text.substr(0, text.lastIndexOf(' ', 400)) + '…';
   });
   config.addFilter('firstParagraph', firstParagraphFilter);
 

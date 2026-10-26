@@ -51,10 +51,11 @@ export default config => {
   config.addFilter('removeLanguageCode', removeLanguageCode);
   config.addFilter('language', language);
   config.addFilter('excerpt', post => {
-  const text = post
-    .replace(/<a class="header-anchor"[^>]*>.*?<\/a>/g, '')
-    .replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>|<[^>]*>/gi, '');
-  return text.substr(0, text.lastIndexOf(' ', 400)) + '…';
+    const text = post
+      .replace(/<a class="header-anchor"[^>]*>.*?<\/a>/g, '')
+      .replace(/<p>\s*https?:\/\/(www\.)?(youtube\.com|youtu\.be)\/\S*\s*<\/p>/g, '')
+      .replace(/<(style|script)\b[^>]*>[\s\S]*?<\/\1>|<[^>]*>/gi, '');
+    return text.substr(0, text.lastIndexOf(' ', 400)) + '…';
   });
   config.addFilter('firstParagraph', firstParagraphFilter);
 

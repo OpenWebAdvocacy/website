@@ -13,9 +13,9 @@ pageNonCriticalScripts: [ '/js/papers/collapser.js' ]
       <p class="baseline">{{ subtitle }}</p>
     {% endif %}
 
-    {% if published %}
+    {% if date %}
       <p class="post-meta">
-        <span>Published <time datetime="{{ published | w3DateFilter }}" class="dt-published">{{ published | localisedDateFilter(page.lang) }}</time></span>
+        <span>Published <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | localisedDateFilter(page.lang) }}</time></span>
         {% if updated %}
           <span>Last updated <time datetime="{{ updated | w3DateFilter }}" class="dt-updated">{{ updated | localisedDateFilter(page.lang) }}</time></span>
         {% endif %}

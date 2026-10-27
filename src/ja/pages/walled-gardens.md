@@ -8,6 +8,8 @@ metaDesc: >-
 subtitle: Third-Party Browsers & Web Apps - VERSION 1.2
 paperName: OWA - Bringing Competition to Walled Gardens - v1.2
 paperSize: 7.7MB
+date: '2022-03-03'
+updated: '2022-05-23'
 translated: false
 imageShortcodeIgnoreLegacy: true
 ---

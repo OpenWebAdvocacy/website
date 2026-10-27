@@ -6,7 +6,7 @@ metaDesc: 'The full Bringing Competition to Walled Gardens report, published by 
 subtitle: 'Third Party Browsers & Web Apps - VERSION 1.0'
 paperName: 'OWA - Bringing Competition to Walled Gardens - v1.0'
 paperSize: '9.2MB'
-published: '2022-03-03'
+date: '2022-03-03'
 ---
 
 ## 2. Preface

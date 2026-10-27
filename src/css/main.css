@@ -1571,16 +1571,10 @@ header:not(.home-header) p:has(button.language-picker) {
   margin: 0 auto;
 }
 
-.language-dialog header {
-  padding-bottom: 0.25rem;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .language-dialog h2 {
   text-transform: lowercase;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
 }
 
 .language-dialog ul {
@@ -1593,6 +1587,7 @@ header:not(.home-header) p:has(button.language-picker) {
 }
 
 .language-dialog .action-button {
+  margin-top: 1.5em;
   cursor: pointer;
 }
 

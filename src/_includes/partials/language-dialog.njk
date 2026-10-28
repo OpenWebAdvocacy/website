@@ -1,6 +1,6 @@
 {% set languages = languages_base.supported %}
 {% set content = languages_base[page.lang] %}
-<dialog class="language-dialog" aria-labelledby="language-dialog-title">
+<dialog class="language-dialog" closedby="any" aria-labelledby="language-dialog-title">
   <h2 id="language-dialog-title">{{ content.languages }}</h2>
   <ul>
     {% for language in languages %}

@@ -21,7 +21,7 @@ translated: false
 
 ## New iOS Blink Performance Statistics
 
-> The Edge web platform team has been contributing changes to Chromium to help build a prototype exploring what an iOS browser using Blink (via BrowserEngineKit) can achieve. Blink is the same open-source rendering engine that powers Edge on every other platform.</br></br>
+> The Edge web platform team has been contributing changes to Chromium to help build a prototype exploring what an iOS browser using Blink (via BrowserEngineKit) can achieve. Blink is the same open-source rendering engine that powers Edge on every other platform.<br><br>
 > Over the weekend, I loaded a development build on my iPhone and ran some classic browser benchmarks side by side with Safari on the same device.
 
 [Newly reported by The Register](https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384), on Tuesday [an Edge engineer published some very interesting statistics](https://www.linkedin.com/pulse/test-drive-blink-ios-kyle-pflug-0nyxc/) on the new Chromium prototype running on iOS 26.5.1 and how it stacks up compared to Safari.

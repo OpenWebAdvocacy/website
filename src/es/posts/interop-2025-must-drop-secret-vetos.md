@@ -32,9 +32,9 @@ We propose that any votes or vetoes are made public with attribution, and any re
 
 Interop is a collaborative project between browser vendors to reduce compatibility issues between browsers so the code we write works the same on all devices and all browsers.
 
-> The web is amazing. It makes collaborating, learning, and connecting easy for billions of people, because it’s intentionally designed to run **on radically different devices**. </br></br>
+> The web is amazing. It makes collaborating, learning, and connecting easy for billions of people, because it’s intentionally designed to run **on radically different devices**. <br><br>
 > It’s your job as a web developer to ensure your project works in every browser and for every user — and that can be hard to do. It’s a far easier undertaking when browsers have identical implementations of the web technology you use. 
-> <cite>[Webkit blog on the aim of Interop](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)</br>(emphasis added)
+> <cite>[Webkit blog on the aim of Interop](https://webkit.org/blog/14955/the-web-just-gets-better-with-interop/)<br>(emphasis added)
 </cite>
 
 ## Interop Lack of Transparency & Accountability

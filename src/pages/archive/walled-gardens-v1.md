@@ -1086,7 +1086,7 @@ They prevent the emergence of competing mobile operating systems, because many a
 Apple have a $15B annual deal with Google to set Google as the default search engine on iOS Safari (9% of Apples Annual Gross Profit)
 
 * **Cost Cutting to boost margins on hardware** -  By only allowing Safari to mint subprocesses Apple can save money on RAM\*\*
-</br></br>
+<br><br>
     >\* “But some seem to be just personal preference, or taste - most obviously, the decision in the last few weeks to block streaming games services from Microsoft and Google. This may partly be about revenue, but the real issue seems to be that Apple thinks that games on iOS ’should’ use native APIs, and, perhaps, that they ‘should’ work without you needing to buy a separate games controller. But whatever it is, there’s no safety, security or privacy issue - Apple just doesn’t like those apps.”
     <br><br>
     "One indication of Apple's control over developers is the fact they stay despite their many complaints."

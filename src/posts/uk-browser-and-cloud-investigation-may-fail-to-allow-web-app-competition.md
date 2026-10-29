@@ -15,17 +15,17 @@ From our extensive work in supporting the [Mobile Ecosystems Study](https://www.
 
 
 > We all rely on browsers to use the internet on our phones, and **the engines that make them work have a huge bearing on what we can see and do**. Right now, **choice in this space is severely limited** and that has real impacts – **preventing innovation and reducing competition from web apps**. We need to give innovative tech firms, many of which are ambitious start-ups, a fair chance to compete.
-> </br><cite>[Andrea Coscelli - Chief Executive of the UK's Competition and Markets Authority](https://www.gov.uk/government/news/cma-plans-market-investigation-into-mobile-browsers-and-cloud-gaming)</br>(emphasis added)
+> <br><cite>[Andrea Coscelli - Chief Executive of the UK's Competition and Markets Authority](https://www.gov.uk/government/news/cma-plans-market-investigation-into-mobile-browsers-and-cloud-gaming)<br>(emphasis added)
 </cite>
 
 Last week the browsers and cloud MIR released their [remedies paper](https://assets.publishing.service.gov.uk/media/66b484020808eaf43b50dea8/Working_paper_7_Potential_Remedies_8.8.24.pdf) outlining their initial thoughts on remedies and asking for feedback. While the paper contains a number of excellent remedies, not least of which is prohibiting Apple from banning browser engines from iOS, we are deeply concerned that the MIR will fail in its goal of allowing third party browsers to enable effective competition from Web Apps.
 
 <details>
 <summary>Full List of Remedies</summary>
-<br></br>
+<br><br>
 
 This list is on page 21 of the [Browsers and Cloud Remedies Paper](https://assets.publishing.service.gov.uk/media/66b484020808eaf43b50dea8/Working_paper_7_Potential_Remedies_8.8.24.pdf).
-<br></br>
+<br><br>
 **Issue 1 – Apple’s WebKit restriction**
 
 * A1 - Requirement for Apple to grant access to alternative browser engines to iOS.
@@ -107,7 +107,7 @@ This could lead to a situation where while browser engines such as Blink (Chrome
 As noted in the CMA’s mobile ecosystems study, Apple is heavily incentivized not to support Web Apps to their full potential. Certain features such as install prompts that would allow Web Apps to compete more fairly with Apple’s own apps and app store, will almost certainly never be implemented by Apple.
 
 > By requiring all browsers on iOS to use the WebKit browser engine, **Apple is able to exert control over the maximum functionality of all browsers on iOS** and, as a consequence, hold up the development and use of web apps. This limits the **competitive constraint that web apps pose on native apps**, which in turn protects and benefits Apple’s App Store revenues.
-> </br><cite>[UK CMA - Interim Report into Mobile Ecosystems](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report)</br>(emphasis added)
+> <br><cite>[UK CMA - Interim Report into Mobile Ecosystems](https://www.gov.uk/government/publications/mobile-ecosystems-market-study-interim-report)<br>(emphasis added)
 </cite>
 
 Worse when faced with the genuine possibility of third-party browsers effectively powering Web Apps due to the EU’s Digital Markets Act, Apple's first instinct was to [remove Web Apps support in the EU entirely with no notice to either businesses or consumers](https://open-web-advocacy.org/blog/its-official-apple-kills-web-apps-in-the-eu/). Luckily, [under significant pressure, Apple backed down](https://open-web-advocacy.org/blog/apple-backs-off-killing-web-apps/) from this particular stunt at the last moment. 

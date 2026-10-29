@@ -20,7 +20,7 @@ This is the second jurisdiction (after the EU in the [Digital Markets Act](https
 
 > Article 1: In light of the role that smartphones play in Japan as the foundation of people's lives and economic activity, this Act aims to promote fair and free competition in the field of specific software by providing prohibitions on businesses that provide specific software that is particularly necessary for smartphone use from exploiting their position as businesses that provide specific software to give the products or services they provide a competitive advantage and from causing disadvantage to the business activities of businesses that use specific software, thereby contributing to the improvement of people's lives and the sound development of the national economy.
 > <cite>[Bill on the Promotion of Competition for Specified Software Used in Smartphones
-](https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g21309062.htm)</br>
+](https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g21309062.htm)<br>
 (machine translated)</cite>
 
 > The EU has pioneered new regulations in this field, and in order for the digital markets of the EU, US, and Japan to work in lockstep to set fair competition practices for platform operators, a new legal framework is also needed in the Japanese market to confront digital platform operators.
@@ -46,7 +46,7 @@ This is an important step to restoring browser competition to iOS and enabling W
 
 Next up, [the UK](https://open-web-advocacy.org/blog/uk-passes-dmcc/), [the USA](https://open-web-advocacy.org/blog/us-doj-files-apple-antitrust-case/) [and Australia](https://open-web-advocacy.org/blog/new-digital-competition-laws-for-australia/)…
 
-</br>
+<br>
 
 **This victory wouldn't have been possible without your unwavering support**. While we celebrate this important step, let's remember the fight for global browser competition continues. Stay tuned, and let's work together to ensure browser choice for all users, everywhere!
 

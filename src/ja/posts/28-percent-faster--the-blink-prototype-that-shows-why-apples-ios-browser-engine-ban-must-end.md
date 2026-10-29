@@ -21,7 +21,7 @@ translated: true
 ## 新たなiOS版Blinkの性能統計
 
 > Edgeウェブプラットフォームチームは、（BrowserEngineKit経由で）Blinkを用いたiOS向けブラウザで何が可能かを検証するプロトタイプの構築を支援するために、Chromiumへの変更を提案し続けてきました。
-> Blinkは、iOS以外のすべてのプラットフォーム上のEdgeを支えるのと同じ、オープンソースのレンダリングエンジンです。</br></br>
+> Blinkは、iOS以外のすべてのプラットフォーム上のEdgeを支えるのと同じ、オープンソースのレンダリングエンジンです。<br><br>
 > 私は、週末にそのプロトタイプの開発版ビルドをiPhoneにインストールし、同じデバイス上でSafariと並べて、いくつかの古典的なブラウザベンチマークを実行してみました。
 
 [The Registerが新たに報じたところ](https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384)によると、火曜日にEdgeのエンジニアが、iOS 26.5.1上で動作する新しいChromiumプロトタイプに関する非常に[興味深い統計情報](https://www.linkedin.com/pulse/test-drive-blink-ios-kyle-pflug-0nyxc/)と、それとSafariを比較した結果を公開しました。

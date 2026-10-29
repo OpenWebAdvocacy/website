@@ -99,7 +99,7 @@ With that context and these aims in mind, it's worth exploring the DMA and what 
 ### Recital 43
 
 > When gatekeepers operate and impose web browser engines, they are in a position to determine the functionality and standards that will apply not only to their own web browsers, but also to competing web browsers and, in turn, to web software applications.
-> </br><cite>[Digital Markets Act - Recital 43](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG#:~:text=When%20gatekeepers%20operate%20and%20impose%20web%20browser%20engines%2C%20they%20are%20in%20a%20position%20to%20determine%20the%20functionality%20and%20standards%20that%20will%20apply%20not%20only%20to%20their%20own%20web%20browsers%2C%20but%20also%20to%20competing%20web%20browsers%20and%2C%20in%20turn%2C%20to%20web%20software%20applications.)</cite>
+> <br><cite>[Digital Markets Act - Recital 43](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG#:~:text=When%20gatekeepers%20operate%20and%20impose%20web%20browser%20engines%2C%20they%20are%20in%20a%20position%20to%20determine%20the%20functionality%20and%20standards%20that%20will%20apply%20not%20only%20to%20their%20own%20web%20browsers%2C%20but%20also%20to%20competing%20web%20browsers%20and%2C%20in%20turn%2C%20to%20web%20software%20applications.)</cite>
 
 This section is particularly important as it outlines what the DMA’s purpose is in prohibiting banning browser engines. Specifically it is to prevent gatekeepers from blocking competitors from providing functionality to competing browsers and to “web software applications”.
 
@@ -111,16 +111,16 @@ This was likely, at least in part, based on the conclusions of the UK regulator 
 ### Article 5(7)
 
 > Articles 5(7) **The gatekeeper shall not require end users to use, or business users to use, to offer, or to interoperate with**, an identification service, **a web browser engine** or a payment service, or technical services that support the provision of payment services, such as payment systems for in-app purchases, of that gatekeeper in the context of services provided by the business users using that gatekeeper’s core platform services.
-> </br><cite>[Digital Markets Act - Article 5(7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)<br>
+> <br><cite>[Digital Markets Act - Article 5(7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)<br>
 (emphasis added)</cite>
 
 This is the specific part of the act that actually prohibits gatekeepers from imposing browser engines. It does not allow the gatekeeper any leeway to prevent this.
 
 ### Article 6(7)
 
-> Article 6(7) The gatekeeper shall allow providers of services and providers of hardware, free of charge, effective interoperability with, and access for the purposes of interoperability to, the same hardware and software features accessed or controlled via the operating system or virtual assistant listed in the designation decision pursuant to Article 3(9) as are available to services or hardware provided by the gatekeeper. Furthermore, the gatekeeper shall allow business users and alternative providers of services provided together with, or in support of, core platform services, free of charge, effective interoperability with, and access for the purposes of interoperability to, the same operating system, hardware or software features, regardless of whether those features are part of the operating system, as are available to, or used by, that gatekeeper when providing such services.</br></br>
+> Article 6(7) The gatekeeper shall allow providers of services and providers of hardware, free of charge, effective interoperability with, and access for the purposes of interoperability to, the same hardware and software features accessed or controlled via the operating system or virtual assistant listed in the designation decision pursuant to Article 3(9) as are available to services or hardware provided by the gatekeeper. Furthermore, the gatekeeper shall allow business users and alternative providers of services provided together with, or in support of, core platform services, free of charge, effective interoperability with, and access for the purposes of interoperability to, the same operating system, hardware or software features, regardless of whether those features are part of the operating system, as are available to, or used by, that gatekeeper when providing such services.<br><br>
 > The gatekeeper shall not be prevented from taking strictly necessary and proportionate measures to ensure that interoperability does not compromise the integrity of the operating system, virtual assistant, hardware or software features provided by the gatekeeper, provided that such measures are duly justified by the gatekeeper.
-> </br><cite>[Digital Markets Act - Article 6(7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
+> <br><cite>[Digital Markets Act - Article 6(7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
 This article states that designated operating systems must provide API access to third parties for the purpose of interoperability (i.e. making their software/hardware work on or with the device). Importantly it states that this must be provided “free of charge”.
 
@@ -131,31 +131,31 @@ Gatekeepers are only allowed strictly necessary, proportional and justified secu
 ### Recital 49, Recital 52 and Article 6(5)
 
 > A gatekeeper can use different means to favour its own or third-party services or products on its operating system, virtual assistant or web browser, to the detriment of the same or similar services that end users could obtain through other third parties.
-> </br><cite>[Digital Markets Act - Recital 49](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
+> <br><cite>[Digital Markets Act - Recital 49](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
 > In such situations, the gatekeeper should not engage in any form of differentiated or preferential treatment in ranking on the core platform service, and related indexing and crawling, whether through legal, commercial or technical means, in favour of products or services it offers itself or through a business user which it controls. To ensure that this obligation is effective, the conditions that apply to such ranking should also be generally fair and transparent. Ranking should in this context cover all forms of relative prominence, including display, rating, linking or voice results and **should also include instances where a core platform service presents or communicates only one result to the end user**.
-> </br><cite>[Digital Markets Act - Recital 52](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)<br>
+> <br><cite>[Digital Markets Act - Recital 52](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)<br>
 (emphasis added)</cite>
 
 > Article 6(5) The gatekeeper shall not treat more favourably, in ranking and related indexing and crawling, services and products offered by the gatekeeper itself than similar services or products of a third party. The gatekeeper shall apply transparent, fair and non-discriminatory conditions to such ranking.
-> </br><cite>[Digital Markets Act - Article 6(5)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
+> <br><cite>[Digital Markets Act - Article 6(5)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
 These recitals and articles state that the gatekeeper can not self-preference themselves in various forms of ranking. This could apply to the user interface design of iOS where in the settings Apple’s apps get special locations, [various undermining of browser choice by Microsoft on Windows](https://research.mozilla.org/files/2024/01/Over-the-Edge-Report-January-2024.pdf) or Google prompting users to download Chrome on google.com or youtube.com in locations that competitors can not. All of these behaviours are now prohibited in the EU.
 
 ### Article 6(3)
 
-> Article 6(3) The gatekeeper shall allow and technically enable end users to easily un-install any software applications on the operating system of the gatekeeper, without prejudice to the possibility for that gatekeeper to restrict such un-installation in relation to software applications that are essential for the functioning of the operating system or of the device and which cannot technically be offered on a standalone basis by third parties.</br></br>
+> Article 6(3) The gatekeeper shall allow and technically enable end users to easily un-install any software applications on the operating system of the gatekeeper, without prejudice to the possibility for that gatekeeper to restrict such un-installation in relation to software applications that are essential for the functioning of the operating system or of the device and which cannot technically be offered on a standalone basis by third parties.<br><br>
 > The gatekeeper shall allow and technically enable end users to easily change default settings on the operating system, virtual assistant and web browser of the gatekeeper that direct or steer end users to products or services provided by the gatekeeper. That includes prompting end users, at the moment of the end users’ first use of an online search engine, virtual assistant or web browser of the gatekeeper listed in the designation decision pursuant to Article 3(9), to choose, from a list of the main available service providers, the online search engine, virtual assistant or web browser to which the operating system of the gatekeeper directs or steers users by default, and the online search engine to which the virtual assistant and the web browser of the gatekeeper directs or steers users by default.
-> </br><cite>[Digital Markets Act - Article 6(3)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
+> <br><cite>[Digital Markets Act - Article 6(3)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
 This article mandates browser and search engine choice screens in the EU. Mozilla [recently did a study](https://research.mozilla.org/files/2023/09/Can-browser-choice-screens-be-effective_-Mozilla-experiment-report.pdf) that showed a well designed choice screen could cause significant changes in market share, specifically Firefox could increase its market share to 20%. 
 
 ### Article 6(4)
 
-> Article 6(4) The gatekeeper shall allow and technically enable the installation and effective use of third-party software applications or software application stores using, or interoperating with, its operating system and allow those software applications or software application stores to be accessed by means other than the relevant core platform services of that gatekeeper. The gatekeeper shall, where applicable, not prevent the downloaded third-party software applications or software application stores from prompting end users to decide whether they want to set that downloaded software application or software application store as their default. The gatekeeper shall technically enable end users who decide to set that downloaded software application or software application store as their default to carry out that change easily.</br></br>
-> The gatekeeper shall not be prevented from taking, to the extent that they are strictly necessary and proportionate, measures to ensure that third-party software applications or software application stores do not endanger the integrity of the hardware or operating system provided by the gatekeeper, provided that such measures are duly justified by the gatekeeper.</br></br>
+> Article 6(4) The gatekeeper shall allow and technically enable the installation and effective use of third-party software applications or software application stores using, or interoperating with, its operating system and allow those software applications or software application stores to be accessed by means other than the relevant core platform services of that gatekeeper. The gatekeeper shall, where applicable, not prevent the downloaded third-party software applications or software application stores from prompting end users to decide whether they want to set that downloaded software application or software application store as their default. The gatekeeper shall technically enable end users who decide to set that downloaded software application or software application store as their default to carry out that change easily.<br><br>
+> The gatekeeper shall not be prevented from taking, to the extent that they are strictly necessary and proportionate, measures to ensure that third-party software applications or software application stores do not endanger the integrity of the hardware or operating system provided by the gatekeeper, provided that such measures are duly justified by the gatekeeper.<br><br>
 > Furthermore, the gatekeeper shall not be prevented from applying, to the extent that they are strictly necessary and proportionate, measures and settings other than default settings, enabling end users to effectively protect security in relation to third-party software applications or software application stores, provided that such measures and settings other than default settings are duly justified by the gatekeeper.
-> </br><cite>[Digital Markets Act - Article 6(4)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
+> <br><cite>[Digital Markets Act - Article 6(4)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
 This article states that operating system gatekeepers need to allow third parties to be able to install their apps both by other app stores and directly (i.e. via a link over the internet).
 
@@ -163,10 +163,10 @@ The gatekeeper is allowed to take strictly necessary, proportional and justified
 
 ### Article 6(12)
 
-> Article 6(12) The gatekeeper shall apply fair, reasonable, and non-discriminatory general conditions of access for business users to its software application stores, online search engines and online social networking services listed in the designation decision pursuant to Article 3(9).</br></br>
-> For that purpose, the gatekeeper shall publish general conditions of access, including an alternative dispute settlement mechanism.</br></br>
+> Article 6(12) The gatekeeper shall apply fair, reasonable, and non-discriminatory general conditions of access for business users to its software application stores, online search engines and online social networking services listed in the designation decision pursuant to Article 3(9).<br><br>
+> For that purpose, the gatekeeper shall publish general conditions of access, including an alternative dispute settlement mechanism.<br><br>
 > The Commission shall assess whether the published general conditions of access comply with this paragraph.
-> </br><cite>[Digital Markets Act - Article 6(12)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
+> <br><cite>[Digital Markets Act - Article 6(12)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
 This states that the terms of the app stores shall be fair, reasonable and non-discriminatory. It seems likely the exact meaning of “fair” will be extensively litigated in the EU. The act contains this paragraph to explain what “fair” means in more detail: 
 
@@ -177,19 +177,19 @@ Crucially the terms the gatekeeper is allowed to set is for being on the app sto
 ### Article 13(4)
 
 > Article 13(4) The gatekeeper shall not engage in any behaviour that undermines effective compliance with the obligations of Articles 5, 6 and 7 regardless of whether that behaviour is of a contractual, commercial or technical nature, or of any other nature, or consists in the use of behavioural techniques or interface design.
-> </br><cite>[Digital Markets Act - Article 13(4)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
+> <br><cite>[Digital Markets Act - Article 13(4)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
 This article grants the commission extremely broad powers to prevent gatekeepers seeking to avoid their obligations via “malicious compliance”. Clearly it was anticipated that at least a few of the gatekeepers would seek to undermine and circumvent the act.
 
 ### Article 13(6)
 
 > Article 13(6) The gatekeeper shall not degrade the conditions or quality of any of the core platform services provided to business users or end users who avail themselves of the rights or choices laid down in Articles 5, 6 and 7, or make the exercise of those rights or choices unduly difficult, including by offering choices to the end-user in a non-neutral manner, or by subverting end users’ or business users' autonomy, decision-making, or free choice via the structure, design, function or manner of operation of a user interface or a part thereof.
-> </br><cite>[Digital Markets Act - Article 13(6)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
+> <br><cite>[Digital Markets Act - Article 13(6)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
 This article is to prevent gatekeepers from circumventing obligations by degrading the core platform service. It seems likely that this applied to Apple’s attempt to remove Web App installation in the EU as a method to avoid sharing it with third party browsers using their own engines, thus circumventing their obligations under Article 5(7). Apple essentially admitted this was the purpose of removing the functionality in their initial statement where [they stated](https://developer.apple.com/support/dma-and-apps-in-the-eu#8:~:text=Addressing%20the%20complex,in%20the%20EU.): 
 
 > Addressing the complex security and privacy concerns associated with **web apps using alternative browser engines would require building an entirely new integration architecture** that does not currently exist in iOS and was not practical to undertake given the other demands of the DMA and the very low user adoption of Home Screen web apps. **And so, to comply with the DMA’s requirements, we had to remove the Home Screen web apps feature in the EU**.
-> </br><cite>[Apple's statement on breaking Web Apps in the EU](https://developer.apple.com/support/dma-and-apps-in-the-eu#8:~:text=Addressing%20the%20complex,in%20the%20EU.)<br>
+> <br><cite>[Apple's statement on breaking Web Apps in the EU](https://developer.apple.com/support/dma-and-apps-in-the-eu#8:~:text=Addressing%20the%20complex,in%20the%20EU.)<br>
 (emphasis added)</cite>
 
 ### Article 30(1)
@@ -200,14 +200,14 @@ This article is to prevent gatekeepers from circumventing obligations by degradi
 > (c) remedies imposed pursuant to Article 18(1);<br>
 > (d) interim measures ordered pursuant to Article 24; or<br>
 > (e) commitments made legally binding pursuant to Article 25.
-> </br><cite>[Digital Markets Act - Article 30(1)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
+> <br><cite>[Digital Markets Act - Article 30(1)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
 This article outlines the fines the commission can impose on gatekeepers that violate any part of Article 5, 6 or 7. In this case the maximum individual fine is 10% of global revenue.
 
 ### Article 30(2)
 
 > Article 30(2).   Notwithstanding paragraph 1 of this Article, in the non-compliance decision the Commission may impose on a gatekeeper fines up to 20 % of its total worldwide turnover in the preceding financial year where it finds that a gatekeeper has committed the same or a similar infringement of an obligation laid down in Article 5, 6 or 7 in relation to the same core platform service as it was found to have committed in a non-compliance decision adopted in the 8 preceding years.
-> </br><cite>[Digital Markets Act - Article 30(2)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
+> <br><cite>[Digital Markets Act - Article 30(2)](https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2022%3A265%3ATOC&uri=uriserv%3AOJ.L_.2022.265.01.0001.01.ENG)</cite>
 
 This article states that if the gatekeeper commits the same violation twice the commission can fine them up to 20% of global revenue in a single fine.
 

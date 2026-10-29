@@ -34,22 +34,22 @@ Please consult a tax professional regarding the deductibility of donations in yo
   <div>
     <p>Aspiration can accept a wide variety of donation types including:</p>
     <ul>
-      <li><p><strong>Bank Transfer / Wire Transfer / EFT</strong></br>
+      <li><p><strong>Bank Transfer / Wire Transfer / EFT</strong><br>
       For banking details, please <a href="mailto:donations-owa@aspirationtech.org">email us</a>.</p>
       </li>
-      <li><p><strong>Donor Advised Funds</strong></br>
+      <li><p><strong>Donor Advised Funds</strong><br>
       Please make the donation out to Aspiration (EIN: 91-2106274). In the details please write &quot;To further OWA&#39;s charitable purpose&quot;.</p>
       </li>
-      <li><p><strong>Benevity</strong></br>
+      <li><p><strong>Benevity</strong><br>
       You can donate to Aspiration on <a href="https://benevity.com/">Benevity</a> (EIN: 91-2106274). In the details please write "To further OWA's charitable purpose".</p>
       </li>
-      <li><p><strong>Matching Gifts</strong></br>
+      <li><p><strong>Matching Gifts</strong><br>
       You may be able to double or triple your gift through your employer’s matching gift program. Contact your employer’s social impact team or HR team to see if they match. Aspiration supports Benevity, see above. If they use another platform, <a href="mailto:donations-owa@aspirationtech.org">let us know</a>!</p>
       </li>
       <li>
         <p>
           <strong>Check / Stock / Crypto / Other</strong>
-          </br>
+          <br>
           For details please
           <a href="mailto:donations-owa@aspirationtech.org">email us</a>.
         </p>

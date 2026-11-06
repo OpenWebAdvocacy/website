@@ -634,7 +634,7 @@ div.site-header__inner {
   }
   & a span {
     display: none;
-    max-width: 4em;
+    width: min-content;
     font-size: 1.4em;
   }
 }
@@ -828,7 +828,7 @@ header.home-header nav ul li:last-of-type a:hover {
 }
 
 header.home-header h1 {
-  max-width: 4em;
+  width: min-content;
   font-size: clamp(1.2rem, 5vw, 3.5rem);
   line-height: 1;
   text-transform: lowercase;

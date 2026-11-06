@@ -15,7 +15,7 @@
     "bannerTitle": "Open Web Advocacy 2025 in Review",
     "close": "Close",
     "config": {
-      "direction": ""
+      "direction": "ltr"
     },
     "contributorImageAlt1": "Profile picture of ",
     "contributorImageAlt2": "",
@@ -54,7 +54,7 @@
     "bannerTitle": "Open Web Advocacy: resumen de 2025",
     "close": "Cerrar",
     "config": {
-      "direction": ""
+      "direction": "ltr"
     },
     "contributorImageAlt1": "Profile picture of ",
     "contributorImageAlt2": "",
@@ -126,7 +126,7 @@
     "bannerTitle": "Open Web Advocacy 2025年の総括",
     "close": "閉じる",
     "config": {
-      "direction": ""
+      "direction": "ltr"
     },
     "contributorImageAlt1": "Profile picture of ",
     "contributorImageAlt2": "",

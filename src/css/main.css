@@ -1216,7 +1216,7 @@ div.prom-banner div.donation-details :is(table, th, td) {
   color: inherit;
 }
 
-div.prom-banner div.donation-details table td:first-child {
+div.prom-banner div.donation-details table th {
   min-width: 4.5em;
 }
 

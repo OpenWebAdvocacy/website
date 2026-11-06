@@ -58,19 +58,19 @@ Please consult a tax professional regarding the deductibility of donations in yo
       <div><strong>Donation Details</strong></div>
       <table>
         <tr>
-          <td>Name</td>
+          <th scope="row">Name</th>
           <td>Aspiration</td>
         </tr>
         <tr>
-          <td>Address</td>
+          <th scope="row">Address</th>
           <td>1300 Evans Ave #880264 San Francisco, CA 94188</td>
         </tr>
         <tr>
-          <td>Tax ID</td>
+          <th scope="row">Tax ID</th>
           <td>91-2106274</td>
         </tr>
         <tr>
-          <td>Purpose</td>
+          <th scope="row">Purpose</th>
           <td>"To further OWA's charitable purpose"</td>
         </tr>
       </table>

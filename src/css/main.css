@@ -1231,12 +1231,15 @@ div.prom-banner div.donation-details :is(th, td) {
 /* CONTRIBUTORS PAGE */
 
 ul.contributors {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  display: grid;
   gap: 2rem 3rem;
   list-style-type: none;
   margin: calc(1.5rem + 2vw) 0 0;
+}
+
+/* Allow contributor's grid to expand to fill leftover space next to sidebar */
+main.inner:has(ul.contributors) {
+  flex-grow: 1;
 }
 
 ul.contributors li+li {
@@ -1244,7 +1247,6 @@ ul.contributors li+li {
 }
 
 ul.contributors li {
-  flex: 1 1 100%;
   display: grid;
   grid-template-rows: auto 1.5rem;
 }

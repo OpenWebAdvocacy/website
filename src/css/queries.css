@@ -54,9 +54,9 @@
     grid-column-end: -1;
   }
 
-  ul.contributors li {
-    min-width: 300px;
-    flex-basis: 33%;
+  /* 2 columns when >300px wide, 1 column otherwise */
+  ul.contributors {
+    grid-template-columns: repeat(auto-fill, minmax(max(300px, calc(50% - 2rem)), 1fr));
   }
 
 }

@@ -199,7 +199,7 @@ The same point is reflected in the Explanatory Notes to the Act, which expressly
 
 This is then spelt out directly in the Act itself. Section 20(3) provides that conduct requirements may be imposed for the purpose of preventing a designated undertaking from:
 
-> (b) using its position in relation to the relevant digital activity, including its access to data relating to that activity, **to treat its own products more favourably than those of other undertakings**; [...](e) **restricting interoperability between the relevant service** or digital content **and products offered by other undertakings**; [...] (h) **restricting the ability of users or potential users to use products of other undertakings**.
+> (b) using its position in relation to the relevant digital activity, including its access to data relating to that activity, **to treat its own products more favourably than those of other undertakings**; [...] (e) **restricting interoperability between the relevant service** or digital content **and products offered by other undertakings**; [...] (h) **restricting the ability of users or potential users to use products of other undertakings**.
 > <cite>[DMCCA - Section 20 (3)](https://www.legislation.gov.uk/ukpga/2024/13/section/20)<br>(emphasis added)</cite>
 
 Taken together, these materials show that interoperability was not a marginal or incidental issue in the design of the DMCCA. It was specifically identified by Parliament and directly incorporated into the statutory framework as one of the matters that conduct requirements may address.

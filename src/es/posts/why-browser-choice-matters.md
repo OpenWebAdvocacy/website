@@ -4,6 +4,26 @@ date: '2023-11-13'
 tags:
   - Browsers
 author: Frances Berriman
+relatedLinks:
+  - url: https://infrequently.org/2021/04/progress-delayed/
+    title: >-
+      Progress Delayed Is Progress Denied - Do App Store policies harm
+      developers? Is the web a credible alternative? A look at the data.
+    publisher: Alex Russell
+    date: 2021-04-30T00:00:00.000Z
+  - url: https://infrequently.org/2021/07/hobsons-browser/
+    title: >-
+      Hobson's Browser - How Apple, Facebook, and Google Broke the Mobile
+      Browser Market by Silently Undermining User Choice
+    publisher: Alex Russell
+    date: 2021-06-15T00:00:00.000Z
+  - url: >-
+      https://www.washingtonpost.com/technology/2023/02/24/apps-subscription-costs/
+    title: The money-saving deals Apple and Google are hiding from you
+    date: 2023-02-24T00:00:00.000Z
+  - url: https://gs.statcounter.com/browser-market-share#yearly-2009-2024
+    title: Browser Market Share Worldwide (2009-2023)
+    date: 2023-12-31T00:00:00.000Z
 permalink: /es/blog/why-browser-choice-matters/index.html
 layout: layouts/post.njk
 translated: false

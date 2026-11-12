@@ -6,6 +6,11 @@ tags:
   - Updates
   - EU
 author: Frances Berriman
+relatedLinks:
+  - url: https://ec.europa.eu/commission/presscorner/detail/en/ip_23_4328
+    title: 'Digital Markets Act: Commission designates six gatekeepers'
+    publisher: European Commission
+    date: 2023-09-06T00:00:00.000Z
 permalink: /ja/blog/owa-eu-dma-submission-apple-ipados/index.html
 layout: layouts/post.njk
 translated: false

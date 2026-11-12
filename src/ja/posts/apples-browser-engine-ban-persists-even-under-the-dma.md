@@ -1,5 +1,5 @@
 ---
-title: 'Apple''s Browser Engine Ban Persists, Even Under the DMA'
+title: Apple's Browser Engine Ban Persists, Even Under the DMA
 date: '2025-07-14'
 tags:
   - Policy
@@ -25,7 +25,7 @@ Ensuring other browsers are not able to compete fairly is critical to Apple's be
 
 We had the opportunity to question Apple directly on this at the 2025 DMA workshop. Here's how they responded:
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container"><iframe src="https://www.youtube-nocookie.com/embed/\_nRU9XUbnpM?si=c8fJkMSrN8V0Idhd" frameborder="0" allowfullscreen title="Apple's Browser Engine Ban Persists, Even Under the DMA"></iframe></div>
+https://www.youtube.com/watch?v=_nRU9XUbnpM
 
 **Share and join the conversation: [X/Twitter](https://x.com/OpenWebAdvocacy/status/1944649343555777006), [Mastodon](https://mastodon.social/@owa/114850246920974522), [LinkedIn](https://www.linkedin.com/posts/open-web-advocacy_new-owa-report-apples-browser-engine-ban-activity-7350415543637602304-CRks), [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3ltvs465ajs25).**
 
@@ -245,8 +245,11 @@ Gary Davis (Senior Director Apple Legal) and Kyle Andeer (Vice President Apple L
 Kyle began by incorrectly asserting that the session was focused solely on browser choice screens and defaults, [despite the session being explicitly titled "Browsers"](https://digital-markets-act.ec.europa.eu/document/download/23098dd4-cdcb-4762-99ff-bcd6566762d8_en?filename=Agenda_DMA%20Enforcement%20Workshop_Apple_30%20June_2025.pdf). This appeared to suggest that our question on browser engines was somehow out of scope.
 
 <figure>
-    <img alt="The agenda for the workshop, the title of the session is browsers." src="/images/blog/workshop-agenda.png">
-    <figcaption>DMA Apple Workshop Agenda 2025</figcaption>
+  {% image
+    "/images/blog/workshop-agenda.png",
+    "The agenda for the workshop, the title of the session is browsers."
+  %}
+  <figcaption>DMA Apple Workshop Agenda 2025</figcaption>
 </figure>
 
 He acknowledged that under the DMA, Apple is now required to allow third-party browser engines on iOS. He then reiterated Apple's long standing talking points: that iOS was built from the ground up with security and privacy in mind, that WebKit is a core part of that design, and that any changes must preserve what Apple deems the "integrity" of the platform.

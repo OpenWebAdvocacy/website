@@ -9,6 +9,7 @@ tags:
   - Meta
   - ByteDance
   - EU
+  - hotseat
 author: OWA
 permalink: /es/blog/the-digital-markets-act-is-in-force-what-happens-now/index.html
 layout: layouts/post.njk

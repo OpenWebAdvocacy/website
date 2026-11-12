@@ -5,6 +5,11 @@ tags:
   - Policy
   - Updates
 author: Bruce Lawson
+relatedLinks:
+  - url: https://brucelawson.co.uk/2023/the-ntia-report-on-mobile-app-ecosystems/
+    title: 'Bruce Lawson: The NTIA report on mobile app ecosystems'
+    publisher: Bruce Lawson
+    date: 2023-02-02T00:00:00.000Z
 permalink: /es/blog/NTIA-report-Feb-22/index.html
 layout: layouts/post.njk
 translated: false
@@ -25,7 +30,7 @@ That's 11% of Apple's yearly profit for doing nothing except banning their compe
 **Browser ban = higher market share for safari = Google search engine revenue**
 
 <div class="prom-banner">
-  <p class="illustration"><img src="/images/donate.svg" alt="" /></p>
+  <p class="x-illustration"><img src="/images/donate.svg" alt="" /></p>
   <p>If you love what we're doing and would like to support our work, please consider
     <a href="https://www.paypal.com/donate/?hosted_button_id=3FD5DUWT4DNBG">making a donation</a>.</p>
   <p>OWA is a registered not-for-profit fighting for the Web against heavily financed gatekeepers

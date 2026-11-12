@@ -7,6 +7,12 @@ tags:
   - Policy
   - Updates
 author: Bruce Lawson
+relatedLinks:
+  - title: Digital Platform Services Inquiry Discussion Paper (PDF)
+    url: >-
+      https://www.accc.gov.au/system/files/Digital%20platform%20services%20inquiry.pdf
+    publisher: Australian Government
+    date: 2022-11-30T00:00:00.000Z
 permalink: /ja/blog/Australia-ACCC-Nov-22/index.html
 layout: layouts/post.njk
 translated: false

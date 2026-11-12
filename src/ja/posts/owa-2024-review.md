@@ -9,12 +9,12 @@ author:
 permalink: /ja/blog/owa-2024-review/index.html
 layout: layouts/post.njk
 translated: false
-imageShortcodeIgnoreLegacy: true
 ---
 
 {% image
   "/images/blog/owa-2024-review.png",
-  "2024 in Review. We review everything for OWA in 2024 and what’s coming up! The whole team would like to thank everyone who joined us by volunteering or donating to fight for the future of the web! With big steps in 2024, we can’t wait to see what we can do together in 2025!"
+  "2024 in Review. We review everything for OWA in 2024 and what’s coming up! The whole team would like to thank everyone who joined us by volunteering or donating to fight for the future of the web! With big steps in 2024, we can’t wait to see what we can do together in 2025!",
+  { loading: 'eager' }
 %}
 
 As 2025 begins, it's a perfect moment to reflect on 2024’s developments, achievements, and what lies ahead regarding regulators, browsers, and web applications.
@@ -56,14 +56,17 @@ In particular these three 2024 papers are worth a read for those interested in b
 
 You can also see Alex Moore talk at [Web Directions \- Code 24](https://conffab.com/presentation/the-state-of-mobile-browsers/?gl=Ljh5ZT0QBAV6).
 
-Stuart Langridge talk at State of the Browser:  
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Mn2YFU_UkEI' frameborder='0' allowfullscreen title="Stuart Langridge - The Mazy Web She Whirls"></iframe></div>
+Stuart Langridge talk at State of the Browser:
 
-Bruce Lawson ([who is continuing the fight for a fairer web at Vivaldi](https://brucelawson.co.uk/2024/three-years-of-open-web-advocacy-work/)) at FrontMania:  
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/D1pxzpCtAmc' frameborder='0' allowfullscreen title="Bruce Lawson - Whose web is it anyway?"></iframe></div>
+https://www.youtube.com/watch?v=Mn2YFU_UkEI
 
-John Ozbay talking at the European Commission's Apple DMA Workshop:  
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/AiiU_zBirXc' frameborder='0' allowfullscreen title="OWA v Apple: EC DMA Q&A 2 - Will Apple address the dark patterns when changing the default browser?"></iframe></div>
+Bruce Lawson ([who is continuing the fight for a fairer web at Vivaldi](https://brucelawson.co.uk/2024/three-years-of-open-web-advocacy-work/)) at FrontMania:
+
+https://www.youtube.com/watch?v=D1pxzpCtAmc
+
+John Ozbay talking at the European Commission's Apple DMA Workshop:
+
+https://www.youtube.com/watch?v=AiiU_zBirXc
 
 We were also delighted to join the [JS Party podcast to chat to Amal Hussein](https://changelog.com/jsparty/316) and the [Igalia Chats podcast with Brian Kardell and Eric Meyer](https://www.igalia.com/chats/alex-owa-remedy).
 
@@ -153,18 +156,15 @@ Earlier this year [we reported on a deceptive pattern](https://open-web-advocacy
 <figure>
     {% image
         "/images/blog/cma-browser-selection-1.png",
-        "Example of changing the browser on iOS when Safari is not the default.",
-        null, null
+        "Example of changing the browser on iOS when Safari is not the default."
     %}
     {% image
         "/images/blog/cma-browser-selection-2.png",
-        "Example of changing the browser on iOS when Safari is the default (the dropdown disappears).",
-        null, null
+        "Example of changing the browser on iOS when Safari is the default (the dropdown disappears)."
     %}
     {% image
         "/images/blog/cma-browser-selection-3.png",
-        "Larger example of changing the browser on iOS when Safari is the default (the dropdown disappears).",
-        null, null
+        "Larger example of changing the browser on iOS when Safari is the default (the dropdown disappears)."
     %}
     <figcaption>UK Regulator's Screenshots of the Issue - Working Paper 5</figcaption>
 </figure>

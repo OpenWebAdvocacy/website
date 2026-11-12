@@ -14,7 +14,6 @@ relatedLinks:
 permalink: /ja/blog/apple-on-course-to-break-all-web-apps-in-eu-within-20-days/index.html
 layout: layouts/post.njk
 translated: false
-imageShortcodeIgnoreLegacy: true
 ---
 
 
@@ -22,7 +21,8 @@ imageShortcodeIgnoreLegacy: true
 
 {% image
   "/images/blog/apple-on-course-to-break-all-web-apps-in-eu-within-20-days.png",
-  "OWA Logo and open-web-advocacy.org with the text: Apple on course to break all Web Apps in EU within 20 days. No Fix: Beta 1, Beta 2, Beta 3. New UI indicates deliberate choice. Nothing in release notes. No mention in compliance proposal. No response to bug tickets. No response from Apple. NOT required by the DMA."
+  "OWA Logo and open-web-advocacy.org with the text: Apple on course to break all Web Apps in EU within 20 days. No Fix: Beta 1, Beta 2, Beta 3. New UI indicates deliberate choice. Nothing in release notes. No mention in compliance proposal. No response to bug tickets. No response from Apple. NOT required by the DMA.",
+  { loading: 'eager' }
 %}
 
 In 2011, Philip Schiller internally sent an email to Eddie Cue to discuss the threat of HTML5 to the Apple App Store titled **“HTML5 poses a threat to both Flash and the App Store”**.

@@ -7,10 +7,25 @@ tags:
   - UK
   - EU
 author: Bruce Lawson
+relatedLinks:
+  - title: Using alternative browser engines in the European Union
+    url: https://developer.apple.com/support/alternative-browser-engines/
+    date: 2024-02-19T00:00:00.000Z
+  - title: 'The Digital Markets Act: ensuring fair and open digital markets'
+    url: >-
+      https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-markets-act-ensuring-fair-and-open-digital-markets_en
+    publisher: European Commission
+    date: 2022-10-12T00:00:00.000Z
+  - title: >-
+      Investigation into cloud gaming and browsers to support UK tech and
+      consumers
+    url: >-
+      https://www.gov.uk/government/news/investigation-into-cloud-gaming-and-browsers-to-support-uk-tech-and-consumers
+    publisher: UK Government
+    date: 2022-11-22T00:00:00.000Z
 permalink: /ja/blog/CMA-DMA-Nov-22/index.html
 layout: layouts/post.njk
 translated: false
-imageShortcodeIgnoreLegacy: true
 ---
 
 Howdy, [Bruce](https://brucelawson.co.uk) here, with an update on progress we've made in both the EU and with the UK's competition regulator, the Competition and Markets Authority (CMA).
@@ -21,7 +36,10 @@ We've had encouraging success at putting browser engines on the regulators' agen
 
 Many web developers don't realise this, which is why we made this meme:
 
-{% image "/images/blog/apple-browser-ban.webp", "Fred from Scooby Doo with a masked figure and text 'Firefox on iPhone'. Fred removes the mask to reveal the villain headed 'Apple's Safari'. Then the same with Edge on iPhone and Chrome on iPhone." %}
+{% image 
+  "/images/blog/apple-browser-ban.webp", 
+  "Fred from Scooby Doo with a masked figure and text 'Firefox on iPhone'. Fred removes the mask to reveal the villain headed 'Apple's Safari'. Then the same with Edge on iPhone and Chrome on iPhone."
+%}
 
 So we're thrilled that, after we met with those drafting the EU rules, the final text of the [Digital Markets Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R1925&from=EN) (DMA), browser engines are explicitly referenced:
 

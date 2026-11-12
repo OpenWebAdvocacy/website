@@ -13,7 +13,6 @@ permalink: >-
   /ja/blog/google-must-share-the-ability-to-install-web-apps-in-android/index.html
 layout: layouts/post.njk
 translated: false
-imageShortcodeIgnoreLegacy: true
 ---
 
 **TLDR: For 7 years, Google has failed to keep its commitment to share the ability to install Web Apps with third-party browsers on Android, despite [public requests](https://issues.chromium.org/issues/40195497) from Samsung, Microsoft, Brave & Kiwi browser. With regulatory intervention from the EU, Japan and the UK that may be changing.**
@@ -35,8 +34,7 @@ All native apps on Android are packaged as APKs, either via an app store such as
 <figure>
     {% image
         "/images/blog/webapkminting.png",
-        "Example of installing web apps on Android.",
-        null, null
+        "Example of installing web apps on Android."
     %}
     <figcaption>Left to right: narrow.one installed on Chrome, Firefox & Edge. Only the WebAPK version is able to be shown anywhere other than this homescreen.</figcaption>
 </figure>

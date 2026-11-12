@@ -5,6 +5,11 @@ tags:
   - Policy
   - Updates
 author: Bruce Lawson
+relatedLinks:
+  - url: https://brucelawson.co.uk/2023/the-ntia-report-on-mobile-app-ecosystems/
+    title: 'Bruce Lawson: The NTIA report on mobile app ecosystems'
+    publisher: Bruce Lawson
+    date: 2023-02-02T00:00:00.000Z
 permalink: /ja/blog/NTIA-report-Feb-22/index.html
 layout: layouts/post.njk
 translated: false

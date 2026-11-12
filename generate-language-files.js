@@ -45,9 +45,13 @@ supportedLanguages.forEach(language => {
 
       if (fs.lstatSync(sourceFile).isFile()) {
         if (fs.existsSync(targetFile)) {
+        // Keep translated ES/JA files, regenerate untranslated ones
+        const existing = matter(fs.readFileSync(targetFile, 'utf8'));
+        if (existing.data.translated !== false) {
           filesSkipped++;
           return;
         }
+      }
 
         const content = fs.readFileSync(sourceFile, 'utf8');
         const parsed = matter(content);

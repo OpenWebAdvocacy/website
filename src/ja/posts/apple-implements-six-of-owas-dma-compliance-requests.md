@@ -6,6 +6,7 @@ tags:
   - Apple
   - EU
   - DMA
+  - hotseat
 author: OWA
 permalink: /ja/blog/apple-implements-six-of-owas-dma-compliance-requests/index.html
 layout: layouts/post.njk

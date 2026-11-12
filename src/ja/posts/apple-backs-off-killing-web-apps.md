@@ -1,5 +1,5 @@
 ---
-title: 'Apple backs off killing web apps, but the fight continues'
+title: Apple backs off killing web apps, but the fight continues
 date: '2024-03-01'
 tags:
   - Policy

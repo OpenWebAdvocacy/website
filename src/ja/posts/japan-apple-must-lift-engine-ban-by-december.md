@@ -1,5 +1,5 @@
 ---
-title: 'Japan: Apple Must Lift Engine Ban by December'
+title: 'Japan: Apple Must Lift Browser Engine Ban by December'
 date: '2025-08-06'
 tags:
   - Policy
@@ -26,7 +26,7 @@ The guidelines explicitly prohibit any measures that would prevent or hinder the
 
 > **Actions that "Prevent" the Adoption of Alternative Browser Engines"**<br>  
 > Such actions may include: imposing unreasonable technical restrictions on individual app providers while allowing them to adopt alternative browser engines, placing excessive financial burdens on individual app providers for adopting alternative browser engines, and steering smartphone users away from using individual software that incorporates alternative browser engines.<br><br>
-> The determination of whether a designated provider's action constitutes "preventing" the adoption of alternative browser engines **does not require that it be completely impossible for individual app providers to adopt alternative browser engines**. Instead, the determination is made based **on the degree of likelihood that such a result will occur.**  
+> The determination of whether a designated provider's action constitutes "preventing" the adoption of alternative browser engines <span style="color: var(--main-color);">**does not require that it be completely impossible for individual app providers to adopt alternative browser engines**</span>. Instead, the determination is made based **on the degree of likelihood that such a result will occur.**  
 > <cite>[Mobile Software Competition Act Guidelines](https://www.jftc.go.jp/file/MSCA_Guidelines_tentative_translation.pdf)<br>
 (emphasis added)</cite>
 

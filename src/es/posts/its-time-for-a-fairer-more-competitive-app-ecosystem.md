@@ -1,5 +1,5 @@
 ---
-title: 'It''s time for a fairer, more competitive app ecosystem'
+title: It's time for a fairer, more competitive app ecosystem
 date: '2024-10-24'
 tags:
   - Policy

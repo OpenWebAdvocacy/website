@@ -13,10 +13,21 @@ relatedLinks:
       Apple announces changes to iOS, Safari, and the App Store in the European
       Union
     date: 2024-01-25T00:00:00.000Z
+  - url: >-
+      https://www.theverge.com/2024/1/26/24052067/mozilla-apple-ios-browser-rules-firefox
+    title: >-
+      Mozilla says Apple’s new browser rules are ‘as painful as possible’ for
+      Firefox
+    date: 2024-01-26T00:00:00.000Z
+  - url: >-
+      https://www.theverge.com/2024/1/25/24050478/apple-ios-17-4-browser-engines-eu
+    title: >-
+      Apple is finally allowing full versions of Chrome and Firefox to run on
+      the iPhone
+    date: 2024-01-25T00:00:00.000Z
 permalink: /es/blog/apple-dma-changes/index.html
 layout: layouts/post.njk
 translated: false
-imageShortcodeIgnoreLegacy: true
 ---
 
 The #AppleBrowserBan Ends in the EU!

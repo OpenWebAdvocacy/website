@@ -1,5 +1,5 @@
 ---
-title: 'UK passes Digital Markets, Competition and Consumers Bill'
+title: UK passes Digital Markets, Competition and Consumers Bill
 date: '2024-05-23'
 tags:
   - Policy

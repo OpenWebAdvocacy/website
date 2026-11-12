@@ -1,7 +1,7 @@
 ---
 title: "London Web Standards OWA Meetup"
 date: '2026-09-22'
-tags: ['Policy', 'Browser Engines', 'Web Apps', 'UK']
+tags: ['Policy', 'Browser Engine', 'Web Apps', 'UK']
 author: "OWA"
 ---
 

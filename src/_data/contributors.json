@@ -23,7 +23,7 @@
     "what": "Founder & CEO, <a href='https://socket.dev/'>Socket Security</a>, <a href='https://wormhole.app/'>Wormhole</a>, Visiting Lecturer, Stanford University",
     "links": {
       "website": "https://feross.org/",
-      "mastodon": "https://social.vivaldi.net/@feross@infosec.exchange",
+      "mastodon": "https://infosec.exchange/@feross",
       "bluesky": "https://bsky.app/profile/feross.bsky.social",
       "x": "https://twitter.com/feross"
     }
@@ -432,7 +432,7 @@
     "links": {
       "website": "https://gericci.me/",
       "mastodon": "https://indieweb.social/@gericci",
-      "github": "https://github.com/https://github.com/gericci"
+      "github": "https://github.com/gericci"
     }
   },
   {

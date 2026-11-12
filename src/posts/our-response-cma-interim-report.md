@@ -300,7 +300,7 @@ between browser makers on the exact path forward are reasonable and expected. It
 difficult, if not impossible for regulators to predict which standards will be the most important
 and what their exact definition will end up being. It's a subtle and complex topic.
 
-The [perverse incentives for Apple](http://localhost:8080/files/OWA%20-%20Response%20to%20Mobile%20Ecosystem%20Interim%20Report%20-%20v1.1.pdf#h.450o3cyx9zpm)
+The [perverse incentives for Apple](/files/OWA%20-%20Response%20to%20Mobile%20Ecosystem%20Interim%20Report%20-%20v1.1.pdf#h.450o3cyx9zpm)
 are not removed by this remedy and consumers have no
 recourse should Apple choose not to include a feature in Webkit (the version provided with
 iOS). If the case for adding the feature is not overwhelming then the regulator may not feel
@@ -505,7 +505,7 @@ While we feel there may be some significant short term benefit by requiring Webk
 Safari support particular Web App features, we believe that in the long term this will be
 unworkable. True, meaningful competition is the only long-term and durable fix.
 
-All of the measures could be balanced by a [security and privacy provision](http://localhost:8080/files/OWA%20-%20Response%20to%20Mobile%20Ecosystem%20Interim%20Report%20-%20v1.1.pdf#h.jvpdxnx9j3v2).
+All of the measures could be balanced by a [security and privacy provision](/files/OWA%20-%20Response%20to%20Mobile%20Ecosystem%20Interim%20Report%20-%20v1.1.pdf#h.jvpdxnx9j3v2).
 
 The above measures combined will restore competition between browsers on iOS and between
 Web Apps and Native Apps on iOS.

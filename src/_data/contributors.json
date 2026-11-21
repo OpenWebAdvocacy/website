@@ -244,6 +244,19 @@
     }
   },
   {
+    "name": "Nathan Knowler",
+    "countries": [
+      "Canada🇨🇦"
+    ],
+    "avatar": "nathan-knowler.jpg",
+    "what": "Web design technologist",
+    "links": {
+      "website": "https://knowler.dev",
+      "mastodon": "https://sunny.garden/@knowler",
+      "bluesky": "https://bsky.app/profile/knowler.dev"
+    }
+  },
+  {
     "name": "Ayasaka-Koto",
     "countries": [
       "Japan🇯🇵"

@@ -1,0 +1,111 @@
+/* Static campaign-logo snapshot. The original optical sizing and alignment
+   compensate for whitespace inside individual logo files. */
+.europe-signatories {
+  container-type: inline-size;
+  margin-block: 2rem;
+}
+
+.europe-signatories h2 {
+  margin: 0 0 1.5rem;
+  font-size: 1.75rem;
+}
+
+.europe-signatories__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7cqw 9.5%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.europe-signatories__grid > li {
+  container-type: inline-size;
+  position: relative;
+  min-width: 0;
+  max-width: none;
+  aspect-ratio: 7 / 4;
+  margin: 0;
+  padding: 0;
+  overflow: clip;
+}
+
+.europe-signatories__logo > a {
+  position: absolute;
+  inset: 0;
+  display: block;
+  background: transparent;
+}
+
+.europe-signatories__logo > a:focus-visible {
+  outline: 2px solid var(--highlight-color);
+  outline-offset: -2px;
+}
+
+.europe-signatories__logo img {
+  --tile-unit: calc(100cqw / 232);
+  --scale: var(--mobile-scale);
+  --x: var(--mobile-x);
+  --y: var(--mobile-y);
+  --art-size: clamp(10%, calc((100% - 10 * var(--tile-unit)) * 1.1 * var(--scale)), 200%);
+  --center: calc((100% - var(--art-size)) / 2);
+  position: absolute;
+  display: block;
+  width: var(--art-size);
+  max-width: none;
+  height: var(--art-size);
+  top: calc(var(--center) + var(--y) * var(--tile-unit));
+  left: var(--center);
+  translate: calc(var(--x) * var(--tile-unit)) 0;
+  object-fit: contain;
+  object-position: center;
+}
+
+.europe-signatories__logo[data-align="left"] img {
+  left: 0;
+  object-position: left center;
+}
+
+.europe-signatories__logo[data-align="right"] img {
+  left: auto;
+  right: 0;
+  object-position: right center;
+}
+
+.europe-signatories .europe-signatories__more {
+  max-width: none;
+  margin: 1rem 0 0;
+}
+
+.europe-signatories__more a {
+  display: block;
+  padding: 0.9rem 1.25rem;
+  color: var(--main-dark);
+  background: var(--main-light);
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+  text-underline-offset: 0.2em;
+}
+
+.europe-signatories__more a:hover {
+  color: var(--text-inv);
+  background: var(--main-dark);
+}
+
+.europe-signatories__more a:focus-visible {
+  outline: 2px solid var(--highlight-color);
+  outline-offset: 3px;
+}
+
+@media (min-width: 768px) {
+  .europe-signatories__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4.75cqw 5.25%;
+  }
+
+  .europe-signatories__logo img {
+    --scale: var(--logo-scale);
+    --x: var(--logo-x);
+    --y: var(--logo-y);
+  }
+}

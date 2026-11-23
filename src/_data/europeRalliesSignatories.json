@@ -1,0 +1,278 @@
+{
+  "captured": "2026-11-23",
+  "source": "https://action.open-web-advocacy.org/#signatures-heading",
+  "logos": [
+    {
+      "name": "Open Web Advocacy",
+      "image": "/images/blog/europe-rallies-signatories/open-web-advocacy.png",
+      "website": "https://open-web-advocacy.org/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/7db5779fec76afb6e81c17e3527d7f5283b90fd079b07e6ea80dcebcdfc752ee.png",
+      "alignment": "left",
+      "desktop": {
+        "scale": 0.9,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "mobile": {
+        "scale": 0.9,
+        "x": 8.0,
+        "y": -2.0
+      }
+    },
+    {
+      "name": "European DIGITAL SME Alliance",
+      "image": "/images/blog/europe-rallies-signatories/european-digital-sme-alliance.svg",
+      "website": "https://www.digitalsme.eu/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/0eeef3796165fd0b1c5d2edcadfa76b3d3a6504cd932802951d841b879cfe24e.svg",
+      "alignment": "right",
+      "desktop": {
+        "scale": 0.9,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "mobile": {
+        "scale": 0.85,
+        "x": -8.0,
+        "y": 8.0
+      }
+    },
+    {
+      "name": "European Publishers Council",
+      "image": "/images/blog/europe-rallies-signatories/european-publishers-council.png",
+      "website": "https://www.epceurope.eu/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/3a36553a30996073be6253ec9e7339db17b780d19b0f39c2682fbf39f4bc1439.png",
+      "alignment": "right",
+      "desktop": {
+        "scale": 0.9,
+        "x": 0.0,
+        "y": 2.0
+      },
+      "mobile": {
+        "scale": 0.9,
+        "x": -10.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "European Digital Rights (EDRi)",
+      "image": "/images/blog/europe-rallies-signatories/european-digital-rights.svg",
+      "website": "https://edri.org/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/84cd4dd048ee577017fadbca3f0e5b85419579645d33c83300ccd90a465d8edf.svg",
+      "alignment": "center",
+      "desktop": {
+        "scale": 0.9,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "mobile": {
+        "scale": 0.9,
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Vivaldi",
+      "image": "/images/blog/europe-rallies-signatories/vivaldi.png",
+      "website": "https://vivaldi.com/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/68d0fd0aea953955b1c9ccb5dd27fff42f783d6e4e36f34c55b066cbb1a5457e.png",
+      "alignment": "left",
+      "desktop": {
+        "scale": 0.9,
+        "x": 4.0,
+        "y": 12.0
+      },
+      "mobile": {
+        "scale": 0.85,
+        "x": 10.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Mozilla",
+      "image": "/images/blog/europe-rallies-signatories/mozilla.svg",
+      "website": "https://www.mozilla.org/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/145df01140f2d5dfce0d161a7d499fce43c10efe6276f490dc83b111dc2e55eb.svg",
+      "alignment": "right",
+      "desktop": {
+        "scale": 1.75,
+        "x": -6.0,
+        "y": 8.0
+      },
+      "mobile": {
+        "scale": 1.7,
+        "x": -14.0,
+        "y": -4.0
+      }
+    },
+    {
+      "name": "Shopify",
+      "image": "/images/blog/europe-rallies-signatories/shopify.svg",
+      "website": "https://www.shopify.com/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/f70be37e599048f06cbf93d46ee09d0c299135a78cb4e123f70faa1a973a0aae.svg",
+      "alignment": "center",
+      "desktop": {
+        "scale": 0.9,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "mobile": {
+        "scale": 0.9,
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "France Digitale",
+      "image": "/images/blog/europe-rallies-signatories/france-digitale.png",
+      "website": "https://francedigitale.org/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/af8b7919d806ef711b18caa2cb7d7265b2e59d26f1319cee2d51f9f91b0b3efb.png",
+      "alignment": "right",
+      "desktop": {
+        "scale": 0.9,
+        "x": -2.0,
+        "y": 8.0
+      },
+      "mobile": {
+        "scale": 0.8,
+        "x": -24.0,
+        "y": 6.0
+      }
+    },
+    {
+      "name": "The Coalition for App Fairness",
+      "image": "/images/blog/europe-rallies-signatories/coalition-for-app-fairness.svg",
+      "website": "https://appfairness.org/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/264017f71cdd8c0171815af96c33ad9b36b93521579581e8646819312efdfa86.svg",
+      "alignment": "left",
+      "desktop": {
+        "scale": 0.9,
+        "x": 0.0,
+        "y": 6.0
+      },
+      "mobile": {
+        "scale": 0.9,
+        "x": 6.0,
+        "y": 2.0
+      }
+    },
+    {
+      "name": "News Media Europe",
+      "image": "/images/blog/europe-rallies-signatories/news-media-europe.png",
+      "website": "https://www.newsmediaeurope.eu/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/d5d6d530517429c3a20d4fc6d0d6b1ab377cd204a5181ae1eaba5d7935e2a3c7.png",
+      "alignment": "left",
+      "desktop": {
+        "scale": 0.9,
+        "x": 8.0,
+        "y": 6.0
+      },
+      "mobile": {
+        "scale": 0.85,
+        "x": 18.0,
+        "y": 6.0
+      }
+    },
+    {
+      "name": "ARTICLE 19",
+      "image": "/images/blog/europe-rallies-signatories/article-19.png",
+      "website": "https://www.article19.org/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/d08e1df2075e5d4ae04545fb97822a16db522669fc13e19a15cc82efdae197a8.png",
+      "alignment": "right",
+      "desktop": {
+        "scale": 0.9,
+        "x": -8.0,
+        "y": -6.0
+      },
+      "mobile": {
+        "scale": 0.9,
+        "x": -12.0,
+        "y": -6.0
+      }
+    },
+    {
+      "name": "Y Combinator",
+      "image": "/images/blog/europe-rallies-signatories/y-combinator.png",
+      "website": "https://www.ycombinator.com/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/e3fd59b0ab598c90e91a475d45d46bac8f62a5392d371b057feef753222ceca1.png",
+      "alignment": "center",
+      "desktop": {
+        "scale": 0.9,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "mobile": {
+        "scale": 0.9,
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Free Software Foundation Europe",
+      "image": "/images/blog/europe-rallies-signatories/free-software-foundation-europe.png",
+      "website": "https://fsfe.org/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/e88dc4aff521b417a6d0c06c70279c0f6c8b4a1567873a697de81047c8b56476.png",
+      "alignment": "left",
+      "desktop": {
+        "scale": 2.0,
+        "x": 32.0,
+        "y": -12.0
+      },
+      "mobile": {
+        "scale": 2.0,
+        "x": 46.0,
+        "y": -10.0
+      }
+    },
+    {
+      "name": "German Startup Association",
+      "image": "/images/blog/europe-rallies-signatories/german-startup-association.png",
+      "website": "https://startupverband.de/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/0611d8be3dfae3c08e9f0d827b8c88f640bc72c39872a4ae09c7f6ebd8b77aef.png",
+      "alignment": "left",
+      "desktop": {
+        "scale": 0.85,
+        "x": 12.0,
+        "y": -4.0
+      },
+      "mobile": {
+        "scale": 0.85,
+        "x": 16.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "European Games Developer Federation (EGDF)",
+      "image": "/images/blog/europe-rallies-signatories/european-games-developer-federation.png",
+      "website": "https://www.egdf.eu/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/fc40086cbccfcb3e826696233297f235663499e1c8013fa5729e2c36565fbcc2.png",
+      "alignment": "left",
+      "desktop": {
+        "scale": 0.9,
+        "x": 10.0,
+        "y": 4.0
+      },
+      "mobile": {
+        "scale": 0.85,
+        "x": 20.0,
+        "y": 2.0
+      }
+    },
+    {
+      "name": "Enforce",
+      "image": "/images/blog/europe-rallies-signatories/enforce.png",
+      "website": "https://enforce.ie/",
+      "source": "https://action.open-web-advocacy.org/gallery-assets/5df0188f03969c0924f806c6966e088dc1f6095883a86639e779d07aaf3a93bb.png",
+      "alignment": "right",
+      "desktop": {
+        "scale": 0.9,
+        "x": -4.0,
+        "y": 2.0
+      },
+      "mobile": {
+        "scale": 0.9,
+        "x": -8.0,
+        "y": 2.0
+      }
+    }
+  ]
+}

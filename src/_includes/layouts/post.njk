@@ -5,6 +5,10 @@
     <div class="[ post ] [ flow wrapper ]">
       <h1 class="post-title">{{ title }}</h1>
       {% include "partials/post-meta.njk" %}
+      {% if europeRalliesBanner %}
+        {% from "partials/europe-rallies-banners.njk" import compactCampaignBanner %}
+        {{ compactCampaignBanner("europe-rallies-top") }}
+      {% endif %}
       <div class="post-content flow">
         {{ content | safe }}
       </div>

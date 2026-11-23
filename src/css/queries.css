@@ -126,6 +126,20 @@
   dt {margin-top: 0;}
 }
 
+/* Hide footer items. */
+@media screen and (width < 1000px) {
+  body.hide-extras-on-mobile > .inner-wrapper > aside,
+  body.hide-extras-on-mobile > .inner-wrapper + hr,
+  body.hide-extras-on-mobile > .footer-wrapper {
+    display: none;
+  }
+
+  body.hide-extras-on-mobile > .inner-wrapper,
+  body.hide-extras-on-mobile > .inner-wrapper > main.inner {
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   header.home-header {
     display: flex;

@@ -1522,6 +1522,7 @@ img.rounded {
 .emergency-banner {
   color: var(--text-inv);
   background-color: var(--main-dark);
+  font-size: 15px;
   padding: 1em;
   text-align: center;
 }

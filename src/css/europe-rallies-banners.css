@@ -1,0 +1,349 @@
+/* Candidate banners for the Europe Rallies article. Scoped to avoid changing
+   existing promotional banners. Load only where a candidate is included. */
+.eu-campaign {
+  --eu-surface: var(--main-light);
+  --eu-ink: var(--body-text);
+  box-sizing: border-box;
+  display: grid;
+  gap: 1.75rem;
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+  padding: clamp(1.5rem, 5%, 3rem);
+  color: var(--eu-ink);
+  background: var(--eu-surface);
+  font-family: var(--stack);
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+
+.eu-campaign *,
+.eu-campaign *::before,
+.eu-campaign *::after {
+  box-sizing: border-box;
+}
+
+.eu-campaign :is(p, h2, img, a, div) {
+  margin: 0;
+}
+
+.eu-campaign .eu-campaign__content {
+  min-width: 0;
+  align-self: center;
+}
+
+.eu-campaign .eu-campaign__eyebrow {
+  max-width: none;
+  margin-bottom: 0.85rem;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.eu-campaign__platform {
+  text-transform: none;
+}
+
+.eu-campaign h2 {
+  max-width: none;
+  padding: 0;
+  color: inherit;
+  background: none;
+  font-size: clamp(1.8rem, 5.4cqi, 2.85rem);
+  line-height: 1.12;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  overflow-wrap: normal;
+  text-wrap: balance;
+}
+
+.eu-campaign__content > h2 + p {
+  max-width: 46ch;
+  margin-top: 1rem;
+  text-wrap: pretty;
+}
+
+.eu-campaign .eu-campaign__button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 3.25rem;
+  max-width: 100%;
+  width: fit-content;
+  margin-top: 1.5rem;
+  padding: 0.9rem 1.65rem;
+  border: 2px solid transparent;
+  border-radius: 2rem;
+  color: var(--text-inv);
+  background: var(--main-color);
+  font-size: 1.125rem;
+  font-weight: 900;
+  line-height: 1.25;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 150ms, color 150ms;
+}
+
+.eu-campaign .eu-campaign__button:hover {
+  color: var(--text-inv);
+  background: var(--main-dark);
+}
+
+.eu-campaign a:focus-visible {
+  outline: 3px solid var(--eu-ink);
+  outline-offset: 5px;
+}
+
+.eu-campaign .eu-campaign__note {
+  margin-top: 0.85rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.eu-campaign .eu-campaign__mark {
+  width: 100%;
+  max-width: 9rem;
+  height: auto;
+  align-self: center;
+  justify-self: center;
+}
+
+/* 1. An expanded version of the existing pale-orange letter callout. */
+.eu-campaign--classic {
+  grid-template-columns: 6rem minmax(0, 1fr);
+  gap: 2rem;
+  border-top: 5px solid var(--main-color);
+}
+
+.eu-campaign--classic h2,
+.eu-campaign--classic .eu-campaign__eyebrow {
+  color: var(--main-dark);
+}
+
+/* 2. A strong orange campaign poster with the existing white OWA mark. */
+.eu-campaign--rally {
+  --eu-surface: var(--main-color);
+  --eu-ink: var(--text-inv);
+  grid-template-columns: minmax(0, 1fr) 8rem;
+  gap: 1.75rem 2.5rem;
+}
+
+.eu-campaign--rally .eu-campaign__button {
+  color: var(--main-dark);
+  background: var(--text-inv);
+}
+
+.eu-campaign--rally .eu-campaign__button:hover {
+  color: var(--main-dark);
+  background: var(--main-light);
+}
+
+.eu-campaign .eu-campaign__ribbon {
+  grid-column: 1 / -1;
+  max-width: none;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgb(255 255 255 / 45%);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+/* 3. Coalition scale, with the estimate explicitly qualified. */
+.eu-campaign--coalition {
+  --eu-surface: var(--body-bg);
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.2fr);
+  gap: 2rem;
+  border: 1px solid var(--main-color);
+  border-top-width: 5px;
+}
+
+.eu-campaign__evidence {
+  align-self: stretch;
+  padding-right: 2rem;
+  border-right: 1px solid var(--main-light);
+}
+
+.eu-campaign__evidence .eu-campaign__eyebrow {
+  color: var(--main-dark);
+}
+
+.eu-campaign .eu-campaign__stat {
+  margin: 1.1rem 0 0.65rem;
+  color: var(--main-color);
+  font-size: clamp(2.75rem, 7.5cqi, 4.5rem);
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  line-height: 1;
+}
+
+.eu-campaign__evidence > p:last-child {
+  max-width: 25ch;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.eu-campaign--coalition h2 {
+  font-size: clamp(1.8rem, 4.5cqi, 2.35rem);
+}
+
+.eu-campaign .eu-campaign__text-link {
+  display: block;
+  width: fit-content;
+  margin-top: 1rem;
+  color: var(--main-dark);
+  background: none;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  text-underline-offset: 0.2em;
+}
+
+/* 4. OWA's existing teal accent, with an open-web emblem. */
+.eu-campaign--unlock {
+  --eu-surface: var(--highlight-color);
+  --eu-ink: var(--text-inv);
+  grid-template-columns: minmax(0, 1fr) 11rem;
+  gap: 2rem;
+}
+
+.eu-campaign--unlock .eu-campaign__button {
+  color: var(--highlight-color);
+  background: var(--text-inv);
+}
+
+.eu-campaign--unlock .eu-campaign__button:hover {
+  color: var(--body-text);
+  background: var(--n-light);
+}
+
+.eu-campaign__emblem {
+  display: grid;
+  place-items: center;
+  width: 11rem;
+  height: 11rem;
+  align-self: center;
+  border: 1px solid rgb(255 255 255 / 60%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.8rem rgb(255 255 255 / 8%), 0 0 0 1.6rem rgb(255 255 255 / 5%);
+}
+
+.eu-campaign__emblem img {
+  width: 5.5rem;
+  height: auto;
+}
+
+/* 5. A direct enforcement message using the site's charcoal and orange. */
+.eu-campaign--enforcement {
+  --eu-surface: var(--n-dark);
+  --eu-ink: var(--text-inv);
+  grid-template-columns: minmax(0, 1fr) 6rem;
+  border-top: 5px solid var(--main-color);
+}
+
+.eu-campaign--enforcement h2 span,
+.eu-campaign--enforcement .eu-campaign__eyebrow {
+  color: var(--main-light);
+}
+
+.eu-campaign__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin-top: 1.5rem !important;
+}
+
+.eu-campaign__actions :is(.eu-campaign__button, .eu-campaign__note) {
+  margin-top: 0;
+}
+
+/* A compact companion to the orange banner, below the article metadata. */
+.eu-campaign--compact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem 1.25rem;
+}
+
+.eu-campaign--compact .eu-campaign__mark {
+  flex: none;
+  width: 2.4rem;
+}
+
+.eu-campaign--compact .eu-campaign__content {
+  flex: 1 1 15rem;
+}
+
+.eu-campaign--compact h2 {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-wrap: pretty;
+}
+
+.eu-campaign--compact .eu-campaign__content > p {
+  max-width: none;
+  margin-top: 0.35rem;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+}
+
+.eu-campaign--compact .eu-campaign__button {
+  flex: none;
+  min-height: 2.75rem;
+  margin: 0;
+  padding: 0.7rem 1.15rem;
+  font-size: 1rem;
+}
+
+/* Match the sidebar breakpoint in queries.css. Extend the orange background
+   to the screen edges while keeping content in the padded article column.
+   A clipped shadow doesn't add layout width or horizontal scrolling. */
+@media screen and (width < 1000px) {
+  .inner-wrapper .eu-campaign--rally {
+    box-shadow: 0 0 0 100vmax var(--eu-surface);
+    clip-path: inset(0 -100vmax);
+  }
+}
+
+/* Container-based layout also supports narrow article columns and previews. */
+@container (max-width: 35rem) {
+  .eu-campaign__mark,
+  .eu-campaign__emblem {
+    display: none;
+  }
+
+  .eu-campaign__content,
+  .eu-campaign__evidence {
+    grid-column: 1 / -1;
+  }
+
+  .eu-campaign__evidence {
+    padding: 0 0 1.5rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--main-light);
+  }
+
+  .eu-campaign__evidence > p:last-child {
+    max-width: 35ch;
+  }
+
+  .eu-campaign__stat br {
+    display: none;
+  }
+}
+
+@container (max-width: 23rem) {
+  .eu-campaign__content .eu-campaign__button,
+  .eu-campaign--compact > .eu-campaign__button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .eu-campaign .eu-campaign__button {
+    transition: none;
+  }
+}

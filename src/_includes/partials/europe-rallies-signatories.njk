@@ -1,0 +1,18 @@
+{# Static snapshot of the campaign's first 16 logos, copied on 23 November 2026.
+   All artwork and its layout data live in this repository; no remote requests
+   or JavaScript are needed to display the grid. #}
+<section class="europe-signatories" aria-labelledby="europe-signatories-heading">
+  <h2 id="europe-signatories-heading">Signatories</h2>
+  <ul class="europe-signatories__grid" role="list">
+    {%- for logo in europeRalliesSignatories.logos %}
+    <li class="europe-signatories__logo" data-align="{{ logo.alignment }}" style="--logo-scale: {{ logo.desktop.scale }}; --logo-x: {{ logo.desktop.x }}; --logo-y: {{ logo.desktop.y }}; --mobile-scale: {{ logo.mobile.scale }}; --mobile-x: {{ logo.mobile.x }}; --mobile-y: {{ logo.mobile.y }};">
+      <a href="{{ logo.website }}">
+        <img src="{{ logo.image }}" alt="{{ logo.name }}" width="168" height="96" loading="lazy" decoding="async" />
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+  <p class="europe-signatories__more">
+    <a href="https://action.open-web-advocacy.org/#signatures-heading">See the full list of signatories</a>
+  </p>
+</section>

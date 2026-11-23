@@ -49,7 +49,7 @@
       {% endfor %}
     {% endif %}
   </head>
-  <body>
+  <body{% if hideExtrasOnMobile === true %} class="hide-extras-on-mobile"{% endif %}>
     {% if isHome %}
       {% include "partials/home-header.njk" %}
     {% else %}

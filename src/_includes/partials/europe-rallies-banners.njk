@@ -1,0 +1,72 @@
+{# Candidate campaign banners. Include the stylesheet /css/europe-rallies-banners.css.
+   Usage: {% from "partials/europe-rallies-banners.njk" import campaignBanner %}
+          {{ campaignBanner("classic", "unique-id") }}
+   Options: classic, rally, coalition, unlock, enforcement.
+#}
+{% macro campaignBanner(variant = "classic", id = "europe-rallies") %}
+<section class="eu-campaign eu-campaign--{{ variant }}" aria-labelledby="{{ id }}-title">
+  {%- if variant == "classic" %}
+    <img class="eu-campaign__mark" src="/images/owa-home-logo.svg" width="175" height="212" alt="" />
+    <div class="eu-campaign__content">
+      <p class="eu-campaign__eyebrow">A free and competitive web on <span class="eu-campaign__platform">iOS</span></p>
+      <h2 id="{{ id }}-title">The web needs your voice.</h2>
+      <p>Join the call for the European Commission to enforce the DMA and open iOS to real browser and web app competition.</p>
+      <a class="eu-campaign__button" href="https://action.open-web-advocacy.org/">Sign the letter</a>
+      <p class="eu-campaign__note">Every signature strengthens our collective voice.</p>
+    </div>
+  {%- elif variant == "rally" %}
+    <div class="eu-campaign__content">
+      <p class="eu-campaign__eyebrow">A free and competitive web on <span class="eu-campaign__platform">iOS</span></p>
+      <h2 id="{{ id }}-title">Europe is rallying.<br />Add your voice.</h2>
+      <p>Tell the European Commission: it’s time to enforce the DMA and let the web compete.</p>
+      <a class="eu-campaign__button" href="https://action.open-web-advocacy.org/">Sign the letter</a>
+    </div>
+    <img class="eu-campaign__mark" src="/images/owa-logo.svg" width="154" height="187" alt="" />
+    <p class="eu-campaign__ribbon">Unlock the Web on Mobile</p>
+  {%- elif variant == "coalition" %}
+    <div class="eu-campaign__evidence">
+      <p class="eu-campaign__eyebrow">Europe is standing together</p>
+      <p class="eu-campaign__stat">45,000–<br />55,000</p>
+      <p>EU businesses and organisations represented by the signatories, estimated.</p>
+    </div>
+    <div class="eu-campaign__content">
+      <h2 id="{{ id }}-title">A growing coalition.<br />A stronger voice.</h2>
+      <p>Help turn Europe’s support for a free and competitive web on iOS into decisive action.</p>
+      <a class="eu-campaign__button" href="https://action.open-web-advocacy.org/">Sign the letter</a>
+      <a class="eu-campaign__text-link" href="https://action.open-web-advocacy.org/#signatures-heading">See who’s already signed</a>
+    </div>
+  {%- elif variant == "unlock" %}
+    <div class="eu-campaign__content">
+      <p class="eu-campaign__eyebrow">A free and competitive web on <span class="eu-campaign__platform">iOS</span></p>
+      <h2 id="{{ id }}-title">Unlock the web.<br />Open up possibility.</h2>
+      <p>More choice. Fairer competition. A web that works for everyone. Call on the European Commission to make it happen.</p>
+      <a class="eu-campaign__button" href="https://action.open-web-advocacy.org/">Sign the letter</a>
+    </div>
+    <div class="eu-campaign__emblem" aria-hidden="true">
+      <img src="/images/owa-logo.svg" width="154" height="187" alt="" />
+    </div>
+  {%- elif variant == "enforcement" %}
+    <div class="eu-campaign__content">
+      <p class="eu-campaign__eyebrow">The time for DMA enforcement is now</p>
+      <h2 id="{{ id }}-title">We have the law.<br /><span>Now we need action.</span></h2>
+      <p>Help turn Europe’s momentum into a free and competitive web on iOS. Add your name to the letter to the European Commission.</p>
+      <div class="eu-campaign__actions">
+        <a class="eu-campaign__button" href="https://action.open-web-advocacy.org/">Sign the letter</a>
+        <p class="eu-campaign__note">Every signature counts.</p>
+      </div>
+    </div>
+    <img class="eu-campaign__mark" src="/images/owa-logo.svg" width="154" height="187" alt="" />
+  {%- endif %}
+</section>
+{% endmacro %}
+
+{% macro compactCampaignBanner(id = "europe-rallies-top") %}
+<section class="eu-campaign eu-campaign--rally eu-campaign--compact" aria-labelledby="{{ id }}-title">
+  <img class="eu-campaign__mark" src="/images/owa-logo.svg" width="154" height="187" alt="" />
+  <div class="eu-campaign__content">
+    <h2 id="{{ id }}-title">Europe is rallying. Add your voice.</h2>
+    <p>Help open iOS to real browser and web app competition.</p>
+  </div>
+  <a class="eu-campaign__button" href="https://action.open-web-advocacy.org/">Sign the letter</a>
+</section>
+{% endmacro %}

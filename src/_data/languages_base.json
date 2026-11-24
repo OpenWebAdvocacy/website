@@ -10,9 +10,22 @@
     "ariaLabelSecondaryNav": "Secondary navigation",
     "asideHeading": "Recent updates",
     "asideLinkText": "Read more news",
-    "bannerLinkText": "Sign Now",
-    "bannerText": "URGENT 🚨 Help Fix the Mobile Web",
-    "bannerTitle": "Help Fix the Mobile Web — Sign the letter",
+    "campaignBanner": {
+      "title": "SIGN THE OPEN LETTER ASKING THE EU FOR REAL BROWSER COMPETITION ON IOS",
+      "closes": "Signatures close",
+      "date": "Thursday 3 December, 09:00 CET",
+      "elapsedBefore": "Apple's DMA deadline passed ",
+      "elapsedUnit": " days",
+      "elapsedAfter": " ago.",
+      "sign": "SIGN LETTER",
+      "countdown": "Until signing closes",
+      "units": [
+        "days",
+        "hrs",
+        "min",
+        "sec"
+      ]
+    },
     "close": "Close",
     "config": {
       "direction": "ltr"
@@ -49,9 +62,22 @@
     "ariaLabelSecondaryNav": "Navegación secundaria",
     "asideHeading": "Noticias recientes",
     "asideLinkText": "Leer más noticias",
-    "bannerLinkText": "Sign Now",
-    "bannerText": "URGENT 🚨 Help Fix the Mobile Web",
-    "bannerTitle": "Help Fix the Mobile Web — Sign the letter",
+    "campaignBanner": {
+      "title": "Firma la carta abierta que pide a la UE una competencia real entre navegadores en iOS",
+      "closes": "Se puede firmar hasta el",
+      "date": "jueves 3 de diciembre, 09:00 CET",
+      "elapsedBefore": "El plazo de Apple para cumplir la Ley de Mercados Digitales venció hace ",
+      "elapsedUnit": " días",
+      "elapsedAfter": ".",
+      "sign": "FIRMAR LA CARTA",
+      "countdown": "Tiempo restante",
+      "units": [
+        "días",
+        "h",
+        "min",
+        "s"
+      ]
+    },
     "close": "Cerrar",
     "config": {
       "direction": "ltr"
@@ -122,9 +148,22 @@
     "ariaLabelSecondaryNav": "セカンダリーナビゲーション",
     "asideHeading": "最近の更新",
     "asideLinkText": "ニュースをもっと読む",
-    "bannerLinkText": "Sign Now",
-    "bannerText": "URGENT 🚨 Help Fix the Mobile Web",
-    "bannerTitle": "Help Fix the Mobile Web — Sign the letter",
+    "campaignBanner": {
+      "title": "iOSでの真のブラウザ競争をEUに求める公開書簡に署名する",
+      "closes": "署名締め切り",
+      "date": "12月3日（木）中央ヨーロッパ時間9時",
+      "elapsedBefore": "Appleのデジタル市場法の遵守期限から",
+      "elapsedUnit": "日",
+      "elapsedAfter": "が経ちました。",
+      "sign": "署名する",
+      "countdown": "締め切りまで",
+      "units": [
+        "日",
+        "時間",
+        "分",
+        "秒"
+      ]
+    },
     "close": "閉じる",
     "config": {
       "direction": "ltr"

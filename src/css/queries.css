@@ -371,3 +371,49 @@
   }
 
 }
+
+/* Stack the actions when the headline and countdown cannot comfortably share a row. */
+@media screen and (width < 672px) {
+  .campaign-banner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.5rem;
+    padding: 0.875rem clamp(0.75rem, 4vw, 1.5rem);
+    font-size: 0.875rem;
+  }
+
+  .campaign-banner__title {
+    margin-bottom: 0.4rem;
+    font-size: clamp(1.0625rem, 4.5vw, 1.375rem);
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-wrap: balance;
+  }
+
+  .campaign-banner > div:first-child {
+    text-wrap: pretty;
+  }
+
+  .campaign-banner__elapsed {
+    text-wrap: balance;
+    line-height: 1.35;
+  }
+
+  .campaign-banner__units > span {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.2em;
+    min-height: 0;
+    padding-block: 0.2rem;
+  }
+
+  .campaign-banner__sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35em;
+    min-height: 44px;
+    padding: 0.4rem;
+    box-sizing: border-box;
+  }
+}

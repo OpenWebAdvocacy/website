@@ -1519,16 +1519,138 @@ img.rounded {
   margin-bottom: 0;
 }
 
-.emergency-banner {
+/* Campaign banner */
+.campaign-banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 15.5rem;
+  align-items: center;
+  gap: 1.75rem;
+  padding: 0.625rem max(1.25rem, calc((100% - 77.5rem) / 2));
+  background: var(--main-light);
+  color: var(--body-text);
+  border-bottom: 1px solid #ddc8b9;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.campaign-banner[hidden],
+.campaign-banner [hidden] {
+  display: none;
+}
+
+.campaign-banner__title {
+  display: block;
+  width: fit-content;
+  margin-bottom: 0.15rem;
+  color: var(--main-dark);
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.campaign-banner__elapsed {
+  margin: 0.5rem 0 0;
+  border-inline-start: 3px solid var(--main-color);
+  padding-inline-start: 0.5rem;
+  color: var(--main-dark);
+  font-weight: 650;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+}
+
+.campaign-banner__elapsed strong {
+  position: relative;
+  color: #000;
+  font-size: 1.25rem;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.campaign-banner__elapsed strong::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  border-bottom: 2px solid var(--main-color);
+}
+
+.campaign-banner__count--rolling {
+  opacity: 0;
+}
+
+.campaign-banner__dial {
+  position: absolute;
+  inset-inline-start: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.campaign-banner__dial,
+.campaign-banner__wheel {
+  display: inline-block;
+  line-height: 1;
+}
+
+.campaign-banner__wheel {
+  height: 1em;
+  overflow: hidden;
+  vertical-align: -0.08em;
+}
+
+.campaign-banner__wheel > span {
+  display: block;
+  white-space: pre;
+}
+
+.campaign-banner__actions {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.campaign-banner__sign {
+  padding: 0.7rem 1rem;
+  border-radius: 0.35rem;
+  background: var(--main-color);
   color: var(--text-inv);
-  background-color: var(--main-dark);
-  font-size: 15px;
-  padding: 1em;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+  text-decoration: none;
+}
+
+.campaign-banner__sign:is(:hover, :focus-visible) {
+  background: var(--main-dark);
+  color: var(--text-inv);
+}
+
+.campaign-banner__clock {
+  display: grid;
+  gap: 0.2rem;
+  font-size: 0.6875rem;
+}
+
+.campaign-banner__units {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.35rem;
+}
+
+.campaign-banner__units > span {
+  display: grid;
+  align-content: center;
+  min-height: 2.25rem;
+  border: 1px solid #ddc8b9;
+  border-radius: 0.35rem;
+  background: #fff8f2;
+  color: var(--main-dark);
+  font-size: 0.625rem;
   text-align: center;
 }
-.emergency-banner p {
-  width: 100%;
-  max-width: 100%;
+
+.campaign-banner__units b {
+  font-size: 1.125rem;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Language Picker and modal */

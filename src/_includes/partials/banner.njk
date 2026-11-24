@@ -1,10 +1,22 @@
-{% set content = languages_base[page.lang] %}
-<div class="emergency-banner">
-  <p>
-    <strong>
-      <a href="https://action.open-web-advocacy.org/" title="{{ content.bannerTitle }}">
-        {{ content.bannerText }}&nbsp;&nbsp;[{{ content.bannerLinkText }}]
-      </a>
-    </strong>
-  </p>
-</div>
+{% set banner = languages_base[page.lang].campaignBanner %}
+{% set letterUrl = "https://action.open-web-advocacy.org/" %}
+<section class="campaign-banner" aria-label="{{ banner.title }}">
+  <div>
+    <strong class="campaign-banner__title">{{ banner.title }}</strong>
+    <strong>{{ banner.closes }} <time datetime="2026-12-03T09:00:00+01:00">{{ banner.date }}</time></strong>
+    <p class="campaign-banner__elapsed" data-start="2024-03-07" hidden>{{ banner.elapsedBefore }}<strong><span></span>{{ banner.elapsedUnit }}</strong>{{ banner.elapsedAfter }}</p>
+  </div>
+  <div class="campaign-banner__actions">
+    <div class="campaign-banner__clock" hidden>
+      <span>{{ banner.countdown }}</span>
+      <div class="campaign-banner__units" role="timer" aria-label="{{ banner.countdown }}">
+        {% for unit in banner.units %}
+          <span><b></b>{{ unit }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    <a class="campaign-banner__sign" href="{{ letterUrl }}">
+      <span aria-hidden="true">✍️</span> {{ banner.sign }}
+    </a>
+  </div>
+</section>

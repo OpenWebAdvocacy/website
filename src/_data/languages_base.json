@@ -149,12 +149,12 @@
     "asideHeading": "最近の更新",
     "asideLinkText": "ニュースをもっと読む",
     "campaignBanner": {
-      "title": "iOSでの真のブラウザ競争をEUに求める公開書簡に署名する",
-      "closes": "署名締め切り",
-      "date": "12月3日（木）中央ヨーロッパ時間9時",
-      "elapsedBefore": "Appleのデジタル市場法の遵守期限から",
+      "title": "iOSでの真のブラウザ競争をEUに求める公開書簡への署名のお願い",
+      "closes": "署名締め切り:",
+      "date": "12月3日（木）中央ヨーロッパ時間（CET）09:00（日本時間 17:00）",
+      "elapsedBefore": "Appleはデジタル市場法（DMA）の遵守期限を",
       "elapsedUnit": "日",
-      "elapsedAfter": "が経ちました。",
+      "elapsedAfter": "も超過しています。",
       "sign": "署名する",
       "countdown": "締め切りまで",
       "units": [

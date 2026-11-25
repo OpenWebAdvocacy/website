@@ -33,7 +33,7 @@
   {% set metaDesc = summary or (content | firstParagraph) %}
 {% endif %}
 
-<title>{{ pageTitle }}</title>
+<title>{{ pageTitle }}{% if eleventy.env.runMode == 'serve' %} (dev){% endif %}</title>
 <link rel="canonical" href="{{ canonicalUrl }}" />
 
 <meta name="generator" content="{{ eleventy.generator }}">

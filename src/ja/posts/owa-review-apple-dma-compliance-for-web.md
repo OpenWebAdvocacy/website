@@ -7,7 +7,7 @@ tags:
   - EU
 author: OWA
 relatedLinks:
-  - url: https://developer.apple.com/support/dma-and-apps-in-the-eu
+  - url: 'https://developer.apple.com/support/dma-and-apps-in-the-eu'
     title: Update on apps distributed in the European Union
     date: 2024-02-19T00:00:00.000Z
   - url: >-

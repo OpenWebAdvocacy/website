@@ -9,7 +9,7 @@ tags:
 author: Bruce Lawson
 relatedLinks:
   - title: Using alternative browser engines in the European Union
-    url: https://developer.apple.com/support/alternative-browser-engines/
+    url: 'https://developer.apple.com/support/alternative-browser-engines/'
     date: 2024-02-19T00:00:00.000Z
   - title: 'The Digital Markets Act: ensuring fair and open digital markets'
     url: >-

@@ -1,5 +1,5 @@
 ---
-title: Apple's Browser Engine Ban Persists, Even Under the DMA
+title: 'Apple''s Browser Engine Ban Persists, Even Under the DMA'
 date: '2025-07-14'
 tags:
   - Policy

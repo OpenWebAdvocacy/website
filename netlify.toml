@@ -10,13 +10,6 @@ package = "netlify-plugin-cache"
 [build.environment]
 NODE_VERSION = "26"
 
-# Serve the English article here until a Spanish translation is ready.
-[[redirects]]
-  from = "/es/blog/commission-responds-declares-browser-competition-a-dma-priority/"
-  to = "/blog/commission-responds-declares-browser-competition-a-dma-priority/"
-  status = 200
-  force = true
-
 # Redirect for end-user’s browser preference override
 [[redirects]]
   from = "/"

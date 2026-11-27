@@ -1,5 +1,5 @@
 ---
-title: Apple loses on Appeal, CMA can restart investigation into browsers
+title: 'Apple loses on Appeal, CMA can restart investigation into browsers'
 date: '2023-12-01'
 tags:
   - Policy

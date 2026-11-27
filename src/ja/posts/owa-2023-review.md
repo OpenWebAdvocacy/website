@@ -7,7 +7,7 @@ tags:
 author:
   - Alex Moore
 relatedLinks:
-  - url: https://www.theregister.com/2023/11/02/apple_safari_browser/
+  - url: 'https://www.theregister.com/2023/11/02/apple_safari_browser/'
     title: >-
       In quest to defeat Euro red-tape, Apple said it had three Safari browsers
       – not one
@@ -18,16 +18,16 @@ relatedLinks:
     date: 2022-11-28T00:00:00.000Z
   - url: >-
       https://theplatformlaw.blog/2023/11/17/digital-markets-competition-and-consumers-bill/
-    title: UK digital markets regime under attack, but still on course
+    title: 'UK digital markets regime under attack, but still on course'
     date: 2023-11-17T00:00:00.000Z
   - url: >-
       https://www.kantei.go.jp/jp/singi/digitalmarket/pdf_e/documents_22220601.pdf
     title: >-
       Competition Assessment of the Mobile Ecosystem Interim Report Summary
       (PDF)
-    publisher: Secretariat of the Headquarters for Digital Market Competition, Japan
+    publisher: 'Secretariat of the Headquarters for Digital Market Competition, Japan'
     date: 2022-04-26T00:00:00.000Z
-  - url: https://www.jftc.go.jp/en/pressreleases/yearly-2023/February/230209.html
+  - url: 'https://www.jftc.go.jp/en/pressreleases/yearly-2023/February/230209.html'
     title: Market Study Report on Mobile OS and Mobile App Distribution
     publisher: Japan Fair Trade Commission
     date: 2023-02-09T00:00:00.000Z
@@ -57,8 +57,8 @@ relatedLinks:
       KFTC proposes ex-ante regulation of platforms under the “Platform
       Competition Promotion Act”
     date: 2023-12-29T00:00:00.000Z
-  - url: https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/
-    title: Mozilla, like Google, is looking ahead to the end of Apple's WebKit rule
+  - url: 'https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/'
+    title: 'Mozilla, like Google, is looking ahead to the end of Apple''s WebKit rule'
     date: 2023-02-07T00:00:00.000Z
 permalink: /ja/blog/owa-2023-review/index.html
 layout: layouts/post.njk

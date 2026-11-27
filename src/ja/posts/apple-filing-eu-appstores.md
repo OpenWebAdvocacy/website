@@ -7,7 +7,7 @@ tags:
   - EU
 author: Frances Berriman
 relatedLinks:
-  - url: https://digital-markets-act.ec.europa.eu/about-dma_en
+  - url: 'https://digital-markets-act.ec.europa.eu/about-dma_en'
     title: What is the DMA about?
     publisher: European Commission
     date: 2022-09-14T00:00:00.000Z

@@ -1,0 +1,109 @@
+.civil-rows {
+  --civil-logo-width: 8rem;
+  --civil-logo-height: 5.5rem;
+  --civil-gap: 1.5rem;
+  --civil-row-padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post-content > .civil-rows {
+  margin-block-start: var(--flow-space, 2rem);
+}
+
+.civil-rows > .civil-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--civil-logo-width) minmax(0, 1fr);
+  gap: var(--civil-gap);
+  align-items: center;
+  max-width: none;
+  min-width: 0;
+  margin: 0;
+  padding: var(--civil-row-padding);
+  padding-inline-start: calc(var(--civil-row-padding) + 3px);
+  border: 1px solid var(--n-light);
+  border-radius: 0.5rem;
+  border-start-start-radius: 0;
+  border-end-start-radius: 0;
+  background: var(--body-bg);
+}
+
+.civil-rows > .civil-row::before {
+  content: "";
+  position: absolute;
+  inset-block: -1px;
+  inset-inline-start: -1px;
+  inline-size: 2px;
+  background: var(--main-color);
+  pointer-events: none;
+}
+
+.civil-row__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  height: var(--civil-logo-height);
+}
+
+.civil-row__logo svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.civil-row__copy {
+  min-width: 0;
+}
+
+.civil-row .civil-row__title {
+  max-width: none;
+  margin: 0;
+  color: var(--main-dark);
+  font-size: 1.1875rem;
+  font-weight: var(--font-weight-bold);
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  overflow-wrap: normal;
+}
+
+.civil-row .civil-row__description {
+  max-width: none;
+  margin: 0.5rem 0 0;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 600px) {
+  .civil-rows {
+    --civil-logo-width: 6rem;
+    --civil-logo-height: 4.5rem;
+    --civil-gap: 1rem;
+    --civil-row-padding: 1rem;
+  }
+
+  .civil-row .civil-row__title {
+    font-size: 1.0625rem;
+  }
+
+  .civil-row .civil-row__description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 380px) {
+  .civil-rows {
+    --civil-logo-width: 4.5rem;
+    --civil-logo-height: 3.5rem;
+    --civil-gap: 0.75rem;
+    --civil-row-padding: 0.75rem;
+  }
+}

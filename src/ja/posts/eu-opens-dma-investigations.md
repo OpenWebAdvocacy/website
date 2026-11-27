@@ -1,5 +1,5 @@
 ---
-title: EU opens DMA investigations of Apple, Meta, Google
+title: 'EU opens DMA investigations of Apple, Meta, Google'
 date: '2024-03-25'
 tags:
   - Policy

@@ -178,6 +178,10 @@ export default config => {
       const outputFile = join( outputDir, inputFile.replace( inputDir, '' ) );
       cpSync(inputFile, outputFile);
     });
+
+    // Keep this Spanish article URL in English until a translation is ready.
+    const articlePath = 'blog/commission-responds-declares-browser-competition-a-dma-priority/index.html';
+    cpSync(join(outputDir, articlePath), join(outputDir, 'es', articlePath));
   });
 
   // Set custom markdown library

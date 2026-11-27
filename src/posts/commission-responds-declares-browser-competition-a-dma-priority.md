@@ -12,6 +12,8 @@ pageCriticalStyles:
 
 In comments to [Politico](https://www.politico.eu/) regarding our open letter, the European Commission acknowledged the letter and noted that browsers are “effectively the entry point to the web” and one of the main ways publishers reach readers. They went on to say that **“browser competition is one of the priorities of the Digital Markets Act”**. The EU Commission also stated it is in talks to **ensure rival browsers “can effectively compete”** with Safari on iPhones and iPads.
 
+**Share and join the conversation: [Mastodon](https://mastodon.social/@owa/117687312255156230), [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7531994367532662813), [Bluesky](https://bsky.app/profile/open-web-advocacy.org/post/3n3bpv2golc2e) and [X](https://x.com/OpenWebAdvocacy/status/2126226370275754311?a=h3laT1psmXCxa3WTfbo).**
+
 ## An Extraordinary Coalition in Defence of the Web
 
 The letter has garnered incredible support. We want to say a massive thank you to all the organisations, businesses and individuals that have stepped forward to defend the web's ability to compete fairly as an open platform for consumers and businesses alike.
